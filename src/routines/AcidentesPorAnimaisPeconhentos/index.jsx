@@ -1,9 +1,9 @@
 import React from 'react'
 import { Image } from 'react-native'
-import { P } from '../../textComponents'
-import Routine from '../../Routine'
-import Section from '../../Section'
-import Subsection from '../../Subsection'
+import P from '../../components/templates/Paragraph'
+import Routine from '../../components/templates/Routine'
+import Section from '../../components/templates/Section'
+import Subsection from '../../components/templates/Subsection'
 
 import img1 from './images/image1.jpg'
 import img2 from './images/image2.jpg'
@@ -68,8 +68,8 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
             Causa a maioria dos acidentes com cobras no Brasil – 75% a 85%. O Cerrado é o seu
             principal habitat. Possuem escamas, é o que as diferencia de outras espécies. Variadas tonalidades de marrom.
           </P>
-          <Image source={img2}/>
-          <Image source={img3}/>
+          <Image source={img2} />
+          <Image source={img3} />
         </Subsection>
       </Section>
     </Routine>

@@ -1,7 +1,6 @@
 import React from 'react'
-import {Text} from 'react-native'
 import styled from 'styled-components'
-import {Title} from './textComponents'
+import Title from '../Title'
 
 const SSubsection = styled.View`
 `

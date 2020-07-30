@@ -1,7 +1,6 @@
 import React from 'react'
-import { View } from 'react-native'
 import styled from 'styled-components/native'
-import { Title } from './textComponents'
+import Title  from '../Title'
 
 const SRoutine = styled.ScrollView`
   margin-top: 20px;
