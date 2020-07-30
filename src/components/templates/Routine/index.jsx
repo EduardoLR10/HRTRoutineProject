@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import Title  from '../Title'
+import Title from '../Title'
+import P from '../Paragraph'
 
 const SRoutine = styled.ScrollView`
   margin-top: 20px;
@@ -13,6 +14,7 @@ export default class Routine extends React.Component {
     <SRoutine>
       <Title>{this.props.title}</Title>
       {this.props.children}
+      <P>Rotina escrita por {this.props.authors}</P>
     </SRoutine>
 
 }
