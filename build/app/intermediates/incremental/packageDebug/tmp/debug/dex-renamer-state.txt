@@ -1,4 +1,4 @@
-#Wed Jul 29 21:42:40 BRT 2020
+#Wed Jul 29 23:47:38 BRT 2020
 base.0=/home/eduardolr/HRTProject/hrt_project/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
