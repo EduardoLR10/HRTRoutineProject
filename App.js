@@ -4,6 +4,7 @@ import Constants from 'expo-constants';
 import React from 'react';
 import { Animated, Button, StyleSheet, Text, View } from 'react-native';
 import AcidentesPorAnimaisPeconhentos from './src/routines/AcidentesPorAnimaisPeconhentos'
+import Varicela from './src/routines/Varicela'
 
 // Instruct SplashScreen not to hide yet, we want to do this manually
 SplashScreen.preventAutoHide();
@@ -11,7 +12,8 @@ SplashScreen.preventAutoHide();
 export default function App() {
   return (
     <AnimatedAppLoader image={{ uri: Constants.manifest.splash.image }}>
-      <AcidentesPorAnimaisPeconhentos/>
+      {/* <AcidentesPorAnimaisPeconhentos/> */}
+      <Varicela/>
     </AnimatedAppLoader>
   );
 }

@@ -22,7 +22,7 @@ export default class Reference extends React.Component {
     let year = this.props.year ? `${this.props.year};` : ""
     let link = this.props.link ? `Disponível em: ${this.props.link}` : ""
     return (
-      <P>{`${this.props.idx}. ${authors} ${title} ${document} ${publisher} ${year} ${link}`}</P>
+      <P>{`${this.props.idx}. ${authors} ${title} ${document} ${publisher} ${local} ${year} ${link}`}</P>
     )
   }
 }
