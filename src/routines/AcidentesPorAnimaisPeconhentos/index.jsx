@@ -26,8 +26,12 @@ import img14 from './images/image14.jpg'
 
 export default class AcidentensPorAnimaisPeconhentos extends React.Component {
 
+  static title = "Acidentes Por Animais Peçonhentos"
+  static category = "Emergência e Terapia Intensiva"
+  static authors = "Dr. Luiz Antônio de Almeida e Silva"
+
   render = () =>
-    <Routine title="Acidentes Por Animais Peçonhentos" category="Emergência e Terapia Intensiva" authors="Dr. Luiz Antônio de Almeida e Silva">
+    <Routine title={AcidentensPorAnimaisPeconhentos.title} category={AcidentensPorAnimaisPeconhentos.category} authors={AcidentensPorAnimaisPeconhentos.authors}>
       <Section title="Introdução">
         <P>
           São aqueles provocados por picadas ou mordeduras de animais dotados de glândulas secretoras e aparelhos inoculadores de veneno.
