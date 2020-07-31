@@ -1,17 +1,19 @@
+import 'react-native-gesture-handler';
 import { AppLoading, SplashScreen, Updates } from 'expo';
 import { Asset } from 'expo-asset';
 import Constants from 'expo-constants';
 import React from 'react';
 import { Animated, Button, StyleSheet, Text, View } from 'react-native';
-import AcidentesPorAnimaisPeconhentos from './src/routines/AcidentesPorAnimaisPeconhentos'
+import Routes from './src/pages/Routes'
 
 // Instruct SplashScreen not to hide yet, we want to do this manually
 SplashScreen.preventAutoHide();
 
 export default function App() {
+
   return (
     <AnimatedAppLoader image={{ uri: Constants.manifest.splash.image }}>
-      <AcidentesPorAnimaisPeconhentos/>
+      <Routes />
     </AnimatedAppLoader>
   );
 }
