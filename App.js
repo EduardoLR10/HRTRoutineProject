@@ -5,6 +5,7 @@ import React from 'react';
 import { Animated, Button, StyleSheet, Text, View } from 'react-native';
 import AcidentesPorAnimaisPeconhentos from './src/routines/AcidentesPorAnimaisPeconhentos'
 import Varicela from './src/routines/Varicela'
+import FebreReumatica from './src/routines/FebreReumatica'
 
 // Instruct SplashScreen not to hide yet, we want to do this manually
 SplashScreen.preventAutoHide();
@@ -13,7 +14,8 @@ export default function App() {
   return (
     <AnimatedAppLoader image={{ uri: Constants.manifest.splash.image }}>
       {/* <AcidentesPorAnimaisPeconhentos/> */}
-      <Varicela/>
+      {/* <Varicela/> */}
+      <FebreReumatica/>
     </AnimatedAppLoader>
   );
 }

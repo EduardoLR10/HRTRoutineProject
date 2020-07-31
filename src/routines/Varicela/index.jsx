@@ -11,8 +11,12 @@ import Table from '../../components/templates/Table'
 
 export default class AcidentensPorAnimaisPeconhentos extends React.Component {
 
+  static title = "Varicela"
+  static category = "Infectologia"
+  static authors = "Dr. Marco Antônio Alves Cunha"
+
     render = () =>
-      <Routine title="Varicela" category="Infectologia" authors="Dr. Marco Antônio Alves Cunha">
+      <Routine title={Varicela.title} category={Varicela.category} authors={Varicela.authors}>
         <Section title="Diagnóstico Clínico">
           <Subsection title="Fatores de Risco">
               <List>
