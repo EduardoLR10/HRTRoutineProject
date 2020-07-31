@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { DataTable } from 'react-native-paper';
+import styled from 'styled-components'
 
+const Label = styled.Text`
+`
 export default class Table extends Component {
 
   render = () =>
@@ -18,5 +21,6 @@ export default class Table extends Component {
           )}
         </DataTable.Row>
       )}
+    <Label>{this.props.label}</Label>
     </DataTable>
 }
