@@ -7,14 +7,14 @@ export default class Table extends Component {
   render = () =>
     <DataTable>
       <DataTable.Header>
-        {this.props.head.map(header =>
-          <DataTable.Title numeric>{header}</DataTable.Title>
+        {this.props.head.map((header, idx) =>
+          <DataTable.Title key={idx} numeric>{header}</DataTable.Title>
         )}
       </DataTable.Header>
-      {this.props.data.map(row =>
-        <DataTable.Row>
-          {row.map(cell =>
-            <DataTable.Cell numeric>{cell}</DataTable.Cell>
+      {this.props.data.map((row, idx) =>
+        <DataTable.Row key={idx}>
+          {row.map((cell, idx) =>
+            <DataTable.Cell key={idx} numeric>{cell}</DataTable.Cell>
           )}
         </DataTable.Row>
       )}
