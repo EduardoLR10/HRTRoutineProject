@@ -9,7 +9,7 @@ import Subsection from '../../components/templates/Subsection'
 import Subsubsection from '../../components/templates/Subsubsection'
 import Table from '../../components/templates/Table'
 
-export default class AcidentensPorAnimaisPeconhentos extends React.Component {
+export default class Varicela extends React.Component {
 
   static title = "Varicela"
   static category = "Infectologia"

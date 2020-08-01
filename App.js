@@ -8,6 +8,7 @@ import Varicela from './src/routines/Varicela'
 import FebreReumatica from './src/routines/FebreReumatica'
 import AlergiaAProteinaDoLeiteDeVaca from './src/routines/AlergiaAProteinaDoLeiteDeVaca'
 import ConstipacaoInstetinal from './src/routines/ConstipacaoIntestinal'
+import DengueEOutrasArboviroses from './src/routines/DengueEOutrasArboviroses'
 
 // Instruct SplashScreen not to hide yet, we want to do this manually
 SplashScreen.preventAutoHide();
@@ -19,7 +20,8 @@ export default function App() {
       {/* <Varicela/> */}
       {/* <FebreReumatica/> */}
       {/* <AlergiaAProteinaDoLeiteDeVaca/> */}
-      <ConstipacaoInstetinal/>
+      {/* <ConstipacaoInstetinal/> */}
+      <DengueEOutrasArboviroses/>
     </AnimatedAppLoader>
   );
 }
