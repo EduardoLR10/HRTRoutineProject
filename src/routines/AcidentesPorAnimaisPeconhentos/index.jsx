@@ -28,7 +28,7 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
 
   static title = "Acidentes Por Animais Peçonhentos"
   static category = "Emergência e Terapia Intensiva"
-  static authors = "Dr. Luiz Antônio de Almeida e Silva"
+  static authors = "Dr.Luiz Antônio de Almeida e Silva"
 
   render = () =>
     <Routine title={AcidentensPorAnimaisPeconhentos.title} category={AcidentensPorAnimaisPeconhentos.category} authors={AcidentensPorAnimaisPeconhentos.authors}>
