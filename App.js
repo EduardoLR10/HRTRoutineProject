@@ -4,7 +4,9 @@ import { Asset } from 'expo-asset';
 import Constants from 'expo-constants';
 import React from 'react';
 import { Animated, Button, StyleSheet, Text, View } from 'react-native';
+
 import Routes from './src/pages/Routes'
+
 
 // Instruct SplashScreen not to hide yet, we want to do this manually
 SplashScreen.preventAutoHide();
