@@ -1,27 +1,21 @@
+import 'react-native-gesture-handler';
 import { AppLoading, SplashScreen, Updates } from 'expo';
 import { Asset } from 'expo-asset';
 import Constants from 'expo-constants';
 import React from 'react';
 import { Animated, Button, StyleSheet, Text, View } from 'react-native';
-import AcidentesPorAnimaisPeconhentos from './src/routines/AcidentesPorAnimaisPeconhentos'
-import Varicela from './src/routines/Varicela'
-import FebreReumatica from './src/routines/FebreReumatica'
-import AlergiaAProteinaDoLeiteDeVaca from './src/routines/AlergiaAProteinaDoLeiteDeVaca'
-import ConstipacaoInstetinal from './src/routines/ConstipacaoIntestinal'
-import DengueEOutrasArboviroses from './src/routines/DengueEOutrasArboviroses'
+
+import Routes from './src/pages/Routes'
+
 
 // Instruct SplashScreen not to hide yet, we want to do this manually
 SplashScreen.preventAutoHide();
 
 export default function App() {
+
   return (
     <AnimatedAppLoader image={{ uri: Constants.manifest.splash.image }}>
-      {/* <AcidentesPorAnimaisPeconhentos/> */}
-      {/* <Varicela/> */}
-      {/* <FebreReumatica/> */}
-      {/* <AlergiaAProteinaDoLeiteDeVaca/> */}
-      {/* <ConstipacaoInstetinal/> */}
-      <DengueEOutrasArboviroses/>
+      <Routes />
     </AnimatedAppLoader>
   );
 }
