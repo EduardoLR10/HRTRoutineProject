@@ -6,6 +6,7 @@ import ConstipacaoInstestinal from './ConstipacaoIntestinal'
 import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
 import AnemiaFalciforme from './AnemiaFalciforme'
 import ArtriteSeptica from './ArtriteSeptica'
+import Cefaleias from './Cefaleias'
 
 
 export default [
@@ -17,4 +18,5 @@ export default [
   DengueEOutrasArboviroses,
   AnemiaFalciforme,
   ArtriteSeptica,
+  Cefaleias,
 ]
