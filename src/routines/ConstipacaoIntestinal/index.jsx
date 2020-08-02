@@ -47,7 +47,7 @@ export default class ConstipacaoIntestinal extends React.Component {
           'Duas ou menos evacuações por mais de 1 mês\nHistórico de fezes de grande calibre\nHistórico de retenção fecal excessiva\nHistórico de evacuações difíceis ou dolorosas\nPresença de grande massa fecal no reto',
           'Pelo menos 1 episódio de incotinência fecal por semana após aquisição do controle esfincteriano\nHistórico de eliminiação de fezes de grande calibre que possam entupir o vaso sanitário',
           'Duas ou menos evacuações no vaso sanitário por semana\nPelo menos um episódio de incotinência fecal por semana\nHistórico de evacuações difíceis ou dolorosas\nPresença de grande massa fecal no reto\nHistórico de eliminação de fezes de grande calire que possam entupir o vaso sanitário']
-          ]} label="Tabela 1: Critérios de Roma IV para o diganóstico de constipação intestinal funcional crônica."/>
+          ]} label="Tabela 1: Critérios de Roma IV para o diagnóstico de constipação intestinal funcional crônica."/>
         </Section>
         <Section title="Sinais de alarme para Constipação Intestinal Orgânica">
           <P>

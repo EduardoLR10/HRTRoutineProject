@@ -89,7 +89,7 @@ export default class ArtriteSeptica extends React.Component {
             <P>
                 Depende do diagnóstico precoce e do início adequado do tratamento, sendo ambos de extrema importância para se evitar a destruição, a formação de sequelas e a perda irreversível da função articular. As taxas de letalidade giram em torno de 10%. A artrite séptica apresenta alta morbidade, sendo que 25 a 50% dos pacientes podem evoluir com acometimento ósseo, anquilose, necrose avascular e luxação do quadril. Nas crianças, nota-se frequentemente alterações do crescimento do membro por acometimento da cartilagem de crescimento.
             </P>
-            <Table head={['idade', 'Germes prováveis', 'Antibiótico', 'Dose (mg/Kg/dia)', 'Número de doses/dia']} data={[
+            <Table head={['Idade', 'Germes Prováveis', 'Antibiótico', 'Dose (mg/Kg/dia)', 'Número de doses/dia']} data={[
             ['Neonato', 'Estreptococo B Estafilo aureus Enterobactérias', 'Oxacilina +\nCefotaxima ou \nCeftriaxona', '100\n150\n75-100', '4\n3\n1'],
             ['< 5 anos', 'Estafilo aureus Estrepto grupo A Pneumococo Hemófilo', 'Oxacilina +\nCefotaxima ou\nCeftriaxona', '100\n150\n75-100', '4\n3\n1'],
             ['> 5 anos', 'Estrepto grupo A Estafilo aureus', 'Oxacilina ou\nClindamicina ou\nCefazolina', '100\n20-40\n100', '4\n3 ou 4\n4'],

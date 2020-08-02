@@ -7,6 +7,7 @@ import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
 import AnemiaFalciforme from './AnemiaFalciforme'
 import ArtriteSeptica from './ArtriteSeptica'
 import Cefaleias from './Cefaleias'
+import Afogamento from './Afogamento'
 
 
 export default [
@@ -19,4 +20,5 @@ export default [
   AnemiaFalciforme,
   ArtriteSeptica,
   Cefaleias,
+  Afogamento,
 ]
