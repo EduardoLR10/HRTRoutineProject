@@ -29,13 +29,17 @@ const styles = StyleSheet.create({
   }
 })
 
+const Label = styled.Text`
+`
+
 export default class Table extends Component {
-  
+
   constructor(props) {
     super(props)
     this.widthArr = new Array(props.head.length).fill(150)
+    console.log('Mais uma', props.label)
   }
-  
+
   render = () =>
     <View style={styles.container}>
       <ScrollView horizontal>
@@ -47,11 +51,12 @@ export default class Table extends Component {
             <LibTable borderStyle={{ borderColor: '#C1C0B9' }}>{
               this.props.data.map((row, idx) => (
                 <Row key={idx} data={row} widthArr={this.widthArr}
-                  style={[styles.row, idx % 2 && {backgroundColor: '#ffffff'}]} textStyle={styles.text} />
+                  style={[styles.row, idx % 2 && { backgroundColor: '#ffffff' }]} textStyle={styles.text} />
               ))
             }</LibTable>
           </ScrollView>
         </View>
       </ScrollView>
+      {this.props.label ? <Label>{this.props.label}</Label> : <></>}
     </View>
 }
