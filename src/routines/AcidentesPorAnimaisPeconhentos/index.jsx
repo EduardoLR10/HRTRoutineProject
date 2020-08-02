@@ -306,7 +306,7 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
           ['Escorpiônico', '', '2 - 3', '4 - 6', 'SAE ou SAAr'],
           ['Phoneutria', '', '2 - 4', '5 - 10', 'SAAr'],
           ['Lexósceles', '', '5', '10', 'SALox ou SAA'],
-          ['Latrodecta', '', '', '1 – 2', 'IM', 'SALatr'],
+          ['Latrodecta', '', '', '1 – 2 IM', 'SALatr'],
           ['Lonomia', '', '5', '10', 'SALon']
         ]} />
       </Section>
