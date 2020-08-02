@@ -1,26 +1,57 @@
 import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
-import { DataTable } from 'react-native-paper';
+import { StyleSheet, View, ScrollView } from 'react-native'
+import { Table as LibTable, TableWrapper, Row } from 'react-native-table-component'
 import styled from 'styled-components'
+import { color } from 'react-native-reanimated';
 
-const Label = styled.Text`
-`
+const styles = StyleSheet.create({
+  container: {
+    marginBottom: 7,
+    backgroundColor: '#ffffff'
+  },
+  head: {
+    padding: 5,
+    backgroundColor: '#000',
+  },
+  headText: {
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#FFF',
+  },
+  text: {
+    textAlign: 'center'
+  },
+  dataWrapper: {
+    marginTop: 0
+  },
+  row: {
+    backgroundColor: '#F7F8FA'
+  }
+})
+
 export default class Table extends Component {
-
+  
+  constructor(props) {
+    super(props)
+    this.widthArr = new Array(props.head.length).fill(150)
+  }
+  
   render = () =>
-    <DataTable>
-      <DataTable.Header>
-        {this.props.head.map((header, idx) =>
-          <DataTable.Title key={idx} numeric>{header}</DataTable.Title>
-        )}
-      </DataTable.Header>
-      {this.props.data.map((row, idx) =>
-        <DataTable.Row key={idx}>
-          {row.map((cell, idx) =>
-            <DataTable.Cell key={idx} numeric>{cell}</DataTable.Cell>
-          )}
-        </DataTable.Row>
-      )}
-    <Label>{this.props.label}</Label>
-    </DataTable>
+    <View style={styles.container}>
+      <ScrollView horizontal>
+        <View>
+          <LibTable borderStyle={{ borderColor: '#C1C0B9' }}>
+            <Row data={this.props.head} widthArr={this.widthArr} style={styles.head} textStyle={styles.headText} />
+          </LibTable>
+          <ScrollView style={styles.dataWrapper}>
+            <LibTable borderStyle={{ borderColor: '#C1C0B9' }}>{
+              this.props.data.map((row, idx) => (
+                <Row key={idx} data={row} widthArr={this.widthArr}
+                  style={[styles.row, idx % 2 && {backgroundColor: '#ffffff'}]} textStyle={styles.text} />
+              ))
+            }</LibTable>
+          </ScrollView>
+        </View>
+      </ScrollView>
+    </View>
 }
