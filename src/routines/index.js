@@ -5,6 +5,7 @@ import AlergiaAProteinaDoLeiteDeVaca from './AlergiaAProteinaDoLeiteDeVaca'
 import ConstipacaoInstestinal from './ConstipacaoIntestinal'
 import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
 import AnemiaFalciforme from './AnemiaFalciforme'
+import ArtriteSeptica from './ArtriteSeptica'
 
 
 export default [
@@ -15,4 +16,5 @@ export default [
   ConstipacaoInstestinal,
   DengueEOutrasArboviroses,
   AnemiaFalciforme,
+  ArtriteSeptica,
 ]
