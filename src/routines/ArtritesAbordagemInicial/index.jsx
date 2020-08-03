@@ -11,7 +11,7 @@ import Table from '../../components/templates/Table'
 
 export default class ArtritesAbordagemInicial extends React.Component {
 
-  static title = "Artrite Abordagem Inicial"
+  static title = "Artrites Abordagem Inicial"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Dania Lemos Dionízio"
 

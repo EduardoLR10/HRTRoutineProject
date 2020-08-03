@@ -10,19 +10,21 @@ import Cefaleias from './Cefaleias'
 import Afogamento from './Afogamento'
 import Adenomegalias from './Adenomegalias'
 import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
+import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDeVida'
 
 
 export default [
   AcidentesPorAnimaisPeconhentos,
-  Varicela,
-  FebreReumatica,
+  Adenomegalias,
+  Afogamento,
   AlergiaAProteinaDoLeiteDeVaca,
-  ConstipacaoInstestinal,
-  DengueEOutrasArboviroses,
+  AlimentacaoNos2PrimeirosAnosDeVida,
   AnemiaFalciforme,
+  ArtritesAbordagemInicial,
   ArtriteSeptica,
   Cefaleias,
-  Afogamento,
-  Adenomegalias,
-  ArtritesAbordagemInicial,
+  ConstipacaoInstestinal,
+  DengueEOutrasArboviroses,
+  FebreReumatica,
+  Varicela,
 ]
