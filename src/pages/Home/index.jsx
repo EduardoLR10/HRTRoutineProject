@@ -42,8 +42,10 @@ export default class Home extends React.Component {
           selectedButtonStyle={{ backgroundColor: 'lightgray' }}
         />
       </ScrollView>
-      {this.clusters[this.categories[this.state.selectedCategory]].map((Routine, idx) =>
-        <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
-      }
+      <ScrollView showsVerticalScrollIndicator={false}>
+        {this.clusters[this.categories[this.state.selectedCategory]].map((Routine, idx) =>
+          <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
+        }
+      </ScrollView>
     </View>
 }
