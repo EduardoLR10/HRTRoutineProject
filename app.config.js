@@ -1,6 +1,6 @@
 export default {
   name: "Pediatria HRT",
-  slug: "Rotinas Médicas",
+  slug: "pediatria-hrt",
   icon:
     "./src/assets/images/logo.png",
   splash: {
