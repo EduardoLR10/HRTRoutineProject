@@ -1,6 +1,6 @@
 import React from 'react'
 import { ScrollView } from 'react-native'
-import { ButtonGroup } from 'react-native-elements'
+import { ButtonGroup, SearchBar } from 'react-native-elements'
 import routines from '../../routines'
 import { View } from 'react-native'
 import RoutineCard from '../../components/RoutineCard'
@@ -12,7 +12,8 @@ export default class Home extends React.Component {
     this.clusters = this.clustirezeRoutines(routines)
     this.categories = Object.keys(this.clusters)
     this.state = {
-      selectedCategory: 0,
+      categoryIdx: 0,
+      searchText: ''
     }
   }
 
@@ -26,12 +27,16 @@ export default class Home extends React.Component {
       return clusters
     }, { 'Todas categorias': [] })
 
+
+  filteredRoutines = () => this.clusters[this.categories[this.state.categoryIdx]]
+    .filter(Routine => (Routine.title.toLowerCase()).includes(this.state.searchText.toLowerCase()))
+
   render = () =>
     <View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
         <ButtonGroup
-          onPress={(selectedCategory) => this.setState({ selectedCategory })}
-          selectedIndex={this.state.selectedCategory}
+          onPress={(categoryIdx) => this.setState({ categoryIdx })}
+          selectedIndex={this.state.categoryIdx}
           buttons={this.categories}
           containerStyle={{ backgroundColor: 'transparent', borderWidth: 0, margin: 0 }}
           innerBorderStyle={{ width: 0 }}
@@ -42,8 +47,16 @@ export default class Home extends React.Component {
           selectedButtonStyle={{ backgroundColor: 'lightgray' }}
         />
       </ScrollView>
+      <SearchBar
+        placeholder="Procurar" value={this.state.searchText}
+        onChangeText={(searchText) => this.setState({ searchText })}
+        lightTheme
+        containerStyle={{ padding: 2, backgroundColor: 'transparent' }}
+        inputContainerStyle={{ height: 32, margin: 0, padding: 0, backgroundColor: 'white', borderRadius: 4 }}
+        inputStyle={{ color: 'black', fontSize: 12, height: 20 }}
+      />
       <ScrollView showsVerticalScrollIndicator={false}>
-        {this.clusters[this.categories[this.state.selectedCategory]].map((Routine, idx) =>
+        {this.filteredRoutines().map((Routine, idx) =>
           <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
         }
       </ScrollView>
