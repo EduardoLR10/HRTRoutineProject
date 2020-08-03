@@ -1,22 +1,16 @@
 import React from 'react';
-import styled from 'styled-components'
-
-const SFigure = styled.View`
-`
-
-const SImage = styled.Image`
-`
-
-const Label = styled.Text`
-`
+import { ScrollView } from 'react-native'
+import { SFigure, SImage, TopLabel, BottomLabel } from './styles'
 
 export default class Figure extends React.Component {
 
   render = () =>
     <SFigure>
-      <Label>{this.props.top_label}</Label>
-      <SImage source={this.props.source} />
-      <Label>{this.props.bottom_label}</Label>
+      <TopLabel>{this.props.top_label}</TopLabel>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{alignContent: 'center'}}>
+        <SImage source={this.props.source} />
+      </ScrollView>
+      <BottomLabel>{this.props.bottom_label}</BottomLabel>
     </SFigure>
 
 }
