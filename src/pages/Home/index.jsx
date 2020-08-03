@@ -22,10 +22,10 @@ export default class Home extends React.Component {
       if (!clusters[Routine.category]) {
         clusters[Routine.category] = []
       }
-      clusters['Todas categorias'].push(Routine)
+      clusters['Todas Categorias'].push(Routine)
       clusters[Routine.category].push(Routine)
       return clusters
-    }, { 'Todas categorias': [] })
+    }, { 'Todas Categorias': [] })
 
 
   filteredRoutines = () => this.clusters[this.categories[this.state.categoryIdx]]
