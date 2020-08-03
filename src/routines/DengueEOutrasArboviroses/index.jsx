@@ -1,22 +1,22 @@
-    import React from 'react'
-    import Text from 'react-native';
-    import Figure from '../../components/templates/Figure'
-    import { List, LItem } from '../../components/templates/List'
-    import P from '../../components/templates/Paragraph'
-    import Reference from '../../components/templates/Reference'
-    import Routine from '../../components/templates/Routine'
-    import Section from '../../components/templates/Section'
-    import Subsection from '../../components/templates/Subsection'
-    import Subsubsection from '../../components/templates/Subsubsection'
-    import Table from '../../components/templates/Table'
+import React from 'react'
+import { Text } from 'react-native';
+import Figure from '../../components/templates/Figure'
+import { List, LItem } from '../../components/templates/List'
+import P from '../../components/templates/Paragraph'
+import Reference from '../../components/templates/Reference'
+import Routine from '../../components/templates/Routine'
+import Section from '../../components/templates/Section'
+import Subsection from '../../components/templates/Subsection'
+import Subsubsection from '../../components/templates/Subsubsection'
+import Table from '../../components/templates/Table'
 
-    export default class DengueEOutrasArboviroses extends React.Component {
+export default class DengueEOutrasArboviroses extends React.Component {
 
     static title = "Dengue e Outras Arboviroses"
     static category = "Infectologia"
     static authors = "Dr. Marco Antônio Alves Cunha"
 
-        render = () =>
+    render = () =>
         <Routine title={DengueEOutrasArboviroses.title} category={DengueEOutrasArboviroses.category} authors={DengueEOutrasArboviroses.authors}>
             <Section title="Introdução">
                 <List>
@@ -30,7 +30,7 @@
             </Section>
             <Section title="Etiologia">
                 <P>
-                Vírus RNA da família <P style={{fontStyle: 'italic'}}>Flaviviridae</P> (febre amarela, dengue e zika) e <P style={{fontStyle: 'italic'}}>Togaviridae</P> (Chikungunya – gênero <P style={{fontStyle: 'italic'}}>alphavirus</P>)
+                    Vírus RNA da família <P style={{ fontStyle: 'italic' }}>Flaviviridae</P> (febre amarela, dengue e zika) e <P style={{ fontStyle: 'italic' }}>Togaviridae</P> (Chikungunya – gênero <P style={{ fontStyle: 'italic' }}>alphavirus</P>)
                 </P>
             </Section>
             <Section title="Febre Amarela">
@@ -46,10 +46,10 @@
                     <Subsubsection title="Possui duplo comportamento epidemiológico nas américas">
                         <List>
                             <LItem>
-                                Febre amarela silvestre: macacos são o principal reservatório e os vetores são mosquitos dos gêneros <P style={{fontStyle: 'italic'}}>Haemagogus</P> e <P style={{fontStyle: 'italic'}}>Sabethes</P>; o ser humano não vacinado contrai a doença acidentalmente ao entrar na mata;
+                                Febre amarela silvestre: macacos são o principal reservatório e os vetores são mosquitos dos gêneros <P style={{ fontStyle: 'italic' }}>Haemagogus</P> e <P style={{ fontStyle: 'italic' }}>Sabethes</P>; o ser humano não vacinado contrai a doença acidentalmente ao entrar na mata;
                             </LItem>
                             <LItem>
-                                Febre amarela urbana: o ciclo ocorre entre um ser humano e outro, sendo que o vetor principal é o <P style={{fontStyle: 'italic'}}>Aedes aegypti</P> e até 1942 existia como endemia no Brasil, com grande mortalidade.
+                                Febre amarela urbana: o ciclo ocorre entre um ser humano e outro, sendo que o vetor principal é o <P style={{ fontStyle: 'italic' }}>Aedes aegypti</P> e até 1942 existia como endemia no Brasil, com grande mortalidade.
                             </LItem>
                         </List>
                     </Subsubsection>
@@ -540,9 +540,9 @@
                             <Subsubsection title="Avaliar o grau de hemoconcentração por meio do hematócrito médio para idade;">
                             </Subsubsection>
                             <Table head={['Idade', '3 meses', '6 meses', '1 a 2 anos', '5 anos', '10 anos']} data={[
-                            ['Hematócrito médio (%)', '37', '35', '36', '37', '40'],
-                            ['Faixa de hematócrito 2 desvios padrões acima e abaixo da média (%)', '33-41', '31 a 39', '32 - 40', '33 a 42', '36 a 44']
-                            ]} label="Fonte: Fallace, R. Hemograma: manual de interpretação. 4ª ed. Porto Alegre, 2003. Apud Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança, 2016."/>
+                                ['Hematócrito médio (%)', '37', '35', '36', '37', '40'],
+                                ['Faixa de hematócrito 2 desvios padrões acima e abaixo da média (%)', '33-41', '31 a 39', '32 - 40', '33 a 42', '36 a 44']
+                            ]} label="Fonte: Fallace, R. Hemograma: manual de interpretação. 4ª ed. Porto Alegre, 2003. Apud Ministério da Saúde. Dengue: diagnóstico e manejo clínico: adulto e criança, 2016." />
                             <Subsubsection title="Em pacientes com hematócrito igual ou menor que o hematócrito médio para idade, pescrever a hidratação oral preconizada para o grupo A e liberar para o domicílio com retornos diários;">
                                 <List>
                                     <LItem>
@@ -572,9 +572,9 @@
                             <Subsubsection title="Após a fase rápida, prescrever hidratação venosa de manutenção acrescentando 30% a mais de volume conforme a tabela abaixo. Nessa hidratação de manutenção, calcular a quantidade de sódio seguindo as orientações clássicas (5 ml de NaCl a 20% para cada 500 mL de solução glicosada a 5%) em formulação hipotônica em vez de isotônica;">
                             </Subsubsection>
                             <Table head={['Peso Corporal', 'Volumes para crianças sem dengue', 'Volume para crianças com dengue']} data={[
-                            ['Até 10 kg', '100 ml/kg', '4 - 8', 'Acrescentar 30% a mais'],
-                            ['11 - 20 kg', '1000 ml + 50 ml/kg por Kg > 10 kg', 'Acrescentar 30% a mais'],
-                            ['> 20 kg', '1500 ml + 20 ml/kg por Kg > 20 kg (máx 2400 ml/dia)', 'Acrescentar 30% a mais'],
+                                ['Até 10 kg', '100 ml/kg', '4 - 8', 'Acrescentar 30% a mais'],
+                                ['11 - 20 kg', '1000 ml + 50 ml/kg por Kg > 10 kg', 'Acrescentar 30% a mais'],
+                                ['> 20 kg', '1500 ml + 20 ml/kg por Kg > 20 kg (máx 2400 ml/dia)', 'Acrescentar 30% a mais'],
                             ]} />
                         </Subsubsection>
                         <Subsubsection title="Grupo D">
@@ -591,9 +591,9 @@
                 </Subsection>
             </Section>
             <Section title="Referências">
-            <Reference idx={1} authors="Brasil. Ministério da Saúde." title="Dengue: diagnóstico e manejo clínico: adulto e criança. 5. ed. - Brasília: Ministério da Saúde." year="2016"/>
-            <Reference idx={2} authors="Singhi S, Kissoon N, Bansal A." title="Dengue e dengue hemorrágico: aspectos do manejo na unidade de terapia intensiva (83(2 Suppl):S22-35)." publisher="J Pediatr" local="Rio de Janeiro" year="2007"/>
-            <Reference idx={3} authors="Mourão MP, Alecrim WD, Albuquerque BC, Lacerda MV." title="Dengue. In: Lacerda, Marcus Vinícius Guimarães de - Manual de Rotinas da Fundação de Medicina Tropical do Amazonas/Marcus Vinícius Guimarães de Lacerda, Maria Paula Gomes Mourão, Antônio Mangela Tavares." local="Manaus: Fundação de Medicina Tropical do Amazonas (FMT/IMT-AM)" year="2003"/>
+                <Reference idx={1} authors="Brasil. Ministério da Saúde." title="Dengue: diagnóstico e manejo clínico: adulto e criança. 5. ed. - Brasília: Ministério da Saúde." year="2016" />
+                <Reference idx={2} authors="Singhi S, Kissoon N, Bansal A." title="Dengue e dengue hemorrágico: aspectos do manejo na unidade de terapia intensiva (83(2 Suppl):S22-35)." publisher="J Pediatr" local="Rio de Janeiro" year="2007" />
+                <Reference idx={3} authors="Mourão MP, Alecrim WD, Albuquerque BC, Lacerda MV." title="Dengue. In: Lacerda, Marcus Vinícius Guimarães de - Manual de Rotinas da Fundação de Medicina Tropical do Amazonas/Marcus Vinícius Guimarães de Lacerda, Maria Paula Gomes Mourão, Antônio Mangela Tavares." local="Manaus: Fundação de Medicina Tropical do Amazonas (FMT/IMT-AM)" year="2003" />
             </Section>
         </Routine>
-    }
+}
