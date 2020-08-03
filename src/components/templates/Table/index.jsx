@@ -37,7 +37,6 @@ export default class Table extends Component {
   constructor(props) {
     super(props)
     this.widthArr = new Array(props.head.length).fill(150)
-    console.log('Mais uma', props.label)
   }
 
   render = () =>
