@@ -11,6 +11,7 @@ import Afogamento from './Afogamento'
 import Adenomegalias from './Adenomegalias'
 import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
 import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDeVida'
+import AnemiaFerropriva from './AnemiaFerropriva'
 
 
 export default [
@@ -20,6 +21,7 @@ export default [
   AlergiaAProteinaDoLeiteDeVaca,
   AlimentacaoNos2PrimeirosAnosDeVida,
   AnemiaFalciforme,
+  AnemiaFerropriva,
   ArtritesAbordagemInicial,
   ArtriteSeptica,
   Cefaleias,
