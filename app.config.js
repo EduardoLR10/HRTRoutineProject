@@ -1,9 +1,11 @@
 export default {
+  name: "Pediatria HRT",
+  slug: "Rotinas Médicas",
   icon:
-    "https://github.com/expo/expo/blob/master/templates/expo-template-blank/assets/icon.png?raw=true",
+    "./src/assets/images/logo.png",
   splash: {
     image:
-      "https://github.com/expo/expo/blob/master/templates/expo-template-blank/assets/splash.png?raw=true",
+      "./src/assets/images/logo.png",
     resizeMode: "contain",
     backgroundColor: "#ffffff",
   },
