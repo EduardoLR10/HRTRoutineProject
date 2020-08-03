@@ -286,8 +286,8 @@ export default class Adenomegalias extends React.Component {
             </P>
         </Section>
         <Section title="Referências">
-        <Reference idx={1} authors="Farhat CK, Carvalho ES, Carvalho LH, Succi RC, ediors." title="Infectologia Pediátrica. 3.ed" local="São Paulo: Atheneu." year="2007"/>
-        <Reference idx={2} authors="Krugman S, Katz SL, Gershon AA, Wilfert CM." title="Doenças Infecciosas na Infância. 9.ed." local="Rio de Janeiro: Guanabara Koogan." year="1994"/>
+        <Reference idx={1} authors="Farhat CK, Carvalho ES, Carvalho LH, Succi RC, ediors." title="Infectologia Pediátrica. 3.ed" local="São Paulo" publisher="Atheneu" year="2007"/>
+        <Reference idx={2} authors="Krugman S, Katz SL, Gershon AA, Wilfert CM." title="Doenças Infecciosas na Infância. 9.ed." local="Rio de Janeiro" publisher="Guanabara Koogan" year="1994"/>
         <Reference idx={3} authors="Kelly CS, Kelly Jr RE." title="Lymphadenopathy in Children ((4):875-88)." publisher="Pediatr Clin North Am." year="1998 Aug."/>
         <Reference idx={4} authors="Freire LM, Teixeira Júnior JF. Diagnóstico Diferencial das Adenomegalias. In: : Tonelli E, Freire LM, editors." title="Doenças Infecciosas na Infância e Adolescência. 2.ed (p.1850-67)." local="Rio de Janeiro" publisher="Editora Medsi" year="2000"/>
         </Section>

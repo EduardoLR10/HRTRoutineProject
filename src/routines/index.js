@@ -9,6 +9,7 @@ import ArtriteSeptica from './ArtriteSeptica'
 import Cefaleias from './Cefaleias'
 import Afogamento from './Afogamento'
 import Adenomegalias from './Adenomegalias'
+import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
 
 
 export default [
@@ -23,4 +24,5 @@ export default [
   Cefaleias,
   Afogamento,
   Adenomegalias,
+  ArtritesAbordagemInicial,
 ]

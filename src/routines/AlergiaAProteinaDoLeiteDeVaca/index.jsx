@@ -291,7 +291,7 @@ export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
           <Section title="Referências">
             <Reference idx={1} authors="Solé D, Silva LR, Cocco RR, Ferreira CT." title="Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1. Arq Asma Alerg Imunol - Volume.2.N° 1" year="2018"/>
             <Reference idx={2} authors="Solé D, Silva LR, Cocco RR, Ferreira CT." title="Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 2. Arq Asma Alerg Imunol - Volume.2.N° 1" year="2018"/>
-            <Reference idx={3} authors="Carvalho E, Ferreira CT, Silva LR." title="Gastroenterologia e nutrição em pediatria." local="Barueri, São Paulo: Manole" year="2012"/>
+            <Reference idx={3} authors="Carvalho E, Ferreira CT, Silva LR." title="Gastroenterologia e nutrição em pediatria." local="Barueri, São Paulo" publisher="Manole"year="2012"/>
           </Section>
     </Routine>
 }

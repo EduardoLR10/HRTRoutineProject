@@ -298,12 +298,12 @@ export default class Varicela extends React.Component {
         </Section>
         <Section title="Referências">
         <Reference idx={1} authors="Amaku M, Azevedo RS, Castro RM, Massad E, Coutinho FA." title="Relationship among epidemiological parameters of six childhood infections in a non-immunized Brazilian community (104:897-900)." local="Mem Inst Oswaldo Cruz." year="2009"/>
-        <Reference idx={2} authors="Lecuyer A, Levy C, Gaudelus J." title="Hospitalization of newborns and young infants for chickenpox in France (169:1293-7)." local="Eur J Pediatr." year="2010"/>
-        <Reference idx={3}  authors="Reis AD, Pannuti CS, de Sousa VA" title="Prevalence of varicella-zoster virus antibodies in young adults from different Brazilian climatic regions (36:317-20)." local="Rev Soc Bras Med Trop." year="2003"/>
-        <Reference idx={4} authors="Reynolds MA, Watson BM, Plott-Adams KK" title="Epidemiology of varicella hospitalizations in the United States, 1995-2005 (197 Suppl 2:S120-6)." year="2008" local="J Infect Dis." />
+        <Reference idx={2} authors="Lecuyer A, Levy C, Gaudelus J." title="Hospitalization of newborns and young infants for chickenpox in France (169:1293-7)." publisher="Eur J Pediatr." year="2010"/>
+        <Reference idx={3}  authors="Reis AD, Pannuti CS, de Sousa VA" title="Prevalence of varicella-zoster virus antibodies in young adults from different Brazilian climatic regions (36:317-20)." publisher="Rev Soc Bras Med Trop." year="2003"/>
+        <Reference idx={4} authors="Reynolds MA, Watson BM, Plott-Adams KK" title="Epidemiology of varicella hospitalizations in the United States, 1995-2005 (197 Suppl 2:S120-6)." year="2008" publisher="J Infect Dis." />
         <Reference idx={5}  authors="Sakane P, Rossi Jr A, Baldacci E, Aoshima D, Marques HHS." title="Medidas de controle em comunicantes de varicela em ambiente hospitalar (27(3):206-9)." local="Pediatria São Paulo." year="2005"/>
         <Reference idx={6}  authors="SBP." title="Pediatria: prevenção e controle de infecção hospitalar." publisher="Anvisa" local="Brasília" year="2008 (acesso em 22/04/2019)" link="http://www.anvisa.gov.br/servicosaude/manuais/manual_pediatria.pdf"/>
-        <Reference idx={7}  authors="Succi RC, Peres LV. Varicela-Zoster. In: Farhat CK, Carvalho ES, Carvalho LH, Succi RC, editors. " title="Infectologia Pediátrica 2.ed (p.497-506)." local="São Paulo: Atheneu." year="1998"/>
+        <Reference idx={7}  authors="Succi RC, Peres LV. Varicela-Zoster. In: Farhat CK, Carvalho ES, Carvalho LH, Succi RC, editors. " title="Infectologia Pediátrica 2.ed (p.497-506)." local="São Paulo" publisher="Atheneu" year="1998"/>
         <Reference idx={8}  authors="Valentim J, Sartori AM, de Soarez PC, Amaku M, Azevedo RS, Novaes HM." title="Cost-effectiveness analysis of universal childhood vaccination against varicella in Brazil (26:6281-91)." year="2008"/>
         </Section>
     </Routine>

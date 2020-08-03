@@ -102,7 +102,7 @@ export default class ArtriteSeptica extends React.Component {
         <Section title="Referências">
         <Reference idx={1} authors="Moreira Jr." title="Infecções osteoarticulares em pediatria, revisão. Pediatria Moderna (V50 N12: 560-5)." year="Dez 2014."/>
         <Reference idx={2} authors="nassif KC e col." title="Artrite séptica em pediatria, revisão (19(2 Supl 3): S39-S45)." publisher="Rev Med Minas Gerais." year="2009"/>
-        <Reference idx={3} authors="Prezzi SH e col." title="Medicina Interna na Prática Clínica." local="Porto Alegre: Artmed" year="2013"/>
+        <Reference idx={3} authors="Prezzi SH e col." title="Medicina Interna na Prática Clínica." local="Porto Alegre" publisher="Artmed" year="2013"/>
         </Section>
     </Routine>
 }
