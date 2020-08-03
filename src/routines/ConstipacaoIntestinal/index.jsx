@@ -39,7 +39,7 @@ export default class ConstipacaoIntestinal extends React.Component {
           <P>
             É de fundamental importância a anamnese detalhada com enfoque aos hábitos alimentares, ingesta hídrica, prática de atividade física, uso de medicamentos, presença de doenças crônicas e de fatores genéticos e hereditários, presença de distúrbios na motilidade intestinal e ocorrência de ciclo vicioso dor-retenção-dor. Quanto ao hábito intestinal, avaliar a frequência das evacuações, formato e consistência das fezes (Escala de Bristol), presença de dor, esforço excessivo ou medo ao evacuar, ocorrência de incontinência fecal retentiva ou escape e dor abdominal (figura 1). Devem-se buscar dados na história clínica para auxiliar na diferenciação da constipação funcional da constipação orgânica, pois o manejo é diferente em cada caso. 
           </P>
-          <Figure source={img1} label="Figura 1: Escala de fezes de Bristol."/>
+          <Figure source={img1} bottom_label="Figura 1: Escala de fezes de Bristol."/>
           <P>
             Para padronização diganóstica doram estabelecidos os critérios de Roma IV (2016) para os quadros de constipação intestinal funcional (tabela 1).
           </P>

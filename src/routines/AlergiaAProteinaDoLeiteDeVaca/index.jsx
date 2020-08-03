@@ -45,7 +45,7 @@ export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
                     As manifestações não mediadas por IgE não são de apresentação imediata e caracterizam-se basicamente pela hipersensibilidade mediada por células (Tabela 1). Embora pareçam ser mediadas por linfócitos T, há muitos pontos que necessitam ser mais estudados nesse tipo de reações. 
                 </P>
             </Subsection>
-            <Figure source={img1} label="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1."/>
+            <Figure source={img1} bottom_label="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1."/>
           </Section>
           <Section title="Epidemiologia">
                 <P>
@@ -286,7 +286,7 @@ export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
                 Duração da dieta e reintrodução alimentar: Para a APLV, preconiza-se que a dieta de exclusão seja, no mínimo, de 6 a 12 meses. Crianças com colite alérgica, diagnosticada antes dos 6 meses de idade, podem vir a tolerar a reintrodução do alimento 6 a 8 meses após a dieta de exclusão. Entretanto, esse prazo pode ser ampliado, pois cada paciente deve ser avaliado periodicamente de forma individualizada. Recomenda-se postergar a exposição ao alimento, quando as reações envolvidas são mediadas por IgE.
             </P>
             <Figure source={img3}/>
-            <Figure source={img2} label="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1"/>
+            <Figure source={img2} bottom_label="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1"/>
           </Section>
           <Section title="Referências">
             <Reference idx={1} authors="Solé D, Silva LR, Cocco RR, Ferreira CT." title="Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1. Arq Asma Alerg Imunol - Volume.2.N° 1" year="2018"/>

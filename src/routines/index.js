@@ -8,6 +8,7 @@ import AnemiaFalciforme from './AnemiaFalciforme'
 import ArtriteSeptica from './ArtriteSeptica'
 import Cefaleias from './Cefaleias'
 import Afogamento from './Afogamento'
+import Adenomegalias from './Adenomegalias'
 
 
 export default [
@@ -21,4 +22,5 @@ export default [
   ArtriteSeptica,
   Cefaleias,
   Afogamento,
+  Adenomegalias,
 ]

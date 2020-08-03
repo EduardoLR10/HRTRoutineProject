@@ -75,8 +75,8 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
           <P>
             Causa a maioria dos acidentes com cobras no Brasil – 75% a 85%. O Cerrado é o seu principal habitat. Possuem escamas, é o que as diferencia de outras espécies. Variadas tonalidades de marrom.
           </P>
-          <Figure source={img2} label="fig.2" />
-          <Figure source={img3} label="fig.3" />
+          <Figure source={img2} bottom_label="fig.2" />
+          <Figure source={img3} bottom_label="fig.3" />
           <Subsubsection title="Manifestação clínica">
             <P>
               Dor e inchaço no local da picada, às vezes com manchas arroxeadas e sangramento no ferimento causado pela picada – fig.3; podem ocorrer sangramentos em gengivas, pele e urina. As complicações mais importantes são infecção e necrose na região da picada, choque e insuficiência renal.
@@ -95,8 +95,8 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
           <P>
             Apresentam no corpo desenhos típicos na forma de losangos que alternam entre as cores amarela e preta. Uma importante característica morfológica destas cobras é que na cauda apresenta a última subfileira de escamas modificadas, sendo estas quilhadas e eriçadas além de apresentar um espinho terminal fig.5.
           </P>
-          <Figure source={img4} label="fig.4" />
-          <Figure source={img5} label="fig.5" />
+          <Figure source={img4} bottom_label="fig.4" />
+          <Figure source={img5} bottom_label="fig.5" />
           <Subsubsection title="Manifestação clínica">
             <P>
               Quadro semelhante ao acidente botrópico, acompanhado de vômitos, diarreia, bradicardia e hipotensão arterial.
@@ -116,8 +116,8 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
             Uma das principais características desta cobra é a presença de um chocalho na parte final de
             sua cauda. Possuem cor marrom escuro com presença de anéis claros e finos na cauda.
           </P>
-          <Figure source={img6} label="fig.6" />
-          <Figure source={img7} label="fig.7" />
+          <Figure source={img6} bottom_label="fig.6" />
+          <Figure source={img7} bottom_label="fig.7" />
           <Subsubsection title="Manifestação clínica">
             <P>
               Sensação de formigamento no local, sem lesão evidente; os sinais e sintomas sistêmicos são
@@ -151,7 +151,7 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
           <P>
             É considerada uma das mais peçonhentas do Brasil em função da alta toxidade de seu veneno. Uma vez picada, a pessoa pode morrer caso não receba atendimento médico rápido.
           </P>
-          <Figure source={img9} label="fig.8" />
+          <Figure source={img9} bottom_label="fig.8" />
           <Subsubsection title="Manifestação clínica">
             <P>
               Os sintomas aparecem rapidamente: fácies miastênica com ptose palpebral, paralisia da musculatura respiratória, oftalmoplegia, paralisia velopalatina, paralisia flácida dos membros, quadro bastante semelhante ao de envenenamento crotálico, porém, de maior gravidade. O bloqueio da junção mioneural ocorre pós-sinapse.
@@ -186,8 +186,8 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
         <P>
           Dentre os aracnídeos são os que causam mais acidentes. Os escorpiões amarelos – fig.9 (mais graves) e pretos ou marrons – fig.10 estão entre os dois tipos mais venenosos. Um ataque pode ser fatal se acometer uma criança. São pouco agressivos, tem hábitos noturnos, encontram-se em pilhas de madeira e pedras, cercas e residências.
         </P>
-        <Figure source={img8} label="fig.9" />
-        <Figure source={img12} label="fig.10" />
+        <Figure source={img8} bottom_label="fig.9" />
+        <Figure source={img12} bottom_label="fig.10" />
         <Subsection title="Manifestação clínica">
           <P>
             Após a picada ocorre dor de moderada a intensa, formigamento no local. Náuseas e vômitos, sudorese, agitação, tremores, sialorréia, taquicardia e hipertensão arterial sugerem gravidade e o paciente deve ser observado de 6 a 12 horas.
@@ -201,7 +201,7 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
       </Section>
       <Section title="Aranhas">
         <Subsection title="Phoneutria (armadeira) fig.11">
-          <Figure source={img10} label="fig.11" />
+          <Figure source={img10} bottom_label="fig.11" />
           <P>
             Tem hábitos vespertinos e noturnos, são frequentes dentro de residências e na sua periferia. Gosta de ficar em entulhos, material de construção, lenhas e caixas de sapatos; também podem ser encontradas em árvores com grandes folhas e bananeiras. Raramente levam a quadro grave. Suas picadas ocorrem mais nos pés e mãos. É muito agressiva.
           </P>
@@ -219,7 +219,7 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
           </Subsubsection>
         </Subsection>
         <Subsection title="Lexósceles (aranha marrom) fig.12">
-          <Figure source={img11} label="fig.12" />
+          <Figure source={img11} bottom_label="fig.12" />
           <P>
             Hábitos noturnos, vive em pilhas de tijolos, telhas, atrás de móveis, cortinas e eventualmente nas roupas, jardins e gramas. São pouco agressivas. Corresponde à forma mais grave dos acidentes por aracnídeos no Brasil. Acomete mais a área central – tronco e membros proximais.
           </P>
@@ -286,8 +286,8 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
         </Subsection>
       </Section>
       <Section title="Taturanas (Lonomia) fig.13 – lagartas-de-fogo e orugas são larvas de mariposa">
-        <Figure source={img13} label="fig.13" />
-        <Figure source={img14} label="fig.14" />
+        <Figure source={img13} bottom_label="fig.13" />
+        <Figure source={img14} bottom_label="fig.14" />
         <P>
           Vivem agrupadas em tronco e folhas das árvores. Os acidentes ocorrem por contato com seus espinhos.
         </P>

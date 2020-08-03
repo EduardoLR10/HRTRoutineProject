@@ -9,6 +9,8 @@ import Subsection from '../../components/templates/Subsection'
 import Subsubsection from '../../components/templates/Subsubsection'
 import Table from '../../components/templates/Table'
 
+import img1 from './images/image1.jpg'
+
 export default class ColoqueONomeDaRotinaAqui extends React.Component {
 
   static title = ""

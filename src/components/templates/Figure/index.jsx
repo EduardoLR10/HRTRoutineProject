@@ -14,8 +14,9 @@ export default class Figure extends React.Component {
 
   render = () =>
     <SFigure>
+      <Label>{this.props.top_label}</Label>
       <SImage source={this.props.source} />
-      <Label>{this.props.label}</Label>
+      <Label>{this.props.bottom_label}</Label>
     </SFigure>
 
 }
