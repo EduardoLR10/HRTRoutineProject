@@ -13,6 +13,7 @@ import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
 import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDeVida'
 import AnemiaFerropriva from './AnemiaFerropriva'
 import ArtriteReativa from './ArtritesReativas'
+import CetoacidoseDiabetica from './CetoacidoeDiabetica'
 
 
 export default [
@@ -27,6 +28,7 @@ export default [
   ArtriteSeptica,
   ArtriteReativa,
   Cefaleias,
+  CetoacidoseDiabetica,
   ConstipacaoInstestinal,
   DengueEOutrasArboviroses,
   FebreReumatica,
