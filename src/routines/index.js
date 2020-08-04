@@ -12,6 +12,7 @@ import Adenomegalias from './Adenomegalias'
 import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
 import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDeVida'
 import AnemiaFerropriva from './AnemiaFerropriva'
+import ArtriteReativa from './ArtritesReativas'
 
 
 export default [
@@ -24,6 +25,7 @@ export default [
   AnemiaFerropriva,
   ArtritesAbordagemInicial,
   ArtriteSeptica,
+  ArtriteReativa,
   Cefaleias,
   ConstipacaoInstestinal,
   DengueEOutrasArboviroses,
