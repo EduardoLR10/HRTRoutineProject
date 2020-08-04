@@ -15,6 +15,7 @@ import AnemiaFerropriva from './AnemiaFerropriva'
 import ArtriteReativa from './ArtritesReativas'
 import CetoacidoseDiabetica from './CetoacidoeDiabetica'
 import ChoqueSeptico from './ChoqueSeptico'
+import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
 
 
 export default [
@@ -31,6 +32,7 @@ export default [
   Cefaleias,
   CetoacidoseDiabetica,
   ChoqueSeptico,
+  ConceitosBasicosDeVentilacaoMecanica,
   ConstipacaoInstestinal,
   DengueEOutrasArboviroses,
   FebreReumatica,
