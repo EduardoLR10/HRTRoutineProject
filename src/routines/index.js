@@ -14,6 +14,7 @@ import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDe
 import AnemiaFerropriva from './AnemiaFerropriva'
 import ArtriteReativa from './ArtritesReativas'
 import CetoacidoseDiabetica from './CetoacidoeDiabetica'
+import ChoqueSeptico from './ChoqueSeptico'
 
 
 export default [
@@ -29,6 +30,7 @@ export default [
   ArtriteReativa,
   Cefaleias,
   CetoacidoseDiabetica,
+  ChoqueSeptico,
   ConstipacaoInstestinal,
   DengueEOutrasArboviroses,
   FebreReumatica,
