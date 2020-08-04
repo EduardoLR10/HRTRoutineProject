@@ -1,24 +1,25 @@
 import React from 'react';
-import { Text } from 'react-native'
+import { View, Text } from 'react-native'
 import styled from 'styled-components';
 import Icon from 'react-native-vector-icons/Entypo'; Icon.loadFont()
 
 
-const List = styled.Text`
+const List = styled.View`
   padding-left: 8px;
-  margin: 8px 0px;
+  margin-bottom: 4px;
 `
 
-const SLitem = styled.Text`
+const SLItem = styled.Text`
   font-size: 14px;
   margin-bottom: 4px;
 `
 
 class LItem extends React.Component {
+
   render = () =>
-    <SLitem>
-      <Icon name="dot-single" size={14} />{`${this.props.children}`}
-    </SLitem>
+    <SLItem>
+      <Icon name="dot-single" size={14} />{this.props.children}
+    </SLItem>
 }
 
 // function LItem({ children }) {
