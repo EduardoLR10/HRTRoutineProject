@@ -1,9 +1,9 @@
 import React from 'react'
-import { ScrollView } from 'react-native'
+import { View, ScrollView } from 'react-native'
 import { ButtonGroup, SearchBar } from 'react-native-elements'
 import routines from '../../routines'
-import { View } from 'react-native'
 import RoutineCard from '../../components/RoutineCard'
+
 
 export default class Home extends React.Component {
 
@@ -55,7 +55,7 @@ export default class Home extends React.Component {
         inputContainerStyle={{ height: 32, margin: 0, padding: 0, backgroundColor: 'white', borderRadius: 4 }}
         inputStyle={{ color: 'black', fontSize: 12, height: 20 }}
       />
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView style={{ marginBottom: 80 }} showsVerticalScrollIndicator={false}>
         {this.filteredRoutines().map((Routine, idx) =>
           <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
         }
