@@ -16,6 +16,7 @@ import ArtriteReativa from './ArtritesReativas'
 import CetoacidoseDiabetica from './CetoacidoeDiabetica'
 import ChoqueSeptico from './ChoqueSeptico'
 import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
+import ConvulsaoFebril from './ConvulsaoFebril'
 
 
 export default [
@@ -34,6 +35,7 @@ export default [
   ChoqueSeptico,
   ConceitosBasicosDeVentilacaoMecanica,
   ConstipacaoInstestinal,
+  ConvulsaoFebril,
   DengueEOutrasArboviroses,
   FebreReumatica,
   Varicela,
