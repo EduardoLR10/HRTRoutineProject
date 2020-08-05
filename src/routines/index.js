@@ -18,6 +18,7 @@ import ChoqueSeptico from './ChoqueSeptico'
 import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
 import ConvulsaoFebril from './ConvulsaoFebril'
 import Coqueluche from './Coqueluche'
+import CriseHipoxia from './CriseHipoxia'
 
 
 export default [
@@ -38,6 +39,7 @@ export default [
   ConstipacaoInstestinal,
   ConvulsaoFebril,
   Coqueluche,
+  CriseHipoxia,
   DengueEOutrasArboviroses,
   FebreReumatica,
   Varicela,
