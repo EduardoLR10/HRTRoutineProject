@@ -17,6 +17,7 @@ import CetoacidoseDiabetica from './CetoacidoeDiabetica'
 import ChoqueSeptico from './ChoqueSeptico'
 import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
 import ConvulsaoFebril from './ConvulsaoFebril'
+import Coqueluche from './Coqueluche'
 
 
 export default [
@@ -36,6 +37,7 @@ export default [
   ConceitosBasicosDeVentilacaoMecanica,
   ConstipacaoInstestinal,
   ConvulsaoFebril,
+  Coqueluche,
   DengueEOutrasArboviroses,
   FebreReumatica,
   Varicela,
