@@ -19,12 +19,10 @@ export default class Routes extends React.Component {
           headerTintColor: collorPallete.red,
           headerTitleAlign: 'center',
         }}>
-        <Stack.Screen name="Home" component={Home} options={{title: 'Rotinas HRT' }} />
-        {
-          routines.map((Routine, idx) =>
-            <Stack.Screen key={idx} name={Routine.title} component={Routine} />
-          )
-        }
+        <Stack.Screen name="Home" component={Home} options={{ title: 'Rotinas HRT' }} />
+        {routines.map((Routine, idx) =>
+          <Stack.Screen key={idx} name={Routine.title} component={Routine} />
+        )}
       </Stack.Navigator>
     </NavigationContainer>
 
