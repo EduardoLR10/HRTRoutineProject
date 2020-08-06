@@ -20,6 +20,7 @@ import ConvulsaoFebril from './ConvulsaoFebril'
 import Coqueluche from './Coqueluche'
 import CriseHipoxia from './CriseHipoxia'
 import Crupe from './Crupe'
+import DerramesPleurais from './DerramesPleurais'
 
 
 export default [
@@ -43,6 +44,7 @@ export default [
   CriseHipoxia,
   Crupe,
   DengueEOutrasArboviroses,
+  DerramesPleurais,
   FebreReumatica,
   Varicela,
 ]
