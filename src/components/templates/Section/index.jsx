@@ -1,15 +1,12 @@
 import React from 'react'
-import styled from 'styled-components'
-import Title from '../Title'
+import { Text, View } from 'react-native'
 
-const SSection = styled.View`
-`
 
 export default class Section extends React.Component {
 
   render = () =>
-    <SSection>
-      <Title>{this.props.title}</Title>
+    <View>
+      <Text style={{ fontSize: 20, color: 'blue', fontWeight: 'bold'}}>{this.props.title}</Text>
       {this.props.children}
-    </SSection>
+    </View >
 }
