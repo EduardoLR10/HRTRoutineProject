@@ -13,6 +13,14 @@ import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
 import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDeVida'
 import AnemiaFerropriva from './AnemiaFerropriva'
 import ArtriteReativa from './ArtritesReativas'
+import CetoacidoseDiabetica from './CetoacidoeDiabetica'
+import ChoqueSeptico from './ChoqueSeptico'
+import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
+import ConvulsaoFebril from './ConvulsaoFebril'
+import Coqueluche from './Coqueluche'
+import CriseHipoxia from './CriseHipoxia'
+import Crupe from './Crupe'
+import DerramesPleurais from './DerramesPleurais'
 
 
 export default [
@@ -27,8 +35,16 @@ export default [
   ArtriteSeptica,
   ArtriteReativa,
   Cefaleias,
+  CetoacidoseDiabetica,
+  ChoqueSeptico,
+  ConceitosBasicosDeVentilacaoMecanica,
   ConstipacaoInstestinal,
+  ConvulsaoFebril,
+  Coqueluche,
+  CriseHipoxia,
+  Crupe,
   DengueEOutrasArboviroses,
+  DerramesPleurais,
   FebreReumatica,
   Varicela,
 ]

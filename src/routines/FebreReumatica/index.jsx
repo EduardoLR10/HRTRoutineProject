@@ -160,13 +160,13 @@ export default class FebreReumatica extends React.Component {
             </Subsection>
           </Section>
           <Section title="Referências">
-            <Reference idx={1} authors="Oliveira, SKF.; Azevedo, ECL." title="Reumatologia Pediãtrica. 2.ed." local="Rio de Janeiro" publisher="Revinter" year="2001"/>
-            <Reference idx={2} authors="Cassidy, JT." title="TExtbook of Rheumatology. 2.ed." local="Philadelphia" publisher="Elssevier" year="2010"/>
-            <Reference idx={3} authors="Silva, CAA. Instituto da Criança Hospital das Clínicas FMUSP. Departamento de Pediatria." title="Doenças Reumáticas na Criança e no Adolescente. 1.ed." local="São Paulo" publisher="Manole" year="2006"/>
-            <Reference idx={4} authors="Naspitz, CK. Guias de Medicina Ambulatorial e Hospitalar UNIFESP." title="Alergia, Imunologia e Reumatologia em Pediatria. 1.ed." local="São Paulo" publisher="Manole" year="2006"/>
-            <Reference idx={5} authors="Oliveira, SKF." title="Reumatologia para Pediatras. 1.ed." local="Rio de Janeiro" publisher="Revinter" year="2003"/>
-            <Reference idx={6} authors="Oliveira, SKF; Rodrigues, MCF." title="Reumatologia na Prática para Pediatras. 1.ed." local="Rio de Janeiro" publisher="Revinter" year="2010"/>
-            <Reference idx={7} authors="Terreri, MTRA; Sacchetti, SB." title="Reumatologia para o Pediatra. 1.ed." local="Sociedade de Pediatria de São Paulo, Departamento de Pediatria." publisher="Atheneu" year="2008"/>
+            <Reference idx={1} body="Oliveira, SKF.; Azevedo, ECL. Reumatologia Pediátrica. 2.ed .Rio de Janeiro: Revinter, 2001."/>
+            <Reference idx={2} body="Cassidy, JT(coord). Textbook of Rheumatology. 2.ed.Philadelphia: Elsevier, 2010."/>
+            <Reference idx={3} body="Silva, CAA(coord). Instituto da Criança Hospital das Clínicas FMUSP. Departamento de Pediatria. Doenças Reumáticas na Criança e no Adolescente. 1. ed. São Paulo: Manole, 2006."/>
+            <Reference idx={4} body="Naspitz, CK(coord). Guias de Medicina Ambulatorial e Hospitalar UNIFESP. Alergia, Imunologia e Reumatologia em Pediatria.1. ed. São Paulo: Manole, 2006."/>
+            <Reference idx={5} body="Oliveira, SKF.Reumatologia para Pediatras. 1.ed .Rio de Janeiro: Revinter, 2003."/>
+            <Reference idx={6} body="Oliveira, SKF; Rodrigues, MCF. Reumatologia na Prática para Pediatras. 1.ed .Rio de Janeiro: Revinter, 2010."/>
+            <Reference idx={7} body="Terreri, MTRA; Sacchetti, SB. Reumatologia para o Pediatra. Sociedade de Pediatria de São Paulo, Departamento de Pediatria. 1.ed. São Paulo: Atheneu, 2008."/>
           </Section>
     </Routine>
 }

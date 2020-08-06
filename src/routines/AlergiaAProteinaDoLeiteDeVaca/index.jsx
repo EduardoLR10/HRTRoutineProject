@@ -289,9 +289,9 @@ export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
             <Figure source={img2} bottom_label="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1"/>
           </Section>
           <Section title="Referências">
-            <Reference idx={1} authors="Solé D, Silva LR, Cocco RR, Ferreira CT." title="Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1. Arq Asma Alerg Imunol - Volume.2.N° 1" year="2018"/>
-            <Reference idx={2} authors="Solé D, Silva LR, Cocco RR, Ferreira CT." title="Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 2. Arq Asma Alerg Imunol - Volume.2.N° 1" year="2018"/>
-            <Reference idx={3} authors="Carvalho E, Ferreira CT, Silva LR." title="Gastroenterologia e nutrição em pediatria." local="Barueri, São Paulo" publisher="Manole"year="2012"/>
+            <Reference idx={1} body="SOLÉ D, SILVA LR, COCCO RR, FERREIRA CT et al. Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1. Arq Asma Alerg Imunol – Vol. 2. N° 1, 2018."/>
+            <Reference idx={2} body="SOLÉ D, SILVA LR, COCCO RR, FERREIRA CT et al. Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 2. Arq Asma Alerg Imunol – Vol. 2. N° 1, 2018."/>
+            <Reference idx={3} body="Carvalho E, Ferreira CT, Silva LR. Gastroenterologia e nutrição em pediatria. Barueri, SP: Manole, 2012."/>
           </Section>
     </Routine>
 }

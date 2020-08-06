@@ -119,16 +119,16 @@ export default class ArtritesAbordagemInicial extends React.Component {
             </P>
         </Section>
         <Section title="Referências">
-        <Reference idx={1} authors="Oliveira, SKF.; Azevedo, ECL." title="Reumatologia Pediátrica. 2.ed." local="Rio de Janeiro" publisher="Revinter" year="2001"/>
-        <Reference idx={2} authors="Cassidy, JT." title="Textbook of Rheumatology. 2.ed" local="Philadelphia" publisher="Elsevier" year="2010"/>
-        <Reference idx={3} authors="Oliveira, SKF." title="Reumatologia para Pediatras. 1.ed." local="Rio de Janeiro" publisher="Revinter" year="2003"/>
-        <Reference idx={4} authors="Oliveira, SKF; Rodrigues, MCF." title="Reumatologia na Prática para Pediatras. 1.ed." local="Rio de Janeiro" publisher="Revinter" year="2010"/>
-        <Reference idx={5} authors="Terrei, MTRA; Sacchetti, SB." title="Reumatologia para o Pediatra. Sociedade de Pediatria de São Paulo, Departamento de Pediatria. 1.ed." local="São Paulo" publisher="Atheneu" year="2008"/>
-        <Reference idx={6} authors="Al Saadi MM, Al Zamil FA, Bokhary NA, Al Shamsan LA, Al Alola SA, Al Elissa YS." title="Acute septic arthritis in children (51(3):377-80)." publisher="Pediatric Int." year="2009"/>
-        <Reference idx={7} authors="Cassidy JT, Petty RE, Laxer R, Lindsley C." title="Textbook of pediatric rheumatology: expert consult: online and print." local="Philadelphia" publisher="Saunders (Elsevier)" year="2011"/>
-        <Reference idx={8} authors="Gupta D, Singh S, Suri D, Ahluwalia J, Das R, Varma N." title="Arthritic presentation of acute leukemia in children: experience from a tertiary care centre in North India (20(6):767-70)" publisher="Rheumatol Int." year="2010"/>
-        <Reference idx={9} authors="Lehman TJ." title="It's not just growing pains: a guide to childhood muscle, bone and joint pain, rheumatic diseases and the latest treatment." local="New York" publisher="Oxford Unided Press" year="2004"/>
-        <Reference idx={10} authors="Prabhu AS, Balan S." title="Approach to a child with monoarthritis (77(9):997-1004)." publisher="Indian J Pediatr." year="2010"/>
+        <Reference idx={1} body="Oliveira, SKF.; Azevedo, ECL. Reumatologia Pediátrica. 2.ed .Rio de Janeiro: Revinter, 2001."/>
+        <Reference idx={2} body="Cassidy, JT(coord). Textbook of Rheumatology. 2.ed.Philadelphia: Elsevier, 2010."/>
+        <Reference idx={3} body="Oliveira, SKF.Reumatologia para Pediatras. 1.ed .Rio de Janeiro: Revinter, 2003."/>
+        <Reference idx={4} body="Oliveira, SKF; Rodrigues, MCF. Reumatologia na Prática para Pediatras. 1.ed .Rio de Janeiro: Revinter, 2010."/>
+        <Reference idx={5} body="Terreri, MTRA; Sacchetti, SB. Reumatologia para o Pediatra. Sociedade de Pediatria de São Paulo, Departamento de Pediatria. 1.ed. São Paulo: Atheneu, 2008."/>
+        <Reference idx={6} body="Al Saadi MM, Al Zamil FA, Bokhary NA, Al Shamsan LA, Al Alola SA, Al Elissa YS. Acute septic arthritis in children. Pediatric Int. 2009;51(3):377-80."/>
+        <Reference idx={7} body="Cassidy JT, Petty RE, Laxer R, Lindsley C. Textbook of pediatric rheumatology: expert consult: online and print. Philadelphia: Saunders (Elsevier); 2011."/>
+        <Reference idx={8} body="Gupta D, Singh S, Suri D, Ahluwalia J, Das R, Varma N. Arthritic presentation of acute leukemia in children: experience from a tertiary care centre in North India. Rheumatol Int. 2010;30(6):767-70."/>
+        <Reference idx={9} body="Lehman TJ. It’s not just growing pains: a guide to childhood muscle, bone and joint pain, rheumatic diseases and the latest treatment. New York: Oxford United Press; 2004."/>
+        <Reference idx={10} body="Prabhu AS, Balan S. Approach to a child with monoarthritis. Indian J Pediatr. 2010;77(9):997-1004."/>
         </Section>
     </Routine>
 }

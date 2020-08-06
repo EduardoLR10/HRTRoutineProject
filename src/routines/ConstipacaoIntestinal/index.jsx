@@ -123,14 +123,14 @@ export default class ConstipacaoIntestinal extends React.Component {
         </P>
         </Section>
         <Section title="Referências">
-            <Reference idx={1} authors="Benninga MA, Nurko S, Faure C, Hyman PE, Roberts ISJ, Schechter N." title="Childhood functional gastrointestinal disorders: Neonate/toddler. Gastroenterology (150(6):1443-55)." year="2016"/>
-            <Reference idx={2} authors="Gomes, PB, Melo MCB, Duarte MA, Torres MRF, Xavier AT (2011)." title="Polientilenoglicol na constipação intestinal crônica funcional em crianças. Revista Paulista de Pediatria (29(2), 245-250)." link="https://dx.doi.org/10.1590/S0103-05822011000200017"/>
-            <Reference idx={3} authors="Hymas SJ, Lorenzo C, Saps M, Shulman R, Stalano A, Tilburg MV." title="Childhood functional gastrointestinal disorders: Child/adolescent. Gastroenterology (150(6):1456-68)." year="2016"/>
-            <Reference idx={4} authors="Maffei HVL, Morais MB. Constipação crônica. In: Porta G, Koda YKL." title="Gastroenterologia e hepatologia (p. 357-69)." local="São Paulo" publisher="Manole" year="2011"/>
-            <Reference idx={5} authors="Morais MB, Maffei HVL, Tahan S. Constipação intestinal. In: Silva LR, Ferreira CT, Carvalho E." title="Gastroenterologia e nutrição em pediatria (p 466-93)." local="São Paulo" publisher="Manole" year="2012"/>
-            <Reference idx={6} authors="Silva LR, Ferreira CT, CArvalho E. Constipação intestinal." title="Manual de Residência em gastroenterolgia pediátrica (Capítulo 14, Constipação Intestinal; p. 338-56)." local="São Paulo" publisher="Manole" year="2018"/>
-            <Reference idx={7} authors="Tabbers MM, DiLorenzo c, Berger MY, Faure C, Langendam MW, Nurko S." title="Evaluation and treatment of functional constipation in infants and children: evidence-based recommendations from ESPGHAN and NASPGHAN (58:265-81)." publisher="J Pediatr Gastroenterol Nutr." year="2014"/>
-            <Reference idx={8} authors="Vandenplas Y, Abkari A, Bellaiche M." title="Prevalence and Health Outcomes of Functional Gastrointestinal Symptoms in Infants From Birth o 12 Months of Age (61(5):531-7)." publisher="J Pediatr Gastroenterol Nutr." year="2015"/>
+        <Reference idx={1} body="Benninga MA, Nurko S, Faure C, Hyman PE, Roberts ISJ, Schechter N. Childhood functional gastrointestinal disorders: Neonate/toddler. Gastroenterology. 2016;150(6):1443-55."/>
+        <Reference idx={2} body="Gomes, PB, Melo MCB, Duarte MA, Torres MRF, Xavier AT (2011). Polietilenoglicol na constipação intestinal crônica funcional em crianças. Revista Paulista de Pediatria, 29(2), 245-250. https://dx.doi.org/10.1590/S0103-05822011000200017"/>
+        <Reference idx={3} body="Hyams SJ, Lorenzo C, Saps M, Shulman R, Staiano A, Tilburg MV. Childhood functional gastrointestinal disorders: Child/adolescent. Gastroenterology. 2016;150(6):1456-68."/>
+        <Reference idx={4} body="Maffei HVL, Morais MB. Constipação crônica. In: Porta G, Koda YKL. Gastroenterologia e hepatologia.  São Paulo: Manole, 2011. p. 357-69."/>
+        <Reference idx={5} body="Morais MB, Maffei HVL, Tahan S. Constipação intestinal. In: Silva LR, Ferreira CT, Carvalho E. Gastroenterologia e nutrição em pediatria. São Paulo: Manole, 2012. p. 466-93."/>
+        <Reference idx={6} body="Silva LR, Ferreira CT, Carvalho E. Constipação Intestinal. In: Manual de Residência em gastroenterologia pediátrica. São Paulo: Manole, 2018. Capítulo 14, Constipação Intestinal; p. 338-56."/>
+        <Reference idx={7} body="Tabbers MM, DiLorenzo C, Berger MY, Faure C, Langendam MW, Nurko S, et al. Evaluation and treatment of functional constipation in infants and children: evidence-based recommendations from ESPGHAN and NASPGHAN. J Pediatr Gastroenterol Nutr. 2014;58:265-81."/>
+        <Reference idx={8} body="Vandenplas Y, Abkari A, Bellaiche M, et al. Prevalence and Health Outcomes of Functional Gastrointestinal Symptoms in Infants From Birth to 12 Months of Age. J Pediatr Gastroenterol Nutr. 2015;61(5):531-7."/>
         </Section>
     </Routine>
 }

@@ -32,10 +32,10 @@ export default class ColoqueONomeDaRotinaAqui extends React.Component {
           ['Lonomia', '', '5', '10', 'SALon']
         ]} />
         <Section title="Referências">
-        <Reference idx={1} authors=""/>
-        <Reference idx={2} authors=""/>
-        <Reference idx={3} authors=""/>
-        <Reference idx={4} authors=""/>
+        <Reference idx={1} body=""/>
+        <Reference idx={2} body=""/>
+        <Reference idx={3} body=""/>
+        <Reference idx={4} body=""/>
         </Section>
     </Routine>
 }

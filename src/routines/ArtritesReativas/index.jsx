@@ -170,13 +170,13 @@ export default class ArtriteReativa extends React.Component {
             </P>
         </Section>
         <Section title="Referências">
-            <Reference idx={1} authors="Oliveira, SKF.; Azevedo, ECL." title="Reumatologia Pediátrica. 2.ed." local="Rio de Janeiro" publisher="Revinter" year="2001"/>
-            <Reference idx={2} authors="Cassidy, JT." title="Textbook of Rheumatology. 2.ed." local="Philadelphia" publisher="Elsevier" year="2010"/>
-            <Reference idx={3} authors="Sampaio, B." title="Síndrome de Reiter e Artrites Reativas (v47.n.4.p:243-250)." publisher="Rev Bras Reumatol" year="Jul/Ago 2007."/>
-            <Reference idx={4} authors="Flores, D.MD." title="Reactive arthritis: newer developments (V29.n.1)." publisher="Rheu Dis Clin of North America" year="Feb, 2003."/>
-            <Reference idx={5} authors="Oliveira, SKF." title="Reumatologia para Pediatras. 1.ed." local="Rio de Janeiro" publisher="Revinter" year="2003"/>
-            <Reference idx={6} authors="Oliveira, SKF; Rodrigues, MCF." title="Reumatologia na Prática para Pediatras. 1.ed." local="Rio de Janeiro" publisher="Revinter" year="2010"/>
-            <Reference idx={7} authors="Terreri, MTRA; Sacchetti, SB." title="Reumatologia para o Pediatra. Sociedade de Pediatria de São Paulo, Departamento de Pediatria. 1.ed." local="São Paulo" publisher="Atheneu" year="2008"/>
+        <Reference idx={1} body="Oliveira, SKF.; Azevedo, ECL. Reumatologia Pediátrica. 2.ed .Rio de Janeiro: Revinter, 2001."/>
+        <Reference idx={2} body="Cassidy, JT(coord). Textbook of Rheumatology. 2.ed.Philadelphia: Elsevier, 2010."/>
+        <Reference idx={3} body="Sampaio, B. el al. Síndrome de Reiter e Artrites Reativas. Rev Bras Reumatol, v47.n.4.p: 243-250. jul/ago, 2007."/>
+        <Reference idx={4} body="Flores, D.MD. et al. Reactive arthritis: newer developments. Rheu Dis Clin of North America, v29.n.1. feb, 2003."/>
+        <Reference idx={5} body="Oliveira, SKF.Reumatologia para Pediatras. 1.ed .Rio de Janeiro: Revinter, 2003."/>
+        <Reference idx={6} body="Oliveira, SKF; Rodrigues, MCF. Reumatologia na Prática para Pediatras. 1.ed .Rio de Janeiro: Revinter, 2010"/>
+        <Reference idx={7} body="Terreri, MTRA; Sacchetti, SB. Reumatologia para o Pediatra. Sociedade de Pediatria de São Paulo, Departamento de Pediatria. 1.ed. São Paulo: Atheneu, 2008."/>
         </Section>
     </Routine>
 }
