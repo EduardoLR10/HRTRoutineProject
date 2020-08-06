@@ -1,10 +1,9 @@
 import React from 'react'
 import { View, ScrollView } from 'react-native'
 import { ButtonGroup, SearchBar } from 'react-native-elements'
+import styles, { buttonGroupStyles, searchBarSyles, cardsListStyles } from './styles'
 import routines from '../../routines'
 import RoutineCard from '../../components/RoutineCard'
-import collorPallete from '../../assets/collorPallete'
-
 
 export default class Home extends React.Component {
 
@@ -33,29 +32,17 @@ export default class Home extends React.Component {
     .filter(Routine => (Routine.title.toLowerCase()).includes(this.state.searchText.toLowerCase()))
 
   render = () =>
-    <View style={{ backgroundColor: 'white' }}>
+    <View style={styles.container}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        <ButtonGroup
-          selectedIndex={this.state.categoryIdx} onPress={(categoryIdx) => this.setState({ categoryIdx })}
-          buttons={this.categories}
-          containerStyle={{ borderWidth: 0, }}
-          innerBorderStyle={{ width: 0 }}
-          buttonContainerStyle={{paddingVertical: 2}}
-          buttonStyle={{ marginHorizontal: 2, minWidth: 70, maxWidth: 170, borderRadius: 4, padding: 4 }}
-          textStyle={{ textAlign: 'center', color: collorPallete.black }}
-          selectedTextStyle={{ color: collorPallete.red }}
-          selectedButtonStyle={{ backgroundColor: collorPallete.redPastel }}
+        <ButtonGroup buttons={this.categories} selectedIndex={this.state.categoryIdx}
+          {...buttonGroupStyles} onPress={(categoryIdx) => this.setState({ categoryIdx })}
         />
       </ScrollView>
       <SearchBar
-        placeholder="Procurar" value={this.state.searchText}
+        placeholder="Procurar" value={this.state.searchText} {...searchBarSyles}
         onChangeText={(searchText) => this.setState({ searchText })}
-        lightTheme
-        containerStyle={{ marginVertical: 8, height: 35, backgroundColor: 'transparent', padding: 0, elevation: 1}}
-        inputContainerStyle={{ backgroundColor: collorPallete.white, paddingBottom: 4 }}
-        inputStyle={{ color: 'black', fontSize: 14, justifyContent: 'center'}}
       />
-      <ScrollView style={{ paddingHorizontal: 8}} showsVerticalScrollIndicator={false} contentContainerStyle={{paddingVertical: 10, paddingBottom: 128}}>
+      <ScrollView style={styles.cardList} {...cardsListStyles}>
         {this.filteredRoutines().map((Routine, idx) =>
           <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
         }

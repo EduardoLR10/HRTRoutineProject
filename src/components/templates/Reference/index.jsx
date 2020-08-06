@@ -1,22 +1,15 @@
 import React from 'react';
-import P from '../Paragraph'
+import { Text } from 'react-native'
+import styles from './styles';
 
 /**
- *  @property {number} idx
- *  @property {?string} authors
- *  @property {?string} title
- *  @property {?string} document
- *  @property {?string} publisher
- *  @property {?string} local
- *  @property {?string} year
- *  @property {?string} link
+ * @property {number} props.idx - Index of the reference.
+ * @property {string} props.body - Content of the the reference item.
  */
 export default class Reference extends React.Component {
 
-  render = () => {
-    let body = this.props.body ? `${this.props.body};` : ""
-    return (
-      <P>{`${this.props.idx}. ${body}`}</P>
-    )
-  }
+  render = () =>
+    <Text style={styles.reference}>
+      <Text style={styles.index}>{this.props.idx}</Text>. {this.props.body || ""}
+    </Text>
 }
