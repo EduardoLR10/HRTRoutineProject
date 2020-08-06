@@ -21,6 +21,7 @@ import Coqueluche from './Coqueluche'
 import CriseHipoxia from './CriseHipoxia'
 import Crupe from './Crupe'
 import DerramesPleurais from './DerramesPleurais'
+import DesconfortoRespiratorio from './DesconfortoRespiratorio'
 
 
 export default [
@@ -45,6 +46,7 @@ export default [
   Crupe,
   DengueEOutrasArboviroses,
   DerramesPleurais,
+  DesconfortoRespiratorio,
   FebreReumatica,
   Varicela,
 ]
