@@ -7,7 +7,7 @@ export default StyleSheet.create({
     paddingLeft: 8,
   },
   litem: {
-    marginBottom: 7,
+    marginBottom: 0,
     fontSize: 14, color: collorPallete.black,
   },
 })
