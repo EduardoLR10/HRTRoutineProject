@@ -18,7 +18,12 @@ export default class Routes extends React.Component {
         screenOptions={{
           headerTintColor: collorPallete.red,
           headerTitleAlign: 'center',
-        }}>
+          cardStyle: {
+            backgroundColor: collorPallete.white
+          }
+        }}
+        
+      >
         <Stack.Screen name="Home" component={Home} options={{ title: 'Rotinas HRT' }} />
         {routines.map((Routine, idx) =>
           <Stack.Screen key={idx} name={Routine.title} component={Routine} />
