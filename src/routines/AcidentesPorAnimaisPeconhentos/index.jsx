@@ -70,7 +70,7 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
         <P>
           As cobras venenosas do Brasil são facilmente identificáveis por causa da fosseta loreal que consiste em dois orifícios situados entre a narina e o olho, um em cada lado da cabeça (com exceção do coral verdadeira) – fig.1.
         </P>
-        <Figure source={img1} />
+        <Figure source={img1} label="fig1" />
         <Subsection title="Acidente botrópico(causado por serpentes do grupo das jararacas – fig.2).">
           <P>
             Causa a maioria dos acidentes com cobras no Brasil – 75% a 85%. O Cerrado é o seu principal habitat. Possuem escamas, é o que as diferencia de outras espécies. Variadas tonalidades de marrom.
