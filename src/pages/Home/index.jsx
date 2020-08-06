@@ -51,15 +51,14 @@ export default class Home extends React.Component {
         placeholder="Procurar" value={this.state.searchText}
         onChangeText={(searchText) => this.setState({ searchText })}
         lightTheme
-        containerStyle={{ marginVertical: 8, height: 35, backgroundColor: 'transparent', padding: 0 }}
+        containerStyle={{ marginVertical: 8, height: 35, backgroundColor: 'transparent', padding: 0, elevation: 1}}
         inputContainerStyle={{ backgroundColor: collorPallete.white, paddingBottom: 4 }}
-        inputStyle={{ color: 'black', fontSize: 12, justifyContent: 'center'}}
+        inputStyle={{ color: 'black', fontSize: 14, justifyContent: 'center'}}
       />
-      <ScrollView style={{ paddingHorizontal: 4 }} showsVerticalScrollIndicator={false}>
+      <ScrollView style={{ paddingHorizontal: 8}} showsVerticalScrollIndicator={false} contentContainerStyle={{paddingVertical: 10, paddingBottom: 128}}>
         {this.filteredRoutines().map((Routine, idx) =>
           <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
         }
-        <View style={{ height: 100 }} />
       </ScrollView>
     </View>
 }
