@@ -17,7 +17,6 @@ export default class DerramesPleurais extends React.Component {
 
     render = () =>
       <Routine title={DerramesPleurais.title} category={DerramesPleurais.category} authors={DerramesPleurais.authors}>
-          <P style={{fontStyle: 'italic'}}></P>
           <P>
               Rotina que descreve abordagem de pacientes com pneumonia com derrame pleural na pediatria do HRT.
           </P>
