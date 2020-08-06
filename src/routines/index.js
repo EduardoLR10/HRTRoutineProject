@@ -23,6 +23,7 @@ import Crupe from './Crupe'
 import DerramesPleurais from './DerramesPleurais'
 import DesconfortoRespiratorio from './DesconfortoRespiratorio'
 import DesidratacaoHipernatremica from './DesidratacaoHipernatremica'
+import DiarreiasAgudas from './DiarreisAgudas'
 
 
 export default [
@@ -49,6 +50,7 @@ export default [
   DerramesPleurais,
   DesconfortoRespiratorio,
   DesidratacaoHipernatremica,
+  DiarreiasAgudas,
   FebreReumatica,
   Varicela,
 ]
