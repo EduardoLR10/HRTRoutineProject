@@ -19,6 +19,7 @@ import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacao
 import ConvulsaoFebril from './ConvulsaoFebril'
 import Coqueluche from './Coqueluche'
 import CriseHipoxia from './CriseHipoxia'
+import Crupe from './Crupe'
 
 
 export default [
@@ -40,6 +41,7 @@ export default [
   ConvulsaoFebril,
   Coqueluche,
   CriseHipoxia,
+  Crupe,
   DengueEOutrasArboviroses,
   FebreReumatica,
   Varicela,

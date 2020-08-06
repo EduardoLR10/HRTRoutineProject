@@ -127,11 +127,11 @@ export default class ConceitosBasicosDeVentilacaoMecanica extends React.Componen
             </P>
         </Section>
         <Section title="Referências">
-            <Reference idx={1} authors="Rotta AT, Kunrath CL, Wiryaman B." title="Management of the acute respiratory distress syndrome (79 Suppl 2:S149-60)." publisher="J Pediatr" local="Rio de Janeiro" year="2003"/>
-            <Reference idx={2} authors="Dreyfuss D, Soler P, Basset G, Saumon G." title="High inflation pressure pulmonary edema. Respective effects of high airway pressure, high tidal volume, and positive end-expiratory pressure (137:1159-64)." publisher="Am Rev Respir Dis" year="1988"/>
-            <Reference idx={3} authors="Rotta AT. Asthma. In: Fuhrman BP, Zimmerman J, editors." title="Pediatric critical care (p. 588-607)." local="Philadelphia" publisher="Mosby" year="2006"/>
-            <Reference idx={4} authors="Bohn D, Kissoon N." title="Acute asthma (2:151-63)." publisher="Pediatr Crit Care Med" year="2001"/>
-            <Reference idx={5} authors="Darioli R, Perret C." title="Mechanical controlled hypoventilation in status asthmaticus (129:385-7)." publisher="Respir Dis" year="1984"/>
+            <Reference idx={1} body="Rotta AT, Kunrath CL, Wiryawan B. [Management of the acute respiratory distress syndrome]. J Pediatr (Rio J). 2003;79 Suppl 2:S149-60."/>
+            <Reference idx={2} body="Dreyfuss D, Soler P, Basset G, Saumon G. High inflation pressure pulmonary edema. Respective effects of high airway pressure, high tidal volume, and positive end-expiratory pressure. Am Rev Respir Dis. 1988;137:1159-64."/>
+            <Reference idx={3} body="Rotta AT. Asthma. In: Fuhrman BP, Zimmerman J, editors. Pediatric critical care. Philadelphia: Mosby; 2006. p. 588-607."/>
+            <Reference idx={4} body="Bohn D, Kissoon N. Acute asthma. Pediatr Crit Care Med. 2001;2:151-63."/>
+            <Reference idx={5} body="Darioli R, Perret C. Mechanical controlled hypoventilation in status asthmaticus. Am Rev Respir Dis. 1984;129:385-7."/>
         </Section>
     </Routine>
 }

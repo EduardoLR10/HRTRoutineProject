@@ -41,6 +41,7 @@ export default class Table extends Component {
 
   render = () =>
     <View style={styles.container}>
+      {this.props.title ? <Label>{this.props.title}</Label> : <></>}
       <ScrollView horizontal>
         <View>
           <LibTable borderStyle={{ borderColor: '#C1C0B9' }}>

@@ -111,10 +111,10 @@ export default class Afogamento extends React.Component {
             <Figure source={img1} />
           </Section>
           <Section title="Referências">
-            <Reference idx={1} authors="Schvartsman C, Reis AG, Farhat SCL." title="Acidentes por submersão/imersão. Pediatria HC/FMUSP: pronto-socorro (3:291-7)." year="2018"/>
-            <Reference idx={2} authors="Szpilman D, Bierens JJLM, Handley AJ, Orlowski JP." title="Drowning: Current Concepts (366:2102-10)." publisher="N Engl J Med." year="2012"/>
-            <Reference idx={3} authors="Szipilman D." title="Diretriz de Ressuscitação." year="2017"/>
-            <Reference idx={4} authors="Gonzalez M.M, Timerman S., Gianotto-Oliveira R., Polastri T.F., Canesin M.F., Lage S.G., et al. Sociedade Brasileira de Cardiologia." title="Diretriz de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência da Sociedade Brasileira de Cardiologia (101(2Supl.3):87-8)." publisher="Arq Bras Cardiol." year="2013"/>
+            <Reference idx={1} body="Schvartsman C, Reis AG, Farhat SCL. Acidentes por submersão/imersão. Pediatria HC/FMUSP: pronto-socorro 2018; 3:291-7."/>
+            <Reference idx={2} body="Szpilman D, Bierens JJLM, Handley AJ, Orlowski JP. Drowning: Current Concepts. N Engl J Med 2012; 366:2102-10."/>
+            <Reference idx={3} body="Szpilman D. Diretriz de Ressuscitação 2017."/>
+            <Reference idx={4} body="Gonzalez M.M., Timerman S., Gianotto-Oliveira R., Polastri T.F., Canesin M.F., Lage S.G., et al. Sociedade Brasileira de Cardiologia. I Diretriz de Ressuscitação Cardiopulmonar e Cuidados Cardiovasculares de Emergência da Sociedade Brasileira de Cardiologia. Arq Bras Cardiol. 2013; 101(2Supl.3): 87-8."/>
           </Section>
     </Routine>
 }

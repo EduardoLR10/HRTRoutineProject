@@ -405,7 +405,7 @@ export default class CetoacidoseDiabetica extends React.Component {
             </P>
           </Section>
         <Section title="Referências">
-            <Reference idx={1} title="ISPAD Clinical Practive Consensus Guidelines 2018 / Diretrizes da Sociedade Brasileira de Diabetes 2019-2020 / NICE Pathway (last updated: 19 November 2019)."/>
+            <Reference idx={1} body="ISPAD Clinical Practice Consensus Guidelines 2018 / Diretrizes da Sociedade Brasileira de Diabetes 2019-2020 / NICE Pathway last updated: 19 November 2019."/>
         </Section>
     </Routine>
 }

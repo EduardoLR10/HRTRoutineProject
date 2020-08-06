@@ -171,8 +171,8 @@ export default class AnemiaFerropriva extends React.Component {
             </P>
           </Section>
         <Section title="Referências">
-        <Reference idx={1} title="Consenso Sobre Anemia Ferropriva: mais que uma doença, uma urgência média! Sociedade Brasileira de Pediatria. Departamentos de Nutrologia e Hematologia-Hemoterapia ((2): 1-12)." local="Rio de Janeiro" publisher="RJ: SBP" year="Junho, 2018"/>
-        <Reference idx={2} title="Manual de orientação para a alimentação do lactente, do pré-escolar, do escolar, do adolescente e na escola/Sociedade Brasileira de Pediatria. Departamento de Nutrologia, 3ª.ed." local="Rio de Janeiro" publisher="RJ, SBP" year="2012"/>
+            <Reference idx={1} body="Consenso Sobre Anemia Ferropriva: mais que uma doença, uma urgência médica! Sociedade Brasileira de Pediatria. Departamentos de Nutrologia e Hematologia-Hemoterapia.  (2): 1-12. Rio de Janeiro, RJ: SBP. Junho, 2018. "/>
+            <Reference idx={2} body="Manual de orientação para a alimentação do lactente, do pré-escolar, do escolar, do adolescente e na escola/Sociedade Brasileira de Pediatria. Departamento de Nutrologia, 3ª. ed. Rio de Janeiro, RJ: SBP, 2012.  "/>
         </Section>
     </Routine>
 }

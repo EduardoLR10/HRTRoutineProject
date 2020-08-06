@@ -205,13 +205,13 @@ export default class Cefaleia extends React.Component {
             </P>
           </Section>
         <Section title="Referências">
-        <Reference idx={1} authors="Gelfand AA." title="Pediatric and Adolescent Headache (24(4, Headache):1108-1136)." publisher="Continuum (Minneap Minn)" year="2018 Aug."/>
-        <Reference idx={2} authors="Blume HK." title="Childhood Headache: A Brief Review (46(4):e155-e165)." local="Pediatr Ann." year="2017 Apr 1."/>
-        <Reference idx={3} authors="Merison K, Jacobs H." title="Diagnosis and Treatment of Childhood Migraine (18(11):48)." publisher="Curr Treat Options Neurol." year="2016 Nov."/>
-        <Reference idx={4} authors="Munday S, Rao A." title="Always on my mind: Headache in children (28(4):376-8)." publisher="Emerg Med Australas." year="2016 Aug."/>
-        <Reference idx={5} authors="Lanteri-Minet M, Valade D, Geraud G, Lucas C, Donnet A." title="Revised French guidelines for the diagnosis and management of migraine in adults and children (15:2)." publisher="J Headache Pain" year="2014 Jan 8."/>
-        <Reference idx={6} authors="Abu-Arafeh I, Razak S, Sivaraman B, Graham C." title="Prevalence of headache and migraine in children and adolescents: a systematic review of population-based studies (52(12):1088-97)." publisher="Dev Med Child Neurol." year="2010 Dec."/>
-        <Reference idx={7} authors="Lateef TM, Grewal M, McClintock W, Chamberlain J, Kaulas H, Nelson KB." title="Headache in young children in the emergency department: use of computed tomography. Pediatrics (124(1):e12-7)." year="2009 Jul."/>
+            <Reference idx={1} body="Gelfand AA.  Pediatric and Adolescent Headache. Continuum (Minneap Minn). 2018 Aug;24(4, Headache):1108-1136."/>
+            <Reference idx={2} body="Blume HK. Childhood Headache: A Brief Review. Pediatr Ann. 2017 Apr 1;46(4):e155-e165."/>
+            <Reference idx={3} body="Merison K, Jacobs H. Diagnosis and Treatment of Childhood Migraine. Curr Treat Options Neurol. 2016 Nov;18(11):48."/>
+            <Reference idx={4} body="Munday S, Rao A. Always on my mind: Headache in children. Emerg Med Australas. 2016 Aug;28(4):376-8."/>
+            <Reference idx={5} body="Lanteri-Minet M, Valade D, Geraud G, Lucas C, Donnet A. Revised French guidelines for the diagnosis and management of migraine in adults and children. J Headache Pain. 2014 Jan 8;15:2."/>
+            <Reference idx={6} body="Abu-Arafeh I, Razak S, Sivaraman B, Graham C. Prevalence of headache and migraine in children and adolescents: a systematic review of population-based studies. Dev Med Child Neurol. 2010 Dec;52(12):1088-97."/>
+            <Reference idx={7} body="Lateef TM, Grewal M, McClintock W, Chamberlain J, Kaulas H, Nelson KB. Headache in young children in the emergency department: use of computed tomography. Pediatrics. 2009 Jul;124(1):e12-7."/>
         </Section>
     </Routine>
 }

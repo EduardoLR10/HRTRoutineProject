@@ -54,7 +54,7 @@ export default class CriseHipoxia extends React.Component {
             <P>
                 Uma vez iniciada a crise, a redução na saturação de oxigênio sistêmico leva a acidose metabólica, diminuição da resistência sistêmica, taquipneia e consequente aumento do fluxo da direita para esquerda (Figura 1).
             </P>
-            <Figure source={img1} label="Figura 1"/>
+            <Figure source={img1} bottom_label="Figura 1"/>
             <P>
                 Principais fatores desencadeantes:
             </P>
@@ -145,8 +145,8 @@ export default class CriseHipoxia extends React.Component {
             </List>
         </Section>
         <Section title="Referências">
-            <Reference idx={1} authors="CROTTI, Ulisses; MATTOS, Sandra; PINTO JR, Valdester; AIELLO, Vera." title="Cardiologia e Cirurgia Cardiovascular Pediátrica. 2ª ed." publisher="Saraiva" local="São Paulo" year="2013"/>
-            <Reference idx={2} authors="DORIGO, Ana Helena." title="Crise cianótica: como diagnosticar e tratar Vol XIII." publisher="Rev SOCERJ" year="Mar, 2000"/>
+        <Reference idx={1} body="CROTTI, Ulisses; MATTOS, Sandra; PINTO JR, Valdester; AIELLO, Vera. Cardiologia e Cirurgia Cardiovascular Pediatrica. 2ª ed. São Paulo: Saraiva, 2013"/>
+        <Reference idx={2} body="DORIGO, Ana Helena. Crise cianótica: como diagnosticar e tratar. Rev SOCERJ Vol XIII. Mar, 2000."/>
         </Section>
     </Routine>
 }

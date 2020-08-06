@@ -233,12 +233,12 @@ export default class ChoqueSeptico extends React.Component {
             </List>
           </Section>
         <Section title="Referências">
-        <Reference idx={1} authors="Dellinger R." title="Surviving Sepsis Campaign: International Guidelines for Management of Severe Sepsis and Septic Shock: 2012 (Vol 41, No. 2)" publisher="CritCareMed 2013"/>
-        <Reference idx={2} authors="Brierley J." title="Clinical practice parameters for hemodynamic support of pediatric and neonatal septic shock: 2007 update from the American College of Critical Care Medicine (Vol. 37, No. 2)." publisher="Crit Care med 2009"/>
-        <Reference idx={3} authors="Goldstein B." title="International pediatric sepsis consensus conference: Definitions for sepsis and organ dysfunction in pediatric (Vol. 6, No. 1)." publisher="PediatrCrit Care Med 2005."/>
-        <Reference idx={4} authors="Kissoon N." title="Sepsis guideline implementation: benefits, pitfalls and possible solutions (18(2):207)." publisher="Crit Care 2014"/>
-        <Reference idx={5} authors="Kissoon N." title="Sepsis guidelines: Suggestions to improve adherence (71 Suppl1:S36-41)." publisher="J Infect 2015"/>
-        <Reference idx={6} authors="Noritomi DT, Ranzani OT, Monteiro MB, Ferreira EM, Santos ST, Leibel F." title="Implementation of a multifaceted sepsis education program in an emerging country setting: clinical outcomes and cost-effectiveness in a long-term follow-up study (40(2):182-91)." publisher="Intensive Care Med 2014"/>
+        <Reference idx={1} body="Dellinger R, et al. Surviving Sepsis Campaign: International Guidelines for Management of Severe Sepsis and Septic Shock: 2012. CritCareMed 2013 Vol 41, No. 2 ."/>
+        <Reference idx={2} body="Brierley J, et al. Clinical practice parameters for hemodynamic support of pediatric and neonatal septic shock: 2007 update from the American College of Critical Care Medicine. Crit Care Med 2009 Vol. 37, No. 2."/>
+        <Reference idx={3} body="Goldstein B, et al. International pediatric sepsis consensus conference: Definitions for sepsis and organ dysfunction in pediatric. PediatrCrit Care Med 2005 Vol. 6, No. 1 ."/>
+        <Reference idx={4} body="Kissoon N. Sepsis guideline implementation: benefits, pitfalls and possible solutions. Crit Care. 2014;18(2):207."/>
+        <Reference idx={5} body="Kissoon N. Sepsis guidelines: Suggestions to improve adherence. J Infect. 2015;71 Suppl 1:S36-41."/>
+        <Reference idx={6} body="Noritomi DT, Ranzani OT, Monteiro MB, Ferreira EM, Santos SR, Leibel F, et al. Implementation of a multifaceted sepsis education program in an emerging country setting: clinical outcomes and cost-effectiveness in a long-term follow-up study. Intensive Care Med. 2014;40(2):182-91."/>
         </Section>
     </Routine>
 }

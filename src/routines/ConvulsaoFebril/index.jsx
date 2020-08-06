@@ -134,14 +134,14 @@ export default class ConvulsaoFebril extends React.Component {
             </P>
           </Section>
         <Section title="Referências">
-            <Reference idx={1} authors="Patterson JL, Carapetian SA, Hageman JR, Kelley KR." title="Febrile Seizures (42(12):249-54)." publisher="Pediatr Ann" year="2013 Dec"/>
-            <Reference idx={2} authors="Lux AL." title="Treatment of febrile seizures: historical perspective, current opinions, and potencial future directions (32(1):42-50)." publisher="Brain Dev" year="2010 Jan"/>
-            <Reference idx={3} authors="Graves RC1, Oehler K, Tingle LE." title="Febrile seizures: risks, evaluation, and prognosis (85(2):149-53)." publisher="Am Fam Physician" year="2012 Jan 15" />
-            <Reference idx={4} authors="Duffner PK, Baumann RJ, Berman P, Green JL, Schneider S." title="Febrile seizures: clinical practice guideline for the long-term management of the child with simple febrile seizures. Pediatrics (121(6)1281-6)." year="2008 Jun"/>
-            <Reference idx={5} authors="Oluwabusi T1, Sood SK." title="Update on the management of simple febrile seizures: enphasis on minimal intervetion (24(2):259-65)." publisher="Curr Opin Pediatr" year="2012 Apr"/>
-            <Reference idx={6} authors="Abend NS, Bearden D, Helbig I." title="Status epilepticus and refractory status epilepticus management (21:263-74)." publisher="Semin Pediatr Neurol" year="2014"/>
-            <Reference idx={7} authors="Abend NS and Loddenkemper T." title="Management of pediatric status epileptitus (16:301)." publisher="Curr Treat Options Neurol" year="2014"/>
-            <Reference idx={8} authors="Glauser T, Shinnar S, Gloss D." title="Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society (16: 48-61)." publisher="Epilepsy Curr" year="2016"/>
+        <Reference idx={1} body="Patterson JL, Carapetian SA, Hageman JR, Kelley KR.	Febrile Seizures. Pediatr Ann. 2013 Dec;42(12):249-54."/>
+        <Reference idx={2} body="Lux AL. Treatment of febrile seizures: historical perspective, current opinions, and potential future directions. Brain Dev. 2010 Jan;32(1):42-50."/>
+        <Reference idx={3} body="Graves RC1, Oehler K, Tingle LE. Febrile seizures: risks, evaluation, and prognosis. Am Fam Physician. 2012 Jan 15;85(2):149-53."/>
+        <Reference idx={4} body="Duffner PK, Baumann RJ, Berman P, Green JL, Schneider S, et al. Febrile seizures: clinical practice guideline for the long-term management of the child with simple febrile seizures. Pediatrics. 2008 Jun;121(6):1281-6. "/>
+        <Reference idx={5} body="Oluwabusi T1, Sood SK. Update on the management of simple febrile seizures: emphasis on minimal intervention. Curr Opin Pediatr. 2012 Apr;24(2):259-65. "/>
+        <Reference idx={6} body="Abend NS, Bearden D, Helbig I, et al. Status epilepticus and refractory status epilepticus management. Semin Pediatr Neurol. 2014; 21: 263-74."/>
+        <Reference idx={7} body="Abend NS and Loddenkemper T. Management of pediatric status epilepticus. Curr Treat Options Neurol. 2014; 16: 301."/>
+        <Reference idx={8} body="Glauser T, Shinnar S, Gloss D, et al. Evidence-Based Guideline: Treatment of Convulsive Status Epilepticus in Children and Adults: Report of the Guideline Committee of the American Epilepsy Society. Epilepsy Curr. 2016; 16: 48-61."/>
         </Section>
     </Routine>
 }

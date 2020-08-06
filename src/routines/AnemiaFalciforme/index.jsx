@@ -135,12 +135,12 @@ export default class AnemiaFalciforme extends React.Component {
           </List>
           </Section>
         <Section title="Referências">
-        <Reference idx={1} authors="Ministério da Saúde" title="Doença Falciforme. 1ª ed. " local="Brasília" year="2014"/>
-        <Reference idx={2} authors="Murahovschi Jayme." title="Pediatria Diagnóstico e tratamento. 6ª.ed." local="São Paulo" publisher="Sarvier" year="2003"/>
-        <Reference idx={3} title="Anemia falciforme e suas manisfestações respiratórias (20(4 Supl 3): S5-S11)." local="Rev Med Minas Gerais" year="2010"/>
-        <Reference idx={4} authors="Ministério da Saúde." title="Protocolo Clínico e Diretrizes Terapêuticas Doença Falciforme." year="Agosto, 2016."/>
-        <Reference idx={5} authors="Barros SA." title="Anemia falciforme: uma revisão acerca da doença, novos métodos diagnósticos e tratamento Vol. Sup. 9 (S856-S863)." publicher="REAS, Revista Eletrônica Acervo Saúde."year="2017"/>
-        <Reference idx={6} authors="HemoRio. Secretaria Estadual de Saúde Governo do Estado do Rio de Janeiro." title="Protocolos de Tratamento em Hematologia e Hemoterapia. 2ª.ed." year="2014."/>
+            <Reference idx={1} body="Ministério da Saúde, Doença Falciforme. 1ª ed. Brasília, 2014."/>
+            <Reference idx={2} body="Murahovschi Jayme (coord.). Pediatria Diagnóstico e tratamento. 6.ed. São Paulo: Sarvier, 2003."/>
+            <Reference idx={3} body="Anemia falciforme e suas manifestações respiratórias. Rev Med Minas Gerais 2010; 20(4 Supl 3): S5-S11."/>
+            <Reference idx={4} body="Ministério da Saúde, Protocolo Clínico e Diretrizes Terapêuticas Doença Falciforme, agosto, 2016."/>
+            <Reference idx={5} body="Barros SA et al. Anemia falciforme: uma revisão acerca da doença, novos métodos diagnósticos e tratamento. REAS, Revista Eletrônica Acervo Saúde,2017. Vol. Sup. 9, S856-S863."/>
+            <Reference idx={6} body="Protocolos de Tratamento em Hematologia e Hemoterapia, HemoRio. Secretaria Estadual de Saúde Governo do Estado do Rio de Janeiro. 2. ed. 2014."/>
         </Section>
     </Routine>
 }

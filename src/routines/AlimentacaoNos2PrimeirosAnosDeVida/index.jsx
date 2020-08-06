@@ -125,12 +125,12 @@ export default class AlimentacaoNos2PrimeirosAnosDeVida extends React.Component 
             </Subsection>
           </Section>
         <Section title="Referências">
-        <Reference idx={1} title="Manual de orientação para alimentação do lactente, do pré-escolar, do escolar, do adolescente e na escola/Sociedade Brasileira de Pediatria. Departamento de Nutrologia, 3ª.ed." local="Rio de Janeiro" publisher="RJ:SBP" year="2012"/>
-        <Reference idx={2} title="Curso de Aprimoramento em Nutrologia Pediátrica (CANP): Material teórico de apoio." year="2016/2018"/>
-        <Reference idx={3} authors="Liberal EF, Vasconcelos, MM." title="Nutrologia. 1.ed." local="Rio de Janeiro" publisher="Guanabara Koogan" year="2016"/>
-        <Reference idx={4} authors="Ministério da Saúde" title="Dez passos para uma alimentação saudável: guia alimentar para crianças menores de dois anos. 2.ed." local="Brasília" year="2013"/>
-        <Reference idx={5} authors="Fisberg M, Lyra I, Weffort V." title="Consenso sobre anemia ferropriva: mais que uma doença, uma urgência médica! Departamentos de Nutrologia e Hematologia-Hemoterapia da Sociedade Brasileira de Pediatria (2:1-12)" year="2018"/>
-        <Reference idx={6} title="Deficiência de vitamina D em crianças e adolescentes: Documentos Científicos. Sociedade Brasileira de Pediatria." year="2014"/>
+            <Reference idx={1} body="Manual de orientação para alimentação do lactente, do pré-escolar, do escolar, do adolescente e na escola/Sociedade Brasileira de Pediatria. Departamento de Nutrologia, 3ª. ed. Rio de Janeiro, RJ: SBP, 2012."/>
+            <Reference idx={2} body="Curso de Aprimoramento em Nutrologia Pediátrica (CANP): Material teórico de apoio. 2016/2018."/>
+            <Reference idx={3} body="Liberal EF, Vasconcelos, MM. Nutrologia. 1. ed. Rio de Janeiro: Guanabara Koogan; 2016."/>
+            <Reference idx={4} body="Dez passos para uma alimentação saudável: guia alimentar para crianças menores de dois anos. 2 ed. Brasília: Ministério da Saúde; 2013."/>
+            <Reference idx={5} body="Fisberg M, Lyra I, Weffort V. Consenso sobre anemia ferropriva: mais que uma doença, uma urgência médica! Departamentos de Nutrologia e Hematologia-Hemoterapia da Sociedade Brasileira de Pediatria. 2018; 2: 1-12."/>
+            <Reference idx={6} body="Deficiência de vitamina D em crianças e adolescentes: Documentos Científicos. Sociedade Brasileira de Pediatria. 2014."/>
         </Section>
     </Routine>
 }

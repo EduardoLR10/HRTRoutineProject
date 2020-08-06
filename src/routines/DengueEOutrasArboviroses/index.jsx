@@ -591,9 +591,9 @@
                 </Subsection>
             </Section>
             <Section title="Referências">
-            <Reference idx={1} authors="Brasil. Ministério da Saúde." title="Dengue: diagnóstico e manejo clínico: adulto e criança. 5. ed. - Brasília: Ministério da Saúde." year="2016"/>
-            <Reference idx={2} authors="Singhi S, Kissoon N, Bansal A." title="Dengue e dengue hemorrágico: aspectos do manejo na unidade de terapia intensiva (83(2 Suppl):S22-35)." publisher="J Pediatr" local="Rio de Janeiro" year="2007"/>
-            <Reference idx={3} authors="Mourão MP, Alecrim WD, Albuquerque BC, Lacerda MV." title="Dengue. In: Lacerda, Marcus Vinícius Guimarães de - Manual de Rotinas da Fundação de Medicina Tropical do Amazonas/Marcus Vinícius Guimarães de Lacerda, Maria Paula Gomes Mourão, Antônio Mangela Tavares." local="Manaus: Fundação de Medicina Tropical do Amazonas (FMT/IMT-AM)" year="2003"/>
+            <Reference idx={1} body="Brasil. Ministério da Saúde. Dengue : diagnóstico e manejo clínico: adulto e criança. 5. ed. – Brasília : Ministério da Saúde, 2016."/>
+            <Reference idx={2} body="Singhi S, Kissoon N, Bansal A. Dengue e dengue hemorrágico: aspectos do manejo na unidade de terapia intensiva. J Pediatr (Rio J). 2007;83(2 Suppl):S22-35."/>
+            <Reference idx={3} body="Mourão MP, Alecrim WD, Albuquerque BC, Lacerda MV. Dengue. In: Lacerda, Marcus Vinícius Guimarães de - Manual de Rotinas da Fundação de Medicina Tropical do Amazonas/Marcus Vinícius Guimarães de Lacerda, Maria Paula Gomes Mourão, Antônio Magela Tavares. Manaus: Fundação de Medicina Tropical do Amazonas (FMT/IMT-AM), 2003."/>
             </Section>
         </Routine>
     }

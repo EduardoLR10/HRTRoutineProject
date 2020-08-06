@@ -18,7 +18,6 @@ export default class Coqueluche extends React.Component {
     render = () =>
       <Routine title={Coqueluche.title} category={Coqueluche.category} authors={Coqueluche.authors}>
         <Section title="Diagnóstico Clínico">
-            <P style={{fontStyle: 'italic'}}></P>
             <P>
                 Doença infecciosa aguda do trato respiratório, de alta contagiosidade, causada pela bactéria <P style={{fontStyle: 'italic'}}>Bordetella pertussis</P>, podendo também, em menor frequência, ser causada pelas <P style={{fontStyle: 'italic'}}>Bordetella parapertussis</P>, <P style={{fontStyle: 'italic'}}>Bordetella bronchiseptica</P> e <P style={{fontStyle: 'italic'}}>bordetella avium</P>.
             </P>
@@ -191,10 +190,10 @@ export default class Coqueluche extends React.Component {
             </List>
         </Section>
         <Section title="Referências">
-            <Reference idx={1} authors="Farhat CK, Carvalho LHFR, Succi RCM." title="Infectologia Pediátrica. 3ª Edição (p.291-303)." publisher="Atheneu" local="São Paulo" year="2007"/>
-            <Reference idx={2} authors="Rozov T." title="Doenças em Pediatria: Diagnóstico e Tratamento. 1ª Edição (p.288-93)." publisher="Atheneu" local="São Paulo" year="1999"/>
-            <Reference idx={3} authors="Motaa F, Cunha J." title="Coqueluche: uma revisão atual de uma antiga doença (1(2):42-46)." publisher="Bol Cient de Pediatria" year="2012"/>
-            <Reference idx={4} authors="Liphaus BL, Gonçalves MIC, Marques TR." title="Coqueluche: epidemiologia e controle (5(53):3-8)." year="2008" publisher="BEPA"/>
+            <Reference idx={1} body="Farhat CK, Carvalho LHFR, Succi RCM. Infectologia Pediátrica. 3a Edição. São Paulo: Editora Atheneu; 2007. p.291-303."/>
+            <Reference idx={2} body="Rozov T. Doenças Pulmonares em Pediatria: Diagnóstico e Tratamento. 1a Edição. São Paulo: Editora Atheneu; 1999. p.288-93."/>
+            <Reference idx={3} body="Motta F, Cunha J. Coqueluche: uma revisão atual de uma antiga doença. Bol Cient de Pediatria. 2012; 1(2):42-46."/>
+            <Reference idx={4} body="Liphaus BL, Gonçalves MIC, Marques TR. Coqueluche: epidemiologia e controle. BEPA. 2008; 5(53):3-8."/>
         </Section>
     </Routine>
 }

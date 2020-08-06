@@ -311,16 +311,16 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
         ]} />
       </Section>
       <Section title="Referências">
-        <Reference idx={1} link="http://www.fiocruz.br" />
-        <Reference idx={2} link="http://www.butantan.gov.br" />
-        <Reference idx={3} link="http://www.faunacps.cnpm.embrapa.br" />
-        <Reference idx={4} link="http://bvsms.saude.gov.br/bvs/publicacoes/funasa/manu_peconhentos.pdf" />
-        <Reference idx={5} link="http://portalms.saude.gov.br/saude-de-a-z/acidentes-por-animais-peconhentos, mar 2018." />
-        <Reference idx={6} link="http://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-por-vetores-e-zoonoses/doc/peconhentos" />
-        <Reference idx={7} link="http://www.einstein.br/einstein-saude/vida-saudavel/primeiros-socorros/Paginas/acidentes-por-animais-peconhentos.aspx" />
-        <Reference idx={8} authors="FUNDAÇÃO NACIONAL DE SAÚDE." title="Manual de Diagnóstico e Tratamento de Acidentes por Animais Peçonhentos" local="Brasília" publisher="Ministério da Saúde" year="2001" />
-        <Reference idx={9} title="Acidente por Animais Peçonhentos: Manual de rotinas" authors="Pedro Pereira de Oliveira Pardal, Maria Apolônia da Costa Gadelha" local="Belém" publisher="SESPA - Secretaria de Estado de Saúde Pública do Pará" year="2010" />
-        <Reference idx={10} title="Primeiros socorros: picadas ou mordeduras por animais peçonhentos" publisher="Albert Einstein, Sociedade Beneficente Israelita Brasileira" local="São Paulo" year="2015" />
+        <Reference idx={1} body="http://www.fiocruz.br" />
+        <Reference idx={2} body="http://www.butantan.gov.br" />
+        <Reference idx={3} body="http://www.faunacps.cnpm.embrapa.br" />
+        <Reference idx={4} body="http://bvsms.saude.gov.br/bvs/publicacoes/funasa/manu_peconhentos.pdf" />
+        <Reference idx={5} body="http://portalms.saude.gov.br/saude-de-a-z/acidentes-por-animais-peconhentos, mar 2018." />
+        <Reference idx={6} body="http://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-por-vetores-e-zoonoses/doc/peconhentos" />
+        <Reference idx={7} body="http://www.einstein.br/einstein-saude/vida-saudavel/primeiros-socorros/Paginas/acidentes-por-animais-peconhentos.aspx" />
+        <Reference idx={8} body="FUNDAÇÃO NACIONAL DE SAÚDE. Manual de Diagnóstico e Tratamento de Acidentes por Animais Peçonhentos. Brasília: Ministério da Saúde, 2001."/>
+        <Reference idx={9} body="Acidente por Animais Peçonhentos: Manual de rotinas/Pedro Pereira de Oliveira Pardal, Maria Apolônia da Costa Gadelha - Belém: SESPA - Secretaria de Estado de Saúde Pública do Pará, 2010." />
+        <Reference idx={10} body="Primeiros socorros: picadas ou mordeduras por animais peçonhentos, Albert Einstein, Sociedade Beneficente Israelita Brasileira, São Paulo, 2015."/>
       </Section>
     </Routine>
 } 
