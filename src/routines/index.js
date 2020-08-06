@@ -22,6 +22,7 @@ import CriseHipoxia from './CriseHipoxia'
 import Crupe from './Crupe'
 import DerramesPleurais from './DerramesPleurais'
 import DesconfortoRespiratorio from './DesconfortoRespiratorio'
+import DesidratacaoHipernatremica from './DesidratacaoHipernatremica'
 
 
 export default [
@@ -47,6 +48,7 @@ export default [
   DengueEOutrasArboviroses,
   DerramesPleurais,
   DesconfortoRespiratorio,
+  DesidratacaoHipernatremica,
   FebreReumatica,
   Varicela,
 ]
