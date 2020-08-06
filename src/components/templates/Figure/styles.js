@@ -3,7 +3,7 @@ import collorPallete from '../../../assets/collorPallete'
 
 export default StyleSheet.create({
   container: {
-    marginBottom: 14,
+    marginTop: 7, marginBottom: 14,
     alignItems: 'center',
   },
   topLabel: {
