@@ -7,7 +7,8 @@ import { color } from 'react-native-reanimated';
 const styles = StyleSheet.create({
   container: {
     marginBottom: 7,
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    alignItems: "center"
   },
   head: {
     padding: 5,
