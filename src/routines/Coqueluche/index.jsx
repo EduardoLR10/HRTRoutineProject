@@ -20,7 +20,7 @@ export default class Coqueluche extends React.Component {
         <Routine title={Coqueluche.title} category={Coqueluche.category} authors={Coqueluche.authors}>
             <Section title="Diagnóstico Clínico">
                 <P>
-                    Doença infecciosa aguda do trato respiratório, de alta contagiosidade, causada pela bactéria <Text style={{ fontStyle: 'italic' }}>Bordetella pertussis</Text>, podendo também, em menor frequência, ser causada pelas <Text style={{ fontStyle: 'italic' }}>Bordetella parapertussis</Text>, <P style={{ fontStyle: 'italic' }}>Bordetella bronchiseptica</P> e <P style={{ fontStyle: 'italic' }}>bordetella avium</P>.
+                    Doença infecciosa aguda do trato respiratório, de alta contagiosidade, causada pela bactéria <Text style={{ fontStyle: 'italic' }}>Bordetella pertussis</Text>, podendo também, em menor frequência, ser causada pelas <Text style={{ fontStyle: 'italic' }}>Bordetella parapertussis</Text>, <Text style={{ fontStyle: 'italic' }}>Bordetella bronchiseptica</Text> e <Text style={{ fontStyle: 'italic' }}>bordetella avium</Text>.
             </P>
             </Section>
             <Section title="Fatores de Risco">
@@ -67,7 +67,7 @@ export default class Coqueluche extends React.Component {
                     Radiografia de tórax na maioria das vezes é normal, podendo ter atelectasias variáveis, opacidades perihilares e paracardíaca (“coração felpudo”), pneumotórax e pneumomediastino.
             </P>
                 <P>
-                    Isolamento da <P style={{ fontStyle: 'italic' }}>Bordetella pertussis</P> através de cultura de secreção nasofaríngea, colhida por swab. Este exame tem baixa sensibilidade e alta especificidade, e deve ser colhida preferencialmente antes do início do tratamento ou até 72 horas após o seu início.
+                    Isolamento da <Text style={{ fontStyle: 'italic' }}>Bordetella pertussis</Text> através de cultura de secreção nasofaríngea, colhida por swab. Este exame tem baixa sensibilidade e alta especificidade, e deve ser colhida preferencialmente antes do início do tratamento ou até 72 horas após o seu início.
             </P>
             </Section>
             <Section title="Critérios de Internação">
