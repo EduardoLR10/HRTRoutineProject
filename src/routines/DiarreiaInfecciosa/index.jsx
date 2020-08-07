@@ -1,5 +1,5 @@
 import React from 'react'
-import Text from 'react-native'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -29,9 +29,9 @@ export default class DiarreiaInfecciosa extends React.Component {
             </P>
           </Section>
           <Section title="Etilogia">
-              <P style={{fontStyle: 'italic'}}></P>
+              <Text style={{fontStyle: 'italic'}}></Text>
             <P>
-                A maioria das diarreias de causa infecciosa é aguda, sendo autolimitada ou de fácil tratamento. Há poucas infecções que causam diarreia prolongada. Esta geralmente ocorre em pacientes imunocomprometidos. Em geral, os casos de diarreia infecciosa são virais (rotavírus). Já os agentes bacterianos mais prevalentes são <P style={{fontStyle: 'italic'}}>Escherichia coli</P> (principalmente a enterotoxigênica), <P style={{fontStyle: 'italic'}}>Salmonella</P>, <P style={{fontStyle: 'italic'}}>Shigella</P> e <P style={{fontStyle: 'italic'}}>Staphylococcus aureus</P> (intoxicação alimentar). Porém, considerando a população que apresenta diarreia grave e necessita de internação hospitalar, as bactérias enteroinvasivas destacam-se. A diarreia aguda com sangue (disenteria) é caracterizada pela presença de sangue nas fezes. Representa lesão na mucosa intestinal. Pode associar-se com infecção sistêmica e outras complicações, incluindo desidratação. Bactérias do gênero <P style={{fontStyle: 'italic'}}>Shigella</P> são as principais causadoras de disenteria.
+                A maioria das diarreias de causa infecciosa é aguda, sendo autolimitada ou de fácil tratamento. Há poucas infecções que causam diarreia prolongada. Esta geralmente ocorre em pacientes imunocomprometidos. Em geral, os casos de diarreia infecciosa são virais (rotavírus). Já os agentes bacterianos mais prevalentes são <Text style={{fontStyle: 'italic'}}>Escherichia coli</Text> (principalmente a enterotoxigênica), <Text style={{fontStyle: 'italic'}}>Salmonella</Text>, <Text style={{fontStyle: 'italic'}}>Shigella</Text> e <Text style={{fontStyle: 'italic'}}>Staphylococcus aureus</Text> (intoxicação alimentar). Porém, considerando a população que apresenta diarreia grave e necessita de internação hospitalar, as bactérias enteroinvasivas destacam-se. A diarreia aguda com sangue (disenteria) é caracterizada pela presença de sangue nas fezes. Representa lesão na mucosa intestinal. Pode associar-se com infecção sistêmica e outras complicações, incluindo desidratação. Bactérias do gênero <Text style={{fontStyle: 'italic'}}>Shigella</Text> são as principais causadoras de disenteria.
             </P>
           </Section>
           <Section title="Patogênese">
@@ -58,7 +58,7 @@ export default class DiarreiaInfecciosa extends React.Component {
             </Subsection>
             <Subsection title="Diarréia Invasiva">
                 <P>
-                    O principal mecanismo de ação consiste na invasão do epitélio intestinal. Enquanto os organismos toxigênicos caracteristicamente envolvem o intestino delgado superior, os patógenos invasivos têm como alvo o intestino inferior (íleo distal e colon). Os principais representantes desse grupo são <P style={{fontStyle: 'italic'}}>Salmonella</P>, <P style={{fontStyle: 'italic'}}>Shigella</P>, <P style={{fontStyle: 'italic'}}>E. coli</P> enteroinvasiva (EIEC), <P style={{fontStyle: 'italic'}}>Campylobacter</P> e <P style={{fontStyle: 'italic'}}>Yersinia</P>.
+                    O principal mecanismo de ação consiste na invasão do epitélio intestinal. Enquanto os organismos toxigênicos caracteristicamente envolvem o intestino delgado superior, os patógenos invasivos têm como alvo o intestino inferior (íleo distal e colon). Os principais representantes desse grupo são <Text style={{fontStyle: 'italic'}}>Salmonella</Text>, <Text style={{fontStyle: 'italic'}}>Shigella</Text>, <Text style={{fontStyle: 'italic'}}>E. coli</Text> enteroinvasiva (EIEC), <Text style={{fontStyle: 'italic'}}>Campylobacter</Text> e <Text style={{fontStyle: 'italic'}}>Yersinia</Text>.
                 </P>
             </Subsection>
           </Section>
@@ -95,10 +95,10 @@ export default class DiarreiaInfecciosa extends React.Component {
                 </LItem>
             </List>
             <P>
-                Um achado importante para o diagnóstico é a febre, pois sugere infecção por bactérias invasivas (p. ex., <P style={{fontStyle: 'italic'}}>Salmonella</P> sp. <P style={{fontStyle: 'italic'}}>Shigella</P> sp. ou <P style={{fontStyle: 'italic'}}>Campylobacter</P> sp.), vírus entéricos ou organismos citotóxicos, como <P style={{fontStyle: 'italic'}}>Clostridium difficile</P> ou <P style={{fontStyle: 'italic'}}>Entamoeba histolytica</P>. A história alimentar também pode proporcionar indícios para o diagnóstico. O consumo de produtos lácteos não pasteurizados, carnes cruas ou peixe, preparações orgânicas de vitaminas podem sugerir certos patógenos. Também é necessário questionar sobre o uso recente de antibióticos ou de outras medicações e obter uma história médica completa.
+                Um achado importante para o diagnóstico é a febre, pois sugere infecção por bactérias invasivas (p. ex., <Text style={{fontStyle: 'italic'}}>Salmonella</Text> sp. <Text style={{fontStyle: 'italic'}}>Shigella</Text> sp. ou <Text style={{fontStyle: 'italic'}}>Campylobacter</Text> sp.), vírus entéricos ou organismos citotóxicos, como <Text style={{fontStyle: 'italic'}}>Clostridium difficile</Text> ou <Text style={{fontStyle: 'italic'}}>Entamoeba histolytica</Text>. A história alimentar também pode proporcionar indícios para o diagnóstico. O consumo de produtos lácteos não pasteurizados, carnes cruas ou peixe, preparações orgânicas de vitaminas podem sugerir certos patógenos. Também é necessário questionar sobre o uso recente de antibióticos ou de outras medicações e obter uma história médica completa.
             </P>
             <P>
-                A investigação deve ser realizada por meio do exame de fezes com coprocultura, hemograma e bioquímica (função renal e eletrólitos). Em caso de uso recente de antibióticos, deve-se pesquisar a toxina do <P style={{fontStyle: 'italic'}}>Clostridium difficile</P> pelo método Elisa direto nas fezes. O exame parasitológico de fezes (EPF) faz parte da rotina, visando à pesquisa de protozoários.
+                A investigação deve ser realizada por meio do exame de fezes com coprocultura, hemograma e bioquímica (função renal e eletrólitos). Em caso de uso recente de antibióticos, deve-se pesquisar a toxina do <Text style={{fontStyle: 'italic'}}>Clostridium difficile</Text> pelo método Elisa direto nas fezes. O exame parasitológico de fezes (EPF) faz parte da rotina, visando à pesquisa de protozoários.
             </P>
             <Figure source={img1}/>
           </Section>
@@ -118,7 +118,7 @@ export default class DiarreiaInfecciosa extends React.Component {
                 Geralmente opta-se pela solução para reidratação oral, contendo 1 L de água potável, 3,5 g de NaCl, 20 g de glicose ou 40 g de sacarose, 1,5 g de KCl e 3 g de bicarbonato ou citrato de sódio. Os soros formulados pela Organização Mundial de Saúde contêm essa proporção e são bastante práticos. Em casos mais graves, a hidratação venosa é necessária.
             </P>
             <P>
-                O uso de antibióticos na diarreia aguda está restrito aos pacientes que apresentam diarreia com sangue nas fezes (disenteria), na cólera, na infecção aguda comprovada por <P style={{fontStyle: 'italic'}}>Giardia lamblia</P> ou <P style={{fontStyle: 'italic'}}>Entamoeba hystolitica</P>, em imunossuprimidos, nos pacientes com anemia falciforme e nas crianças com sinais de disseminação bacteriana extraintestinal. Nos casos de disenteria, a antibioticoterapia está indicada, especialmente quando o paciente apresenta febre e comprometimento do estado geral. Deve ser coletada amostra de fezes para realização de coprocultura e antibiograma sempre que possível, antes de iniciar a terapia específica.
+                O uso de antibióticos na diarreia aguda está restrito aos pacientes que apresentam diarreia com sangue nas fezes (disenteria), na cólera, na infecção aguda comprovada por <Text style={{fontStyle: 'italic'}}>Giardia lamblia</Text> ou <Text style={{fontStyle: 'italic'}}>Entamoeba hystolitica</Text>, em imunossuprimidos, nos pacientes com anemia falciforme e nas crianças com sinais de disseminação bacteriana extraintestinal. Nos casos de disenteria, a antibioticoterapia está indicada, especialmente quando o paciente apresenta febre e comprometimento do estado geral. Deve ser coletada amostra de fezes para realização de coprocultura e antibiograma sempre que possível, antes de iniciar a terapia específica.
             </P>
             <Subsection title="Por via ORAL">
                 <Subsubsection title="1ª escolha">
