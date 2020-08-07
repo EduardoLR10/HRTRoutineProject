@@ -572,7 +572,7 @@ export default class DengueEOutrasArboviroses extends React.Component {
                             <Subsubsection title="Após a fase rápida, prescrever hidratação venosa de manutenção acrescentando 30% a mais de volume conforme a tabela abaixo. Nessa hidratação de manutenção, calcular a quantidade de sódio seguindo as orientações clássicas (5 ml de NaCl a 20% para cada 500 mL de solução glicosada a 5%) em formulação hipotônica em vez de isotônica;">
                             </Subsubsection>
                             <Table head={['Peso Corporal', 'Volumes para crianças sem dengue', 'Volume para crianças com dengue']} data={[
-                                ['Até 10 kg', '100 ml/kg', '4 - 8', 'Acrescentar 30% a mais'],
+                                ['Até 10 kg', '100 ml/kg', 'Acrescentar 30% a mais'],
                                 ['11 - 20 kg', '1000 ml + 50 ml/kg por Kg > 10 kg', 'Acrescentar 30% a mais'],
                                 ['> 20 kg', '1500 ml + 20 ml/kg por Kg > 20 kg (máx 2400 ml/dia)', 'Acrescentar 30% a mais'],
                             ]} />

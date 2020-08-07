@@ -13,7 +13,7 @@ import ArtritesAbordagemInicial from './ArtritesAbordagemInicial'
 import AlimentacaoNos2PrimeirosAnosDeVida from './AlimentacaoNos2PrimeirosAnosDeVida'
 import AnemiaFerropriva from './AnemiaFerropriva'
 import ArtriteReativa from './ArtritesReativas'
-import CetoacidoseDiabetica from './CetoacidoeDiabetica'
+import CetoacidoseDiabetica from './CetoacidoseDiabetica'
 import ChoqueSeptico from './ChoqueSeptico'
 import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
 import ConvulsaoFebril from './ConvulsaoFebril'
@@ -22,6 +22,10 @@ import CriseHipoxia from './CriseHipoxia'
 import Crupe from './Crupe'
 import DerramesPleurais from './DerramesPleurais'
 import DesconfortoRespiratorio from './DesconfortoRespiratorio'
+import DesidratacaoHipernatremica from './DesidratacaoHipernatremica'
+import DiarreiasAgudas from './DiarreisAgudas'
+import DiarreiaInfecciosa from './DiarreiaInfecciosa'
+import DisturbioMetabolico from './DisturbioMetabolico'
 
 
 export default [
@@ -47,6 +51,10 @@ export default [
   DengueEOutrasArboviroses,
   DerramesPleurais,
   DesconfortoRespiratorio,
+  DesidratacaoHipernatremica,
+  DiarreiasAgudas,
+  DiarreiaInfecciosa,
+  DisturbioMetabolico,
   FebreReumatica,
   Varicela,
 ]
