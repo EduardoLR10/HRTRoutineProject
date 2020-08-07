@@ -25,6 +25,7 @@ import DesconfortoRespiratorio from './DesconfortoRespiratorio'
 import DesidratacaoHipernatremica from './DesidratacaoHipernatremica'
 import DiarreiasAgudas from './DiarreisAgudas'
 import DiarreiaInfecciosa from './DiarreiaInfecciosa'
+import DisturbioMetabolico from './DisturbioMetabolico'
 
 
 export default [
@@ -53,6 +54,7 @@ export default [
   DesidratacaoHipernatremica,
   DiarreiasAgudas,
   DiarreiaInfecciosa,
+  DisturbioMetabolico,
   FebreReumatica,
   Varicela,
 ]

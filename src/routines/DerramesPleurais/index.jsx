@@ -113,5 +113,11 @@ export default class DerramesPleurais extends React.Component {
                 A maioria dos pacientes têm resolução completa do espessamento pleural residual em até 6 meses após o diagnóstico. Todos os pacientes que tiveram Pneumonias com Derrame Pleural devem fazer acompanhamento ambulatorial até a resolução completa da patologia.
             </P>
           </Section>
+          <Section title="Referências">
+            <Reference idx={1} body="AMORIM, Lenisse Estelle Abrantes Gonçalves et al. Abordagem do derrame pleural parapneumônico em crianças sob a forma de mapa conceitual. Belo Horizonte, 1986. Disponível em: http://www.dx.doi.org/10.5935/2238-3182.20160055. Acesso em: 2 jul. 2019."/>
+            <Reference idx={2} body="GENOFRE, Eduardo et al. Derrame pleural de origem indeterminada. São Paulo, Aug. 2006. Disponível em: http://dx.doi.org/10.1590/S1806-37132006000900007. Acesso em: 2 jul. 2019."/>
+            <Reference idx={3} body="JUNIOR, Arthur Soares de Souza. Curso de diagnóstico por imagem do tórax:Capítulo II - Imagenologia da pleura. São Paulo, 1999. Disponível em: http://dx.doi.org/10.1590/S0102-35861999000200007. Acesso em: 2 jul. 2019."/>
+            <Reference idx={4} body="MARANHÃO, Bernardo Henrique Ferraz et al. Dosagem de proteínas totais e desidrogenase lática para o diagnóstico de transudatos e exsudatos pleurais: redefinindo o critério clássico com uma nova abordagem estatística. Rio de Janeiro, 2010. Disponível em: https://www.jornaldepneumologia.com.br/detalhe_artigo.asp?id=1188. Acesso em: 2 jul. 2020."/>
+            </Section>
     </Routine>
 }
