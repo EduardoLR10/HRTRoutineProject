@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -21,7 +22,7 @@ export default class DerramesPleurais extends React.Component {
               Rotina que descreve abordagem de pacientes com pneumonia com derrame pleural na pediatria do HRT.
           </P>
           <P>
-            Os principais agentes etiológicos envolvidos no derrame pleural parapneumônico são: o <P style={{fontStyle: 'italic'}}>Streptococcus pneumoniae</P>, mantendo-se como o mais comum; o <P style={{fontStyle: 'italic'}}>Staphylococcus aureus</P>, com aumento das cepas meticilino-resistentes em algumas casuísticas; o <P style={{fontStyle: 'italic'}}>Streptococcus pyogenes</P>, chegando a estar entre os cinco agentes mais comuns em alguns estudos; e o <P style={{fontStyle: 'italic'}}>Haemophilus influenzae</P>. Na pneumonia por <P style={{fontStyle: 'italic'}}>Mycoplasma pneumoniae</P> o derrame parapneumônico costuma ser de diminuto volume, geralmente nem chega a ser puncionável e costuma ocorrer em crianças mais velhas na faixa etária do escolar e adolescente.
+            Os principais agentes etiológicos envolvidos no derrame pleural parapneumônico são: o <Text style={{fontStyle: 'italic'}}>Streptococcus pneumoniae</Text>, mantendo-se como o mais comum; o <Text style={{fontStyle: 'italic'}}>Staphylococcus aureus</Text>, com aumento das cepas meticilino-resistentes em algumas casuísticas; o <Text style={{fontStyle: 'italic'}}>Streptococcus pyogenes</Text>, chegando a estar entre os cinco agentes mais comuns em alguns estudos; e o <Text style={{fontStyle: 'italic'}}>Haemophilus influenzae</Text>. Na pneumonia por <Text style={{fontStyle: 'italic'}}>Mycoplasma pneumoniae</Text> o derrame parapneumônico costuma ser de diminuto volume, geralmente nem chega a ser puncionável e costuma ocorrer em crianças mais velhas na faixa etária do escolar e adolescente.
           </P>
           <P>
             Pode evoluir como transudato ou exsudato, além de ter a característica de derrame pleural purulento (empiema).

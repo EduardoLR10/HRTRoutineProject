@@ -61,7 +61,7 @@ export default class Crupe extends React.Component {
             </Subsection>
             <Subsection title="Etiologia">
                 <P>
-                    A etiologia viral de crupe é a mais comum, sendo os principais agentes os vírus parainfluenza (tipos 1, 2 e 3) (70-75% dos casos), influenza A e B, vírus sincicial respiratório e adenovírus. Em crianças maiores de 5 anos tem importância etiológica o <P style={{fontStyle: 'italic'}}>Mycoplasma pneumoniae</P>. Dentre os agentes bacterianos causadores de infecção secundária, destacam-se <P style={{fontStyle: 'italic'}}>S. aureus</P>, <P style={{fontStyle: 'italic'}}>S. pyogenes</P> e <P style={{fontStyle: 'italic'}}>S. pneumoniae</P>.
+                    A etiologia viral de crupe é a mais comum, sendo os principais agentes os vírus parainfluenza (tipos 1, 2 e 3) (70-75% dos casos), influenza A e B, vírus sincicial respiratório e adenovírus. Em crianças maiores de 5 anos tem importância etiológica o <Text style={{fontStyle: 'italic'}}>Mycoplasma pneumoniae</Text>. Dentre os agentes bacterianos causadores de infecção secundária, destacam-se <Text style={{fontStyle: 'italic'}}>S. aureus</Text>, <Text style={{fontStyle: 'italic'}}>S. pyogenes</Text> e <Text style={{fontStyle: 'italic'}}>S. pneumoniae</Text>.
                 </P>
             </Subsection>
             <Subsection title="Quadro Clínico">
