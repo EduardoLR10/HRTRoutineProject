@@ -27,6 +27,7 @@ import DiarreiasAgudas from './DiarreisAgudas'
 import DiarreiaInfecciosa from './DiarreiaInfecciosa'
 import DisturbioMetabolico from './DisturbioMetabolico'
 import DisturbiosAcidoBase from './DisturbiosAcidoBase'
+import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 
 
 export default [
@@ -57,6 +58,7 @@ export default [
   DiarreiaInfecciosa,
   DisturbioMetabolico,
   DisturbiosAcidoBase,
+  DisturbiosEletroliticos,
   FebreReumatica,
   Varicela,
 ]
