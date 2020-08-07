@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -203,9 +204,9 @@ export default class CetoacidoseDiabetica extends React.Component {
                     Manter o potássio sérico entre 4 e 5 mEq/l.
                 </P>
                 <Subsubsection title="Exemplo">
-                    <P style={{fontWeight: 'bold'}}>
+                    <Text style={{fontWeight: 'bold'}}>
                         Déficit (ml) = [Grau de desidratação (%) x 10 x Peso (Kg)]
-                    </P>
+                    </Text>
                     <P>
                         Lactente de 10 Kg, desidratação grave (15%) / Déficit = 15% x 10 x 10 Kg = 1.500 ml.
                     </P>
@@ -226,9 +227,9 @@ export default class CetoacidoseDiabetica extends React.Component {
                     <P>
                         Assim, o volume de líquido a ser infundido nas próximas 24 horas:
                     </P>
-                    <P style={{fontWeight: 'bold'}}>
+                    <Text style={{fontWeight: 'bold'}}>
                         (HOLLIDAY) = 1.000 ml + D corrigido (1000 ml) = 2.000 ml/ 24 horas
-                    </P>
+                    </Text>
                 </Subsubsection>
                 <Table head={['-', 'Necessidade diária (HOLLIDAY)']} data={[
                 ['Água', '< 10 kg: 100 ml/kg/24h\n11-20 kg: 1000 ml + 50 ml/kg/24h\n>21 kg: 1500 ml + 20 ml/kg/24h'],
@@ -372,15 +373,15 @@ export default class CetoacidoseDiabetica extends React.Component {
                 <P>
                     Na enfermaria, serão feitos ajustes para uso de insulina bolus (dose fixa + correção) .
                 </P>
-                <P style={{fontWeight: 'bold'}}>
+                <Text style={{fontWeight: 'bold'}}>
                     EM CASO DE FALTA DE INSULINA RÁPIDA, USAR INSULINA REGULAR.
-                </P>
+                </Text>
             </Section>
           </Section>
           <Section title="DOSE TOTAL DIÁRIA DE INÍCIO">
-            <P style={{fontWeight: 'bold'}}>
+            <Text style={{fontWeight: 'bold'}}>
                 Menores de 6 anos (0,3-0,5 ui/kg/dia) / 6-10 anos (0,5-1,0 ui/kg/dia) / {'>'} 10 anos (1,0-1,2 ui/kg/dia).
-            </P>
+            </Text>
           </Section>
           <Section title="Resumo do Tratamento da CAD">
             <Table head={['Hora', 'Hidratação', 'Insulina', 'Potássio', 'Bicarbonato', 'Exames']} data={[

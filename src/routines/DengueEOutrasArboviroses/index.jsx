@@ -30,7 +30,7 @@ export default class DengueEOutrasArboviroses extends React.Component {
             </Section>
             <Section title="Etiologia">
                 <P>
-                    Vírus RNA da família <P style={{ fontStyle: 'italic' }}>Flaviviridae</P> (febre amarela, dengue e zika) e <P style={{ fontStyle: 'italic' }}>Togaviridae</P> (Chikungunya – gênero <P style={{ fontStyle: 'italic' }}>alphavirus</P>)
+                    Vírus RNA da família <Text style={{ fontStyle: 'italic' }}>Flaviviridae</Text> (febre amarela, dengue e zika) e <Text style={{ fontStyle: 'italic' }}>Togaviridae</Text> (Chikungunya – gênero <Text style={{ fontStyle: 'italic' }}>alphavirus</Text>)
                 </P>
             </Section>
             <Section title="Febre Amarela">
@@ -46,10 +46,10 @@ export default class DengueEOutrasArboviroses extends React.Component {
                     <Subsubsection title="Possui duplo comportamento epidemiológico nas américas">
                         <List>
                             <LItem>
-                                Febre amarela silvestre: macacos são o principal reservatório e os vetores são mosquitos dos gêneros <P style={{ fontStyle: 'italic' }}>Haemagogus</P> e <P style={{ fontStyle: 'italic' }}>Sabethes</P>; o ser humano não vacinado contrai a doença acidentalmente ao entrar na mata;
+                                Febre amarela silvestre: macacos são o principal reservatório e os vetores são mosquitos dos gêneros <Text style={{ fontStyle: 'italic' }}>Haemagogus</Text> e <Text style={{ fontStyle: 'italic' }}>Sabethes</Text>; o ser humano não vacinado contrai a doença acidentalmente ao entrar na mata;
                             </LItem>
                             <LItem>
-                                Febre amarela urbana: o ciclo ocorre entre um ser humano e outro, sendo que o vetor principal é o <P style={{ fontStyle: 'italic' }}>Aedes aegypti</P> e até 1942 existia como endemia no Brasil, com grande mortalidade.
+                                Febre amarela urbana: o ciclo ocorre entre um ser humano e outro, sendo que o vetor principal é o <Text style={{ fontStyle: 'italic' }}>Aedes aegypti</Text> e até 1942 existia como endemia no Brasil, com grande mortalidade.
                             </LItem>
                         </List>
                     </Subsubsection>

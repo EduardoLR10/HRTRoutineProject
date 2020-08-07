@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -22,17 +23,17 @@ export default class AlimentacaoNos2PrimeirosAnosDeVida extends React.Component 
     render = () =>
       <Routine title={AlimentacaoNos2PrimeirosAnosDeVida.title} category={AlimentacaoNos2PrimeirosAnosDeVida.category} authors={AlimentacaoNos2PrimeirosAnosDeVida.authors}>
           <Section title="0-6 Meses">
-            <P style={{fontWeight: 'bold'}}>
+            <Text style={{fontWeight: 'bold'}}>
                 Aleitamento materno exclusivo (sem água, chás ou quaisquer outros alimentos).
-            </P>
+            </Text>
             <P>
                 Em livre demanda, ou seja, todas as vezes que quiser, sem horários fixos e determinados. Depois de esvaziar a primeira mama, a mãe deve oferecer-lhe a segunda. O tempo de esvaziamento da mama é variável para cada criança.
             </P>
           </Section>
           <Section title="A partir dos 6 meses">
-            <P style={{fontWeight: 'bold'}}>
+            <Text style={{fontWeight: 'bold'}}>
                 Introduzir de forma lenta e gradual outros alimentos, mantendo o leite materno até os 2 anos de idade ou mais.
-            </P>
+            </Text>
             <P>
                 Nesta idade, a maioria das crianças atinge estágio de desenvolvimento com maturidade fisiológica e neurológica e atenuação do reflexo de protrusão da língua, o que facilita a ingestão. As enzimas digestivas são produzidas em quantidades suficientes, razão que habilita as crianças a receber outros alimentos além do leite materno. 
             </P>

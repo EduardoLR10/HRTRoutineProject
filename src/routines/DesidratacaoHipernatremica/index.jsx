@@ -43,7 +43,7 @@ export default class DesidratacaoHipernatremica extends React.Component {
                 Diagnóstico diferencial:
             </P>
             <P>
-                Sepsis neonatal/<P style={{fontStyle:'italic'}}>Kernicterus</P>/Doença metabólica.
+                Sepsis neonatal/<Text style={{fontStyle:'italic'}}>Kernicterus</Text>/Doença metabólica.
             </P>
           </Section>
           <Section title="Fatores de Risco">

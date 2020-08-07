@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -81,13 +82,13 @@ export default class DesconfortoRespiratorio extends React.Component {
             ]} label="* batimento de asa nasal"/>
             <List>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Leve:</P> 1 a 3 pontos.
+                    <Text style={{fontWeight: 'bold'}}>Leve:</Text> 1 a 3 pontos.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Moderado:</P> 4 a 7 pontos.
+                    <Text style={{fontWeight: 'bold'}}>Moderado:</Text> 4 a 7 pontos.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Grave:</P> maior que 8 pontos.
+                    <Text style={{fontWeight: 'bold'}}>Grave:</Text> maior que 8 pontos.
                 </LItem>
             </List>
           </Section>
@@ -227,21 +228,21 @@ export default class DesconfortoRespiratorio extends React.Component {
           </Section>
           <Section title="Considerações sobre as Modalidades Terapêuticas">
             <Subsection title="Oxigenioterapia">
-                <P style={{fontSize: 6}}></P>
+                <Text style={{fontSize: 6}}></Text>
                 <P>
-                    É o principal ponto do nosso tratamento. No primeiro grupo, onde a sintomatologia é mais leve, a oxigênioterapia será descontrolada, onde a FiO<P style={{fontSize: 6}}>2</P> administrada é desconhecida. Será ofertado O<P style={{fontSize: 6}}>2</P> por cateter nasal com fluxo de um a três litros por minuto.
+                    É o principal ponto do nosso tratamento. No primeiro grupo, onde a sintomatologia é mais leve, a oxigênioterapia será descontrolada, onde a FiO<Text style={{fontSize: 6}}>2</Text> administrada é desconhecida. Será ofertado O<Text style={{fontSize: 6}}>2</Text> por cateter nasal com fluxo de um a três litros por minuto.
                 </P>
                 <P>
-                    Sempre que o desconforto é mais importante, Wood Downes maior que sete, seja na chegada ou na evolução da criança, teremos que instituir oxigênioterapia controlada, onde a FiO<P style={{fontSize: 6}}>2</P> será conhecida. Para isto temos que iniciar a administração de O<P style={{fontSize: 6}}>2</P> em uma Oxitenda ou em uma máscara de Venturi. A oxitenda exige além do O<P style={{fontSize: 6}}>2</P>, uma canulação de ar comprimido e um misturador de gases. A máscara de Venturi necessita apenas de oxigênio. O O<P style={{fontSize: 6}}>2</P> controlado é iniciado com uma FiO<P style={{fontSize: 6}}>2</P> de 50%, podendo chegar até 60 e no máximo 70%.
+                    Sempre que o desconforto é mais importante, Wood Downes maior que sete, seja na chegada ou na evolução da criança, teremos que instituir oxigênioterapia controlada, onde a FiO<Text style={{fontSize: 6}}>2</Text> será conhecida. Para isto temos que iniciar a administração de O<Text style={{fontSize: 6}}>2</Text> em uma Oxitenda ou em uma máscara de Venturi. A oxitenda exige além do O<Text style={{fontSize: 6}}>2</Text>, uma canulação de ar comprimido e um misturador de gases. A máscara de Venturi necessita apenas de oxigênio. O O<Text style={{fontSize: 6}}>2</Text> controlado é iniciado com uma FiO<Text style={{fontSize: 6}}>2</Text> de 50%, podendo chegar até 60 e no máximo 70%.
                 </P>
                 <P>
-                    Após a instituição do O<P style={{fontSize: 6}}>2</P> controlado, indicaremos coleta gasométrica que nos orientará a progressão ou não da assistência respiratória.
+                    Após a instituição do O<Text style={{fontSize: 6}}>2</Text> controlado, indicaremos coleta gasométrica que nos orientará a progressão ou não da assistência respiratória.
                 </P>
                 <P>
-                    Se a gasometria se mostrar satisfatória, mantemos a conduta. Se a gasometria mostrar hipoxemia, representa que a criança necessita de algo mais que O<P style={{fontSize: 6}}>2</P>: Pressão.
+                    Se a gasometria se mostrar satisfatória, mantemos a conduta. Se a gasometria mostrar hipoxemia, representa que a criança necessita de algo mais que O<Text style={{fontSize: 6}}>2</Text>: Pressão.
                 </P>
                 <P>
-                    Instituiremos assim o CPAP nasal (modalidade de ventilação não invasiva composta de pressão contínua com pressão positiva aumentada no fim da expiração), com a FiO<P style={{fontSize: 6}}>2</P> da indicação e um PEEP, variando de 5 a 10 cm de H<P style={{fontSize: 6}}>2</P>O.
+                    Instituiremos assim o CPAP nasal (modalidade de ventilação não invasiva composta de pressão contínua com pressão positiva aumentada no fim da expiração), com a FiO<Text style={{fontSize: 6}}>2</Text> da indicação e um PEEP, variando de 5 a 10 cm de H<Text style={{fontSize: 6}}>2</Text>O.
                 </P>
                 <P>
                     Se a gasometria mostrar hipercapnia, mais de 65, isolada ou acompanhada de hipoxemia indicaremos o BIPAP (modalidade de VNI onde além da pressão positiva no fim da expiração, oferece  pressão inspiratória positiva). Tem interface de máscara ou cânula nasal e pode ser feito tanto em máquina portátil quanto no respirador.
@@ -250,7 +251,7 @@ export default class DesconfortoRespiratorio extends React.Component {
                     Se após a instituição da ventilação não invasiva a criança não mostrar melhora clínica e\ou gasométrica, indicaremos a entubação e ventilação mecânica.
                 </P>
                 <P>
-                    Devemos sempre ressaltar que tanto o oxigênio puro quanto as modalidades com pressão positiva, invasivas ou não podem trazer malefícios ao nosso lactente, portanto devemos atuar sempre que possível minimizando a FiO<P style={{fontSize: 6}}>2</P> e as pressões por nós oferecidas.
+                    Devemos sempre ressaltar que tanto o oxigênio puro quanto as modalidades com pressão positiva, invasivas ou não podem trazer malefícios ao nosso lactente, portanto devemos atuar sempre que possível minimizando a FiO<Text style={{fontSize: 6}}>2</Text> e as pressões por nós oferecidas.
                 </P>
             </Subsection>
             <Subsection title="Broncodilatadores">
@@ -324,7 +325,7 @@ export default class DesconfortoRespiratorio extends React.Component {
                         Secreções de aspecto purulento;
                     </LItem>
                     <LItem>
-                        Hipoatividade, dificuldade de sucção, mesmo com boa saturação de O<P style={{fontSize: 6}}>2</P>;
+                        Hipoatividade, dificuldade de sucção, mesmo com boa saturação de O<Text style={{fontSize: 6}}>2</Text>;
                     </LItem>
                     <LItem>
                         Co morbidades agravantes já relatadas;
@@ -404,7 +405,7 @@ export default class DesconfortoRespiratorio extends React.Component {
             </Subsection>
             <Subsection title="Oxigênio Terapia Nasal de Alto Fluxo">
                 <P>
-                    O cateter ou cânula nasal de alto fluxo (CNAF) é um método não invasivo de suporte ventilatório que em diversos estudos mostram evidências de efeitos benéficos naquela criança que não melhorou com o O<P style={{fontSize: 6}}>2</P> simples controlado. Nestes estudos houve melhora da hipoxemia, conseguindo oferecer ao paciente uma melhor oxigenação e um pico de pressão expiratória positiva. 
+                    O cateter ou cânula nasal de alto fluxo (CNAF) é um método não invasivo de suporte ventilatório que em diversos estudos mostram evidências de efeitos benéficos naquela criança que não melhorou com o O<Text style={{fontSize: 6}}>2</Text> simples controlado. Nestes estudos houve melhora da hipoxemia, conseguindo oferecer ao paciente uma melhor oxigenação e um pico de pressão expiratória positiva. 
                 </P>
                 <P>
                     Esta modalidade se tornou uma alternativa ao CPAP nasal com menos efeitos colaterais. Ainda estão em andamento estudos mais aprofundados, porém as expectativas são ótimas.
@@ -453,7 +454,7 @@ export default class DesconfortoRespiratorio extends React.Component {
                 Nossas recomendações ratificam, sempre que possível, a coleta do painel viral.
             </P>
             <P>
-                Nosso principal critério para a alta hospitalar é a estabilização do quadro respiratório sem oxigênio, mantendo saturação estável de O<P style={{fontSize: 6}}>2</P>, acima de 92%, além de estar com aceitação de 75% das necessidades basais de sua alimentação, por via oral.
+                Nosso principal critério para a alta hospitalar é a estabilização do quadro respiratório sem oxigênio, mantendo saturação estável de O<Text style={{fontSize: 6}}>2</Text>, acima de 92%, além de estar com aceitação de 75% das necessidades basais de sua alimentação, por via oral.
             </P>
             <P>
                 A alta definitiva somente é lavrada após a exaustiva orientação familiar, sendo marcado pelo menos um retorno obrigatório, depois de sete dias no domicílio.
