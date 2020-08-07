@@ -81,13 +81,13 @@ export default class DesconfortoRespiratorio extends React.Component {
             ]} label="* batimento de asa nasal"/>
             <List>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Leve:</P> 1 a 3 pontos.
+                    <Text style={{fontWeight: 'bold'}}>Leve:</Text> 1 a 3 pontos.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Moderado:</P> 4 a 7 pontos.
+                    <Text style={{fontWeight: 'bold'}}>Moderado:</Text> 4 a 7 pontos.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Grave:</P> maior que 8 pontos.
+                    <Text style={{fontWeight: 'bold'}}>Grave:</Text> maior que 8 pontos.
                 </LItem>
             </List>
           </Section>

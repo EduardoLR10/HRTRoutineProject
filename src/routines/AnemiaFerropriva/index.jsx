@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -124,10 +125,10 @@ export default class AnemiaFerropriva extends React.Component {
                 Orientação nutricional para o consumo de alimentos fonte. 
             </P>
             <P>
-                Reposição de ferro - por via oral - com dose terapêutica de <P style={{fontWeight: 'bold'}}>3 a 5 mg/kg/dia de ferro elementar (fracionado ou em dose única)</P> para crianças <P style={{fontWeight: 'bold'}}>por mínimo de oito semanas.A suplementação deve ser continuada visando a reposição dos estoques de ferro,</P>  o que <P style={{fontWeight: 'bold'}}>varia entre 2 a 6 meses ou até obtenção de ferritina sérica {'>'} 15μg/dL</P> (ressalvando a importância de que o valor alcance os valores esperados entre 30 e 300μg/dL). 
+                Reposição de ferro - por via oral - com dose terapêutica de <Text style={{fontWeight: 'bold'}}>3 a 5 mg/kg/dia de ferro elementar (fracionado ou em dose única)</Text> para crianças <Text style={{fontWeight: 'bold'}}>por mínimo de oito semanas.A suplementação deve ser continuada visando a reposição dos estoques de ferro,</Text>  o que <Text style={{fontWeight: 'bold'}}>varia entre 2 a 6 meses ou até obtenção de ferritina sérica {'>'} 15μg/dL</Text> (ressalvando a importância de que o valor alcance os valores esperados entre 30 e 300μg/dL). 
             </P>
             <P>
-                Dentre os diversos tipos de sais de ferro disponíveis para a suplementação destacam-se o sulfato ferroso, o fumarato ferroso e o gluconato ferroso. Por sofrer influência dos componentes dietéticos, a suplementação com sais de ferro deve ser realizada <P style={{fontWeight: 'bold'}}>longe das refeições, recomendando-se a tomada em jejum, 1h antes das refeições ou antes de dormir.</P>
+                Dentre os diversos tipos de sais de ferro disponíveis para a suplementação destacam-se o sulfato ferroso, o fumarato ferroso e o gluconato ferroso. Por sofrer influência dos componentes dietéticos, a suplementação com sais de ferro deve ser realizada <Text style={{fontWeight: 'bold'}}>longe das refeições, recomendando-se a tomada em jejum, 1h antes das refeições ou antes de dormir.</Text>
             </P>
           </Section>
           <Section title="Seguimento Clínico">

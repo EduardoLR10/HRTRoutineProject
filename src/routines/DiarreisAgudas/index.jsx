@@ -1,5 +1,5 @@
 import React from 'react'
-import Text from 'react-native'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
@@ -53,19 +53,19 @@ export default class DiarreiasAgudas extends React.Component {
             </P>
             <List>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Vírus</P> - Rotavírus, coronavírus, adenovírus,calicivírus, astrovírus.
+                    <Text style={{fontWeight: 'bold'}}>Vírus</Text> - Rotavírus, coronavírus, adenovírus,calicivírus, astrovírus.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Bactérias</P> - E coli enteropatogênica, clássica, enterotoxigênica, enterohemorrágica, enteroinvasiva, Salmonella, Shigella, etc.
+                    <Text style={{fontWeight: 'bold'}}>Bactérias</Text> - E coli enteropatogênica, clássica, enterotoxigênica, enterohemorrágica, enteroinvasiva, Salmonella, Shigella, etc.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Parasitos</P> - Entamoeba histolytica, Giardia lamblia, Isospora, criptospodium.
+                    <Text style={{fontWeight: 'bold'}}>Parasitos</Text> - Entamoeba histolytica, Giardia lamblia, Isospora, criptospodium.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Fungos</P> - Candida albicans.
+                    <Text style={{fontWeight: 'bold'}}>Fungos</Text> - Candida albicans.
                 </LItem>
                 <LItem>
-                    <P style={{fontWeight: 'bold'}}>Alimentares</P> - APLV, deficiência de lactase, uso de laxantes, antibióticos, etc.
+                    <Text style={{fontWeight: 'bold'}}>Alimentares</Text> - APLV, deficiência de lactase, uso de laxantes, antibióticos, etc.
                 </LItem>
             </List>
           </Section>
@@ -124,9 +124,9 @@ export default class DiarreiasAgudas extends React.Component {
                         Manter a alimentação habitual para as crianças e os adultos.
                     </P>
                 </Subsubsection>
-                <P style={{fontWeight: 'bold'}}>
+                <Text style={{fontWeight: 'bold'}}>
                     Se o paciente não melhorar em dois dias ou se apresentar qualquer um dos sinais abaixo, levá-lo imediatamente ao serviço de saúde:
-                </P>
+                </Text>
                 <Table head={['Sinais de Perigo', '']} data={[
                 ['Piora na diarréia', 'Recusa de alimentos'],
                 ['Vômitos repetidos', 'Sangue nas fezes'],
@@ -171,9 +171,9 @@ export default class DiarreiasAgudas extends React.Component {
                     <P>
                         Apenas como orientação inicial, o paciente deverá receber de 50 a 100mL/kg para ser administrado no período de 4-6 horas.
                     </P>
-                    <P style={{fontWeight: 'bold'}}>
+                    <Text style={{fontWeight: 'bold'}}>
                         Durante a reidratação reavaliar o paciente seguindo os sinais indicados no quadro de avaliação do estado de hidratação.
-                    </P>
+                    </Text>
                     <P>
                         Se desaparecerem os sinais de desidratação, utilize o PLANO A.
                     </P>
@@ -183,9 +183,9 @@ export default class DiarreiasAgudas extends React.Component {
                     <P>
                         Se o paciente evoluir para desidratação grave, seguir o PLANO C.
                     </P>
-                    <P style={{fontWeight: 'bold'}}>
+                    <Text style={{fontWeight: 'bold'}}>
                         Durante a permanência do paciente ou acompanhante no serviço de saúde, orientar a:
-                    </P>
+                    </Text>
                     <P>
                         Reconhecer os sinais de desidratação.
                     </P>
