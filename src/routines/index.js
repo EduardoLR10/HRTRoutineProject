@@ -26,6 +26,8 @@ import DesidratacaoHipernatremica from './DesidratacaoHipernatremica'
 import DiarreiasAgudas from './DiarreisAgudas'
 import DiarreiaInfecciosa from './DiarreiaInfecciosa'
 import DisturbioMetabolico from './DisturbioMetabolico'
+import DisturbiosAcidoBase from './DisturbiosAcidoBase'
+import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 
 
 export default [
@@ -55,6 +57,8 @@ export default [
   DiarreiasAgudas,
   DiarreiaInfecciosa,
   DisturbioMetabolico,
+  DisturbiosAcidoBase,
+  DisturbiosEletroliticos,
   FebreReumatica,
   Varicela,
 ]

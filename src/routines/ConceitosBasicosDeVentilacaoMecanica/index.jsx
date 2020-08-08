@@ -36,7 +36,7 @@ export default class ConceitosBasicosDeVentilacaoMecanica extends React.Componen
                 Os parâmetros ventilatórios variam segundo a idade, tamanho, e constituição física do paciente, no entanto um volume corrente efetivo de 6 a 8 mL/kg de peso corporal, podendo chegar até 10 ml/kg é considerado adequado para a maioria dos pacientes.
             </P>
             <P>
-                Dessa forma, quando selecionamos no ventilador mecânico o modo controlado a pressão, por exemplo, o pico de pressão inspiratória deve ser estabelecido a fim de gerar volumes correntes dentro do mesmo intervalo (6 a 8 mL/kg), controlando a pressão de pico (PI) que oscila aproximadamente entre 15 e  20 cmH<Text style={{fontSize: 6}}>2</Text>O.
+                Dessa forma, quando selecionamos no ventilador mecânico o modo controlado a pressão, por exemplo, o pico de pressão inspiratória deve ser estabelecido a fim de gerar volumes correntes dentro do mesmo intervalo (6 a 8 mL/kg), controlando a pressão de pico (PI) que oscila aproximadamente entre 15 e  20 cmH<Text style={{fontSize: 8}}>2</Text>O.
             </P>
             <P>
                 A pressão expiratória final positiva (PEEP) ou pressão nas vias aéreas no final da expiração deve ser usada para diminuir a probabilidade de atelectasia. Seu valor fisiológico gira em torno de 4 a 6 cmH²O, podendo variar muito de acordo com a patologia em questão. Em pacientes intubados incapazes respirar espontaneamente, deve-se muita atenção a essa pressão, sob o risco de trauma relacionado ao colabamento cíclico de seguimentos pulmonares.
@@ -79,7 +79,7 @@ export default class ConceitosBasicosDeVentilacaoMecanica extends React.Componen
             </Subsection>
             <Subsection title="Ventilação mecânica em doenças que levam à alteração da complacência pulmonar (SRDA, Pneumonia, grande queimado, politrauma)">
                 <P>
-                    A SDRA é a doença principal dessa condição.  É caracterizada por uma resposta inflamatória grave a insultos locais (pulmonares) ou remotos (sistêmicos) que invariavelmente leva a anormalidades na troca gasosa e na mecânica pulmonar19. Define-se por hipoxemia grave (razão PaO<Text style={{fontSize: 6}}>2</Text>/FiO<Text style={{fontSize: 6}}>2</Text> {'<'} 200) e infiltrados bilaterais na radiografia do tórax sem evidência de disfunção cardíaca.
+                    A SDRA é a doença principal dessa condição.  É caracterizada por uma resposta inflamatória grave a insultos locais (pulmonares) ou remotos (sistêmicos) que invariavelmente leva a anormalidades na troca gasosa e na mecânica pulmonar19. Define-se por hipoxemia grave (razão PaO<Text style={{fontSize: 8}}>2</Text>/FiO<Text style={{fontSize: 8}}>2</Text> {'<'} 200) e infiltrados bilaterais na radiografia do tórax sem evidência de disfunção cardíaca.
                 </P>
                 <Figure source={img2}/>
                 <P>
@@ -110,7 +110,7 @@ export default class ConceitosBasicosDeVentilacaoMecanica extends React.Componen
             </Subsection>
             <Subsection title="Hipercapnia Permissiva">
                 <P>
-                    A hipercapnia permissiva pode ser definida como a presença de uma elevada PaCO<Text style={{fontSize: 6}}>2</Text>, sem que haja uma alteração muito significante do pH (7,2 – 7,3). A longo prazo a lesão e remodelação pulmonar será menor diante dessa condição.
+                    A hipercapnia permissiva pode ser definida como a presença de uma elevada PaCO<Text style={{fontSize: 8}}>2</Text>, sem que haja uma alteração muito significante do pH (7,2 – 7,3). A longo prazo a lesão e remodelação pulmonar será menor diante dessa condição.
                 </P>
             </Subsection>
             <Subsection title="Tratamentos Avançados">
