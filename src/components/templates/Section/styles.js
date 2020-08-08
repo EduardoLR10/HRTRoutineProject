@@ -3,7 +3,6 @@ import collorPallete from '../../../assets/collorPallete'
 
 const containerStyle = (props, state) => ({
   style: {
-    marginBottom: state.expanded ? 20 : 0,
     padding: 4,
   },
   titleStyle: {
