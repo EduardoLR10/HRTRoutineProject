@@ -28,6 +28,7 @@ import DiarreiaInfecciosa from './DiarreiaInfecciosa'
 import DisturbioMetabolico from './DisturbioMetabolico'
 import DisturbiosAcidoBase from './DisturbiosAcidoBase'
 import DisturbiosEletroliticos from './DisturbiosEletroliticos'
+import DoencaDeKawasaki from './DoencaDeKawasaki'
 
 
 export default [
@@ -59,6 +60,7 @@ export default [
   DisturbioMetabolico,
   DisturbiosAcidoBase,
   DisturbiosEletroliticos,
+  DoencaDeKawasaki,
   FebreReumatica,
   Varicela,
 ]
