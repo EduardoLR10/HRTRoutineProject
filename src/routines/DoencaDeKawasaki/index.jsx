@@ -92,7 +92,7 @@ export default class DoencaDeKawasaki extends React.Component {
             </Subsection>
             <Figure source={img1}/>
             <P>
-                <Text style={{fontWeight: 'bold'}}>A DK é dividida em 3 fases clinicas: aguda, subaguda e de convalescença</Text>
+                <Text style={{fontWeight: 'bold'}}>A DK é dividida em 3 fases clínicas: aguda, subaguda e de convalescença</Text>
             </P>
             <Subsection title="Fase Aguda">
                 <P>
