@@ -6,7 +6,7 @@ const containerStyle = (props, state) => ({
     padding: 4,
   },
   titleStyle: {
-    padding: 8,
+    padding: 16,
     fontSize: 16, fontWeight: 'normal',
     color: state.expanded ? collorPallete.red : collorPallete.blue
   },
