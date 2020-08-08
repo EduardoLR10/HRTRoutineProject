@@ -130,12 +130,12 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
             <P>
               Hemograma completo, ureia e creatinina, TGO e TGP, CK, DHL, Cálcio, TP, TTPA, TC, fibrinogênio e EAS.</P>
           </Subsubsection>
-        </Subsection>
-        <Subsubsection title="Tratamento Específico">
-          <P>
-            Soro anticrotálico (SAC) ou na sua falta pode-se usar o soro antibotrópico-crotálico (SABC). Para casos leves 5 ampolas, moderados 10 ampolas e graves 20 ampolas.
+          <Subsubsection title="Tratamento Específico">
+            <P>
+              Soro anticrotálico (SAC) ou na sua falta pode-se usar o soro antibotrópico-crotálico (SABC). Para casos leves 5 ampolas, moderados 10 ampolas e graves 20 ampolas.
           </P>
-        </Subsubsection>
+          </Subsubsection>
+        </Subsection>
         <Subsection title="Acidente Elapídico (causado por coral verdadeira – fig.8).">
           <P>
             Corresponde a 1% dos acidentes por cobras no Brasil. É encontrada em matas das regiões sudeste e sul do Brasil.
@@ -313,9 +313,9 @@ export default class AcidentensPorAnimaisPeconhentos extends React.Component {
         <Reference idx={5} body="http://portalms.saude.gov.br/saude-de-a-z/acidentes-por-animais-peconhentos, mar 2018." />
         <Reference idx={6} body="http://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-por-vetores-e-zoonoses/doc/peconhentos" />
         <Reference idx={7} body="http://www.einstein.br/einstein-saude/vida-saudavel/primeiros-socorros/Paginas/acidentes-por-animais-peconhentos.aspx" />
-        <Reference idx={8} body="FUNDAÇÃO NACIONAL DE SAÚDE. Manual de Diagnóstico e Tratamento de Acidentes por Animais Peçonhentos. Brasília: Ministério da Saúde, 2001."/>
+        <Reference idx={8} body="FUNDAÇÃO NACIONAL DE SAÚDE. Manual de Diagnóstico e Tratamento de Acidentes por Animais Peçonhentos. Brasília: Ministério da Saúde, 2001." />
         <Reference idx={9} body="Acidente por Animais Peçonhentos: Manual de rotinas/Pedro Pereira de Oliveira Pardal, Maria Apolônia da Costa Gadelha - Belém: SESPA - Secretaria de Estado de Saúde Pública do Pará, 2010." />
-        <Reference idx={10} body="Primeiros socorros: picadas ou mordeduras por animais peçonhentos, Albert Einstein, Sociedade Beneficente Israelita Brasileira, São Paulo, 2015."/>
+        <Reference idx={10} body="Primeiros socorros: picadas ou mordeduras por animais peçonhentos, Albert Einstein, Sociedade Beneficente Israelita Brasileira, São Paulo, 2015." />
       </Section>
     </Routine>
 } 

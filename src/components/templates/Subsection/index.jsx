@@ -1,11 +1,18 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { List } from 'react-native-paper'
+import { containerStyle } from './styles'
 
-export default class Subsection extends React.Component {
+export default class Section extends React.Component {
+
+  state = {
+    expanded: false,
+  }
+
+  toggleExpand = () => this.setState({ expanded: !this.state.expanded })
 
   render = () =>
-    <View>
-      <Text style={{ fontSize: 18, color: 'blue' }}>{this.props.title}</Text>
+    <List.Accordion {...(containerStyle(this.props, this.state))}
+      title={this.props.title} expanded={this.state.expanded} onPress={this.toggleExpand}>
       {this.props.children}
-    </View >
+    </List.Accordion>
 }
