@@ -237,7 +237,7 @@ export default class CetoacidoseDiabetica extends React.Component {
                 ['Potássio', '2-3 mEq/L'],
                 ['Cloreto', '2-3 mEq/L'],
                 ['Fosfato', '1-2 mEq/L']
-                ]} />
+                ]} title="Perdas de Fluidos na CAD e necessidades diárias de manuntenção em Criança Normal"/>
             </Subsection>
           </Section>
           <Section title="Insulinoterapia">

@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     fontSize: 14, fontWeight: 'normal', color: collorPallete.red,
   },
   image: {
-    width: width, maxHeight: width
+    width: width, maxHeight: height
   },
   bottomLabel: {
     fontSize: 10, fontWeight: 'bold', color: collorPallete.black,
@@ -21,8 +21,11 @@ const styles = StyleSheet.create({
 })
 
 const imageStyles = {
-  resizeMode: 'contain',
-  style: styles.image
+  resizeMode: "contain",
+  style: {
+    maxHeight: 175,
+    width: styles.image.width,
+  }
 }
 
 export default styles
