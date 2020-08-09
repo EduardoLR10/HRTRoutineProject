@@ -1,5 +1,4 @@
 import React from 'react'
-import { Text, View, Dimensions } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { screenOptions } from './styles'
@@ -7,6 +6,7 @@ import Home from '../Home'
 import routines from '../../routines'
 import CloseSectionsButton from '../../components/CloseSectionsButton'
 import AboutButton from '../../components/AboutButton'
+import HeaderTitle from '../../components/HeaderTitle'
 
 const Stack = createStackNavigator()
 
@@ -29,12 +29,4 @@ export default class Routes extends React.Component {
       </Stack.Navigator>
     </NavigationContainer>
 
-}
-
-const { width, height } = Dimensions.get('window')
-
-class HeaderTitle extends React.Component {
-
-  render = () =>
-    <Text style={{ fontSize: 20, color: 'red' }}>{this.props.title}</Text>
 }
