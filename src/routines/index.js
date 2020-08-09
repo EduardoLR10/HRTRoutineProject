@@ -33,6 +33,7 @@ import DoencaDoRefluxoGastroesofagico from './DoencaDoRefluxoGastroesofagico'
 import DorAbdominalAguda from './DorAbdominalAguda'
 import DorDeCrescimento from './DorDeCrescimento'
 import EmergenciaDeChoque from './EmergenciaDoChoque'
+import EmergenciaRespiratoria from './EmergenciaRespiratoria'
 
 
 export default [
@@ -69,6 +70,7 @@ export default [
   DorAbdominalAguda,
   DorDeCrescimento,
   EmergenciaDeChoque,
+  EmergenciaRespiratoria,
   FebreReumatica,
   Varicela,
 ]
