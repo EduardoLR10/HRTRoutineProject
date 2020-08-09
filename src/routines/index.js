@@ -30,6 +30,7 @@ import DisturbiosAcidoBase from './DisturbiosAcidoBase'
 import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 import DoencaDeKawasaki from './DoencaDeKawasaki'
 import DoencaDoRefluxoGastroesofagico from './DoencaDoRefluxoGastroesofagico'
+import DorAbdominalAguda from './DorAbdominalAguda'
 
 
 export default [
@@ -63,6 +64,7 @@ export default [
   DisturbiosEletroliticos,
   DoencaDeKawasaki,
   DoencaDoRefluxoGastroesofagico,
+  DorAbdominalAguda,
   FebreReumatica,
   Varicela,
 ]
