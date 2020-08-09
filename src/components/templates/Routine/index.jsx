@@ -1,11 +1,8 @@
-import React, {Context} from 'react'
+import React, { Context } from 'react'
 import { ScrollView, Text, TouchableOpacity } from 'react-native'
 import styles from './styles'
 import P from '../Paragraph'
-
-styles.closeAllButton = {
-  position: 'absolute', top: -10, left: 0,
-}
+import emitter from 'tiny-emitter/instance'
 
 export default class Routine extends React.Component {
 
@@ -27,7 +24,7 @@ class CloseSectionsButton extends React.Component {
       padding: 2, borderRadius: 2,
       elevation: 3, borderWidth: 1, borderColor: 'red',
       backgroundColor: 'white',
-    }}>
+    }} onPress={() => emitter.emit('closeSections')}>
       <Text style={{ color: 'red', fontSize: 10 }}>Fechar seções</Text>
     </TouchableOpacity>
 }
