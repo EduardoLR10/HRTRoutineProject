@@ -1,7 +1,9 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 import collorPallete from '../../../assets/collorPallete'
 
-export default StyleSheet.create({
+const { width, height } = Dimensions.get('window')
+
+const styles = StyleSheet.create({
   container: {
     marginTop: 7, marginBottom: 14,
     alignItems: 'center',
@@ -10,7 +12,18 @@ export default StyleSheet.create({
     textAlign: 'center',
     fontSize: 14, fontWeight: 'normal', color: collorPallete.red,
   },
+  image: {
+    width: width, maxHeight: width
+  },
   bottomLabel: {
     fontSize: 10, fontWeight: 'bold', color: collorPallete.black,
   },
 })
+
+const imageStyles = {
+  resizeMode: 'contain',
+  style: styles.image
+}
+
+export default styles
+export { imageStyles }
