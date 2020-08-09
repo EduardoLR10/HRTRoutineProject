@@ -1,4 +1,5 @@
 import React from 'react'
+import { Text } from 'react-native'
 import Figure from '../../components/templates/Figure'
 import { List, LItem } from '../../components/templates/List'
 import P from '../../components/templates/Paragraph'
