@@ -31,6 +31,7 @@ import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 import DoencaDeKawasaki from './DoencaDeKawasaki'
 import DoencaDoRefluxoGastroesofagico from './DoencaDoRefluxoGastroesofagico'
 import DorAbdominalAguda from './DorAbdominalAguda'
+import DorDeCrescimento from './DorDeCrescimento'
 
 
 export default [
@@ -65,6 +66,7 @@ export default [
   DoencaDeKawasaki,
   DoencaDoRefluxoGastroesofagico,
   DorAbdominalAguda,
+  DorDeCrescimento,
   FebreReumatica,
   Varicela,
 ]
