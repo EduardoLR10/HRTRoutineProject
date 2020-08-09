@@ -10,7 +10,7 @@ export default class Figure extends React.Component {
   render = () =>
     <View style={styles.container}>
       <Text style={styles.topLabel}>{this.props.top_label}</Text>
-      <ImageModal {...imageStyles} source={this.props.source} />
+      <ImageModal {...imageStyles} source={this.props.source}/>
       <Text style={styles.bottomLabel}>{this.props.bottom_label}</Text>
     </View>
 }
