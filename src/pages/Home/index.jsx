@@ -17,15 +17,29 @@ export default class Home extends React.Component {
     }
   }
 
-  clustirezeRoutines = (routines) =>
-    routines.reduce((clusters, Routine) => {
+  clustirezeRoutines = (routines) => {
+    const unsortedClusters = routines.reduce((clusters, Routine) => {
       if (!clusters[Routine.category]) {
         clusters[Routine.category] = []
       }
-      clusters['Todas Categorias'].push(Routine)
       clusters[Routine.category].push(Routine)
       return clusters
+    }, {})
+    return this.sortRoutines(unsortedClusters)
+  }
+
+  sortRoutines = (unsortedClusters) => {
+    const categories = Object.keys(unsortedClusters).sort()
+    const sortedClusters = categories.reduce((clusters, category) => {
+      clusters[category] = unsortedClusters[category]
+      clusters['Todas Categorias'] = clusters['Todas Categorias'].concat(unsortedClusters[category])
+      return clusters
     }, { 'Todas Categorias': [] })
+    for (category of Object.keys(sortedClusters)) {
+      sortedClusters[category].sort((routine0, routine1) => routine0.title.localeCompare(routine1.title))
+    }
+    return sortedClusters
+  }
 
 
   filteredRoutines = () => this.clusters[this.categories[this.state.categoryIdx]]
