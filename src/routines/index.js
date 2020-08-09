@@ -32,6 +32,7 @@ import DoencaDeKawasaki from './DoencaDeKawasaki'
 import DoencaDoRefluxoGastroesofagico from './DoencaDoRefluxoGastroesofagico'
 import DorAbdominalAguda from './DorAbdominalAguda'
 import DorDeCrescimento from './DorDeCrescimento'
+import EmergenciaDeChoque from './EmergenciaDoChoque'
 
 
 export default [
@@ -67,6 +68,7 @@ export default [
   DoencaDoRefluxoGastroesofagico,
   DorAbdominalAguda,
   DorDeCrescimento,
+  EmergenciaDeChoque,
   FebreReumatica,
   Varicela,
 ]
