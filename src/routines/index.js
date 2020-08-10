@@ -39,6 +39,7 @@ import Epilepsia from './Epilepsia'
 import FebreNoRecemNascido from './FebreNoRecemNascido'
 import FormulasLacteas from './FormulasLacteas'
 import GlomerulonefrineDifusaAguda from './GlomerulonefriteDifusaAguda'
+import Urticaria from './Urticaria'
 
 
 export default [
@@ -82,5 +83,6 @@ export default [
   FebreReumatica,
   FormulasLacteas,
   GlomerulonefrineDifusaAguda,
+  Urticaria,
   Varicela,
 ]

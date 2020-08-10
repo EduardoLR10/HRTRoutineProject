@@ -71,9 +71,9 @@ export default class FormulasLacteas extends React.Component {
 			A Fórmula Infantil de Transição pode ser usada até os 3 anos de idade, mas após os dois anos de idade pode ser usado os compostos lácteas. A preferência para o uso da fórmula de transição ou compostos lácteo é que eles tem na sua formulação quantidades de nutrientes mais apropriados que o leite integral. Sendo que após os 3 anos de idade pode ser usado o leite integral na alimentação das crianças.
 		</P>
 		<Table head={['Nutriente', 'Fórmula de Partida', 'Fórmula de Seguimento']} data={[
-		  ['Proteínas', '1.4 a 1.7 g/100ml', '2.2 a 2.5 g/100ml'],
-		  ['Carboidratos', '7.5 g/100ml', '8 g/100ml'],
-		  ['Lipídios', '3.5 g/100ml', '3 g/100ml'],
+		  ['Proteínas', '1,4 a 1,7 g/100ml', '2,2 a 2,5 g/100ml'],
+		  ['Carboidratos', '7,5 g/100ml', '8 g/100ml'],
+		  ['Lipídios', '3,5 g/100ml', '3 g/100ml'],
 		  ['Calorias', '67 Kcal/100ml', '67 Kcal/100ml']
 		]} title="Tabela 2. Composição dos Principais Nutrientes das Fórmulas no Primeiro Ano de Vida"/>
 		<Section title="Fórmulas Infantis para Situações Especiais">
