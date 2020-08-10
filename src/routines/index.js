@@ -37,6 +37,7 @@ import EmergenciaRespiratoria from './EmergenciaRespiratoria'
 import EndocarditeInfecciosa from './EndocarditeInfecciosa'
 import Epilepsia from './Epilepsia'
 import FebreNoRecemNascido from './FebreNoRecemNascido'
+import FormulasLacteas from './FormulasLacteas'
 
 
 export default [
@@ -78,5 +79,6 @@ export default [
   Epilepsia,
   FebreNoRecemNascido,
   FebreReumatica,
+  FormulasLacteas,
   Varicela,
 ]
