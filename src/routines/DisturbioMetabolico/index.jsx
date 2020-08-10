@@ -31,9 +31,9 @@ export default class DisturbioMetabolico extends React.Component {
                 Significa hiperexcreção urinária de cálcio na ausência de estados hipercalcêmicos ou de qualquer outra enfermidade primária. A HCa é a principal causa relacionada à calculose urinária na infância (10 a 80%) e responde por até 35% das causas de hematúria. É definida como excreção urinária de cálcio igual ou acima de 4 mg/kg/24horas para qualquer sexo ou faixa etária. Abaixo de 2 anos de idade usamos a relação Ca/Creatinina em amostra isolada de urina. Idealmente, o diagnóstico deve se basear em coleta de urina de 24h, em até 3 coletas, se necessário.
             </P>
             <Table head={['Idade', 'UCa/UCr (mg / mg)']} data={[
-            ['0 a 6 meses', '< 0.8'],
-            ['6 a 12 meses', '< 0.6'],
-            ['> 2 anos', '< 0.2']
+            ['0 a 6 meses', '< 0,8'],
+            ['6 a 12 meses', '< 0,6'],
+            ['> 2 anos', '< 0,2']
             ]} />
           </Section>
           <Section title="Hiperuricosúria Idiopática (HU)">

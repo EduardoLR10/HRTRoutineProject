@@ -38,6 +38,7 @@ import EndocarditeInfecciosa from './EndocarditeInfecciosa'
 import Epilepsia from './Epilepsia'
 import FebreNoRecemNascido from './FebreNoRecemNascido'
 import FormulasLacteas from './FormulasLacteas'
+import GlomerulonefrineDifusaAguda from './GlomerulonefriteDifusaAguda'
 
 
 export default [
@@ -80,5 +81,6 @@ export default [
   FebreNoRecemNascido,
   FebreReumatica,
   FormulasLacteas,
+  GlomerulonefrineDifusaAguda,
   Varicela,
 ]

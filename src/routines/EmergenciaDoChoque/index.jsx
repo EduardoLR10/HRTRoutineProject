@@ -49,7 +49,7 @@ export default class EmergenciaDoChoque extends React.Component {
 			</P>
 			<Table head={['', '']} data={[
 			['Nível de consciência - resposta', '- Alerta\n- Verbal\n- Dor\n- Inconsciente'],
-			['Débito urinário', '- Bebês e criança 1.5 a 2 ml/kg/hora\n- Adolescentes 1 ml/kg/hora'],
+			['Débito urinário', '- Bebês e criança 1,5 a 2 ml/kg/hora\n- Adolescentes 1 ml/kg/hora'],
 			['Cor pele', '- Corada\n- Moteada\n- Pálida\n- Cianótica'],
 			['Temperatura pele', '- Normal\n- Fria\n- Quente'],
 			['Pulsos', '- Cheios\n- Finos\n- Ausentes'],
@@ -142,9 +142,9 @@ export default class EmergenciaDoChoque extends React.Component {
 					A ressuscitação volêmica, as principais drogas vasoativas e outras correções estão na tabela 4. Os tratamentos específicos dos processos infecciosos devem ser vistos nos capítulos de cada tema.
 				</P>
 				<Table head={['', '']} data={[
-				['Adrenalina 1:1000', 'Anafilaxia: 0.01 mg/kg/dose, IM - max 0.5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0.1 mg/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0.1 a 1 µcg/kg/min'],
-				['Bicarbonao de sódio', 'Ac metab conforme gasometria\n(15-Bic atual) x peso kg x 0.3'],
-				['Cloreto de cálcio', 'PCR: 20 kg/kg, bolus (0.2 ml/kg) acesso central se disponível'],
+				['Adrenalina 1:1000', 'Anafilaxia: 0.01 mg/kg/dose, IM - max 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0.1 mg/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0.1 a 1 µcg/kg/min'],
+				['Bicarbonao de sódio', 'Ac metab conforme gasometria\n(15-Bic atual) x peso kg x 0,3'],
+				['Cloreto de cálcio', 'PCR: 20 kg/kg, bolus (0,2 ml/kg) acesso central se disponível'],
 				['Dobutamina', '2 a 20 µcg/kg/min-max 40 µcg/kg/min'],
 				['Dopamina', '1 a 20 µcg/kg/min-max 40 µcg/kg/min'],
 				['Furosemida', '1 a 2 mg/kg/dose a cada 6 a 12 h bolus'],

@@ -114,9 +114,9 @@ export default class DisturbiosEletroliticos extends React.Component {
                     O tratamento consiste em melhorar a distribuição do íon restaurando o gradiente celular (controle do distúrbio ácido-base), estabilizar a membrana cardíaca e remover o potássio do organismo quando necessário usando resina de troca ou até mesmo diálise.
                 </P>
                 <Table head={['Nível Sérico', 'Medicação', 'Dose']} data={[
-                ['5.5 a 6.5 mEq/L', 'ECG normal = suspensão do K\nECG alterado = resina de troca', 'Sorcal: 0.5 a 1 g/Kg VO/VR 4 a 6 vezes ao dia'],
-                ['6.5 a 7.5 mEq/L', 'Iniciar solução glicose e insulina ou bicarbonato de sódio', 'Glicose: 0.5 a 1 g/Kg IV e insulina 1 unidade/4g glicose\nNaHCO3 - 1 a 2 mEq/Kg IV'],
-                ['> que 7.5 mEq/L', 'Iniciar gluconato de cálcio', 'Gluconato de Cálcio a 10%: 0.5 a 1 ml/kg IV em 5 minutos']
+                ['5,5 a 6,5 mEq/L', 'ECG normal = suspensão do K\nECG alterado = resina de troca', 'Sorcal: 0,5 a 1 g/Kg VO/VR 4 a 6 vezes ao dia'],
+                ['6,5 a 7,5 mEq/L', 'Iniciar solução glicose e insulina ou bicarbonato de sódio', 'Glicose: 0,5 a 1 g/Kg IV e insulina 1 unidade/4g glicose\nNaHCO3 - 1 a 2 mEq/Kg IV'],
+                ['> que 7,5 mEq/L', 'Iniciar gluconato de cálcio', 'Gluconato de Cálcio a 10%: 0,5 a 1 ml/kg IV em 5 minutos']
                 ]} />
             </Subsection>
             <Subsection title="Hipopotassemia">

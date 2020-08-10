@@ -121,9 +121,9 @@ export default class ChoqueSeptico extends React.Component {
                     <Table head={['Droga', 'Dose (mcg/kg/min)', 'Apresentação', 'MCG/ML']} data={[
                     ['Dobutamina', '5 - 20', '250 mg/20ml', '12.500 mcg/ml'],
                     ['Dopamina', '5 - 20', '50 mg/10ml', '5.000 mcg/ml'],
-                    ['Epinefrina', '0.1 - 1.0', '1 mg/ml', '1.000 mcg/ml'],
-                    ['Norepinefrina', '0.1 - 1.0', '4 mg/4ml*', '1.000 mcg/ml'],
-                    ['Milrinona', '0.25 - 0.75', '20 mg/20ml', '1.000 mcg/ml']
+                    ['Epinefrina', '0,1 - 1,0', '1 mg/ml', '1.000 mcg/ml'],
+                    ['Norepinefrina', '0,1 - 1,0', '4 mg/4ml*', '1.000 mcg/ml'],
+                    ['Milrinona', '0,25 - 0,75', '20 mg/20ml', '1.000 mcg/ml']
                     ]}  label="*Hemitartarato de Norepinefrina, na ampola há descrição de 2 mg/ml, no entanto apenas 1mg é a parte ativa da solução. A outra parte é apenas veículo, sendo a dose = 1 mg/ml."/>
                     <Figure source={img1}/>
                     <Figure source={img3}/>

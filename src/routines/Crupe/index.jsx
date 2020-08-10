@@ -123,18 +123,18 @@ export default class Crupe extends React.Component {
                     </P>
                 </Subsubsection>
                 <Table head={['Gravidade dos Sintomas', 'Intervenção']} data={[
-                ['Crupe Leve', 'Dexametasona (0.15 - 0.30 mg/kg) VO/EV/IM\nAlta para casa'],
-                ['Crupe Moderado', 'Dexametasona (0.30 - 0.60 mg/kg) VO/EV/IM\nNebulização com Adrenalina (0.5 ml/kg)\nObservação por 3-4 horas'],
-                ['Crupe Grave', 'Dexametasona (0.60 mg/kg) VO/EV/IM\nNebulização com Adrenalina (0.5 ml/kg)\nAdmissão em UTI']
+                ['Crupe Leve', 'Dexametasona (0,15 - 0,30 mg/kg) VO/EV/IM\nAlta para casa'],
+                ['Crupe Moderado', 'Dexametasona (0,30 - 0,60 mg/kg) VO/EV/IM\nNebulização com Adrenalina (0,5 ml/kg)\nObservação por 3-4 horas'],
+                ['Crupe Grave', 'Dexametasona (0,60 mg/kg) VO/EV/IM\nNebulização com Adrenalina (0,5 ml/kg)\nAdmissão em UTI']
                 ]} title="Tratamento do Crupe Viral"/>
                 <Subsubsection title="Intubação">
                     <P>
                         Nos pacientes em que a obstrução da via aérea é iminente, o procedimento deve ser realizado em ambiente bem controlado, por profissional experiente. A cânula traqueal deve ter 0,5mm a menos, de diâmetro interno, do que o “diâmetro ideal” calculado para a idade da criança.
                     </P>
                 <Table head={['Idade do Paciente', 'Diâmetro Interno']} data={[
-                ['0 a 6 meses', '3.0 - 3.5'],
-                ['6 a 12 meses', '3.5 - 4.0'],
-                ['12 a 24 meses', '4.0 - 4.5'],
+                ['0 a 6 meses', '3,0 - 3,5'],
+                ['6 a 12 meses', '3,5 - 4,0'],
+                ['12 a 24 meses', '4,0 - 4,5'],
                 ['> 24 meses', 'Fórmula: (Idade + 16) / 4']
                 ]} title="Número da Cânula de Traqueostomia Recomendada"/>
                 </Subsubsection>
@@ -175,7 +175,7 @@ export default class Crupe extends React.Component {
             ['Idade', '3 meses a 3 anos', '3 meses a 3 anos', '> 5 anos', '> 3 anos'],
             ['Pródromos', 'Coriza e tosse seca', 'Nenhum', 'Ocasionalmente coriza e tosse seca', 'Coriza e tosse seca'],
             ['Início', '12-48 horas', 'Abrupto', '4 - 12 horas', 'Progressivo: 12 horas a 7 dias'],
-            ['Febre', '37.8 - 40.5 °C', 'Ausente', '> 39 °C', '37.8 - 40.5 °C'],
+            ['Febre', '37,8 - 40,5 °C', 'Ausente', '> 39 °C', '37,8 - 40,5 °C'],
             ['Estridor', 'Leve a intenso', 'Leve a moderado', 'Intenso', 'Moderado a intenso'],
             ['Roquidão ou Tosse Ladrante', 'Presente', 'Presente', 'Ausente', 'Presente'],
             ['Cavidade Oral', 'Hiperemia de faringe Epiglote normal', 'Hiperemia de faringe\nEpiglote normal', 'Salivação intensa\nEpiglote em "cereja"', 'hiperemia de faringe\nSecreção purulenta'],

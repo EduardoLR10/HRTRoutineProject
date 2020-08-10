@@ -13,7 +13,7 @@ import Table from '../../components/templates/Table'
 export default class FormulasLacteas extends React.Component {
 
   static title = "Fórmulas Lácteas"
-  static category = "Pediatria Geral e Puericultura"
+  static category = "Lactentes"
   static authors = "Dr. Francisco Rufino Rosa Neto"
 
 	render = () =>

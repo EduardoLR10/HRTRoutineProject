@@ -55,9 +55,9 @@ export default class DerramesPleurais extends React.Component {
             </P>
             <Table head={['', '']} data={[
             ['Proteína do líquido pleural', '> 3 g/10mL'],
-            ['Proteína do líquido pleura / Proteína do plasma', '> 0.5'],
+            ['Proteína do líquido pleura / Proteína do plasma', '> 0,5'],
             ['LDH do líquido pleural', '> 200 UI'],
-            ['LDH do líquido pleural / LDH do plasma', '> 0.6']
+            ['LDH do líquido pleural / LDH do plasma', '> 0,6']
             ]} title="Tabela - Diagnóstico diferencial entre exsudato (1 ou mais critérios) e transudato (nenhum dos critérios)"/>
           </Section>
           <Section title="Tratamento">

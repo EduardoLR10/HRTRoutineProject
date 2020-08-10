@@ -386,7 +386,7 @@ export default class CetoacidoseDiabetica extends React.Component {
           <Section title="Resumo do Tratamento da CAD">
             <Table head={['Hora', 'Hidratação', 'Insulina', 'Potássio', 'Bicarbonato', 'Exames']} data={[
             ['1ª', 'SF 10 a 20 ml/kg/h\nReavaliar em 1h (se necessário repetir somente 1x)', 'NÃO USAR NA 1ª HORA', 'NÃO USAR NA 1ª HORA\nDOSAR "K"', 'Se pH < 7.0 + choque com falência miocárdia ou Hiperpotassemia Grave\nVER CÁLCULO', 'Glicemia Capilar e sérica Na, K\n Gasometrica venosa\nEAS'],
-            ['2ª', 'SF 10 a 20 ml/kg/h (se necessário)', 'Grave:\nSomente se K > 3.3 mEq/L\nRegular EV contínua em Bl 0.05 - 0.1 ui/kg/h (50 ml-SF0.9%/ 50 ui-insulina)\nou\nIM Leve/Moderado\n.\n.\nAnálogos SC 0.1 ui/kg/h\nAté resolução da CAD', '40 mEq/L se K < 4.5\n20 mEq/L se K entre 4.5 a 6', 'Igual a 1ª hora', '-'],
+            ['2ª', 'SF 10 a 20 ml/kg/h (se necessário)', 'Grave:\nSomente se K > 3,3 mEq/L\nRegular EV contínua em Bl 0,05 - 0,1 ui/kg/h (50 ml-SF0.9%/ 50 ui-insulina)\nou\nIM Leve/Moderado\n.\n.\nAnálogos SC 0.1 ui/kg/h\nAté resolução da CAD', '40 mEq/L se K < 4,5\n20 mEq/L se K entre 4,5 a 6', 'Igual a 1ª hora', '-'],
             ['3-6ª', 'SF/SG5% conforme avaliação (calcular o volume total em 24h descontar do volume feito em 2h)', 'Igual a 2ª hora', 'Igual a 1ª hora', '-', 'Glicemia Capilar + Eletrólitos ur, Cr a cada 3-6 horas + Gasometria Venosa a cada 2/3h'],
             ['12-24ª', 'Reduzir até suspensão conforme aceitação de alimentos', 'Igual a 2ª hora', '-', '-', '-']
             ]} />

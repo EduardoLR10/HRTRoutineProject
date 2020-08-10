@@ -112,10 +112,10 @@ export default class Epilepsia extends React.Component {
                 A conduta inicial em uma crise prolongada ou EME inclui as medidas de suporte a vida e reanimação, apropriadas a todos os pacientes, além do uso de uma medicação com início de ação rápido, sendo os benzodiazepínicos os medicamentos de primeira linha. Entretanto, a partir de duas doses aumentam os riscos de depressão respiratória sem aumentar a sua eficácia.
             </P>
             <Table head={['Tempo', 'Tratamento']} data={[
-            ['5 - 20 min\nTERAPIA INICIAL', 'ABC do Suporte de Vida\nGlicemia capilar, acesso venoso, colher sangue (checar distúrbios metabólicos, infecções função hepática/renal, nível sérico de drogas, intoxicação), história clínica.\nDiazepam 0.2-0.3 mg/kg EV em bolus (ou 0.3 mg/kg retal) ou Midazolam 0.15 mg/kg EV, IM, nasal ou bucal, repetindo a cada 5 minutos, até máximo de 3 doses.'],
+            ['5 - 20 min\nTERAPIA INICIAL', 'ABC do Suporte de Vida\nGlicemia capilar, acesso venoso, colher sangue (checar distúrbios metabólicos, infecções função hepática/renal, nível sérico de drogas, intoxicação), história clínica.\nDiazepam 0,2-0,3 mg/kg EV em bolus (ou 0,3 mg/kg retal) ou Midazolam 0,15 mg/kg EV, IM, nasal ou bucal, repetindo a cada 5 minutos, até máximo de 3 doses.'],
             ['20 - 40 min\nSEGUNDA FASE', 'Fenitoína - ataque de 15-20 mg/kg, doses adicionais de 5-10 mg/kg até máximo de 30 mg/kg. Aguardar 20 minutos.'],
             ['40 - 60 min\nTERCEIRA FASE', 'Fenobarbital - araque de 10-20 mg/kg, dosese adicionais de 5-10 mg/kg, até máximo de 40 mg/kg. Aguardar 20 minutos.'],
-            ['> 60 min\nEME REFRATÁRIO', 'Midazolam: bolus de 0.15 mg/kg e manutenção de 0.05-2 mg/kg/hora (ajustar 0.05-0.1 mg/kg/hora cada 15 minutos)']
+            ['> 60 min\nEME REFRATÁRIO', 'Midazolam: bolus de 0,15 mg/kg e manutenção de 0,05-2 mg/kg/hora (ajustar 0,05-0,1 mg/kg/hora cada 15 minutos)']
             ]} />
             <Subsection title="Outras Drogas">
                 <Subsubsection title="1ª escolha">

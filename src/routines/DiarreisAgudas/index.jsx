@@ -211,15 +211,15 @@ export default class DiarreiasAgudas extends React.Component {
                     O plano C contempla duas fases para todas as faixas etárias: a fase rápida e a fase de manutenção e reposição.
                 </P>
                 <Table head={['Solução', 'Volume', 'Tempo de Administração']} data={[
-                ['Soro fisiológico a 0.9%', 'Iniciar com 10 mL/kg de peso. Repetir esse quantidade até que a criança esteja hidratada, reavaliando os sinais clínicos após cada fase de expansão administrada.\nPara recém-nascidos e cardiopatas graves começar com 10 mL/kg de peso.', '30 minutos']
+                ['Soro fisiológico a 0,9%', 'Iniciar com 10 mL/kg de peso. Repetir esse quantidade até que a criança esteja hidratada, reavaliando os sinais clínicos após cada fase de expansão administrada.\nPara recém-nascidos e cardiopatas graves começar com 10 mL/kg de peso.', '30 minutos']
                 ]} title="Fase Rápida (Expansão) - Menores de 5 anos"/>
                 <Table head={['Solução', 'Volume', 'Tempo de Administração']} data={[
-                ['1° Soro Fisiológico a 0.9%', '30 mL/kg', '30 minutos'],
+                ['1° Soro Fisiológico a 0,9%', '30 mL/kg', '30 minutos'],
                 ['2° Ringer Lactato', '70 mL/kg', '2 horas e 30 minutos']
                 ]} title="Fase Rápida (Expansão) - Maiores de 5 anos"/>
                 <Table head={['Solução', 'Volume em 24 Horas', '']} data={[
-                ['Soro Glicosado a 5% + Soro Fisiológico a 0.9% na proporção de 4:1 (manutenção)', 'Peso até 10kg\n\nPeso de 10 a 20kg\n\nPeso acima de 20kg', '100 mL/kg\n\n1000 mL + 50 mL/kg de peso que exceder 10kg\n\n1500 mL + 20 mL/kg de peso que exceder 20 kg'],
-                ['Soro Glicosado a 5% + Soro Fisiológico a 0.9% na proporção de 1:1 (reposição)\n\nKCl a 10%', '\nIniciar com 50 mL/kg/dia. Reavaliar esta quantidade de acordo com as perdas do paciente\n\n2mL para cada 100mL de solução da fase de manutenção.', '']
+                ['Soro Glicosado a 5% + Soro Fisiológico a 0,9% na proporção de 4:1 (manutenção)', 'Peso até 10kg\n\nPeso de 10 a 20kg\n\nPeso acima de 20kg', '100 mL/kg\n\n1000 mL + 50 mL/kg de peso que exceder 10kg\n\n1500 mL + 20 mL/kg de peso que exceder 20 kg'],
+                ['Soro Glicosado a 5% + Soro Fisiológico a 0,9% na proporção de 1:1 (reposição)\n\nKCl a 10%', '\nIniciar com 50 mL/kg/dia. Reavaliar esta quantidade de acordo com as perdas do paciente\n\n2mL para cada 100mL de solução da fase de manutenção.', '']
                 ]} title="Fase de Manutenção e Reposição para Todas as Faixas Etárias"/>
                 <P>
                     Avaliar o paciente continuamente. Se não houver melhora da desidratação, aumentar a velocidade de infusão.
