@@ -35,6 +35,7 @@ import DorDeCrescimento from './DorDeCrescimento'
 import EmergenciaDeChoque from './EmergenciaDoChoque'
 import EmergenciaRespiratoria from './EmergenciaRespiratoria'
 import EndocarditeInfecciosa from './EndocarditeInfecciosa'
+import Epilepsia from './Epilepsia'
 
 
 export default [
@@ -73,6 +74,7 @@ export default [
   EmergenciaDeChoque,
   EmergenciaRespiratoria,
   EndocarditeInfecciosa,
+  Epilepsia,
   FebreReumatica,
   Varicela,
 ]
