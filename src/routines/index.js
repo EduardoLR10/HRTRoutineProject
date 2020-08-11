@@ -41,6 +41,7 @@ import FormulasLacteas from './FormulasLacteas'
 import GlomerulonefrineDifusaAguda from './GlomerulonefriteDifusaAguda'
 import Urticaria from './Urticaria'
 import Hematuria from './Hematuria'
+import HepatitesVirais from './HepatitesVirais'
 
 
 export default [
@@ -85,6 +86,7 @@ export default [
   FormulasLacteas,
   GlomerulonefrineDifusaAguda,
   Hematuria,
+  HepatitesVirais,
   Urticaria,
   Varicela,
 ]
