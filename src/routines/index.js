@@ -40,6 +40,7 @@ import FebreNoRecemNascido from './FebreNoRecemNascido'
 import FormulasLacteas from './FormulasLacteas'
 import GlomerulonefrineDifusaAguda from './GlomerulonefriteDifusaAguda'
 import Urticaria from './Urticaria'
+import Hematuria from './Hematuria'
 
 
 export default [
@@ -83,6 +84,7 @@ export default [
   FebreReumatica,
   FormulasLacteas,
   GlomerulonefrineDifusaAguda,
+  Hematuria,
   Urticaria,
   Varicela,
 ]
