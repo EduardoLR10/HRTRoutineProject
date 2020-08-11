@@ -43,6 +43,7 @@ import Urticaria from './Urticaria'
 import Hematuria from './Hematuria'
 import HepatitesVirais from './HepatitesVirais'
 import HidratacaoVenosa from './HidratacaoVenosa'
+import HipertensaoArterial from './HipertensaoArterial'
 
 
 export default [
@@ -89,6 +90,7 @@ export default [
   Hematuria,
   HepatitesVirais,
   HidratacaoVenosa,
+  HipertensaoArterial,
   Urticaria,
   Varicela,
 ]
