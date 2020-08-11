@@ -42,6 +42,7 @@ import GlomerulonefrineDifusaAguda from './GlomerulonefriteDifusaAguda'
 import Urticaria from './Urticaria'
 import Hematuria from './Hematuria'
 import HepatitesVirais from './HepatitesVirais'
+import HidratacaoVenosa from './HidratacaoVenosa'
 
 
 export default [
@@ -87,6 +88,7 @@ export default [
   GlomerulonefrineDifusaAguda,
   Hematuria,
   HepatitesVirais,
+  HidratacaoVenosa,
   Urticaria,
   Varicela,
 ]
