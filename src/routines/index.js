@@ -45,6 +45,7 @@ import HepatitesVirais from './HepatitesVirais'
 import HidratacaoVenosa from './HidratacaoVenosa'
 import HipertensaoArterial from './HipertensaoArterial'
 import IctericiaNeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilirrubinaIndireta'
+import InfeccoesTegumentares from './InfeccoesTegumentares'
 
 
 export default [
@@ -93,6 +94,7 @@ export default [
   HidratacaoVenosa,
   HipertensaoArterial,
   IctericiaNeonatalPorBilirrubinaIndireta,
+  InfeccoesTegumentares,
   Urticaria,
   Varicela,
 ]
