@@ -46,6 +46,7 @@ import HidratacaoVenosa from './HidratacaoVenosa'
 import HipertensaoArterial from './HipertensaoArterial'
 import IctericiaNeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilirrubinaIndireta'
 import InfeccoesTegumentares from './InfeccoesTegumentares'
+import InsuficienciaCardiaca from './InsuficienciaCardiaca'
 
 
 export default [
@@ -95,6 +96,7 @@ export default [
   HipertensaoArterial,
   IctericiaNeonatalPorBilirrubinaIndireta,
   InfeccoesTegumentares,
+  InsuficienciaCardiaca,
   Urticaria,
   Varicela,
 ]
