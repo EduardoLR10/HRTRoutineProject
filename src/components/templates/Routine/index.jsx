@@ -1,5 +1,6 @@
-import React from 'react'
-import { ScrollView } from 'react-native'
+import React, { Context } from 'react'
+import { ScrollView, Text, TouchableOpacity } from 'react-native'
+import emitter from 'tiny-emitter/instance'
 import styles from './styles'
 import P from '../Paragraph'
 
