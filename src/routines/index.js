@@ -49,6 +49,7 @@ import InfeccoesTegumentares from './InfeccoesTegumentares'
 import InsuficienciaCardiaca from './InsuficienciaCardiaca'
 import InsuficienciaRespiratoria from './InsuficienciaRespiratoria'
 import Insulinoterapia from './Insulinoterapia'
+import IntoxicacoesExogenasAgudas from './IntoxicacoesExogenasAgudas'
 
 
 export default [
@@ -101,6 +102,7 @@ export default [
   InsuficienciaCardiaca,
   InsuficienciaRespiratoria,
   Insulinoterapia,
+  IntoxicacoesExogenasAgudas,
   Urticaria,
   Varicela,
 ]
