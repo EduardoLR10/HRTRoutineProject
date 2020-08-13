@@ -48,6 +48,7 @@ import IctericiaNeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilir
 import InfeccoesTegumentares from './InfeccoesTegumentares'
 import InsuficienciaCardiaca from './InsuficienciaCardiaca'
 import InsuficienciaRespiratoria from './InsuficienciaRespiratoria'
+import Insulinoterapia from './Insulinoterapia'
 
 
 export default [
@@ -99,6 +100,7 @@ export default [
   InfeccoesTegumentares,
   InsuficienciaCardiaca,
   InsuficienciaRespiratoria,
+  Insulinoterapia,
   Urticaria,
   Varicela,
 ]
