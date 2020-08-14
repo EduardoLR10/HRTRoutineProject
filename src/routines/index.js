@@ -53,6 +53,7 @@ import IntoxicacoesExogenasAgudas from './IntoxicacoesExogenasAgudas'
 import IVAS1 from './IVAS1'
 import IVAS2 from './IVAS2'
 import IVAS3 from './IVAS3'
+import LeishmanioseVisceral from './LeishmanioseVisceral'
 
 
 export default [
@@ -109,6 +110,7 @@ export default [
   IVAS1,
   IVAS2,
   IVAS3,
+  LeishmanioseVisceral,
   Urticaria,
   Varicela,
 ]
