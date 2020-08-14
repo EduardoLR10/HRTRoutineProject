@@ -52,6 +52,7 @@ import Insulinoterapia from './Insulinoterapia'
 import IntoxicacoesExogenasAgudas from './IntoxicacoesExogenasAgudas'
 import IVAS1 from './IVAS1'
 import IVAS2 from './IVAS2'
+import IVAS3 from './IVAS3'
 
 
 export default [
@@ -107,6 +108,7 @@ export default [
   IntoxicacoesExogenasAgudas,
   IVAS1,
   IVAS2,
+  IVAS3,
   Urticaria,
   Varicela,
 ]
