@@ -57,6 +57,7 @@ import LeishmanioseVisceral from './LeishmanioseVisceral'
 import Mastoidite from './Mastoidite'
 import MeningitiesBacterianas from './MeningitesBacterianas'
 import MononucleoseInfecciosa from './MononucleoseInfecciosa'
+import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAreaPorCorpoEstranho'
 
 
 export default [
@@ -117,6 +118,7 @@ export default [
   Mastoidite,
   MeningitiesBacterianas,
   MononucleoseInfecciosa,
+  ObstrucaoDeViaAereaPorCorpoEstranho,
   Urticaria,
   Varicela,
 ]
