@@ -56,6 +56,7 @@ import IVAS3 from './IVAS3'
 import LeishmanioseVisceral from './LeishmanioseVisceral'
 import Mastoidite from './Mastoidite'
 import MeningitiesBacterianas from './MeningitesBacterianas'
+import MononucleoseInfecciosa from './MononucleoseInfecciosa'
 
 
 export default [
@@ -115,6 +116,7 @@ export default [
   LeishmanioseVisceral,
   Mastoidite,
   MeningitiesBacterianas,
+  MononucleoseInfecciosa,
   Urticaria,
   Varicela,
 ]
