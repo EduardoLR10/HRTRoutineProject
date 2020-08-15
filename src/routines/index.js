@@ -59,6 +59,7 @@ import MeningitiesBacterianas from './MeningitesBacterianas'
 import MononucleoseInfecciosa from './MononucleoseInfecciosa'
 import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAreaPorCorpoEstranho'
 import Osteomielite from './Osteomielite'
+import ParadaRespiratoria from './ParadaCardiorespiratoria'
 
 
 export default [
@@ -121,6 +122,7 @@ export default [
   MononucleoseInfecciosa,
   ObstrucaoDeViaAereaPorCorpoEstranho,
   Osteomielite,
+  ParadaRespiratoria,
   Urticaria,
   Varicela,
 ]

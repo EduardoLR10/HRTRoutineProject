@@ -10,8 +10,7 @@ import Subsubsection from '../../components/templates/Subsubsection'
 import Table from '../../components/templates/Table'
 
 import img1 from './images/image1.jpg'
-import img2 from './images/image2.jpg'
-import img3 from './images/image3.jpg'
+import img2 from './images/image2.png'
 
 export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
 
@@ -285,7 +284,6 @@ export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
             <P>
                 Duração da dieta e reintrodução alimentar: Para a APLV, preconiza-se que a dieta de exclusão seja, no mínimo, de 6 a 12 meses. Crianças com colite alérgica, diagnosticada antes dos 6 meses de idade, podem vir a tolerar a reintrodução do alimento 6 a 8 meses após a dieta de exclusão. Entretanto, esse prazo pode ser ampliado, pois cada paciente deve ser avaliado periodicamente de forma individualizada. Recomenda-se postergar a exposição ao alimento, quando as reações envolvidas são mediadas por IgE.
             </P>
-            <Figure source={img3}/>
             <Figure source={img2} bottom_label="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1"/>
           </Section>
           <Section title="Referências">
