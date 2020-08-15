@@ -58,6 +58,7 @@ import Mastoidite from './Mastoidite'
 import MeningitiesBacterianas from './MeningitesBacterianas'
 import MononucleoseInfecciosa from './MononucleoseInfecciosa'
 import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAreaPorCorpoEstranho'
+import Osteomielite from './Osteomielite'
 
 
 export default [
@@ -119,6 +120,7 @@ export default [
   MeningitiesBacterianas,
   MononucleoseInfecciosa,
   ObstrucaoDeViaAereaPorCorpoEstranho,
+  Osteomielite,
   Urticaria,
   Varicela,
 ]
