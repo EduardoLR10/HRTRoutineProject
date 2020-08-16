@@ -1,6 +1,6 @@
 import React from 'react'
 import { ScrollView, View, Text } from 'react-native'
-import { Card, Title, Paragraph, Button } from 'react-native-paper'
+import { Card, Avatar } from 'react-native-paper'
 import Icon from 'react-native-vector-icons/AntDesign'; Icon.loadFont()
 import { ListItem } from 'react-native-elements'
 import P from './../../components/templates/Paragraph';
@@ -14,56 +14,56 @@ export default class About extends React.Component {
   render = () =>
     <ScrollView>
       <Card elevation={5} style={{ marginBottom: 10 }}>
-        <Card.Title title="Hospital Regional de Taguatinga" titleStyle={{ color: 'blue' }} />
+        <Card.Title title="Hospital Regional de Taguatinga" titleStyle={{ textAlign: 'center', color: 'blue' }} />
         <Card.Content>
-          <Card.Cover source={imgHrt} />
+          <Card.Cover source={imgHrt} style={{ marginBottom: 8 }} />
           <P>Sobre o Hospital Regional de Taguatinga</P>
         </Card.Content>
       </Card>
 
       <Card elevation={5} style={{ marginBottom: 10 }}>
-        <Card.Title title="Idealizadora" titleStyle={{ color: 'blue' }} />
+        <Card.Title title="Idealizadora" titleStyle={{ textAlign: 'center', color: 'blue' }} />
         <Card.Content>
-          <Card.Cover source={imgEduardo} />
+          <Card.Cover source={imgEduardo} style={{ marginBottom: 8 }} />
           <P>Sobre a Srª Lemos :)</P>
         </Card.Content>
       </Card>
 
       <Card elevation={5} style={{ marginBottom: 10 }}>
-        <Card.Title title="Time de Desenvolvimento" titleStyle={{ color: 'blue' }} />
+        <Card.Title title="Time de Desenvolvimento" titleStyle={{ textAlign: 'center', color: 'blue' }} />
         <Card.Content>
           <ListItem
             title="Eduardo Lemos Rocha"
-            leftAvatar={{ source: imgEduardo }}
+            leftAvatar={<Avatar.Image source={imgEduardo} size={88} />}
             subtitle={
               <View>
                 <Text>
                   Estudante de Engenharia da Computação da Universidade de Brasília.
-            </Text>
+                </Text>
                 <Text>
                   <Icon name="mail" color="red" /> dudulr10@gmail.com
-            </Text>
+                </Text>
                 <Text>
                   <Icon name="github" color="red" /> EduardoLR10
-            </Text>
+                </Text>
               </View>
             }
             bottomDivider
           />
           <ListItem
             title="Luigi Minardi Ferreira Maia"
-            leftAvatar={{ source: imgLuigi }}
+            leftAvatar={<Avatar.Image source={imgLuigi} size={88} />}
             subtitle={
               <View>
                 <Text>
                   Estudante de Engenharia da Computação da Universidade de Brasília.
-            </Text>
+                </Text>
                 <Text>
                   <Icon name="mail" color="red" /> luigiminardim@gmail.com
-            </Text>
+                </Text>
                 <Text>
                   <Icon name="github" color="red" /> luigiminardim
-            </Text>
+                </Text>
               </View>
             }
           />
