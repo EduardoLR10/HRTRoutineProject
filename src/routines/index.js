@@ -65,6 +65,7 @@ import PneumoniasBacterianas from './PneumoniasBacterianas'
 import PrimoinfeccaoEEncefaliteHerpetica from './PrimoinfeccaoEEncefaliteHerpetica'
 import PuncaoLombar from './PuncaoLombar'
 import PurpuraDeHenochSchonlein from './PurpuraDeHenoch-Schonlein'
+import PurpuraTrombocitopenicaIdiopaica from './PurpuraTrombocitopenicaIdiopatica'
 
 
 export default [
@@ -133,6 +134,7 @@ export default [
   PrimoinfeccaoEEncefaliteHerpetica,
   PuncaoLombar,
   PurpuraDeHenochSchonlein,
+  PurpuraTrombocitopenicaIdiopaica,
   Urticaria,
   Varicela,
 ]
