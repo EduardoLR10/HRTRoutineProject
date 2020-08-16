@@ -61,6 +61,7 @@ import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAreaPorCorpoEst
 import Osteomielite from './Osteomielite'
 import ParadaRespiratoria from './ParadaCardiorespiratoria'
 import ParasitosesIntestinais from './ParasitosesIntestinais'
+import PneumoniasBacterianas from './PneumoniasBacterianas'
 
 
 export default [
@@ -125,6 +126,7 @@ export default [
   Osteomielite,
   ParadaRespiratoria,
   ParasitosesIntestinais,
+  PneumoniasBacterianas,
   Urticaria,
   Varicela,
 ]
