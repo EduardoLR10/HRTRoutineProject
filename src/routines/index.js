@@ -64,6 +64,7 @@ import ParasitosesIntestinais from './ParasitosesIntestinais'
 import PneumoniasBacterianas from './PneumoniasBacterianas'
 import PrimoinfeccaoEEncefaliteHerpetica from './PrimoinfeccaoEEncefaliteHerpetica'
 import PuncaoLombar from './PuncaoLombar'
+import PurpuraDeHenochSchonlein from './PurpuraDeHenoch-Schonlein'
 
 
 export default [
@@ -131,6 +132,7 @@ export default [
   PneumoniasBacterianas,
   PrimoinfeccaoEEncefaliteHerpetica,
   PuncaoLombar,
+  PurpuraDeHenochSchonlein,
   Urticaria,
   Varicela,
 ]
