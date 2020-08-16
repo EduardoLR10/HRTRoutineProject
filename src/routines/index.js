@@ -63,6 +63,7 @@ import ParadaRespiratoria from './ParadaCardiorespiratoria'
 import ParasitosesIntestinais from './ParasitosesIntestinais'
 import PneumoniasBacterianas from './PneumoniasBacterianas'
 import PrimoinfeccaoEEncefaliteHerpetica from './PrimoinfeccaoEEncefaliteHerpetica'
+import PuncaoLombar from './PuncaoLombar'
 
 
 export default [
@@ -129,6 +130,7 @@ export default [
   ParasitosesIntestinais,
   PneumoniasBacterianas,
   PrimoinfeccaoEEncefaliteHerpetica,
+  PuncaoLombar,
   Urticaria,
   Varicela,
 ]
