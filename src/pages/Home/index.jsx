@@ -4,6 +4,7 @@ import { ButtonGroup, SearchBar } from 'react-native-elements'
 import styles, { buttonGroupStyles, searchBarSyles, cardsListStyles } from './styles'
 import routines from '../../routines'
 import RoutineCard from '../../components/RoutineCard'
+import About from '../About'
 
 export default class Home extends React.Component {
 
@@ -13,7 +14,8 @@ export default class Home extends React.Component {
     this.categories = Object.keys(this.clusters)
     this.state = {
       categoryIdx: 0,
-      searchText: ''
+      searchText: '',
+      isAboutVisible: true,
     }
   }
 

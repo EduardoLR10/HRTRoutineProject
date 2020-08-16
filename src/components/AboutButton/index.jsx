@@ -1,5 +1,6 @@
 import React from 'react'
-import Icon from 'react-native-vector-icons/Feather'; Icon.loadFont()
+import Icon from 'react-native-vector-icons/Octicons'; Icon.loadFont()
+import About from '../../pages/About';
 
 export default class AboutButton extends React.Component {
 
@@ -9,6 +10,6 @@ export default class AboutButton extends React.Component {
       height: 25, width: 25,
       color: 'black',
     }}
-      name='more-vertical' size={20}
-      onPress={() => { }} />
+      name='info' size={20}
+      onPress={() => this.props.navigation.navigate('About')} />
 }
