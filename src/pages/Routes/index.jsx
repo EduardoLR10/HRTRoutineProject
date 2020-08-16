@@ -9,6 +9,8 @@ import AboutButton from '../../components/AboutButton'
 import HeaderTitle from '../../components/HeaderTitle'
 import About from '../About';
 
+import 'react-native'
+
 const Stack = createStackNavigator()
 
 export default class Routes extends React.Component {
