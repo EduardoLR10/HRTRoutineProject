@@ -62,6 +62,7 @@ import Osteomielite from './Osteomielite'
 import ParadaRespiratoria from './ParadaCardiorespiratoria'
 import ParasitosesIntestinais from './ParasitosesIntestinais'
 import PneumoniasBacterianas from './PneumoniasBacterianas'
+import PrimoinfeccaoEEncefaliteHerpetica from './PrimoinfeccaoEEncefaliteHerpetica'
 
 
 export default [
@@ -127,6 +128,7 @@ export default [
   ParadaRespiratoria,
   ParasitosesIntestinais,
   PneumoniasBacterianas,
+  PrimoinfeccaoEEncefaliteHerpetica,
   Urticaria,
   Varicela,
 ]

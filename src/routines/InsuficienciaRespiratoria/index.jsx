@@ -13,7 +13,7 @@ import Table from '../../components/templates/Table'
 export default class InsuficienciaRespiratoria extends React.Component {
 
 	static title = "Insuficiência Respiratória no RN"
-	static category = "Emergência e Terapia Intensiva"
+	static category = "Neonatologia"
 	static authors = "Dra. Maria Aparecida Moreira Machado"
 
 		render = () =>

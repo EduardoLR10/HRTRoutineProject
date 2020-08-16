@@ -13,7 +13,7 @@ import Table from '../../components/templates/Table'
 export default class DisturbioMetabolico extends React.Component {
 
   static title = "Distúrbio Metabólico"
-  static category = "Emergência e Terapia Intensiva"
+  static category = "Neonatologia"
   static authors = "Dr. Fabrício Pereira Madureira"
 
     render = () =>
