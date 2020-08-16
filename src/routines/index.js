@@ -60,6 +60,7 @@ import MononucleoseInfecciosa from './MononucleoseInfecciosa'
 import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAreaPorCorpoEstranho'
 import Osteomielite from './Osteomielite'
 import ParadaRespiratoria from './ParadaCardiorespiratoria'
+import ParasitosesIntestinais from './ParasitosesIntestinais'
 
 
 export default [
@@ -123,6 +124,7 @@ export default [
   ObstrucaoDeViaAereaPorCorpoEstranho,
   Osteomielite,
   ParadaRespiratoria,
+  ParasitosesIntestinais,
   Urticaria,
   Varicela,
 ]
