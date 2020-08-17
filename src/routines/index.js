@@ -66,6 +66,7 @@ import PrimoinfeccaoEEncefaliteHerpetica from './PrimoinfeccaoEEncefaliteHerpeti
 import PuncaoLombar from './PuncaoLombar'
 import PurpuraDeHenochSchonlein from './PurpuraDeHenoch-Schonlein'
 import PurpuraTrombocitopenicaIdiopaica from './PurpuraTrombocitopenicaIdiopatica'
+import ReanimacaoNeonatal from './ReanimacaoNeonatal'
 
 
 export default [
@@ -135,6 +136,7 @@ export default [
   PuncaoLombar,
   PurpuraDeHenochSchonlein,
   PurpuraTrombocitopenicaIdiopaica,
+  ReanimacaoNeonatal,
   Urticaria,
   Varicela,
 ]
