@@ -67,6 +67,7 @@ import PuncaoLombar from './PuncaoLombar'
 import PurpuraDeHenochSchonlein from './PurpuraDeHenoch-Schonlein'
 import PurpuraTrombocitopenicaIdiopaica from './PurpuraTrombocitopenicaIdiopatica'
 import ReanimacaoNeonatal from './ReanimacaoNeonatal'
+import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
 
 
 export default [
@@ -115,6 +116,7 @@ export default [
   HidratacaoVenosa,
   HipertensaoArterial,
   IctericiaNeonatalPorBilirrubinaIndireta,
+  InfeccaoDoTratoUrinario,
   InfeccoesTegumentares,
   InsuficienciaCardiaca,
   InsuficienciaRespiratoria,
