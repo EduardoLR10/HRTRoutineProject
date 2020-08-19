@@ -68,6 +68,7 @@ import PurpuraDeHenochSchonlein from './PurpuraDeHenoch-Schonlein'
 import PurpuraTrombocitopenicaIdiopaica from './PurpuraTrombocitopenicaIdiopatica'
 import ReanimacaoNeonatal from './ReanimacaoNeonatal'
 import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
+import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
 
 
 export default [
@@ -139,6 +140,7 @@ export default [
   PurpuraDeHenochSchonlein,
   PurpuraTrombocitopenicaIdiopaica,
   ReanimacaoNeonatal,
+  SequenciaRapidaDeIntubacao,
   Urticaria,
   Varicela,
 ]
