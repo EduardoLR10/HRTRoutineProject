@@ -70,6 +70,7 @@ import ReanimacaoNeonatal from './ReanimacaoNeonatal'
 import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
 import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
 import SindromeNefrotica from './SindromeNefrotica'
+import TraumatismoCranioencefalico from './TraumatismoCranioencefalico'
 
 
 export default [
@@ -143,6 +144,7 @@ export default [
   ReanimacaoNeonatal,
   SequenciaRapidaDeIntubacao,
   SindromeNefrotica,
+  TraumatismoCranioencefalico,
   Urticaria,
   Varicela,
 ]
