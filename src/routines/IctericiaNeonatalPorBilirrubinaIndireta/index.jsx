@@ -15,7 +15,7 @@ import img1 from './images/image1.png'
 export default class IctericiaNeonatalPorBilirrubinaIndireta extends React.Component {
 
 	static title = "Icterícia Neonatal por Bilirrubina Indireta"
-	static category = "Neonatalogia"
+	static category = "Neonatologia"
 	static authors = "Dra. Maria Aparecida Moreira Machado"
 
 		render = () =>

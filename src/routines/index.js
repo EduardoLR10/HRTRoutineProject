@@ -69,6 +69,7 @@ import PurpuraTrombocitopenicaIdiopaica from './PurpuraTrombocitopenicaIdiopatic
 import ReanimacaoNeonatal from './ReanimacaoNeonatal'
 import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
 import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
+import SindromeNefrotica from './SindromeNefrotica'
 
 
 export default [
@@ -141,6 +142,7 @@ export default [
   PurpuraTrombocitopenicaIdiopaica,
   ReanimacaoNeonatal,
   SequenciaRapidaDeIntubacao,
+  SindromeNefrotica,
   Urticaria,
   Varicela,
 ]
