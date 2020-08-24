@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, View, Text } from 'react-native'
+import { ScrollView, View, Text, Image } from 'react-native'
 import { Card, Avatar } from 'react-native-paper'
 import Icon from 'react-native-vector-icons/AntDesign'; Icon.loadFont()
 import { ListItem } from 'react-native-elements'
@@ -8,6 +8,11 @@ import P from './../../components/templates/Paragraph';
 import imgHrt from '../../assets/images/HRT.jpg'
 import imgLuigi from '../../assets/images/LuigiMinardi.png'
 import imgEduardo from '../../assets/images/EduardoLemos.jpg'
+import imgMissLemos from '../../assets/images/MissLemos.jpg'
+
+import { Dimensions } from 'react-native';
+const screen = Dimensions.get('window')
+
 
 export default class About extends React.Component {
 
@@ -23,8 +28,8 @@ export default class About extends React.Component {
 
       <Card elevation={5} style={{ marginBottom: 10 }}>
         <Card.Title title="Idealizadora" titleStyle={{ textAlign: 'center', color: 'blue' }} />
-        <Card.Content>
-          <Card.Cover source={imgEduardo} style={{ marginBottom: 8 }} />
+        <Card.Content style={{}}>
+          <Card.Cover source={imgMissLemos} style={{ height: 200, width:150, alignSelf: 'center', marginBottom: 8 }} />
           <P>Sobre a Srª Lemos :)</P>
         </Card.Content>
       </Card>
