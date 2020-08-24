@@ -71,6 +71,7 @@ import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
 import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
 import SindromeNefrotica from './SindromeNefrotica'
 import TraumatismoCranioencefalico from './TraumatismoCranioencefalico'
+import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRespiratorias'
 
 
 export default [
@@ -125,6 +126,7 @@ export default [
   InsuficienciaRespiratoria,
   Insulinoterapia,
   IntoxicacoesExogenasAgudas,
+  InvestigacaoDasInfeccoesRespiratorias,
   IVAS1,
   IVAS2,
   IVAS3,
