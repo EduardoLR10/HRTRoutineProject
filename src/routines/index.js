@@ -72,6 +72,7 @@ import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
 import SindromeNefrotica from './SindromeNefrotica'
 import TraumatismoCranioencefalico from './TraumatismoCranioencefalico'
 import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRespiratorias'
+import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
 
 
 export default [
@@ -132,6 +133,7 @@ export default [
   IVAS3,
   LeishmanioseVisceral,
   Mastoidite,
+  MedidasDePrecaucaoEIsolamento,
   MeningitiesBacterianas,
   MononucleoseInfecciosa,
   ObstrucaoDeViaAereaPorCorpoEstranho,
