@@ -19,23 +19,64 @@ export default class About extends React.Component {
   render = () =>
     <ScrollView>
       <Card elevation={5} style={{ marginBottom: 10 }}>
-        <Card.Title title="Hospital Regional de Taguatinga" titleStyle={{ textAlign: 'center', color: 'blue' }} />
+        <Card.Title title="HRT" titleStyle={{ textAlign: 'center', color: 'blue' }} />
         <Card.Content>
           <Card.Cover source={imgHrt} style={{ marginBottom: 8 }} />
-          <P>Sobre o Hospital Regional de Taguatinga</P>
+          <P>
+            A unidade de pediatria do Hospital Regional de Taguatinga (HRT) possui uma longa tradição de ensino em Internato de Medicina e Residência Médica de Pediatria, desde 1976. Nossas atividades assistenciais e de treinamento em serviço são desenvolvidas nas Enfermarias, Pronto Socorro, Ambulatórios, Alojamento Conjunto, Berçário, Centro Obstétrico e UTI pediátrica.
+          </P>
         </Card.Content>
       </Card>
 
       <Card elevation={5} style={{ marginBottom: 10 }}>
-        <Card.Title title="Idealizadora" titleStyle={{ textAlign: 'center', color: 'blue' }} />
+        <Card.Title title="Propósito" titleStyle={{ textAlign: 'center', color: 'blue' }} />
         <Card.Content style={{}}>
-          <Card.Cover source={imgMissLemos} style={{ height: 200, width:150, alignSelf: 'center', marginBottom: 8 }} />
-          <P>Sobre a Srª Lemos :)</P>
+          <P>
+            Esse trabalho é o resultado de um esforço conjunto dos Preceptores do Programa de Residência Médica (PRM) de Pediatria do HRT, com o objetivo de reunir e uniformizar de um modo simples, prático e atual, as informações necessárias ao diagnóstico e tratamento das principais doenças e demais condições patológicas da pediatria. Nossa intenção é de aprimorar o atendimento às crianças, tornando-o mais ágil e eficaz, reduzindo prejuízos físicos e emocionais decorrentes de atrasos diagnósticos e tratamentos inadequados.
+            Dedicamos esse trabalho às crianças que serão as principais favorecidas e constituem nosso verdadeiro incentivo profissional.
+            Agradeço a todos os colegas pediatras que colaboraram para tornar real essa obra que será bastante útil a todos que prestam atendimento a crianças.
+          </P>
         </Card.Content>
       </Card>
 
       <Card elevation={5} style={{ marginBottom: 10 }}>
-        <Card.Title title="Time de Desenvolvimento" titleStyle={{ textAlign: 'center', color: 'blue' }} />
+        <Card.Title title="Coordenadora" titleStyle={{ textAlign: 'center', color: 'blue' }} />
+        <Card.Content>
+          <Card.Cover source={imgMissLemos} style={{ height: 200, width: 150, alignSelf: 'center', marginBottom: 8 }} />
+          <P>
+            Dra. Dania Lemos Dionízio
+          </P><P>
+            Graduação em Medicina pela Universidade Federal do Triângulo Mineiro.
+          </P>
+          <P>
+            Especialista em Pediatria, Reumatologia Pediátrica e Alergia e Imunologia.
+          </P>
+          <P>
+            Professora do curso de Medicina - disciplina de Pediatria e de Reumatologia da Universidade Católica de Brasília(UCB) de 2005 a 2010 e Coordenadora do Internato em pediatria da UCB de 2006 a 2010.
+          </P>
+          <P>
+            Professora do curso de Medicina da UNICEPLAC - União Educacional do Planalto Central desde fevereiro de 2019.
+          </P>
+          <P>
+            Preceptora da Residência Médica em Pediatria - Secretaria Saúde do Distrito Federal desde 1998.
+          </P>
+          <P>
+            Preceptora do Internato em Pediatria da Fundação de Ensino e Pesquisa em Ciências da Saúde(FEPECS) do Distrito Federal desde 2006.
+          </P>
+          <P>
+            Supervisora do PRM (Programa de Residência Médica) em Pediatria do Hospital Regional de Taguatinga - SES / DF desde março de 2018.
+          </P>
+          <P>
+            Compôs várias bancas de avaliação de TCC (trabalho de conclusão de curso) na residência de pediatria, tanto como Orientadora quanto como Avaliadora.
+          </P>
+          <P>
+            Atua como médica com ênfase em Pediatria, Reumatologia e Alergia.
+          </P>
+        </Card.Content>
+      </Card>
+
+      <Card elevation={5} style={{ marginBottom: 10 }}>
+        <Card.Title title="Equipe de desenvolvimento" titleStyle={{ textAlign: 'center', color: 'blue' }} />
         <Card.Content>
           <ListItem
             title="Eduardo Lemos Rocha"
