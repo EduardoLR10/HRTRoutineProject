@@ -74,6 +74,7 @@ import TraumatismoCranioencefalico from './TraumatismoCranioencefalico'
 import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRespiratorias'
 import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
 import TuberculosePulmonar from './TurbeculosePulmonar'
+import MausTratos from './MausTratos'
 
 
 export default [
@@ -134,6 +135,7 @@ export default [
   IVAS3,
   LeishmanioseVisceral,
   Mastoidite,
+  MausTratos,
   MedidasDePrecaucaoEIsolamento,
   MeningitiesBacterianas,
   MononucleoseInfecciosa,
