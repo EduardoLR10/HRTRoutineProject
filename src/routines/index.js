@@ -73,6 +73,7 @@ import SindromeNefrotica from './SindromeNefrotica'
 import TraumatismoCranioencefalico from './TraumatismoCranioencefalico'
 import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRespiratorias'
 import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
+import TuberculosePulmonar from './TurbeculosePulmonar'
 
 
 export default [
@@ -149,6 +150,7 @@ export default [
   SequenciaRapidaDeIntubacao,
   SindromeNefrotica,
   TraumatismoCranioencefalico,
+  TuberculosePulmonar,
   Urticaria,
   Varicela,
 ]
