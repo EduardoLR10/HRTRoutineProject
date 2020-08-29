@@ -75,6 +75,7 @@ import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRes
 import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
 import TuberculosePulmonar from './TurbeculosePulmonar'
 import MausTratos from './MausTratos'
+import CriseAgudaDeAsma from './CriseAgudaDeAsma'
 
 
 export default [
@@ -95,6 +96,7 @@ export default [
   ConstipacaoInstestinal,
   ConvulsaoFebril,
   Coqueluche,
+  CriseAgudaDeAsma,
   CriseHipoxia,
   Crupe,
   DengueEOutrasArboviroses,
