@@ -13,7 +13,7 @@ import Table from '../../components/templates/Table'
 export default class CriseAgudaDeAsma extends React.Component {
 
 	static title = "Crise Aguda de Asma"
-	static category = "Emergência de Terapia Intensiva"
+	static category = "Emergência e Terapia Intensiva"
 	static authors = "Dr. Fernando de Velasco Lino e Dra. Dania Lemos Dionízio"
 
 		render = () =>

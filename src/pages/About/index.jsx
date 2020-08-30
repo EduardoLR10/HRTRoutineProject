@@ -1,20 +1,17 @@
 import React from 'react'
 import { ScrollView, View, Text, Image } from 'react-native'
-import { Avatar, Subheading } from 'react-native-paper'
+import { Avatar, Subheading, List, Divider } from 'react-native-paper'
 import Icon from 'react-native-vector-icons/AntDesign'; Icon.loadFont()
-import { ListItem } from 'react-native-elements'
 import P from './../../components/templates/Paragraph';
 import styles, { contactIconStyle, avatarStyle } from './styles'
 
 import Card from './Card'
+import preceptors from '../../preceptors'
 
 import imgHrt from '../../assets/images/HRT.jpg'
 import imgLuigi from '../../assets/images/LuigiMinardi.png'
 import imgEduardo from '../../assets/images/EduardoLemos.jpg'
 import imgMissLemos from '../../assets/images/MissLemos.jpg'
-
-import { Dimensions } from 'react-native';
-const screen = Dimensions.get('window')
 
 export default class About extends React.Component {
 
@@ -74,29 +71,42 @@ export default class About extends React.Component {
         </P>
       </Card>
 
+      <Card title="Preceptores">
+        {preceptors.map(({ name, image }, idx) => <>
+          <List.Item key={idx}
+            title={name}
+            left={props => <Avatar.Image source={image} />}
+            titleNumberOfLines={0}
+          />
+          {idx < preceptors.length - 1 ? <Divider /> : <></>}
+        </>)}
+      </Card>
+
       <Card title="Equipe de desenvolvimento">
-        <ListItem title="Eduardo Lemos Rocha"
-          leftAvatar={<Avatar.Image source={imgEduardo} {...avatarStyle} />}
-          subtitle={
+        <List.Item
+          title={'Luigi Minardi Ferreira Maia'}
+          left={props => <Avatar.Image source={imgLuigi} {...avatarStyle} />}
+          description={props =>
             <View>
               <Text>
                 Estudante de Engenharia da Computação da Universidade de Brasília.
-              </Text>
-              <Text><Icon name="mail" {...contactIconStyle} /> dudulr10@gmai.com</Text>
-              <Text><Icon name="github" {...contactIconStyle} /> EduardoLR10</Text>
-            </View>
-          }
-          bottomDivider
-        />
-        <ListItem title="Luigi Minardi Ferreira Maia"
-          leftAvatar={<Avatar.Image source={imgLuigi} {...avatarStyle} />}
-          subtitle={
-            <View>
-              <Text>
-                Estudante de Engenharia da Computação da Universidade de Brasília.
-              </Text>
+            </Text>
               <Text><Icon name="mail" {...contactIconStyle} /> luigiminardimgmail.com</Text>
               <Text><Icon name="github" {...contactIconStyle} /> luigiminardim</Text>
+            </View>
+          }
+        />
+        <Divider />
+        <List.Item
+          title={'Eduardo Lemos Rocha'}
+          left={props => <Avatar.Image source={imgEduardo} {...avatarStyle} />}
+          description={props =>
+            <View>
+              <Text>
+                Estudante de Engenharia da Computação da Universidade de Brasília.
+            </Text>
+              <Text><Icon name="mail" {...contactIconStyle} /> dudulr10@gmai.com</Text>
+              <Text><Icon name="github" {...contactIconStyle} /> EduardoLR10</Text>
             </View>
           }
         />
