@@ -32,9 +32,11 @@ export default class RoutinesService {
   ))
 
   matchSearch = (searched, text) => {
-    const searched_ = searched.toLowerCase()
-    const text_ = text.toLowerCase()
-    return text_.includes(searched_)
+    const normalize = x => x
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
+    return normalize(text).includes(normalize(searched))
   }
 
   _clusterize(routines) {
