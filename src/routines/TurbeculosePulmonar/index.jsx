@@ -16,7 +16,8 @@ export default class TurbeculosePulmonar extends React.Component {
 
 	static title = "Tuberculose Pulmonar na Infância"
 	static category = "Pneumologia"
-	static authors = "Dr. Fernando de Velasco Lino"
+    static authors = "Dr. Fernando de Velasco Lino"
+    static tags = ["TB", "cavitação", "pulmonar", "criança", "BAAR"]
 
 		render = () =>
 			<Routine title={TurbeculosePulmonar.title} category={TurbeculosePulmonar.category} authors={TurbeculosePulmonar.authors}>

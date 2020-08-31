@@ -21,7 +21,8 @@ export default class ParadaRespiratoria extends React.Component {
 
 	static title = "Parada Cardiorrespiratória"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dr. Luiz Antônio de Almeida e Silva"
+    static authors = "Dr. Luiz Antônio de Almeida e Silva"
+    static tags = ["PCR", "PALS"]
 
 		render = () =>
 			<Routine title={ParadaRespiratoria.title} category={ParadaRespiratoria.category} authors={ParadaRespiratoria.authors}>

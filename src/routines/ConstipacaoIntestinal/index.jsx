@@ -16,6 +16,7 @@ export default class ConstipacaoIntestinal extends React.Component {
   static title = "Constipação Intestinal"
   static category = "Gastroenterologia"
   static authors = "Dra. Ana Beatriz Schmitt Silva"
+  static tags = ["ressecamento", "prisão", "ventre"]
 
     render = () =>
       <Routine title={ConstipacaoIntestinal.title} category={ConstipacaoIntestinal.category} authors={ConstipacaoIntestinal.authors}>

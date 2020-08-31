@@ -15,6 +15,7 @@ export default class EmergenciaRespiratoria extends React.Component {
   static title = "Emergência Respiratória"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Luiz Antônio de Almeida e Silva"
+  static tags = ["criança", "insuficiência", "aguda"]
 
 	render = () =>
 	  <Routine title={EmergenciaRespiratoria.title} category={EmergenciaRespiratoria.category} authors={EmergenciaRespiratoria.authors}>

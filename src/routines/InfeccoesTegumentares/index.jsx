@@ -14,7 +14,8 @@ export default class InfeccoesTegumentares extends React.Component {
 
 	static title = "Infecções Tegumentares e Miosites"
 	static category = "Infectologia"
-	static authors = "Dr. Iúri Leão de Almeida e Dr. Marco Antônio Alves Cunha"
+    static authors = "Dr. Iúri Leão de Almeida e Dr. Marco Antônio Alves Cunha"
+    static tags = ["celulite", "erisipela", "miosite", "mialgia"]
 
 		render = () =>
 			<Routine title={InfeccoesTegumentares.title} category={InfeccoesTegumentares.category} authors={InfeccoesTegumentares.authors}>

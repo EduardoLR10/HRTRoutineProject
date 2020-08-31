@@ -18,6 +18,7 @@ export default class ChoqueSeptico extends React.Component {
   static title = "Choque Séptico"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Rafael Belotti Fialho"
+  static tags = ["sepsis", "vasoativas"]
 
     render = () =>
       <Routine title={ChoqueSeptico.title} category={ChoqueSeptico.category} authors={ChoqueSeptico.authors}>

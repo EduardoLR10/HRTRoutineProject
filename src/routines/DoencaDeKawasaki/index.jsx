@@ -17,6 +17,7 @@ export default class DoencaDeKawasaki extends React.Component {
   static title = "Doença de Kawasaki - DK"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dra. Dania Lemos Dionízio"
+  static tags = ["síndrome", "mucocutânea", "ganglionar"]
 
     render = () =>
       <Routine title={DoencaDeKawasaki.title} category={DoencaDeKawasaki.category} authors={DoencaDeKawasaki.authors}>

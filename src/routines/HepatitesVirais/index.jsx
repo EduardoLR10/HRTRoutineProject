@@ -15,6 +15,7 @@ export default class HepatitesVirais extends React.Component {
   static title = "Hepatites Virais"
   static category = "Infectologia"
   static authors = "Dr. Marco Antônio Alves Cunha"
+  static tags = ["hepatite", "hepatomegalia", "icterícia", "A", "B"]
 
     render = () =>
       <Routine title={HepatitesVirais.title} category={HepatitesVirais.category} authors={HepatitesVirais.authors}>

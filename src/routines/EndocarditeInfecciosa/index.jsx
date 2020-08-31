@@ -15,6 +15,7 @@ export default class EndocarditeInfecciosa extends React.Component {
   static title = "Endocardite Infecciosa (EI) na Infância"
   static category = "Cardiologia"
   static authors = "Dra. Luciany Carvalho"
+  static tags = ["bacteriana"]
 
     render = () =>
       <Routine title={EndocarditeInfecciosa.title} category={EndocarditeInfecciosa.category} authors={EndocarditeInfecciosa.authors}>

@@ -15,6 +15,7 @@ export default class FormulasLacteas extends React.Component {
   static title = "Fórmulas Lácteas"
   static category = "Lactentes"
   static authors = "Dr. Francisco Rufino Rosa Neto"
+  static tags = ["leite", "artificial", "mamadeira", "soja", "hidrolisado", "aminoácido"]
 
 	render = () =>
 	  <Routine title={FormulasLacteas.title} category={FormulasLacteas.category} authors={FormulasLacteas.authors}>

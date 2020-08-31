@@ -14,7 +14,8 @@ export default class PneumoniasBacterianas extends React.Component {
 
 	static title = "Pneumonias Bacterianas"
 	static category = "Pneumologia"
-	static authors = "Dr. Fernando de Velasco Lino"
+    static authors = "Dr. Fernando de Velasco Lino"
+    static tags = ["pneumonia", "bactéria"]
 
 		render = () =>
 			<Routine title={PneumoniasBacterianas.title} category={PneumoniasBacterianas.category} authors={PneumoniasBacterianas.authors}>

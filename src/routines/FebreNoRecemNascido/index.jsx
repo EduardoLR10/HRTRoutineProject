@@ -15,6 +15,7 @@ export default class FebreNoRecemNascido extends React.Component {
   static title = "Febre no Recém Nascido"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Maria Aparecida Moreira Machado"
+  static tags = ["hipertermia"]
 
     render = () =>
       <Routine title={FebreNoRecemNascido.title} category={FebreNoRecemNascido.category} authors={FebreNoRecemNascido.authors}>

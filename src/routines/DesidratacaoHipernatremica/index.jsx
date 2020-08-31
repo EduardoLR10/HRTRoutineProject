@@ -15,6 +15,7 @@ export default class DesidratacaoHipernatremica extends React.Component {
   static title = "Desidratação Hipernatrêmica no RN"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Maria Aparecida Soares Moreira Machado"
+  static tags = ["recém", "nascido", "distúrbio", "eletrolítico"]
 
     render = () =>
       <Routine title={DesidratacaoHipernatremica.title} category={DesidratacaoHipernatremica.category} authors={DesidratacaoHipernatremica.authors}>

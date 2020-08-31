@@ -15,6 +15,7 @@ export default class Coqueluche extends React.Component {
     static title = "Coqueluche"
     static category = "Lactentes"
     static authors = "Dr. Francisco Rufino Rosa Neto"
+    static tags = ["tosse", "pertussis"]
 
     render = () =>
         <Routine title={Coqueluche.title} category={Coqueluche.category} authors={Coqueluche.authors}>

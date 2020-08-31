@@ -20,6 +20,7 @@ export default class ConceitosBasicosDeVentilacaoMecanica extends React.Componen
   static title = "Conceitos Básicos de Ventilação Mêcanica"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Rafael Belotti Fialho"
+  static tags = ["parâmetros", "ventilador"]
 
     render = () =>
       <Routine title={ConceitosBasicosDeVentilacaoMecanica.title} category={ConceitosBasicosDeVentilacaoMecanica.category} authors={ConceitosBasicosDeVentilacaoMecanica.authors}>

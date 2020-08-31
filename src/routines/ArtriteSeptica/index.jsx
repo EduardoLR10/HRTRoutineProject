@@ -14,6 +14,7 @@ export default class ArtriteSeptica extends React.Component {
   static title = "Artrite Séptica (AS)"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dr. Fabrício Pereira Madureira e Dra. Dania Lemos Dionízio"
+  static tags = ["séptico"]
 
     render = () =>
       <Routine title={ArtriteSeptica.title} category={ArtriteSeptica.category} authors={ArtriteSeptica.authors}>

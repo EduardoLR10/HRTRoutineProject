@@ -15,6 +15,7 @@ export default class Hematuria extends React.Component {
   static title = "Hematúria"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Fabrício Pereira Madureira"
+  static tags = ["infecção", "urinária", "distúrbio", "metabólico"]
 
     render = () =>
       <Routine title={Hematuria.title} category={Hematuria.category} authors={Hematuria.authors}>

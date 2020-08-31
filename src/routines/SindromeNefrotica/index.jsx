@@ -14,7 +14,8 @@ export default class SindromeNefrotica extends React.Component {
 
 	static title = "Síndrome Nefrótica"
 	static category = "Hematologia, Reumatologia e Nefrologia"
-	static authors = "Dra. Dania Lemos Dionízio"
+    static authors = "Dra. Dania Lemos Dionízio"
+    static tags = ["nefrose", "edema", "hipoalbuminemia", "proteinúria"]
 
 		render = () =>
 			<Routine title={SindromeNefrotica.title} category={SindromeNefrotica.category} authors={SindromeNefrotica.authors}>

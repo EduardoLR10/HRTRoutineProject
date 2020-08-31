@@ -15,6 +15,7 @@ export default class DerramesPleurais extends React.Component {
   static title = "Derrames Pleurais"
   static category = "Pneumologia"
   static authors = "Dr. Fernando de Velasco Lino"
+  static tags = ["derrame", "drenagem", "toracocentese"]
 
     render = () =>
       <Routine title={DerramesPleurais.title} category={DerramesPleurais.category} authors={DerramesPleurais.authors}>

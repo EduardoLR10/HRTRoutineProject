@@ -14,7 +14,8 @@ export default class PrimoinfeccaoEEncefaliteHerpetica extends React.Component {
 
 	static title = "Primoinfecção e Encefalite Herpética"
 	static category = "Infectologia"
-	static authors = "Dr. Iúri Leão de Almeida"
+    static authors = "Dr. Iúri Leão de Almeida"
+    static tags = ["herpes", "gengivoestomatite", "estomatite"]
 
 		render = () =>
 			<Routine title={PrimoinfeccaoEEncefaliteHerpetica.title} category={PrimoinfeccaoEEncefaliteHerpetica.category} authors={PrimoinfeccaoEEncefaliteHerpetica.authors}>

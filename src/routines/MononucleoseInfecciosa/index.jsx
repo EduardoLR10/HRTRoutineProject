@@ -14,7 +14,8 @@ export default class MononucleoseInfecciosa extends React.Component {
 
 	static title = "Mononucleose Infecciosa"
 	static category = "Infectologia"
-	static authors = "Dr. Iúri Leão de Almeida e Dr. Marco Antonio Alves Cunha"
+    static authors = "Dr. Iúri Leão de Almeida e Dr. Marco Antonio Alves Cunha"
+    static tags = ["EBV", "doença", "beijo"]
 
 		render = () =>
 			<Routine title={MononucleoseInfecciosa.title} category={MononucleoseInfecciosa.category} authors={MononucleoseInfecciosa.authors}>

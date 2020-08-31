@@ -15,6 +15,7 @@ export default class AnemiaFalciforme extends React.Component {
   static title = "Anemia Falciforme"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dr. Fabrício Pereira Madureira e Dra. Dania Lemos Dionízio"
+  static tags = ["doença", "hemulítica"]
 
     render = () =>
       <Routine title={AnemiaFalciforme.title} category={AnemiaFalciforme.category} authors={AnemiaFalciforme.authors}>

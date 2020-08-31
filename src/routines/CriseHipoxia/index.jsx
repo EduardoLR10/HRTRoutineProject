@@ -16,6 +16,7 @@ export default class CriseHipoxia extends React.Component {
   static title = "Crise Hipoxia"
   static category = "Cardiologia"
   static authors = "Dra. Luciany Almeida de Carvalho"
+  static tags = ["oxigênio", "hipoxemia"]
 
     render = () =>
       <Routine title={CriseHipoxia.title} category={CriseHipoxia.category} authors={CriseHipoxia.authors}>

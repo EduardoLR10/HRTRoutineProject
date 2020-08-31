@@ -14,7 +14,8 @@ export default class MedidasDePrecaucaoEIsolamento extends React.Component {
 
 	static title = "Medidas de Precaução e Isolamento em Doenças Infecciosas"
 	static category = "Infectologia"
-	static authors = "Dr. Iuri Leão de Almeida"
+    static authors = "Dr. Iuri Leão de Almeida"
+    static tags = ["prevenção", "preventivas", "profilaxia"]
 
 		render = () =>
 			<Routine title={MedidasDePrecaucaoEIsolamento.title} category={MedidasDePrecaucaoEIsolamento.category} authors={MedidasDePrecaucaoEIsolamento.authors}>

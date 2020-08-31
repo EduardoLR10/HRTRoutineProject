@@ -14,6 +14,7 @@ export default class ArtriteReativa extends React.Component {
   static title = "Artrites Reativas ou Reacionais (AR)"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dra. Dania Lemos Dionízio"
+  static tags = ["artrite", "artralgia", "reacional"]
 
     render = () =>
       <Routine title={ArtriteReativa.title} category={ArtriteReativa.category} authors={ArtriteReativa.authors}>

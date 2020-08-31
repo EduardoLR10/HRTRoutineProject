@@ -16,6 +16,7 @@ export default class Afogamento extends React.Component {
   static title = "Afogamento"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Bárbara Rios Vellasco de Amorim Vieira"
+  static tags = ["afogado"]
 
     render = () =>
       <Routine title={Afogamento.title} category={Afogamento.category} authors={Afogamento.authors}>

@@ -14,7 +14,8 @@ export default class IntoxicacoesExogenasAgudas extends React.Component {
 
 	static title = "Intoxicações Exógenas Agudas"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dra. Ana Luiza Melo dos Santos"
+    static authors = "Dra. Ana Luiza Melo dos Santos"
+    static tags = ["exógena", "intoxicação"]
 
 		render = () =>
 			<Routine title={IntoxicacoesExogenasAgudas.title} category={IntoxicacoesExogenasAgudas.category} authors={IntoxicacoesExogenasAgudas.authors}>

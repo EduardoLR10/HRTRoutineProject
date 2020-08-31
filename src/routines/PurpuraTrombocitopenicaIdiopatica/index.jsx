@@ -12,9 +12,10 @@ import Table from '../../components/templates/Table'
 
 export default class PurpuraTrombocitopenicaIdiopatica extends React.Component {
 
-	static title = "Púrpura Trombocitopênica Idiopática - PTI"
+	static title = "Púrpura Trombocitopênica Imunilógica (PTI)"
 	static category = "Hematologia, Reumatologia e Nefrologia"
-	static authors = "Dra. Dania Lemos Dionízio e Dr. Fabrício Pereira Madureira"
+    static authors = "Dra. Dania Lemos Dionízio e Dr. Fabrício Pereira Madureira"
+    static tags = ["idiopática", "hematoma", "equimose"]
 
 		render = () =>
 			<Routine title={PurpuraTrombocitopenicaIdiopatica.title} category={PurpuraTrombocitopenicaIdiopatica.category} authors={PurpuraTrombocitopenicaIdiopatica.authors}>

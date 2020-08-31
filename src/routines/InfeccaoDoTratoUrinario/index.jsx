@@ -14,7 +14,8 @@ export default class InfeccaoDoTratoUrinario extends React.Component {
 
 	static title = "Infecção do Trato Urinário"
 	static category = "Hematologia, Reumatologia e Nefrologia"
-	static authors = "Dra. Dania Lemos Dionízio e Dr. Frabrício Pereira Madureira"
+    static authors = "Dra. Dania Lemos Dionízio e Dr. Frabrício Pereira Madureira"
+    static tags = ["pielonefrite", "cistite", "ITU"]
 
 		render = () =>
 			<Routine title={InfeccaoDoTratoUrinario.title} category={InfeccaoDoTratoUrinario.category} authors={InfeccaoDoTratoUrinario.authors}>

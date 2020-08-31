@@ -14,7 +14,8 @@ export default class InsuficienciaRespiratoria extends React.Component {
 
 	static title = "Insuficiência Respiratória no RN"
 	static category = "Neonatologia"
-	static authors = "Dra. Maria Aparecida Moreira Machado"
+    static authors = "Dra. Maria Aparecida Moreira Machado"
+    static tags = ["parada", "cardiorrespiratória", "recém", "nascido"]
 
 		render = () =>
 			<Routine title={InsuficienciaRespiratoria.title} category={InsuficienciaRespiratoria.category} authors={InsuficienciaRespiratoria.authors}>

@@ -16,6 +16,7 @@ export default class Adenomegalias extends React.Component {
   static title = "Adenomegalias"
   static category = "Infectologia"
   static authors = "Dr. Marco Antônio Alves Cunha e Dr. Iúri Leão de Almeida"
+  static tags = ["adenite", "gânglio"]
 
     render = () =>
       <Routine title={Adenomegalias.title} category={Adenomegalias.category} authors={Adenomegalias.authors}>

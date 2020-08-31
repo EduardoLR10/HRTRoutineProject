@@ -17,6 +17,7 @@ export default class DiarreiaInfecciosa extends React.Component {
   static title = "Diarréia Infecciosa"
   static category = "Gastroenterologia"
   static authors = "Dra. Dania Lemos Dionízio, Dr. Fabrício Pereira Madureira e Dr. Marco Antônio Alves Cunha"
+  static tags = ["gastroenterite", "gastroenterocolite", "disenteria", "virose", "intestinal"]
 
     render = () =>
       <Routine title={DiarreiaInfecciosa.title} category={DiarreiaInfecciosa.category} authors={DiarreiaInfecciosa.authors}>

@@ -20,7 +20,8 @@ export default class ObstrucaoDeViaAereaPorCorpoEstranho extends React.Component
 
 	static title = "Obstrução de Via Aérea por Corpo Estranho"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dr. Luiz Antônio Silva"
+    static authors = "Dr. Luiz Antônio Silva"
+    static tags = ["ovace", "engasgo", "engasgar"]
 
 		render = () =>
 			<Routine title={ObstrucaoDeViaAereaPorCorpoEstranho.title} category={ObstrucaoDeViaAereaPorCorpoEstranho.category} authors={ObstrucaoDeViaAereaPorCorpoEstranho.authors}>

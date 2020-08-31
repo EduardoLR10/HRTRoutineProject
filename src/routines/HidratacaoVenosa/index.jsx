@@ -17,6 +17,7 @@ export default class HidratacaoVenosa extends React.Component {
   static title = "Hidratação Venosa no RN"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Carlos Henrique Roriz da Rocha e Dra. Kátia Souza Gonçalves Silveira"
+  static tags = ["recém", "nascido"]
 
 	render = () =>
 	  <Routine title={HidratacaoVenosa.title} category={HidratacaoVenosa.category} authors={HidratacaoVenosa.authors}>

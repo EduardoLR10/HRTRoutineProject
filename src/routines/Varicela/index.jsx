@@ -14,6 +14,7 @@ export default class Varicela extends React.Component {
   static title = "Varicela"
   static category = "Infectologia"
   static authors = "Dr. Marco Antônio Alves Cunha"
+  static tags = ["catapora", "exantema", "bolhoso", "zoster"]
 
     render = () =>
       <Routine title={Varicela.title} category={Varicela.category} authors={Varicela.authors}>

@@ -15,6 +15,7 @@ export default class DoencaDoReFluxoGastroesofagico extends React.Component {
   static title = "Doença do Refluxo Gastroesofágico"
   static category = "Gastroenterologia"
   static authors = "Dr. Francisco Rufino Rosa Neto"
+  static tags = ["regurgitação", "vômito", "queimação"]
 
 	render = () =>
 	  <Routine title={DoencaDoReFluxoGastroesofagico.title} category={DoencaDoReFluxoGastroesofagico.category} authors={DoencaDoReFluxoGastroesofagico.authors}>

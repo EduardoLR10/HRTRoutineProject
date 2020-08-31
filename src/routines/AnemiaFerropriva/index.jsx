@@ -15,6 +15,7 @@ export default class AnemiaFerropriva extends React.Component {
   static title = "Anemia Ferropriva"
   static category = "Gastroenterologia"
   static authors = "Dra. Ana Luiza Melo dos Santos"
+  static tags = ["doença", "deficiência", "palidez"]
 
     render = () =>
       <Routine title={AnemiaFerropriva.title} category={AnemiaFerropriva.category} authors={AnemiaFerropriva.authors}>

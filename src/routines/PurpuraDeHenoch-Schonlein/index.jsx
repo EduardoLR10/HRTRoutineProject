@@ -14,7 +14,8 @@ export default class PurpuraDeHenoshSchonlein extends React.Component {
 
 	static title = "Púrpura de Henoch-Schönlein (PHS)"
 	static category = "Hematologia, Reumatologia e Nefrologia"
-	static authors = "Dra. Dania Lemos Dionízio"
+    static authors = "Dra. Dania Lemos Dionízio"
+    static tags = ["anafilactóide", "vasculite", "leucocitoclástica"]
 
 		render = () =>
 			<Routine title={PurpuraDeHenoshSchonlein.title} category={PurpuraDeHenoshSchonlein.category} authors={PurpuraDeHenoshSchonlein.authors}>

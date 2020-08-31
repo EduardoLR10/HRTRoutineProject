@@ -15,6 +15,7 @@ export default class DengueEOutrasArboviroses extends React.Component {
     static title = "Dengue e Outras Arboviroses"
     static category = "Infectologia"
     static authors = "Dr. Marco Antônio Alves Cunha"
+    static tags = ["hemorrágico", "zika", "chikungunya", "febre", "amarela"]
 
     render = () =>
         <Routine title={DengueEOutrasArboviroses.title} category={DengueEOutrasArboviroses.category} authors={DengueEOutrasArboviroses.authors}>

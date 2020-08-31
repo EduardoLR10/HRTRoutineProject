@@ -19,6 +19,7 @@ export default class AlimentacaoNos2PrimeirosAnosDeVida extends React.Component 
   static title = "Alimentação nos 2 Primeiros Anos de Vida"
   static category = "Pediatria Geral e Puericultura"
   static authors = "Dra. Bárbara R. V. de Amorim Vieira"
+  static tags = ["recém", "nascido", "dieta"]
 
     render = () =>
       <Routine title={AlimentacaoNos2PrimeirosAnosDeVida.title} category={AlimentacaoNos2PrimeirosAnosDeVida.category} authors={AlimentacaoNos2PrimeirosAnosDeVida.authors}>

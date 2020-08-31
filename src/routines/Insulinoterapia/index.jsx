@@ -14,7 +14,8 @@ export default class Insulinoterapia extends React.Component {
 
 	static title = "Insulinoterapia"
 	static category = "Endocrinologia"
-	static authors = "Dra. Roberta Kelly Menezes Maciel Falleiros"
+    static authors = "Dra. Roberta Kelly Menezes Maciel Falleiros"
+    static tags = ["insulina", "NPH", "regular", "ultra", "rápida", "largina", "lantus", "apidra"]
 
 		render = () =>
 			<Routine title={Insulinoterapia.title} category={Insulinoterapia.category} authors={Insulinoterapia.authors}>

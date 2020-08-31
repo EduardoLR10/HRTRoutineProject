@@ -15,6 +15,7 @@ export default class DisturbiosAcidosBase extends React.Component {
   static title = "Distúrbios Ácido-Base"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Francisco Rufino Rose Neto"
+  static tags = ["bicarbonato", "HCO3", "H+", "BE", "acidose", "alcalose"]
 
     render = () =>
       <Routine title={DisturbiosAcidosBase.title} category={DisturbiosAcidosBase.category} authors={DisturbiosAcidosBase.authors}>

@@ -18,6 +18,7 @@ export default class DorAbdominalAguda extends React.Component {
   static title = "Dor Abdominal Aguda"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Ana Luiza Melo dos Santos"
+  static tags = ["abdome", "agudo", "dor", "barriga"]
 
     render = () =>
       <Routine title={DorAbdominalAguda.title} category={DorAbdominalAguda.category} authors={DorAbdominalAguda.authors}>

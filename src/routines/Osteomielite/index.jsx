@@ -14,7 +14,8 @@ export default class Osteomielite extends React.Component {
 
 	static title = "Osteomielite"
 	static category = "Hematologia, Reumatologia e Nefrologia"
-	static authors = "Dr. Fabrício Pereira Madureira e Dra. Dania Lemos Dionízio"
+    static authors = "Dr. Fabrício Pereira Madureira e Dra. Dania Lemos Dionízio"
+    static tags = ["infecção", "óssea"]
 
 		render = () =>
 			<Routine title={Osteomielite.title} category={Osteomielite.category} authors={Osteomielite.authors}>

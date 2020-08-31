@@ -15,6 +15,7 @@ export default class Crupe extends React.Component {
   static title = "Crupe"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Renato Resende Mundim"
+  static tags = ["laringite", "largingotraqueobronquite", "tosse", "rouca", "latingotraqueite"]
 
     render = () =>
       <Routine title={Crupe.title} category={Crupe.category} authors={Crupe.authors}>

@@ -14,6 +14,7 @@ export default class ConvulsaoFebril extends React.Component {
   static title = "Convulsão Febril"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Manuela de Oliveira Fragomeni"
+  static tags = ["febre", "crise", "convulsiva"]
 
     render = () =>
       <Routine title={ConvulsaoFebril.title} category={ConvulsaoFebril.category} authors={ConvulsaoFebril.authors}>

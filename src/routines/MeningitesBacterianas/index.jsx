@@ -14,7 +14,8 @@ export default class MeningitesBacterianas extends React.Component {
 
 	static title = "Meningites Bacterianas na Infância"
 	static category = "Infectologia"
-	static authors = "Dr. Marco Antonio Alves Cunha"
+    static authors = "Dr. Marco Antonio Alves Cunha"
+    static tags = ["encefalite", "meningoencefalite"]
 
 		render = () =>
 			<Routine title={MeningitesBacterianas.title} category={MeningitesBacterianas.category} authors={MeningitesBacterianas.authors}>

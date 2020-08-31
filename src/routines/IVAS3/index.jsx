@@ -14,7 +14,8 @@ export default class IVAS3 extends React.Component {
 
 	static title = "IVAS 3 - Rinossinusite Aguda"
 	static category = "Pneumologia"
-	static authors = "Dr. Renato Resende Mundim"
+    static authors = "Dr. Renato Resende Mundim"
+    static tags = ["sinusite"]
 
 		render = () =>
 			<Routine title={IVAS3.title} category={IVAS3.category} authors={IVAS3.authors}>

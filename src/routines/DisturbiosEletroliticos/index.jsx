@@ -15,6 +15,7 @@ export default class DisturbiosEletroliticos extends React.Component {
   static title = "Distúrbios Eletrolíticos"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Francisco Rufino Rosa Neto"
+  static tags = ["sódio", "potássio", "hipopotassemia", "hiponatremia", "hiperpotassemia", "hipernatremia"]
 
     render = () =>
       <Routine title={DisturbiosEletroliticos.title} category={DisturbiosEletroliticos.category} authors={DisturbiosEletroliticos.authors}>

@@ -15,6 +15,7 @@ export default class Epilepsia extends React.Component {
   static title = "Epilepsia e Estado de Mal Epiléptico"
   static category = "Neurologia"
   static authors = "Dra. Manuela de Oliveira Fragomeni"
+  static tags = ["convulsão", "mal", "convulsivo"]
 
     render = () =>
       <Routine title={Epilepsia.title} category={Epilepsia.category} authors={Epilepsia.authors}>

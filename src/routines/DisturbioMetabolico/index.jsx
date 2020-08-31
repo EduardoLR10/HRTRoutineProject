@@ -15,6 +15,7 @@ export default class DisturbioMetabolico extends React.Component {
   static title = "Distúrbio Metabólico"
   static category = "Neonatologia"
   static authors = "Dr. Fabrício Pereira Madureira"
+  static tags = ["metabolismo", "hematúria", "litíase", "renal", "cólica", "nefrética", "sangramento", "urinário", "pedra", "rins"]
 
     render = () =>
       <Routine title={DisturbioMetabolico.title} category={DisturbioMetabolico.category} authors={DisturbioMetabolico.authors}>

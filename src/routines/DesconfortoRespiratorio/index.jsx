@@ -15,6 +15,7 @@ export default class DesconfortoRespiratorio extends React.Component {
   static title = "Desconforto Respiratório"
   static category = "Lactentes"
   static authors = "Dr. José Moreira Kffuri"
+  static tags = ["bronquiolite", "cansaço", "esforço"]
 
     render = () =>
       <Routine title={DesconfortoRespiratorio.title} category={DesconfortoRespiratorio.category} authors={DesconfortoRespiratorio.authors}>

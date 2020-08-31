@@ -17,7 +17,8 @@ export default class MausTratos extends React.Component {
 
 	static title = "Maus Tratos na Infância"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dr. Renato Resende Mundim"
+    static authors = "Dr. Renato Resende Mundim"
+    static tags = ["abuso", "sexo", "criança", "violência", "sexual", "lactente", "psicológico", "física", "espancamento", "negligência", ]
 
 		render = () =>
 			<Routine title={MausTratos.title} category={MausTratos.category} authors={MausTratos.authors}>
@@ -236,7 +237,7 @@ export default class MausTratos extends React.Component {
                             <P>
                                 <Text style={{fontWeight: 'bold'}}>Os exames complementares devem ser direcionados pelo quadro clínico:</Text>.
                             </P>
-                            <Table head={['', '', '', '', '']} data={[
+                            <Table head={['', '']} data={[
                                 ['Hematológicos', 'Hemograma, Coagulograma'],
                                 ['Bioquímicos', 'CPK, Amilase, Enzimas hepáticas, Eletrólitos, Intoxicação exógena'],
                                 ['Urinários', 'Urina tipo I, Intoxicação exógena'],
@@ -370,7 +371,7 @@ export default class MausTratos extends React.Component {
                         </P>
                     </Subsection>
                     <Subsection title="Diagnóstico">
-                        <Subsection title="Annamese">
+                        <Subsection title="Anamnese">
                             <P>
                                 Ao atender uma situação em que haja suspeita de violência sexual, o profissional deve evitar fazer pré-julgamentos ou emitir diagnósticos precipitados. O profissional deve portar-se de modo atencioso e acolhedor. O registro deve ser o mais próximo possível da história relatada, evitando-se traduzir para termos técnicos. Importante a identificação dos diferentes relatores, afim de permitir a análise posterior de possíveis contradições e omissões. Deve-se anotar as observações sobre o comportamento dos envolvidos antes, durante e depois da anamnese. Quando houver o relato espontâneo da criança, seu depoimento deve merecer toda a credibilidade, pois dificilmente ela seria capaz de elaborar uma falsa história de abuso sexual.
                             </P>

@@ -20,6 +20,7 @@ export default class Urticaria extends React.Component {
   static title = "Urticária e Angioedema"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Cristianne Teixeira Duarte Turra"
+  static tags = ["andioedema", "anafilaxia", "choque", "anafilático", "placas", "urticas"]
 
 	render = () =>
 	  <Routine title={Urticaria.title} category={Urticaria.category} authors={Urticaria.authors}>

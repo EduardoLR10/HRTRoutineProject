@@ -15,6 +15,7 @@ export default class DiarreiasAgudas extends React.Component {
   static title = "Diarréias Agudas"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dr. Sérgio Carneiro de Mendonça"
+  static tags = ["GECA", "rotavirose", "viral", "desidratação"]
 
     render = () =>
       <Routine title={DiarreiasAgudas.title} category={DiarreiasAgudas.category} authors={DiarreiasAgudas.authors}>

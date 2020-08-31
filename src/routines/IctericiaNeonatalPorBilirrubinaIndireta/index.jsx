@@ -17,6 +17,7 @@ export default class IctericiaNeonatalPorBilirrubinaIndireta extends React.Compo
 	static title = "Icterícia Neonatal por Bilirrubina Indireta"
 	static category = "Neonatologia"
 	static authors = "Dra. Maria Aparecida Moreira Machado"
+	static tags = ["fototerapia", "incompatibilidade", "sanguínea"]
 
 		render = () =>
 			<Routine title={IctericiaNeonatalPorBilirrubinaIndireta.title} category={IctericiaNeonatalPorBilirrubinaIndireta.category} authors={IctericiaNeonatalPorBilirrubinaIndireta.authors}>

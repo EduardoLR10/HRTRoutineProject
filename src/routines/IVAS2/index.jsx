@@ -14,7 +14,7 @@ export default class IVAS2 extends React.Component {
 
 	static title = "IVAS 2 - Otite Média Aguda"
 	static category = "Pneumologia"
-	static authors = "Dr. Renato Resende Mundim"
+    static authors = "Dr. Renato Resende Mundim"
 
 		render = () =>
 			<Routine title={IVAS2.title} category={IVAS2.category} authors={IVAS2.authors}>

@@ -14,7 +14,8 @@ export default class LeishmanioseVisceral extends React.Component {
 
 	static title = "Leishmaniose Visceral"
 	static category = "Infectologia"
-	static authors = "Dr. Iúri Leão de Almeida e Dr. Marco Antônio Alves Cunha"
+    static authors = "Dr. Iúri Leão de Almeida e Dr. Marco Antônio Alves Cunha"
+    static tags = ["calazar"]
 
 		render = () =>
 			<Routine title={LeishmanioseVisceral.title} category={LeishmanioseVisceral.category} authors={LeishmanioseVisceral.authors}>

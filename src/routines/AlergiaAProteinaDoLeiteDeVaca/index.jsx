@@ -17,6 +17,7 @@ export default class AlergiaAProteinaDoLeiteDeVaca extends React.Component {
   static title = "Alergia à Proteína do Leite de Vaca"
   static category = "Gastroenterologia"
   static authors = "Dra. Ana Luiza Melo dos Santos"
+  static tags = ["intolerância", "lactose"]
 
     render = () =>
       <Routine title={AlergiaAProteinaDoLeiteDeVaca.title} category={AlergiaAProteinaDoLeiteDeVaca.category} authors={AlergiaAProteinaDoLeiteDeVaca.authors}>

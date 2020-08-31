@@ -14,6 +14,7 @@ export default class FebreReumatica extends React.Component {
   static title = "Febre Reumática"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dra. Dania Lemos Dionízio"
+  static tags = ["doença", "cardite", "poréia", "reumatismo"]
 
     render = () =>
       <Routine title={FebreReumatica.title} category={FebreReumatica.category} authors={FebreReumatica.authors}>

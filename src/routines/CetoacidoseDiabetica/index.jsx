@@ -15,6 +15,7 @@ export default class CetoacidoseDiabetica extends React.Component {
   static title = "Cetoacidose Diabética (CAD)"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Roberta Kelly Menezes Maciel Falleiros"
+  static tags = ["diabetes", "tipo", "1", "descompensação"]
 
     render = () =>
       <Routine title={CetoacidoseDiabetica.title} category={CetoacidoseDiabetica.category} authors={CetoacidoseDiabetica.authors}>

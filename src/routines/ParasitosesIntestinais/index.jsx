@@ -14,7 +14,8 @@ export default class ParasitosesIntestinais extends React.Component {
 
 	static title = "Parasitoses Intestinais"
 	static category = "Gastroenterologia"
-	static authors = "Dra. Ana Luiza Melo dos Santos"
+    static authors = "Dra. Ana Luiza Melo dos Santos"
+    static tags = ["verminose"]
 
 		render = () =>
 			<Routine title={ParasitosesIntestinais.title} category={ParasitosesIntestinais.category} authors={ParasitosesIntestinais.authors}>

@@ -11,9 +11,10 @@ import Table from '../../components/templates/Table'
 
 export default class Cefaleia extends React.Component {
 
-  static title = "Cefaléia"
+  static title = "Cefaléias"
   static category = "Neurologia"
   static authors = "Dra. Manuela de Oliveira Fragomeni"
+  static tags = ["dor", "cabeça", "cefaléia", "enxaqueca"]
 
     render = () =>
       <Routine title={Cefaleia.title} category={Cefaleia.category} authors={Cefaleia.authors}>

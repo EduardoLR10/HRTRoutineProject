@@ -14,7 +14,8 @@ export default class HipertensaoArterial extends React.Component {
 
 	static title = "Hipertensão Arterial na Infância"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dra. Luciany Almeida de Carvalho"
+    static authors = "Dra. Luciany Almeida de Carvalho"
+    static tags = ["criança", "pressão", "alta"]
 
 		render = () =>
 			<Routine title={HipertensaoArterial.title} category={HipertensaoArterial.category} authors={HipertensaoArterial.authors}>

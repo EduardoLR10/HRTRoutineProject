@@ -16,7 +16,8 @@ export default class ReanimacaoNeonatal extends React.Component {
 
 	static title = "Reanimação Neonatal"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dr. Carlos Henrique Roriz da Rocha e Dra. Kátia Souza Gonçalves Silveira"
+    static authors = "Dr. Carlos Henrique Roriz da Rocha e Dra. Kátia Souza Gonçalves Silveira"
+    static tags = ["ressucitação", "ressuscitar", "recém", "nascido"]
 
 		render = () =>
 			<Routine title={ReanimacaoNeonatal.title} category={ReanimacaoNeonatal.category} authors={ReanimacaoNeonatal.authors}>

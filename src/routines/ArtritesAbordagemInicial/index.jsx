@@ -14,6 +14,7 @@ export default class ArtritesAbordagemInicial extends React.Component {
   static title = "Artrites Abordagem Inicial"
   static category = "Emergência e Terapia Intensiva"
   static authors = "Dra. Dania Lemos Dionízio"
+  static tags = ["artrite", "dor", "articular"]
 
     render = () =>
       <Routine title={ArtritesAbordagemInicial.title} category={ArtritesAbordagemInicial.category} authors={ArtritesAbordagemInicial.authors}>

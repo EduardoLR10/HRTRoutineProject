@@ -16,7 +16,8 @@ export default class InsuficienciaCardiaca extends React.Component {
 
 	static title = "Insuficiência Cardíaca (IC) na Infância"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dra. Luciany Almeida de Carvalho"
+    static authors = "Dra. Luciany Almeida de Carvalho"
+    static tags = ["ICC"]
 
 		render = () =>
 			<Routine title={InsuficienciaCardiaca.title} category={InsuficienciaCardiaca.category} authors={InsuficienciaCardiaca.authors}>

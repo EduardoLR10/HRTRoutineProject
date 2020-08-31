@@ -14,7 +14,8 @@ export default class TraumatismoCranioencefalico extends React.Component {
 
 	static title = "Traumatismo Cranioencefálico"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dra. Manuela de Oliveira Fragomeni"
+    static authors = "Dra. Manuela de Oliveira Fragomeni"
+    static tags = ["TCE", "craniano"]
 
 		render = () =>
 			<Routine title={TraumatismoCranioencefalico.title} category={TraumatismoCranioencefalico.category} authors={TraumatismoCranioencefalico.authors}>

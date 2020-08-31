@@ -15,6 +15,7 @@ export default class DorDeCrescimento extends React.Component {
   static title = "Dor de Crescimento"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dra. Dania Lemos Dionízio"
+  static tags = ["dor", "pernas", "perna"]
 
     render = () =>
       <Routine title={DorDeCrescimento.title} category={DorDeCrescimento.category} authors={DorDeCrescimento.authors}>

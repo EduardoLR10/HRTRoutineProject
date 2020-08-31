@@ -14,7 +14,7 @@ export default class SequenciaRapidaDeIntubacao extends React.Component {
 
 	static title = "Sequência Rápida de Intubação"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dr. Rafael Belotti Fialho"
+    static authors = "Dr. Rafael Belotti Fialho"
 
 		render = () =>
 			<Routine title={SequenciaRapidaDeIntubacao.title} category={SequenciaRapidaDeIntubacao.category} authors={SequenciaRapidaDeIntubacao.authors}>

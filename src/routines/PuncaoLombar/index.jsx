@@ -14,7 +14,8 @@ export default class PuncaoLombar extends React.Component {
 
 	static title = "Punçao Lombar"
 	static category = "Emergência e Terapia Intensiva"
-	static authors = "Dra. Manuela de Oliveira Fragomeni"
+    static authors = "Dra. Manuela de Oliveira Fragomeni"
+    static tags = ["meningite"]
 
 		render = () =>
 			<Routine title={PuncaoLombar.title} category={PuncaoLombar.category} authors={PuncaoLombar.authors}>

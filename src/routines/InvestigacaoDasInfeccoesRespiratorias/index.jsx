@@ -12,9 +12,10 @@ import Table from '../../components/templates/Table'
 
 export default class InvestigacaoDasInfeccoesRespiratorias extends React.Component {
 
-	static title = "Investigação das Infecções Respiratórias"
+	static title = "Infecção de Vias Aéreas de Repetição - Investigação"
 	static category = "Infectologia"
-	static authors = "Dr. Fernando de Velasco Lino"
+    static authors = "Dr. Fernando de Velasco Lino"
+    static tags = ["infecções", "respiratórias", "recorrente"]
 
 		render = () =>
 			<Routine title={InvestigacaoDasInfeccoesRespiratorias.title} category={InvestigacaoDasInfeccoesRespiratorias.category} authors={InvestigacaoDasInfeccoesRespiratorias.authors}>

@@ -15,6 +15,7 @@ export default class GlomerulonefriteDifusaAguda extends React.Component {
   static title = "Glomerulonefrite Difusa Aguda (GNDA)"
   static category = "Hematologia, Reumatologia e Nefrologia"
   static authors = "Dra. Dania Lemos Dionízio"
+  static tags = ["nefrite", "estreptocócica", "hipertensão", "hematúria", "edema"]
 
     render = () =>
       <Routine title={GlomerulonefriteDifusaAguda.title} category={GlomerulonefriteDifusaAguda.category} authors={GlomerulonefriteDifusaAguda.authors}>
