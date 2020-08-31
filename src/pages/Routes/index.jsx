@@ -20,13 +20,13 @@ export default class Routes extends React.Component {
       <Stack.Navigator initialRouteName="Home" headerMode='float' screenOptions={screenOptions}>
         <Stack.Screen name="Home" component={Home}
           options={({ navigation }) => ({
-            headerTitle: props => <HeaderTitle title="Rotinas HRT" />,
+            headerTitle: props => <HeaderTitle title="Rotinas Pediatria HRT" />,
             headerRight: props => <AboutButton navigation={navigation} />
           })}
         />
         <Stack.Screen name="About" component={About}
           options={({ navigation }) => ({
-            headerTitle: props => <HeaderTitle title="Sobre o Rotinas HRT" />
+            headerTitle: props => <HeaderTitle title="Sobre o Rotinas Pediatria HRT" />
           })}
         />
         {routines.map((Routine, idx) =>
