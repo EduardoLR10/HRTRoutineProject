@@ -1,8 +1,9 @@
 import React from 'react'
 import { Text } from 'react-native'
+import styles from './styles'
 
 export default class HeaderTitle extends React.Component {
 
   render = () =>
-    <Text style={{ fontSize: 20, color: 'red' }}>{this.props.title}</Text>
+    <Text style={styles.container(this.props.title)}>{this.props.title}</Text>
 }

@@ -5,7 +5,7 @@ import styles from './styles'
 export default class Paragraph extends React.Component {
 
   render = () =>
-    <Text style={styles.paragraph}>
+    <Text {...this.props} style={[styles.paragraph, this.props.style]} >
       {this.props.children}
     </Text>
 }
