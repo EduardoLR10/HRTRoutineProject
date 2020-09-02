@@ -42,7 +42,7 @@ import GlomerulonefrineDifusaAguda from './GlomerulonefriteDifusaAguda'
 import Urticaria from './Urticaria'
 import Hematuria from './Hematuria'
 import HepatitesVirais from './HepatitesVirais'
-import HidratacaoVenosa from './HidratacaoVenosa'
+import HidratacaoVenosaRN from './HidratacaoVenosaRN'
 import HipertensaoArterial from './HipertensaoArterial'
 import IctericiaNeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilirrubinaIndireta'
 import InfeccoesTegumentares from './InfeccoesTegumentares'
@@ -122,7 +122,7 @@ export default [
   GlomerulonefrineDifusaAguda,
   Hematuria,
   HepatitesVirais,
-  HidratacaoVenosa,
+  HidratacaoVenosaRN,
   HipertensaoArterial,
   IctericiaNeonatalPorBilirrubinaIndireta,
   InfeccaoDoTratoUrinario,

@@ -12,7 +12,7 @@ import Table from '../../components/templates/Table'
 
 import img1 from './images/image1.png'
 
-export default class HidratacaoVenosa extends React.Component {
+export default class HidratacaoVenosaRN extends React.Component {
 
   static title = "Hidratação Venosa no RN"
   static category = "Emergência e Terapia Intensiva"
