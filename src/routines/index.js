@@ -76,6 +76,8 @@ import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
 import TuberculosePulmonar from './TurbeculosePulmonar'
 import MausTratos from './MausTratos'
 import CriseAgudaDeAsma from './CriseAgudaDeAsma'
+import HidratacaoVenosaCrianca from './HidratacaoVenosaCrianca'
+import DoencasExantematicas from './DoencasExantematicasAgudas'
 
 
 export default [
@@ -110,6 +112,7 @@ export default [
   DisturbiosEletroliticos,
   DoencaDeKawasaki,
   DoencaDoRefluxoGastroesofagico,
+  DoencasExantematicas,
   DorAbdominalAguda,
   DorDeCrescimento,
   EmergenciaDeChoque,
@@ -122,6 +125,7 @@ export default [
   GlomerulonefrineDifusaAguda,
   Hematuria,
   HepatitesVirais,
+  HidratacaoVenosaCrianca,
   HidratacaoVenosaRN,
   HipertensaoArterial,
   IctericiaNeonatalPorBilirrubinaIndireta,
