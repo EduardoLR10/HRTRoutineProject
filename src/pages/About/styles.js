@@ -21,3 +21,11 @@ export const avatarStyle = {
 export const contactIconStyle = {
   color: collorPallete.red,
 }
+
+export const lattesButtonStyle = {
+  uppercase: false,
+  color: collorPallete.red,
+  style: {
+    borderColor: collorPallete.red,
+  },
+}

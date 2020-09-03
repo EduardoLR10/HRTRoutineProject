@@ -1,10 +1,10 @@
 import React from 'react'
 import { ScrollView, View, Text, Image } from 'react-native'
 import * as Linking from 'expo-linking'
-import { Avatar, Subheading, List, Divider, Button } from 'react-native-paper'
+import { Avatar, Subheading, List, Divider, Button, Provider as PaperProvider, DefaultTheme } from 'react-native-paper'
 import Icon from 'react-native-vector-icons/AntDesign'; Icon.loadFont()
 import P from './../../components/templates/Paragraph';
-import styles, { contactIconStyle, avatarStyle } from './styles'
+import styles, { contactIconStyle, avatarStyle, lattesButtonStyle } from './styles'
 
 import Card from './Card'
 import preceptors from '../../preceptors'
@@ -13,6 +13,7 @@ import imgHrt from '../../assets/images/HRT.jpg'
 import imgLuigi from '../../assets/images/LuigiMinardi.png'
 import imgEduardo from '../../assets/images/EduardoLemos.jpg'
 import imgMissLemos from '../../assets/images/MissLemos.jpg'
+import imgMissLemosHorizontal from '../../assets/images/MissLemosHorizontal.jpg'
 
 export default class About extends React.Component {
 
@@ -40,8 +41,10 @@ export default class About extends React.Component {
         </P>
       </Card>
 
-      <Card title='Coordenadora' /** image={imgMissLemos} */>
-        <Image source={imgMissLemos} style={styles.coordinatorImage} />
+      <Card title='Coordenadora'
+        image={imgMissLemosHorizontal}
+      >
+        {/* <Image source={imgMissLemos} style={styles.coordinatorImage} /> */}
         <Subheading style={{ textAlign: 'center' }}>Dra. Dania Lemos Dionízio</Subheading>
         <P>
           Graduação em Medicina pela Universidade Federal do Triângulo Mineiro.
@@ -76,17 +79,16 @@ export default class About extends React.Component {
         {preceptors.map(({ name, image, link }, idx) =>
           <React.Fragment key={idx}>
             <List.Item
-              title={name}
-              left={props => <Avatar.Image source={image} />}
+              title={name} titleStyle={{marginBottom: 4}}
+              left={props => <Avatar.Image source={image} {...avatarStyle} />}
               titleNumberOfLines={0}
               description={props =>
-                <Button mode="outlined" icon="account-outline"
-                  onPress={() => Linking.openURL(link)}
-                  dark compact uppercase={false} style={{ borderColor: 'red', width: 'auto' }}
-                >
+                <Button mode="outlined" icon="account-box-outline"
+                  onPress={() => Linking.openURL(link)} {...lattesButtonStyle}>
                   Currículo Lattes
                 </Button>
               }
+              style={{ alignItems: 'center' }}
             />
             {idx < preceptors.length - 1 ? <Divider /> : <></>}
           </React.Fragment>
@@ -95,7 +97,7 @@ export default class About extends React.Component {
 
       <Card title="Equipe de desenvolvimento">
         <List.Item
-          title={'Eduardo Lemos Rocha'}
+          title={'Eduardo Lemos Rocha'} titleStyle={{ fontWeight: 'bold' }}
           left={props => <Avatar.Image source={imgEduardo} {...avatarStyle} />}
           description={props =>
             <View>
@@ -109,7 +111,7 @@ export default class About extends React.Component {
         />
         <Divider />
         <List.Item
-          title={'Luigi Minardi Ferreira Maia'}
+          title={'Luigi Minardi Ferreira Maia'} titleStyle={{ fontWeight: 'bold' }}
           left={props => <Avatar.Image source={imgLuigi} {...avatarStyle} />}
           description={props =>
             <View>

@@ -26,7 +26,7 @@ export default class Routes extends React.Component {
         />
         <Stack.Screen name="About" component={About}
           options={({ navigation }) => ({
-            headerTitle: props => <HeaderTitle title="Sobre o Rotinas Pediatria HRT" />
+            headerTitle: props => <HeaderTitle title="Sobre nós" />
           })}
         />
         {routines.map((Routine, idx) =>
