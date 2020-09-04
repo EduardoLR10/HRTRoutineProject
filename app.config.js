@@ -9,4 +9,14 @@ export default {
     resizeMode: "contain",
     backgroundColor: "#ffffff",
   },
+  platforms: [
+    "android",
+    "ios"
+  ],
+  ios: {
+    bundleIdentifier: "com.luigiminardim.hrtrotinas"
+  },
+  android: {
+    package: "com.luigiminardim.hrtrotinas"
+  }
 };
