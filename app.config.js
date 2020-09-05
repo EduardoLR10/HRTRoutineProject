@@ -5,9 +5,9 @@ export default {
   slug: "rotinas-pediatria-hrt",
   icon: "./src/assets/images/logo.png",
   splash: {
-    image: "./src/assets/images/logo.png",
+    image: "./src/assets/images/splash.png",
     resizeMode: "contain",
-    backgroundColor: "#ffffff",
+    backgroundColor: "#FFFFFF",
   },
   platforms: [
     "android",
@@ -17,6 +17,10 @@ export default {
     bundleIdentifier: "com.luigiminardim.hrtrotinas"
   },
   android: {
-    package: "com.luigiminardim.hrtrotinas"
+    package: "com.luigiminardim.hrtrotinas",
+    adaptiveIcon: {
+      foregroundImage: "./src/assets/images/logo.png",
+      backgroundColor: "#FFFFFF"
+    }
   }
 };
