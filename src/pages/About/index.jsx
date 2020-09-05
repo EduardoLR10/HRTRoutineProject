@@ -97,7 +97,7 @@ export default class About extends React.Component {
 
       <Card title="Equipe de desenvolvimento">
         <List.Item
-          title={'Eduardo Lemos Rocha'} titleStyle={{ fontWeight: 'bold' }}
+          title={'Eduardo Lemos Rocha'} titleStyle={{ fontWeight: 'bold' }} titleNumberOfLines={0}
           left={props => <Avatar.Image source={imgEduardo} {...avatarStyle} />}
           description={props =>
             <View>
@@ -111,14 +111,14 @@ export default class About extends React.Component {
         />
         <Divider />
         <List.Item
-          title={'Luigi Minardi Ferreira Maia'} titleStyle={{ fontWeight: 'bold' }}
+          title={'Luigi Minardi Ferreira Maia'} titleStyle={{ fontWeight: 'bold'}} titleNumberOfLines={0}
           left={props => <Avatar.Image source={imgLuigi} {...avatarStyle} />}
           description={props =>
             <View>
               <Text>
                 Estudante de Engenharia da Computação da Universidade de Brasília.
             </Text>
-              <Text><Icon name="mail" {...contactIconStyle} /> luigiminardimgmail.com</Text>
+              <Text><Icon name="mail" {...contactIconStyle} /> luigiminardim@gmail.com</Text>
               <Text><Icon name="github" {...contactIconStyle} /> luigiminardim</Text>
             </View>
           }

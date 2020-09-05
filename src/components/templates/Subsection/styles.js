@@ -6,8 +6,8 @@ const containerStyle = (props, state) => ({
     padding: 4,
   },
   titleStyle: {
-    padding: 16,
-    fontSize: 16, fontWeight: 'normal',
+    padding: 15,
+    fontSize: 15, fontWeight: 'normal',
     color: state.expanded ? collorPallete.red : collorPallete.blue
   },
   titleNumberOfLines: 0, // Don't define a limitit to title number of lines.
