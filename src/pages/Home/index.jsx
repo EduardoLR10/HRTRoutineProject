@@ -1,10 +1,13 @@
 import React from 'react'
-import { View, ScrollView } from 'react-native'
-import { ButtonGroup, SearchBar } from 'react-native-elements'
-import styles, { buttonGroupStyles, searchBarSyles, cardsListStyles } from './styles'
-import routines from '../../routines'
+import { ScrollView } from 'react-native'
+import { Searchbar } from 'react-native-paper'
+import { cardsListStyle, searchbarStyle } from './styles'
 import RoutineCard from '../../components/RoutineCard'
 import RoutinesService from '../../services/RoutinesService'
+import Icon from 'react-native-vector-icons/MaterialIcons'
+import HorizontalMenu from './HorizontalMenu'
+
+// find-in-page text-search text-box-search-outline
 
 export default class Home extends React.Component {
 
@@ -28,25 +31,22 @@ export default class Home extends React.Component {
     return this.routinesService.filteredRoutines(category, this.state.searchText)
   }
 
-  // filteredRoutines = () => this.clusters[this.categories[this.state.categoryIdx]]
-  //   .filter(Routine => (Routine.title.toLowerCase()).includes(this.state.searchText.toLowerCase()))
-
   render = () =>
-    <View style={styles.container}>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        <ButtonGroup buttons={this.routinesService.categories()}
-          selectedIndex={this.state.categoryIdx} onPress={this.handleCategoryChange}
-          {...buttonGroupStyles}
-        />
-      </ScrollView>
-      <SearchBar
-        placeholder="Procurar" value={this.state.searchText} {...searchBarSyles}
-        onChangeText={this.handleSearchChange}
+    <>
+      <HorizontalMenu value={this.state.categoryIdx}
+        value={this.state.categoryIdx} onChange={this.handleCategoryChange}
+        options={this.routinesService.categories().map(
+          (category, idx) => ({ value: idx, label: category })
+        )}
       />
-      <ScrollView style={styles.cardList} {...cardsListStyles}>
+      <Searchbar placeholder={'Procurar'} onChangeText={this.handleSearchChange}
+        icon={props => <Icon name="search" size={20} />}
+        {...searchbarStyle}
+      />
+      <ScrollView {...cardsListStyle}>
         {this.displayedRoutines().map((Routine, idx) =>
           <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
         }
       </ScrollView>
-    </View>
+    </>
 }
