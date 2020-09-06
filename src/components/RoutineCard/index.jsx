@@ -19,7 +19,7 @@ export default class RoutineCard extends React.Component {
       </Text>
       <Text style={styles.info}>
         {this.props.Routine.tags && this.props.Routine.tags.map(tag =>
-          <> <Feather name="hash" {...iconStyles} /><Text style={{color: 'red', fontSize: 10}}>{ tag }</Text> </>
+          <Text key={tag} style={{ fontSize: 10, color: 'red' }}>#{tag} </Text>
         )}
       </Text>
     </TouchableOpacity>

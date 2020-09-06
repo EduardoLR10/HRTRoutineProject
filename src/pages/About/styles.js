@@ -9,7 +9,8 @@ export default StyleSheet.create({
   },
   coordinatorImage: {
     marginBottom: 8,
-    height: 200, width: 150,
+    height: 250, width: 225,
+    borderRadius: 4,
     alignSelf: 'center',
   },
 })

@@ -1,11 +1,12 @@
 import React from 'react'
-import { ScrollView } from 'react-native'
+import { ScrollView, Text } from 'react-native'
 import { Searchbar } from 'react-native-paper'
 import { cardsListStyle, searchbarStyle } from './styles'
 import RoutineCard from '../../components/RoutineCard'
 import RoutinesService from '../../services/RoutinesService'
 import Icon from 'react-native-vector-icons/MaterialIcons'
 import HorizontalMenu from './HorizontalMenu'
+import NoFoundedRoutines from './NoFoundedRoutines'
 
 // find-in-page text-search text-box-search-outline
 
@@ -43,10 +44,15 @@ export default class Home extends React.Component {
         icon={props => <Icon name="search" size={20} />}
         {...searchbarStyle}
       />
-      <ScrollView {...cardsListStyle}>
-        {this.displayedRoutines().map((Routine, idx) =>
-          <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
-        }
-      </ScrollView>
+      {this.displayedRoutines().length > 0
+        ?
+        <ScrollView {...cardsListStyle}>
+          {this.displayedRoutines().map((Routine, idx) =>
+            <RoutineCard key={idx} Routine={Routine} navigation={this.props.navigation} />)
+          }
+        </ScrollView>
+        :
+        <NoFoundedRoutines />
+      }
     </>
 }

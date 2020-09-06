@@ -1,9 +1,9 @@
 import React from 'react'
-import { ScrollView, View, Text } from 'react-native'
+import { ScrollView, View, Text, Image } from 'react-native'
 import * as Linking from 'expo-linking'
 import { Avatar, Subheading, List, Divider, TouchableRipple, Button } from 'react-native-paper'
-import Icon from 'react-native-vector-icons/AntDesign'; Icon.loadFont()
-import P from './../../components/templates/Paragraph';
+import Icon from 'react-native-vector-icons/AntDesign'
+import P from './../../components/templates/Paragraph'
 import styles, { contactIconStyle, avatarStyle, lattesTextStyle, lattesIconStyle } from './styles'
 import MaterialCIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 
@@ -14,7 +14,7 @@ import imgHrt from '../../assets/images/HRT.jpg'
 import imgLuigi from '../../assets/images/LuigiMinardi.png'
 import imgEduardo from '../../assets/images/EduardoLemos.jpg'
 import imgMissLemos from '../../assets/images/MissLemos.jpg'
-import imgMissLemosHorizontal from '../../assets/images/MissLemosHorizontal.jpg'
+// import imgMissLemosHorizontal from '../../assets/images/MissLemosHorizontal.jpg'
 import collorPallete from '../../assets/collorPallete';
 
 export default class About extends React.Component {
@@ -44,10 +44,10 @@ export default class About extends React.Component {
       </Card>
 
       <Card title='Coordenadora'
-        image={imgMissLemosHorizontal}
+      // image={imgMissLemosHorizontal},
       >
-        {/* <Image source={imgMissLemos} style={styles.coordinatorImage} /> */}
-        <Text style={{ fontSize: 16, textAlign: 'center', fontWeight: 'bold', marginBottom: 8}}>
+        <Image source={imgMissLemos} style={styles.coordinatorImage} />
+        <Text style={{ fontSize: 16, textAlign: 'center', fontWeight: 'bold', marginBottom: 8 }}>
           Dra. Dania Lemos Dionízio
         </Text>
         <P>
