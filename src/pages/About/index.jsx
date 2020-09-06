@@ -1,10 +1,11 @@
 import React from 'react'
-import { ScrollView, View, Text, Image } from 'react-native'
+import { ScrollView, View, Text } from 'react-native'
 import * as Linking from 'expo-linking'
-import { Avatar, Subheading, List, Divider, Button, Provider as PaperProvider, DefaultTheme } from 'react-native-paper'
+import { Avatar, Subheading, List, Divider, TouchableRipple, Button } from 'react-native-paper'
 import Icon from 'react-native-vector-icons/AntDesign'; Icon.loadFont()
 import P from './../../components/templates/Paragraph';
-import styles, { contactIconStyle, avatarStyle, lattesButtonStyle } from './styles'
+import styles, { contactIconStyle, avatarStyle, lattesTextStyle, lattesIconStyle } from './styles'
+import MaterialCIcon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 import Card from './Card'
 import preceptors from '../../preceptors'
@@ -14,6 +15,7 @@ import imgLuigi from '../../assets/images/LuigiMinardi.png'
 import imgEduardo from '../../assets/images/EduardoLemos.jpg'
 import imgMissLemos from '../../assets/images/MissLemos.jpg'
 import imgMissLemosHorizontal from '../../assets/images/MissLemosHorizontal.jpg'
+import collorPallete from '../../assets/collorPallete';
 
 export default class About extends React.Component {
 
@@ -79,16 +81,32 @@ export default class About extends React.Component {
         {preceptors.map(({ name, image, link }, idx) =>
           <React.Fragment key={idx}>
             <List.Item
-              title={name} titleStyle={{marginBottom: 4}}
+              title={name} titleStyle={{ fontSize: 15, marginBottom: 4 }}
               left={props => <Avatar.Image source={image} {...avatarStyle} />}
               titleNumberOfLines={0}
-              description={props =>
-                <Button mode="outlined" icon="account-box-outline"
-                  onPress={() => Linking.openURL(link)} {...lattesButtonStyle}>
-                  Currículo Lattes
-                </Button>
-              }
               style={{ alignItems: 'center' }}
+              description={props =>
+                <>
+                  <TouchableRipple
+                    onPress={() => Linking.openURL(link)}
+                    rippleColor="red"
+                    style={{
+                      borderWidth: 1, borderColor: collorPallete.red,
+                      borderRadius: 4,
+                      padding: 4,
+                      alignItems: 'center'
+                    }}
+                  >
+                    <View style={{ alignItems: 'center', flexDirection: 'row' }}>
+                      <MaterialCIcon name="account-box-outline" {...lattesIconStyle} />
+                      <Text {...lattesTextStyle}>
+                        Currículo Lattes
+                      </Text>
+                    </View>
+                  </TouchableRipple>
+                </>
+              }
+
             />
             {idx < preceptors.length - 1 ? <Divider /> : <></>}
           </React.Fragment>
@@ -97,7 +115,7 @@ export default class About extends React.Component {
 
       <Card title="Equipe de desenvolvimento">
         <List.Item
-          title={'Eduardo Lemos Rocha'} titleStyle={{ fontWeight: 'bold' }} titleNumberOfLines={0}
+          title={'Eduardo Lemos Rocha'} titleStyle={{ fontSize: 15, marginBottom: 4 }} titleNumberOfLines={0}
           left={props => <Avatar.Image source={imgEduardo} {...avatarStyle} />}
           description={props =>
             <View>
@@ -111,7 +129,7 @@ export default class About extends React.Component {
         />
         <Divider />
         <List.Item
-          title={'Luigi Minardi Ferreira Maia'} titleStyle={{ fontWeight: 'bold'}} titleNumberOfLines={0}
+          title={'Luigi Minardi Ferreira Maia'} titleStyle={{ fontSize: 15, marginBottom: 4 }} titleNumberOfLines={0}
           left={props => <Avatar.Image source={imgLuigi} {...avatarStyle} />}
           description={props =>
             <View>

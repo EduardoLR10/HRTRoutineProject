@@ -29,3 +29,13 @@ export const lattesButtonStyle = {
     borderColor: collorPallete.red,
   },
 }
+
+export const lattesIconStyle = {
+  size: 16,
+  color: collorPallete.red,
+  style: { marginRight: 2 }
+}
+
+export const lattesTextStyle = {
+  style: { color: collorPallete.red },
+}
