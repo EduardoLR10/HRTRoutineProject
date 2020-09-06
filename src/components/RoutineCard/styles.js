@@ -11,7 +11,7 @@ export default StyleSheet.create({
     padding: 8, 
   },
   title: {
-    fontSize: 18,
+    fontSize: 16,
     color: collorPallete.blue,
   },
   info: {

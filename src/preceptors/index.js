@@ -3,7 +3,7 @@ import AnaLuiza from './images/AnaLuiza.jpg'
 import Barbara from './images/Barbara.jpg'
 import Carlos from './images/Carlos.jpg'
 import Cristianne from './images/Cristianne.jpg'
-// import Dania from './images/Dania.jpg'
+import Dania from './images/Dania.jpg'
 import Danielle from './images/Danielle.jpg'
 import Fabricio from './images/Fabricio.jpg'
 import Fernando from './images/Fernando.jpg'
@@ -26,7 +26,7 @@ export default [
   { name: 'Bárbara Rios Vellasco de Amorim Vieira', image: Barbara, link: 'http://lattes.cnpq.br/7361011598717512' },
   { name: 'Carlos Henrique Roriz da Rocha', image: Carlos, link: 'http://lattes.cnpq.br/5536788152769468' },
   { name: 'Cristianne Teixeira Duarte Turra', image: Cristianne, link: 'http://lattes.cnpq.br/8208881125379372' },
-  // { name: 'Dania Lemos Dionízio', image: Dania, link: 'http://lattes.cnpq.br/9608663112029681' },
+  { name: 'Dania Lemos Dionízio', image: Dania, link: 'http://lattes.cnpq.br/9608663112029681' },
   { name: 'Danielle Ribeiro Borges Noleto', image: Danielle, link: 'http://lattes.cnpq.br/3963486440074480' },
   { name: 'Fabrício Pereira Madureira', image: Fabricio, link: 'http://lattes.cnpq.br/0778999649543914' },
   { name: 'Fernando de Velasco Lino', image: Fernando, link: 'http://lattes.cnpq.br/6947266565311980' },

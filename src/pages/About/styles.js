@@ -9,7 +9,8 @@ export default StyleSheet.create({
   },
   coordinatorImage: {
     marginBottom: 8,
-    height: 200, width: 150,
+    height: 250, width: 225,
+    borderRadius: 4,
     alignSelf: 'center',
   },
 })
@@ -28,4 +29,14 @@ export const lattesButtonStyle = {
   style: {
     borderColor: collorPallete.red,
   },
+}
+
+export const lattesIconStyle = {
+  size: 16,
+  color: collorPallete.red,
+  style: { marginRight: 2 }
+}
+
+export const lattesTextStyle = {
+  style: { color: collorPallete.red },
 }

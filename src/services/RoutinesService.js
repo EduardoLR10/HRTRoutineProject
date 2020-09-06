@@ -54,11 +54,11 @@ export default class RoutinesService {
       newClusters[category] = clusters[category]
       return newClusters
     }, {})
-    // Add category 'Todas Categorias';
+    // Add category 'Todas Rotinas';
     clusters = categories.reduce((newClusters, category) => {
-      newClusters['Todas Categorias'] = newClusters['Todas Categorias'].concat(clusters[category])
+      newClusters['Todas Rotinas'] = newClusters['Todas Rotinas'].concat(clusters[category])
       return newClusters
-    }, { 'Todas Categorias': [], ...clusters })
+    }, { 'Todas Rotinas': [], ...clusters })
     // Sort Routines;
     for (let category of Object.keys(clusters)) {
       clusters[category].sort((Routine0, Routine1) => Routine0.title.localeCompare(Routine1.title))
