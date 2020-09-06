@@ -47,7 +47,9 @@ export default class About extends React.Component {
         image={imgMissLemosHorizontal}
       >
         {/* <Image source={imgMissLemos} style={styles.coordinatorImage} /> */}
-        <Subheading style={{ textAlign: 'center' }}>Dra. Dania Lemos Dionízio</Subheading>
+        <Text style={{ fontSize: 16, textAlign: 'center', fontWeight: 'bold', marginBottom: 8}}>
+          Dra. Dania Lemos Dionízio
+        </Text>
         <P>
           Graduação em Medicina pela Universidade Federal do Triângulo Mineiro.
         </P>
