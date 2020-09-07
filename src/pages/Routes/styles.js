@@ -1,6 +1,6 @@
 import collorPallete from '../../assets/collorPallete'
 
-const screenOptions = {
+export const screenOptions = {
   cardStyle: {
     backgroundColor: collorPallete.white,
   },
@@ -8,4 +8,12 @@ const screenOptions = {
   headerTintColor: collorPallete.red,
 }
 
-export {screenOptions}
+export const tabBarOptions = {
+  activeTintColor: collorPallete.red,
+  inactiveTintColor: collorPallete.black,
+  pressColor: collorPallete.redHalfPastel,
+  indicatorStyle: { backgroundColor: collorPallete.red },
+  labelStyle: {
+    textTransform: 'none', fontFamily: 'Roboto', fontSize: 16,
+  }
+}

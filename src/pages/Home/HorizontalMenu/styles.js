@@ -4,7 +4,10 @@ import collorPallete from "../../../assets/collorPallete"
 export const horizontalMenuStyle = {
   marginVertical: 4,
   showsHorizontalScrollIndicator: false,
-  style: { flexShrink: 0, flexGrow: 0 },
+  style: {
+    flexShrink: 0, flexGrow: 0,
+    backgroundColor: collorPallete.white,
+  },
   contentContainerStyle: {
     paddingHorizontal: 8,
   }

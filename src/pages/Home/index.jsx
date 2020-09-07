@@ -1,7 +1,7 @@
 import React from 'react'
-import { ScrollView, Text } from 'react-native'
+import { ScrollView, View } from 'react-native'
 import { Searchbar } from 'react-native-paper'
-import { cardsListStyle, searchbarStyle } from './styles'
+import { cardsListStyle, searchbarStyle, FilterBar } from './styles'
 import RoutineCard from '../../components/RoutineCard'
 import RoutinesService from '../../services/RoutinesService'
 import Icon from 'react-native-vector-icons/MaterialIcons'
@@ -34,16 +34,18 @@ export default class Home extends React.Component {
 
   render = () =>
     <>
-      <HorizontalMenu value={this.state.categoryIdx}
-        value={this.state.categoryIdx} onChange={this.handleCategoryChange}
-        options={this.routinesService.categories().map(
-          (category, idx) => ({ value: idx, label: category })
-        )}
-      />
-      <Searchbar placeholder={'Procurar'} onChangeText={this.handleSearchChange}
-        icon={props => <Icon name="search" size={20} />}
-        {...searchbarStyle}
-      />
+      <FilterBar>
+        <HorizontalMenu value={this.state.categoryIdx}
+          value={this.state.categoryIdx} onChange={this.handleCategoryChange}
+          options={this.routinesService.categories().map(
+            (category, idx) => ({ value: idx, label: category })
+          )}
+        />
+        <Searchbar placeholder={'Procurar'} onChangeText={this.handleSearchChange}
+          icon={props => <Icon name="search" size={20} />}
+          {...searchbarStyle}
+        />
+      </FilterBar>
       {this.displayedRoutines().length > 0
         ?
         <ScrollView {...cardsListStyle}>
