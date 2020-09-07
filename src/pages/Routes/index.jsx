@@ -1,11 +1,11 @@
 import React from 'react'
+import { screenOptions, tabBarOptions } from './styles'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { screenOptions } from './styles'
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
 import Home from '../Home'
 import routines from '../../routines'
 import CloseSectionsButton from '../../components/CloseSectionsButton'
-import AboutButton from '../../components/AboutButton'
 import HeaderTitle from '../../components/HeaderTitle'
 import About from '../About';
 
@@ -17,16 +17,10 @@ export default class Routes extends React.Component {
 
   render = () =>
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" headerMode='float' screenOptions={screenOptions}>
-        <Stack.Screen name="Home" component={Home}
+      <Stack.Navigator initialRouteName="Main" headerMode="screen" screenOptions={screenOptions}>
+        <Stack.Screen name="Main" component={Main}
           options={({ navigation }) => ({
-            headerTitle: props => <HeaderTitle title="Rotinas Pediatria HRT" />,
-            headerRight: props => <AboutButton navigation={navigation} />
-          })}
-        />
-        <Stack.Screen name="About" component={About}
-          options={({ navigation }) => ({
-            headerTitle: props => <HeaderTitle title="Sobre nós" />
+            headerTitle: props => <HeaderTitle title="Rotinas Pediatria HRT" />
           })}
         />
         {routines.map((Routine, idx) =>
@@ -40,4 +34,15 @@ export default class Routes extends React.Component {
       </Stack.Navigator>
     </NavigationContainer>
 
+}
+
+
+const Tab = createMaterialTopTabNavigator()
+
+class Main extends React.Component {
+  render = () =>
+    <Tab.Navigator tabBarOptions={tabBarOptions}>
+      <Tab.Screen name="Routines" component={Home} options={{ title: 'Rotinas' }} />
+      <Tab.Screen name="About" component={About} options={{ title: 'Sobre' }} />
+    </Tab.Navigator>
 }
