@@ -45,11 +45,11 @@ export const lightTheme: AppTheme = {
   },
 
   size: {
-    xs: '126px',
-    sm: '256px',
-    md: '512px',
-    lg: '1024px',
-    xl: '2048px'
+    xs: '64px',
+    sm: '126px',
+    md: '256px',
+    lg: '512px',
+    xl: '1024px'
   },
 
   round: {
