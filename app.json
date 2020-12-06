@@ -22,5 +22,6 @@
       "foregroundImage": "./src/assets/logo.png",
       "backgroundColor": "#FFFFFF"
     }
-  }
+  },
+  "orientation": "portrait"
 }

@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/local/bin/yarn add @types/mdx.macro -D
+  /usr/bin/node /usr/local/bin/yarn add @types/mdx.macro
 
 PATH: 
   /home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.opam/default/bin:/home/luigiminardim/bin:/home/luigiminardim/.local/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.opam/default/bin:/home/luigiminardim/bin:/home/luigiminardim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/luigiminardim/go/bin:/usr/local/go/bin:/home/luigiminardim/go/bin
