@@ -7,6 +7,7 @@ import HrtSection from './HrtSection'
 import GoalSection from './GoalSection'
 import CoordinatorSection from './CoordinationSection'
 import PreceptorsSection from './PreceptorsSection'
+import DevelopersSection from './DevelopersSection'
 
 const Gap = styled.View`
   height: 16px;
@@ -31,6 +32,8 @@ export default function AboutScreen(): JSX.Element {
         <CoordinatorSection />
         <Gap />
         <PreceptorsSection />
+        <Gap />
+        <DevelopersSection />
       </Main>
       <BottomNav />
     </Screen>

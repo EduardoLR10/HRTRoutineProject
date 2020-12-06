@@ -1,7 +1,13 @@
 import React from 'react'
-import MaterialIcons from '@expo/vector-icons/build/MaterialIcons'
+import { FontAwesome, MaterialIcons } from '@expo/vector-icons'
 
-export type IconName = 'list' | 'star' | 'info' | 'summary' | 'library'
+export type IconName =
+  | 'list'
+  | 'star'
+  | 'info'
+  | 'summary'
+  | 'library'
+  | 'github'
 
 export interface IconProps {
   name: IconName
@@ -15,7 +21,8 @@ export default function Icon({ name, size, color }: IconProps): JSX.Element {
     star: <MaterialIcons name="star" size={size} color={color} />,
     info: <MaterialIcons name="info" size={size} color={color} />,
     summary: <MaterialIcons name="view-list" size={size} color={color} />,
-    back: <MaterialIcons name="arrow_back" size={size} color={color} />,
-    library: <MaterialIcons name="library-books" size={size} color={color} />
+    back: <MaterialIcons name="arrow-back" size={size} color={color} />,
+    library: <MaterialIcons name="library-books" size={size} color={color} />,
+    github: <FontAwesome name="github" size={size} color={color} />
   }[name]
 }

@@ -1116,10 +1116,10 @@
     mv "~2"
     safe-json-stringify "~1"
 
-"@expo/config-plugins@1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.6.tgz#b10796f5f1ef085c1db0348998d5f14bef7eb9dd"
-  integrity sha512-uL6ob+Dezls1huQMLDpIPvw4QIm4wa+Om9EZ9z5QPlBDnLg4LLH4y4CDN+MH9Eo7hZPT5n2JlGOw7jdgEEa1Kw==
+"@expo/config-plugins@1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.7.tgz#550f97ddd6b438a9e1cc4a7a0ecc19d24c00d916"
+  integrity sha512-Do7xH8kCnsFa4Rl/Z8Ja2i71N+OpQARUoJHCQTHzyttL9j1eYeLDBOB6Hrl1vf8jcFfBtuqf8QWvMQkwJ17uqA==
   dependencies:
     "@expo/config-types" "^40.0.0-beta.1"
     "@expo/configure-splash-screen" "0.2.1"
@@ -1201,10 +1201,10 @@
     body-parser "1.19.0"
     serialize-error "6.0.0"
 
-"@expo/dev-tools@0.13.65":
-  version "0.13.65"
-  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.13.65.tgz#b43e8beb9425bc4a6668ebeae5b43095fb91f7aa"
-  integrity sha512-LhfxPzJuKPi3WlK5C5o9ejJOkscU6pCqHKRWI97zN8Xh6XJ6FMNfqgh+hJ94vqWAMmDpEBjY3e7MxZXqQaNaAQ==
+"@expo/dev-tools@0.13.66":
+  version "0.13.66"
+  resolved "https://registry.yarnpkg.com/@expo/dev-tools/-/dev-tools-0.13.66.tgz#9c1ecb373494be40cb1aa76c9ada3ac894177245"
+  integrity sha512-eg1KoEUXWLFF0a+whWDj1hdu/XGdAbUtx3pqI053/0cCI0g3GHAQvNA8gJ3NEeSHYQaLb7irK2rNE6lJTcUo8Q==
   dependencies:
     "@expo/config" "3.3.18"
     base64url "3.0.1"
@@ -1470,10 +1470,10 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
-"@expo/xdl@59.0.5":
-  version "59.0.5"
-  resolved "https://registry.yarnpkg.com/@expo/xdl/-/xdl-59.0.5.tgz#b9935e175b6582700229afba98ddda1140c6d680"
-  integrity sha512-JWQDKG+Eymgwm3xd2OAkTSpb3fgNetQFJHGZt4/2GUfqjQuyFWZMtmtKwJ2ZDaW+V8tNW0hgR5czWI/lsZSZnA==
+"@expo/xdl@59.0.6":
+  version "59.0.6"
+  resolved "https://registry.yarnpkg.com/@expo/xdl/-/xdl-59.0.6.tgz#95180cd4bf5bf2a2c5d1c487e1ed353d1ab8c452"
+  integrity sha512-6YHUcVDF62L7IxdCzOasIv9mG/KiXnMofvAuCkAYUQZYNF6vAIQJxj+/JjWAYRfTj1JHdY0OFkVpICun0qJ2FA==
   dependencies:
     "@expo/bunyan" "4.0.0"
     "@expo/config" "3.3.18"
@@ -5979,15 +5979,15 @@ expo-asset@~8.2.0:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
-expo-cli@^4.0.7:
-  version "4.0.7"
-  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-4.0.7.tgz#d2ab71d095a0711b0067aa91f87a9836e0ed59bc"
-  integrity sha512-FQsgAyaSnfs8ZcYKXuQx/W1jYCcp+aPRxn8WDd6qeKZg9lJWGFIDSOfPlj4qyAclQP2vGOmNFYLfcVASZJbbeQ==
+expo-cli@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/expo-cli/-/expo-cli-4.0.8.tgz#15777e3bc4068547c017f68b9a3dc9a758ccb83f"
+  integrity sha512-PcJqWSu2mHSEX/O/Vt5Wrui6ZIOE3mwUN4NL2xxmvVUAzIp08SzkAnWJOSThOxcTfHh9kd9fFK1GP6BZItvQOA==
   dependencies:
     "@expo/bunyan" "4.0.0"
     "@expo/config" "3.3.18"
-    "@expo/config-plugins" "1.0.6"
-    "@expo/dev-tools" "0.13.65"
+    "@expo/config-plugins" "1.0.7"
+    "@expo/dev-tools" "0.13.66"
     "@expo/eas-build-job" "0.1.2"
     "@expo/json-file" "8.2.25"
     "@expo/package-manager" "0.0.34"
@@ -5995,7 +5995,7 @@ expo-cli@^4.0.7:
     "@expo/results" "^1.0.0"
     "@expo/simple-spinner" "1.0.2"
     "@expo/spawn-async" "1.5.0"
-    "@expo/xdl" "59.0.5"
+    "@expo/xdl" "59.0.6"
     "@hapi/joi" "^17.1.1"
     babel-runtime "6.26.0"
     base32.js "0.1.0"
