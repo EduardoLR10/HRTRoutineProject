@@ -6,6 +6,7 @@ import Routes from './screens/Routes'
 import { lightTheme } from './themes/lightTheme'
 import { fonts } from './shared/typography'
 import { ThemeProvider } from 'styled-components/native'
+import { AuthorsProvider } from './contexts/AuthorsContext'
 
 export default function App(): JSX.Element {
   const [areFontsLoaded] = useFonts(fonts)
@@ -13,8 +14,10 @@ export default function App(): JSX.Element {
 
   return (
     <ThemeProvider theme={lightTheme}>
-      <StatusBar style="dark" />
-      <Routes />
+      <AuthorsProvider>
+        <StatusBar style="dark" />
+        <Routes />
+      </AuthorsProvider>
     </ThemeProvider>
   )
 }

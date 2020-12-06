@@ -8,6 +8,6 @@ export const Screen = styled(SafeAreaView)`
 
 export default Screen
 
-Screen.Main = styled.ScrollView`
+export const Main = styled.ScrollView`
   flex: 1 0 0;
 `
