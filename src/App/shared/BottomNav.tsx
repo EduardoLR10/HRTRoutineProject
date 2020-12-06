@@ -1,8 +1,8 @@
 import React from 'react'
 import { useRoute, useNavigation } from '@react-navigation/native'
 import styled, { useTheme } from 'styled-components/native'
-import Icon, { IconName } from '../icons'
-import { Caption as BaseCaption } from '../typography'
+import Icon, { IconName } from './Icon'
+import { Caption as BaseCaption } from './typography'
 
 const Container = styled.View`
   flex-direction: row;

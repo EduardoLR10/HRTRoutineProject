@@ -86,14 +86,15 @@ export const Subtitle2 = styled(Text)`
   letter-spacing: 0.1px;
 `
 
-export const Body1 = styled(Text)`
+export const Paragraph = styled(Text)`
+  margin-bottom: 16px;
   font-family: Roboto_400Regular;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
 `
 
-export const Body2 = styled(Text)`
+export const Body = styled(Text)`
   font-family: Roboto_400Regular;
   font-size: 14px;
   line-height: 20px;
