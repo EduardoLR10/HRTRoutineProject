@@ -61,8 +61,6 @@ export default function RoutineItem({
     ''
   )
 
-  console.log(routineAuthors)
-
   return (
     <Container>
       <ColorBar
