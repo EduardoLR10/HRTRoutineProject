@@ -29,7 +29,7 @@ export default function ListItem({
   return (
     <Container>
       {avatar && <Avatar source={avatar} style={{ marginRight: 16 }} />}
-      <Subtitle1 style={{ flex: 1 }} numberOfLines={1}>
+      <Subtitle1 style={{ marginRight: 16, flex: 1 }} numberOfLines={1}>
         {children}
       </Subtitle1>
       {right}

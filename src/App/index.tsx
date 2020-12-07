@@ -7,6 +7,8 @@ import { lightTheme } from './themes/lightTheme'
 import { fonts } from './shared/typography'
 import { ThemeProvider } from 'styled-components/native'
 import { AuthorsProvider } from './contexts/AuthorsContext'
+import { CategoriesProvider } from './contexts/CategoriesContext'
+import { RoutinesProvider } from './contexts/RoutinesContext'
 
 export default function App(): JSX.Element {
   const [areFontsLoaded] = useFonts(fonts)
@@ -14,10 +16,14 @@ export default function App(): JSX.Element {
 
   return (
     <ThemeProvider theme={lightTheme}>
-      <AuthorsProvider>
-        <StatusBar style="dark" />
-        <Routes />
-      </AuthorsProvider>
+      <StatusBar style="dark" />
+      <CategoriesProvider>
+        <RoutinesProvider>
+          <AuthorsProvider>
+            <Routes />
+          </AuthorsProvider>
+        </RoutinesProvider>
+      </CategoriesProvider>
     </ThemeProvider>
   )
 }

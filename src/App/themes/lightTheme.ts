@@ -27,12 +27,12 @@ export const lightTheme: AppTheme = {
   },
 
   elevation: {
-    0: '0px 1px 4px rgba(0, 0, 0, 0.25)',
-    1: '0px 1px 4px rgba(0, 0, 0, 0.25)',
-    2: '0px 2px 4px rgba(0, 0, 0, 0.25)',
-    3: '0px 3px 4px rgba(0, 0, 0, 0.25)',
-    4: '0px 4px 4px rgba(0, 0, 0, 0.25)',
-    8: '0px 8px 4px rgba(0, 0, 0, 0.25)'
+    0: '0px 1px 4px rgba(0, 0, 0, 0.25); elevation: 0',
+    1: '0px 1px 4px rgba(0, 0, 0, 0.25); elevation: 1',
+    2: '0px 2px 4px rgba(0, 0, 0, 0.25); elevation: 2',
+    3: '0px 3px 4px rgba(0, 0, 0, 0.25); elevation: 3',
+    4: '0px 4px 4px rgba(0, 0, 0, 0.25); elevation: 4',
+    8: '0px 8px 4px rgba(0, 0, 0, 0.25); elevation: 8'
   },
 
   space: {

@@ -3,8 +3,8 @@ import avatarLuigiMinardi from './images/LuigiMinardi.png'
 
 export default [
   new Author(
-    'LuigiMinardi',
-    'Luigi Minardi Ferreira Maia',
+    'luiz_antonio_almeida_silva',
+    'Dr. Luiz Antônio de Almeida e Silva',
     avatarLuigiMinardi,
     'https://www.google.com.br/'
   )
