@@ -8,7 +8,7 @@ const Container = styled.View`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: ${props => props.theme.color.primary};
+  background: ${props => props.theme.color.primaryVariant};
   box-shadow: ${props => props.theme.elevation[4]};
 `
 

@@ -4,11 +4,12 @@ import { TouchableOpacity } from 'react-native'
 import styled, { useTheme } from 'styled-components/native'
 import AuthorsContext from '../contexts/AuthorsContext'
 import CategoriesContext from '../contexts/CategoriesContext'
+import Category from '../contexts/CategoriesContext/Category'
 import Routine from '../contexts/RoutinesContext/Routine'
 import Icon from './Icon'
 import { H5, Overline, Body } from './typography'
 
-const Container = styled.View`
+const Container = styled.TouchableOpacity`
   flex-direction: row;
   box-shadow: ${props => props.theme.elevation[1]};
   border-radius: 8px;
@@ -46,25 +47,25 @@ export default function RoutineItem({
   routine
 }: RoutineItemProps): JSX.Element {
   const theme = useTheme()
-  const category = React.useContext(CategoriesContext).categories[
+  const category: Category = React.useContext(CategoriesContext).categories[
     routine.category
   ]
   const { authors } = React.useContext(AuthorsContext)
 
-  const routineAuthors = routine.authors.reduce(
+  const routineAuthors = routine?.authors.reduce(
     (routineAuthors, authorId, idx, ids) =>
       idx + 1 === ids.length
         ? routineAuthors + authors[authorId].name
         : idx + 1 === ids.length - 1
-        ? routineAuthors + 'e' + authors[authorId].name
-        : routineAuthors + ',' + authors[authorId].name,
+        ? routineAuthors + authors[authorId].name + ' e '
+        : routineAuthors + authors[authorId].name + ', ',
     ''
   )
 
   return (
     <Container>
       <ColorBar
-        color={`hsl(${category.hueTheme}, 100%, 60%)`}
+        color={`hsl(${category?.hueTheme}, 100%, 60%)`}
         style={{ marginRight: 8 }}
       />
       <Col>

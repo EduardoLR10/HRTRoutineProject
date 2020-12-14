@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesome, MaterialIcons } from '@expo/vector-icons'
+import { StyleProp, TextStyle } from 'react-native'
 
 export type IconName =
   | 'list'
@@ -8,21 +9,53 @@ export type IconName =
   | 'summary'
   | 'library'
   | 'github'
+  | 'search'
+  | 'clear'
 
 export interface IconProps {
   name: IconName
   size?: number | undefined
   color?: string | undefined
+  style?: StyleProp<TextStyle>
 }
 
-export default function Icon({ name, size, color }: IconProps): JSX.Element {
+export default function Icon({
+  name,
+  size,
+  color,
+  style
+}: IconProps): JSX.Element {
   return {
-    list: <MaterialIcons name="list" size={size} color={color} />,
-    star: <MaterialIcons name="star" size={size} color={color} />,
-    info: <MaterialIcons name="info" size={size} color={color} />,
-    summary: <MaterialIcons name="view-list" size={size} color={color} />,
-    back: <MaterialIcons name="arrow-back" size={size} color={color} />,
-    library: <MaterialIcons name="library-books" size={size} color={color} />,
-    github: <FontAwesome name="github" size={size} color={color} />
+    list: <MaterialIcons name="list" size={size} color={color} style={style} />,
+    star: <MaterialIcons name="star" size={size} color={color} style={style} />,
+    info: <MaterialIcons name="info" size={size} color={color} style={style} />,
+    summary: (
+      <MaterialIcons name="view-list" size={size} color={color} style={style} />
+    ),
+    back: (
+      <MaterialIcons
+        name="arrow-back"
+        size={size}
+        color={color}
+        style={style}
+      />
+    ),
+    library: (
+      <MaterialIcons
+        name="library-books"
+        size={size}
+        color={color}
+        style={style}
+      />
+    ),
+    github: (
+      <FontAwesome name="github" size={size} color={color} style={style} />
+    ),
+    search: (
+      <MaterialIcons name="search" size={size} color={color} style={style} />
+    ),
+    clear: (
+      <MaterialIcons name="clear" size={size} color={color} style={style} />
+    )
   }[name]
 }
