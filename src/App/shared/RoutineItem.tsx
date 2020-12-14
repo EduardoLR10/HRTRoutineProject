@@ -1,6 +1,6 @@
 /* eslint-disable indent */
 import React from 'react'
-import { TouchableOpacity } from 'react-native'
+import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native'
 import styled, { useTheme } from 'styled-components/native'
 import AuthorsContext from '../contexts/AuthorsContext'
 import CategoriesContext from '../contexts/CategoriesContext'
@@ -41,10 +41,12 @@ const Footer = styled.View``
 
 export interface RoutineItemProps {
   routine: Routine
+  style: StyleProp<ViewStyle>
 }
 
 export default function RoutineItem({
-  routine
+  routine,
+  style
 }: RoutineItemProps): JSX.Element {
   const theme = useTheme()
   const category: Category = React.useContext(CategoriesContext).categories[
@@ -63,7 +65,7 @@ export default function RoutineItem({
   )
 
   return (
-    <Container>
+    <Container style={style}>
       <ColorBar
         color={`hsl(${category?.hueTheme}, 100%, 60%)`}
         style={{ marginRight: 8 }}
