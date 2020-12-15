@@ -3,6 +3,7 @@ export default class Routine {
     public readonly id: string,
     public readonly name: string,
     public readonly category: string,
-    public readonly authors: string[]
+    public readonly authors: string[],
+    public readonly tags: string[]
   ) {}
 }

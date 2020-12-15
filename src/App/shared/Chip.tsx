@@ -1,4 +1,5 @@
 import React from 'react'
+import { StyleProp, ViewStyle, ImageURISource } from 'react-native'
 import styled from 'styled-components/native'
 import { Body } from './typography'
 
@@ -23,13 +24,18 @@ const Text = styled(Body)`
 
 export interface ChipProps {
   children: string
-  avatar: string
+  avatar?: ImageURISource
+  style: StyleProp<ViewStyle>
 }
 
-export default function Chip({ children, avatar }: ChipProps): JSX.Element {
+export default function Chip({
+  children,
+  avatar,
+  style
+}: ChipProps): JSX.Element {
   return (
-    <Container avatar={avatar}>
-      <Avatar source={avatar} style={{ marginRight: 8 }} />
+    <Container avatar={!!avatar} style={style}>
+      {avatar && <Avatar source={avatar} style={{ marginRight: 8 }} />}
       <Text>{children}</Text>
     </Container>
   )

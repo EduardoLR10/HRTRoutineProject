@@ -1,4 +1,5 @@
 /* eslint-disable indent */
+import { useNavigation, useN } from '@react-navigation/native'
 import React from 'react'
 import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native'
 import styled, { useTheme } from 'styled-components/native'
@@ -49,11 +50,14 @@ export default function RoutineItem({
   style
 }: RoutineItemProps): JSX.Element {
   const theme = useTheme()
-  const category: Category = React.useContext(CategoriesContext).categories[
+
+  const navigation = useNavigation()
+
+  const category = React.useContext(CategoriesContext).categories[
     routine.category
   ]
-  const { authors } = React.useContext(AuthorsContext)
 
+  const { authors } = React.useContext(AuthorsContext)
   const routineAuthors = routine?.authors.reduce(
     (routineAuthors, authorId, idx, ids) =>
       idx + 1 === ids.length
@@ -65,7 +69,10 @@ export default function RoutineItem({
   )
 
   return (
-    <Container style={style}>
+    <Container
+      style={style}
+      onPress={() => navigation.navigate('Routine', { routine })}
+    >
       <ColorBar
         color={`hsl(${category?.hueTheme}, 100%, 60%)`}
         style={{ marginRight: 8 }}

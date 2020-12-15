@@ -11,6 +11,7 @@ export type IconName =
   | 'github'
   | 'search'
   | 'clear'
+  | 'back'
 
 export interface IconProps {
   name: IconName
