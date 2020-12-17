@@ -1,5 +1,5 @@
 import React from 'react'
-import Category from './Category'
+import Category from '../../../models/Category'
 import categoriesList from './categories'
 
 export interface CategoriesContextValue {

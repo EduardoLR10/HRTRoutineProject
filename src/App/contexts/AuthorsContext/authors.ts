@@ -1,7 +1,13 @@
-import Author from './Author'
+import Author from '../../../models/Author'
 import avatarLuigiMinardi from './images/LuigiMinardi.png'
 
 export default [
+  new Author(
+    'test_author',
+    'Autor de Testes',
+    avatarLuigiMinardi,
+    'https://www.google.com.br/'
+  ),
   new Author(
     'test_author_1',
     'Autor de Testes 1',

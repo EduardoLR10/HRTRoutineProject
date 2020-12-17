@@ -1,27 +1,27 @@
 import React from 'react'
 import { useRoute } from '@react-navigation/native'
-import { useTheme } from 'styled-components'
-import { H1 } from '../../shared/typography'
-import Routine from '../../contexts/RoutinesContext/Routine'
 import Screen, { Main } from '../../shared/Screen'
 import Appbar from './components/Appbar'
 import RoutineHeader from './components/RoutineHeader'
+import RoutinesContext from '../../contexts/RoutinesContext'
 
 export interface RoutineScreenParams {
-  routine: Routine
+  routineId: string
 }
 
 export default function RoutineScreen(): JSX.Element {
-  const theme = useTheme()
+  const { routines } = React.useContext(RoutinesContext)
 
-  const route = useRoute()
-  const { routine } = route.params as RoutineScreenParams
+  const { routineId } = useRoute().params as RoutineScreenParams
+  const routine = routines[routineId]
+  const Content = routine.Content
 
   return (
     <Screen>
       <Appbar />
       <Main>
-        <RoutineHeader routine={routine} />
+        <RoutineHeader routine={routine} style={{ marginBottom: 32 }} />
+        <Content />
       </Main>
     </Screen>
   )

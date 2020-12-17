@@ -1,5 +1,5 @@
 import React from 'react'
-import Routine from './Routine'
+import Routine from '../../../models/Routine'
 import routinesList from './routines'
 
 export interface RoutineContextValue {

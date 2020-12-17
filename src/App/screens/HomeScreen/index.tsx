@@ -8,7 +8,7 @@ import RoutinesContext from '../../contexts/RoutinesContext'
 import RoutineItem from '../../shared/RoutineItem'
 import CategoriesContext from '../../contexts/CategoriesContext'
 import CategoryItem from '../../shared/CategoryItem'
-import Category from '../../contexts/CategoriesContext/Category'
+import Category from '../../../models/Category'
 import Gap from '../../shared/Gap'
 import Searchbar from './components/Searchbar'
 

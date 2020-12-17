@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/native'
-import Category from '../contexts/CategoriesContext/Category'
+import Category from '../../models/Category'
 import { Subtitle1 } from './../shared/typography'
 
 const Container = styled.TouchableOpacity<{ hue: number }>`

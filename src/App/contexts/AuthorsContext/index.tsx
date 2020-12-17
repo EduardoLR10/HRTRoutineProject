@@ -1,5 +1,5 @@
 import React from 'react'
-import Author from './Author'
+import Author from '../../../models/Author'
 import authorsList from './authors'
 
 export interface AuthorsContextValue {
