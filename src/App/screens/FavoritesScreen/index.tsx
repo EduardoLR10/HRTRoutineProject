@@ -5,9 +5,14 @@ import BottomNav from '../../shared/BottomNav'
 import { H1 } from '../../shared/typography'
 import RoutinesContext from '../../contexts/RoutinesContext'
 import RoutineItem from '../../shared/RoutineItem'
+import UserContext from '../../contexts/UserContext'
 
 export default function FavoritesScreen(): JSX.Element {
   const { routines } = React.useContext(RoutinesContext)
+  const {
+    user: { favoriteRoutines }
+  } = React.useContext(UserContext)
+
   return (
     <Screen>
       <Main
@@ -15,10 +20,10 @@ export default function FavoritesScreen(): JSX.Element {
       >
         <H1 style={{ marginBottom: 16 }}>Seus Favoritos</H1>
         <View>
-          {Object.values(routines).map(routine => (
+          {favoriteRoutines.map(id => (
             <RoutineItem
-              key={routine.id}
-              routine={routine}
+              key={id}
+              routine={routines[id]}
               style={{ marginBottom: 8 }}
             />
           ))}
