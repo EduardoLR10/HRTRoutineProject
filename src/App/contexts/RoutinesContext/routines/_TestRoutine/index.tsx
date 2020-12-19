@@ -1,5 +1,5 @@
 import React from 'react'
-import Routine, { RoutineContent } from '../../../../../models/Routine'
+import { RoutineContent as Routine } from '../../../../../models/Routine'
 import {
   Text,
   P,
@@ -17,14 +17,15 @@ import {
 
 import imgScorpion from './images/scorpion.png'
 
-export default new Routine(
-  'test_routine',
-  'Rotina de Testes',
-  'test_category',
-  ['test_author'],
-  ['tag1', 'tag2', 'tag3', 'tag4'],
-  () => (
-    <RoutineContent>
+export default function TestRoutine(): JSX.Element {
+  return (
+    <Routine
+      id="test_routine"
+      name="Rotina de Testes"
+      category="test_category"
+      authors={['test_author']}
+      tags={['tag1', 'tag2', 'tag3', 'tag4']}
+    >
       <Section title="Sobre a Rotina de Testes">
         <P>
           Você pode escrever paragrafos à vontade. Incluido utilizando{' '}
@@ -110,6 +111,6 @@ export default new Routine(
           </List>
         </List>
       </Section>
-    </RoutineContent>
+    </Routine>
   )
-)
+}

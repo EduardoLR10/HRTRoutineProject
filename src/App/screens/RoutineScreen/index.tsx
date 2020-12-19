@@ -21,7 +21,7 @@ export default function RoutineScreen(): JSX.Element {
       <Appbar />
       <Main>
         <RoutineHeader routine={routine} style={{ marginBottom: 32 }} />
-        <Content />
+        {Content}
       </Main>
     </Screen>
   )

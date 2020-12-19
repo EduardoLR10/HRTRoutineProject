@@ -1,3 +1,4 @@
-import _TestRoutine from './_TestRoutine'
+import Routine from '../../../../models/Routine'
+import TestRoutine from './_TestRoutine'
 
-export default [_TestRoutine]
+export default [new Routine(TestRoutine())]
