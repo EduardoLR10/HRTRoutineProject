@@ -1,7 +1,8 @@
 import React from 'react'
-import { ScrollView, Text } from 'react-native'
+import { Text } from 'react-native'
 import Routine, { RoutineContent } from '../../../../../models/Routine'
 import Figure from '../../../../screens/RoutineScreen/components/Figure'
+import { List, LItem } from '../../../../screens/RoutineScreen/components/List'
 import Section from '../../../../screens/RoutineScreen/components/Section'
 import Subsection from '../../../../screens/RoutineScreen/components/Subsection'
 import Subsubsection from '../../../../screens/RoutineScreen/components/Subsubsection'
@@ -10,8 +11,7 @@ import {
   Bold,
   Italic,
   Paragraph as P,
-  Subscript,
-  Superscript
+  Subscript
 } from '../../../../shared/typography'
 
 import imgScorpion from './images/scorpion.png'
@@ -95,6 +95,19 @@ export default new Routine(
             ['múltiplas', 'colunas', 'com conteúdo']
           ]}
         />
+      </Section>
+      <Section title="Listas">
+        <P>Também podemos adicionar listas ao nosso critério</P>
+        <List>
+          <LItem>Primeiro item da lista</LItem>
+          <LItem>Item muito muito muito muito muito muito longo da lista</LItem>
+          <List>
+            <LItem>Lista interna à lista.</LItem>
+            <List>
+              <LItem>Mais um nível</LItem>
+            </List>
+          </List>
+        </List>
       </Section>
     </RoutineContent>
   )
