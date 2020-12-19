@@ -9,7 +9,7 @@ import {
 } from '@expo/vector-icons'
 
 import { Paragraph } from '../../../shared/typography'
-import { useTheme } from 'styled-components'
+import styled, { useTheme } from 'styled-components'
 
 const ListContext = React.createContext<{ depth: number }>({ depth: -1 })
 
@@ -22,10 +22,19 @@ export function List({ children }: ListProps): JSX.Element {
 
   return (
     <ListContext.Provider value={{ depth: depth + 1 }}>
-      <View style={{ paddingLeft: depth < 0 ? 0 : 16 }}>{children}</View>
+      <View style={{ marginBottom: 8, paddingLeft: depth < 0 ? 0 : 16 }}>
+        {children}
+      </View>
     </ListContext.Provider>
   )
 }
+
+/// ////////////////////////////////////////////////////////////////////////////////////////////////
+
+const Text = styled(Paragraph)`
+  margin: 0px 0px 8px 0px;
+  flex: 1;
+`
 
 export interface LItemProps {
   children?: React.ReactNode
@@ -67,7 +76,7 @@ export function LItem({ children }: LItemProps): JSX.Element {
       }}
     >
       {Icon}
-      <Paragraph style={{ flex: 1, margin: 0 }}>{children}</Paragraph>
+      <Text>{children}</Text>
     </View>
   )
 }
