@@ -6,6 +6,7 @@ import styled, { useTheme } from 'styled-components/native'
 import Routine from '../../models/Routine'
 import AuthorsContext from '../contexts/AuthorsContext'
 import CategoriesContext from '../contexts/CategoriesContext'
+import UserContext from '../contexts/UserContext'
 import Icon from './Icon'
 import { H5, Overline, Body } from './typography'
 
@@ -67,6 +68,10 @@ export default function RoutineItem({
     ''
   )
 
+  const { user, isFavoriteRoutine, toggleFavoriteRoutine } = React.useContext(
+    UserContext
+  )
+
   return (
     <Container
       style={style}
@@ -87,8 +92,16 @@ export default function RoutineItem({
             </H5>
           </ColInfo>
           <ColActions>
-            <TouchableOpacity>
-              <Icon name="star" size={32} color={theme.color.background} />
+            <TouchableOpacity onPress={() => toggleFavoriteRoutine(routine)}>
+              <Icon
+                name="star"
+                size={32}
+                color={
+                  isFavoriteRoutine(routine)
+                    ? theme.color.warning
+                    : theme.color.background
+                }
+              />
             </TouchableOpacity>
           </ColActions>
         </Header>

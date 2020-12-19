@@ -3,6 +3,8 @@ import { useNavigation } from '@react-navigation/native'
 import styled, { useTheme } from 'styled-components/native'
 import Icon from '../../../shared/Icon'
 import { TouchableOpacity } from 'react-native-gesture-handler'
+import UserContext from '../../../contexts/UserContext'
+import Routine from '../../../../models/Routine'
 
 const Container = styled.View`
   box-shadow: ${props => props.theme.elevation[4]};
@@ -16,9 +18,15 @@ const ActionsContainer = styled.View`
   justify-content: flex-end;
 `
 
-export default function Appbar(): JSX.Element {
+export interface AppbarProps {
+  routine: Routine
+}
+export default function Appbar({ routine }: AppbarProps): JSX.Element {
   const theme = useTheme()
   const navigation = useNavigation()
+  const { toggleFavoriteRoutine, isFavoriteRoutine } = React.useContext(
+    UserContext
+  )
 
   return (
     <Container>
@@ -31,11 +39,15 @@ export default function Appbar(): JSX.Element {
         />
       </TouchableOpacity>
       <ActionsContainer style={{ flex: 1 }}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => toggleFavoriteRoutine(routine)}>
           <Icon
             name="star"
             size={24}
-            color={theme.color.background}
+            color={
+              isFavoriteRoutine(routine)
+                ? theme.color.warning
+                : theme.color.background
+            }
             style={{ marginRight: 24 }}
           />
         </TouchableOpacity>

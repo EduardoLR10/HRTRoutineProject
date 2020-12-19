@@ -9,6 +9,7 @@ import { ThemeProvider } from 'styled-components/native'
 import { AuthorsProvider } from './contexts/AuthorsContext'
 import { CategoriesProvider } from './contexts/CategoriesContext'
 import { RoutinesProvider } from './contexts/RoutinesContext'
+import { UserProvider } from './contexts/UserContext'
 
 export default function App(): JSX.Element {
   const [areFontsLoaded] = useFonts(fonts)
@@ -20,7 +21,9 @@ export default function App(): JSX.Element {
       <CategoriesProvider>
         <RoutinesProvider>
           <AuthorsProvider>
-            <Routes />
+            <UserProvider>
+              <Routes />
+            </UserProvider>
           </AuthorsProvider>
         </RoutinesProvider>
       </CategoriesProvider>

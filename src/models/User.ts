@@ -1,3 +1,3 @@
 export default class User {
-  constructor(public favorites: string[]) {}
+  constructor(public favoriteRoutines: string[]) {}
 }
