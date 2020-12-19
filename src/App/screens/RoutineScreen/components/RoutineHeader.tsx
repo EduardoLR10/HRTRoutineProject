@@ -1,8 +1,8 @@
 import React from 'react'
 import { StyleProp, ViewStyle } from 'react-native'
 import styled from 'styled-components/native'
+import Routine from '../../../../models/Routine'
 import CategoriesContext from '../../../contexts/CategoriesContext'
-import Routine from '../../../contexts/RoutinesContext/Routine'
 import Chip from '../../../shared/Chip'
 import { H1, Overline } from '../../../shared/typography'
 

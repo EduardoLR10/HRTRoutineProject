@@ -1,12 +1,7 @@
 /* eslint-disable multiline-ternary */
 import React from 'react'
 import { View } from 'react-native'
-import {
-  Entypo,
-  FontAwesome,
-  MaterialCommunityIcons,
-  Octicons
-} from '@expo/vector-icons'
+import { MaterialCommunityIcons, Octicons } from '@expo/vector-icons'
 
 import { Paragraph } from '../../../shared/typography'
 import styled, { useTheme } from 'styled-components'

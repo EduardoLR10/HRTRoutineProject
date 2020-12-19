@@ -41,7 +41,7 @@ const Footer = styled.View``
 
 export interface RoutineItemProps {
   routine: Routine
-  style: StyleProp<ViewStyle>
+  style?: StyleProp<ViewStyle>
 }
 
 export default function RoutineItem({

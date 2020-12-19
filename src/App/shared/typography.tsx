@@ -30,7 +30,7 @@ export const fonts = {
   Roboto_900Black_Italic
 }
 
-const Text = styled.Text<{ color?: string }>`
+export const Text = styled.Text<{ color?: string }>`
   color: ${props => props.color || props.theme.color.onSurface};
 `
 

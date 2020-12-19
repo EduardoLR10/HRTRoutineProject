@@ -25,7 +25,7 @@ const Text = styled(Body)`
 export interface ChipProps {
   children: string
   avatar?: ImageURISource
-  style: StyleProp<ViewStyle>
+  style?: StyleProp<ViewStyle>
 }
 
 export default function Chip({

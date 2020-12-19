@@ -1,18 +1,19 @@
 import React from 'react'
-import { Text } from 'react-native'
 import Routine, { RoutineContent } from '../../../../../models/Routine'
-import Figure from '../../../../screens/RoutineScreen/components/Figure'
-import { List, LItem } from '../../../../screens/RoutineScreen/components/List'
-import Section from '../../../../screens/RoutineScreen/components/Section'
-import Subsection from '../../../../screens/RoutineScreen/components/Subsection'
-import Subsubsection from '../../../../screens/RoutineScreen/components/Subsubsection'
-import { Table } from '../../../../screens/RoutineScreen/components/Table'
 import {
+  Text,
+  P,
   Bold,
   Italic,
-  Paragraph as P,
-  Subscript
-} from '../../../../shared/typography'
+  Subscript,
+  Table,
+  Figure,
+  List,
+  LItem,
+  Section,
+  Subsection,
+  Subsubsection
+} from '../../../../screens/RoutineScreen/components'
 
 import imgScorpion from './images/scorpion.png'
 

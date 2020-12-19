@@ -29,7 +29,7 @@ export interface TableProps {
   colWidths: number[]
 }
 
-export function Table({
+export default function Table({
   title,
   caption,
   header,
