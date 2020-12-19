@@ -23,12 +23,6 @@ import Sergio from './images/Sergio.jpg'
 
 export default [
   new Author(
-    'test_author',
-    'Autor de Testes',
-    avatarLuigiMinardi,
-    'https://www.google.com.br/'
-  ),
-  new Author(
     'ana-beatriz',
     'Ana Beatriz Schmitt Silva',
     AnaBeatriz,

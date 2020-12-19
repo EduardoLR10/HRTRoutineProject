@@ -23,7 +23,7 @@ export default function TestRoutine(): JSX.Element {
       id="test_routine"
       name="Rotina de Testes"
       category="test_category"
-      authors={['test_author']}
+      authors={['ana-luiza', 'carlos']}
       tags={['tag1', 'tag2', 'tag3', 'tag4']}
     >
       <Section title="Sobre a Rotina de Testes">
