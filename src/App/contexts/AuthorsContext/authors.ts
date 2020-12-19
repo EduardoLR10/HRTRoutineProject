@@ -1,5 +1,4 @@
 import Author from '../../../models/Author'
-import avatarLuigiMinardi from './images/LuigiMinardi.png'
 import AnaBeatriz from './images/AnaBeatriz.jpg'
 import AnaLuiza from './images/AnaLuiza.jpg'
 import Barbara from './images/Barbara.jpg'

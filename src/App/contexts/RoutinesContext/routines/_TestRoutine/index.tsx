@@ -22,7 +22,7 @@ export default function TestRoutine(): JSX.Element {
     <Routine
       id="test_routine"
       name="Rotina de Testes"
-      category="test_category"
+      category="cardiologia"
       authors={['ana-luiza', 'carlos']}
       tags={['tag1', 'tag2', 'tag3', 'tag4']}
     >
