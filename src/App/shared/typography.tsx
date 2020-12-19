@@ -112,7 +112,7 @@ export const Caption = styled(Text)`
   font-family: Roboto_400Regular;
   font-size: 12px;
   line-height: 16px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 `
 
 export const Overline = styled(Text)`
@@ -129,4 +129,8 @@ export const Bold = styled(Text)`
 
 export const Italic = styled(Text)`
   font-style: italic;
+`
+export const Subscript = styled(Text)`
+  font-size: 8px;
+  text-align-vertical: bottom;
 `

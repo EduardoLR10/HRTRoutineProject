@@ -12,6 +12,8 @@ export type IconName =
   | 'search'
   | 'clear'
   | 'back'
+  | 'zoom'
+  | 'unzoom'
 
 export interface IconProps {
   name: IconName
@@ -57,6 +59,17 @@ export default function Icon({
     ),
     clear: (
       <MaterialIcons name="clear" size={size} color={color} style={style} />
+    ),
+    zoom: (
+      <MaterialIcons
+        name="zoom-out-map"
+        size={size}
+        color={color}
+        style={style}
+      />
+    ),
+    unzoom: (
+      <MaterialIcons name="close" size={size} color={color} style={style} />
     )
   }[name]
 }

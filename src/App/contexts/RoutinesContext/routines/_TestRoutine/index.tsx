@@ -1,11 +1,18 @@
 import React from 'react'
-import { Image } from 'react-native'
+import { ScrollView, Text } from 'react-native'
 import Routine, { RoutineContent } from '../../../../../models/Routine'
 import Figure from '../../../../screens/RoutineScreen/components/Figure'
 import Section from '../../../../screens/RoutineScreen/components/Section'
 import Subsection from '../../../../screens/RoutineScreen/components/Subsection'
 import Subsubsection from '../../../../screens/RoutineScreen/components/Subsubsection'
-import { Bold, Italic, Paragraph as P } from '../../../../shared/typography'
+import { Table } from '../../../../screens/RoutineScreen/components/Table'
+import {
+  Bold,
+  Italic,
+  Paragraph as P,
+  Subscript,
+  Superscript
+} from '../../../../shared/typography'
 
 import imgScorpion from './images/scorpion.png'
 
@@ -50,7 +57,44 @@ export default new Routine(
           Também é possível adicionar figuras e tabelas como as colocadas a
           baixo
         </P>
-        <Figure source={imgScorpion} size={[300, 200]} />
+        <Figure
+          title="Use imagens!"
+          source={imgScorpion}
+          size={[300, 200]}
+          caption="Mas também sinta-se a vontade para adicionar as legendas necessárias para a imagem."
+        />
+        <P>
+          Além do mais, pode-se incluir tabelas responsivas como as vistas à
+          baixo.
+        </P>
+
+        <Table
+          colWidths={[200, 200, 200]}
+          title="Título da tabela"
+          caption={
+            'A Tabela possui uma matrix de dados e um array de header. Você pode usar tanto strings quanto JSX.Elements dentros deles'
+          }
+          header={[
+            'Título da Coluna Um Com um nome muito grande',
+            'Título da Coluna Dois',
+            'Título da coluna Três'
+          ]}
+          data={[
+            [
+              'Escreva com strings na tabela',
+              <Text key={1}>
+                Se necessário, use textos em <Bold>negrito</Bold> ou{' '}
+                <Italic>itálico</Italic>
+              </Text>,
+              <Text key={2}>
+                Você também pode escrever textos usando subscripts
+                <Subscript>1</Subscript>.
+              </Text>
+            ],
+            ['Você ', 'pode', 'usar'],
+            ['múltiplas', 'colunas', 'com conteúdo']
+          ]}
+        />
       </Section>
     </RoutineContent>
   )

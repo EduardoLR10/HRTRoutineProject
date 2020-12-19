@@ -8,7 +8,7 @@ export const lightTheme: AppTheme = {
 
     secondary: '#000000',
     secondaryVariant: '#DDDDDD',
-    onSecondary: '#FFFFFF',
+    onSecondary: '#000000',
 
     background: '#DDDDDD',
     onBackground: '#000000',
