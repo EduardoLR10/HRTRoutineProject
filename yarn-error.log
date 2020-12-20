@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/local/bin/yarn add import ReactNativeZoomableView from @dudigital/react-native-zoomable-view/src/ReactNativeZoomableView
+  /usr/bin/node /usr/local/bin/yarn install
 
 PATH: 
   /home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.opam/default/bin:/home/luigiminardim/bin:/home/luigiminardim/.local/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.opam/default/bin:/home/luigiminardim/bin:/home/luigiminardim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/luigiminardim/go/bin:/usr/local/go/bin:/home/luigiminardim/go/bin
@@ -14,17 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/ReactNativeZoomableView: Not found
-      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
-      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
-      at Request.emit (events.js:198:13)
-      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141720:10)
-      at Request.emit (events.js:198:13)
-      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141642:12)
-      at Object.onceWrapper (events.js:286:20)
-      at IncomingMessage.emit (events.js:203:15)
-      at endReadableNT (_stream_readable.js:1145:12)
-      at process._tickCallback (internal/process/next_tick.js:63:19)
+  Error: EEXIST: file already exists, symlink '../../../../../../../json5/lib/cli.js' -> '/home/luigiminardim/Desktop/HRTRoutineProject/node_modules/@babel/plugin-proposal-optional-chaining/node_modules/@babel/core/node_modules/.bin/json5'
 
 npm manifest: 
   {
@@ -50,9 +40,11 @@ npm manifest:
       "react": "16.13.1",
       "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
       "react-native-gesture-handler": "~1.7.0",
+      "react-native-image-pan-zoom": "^2.1.12",
+      "react-native-image-zoom-viewer": "^3.0.1",
       "react-native-paper": "^4.4.1",
       "react-native-reanimated": "~1.13.0",
-      "react-native-safe-area-context": "^3.1.9",
+      "react-native-safe-area-context": "3.1.4",
       "react-native-screens": "~2.10.1",
       "react-native-web": "~0.13.12",
       "styled-components": "^5.2.1"
@@ -11560,6 +11552,18 @@ Lockfile:
       invariant "^2.2.4"
       prop-types "^15.7.2"
   
+  react-native-image-pan-zoom@^2.1.12:
+    version "2.1.12"
+    resolved "https://registry.yarnpkg.com/react-native-image-pan-zoom/-/react-native-image-pan-zoom-2.1.12.tgz#eb98bf56fb5610379bdbfdb63219cc1baca98fd2"
+    integrity sha512-BF66XeP6dzuANsPmmFsJshM2Jyh/Mo1t8FsGc1L9Q9/sVP8MJULDabB1hms+eAoqgtyhMr5BuXV3E1hJ5U5H6Q==
+  
+  react-native-image-zoom-viewer@^3.0.1:
+    version "3.0.1"
+    resolved "https://registry.yarnpkg.com/react-native-image-zoom-viewer/-/react-native-image-zoom-viewer-3.0.1.tgz#a2bd5fb3bda15e0686ce88fcde8576726495d7fb"
+    integrity sha512-la6s5DNSuq4GCRLsi5CZ29FPjgTpdCuGIRdO5T9rUrAtxrlpBPhhSnHrbmPVxsdtOUvxHacTh2Gfa9+RraMZQA==
+    dependencies:
+      react-native-image-pan-zoom "^2.1.12"
+  
   react-native-iphone-x-helper@^1.3.0:
     version "1.3.1"
     resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.3.1.tgz#20c603e9a0e765fd6f97396638bdeb0e5a60b010"
@@ -11585,11 +11589,6 @@ Lockfile:
     version "3.1.4"
     resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.1.4.tgz#9b7f883a5ae8da6218d17467a350434005893602"
     integrity sha512-bXx3hqz4LovFoMnJIRGIWL2oJ/PHadXviBKvgZV9yNErtURQLJSn0yfQytVtiqslhaBMZOJwH4R6HiClyofvBg==
-  
-  react-native-safe-area-context@^3.1.9:
-    version "3.1.9"
-    resolved "https://registry.yarnpkg.com/react-native-safe-area-context/-/react-native-safe-area-context-3.1.9.tgz#48864ea976b0fa57142a2cc523e1fd3314e7247e"
-    integrity sha512-wmcGbdyE/vBSL5IjDPReoJUEqxkZsywZw5gPwsVUV1NBpw5eTIdnL6Y0uNKHE25Z661moxPHQz6kwAkYQyorxA==
   
   react-native-safe-area-view@^0.14.9:
     version "0.14.9"

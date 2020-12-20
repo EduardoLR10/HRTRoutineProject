@@ -1,3 +1,4 @@
 export default class User {
-  constructor(public favoriteRoutines: string[]) {}
+  public readonly favoriteRoutines: string[] = []
+  public lastSeenRoutines: string[] = []
 }

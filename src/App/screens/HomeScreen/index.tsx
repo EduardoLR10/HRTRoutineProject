@@ -11,6 +11,7 @@ import CategoryItem from '../../shared/CategoryItem'
 import Category from '../../../models/Category'
 import Gap from '../../shared/Gap'
 import Searchbar from './components/Searchbar'
+import UserContext from '../../contexts/UserContext'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
@@ -21,8 +22,14 @@ const RoutinesList = styled.View`
 `
 
 export default function HomeScreen(): JSX.Element {
+  const { user } = React.useContext(UserContext)
+
   const { routines } = React.useContext(RoutinesContext)
   const { categories } = React.useContext(CategoriesContext)
+  const orderedRoutines = [
+    ...user.lastSeenRoutines,
+    ...Object.keys(routines).filter(id => !user.lastSeenRoutines.includes(id))
+  ]
 
   const [searchString, setSearchString] = React.useState('')
   const [selectedCategory, setCategory] = React.useState<Category | null>(null)
@@ -64,12 +71,14 @@ export default function HomeScreen(): JSX.Element {
           {/* Routines */}
           <RoutinesList>
             <H2 style={{ marginBottom: 16 }}>Rotinas Pediátricas</H2>
-            {Object.values(routines).map(routine => (
-              <React.Fragment key={routine.id}>
-                <RoutineItem routine={routine} />
-                <Gap height={8} />
-              </React.Fragment>
-            ))}
+            {orderedRoutines
+              .map(id => routines[id])
+              .map(routine => (
+                <React.Fragment key={routine.id}>
+                  <RoutineItem routine={routine} />
+                  <Gap height={8} />
+                </React.Fragment>
+              ))}
           </RoutinesList>
         </Main>
       </View>
