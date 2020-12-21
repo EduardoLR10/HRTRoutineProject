@@ -68,7 +68,7 @@ export default function RoutineItem({
     ''
   )
 
-  const { user, isFavoriteRoutine, toggleFavoriteRoutine } = React.useContext(
+  const { isFavoriteRoutine, toggleFavoriteRoutine } = React.useContext(
     UserContext
   )
 

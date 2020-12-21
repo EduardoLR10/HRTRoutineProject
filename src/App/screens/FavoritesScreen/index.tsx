@@ -9,9 +9,7 @@ import UserContext from '../../contexts/UserContext'
 
 export default function FavoritesScreen(): JSX.Element {
   const { routines } = React.useContext(RoutinesContext)
-  const {
-    user: { favoriteRoutines }
-  } = React.useContext(UserContext)
+  const { favoriteRoutines } = React.useContext(UserContext)
 
   return (
     <Screen>

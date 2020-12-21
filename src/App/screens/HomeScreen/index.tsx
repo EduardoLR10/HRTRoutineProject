@@ -22,13 +22,20 @@ const RoutinesList = styled.View`
 `
 
 export default function HomeScreen(): JSX.Element {
-  const { user } = React.useContext(UserContext)
+  const { categories } = React.useContext(CategoriesContext)
+  const { lastSeenRoutines, lastSeenCategories } = React.useContext(UserContext)
 
   const { routines } = React.useContext(RoutinesContext)
-  const { categories } = React.useContext(CategoriesContext)
   const orderedRoutines = [
-    ...user.lastSeenRoutines,
-    ...Object.keys(routines).filter(id => !user.lastSeenRoutines.includes(id))
+    ...lastSeenRoutines,
+    ...Object.keys(routines).filter(id => !lastSeenRoutines.includes(id))
+  ]
+
+  const orderedCategories = [
+    ...lastSeenCategories,
+    ...Object.keys(categories).filter(
+      category => !lastSeenCategories.includes(category)
+    )
   ]
 
   const [searchString, setSearchString] = React.useState('')
@@ -60,12 +67,14 @@ export default function HomeScreen(): JSX.Element {
               showsHorizontalScrollIndicator={false}
               contentContainerStyle={{ paddingHorizontal: 4 }}
             >
-              {Object.values(categories).map(category => (
-                <React.Fragment key={category.id}>
-                  <CategoryItem category={category} />
-                  <Gap width={8} />
-                </React.Fragment>
-              ))}
+              {orderedCategories
+                .map(id => categories[id])
+                .map(category => (
+                  <React.Fragment key={category.id}>
+                    <CategoryItem category={category} />
+                    <Gap width={8} />
+                  </React.Fragment>
+                ))}
             </ScrollView>
           </View>
           {/* Routines */}
