@@ -12,7 +12,8 @@ import {
   LItem,
   Section,
   Subsection,
-  Subsubsection
+  Subsubsection,
+  Reference
 } from '../../../../screens/RoutineScreen/components'
 
 import img1 from './images/image1.png'
@@ -54,7 +55,7 @@ export default function Adenomegalias(): JSX.Element {
           <LItem>
             Micoses profundas: esporotricose, paracoccidioidomicose;
           </LItem>
-          <LItem>Kawasaki.</LItem>
+          <LItem>Doença de Kawasaki.</LItem>
         </List>
       </Section>
       <Section title="Causas Neoplásticas">
@@ -239,7 +240,7 @@ export default function Adenomegalias(): JSX.Element {
           minuciosos e exames complementares bem indicados, de forma gradativa.
         </P>
       </Section>
-      {/* <Section title="Referências">
+      <Section title="Referências">
         <Reference
           idx={1}
           body="Farhat CK, Carvalho ES, Carvalho LH, Succi RC, editors. Infectologia Pediátrica. 3.ed. São Paulo: Atheneu; 2007."
@@ -256,7 +257,7 @@ export default function Adenomegalias(): JSX.Element {
           idx={4}
           body="Freire LM, Teixeira Júnior JF. Diagnóstico Diferencial das Adenomegalias. In: : Tonelli E, Freire LM, editors. Doenças Infecciosas na Infância e Adolescência. 2.ed. Rio de Janeiro: Editora Medsi; 2000. p.1850-67."
         />
-      </Section> */}
+      </Section>
     </Routine>
   )
 }

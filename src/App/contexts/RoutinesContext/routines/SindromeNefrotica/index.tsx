@@ -12,7 +12,8 @@ import {
   LItem,
   Section,
   Subsection,
-  Subsubsection
+  Subsubsection,
+  Reference
 } from '../../../../screens/RoutineScreen/components'
 
 export default function SindromeNefrotica(): JSX.Element {
@@ -56,12 +57,15 @@ export default function SindromeNefrotica(): JSX.Element {
               Edema de início insidioso, mole, frio e depressível, mais intenso
               pela manhã, especialmente periorbitário, chegando a anasarca;
             </LItem>
-            <LItem>Pressão arterial normal (aferir usando manguito adequado para idade e criança em repouso);</LItem>
+            <LItem>
+              Pressão arterial normal (aferir usando manguito adequado para
+              idade e criança em repouso);
+            </LItem>
             <LItem>Geralmente, não há colúria ou hematúria macroscópica;</LItem>
             <LItem>Função renal é normal na grande maioria dos casos;</LItem>
             <LItem>
-              O exame de Urina 1 (EAS) demonstra apenas a perda de proteína/cilindros
-              leucocitários;
+              O exame de Urina 1 (EAS) demonstra apenas a perda de
+              proteína/cilindros leucocitários;
             </LItem>
             <LItem>
               Exames solicitados ainda na Emergência : HC, albumina sérica,
@@ -69,10 +73,10 @@ export default function SindromeNefrotica(): JSX.Element {
             </LItem>
           </List>
           <P>
-            Prescrição no Pronto Socorro: apenas sintomáticos por VO. Punção venosa somente
-            se estritamente necessário. Iniciar o tratamento de processo
-            infeccioso se for o caso. Atentar para distúrbio eletrolítico,
-            especialmente a hipocalcemia.
+            Prescrição no Pronto Socorro: apenas sintomáticos por VO. Punção
+            venosa somente se estritamente necessário. Iniciar o tratamento de
+            processo infeccioso se for o caso. Atentar para distúrbio
+            eletrolítico, especialmente a hipocalcemia.
           </P>
           <P>
             NÃO INICIAR A CORTICOTERAPIA NA EMERGÊNCIA!!! O protocolo para
@@ -94,10 +98,10 @@ export default function SindromeNefrotica(): JSX.Element {
         <Subsection title="Exames Solicitados na Enfermaria">
           <P>
             VHS, PCR, complemento sérico(na 1ª internação), eletrólitos,
-            glicemia, cálcio sérico, proteínas total e frações, eletroforese de proteínas,
-            lipidograma completo, TGO, TGP, proteinúria de 24h. Repetir o HC e a
-            função renal caso esses exames tenham demonstração na coleta anterior do
-            PS.
+            glicemia, cálcio sérico, proteínas total e frações, eletroforese de
+            proteínas, lipidograma completo, TGO, TGP, proteinúria de 24h.
+            Repetir o HC e a função renal caso esses exames tenham demonstração
+            na coleta anterior do PS.
           </P>
         </Subsection>
       </Section>
@@ -152,18 +156,21 @@ export default function SindromeNefrotica(): JSX.Element {
           <P>
             Albumina a 20%: também não é indicada rotineiramente. A utilização
             da albumina se dá nos casos de grandes anasarcas, com albumina
-            sérica inferior a 2g%, refratárias ao tratamento preliminar, especialmente nos casos em que há infecção bacteriana secundária, em que há maior espoliação da albumina.
-            Geralmente associada a furosemida, na dose de 0,5 a 1g/Kg, IV, sem
-            diluir, em bomba de infusão, correndo em 2h. A furosemida é
-            realizada no meio e ao final da infusão de albumina. Quando
-            indicada, é feita habitualmente por 2 a 4 dias. Devem ser
-            monitorados cálcio, potássio e equilíbrio ácido-básico.
+            sérica inferior a 2g%, refratárias ao tratamento preliminar,
+            especialmente nos casos em que há infecção bacteriana secundária, em
+            que há maior espoliação da albumina. Geralmente associada a
+            furosemida, na dose de 0,5 a 1g/Kg, IV, sem diluir, em bomba de
+            infusão, correndo em 2h. A furosemida é realizada no meio e ao final
+            da infusão de albumina. Quando indicada, é feita habitualmente por 2
+            a 4 dias. Devem ser monitorados cálcio, potássio e equilíbrio
+            ácido-básico.
           </P>
         </Subsection>
         <Subsection title="Imunossupressores">
           <P>
-            Ciclofosfamida, ciclosporina, micofenolato de mofetila. Prescritos geralmente
-            após biópsia renal e determinação do padrão histológico da lesão glomerular.
+            Ciclofosfamida, ciclosporina, micofenolato de mofetila. Prescritos
+            geralmente após biópsia renal e determinação do padrão histológico
+            da lesão glomerular.
           </P>
           <P>Conceitos importantes:</P>
           <List>
@@ -202,7 +209,10 @@ export default function SindromeNefrotica(): JSX.Element {
         </Subsection>
         <Subsection title="Indicações Biópsia Renal">
           <List>
-            <LItem>SN no primeiro ano de vida ou com início após 9 anos (especialmente na adolescência);</LItem>
+            <LItem>
+              SN no primeiro ano de vida ou com início após 9 anos
+              (especialmente na adolescência);
+            </LItem>
             <LItem>Pacientes CR(s);</LItem>
             <LItem>
               Pacientes com RF por tempo prolongado ({'>'}18 meses);
@@ -222,15 +232,36 @@ export default function SindromeNefrotica(): JSX.Element {
           portanto, sem necessidade de medicação.
         </P>
       </Section>
-      {/* <Section title="Referências">
-				<Reference idx={1} body="Toporovski Julio (coord.). Nefrologia Pediátrica.2.ed. Rio de Janeiro: Guanabara Koogan, 2006."/>
-				<Reference idx={2} body="Andrade, MC.; Carvalhaes JT. Nefrologia para Pediatras.1.ed. São Paulo: Atheneu, 2010."/>
-				<Reference idx={3} body="Lopez, FA.; Júnior DC. Tratado de Pediatria. SBP.1ed. São Paulo: Manole, 2007."/>
-				<Reference idx={4} body="Behrman, RE,; Souza, E.(Trad). Nelson Tratado de Pediatria. 17.ed. Rio de Janeiro Guanabara Koogan, 2005."/>
-                <Reference idx={5} body="Faculdade de Medicina de Botucatu. Departamento de Pediatria. Pediatria Clínica. Petrópolis, RJ Epub, 2006."/>
-                <Reference idx={6} body="Alves, JGB; Ferreira, OS. Fernando Figueira: Pediatria: Instituto Materno-Ínfantil de Pernambuco (IMIP). 3.ED. Rio de Janeiro, RJ: MEDSI, 2004."/>
-                <Reference idx={7} body="Soeiro, EMD et al. Influence of nephrotic state on the infectious profile in childhood idiopathic nephrotic syndrome. Rev.Hosp. Clín. Fac. Med. S. Paulo, 59(5):273-278,2004."/>
-				</Section> */}
+      <Section title="Referências">
+        <Reference
+          idx={1}
+          body="Toporovski Julio (coord.). Nefrologia Pediátrica.2.ed. Rio de Janeiro: Guanabara Koogan, 2006."
+        />
+        <Reference
+          idx={2}
+          body="Andrade, MC.; Carvalhaes JT. Nefrologia para Pediatras.1.ed. São Paulo: Atheneu, 2010."
+        />
+        <Reference
+          idx={3}
+          body="Lopez, FA.; Júnior DC. Tratado de Pediatria. SBP.1ed. São Paulo: Manole, 2007."
+        />
+        <Reference
+          idx={4}
+          body="Behrman, RE,; Souza, E.(Trad). Nelson Tratado de Pediatria. 17.ed. Rio de Janeiro Guanabara Koogan, 2005."
+        />
+        <Reference
+          idx={5}
+          body="Faculdade de Medicina de Botucatu. Departamento de Pediatria. Pediatria Clínica. Petrópolis, RJ Epub, 2006."
+        />
+        <Reference
+          idx={6}
+          body="Alves, JGB; Ferreira, OS. Fernando Figueira: Pediatria: Instituto Materno-Ínfantil de Pernambuco (IMIP). 3.ED. Rio de Janeiro, RJ: MEDSI, 2004."
+        />
+        <Reference
+          idx={7}
+          body="Soeiro, EMD et al. Influence of nephrotic state on the infectious profile in childhood idiopathic nephrotic syndrome. Rev.Hosp. Clín. Fac. Med. S. Paulo, 59(5):273-278,2004."
+        />
+      </Section>
     </Routine>
   )
 }
