@@ -12,7 +12,8 @@ import {
   LItem,
   Section,
   Subsection,
-  Subsubsection
+  Subsubsection,
+  Reference
 } from '../../../../screens/RoutineScreen/components'
 
 import imgScorpion from './images/scorpion.png'
@@ -110,6 +111,24 @@ export default function TestRoutine(): JSX.Element {
             </List>
           </List>
         </List>
+      </Section>
+      <Section title="Referências">
+        <Reference
+          idx={1}
+          body="Farhat CK, Carvalho ES, Carvalho LH, Succi RC, editors. Infectologia Pediátrica. 3.ed. São Paulo: Atheneu; 2007."
+        />
+        <Reference
+          idx={2}
+          body="Krugman S, Katz SL, Gershon AA, Wilfert CM. Doenças Infecciosas na Infância. 9.ed. Rio de Janeiro: Guanabara Koogan; 1994."
+        />
+        <Reference
+          idx={3}
+          body="Kelly CS, Kelly Jr RE. Lymphadenopathy in Children. Pediatr Clin North Am 1998 Aug;45 (4):875-88."
+        />
+        <Reference
+          idx={4}
+          body="Freire LM, Teixeira Júnior JF. Diagnóstico Diferencial das Adenomegalias. In: : Tonelli E, Freire LM, editors. Doenças Infecciosas na Infância e Adolescência. 2.ed. Rio de Janeiro: Editora Medsi; 2000. p.1850-67."
+        />
       </Section>
     </Routine>
   )
