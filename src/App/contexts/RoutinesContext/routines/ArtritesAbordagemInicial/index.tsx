@@ -44,31 +44,31 @@ export default function ArtriteAbordagemInicial(): JSX.Element {
           sua duração; até 6 semanas são agudas e com duração acima disso, as
           artrites são consideradas crônicas.
         </P>
-      <P>Artrites Agudas:</P>
-      <List>
-        <LItem>
-          Infecciosas, que englobam as artristes sépticas e as reativas;
-        </LItem>
-        <LItem>
-          Hematológicas (anemias hemolíticas, hemofilias, leucoses);
-        </LItem>
-        <LItem>Traumáticas;</LItem>
-        <LItem>Ortopédicas;</LItem>
-        <LItem>
-          Reumatológicas (febre reumática, púrpura de Henoch-Schönlein, lúpus
-          eritematoso sistêmico).
-        </LItem>
-      </List>
-      <P>
-        Os casos preocupantes na Emergência referem-se às artrites agudas,
-        especialmente de causas infecciosas e hematológicas!
-      </P>
-      <P>Artrites Crônicas:</P>
-      <List>
-        <LItem>Infecciosas (tuberculose);</LItem>
-        <LItem>Lúpus Eritematoso sistêmico;</LItem>
-        <LItem>Artrite idiopática juvenil.</LItem>
-      </List>
+        <P>Artrites Agudas:</P>
+        <List>
+          <LItem>
+            Infecciosas, que englobam as artristes sépticas e as reativas;
+          </LItem>
+          <LItem>
+            Hematológicas (anemias hemolíticas, hemofilias, leucoses);
+          </LItem>
+          <LItem>Traumáticas;</LItem>
+          <LItem>Ortopédicas;</LItem>
+          <LItem>
+            Reumatológicas (febre reumática, púrpura de Henoch-Schönlein, lúpus
+            eritematoso sistêmico).
+          </LItem>
+        </List>
+        <P>
+          Os casos preocupantes na Emergência referem-se às artrites agudas,
+          especialmente de causas infecciosas e hematológicas!
+        </P>
+        <P>Artrites Crônicas:</P>
+        <List>
+          <LItem>Infecciosas (tuberculose);</LItem>
+          <LItem>Lúpus Eritematoso sistêmico;</LItem>
+          <LItem>Artrite idiopática juvenil.</LItem>
+        </List>
       </Section>
       <Section title="Causas Infecciosas">
         <P>
