@@ -10,6 +10,7 @@ import { AuthorsProvider } from './contexts/AuthorsContext'
 import { CategoriesProvider } from './contexts/CategoriesContext'
 import { RoutinesProvider } from './contexts/RoutinesContext'
 import { UserProvider } from './contexts/UserContext'
+import { PortalProvider } from 'react-native-portal'
 
 export default function App(): JSX.Element {
   const [areFontsLoaded] = useFonts(fonts)
@@ -17,16 +18,18 @@ export default function App(): JSX.Element {
 
   return (
     <ThemeProvider theme={lightTheme}>
-      <StatusBar style="dark" />
-      <CategoriesProvider>
-        <RoutinesProvider>
-          <AuthorsProvider>
-            <UserProvider>
-              <Routes />
-            </UserProvider>
-          </AuthorsProvider>
-        </RoutinesProvider>
-      </CategoriesProvider>
+      <PortalProvider>
+        <StatusBar style="dark" />
+        <CategoriesProvider>
+          <RoutinesProvider>
+            <AuthorsProvider>
+              <UserProvider>
+                <Routes />
+              </UserProvider>
+            </AuthorsProvider>
+          </RoutinesProvider>
+        </CategoriesProvider>
+      </PortalProvider>
     </ThemeProvider>
   )
 }

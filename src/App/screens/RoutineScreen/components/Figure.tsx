@@ -1,17 +1,18 @@
 import React from 'react'
-// import ImageModal from 'react-native-image-modal'
 import {
-  Dimensions,
   ImageURISource,
   View,
   Image,
-  Modal,
-  TouchableOpacity
+  TouchableOpacity,
+  Modal
 } from 'react-native'
-// import ImageViewer from 'react-native-image-zoom-viewer'
-import ImageZoom from 'react-native-image-pan-zoom'
-import { Caption, Subtitle2 } from '../../../shared/typography'
 import Icon from '../../../shared/Icon'
+import { BlackPortal } from 'react-native-portal'
+import styled from 'styled-components/native'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView'
+import { Caption, Subtitle2 } from '../../../shared/typography'
 
 export interface FigureProps {
   source: ImageURISource
@@ -22,11 +23,11 @@ export interface FigureProps {
 
 export default function Figure({
   source,
-  size,
+  size: [width, height],
   title,
   caption
 }: FigureProps): JSX.Element {
-  const [isModalOpen, setIsModalOpened] = React.useState(false)
+  const [isModalVisible, setIsModalVisible] = React.useState(false)
 
   return (
     <View style={{ marginTop: 8, marginBottom: 16 }}>
@@ -37,14 +38,14 @@ export default function Figure({
       )}
       <TouchableOpacity
         style={{ marginBottom: 8 }}
-        onPress={() => setIsModalOpened(!isModalOpen)}
+        onPress={() => setIsModalVisible(!isModalVisible)}
       >
         <Image
           source={source}
           style={{
             width: undefined,
             height: undefined,
-            aspectRatio: size[0] / size[1],
+            aspectRatio: width / height,
             borderRadius: 8
           }}
         />
@@ -65,40 +66,79 @@ export default function Figure({
       </TouchableOpacity>
       {caption && <Caption>{caption}</Caption>}
 
-      <Modal
-        transparent
-        animationType="slide"
-        visible={isModalOpen}
-        style={{ backgroundColor: '#000c' }}
-        onRequestClose={() => setIsModalOpened(false)}
-      >
-        <View style={{ backgroundColor: 'rgba(0, 0, 0, 0.85)' }}>
-          <TouchableOpacity
-            style={{ padding: 8, alignItems: 'flex-end' }}
-            onPress={() => setIsModalOpened(false)}
-          >
-            <Icon name="unzoom" size={24} color="white" />
-          </TouchableOpacity>
-          <ImageZoom
-            cropWidth={Dimensions.get('window').width}
-            cropHeight={Dimensions.get('window').height}
-            imageWidth={size[0]}
-            imageHeight={size[1]}
-            enableSwipeDown
-            onSwipeDown={() => setIsModalOpened(false)}
-          >
-            <Image
-              source={source}
-              style={{
-                width: undefined,
-                height: undefined,
-                aspectRatio: size[0] / size[1],
-                borderRadius: 8
-              }}
-            />
-          </ImageZoom>
-        </View>
-      </Modal>
+      <FigureModal
+        isVisible={isModalVisible}
+        onClose={() => setIsModalVisible(false)}
+        source={source}
+        size={[width, height]}
+      />
     </View>
+  )
+}
+
+const ClearButtonContainer = styled.TouchableOpacity`
+  position: absolute;
+  top: 16px;
+  right: 16px;
+`
+
+const Backdrop = styled.View`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  elevation: 5;
+
+  background-color: #000c;
+`
+
+const ImageContainer = styled.View`
+  flex: 1;
+`
+interface FigureModalProps {
+  size: [number, number]
+  onClose: () => void
+  source: ImageURISource
+  isVisible: boolean
+}
+
+function FigureModal({
+  source,
+  size: [width, heigth],
+  isVisible,
+  onClose
+}: FigureModalProps): JSX.Element {
+  return (
+    <>
+      {isVisible && (
+        <BlackPortal name="figureModal">
+          <Backdrop>
+            <ImageContainer>
+              <ReactNativeZoomableView
+                bindToBorders={true}
+                initialZoom={1}
+                minZoom={0.1}
+                movementSensibility={1}
+                zoomStep={0.3}
+                maxZoom={2}
+              >
+                <Image
+                  source={source}
+                  style={{
+                    width: undefined,
+                    height: undefined,
+                    aspectRatio: width / heigth
+                  }}
+                />
+              </ReactNativeZoomableView>
+            </ImageContainer>
+            <ClearButtonContainer onPress={onClose}>
+              <Icon name="clear" size={48} color={'#fff'} />
+            </ClearButtonContainer>
+          </Backdrop>
+        </BlackPortal>
+      )}
+    </>
   )
 }
