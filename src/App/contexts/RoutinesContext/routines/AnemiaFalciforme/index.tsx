@@ -25,7 +25,7 @@ export default function AnemiaFalciforme(): JSX.Element {
       authors={['dania', 'fabricio']}
       tags={['doença', 'hemulítica']}
     >
-      <Section title="Introdução">
+      {/* <Section title="Introdução">
         <P>
           As hemoglobinopatias têm cerca de 4% de prevalência na população
           brasileira, sendo a AF a doença hereditária mais frequente no país.
@@ -159,7 +159,7 @@ export default function AnemiaFalciforme(): JSX.Element {
             ]
           ]}
         />
-      </Section>
+      </Section> */}
       <Section title="Hemograma">
         <P>
           Anemia normocítica e normocrômica, com reticulocitose (entre 5-20%) e
@@ -564,7 +564,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           </LItem>
         </List>
       </Section>
-      <Section title="Referências">
+      {/* <Section title="Referências">
         <Reference
           idx={1}
           body="Ministério da Saúde, Doença Falciforme. 1ª ed. Brasília, 2014."
@@ -589,7 +589,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           idx={6}
           body="Protocolos de Tratamento em Hematologia e Hemoterapia, HemoRio. Secretaria Estadual de Saúde Governo do Estado do Rio de Janeiro. 2. ed. 2014."
         />
-      </Section>
+      </Section> */}
     </Routine>
   )
 }

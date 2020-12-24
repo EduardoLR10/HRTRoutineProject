@@ -16,6 +16,13 @@ import ConvulsaoFebril from './ConvulsaoFebril'
 import Coqueluche from './Coqueluche'
 import CriseHipoxia from './CriseHipoxia'
 import Crupe from './Crupe'
+import DerramesPleurais from './DerramesPleurais'
+import DiarreiasAgudas from './DiarreisAgudas'
+import DiarreiaInfecciosa from './DiarreiaInfecciosa'
+import DisturbioMetabolico from './DisturbioMetabolico'
+import DisturbiosAcidoBase from './DisturbiosAcidoBase'
+import DisturbiosEletroliticos from './DisturbiosEletroliticos'
+import DoencaDeKawasaki from './DoencaDeKawasaki'
 
 export default [
   new Routine(TestRoutine()),
@@ -34,5 +41,12 @@ export default [
   new Routine(ConvulsaoFebril()),
   new Routine(Coqueluche()),
   new Routine(CriseHipoxia()),
-  new Routine(Crupe())
+  new Routine(Crupe()),
+  new Routine(DerramesPleurais()),
+  new Routine(DiarreiasAgudas()),
+  new Routine(DiarreiaInfecciosa()),
+  new Routine(DisturbioMetabolico()),
+  new Routine(DisturbiosAcidoBase()),
+  new Routine(DisturbiosEletroliticos()),
+  new Routine(DoencaDeKawasaki())
 ]
