@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react'
 import Routine from '../../../models/Routine'
+import categories from '../CategoriesContext/categories'
 import RoutinesContext from '../RoutinesContext'
 import * as userService from './userService'
 
@@ -38,7 +39,10 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
 
   const [favoriteRoutines, setFavoriteRoutines] = React.useState<string[]>([])
   React.useEffect(() => {
-    userService.getFavoritesRoutines().then(setFavoriteRoutines)
+    userService
+      .getFavoritesRoutines()
+      .then(favs => favs.filter(fav => !!routines[fav])) // Check if routine still exists
+      .then(setFavoriteRoutines)
   }, [])
 
   function isFavoriteRoutine(routine: Routine) {
@@ -55,7 +59,10 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
 
   const [lastSeenRoutines, setLastSeenRoutines] = React.useState<string[]>([])
   React.useEffect(() => {
-    userService.getLastSeenRoutines().then(setLastSeenRoutines)
+    userService
+      .getLastSeenRoutines()
+      .then(favs => favs.filter(fav => !!routines[fav])) // Check if routine still exists
+      .then(setLastSeenRoutines)
   }, [])
   const lastSeenCategories = Object.keys(
     lastSeenRoutines.reduce((categoriesMap, routine) => {

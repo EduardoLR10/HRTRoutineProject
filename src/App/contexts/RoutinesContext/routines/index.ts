@@ -1,4 +1,5 @@
-import Routine from '../../../../models/Routine'
+import { contentToRoutine } from '../../../../models/Routine'
+
 import TestRoutine from './_TestRoutine'
 import SindromeNefrotica from './SindromeNefrotica'
 import Adenomegalias from './Adenomegalias'
@@ -25,28 +26,28 @@ import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 import DoencaDeKawasaki from './DoencaDeKawasaki'
 
 export default [
-  new Routine(TestRoutine()),
-  new Routine(SindromeNefrotica()),
-  new Routine(Adenomegalias()),
-  new Routine(Afogamento()),
-  new Routine(AlergiaAProteinaDoLeiteDeVaca()),
-  new Routine(AlimentacaoNos2PrimeirosAnosDeVida()),
-  new Routine(AnemiaFalciforme()),
-  new Routine(AnemiaFerropriva()),
-  new Routine(ArtriteAbordagemInicial()),
-  new Routine(ArtriteSeptica()),
-  new Routine(ArtritesReativas()),
-  new Routine(Cefaleias()),
-  new Routine(ConstipacaoIntestinal()),
-  new Routine(ConvulsaoFebril()),
-  new Routine(Coqueluche()),
-  new Routine(CriseHipoxia()),
-  new Routine(Crupe()),
-  new Routine(DerramesPleurais()),
-  new Routine(DiarreiasAgudas()),
-  new Routine(DiarreiaInfecciosa()),
-  new Routine(DisturbioMetabolico()),
-  new Routine(DisturbiosAcidoBase()),
-  new Routine(DisturbiosEletroliticos()),
-  new Routine(DoencaDeKawasaki())
-]
+  TestRoutine,
+  SindromeNefrotica,
+  Adenomegalias,
+  Afogamento,
+  AlergiaAProteinaDoLeiteDeVaca,
+  AlimentacaoNos2PrimeirosAnosDeVida,
+  AnemiaFalciforme,
+  AnemiaFerropriva,
+  ArtriteAbordagemInicial,
+  ArtriteSeptica,
+  ArtritesReativas,
+  Cefaleias,
+  ConstipacaoIntestinal,
+  ConvulsaoFebril,
+  Coqueluche,
+  CriseHipoxia,
+  Crupe,
+  DerramesPleurais,
+  DiarreiasAgudas,
+  DiarreiaInfecciosa,
+  DisturbioMetabolico,
+  DisturbiosAcidoBase,
+  DisturbiosEletroliticos,
+  DoencaDeKawasaki
+].map(contentToRoutine)
