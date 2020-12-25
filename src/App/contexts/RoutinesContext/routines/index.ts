@@ -24,6 +24,15 @@ import DisturbioMetabolico from './DisturbioMetabolico'
 import DisturbiosAcidoBase from './DisturbiosAcidoBase'
 import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 import DoencaDeKawasaki from './DoencaDeKawasaki'
+import DoencasExantematicasAgudas from './DoencasExantematicasAgudas'
+import DorAbdominalAguda from './DorAbdominalAguda'
+import DorDeCrescimento from './DorDeCrescimento'
+import EmergenciaDoChoque from './EmergenciaDoChoque'
+import EmergenciaRespiratoria from './EmergenciaRespiratoria'
+import EndocarditeInfecciosa from './EndocarditeInfecciosa'
+import Epilepsia from './Epilepsia'
+import FebreReumatica from './FebreReumatica'
+import GlomerulonefriteDifusaAguda from './GlomerulonefriteDifusaAguda'
 
 export default [
   TestRoutine,
@@ -49,5 +58,14 @@ export default [
   DisturbioMetabolico,
   DisturbiosAcidoBase,
   DisturbiosEletroliticos,
-  DoencaDeKawasaki
+  DoencaDeKawasaki,
+  DoencasExantematicasAgudas,
+  DorAbdominalAguda,
+  DorDeCrescimento,
+  EmergenciaDoChoque,
+  EmergenciaRespiratoria,
+  EndocarditeInfecciosa,
+  Epilepsia,
+  FebreReumatica,
+  GlomerulonefriteDifusaAguda
 ].map(contentToRoutine)
