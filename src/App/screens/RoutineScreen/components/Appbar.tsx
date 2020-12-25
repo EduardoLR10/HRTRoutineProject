@@ -20,8 +20,12 @@ const ActionsContainer = styled.View`
 
 export interface AppbarProps {
   routine: Routine
+  onOpenMenu: () => void
 }
-export default function Appbar({ routine }: AppbarProps): JSX.Element {
+export default function Appbar({
+  routine,
+  onOpenMenu
+}: AppbarProps): JSX.Element {
   const theme = useTheme()
   const navigation = useNavigation()
   const { toggleFavoriteRoutine, isFavoriteRoutine } = React.useContext(
@@ -51,7 +55,7 @@ export default function Appbar({ routine }: AppbarProps): JSX.Element {
             style={{ marginRight: 24 }}
           />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={onOpenMenu}>
           <Icon name="summary" size={24} color={theme.color.onPrimary} />
         </TouchableOpacity>
       </ActionsContainer>
