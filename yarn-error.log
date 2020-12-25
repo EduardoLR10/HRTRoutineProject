@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/local/bin/yarn add @types/dudigital__react-native-zoomable-view -D
+  /usr/bin/node /usr/local/bin/yarn add @react-navigation/drawe
 
 PATH: 
   /home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.opam/default/bin:/home/luigiminardim/bin:/home/luigiminardim/.local/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.cabal/bin:/home/luigiminardim/.ghcup/bin:/home/luigiminardim/.opam/default/bin:/home/luigiminardim/bin:/home/luigiminardim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/luigiminardim/go/bin:/usr/local/go/bin:/home/luigiminardim/go/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2fdudigital__react-native-zoomable-view: Not found
+  Error: https://registry.yarnpkg.com/@react-navigation%2fdrawe: Not found
       at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66987:18)
       at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140748:22)
       at Request.emit (events.js:198:13)
@@ -45,6 +45,7 @@ npm manifest:
       "@react-navigation/stack": "^5.12.8",
       "expo": "~39.0.2",
       "expo-cli": "^4.0.8",
+      "expo-file-system": "~9.2.0",
       "expo-font": "^8.3.0",
       "expo-linking": "^1.0.5",
       "expo-status-bar": "~1.0.2",
@@ -53,6 +54,7 @@ npm manifest:
       "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
       "react-native-gesture-handler": "~1.7.0",
       "react-native-paper": "^4.4.1",
+      "react-native-portal": "^1.3.0",
       "react-native-reanimated": "~1.13.0",
       "react-native-safe-area-context": "3.1.4",
       "react-native-screens": "~2.10.1",
@@ -62,7 +64,7 @@ npm manifest:
     },
     "devDependencies": {
       "@babel/core": "~7.9.0",
-      "@types/react": "~16.9.35",
+      "@types/react": "^16.9.56",
       "@types/react-native": "~0.63.2",
       "@types/styled-components": "^5.1.4",
       "@typescript-eslint/eslint-plugin": "^4.9.0",
@@ -2543,10 +2545,10 @@ Lockfile:
       "@types/prop-types" "*"
       csstype "^3.0.2"
   
-  "@types/react@~16.9.35":
-    version "16.9.56"
-    resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.56.tgz#ea25847b53c5bec064933095fc366b1462e2adf0"
-    integrity sha512-gIkl4J44G/qxbuC6r2Xh+D3CGZpJ+NdWTItAPmZbR5mUS+JQ8Zvzpl0ea5qT/ZT3ZNTUcDKUVqV3xBE8wv/DyQ==
+  "@types/react@^16.9.56":
+    version "16.14.2"
+    resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.2.tgz#85dcc0947d0645349923c04ccef6018a1ab7538c"
+    integrity sha512-BzzcAlyDxXl2nANlabtT4thtvbbnhee8hMmH/CcJrISDBVcJS1iOsP1f0OAgSdGE0MsY9tqcrb9YoZcOFv9dbQ==
     dependencies:
       "@types/prop-types" "*"
       csstype "^3.0.2"
@@ -9618,6 +9620,11 @@ Lockfile:
       stream-each "^1.1.0"
       through2 "^2.0.0"
   
+  mitt@*:
+    version "2.1.0"
+    resolved "https://registry.yarnpkg.com/mitt/-/mitt-2.1.0.tgz#f740577c23176c6205b121b2973514eade1b2230"
+    integrity sha512-ILj2TpLiysu2wkBbWjAmww7TkZb65aiQO+DkVdUTBpBXq+MHYiETENkKFMtsJZX1Lf4pe4QOrTSjIfUwN5lRdg==
+  
   mixin-deep@^1.2.0:
     version "1.3.2"
     resolved "https://registry.yarnpkg.com/mixin-deep/-/mixin-deep-1.3.2.tgz#1120b43dc359a785dce65b55b82e257ccf479566"
@@ -11328,7 +11335,7 @@ Lockfile:
       kleur "^3.0.3"
       sisteransi "^1.0.5"
   
-  prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+  prop-types@*, prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
     version "15.7.2"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
     integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -11613,6 +11620,15 @@ Lockfile:
       color "^3.1.2"
       react-native-safe-area-view "^0.14.9"
   
+  react-native-portal@^1.3.0:
+    version "1.3.0"
+    resolved "https://registry.yarnpkg.com/react-native-portal/-/react-native-portal-1.3.0.tgz#ab4de75b3c82f133e776e793683c0e675104100c"
+    integrity sha512-Fvv4pc/lpddmYrpwgILrdWbnZLORdCnacpJbmeOqGon6ZNyK/YOKQ1GaSCBGmqM5uGtMt8WUlgvBedVr23ItLw==
+    dependencies:
+      mitt "*"
+      prop-types "*"
+      react "*"
+  
   react-native-reanimated@~1.13.0:
     version "1.13.2"
     resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-1.13.2.tgz#1ae5457b24b4913d173a5a064bb28eae7783d293"
@@ -11712,6 +11728,14 @@ Lockfile:
     version "0.13.4"
     resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz#75a00c3c94c13abe29b43d63b4c65a88fc8264d3"
     integrity sha512-4+ow23tp/Tv7hBM5Az5/Be/eKKF7DIvJ09voz5LyHGQaqqz9WV8YMs31eFvcYQs7d451LSg7kDJV70XYN/Ug/Q==
+  
+  react@*:
+    version "17.0.1"
+    resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
+    integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
+    dependencies:
+      loose-envify "^1.1.0"
+      object-assign "^4.1.1"
   
   react@16.13.1:
     version "16.13.1"
