@@ -1,15 +1,16 @@
 import React from 'react'
+import { useTheme } from 'styled-components'
 import { Animated } from 'react-native'
 import { useRoute } from '@react-navigation/native'
+import { TouchableRipple } from 'react-native-paper'
 import Screen, { Main } from '../../shared/Screen'
-import Appbar from './components/Appbar'
-import RoutineHeader from './components/RoutineHeader'
 import RoutinesContext from '../../contexts/RoutinesContext'
 import UserContext from '../../contexts/UserContext'
 import { WhitePortal } from 'react-native-portal'
 import SideMenu from 'react-native-side-menu'
-
-import { Paragraph } from '../../shared/typography'
+import ListItem from '../../shared/ListItem'
+import Appbar from './components/Appbar'
+import RoutineHeader from './components/RoutineHeader'
 
 export interface RoutineScreenParams {
   routineId: string
@@ -26,10 +27,21 @@ export default function RoutineScreen(): JSX.Element {
   const [isMenuOpened, setIsMenuOpened] = React.useState(false)
 
   function Menu() {
+    const theme = useTheme()
+
     return (
       <Screen>
-        <Main>
-          <Paragraph>Olá</Paragraph>
+        <Main
+          style={{
+            backgroundColor: theme.color.surface,
+            marginLeft: 4
+          }}
+        >
+          {routine.sections.map((section, idx) => (
+            <TouchableRipple key={section} onPress={() => console.log(idx)}>
+              <ListItem color={theme.color.onSurface}>{section}</ListItem>
+            </TouchableRipple>
+          ))}
         </Main>
       </Screen>
     )
@@ -38,6 +50,7 @@ export default function RoutineScreen(): JSX.Element {
   return (
     <SideMenu
       menu={<Menu />}
+      menuPosition="right"
       isOpen={isMenuOpened}
       onChange={setIsMenuOpened}
       animationFunction={(prop, value) =>
