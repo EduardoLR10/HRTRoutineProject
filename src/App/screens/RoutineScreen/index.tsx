@@ -11,6 +11,7 @@ import SideMenu from 'react-native-side-menu'
 import ListItem from '../../shared/ListItem'
 import Appbar from './components/Appbar'
 import RoutineHeader from './components/RoutineHeader'
+import { SectionProvider } from './contexts/SectionContext'
 
 export interface RoutineScreenParams {
   routineId: string
@@ -25,6 +26,7 @@ export default function RoutineScreen(): JSX.Element {
   React.useEffect(() => pushRoutineHistory(routine), [])
 
   const [isMenuOpened, setIsMenuOpened] = React.useState(false)
+  const [sectionIdx, setSectionIdx] = React.useState(0)
 
   function Menu() {
     const theme = useTheme()
@@ -38,7 +40,7 @@ export default function RoutineScreen(): JSX.Element {
           }}
         >
           {routine.sections.map((section, idx) => (
-            <TouchableRipple key={section} onPress={() => console.log(idx)}>
+            <TouchableRipple key={section} onPress={() => setSectionIdx(idx)}>
               <ListItem color={theme.color.onSurface}>{section}</ListItem>
             </TouchableRipple>
           ))}
@@ -48,27 +50,29 @@ export default function RoutineScreen(): JSX.Element {
   }
 
   return (
-    <SideMenu
-      menu={<Menu />}
-      menuPosition="right"
-      isOpen={isMenuOpened}
-      onChange={setIsMenuOpened}
-      animationFunction={(prop, value) =>
-        Animated.spring(prop, {
-          toValue: value,
-          friction: 8,
-          useNativeDriver: true
-        })
-      }
-    >
-      <Screen>
-        <Appbar routine={routine} onOpenMenu={() => setIsMenuOpened(true)} />
-        <Main>
-          <RoutineHeader routine={routine} style={{ marginBottom: 32 }} />
-          <routine.Content />
-        </Main>
-        <WhitePortal name="figureModal" />
-      </Screen>
-    </SideMenu>
+    <SectionProvider sectionIdx={sectionIdx} setSectionIdx={setSectionIdx}>
+      <SideMenu
+        menu={<Menu />}
+        menuPosition="right"
+        isOpen={isMenuOpened}
+        onChange={setIsMenuOpened}
+        animationFunction={(prop, value) =>
+          Animated.spring(prop, {
+            toValue: value,
+            friction: 8,
+            useNativeDriver: true
+          })
+        }
+      >
+        <Screen>
+          <Appbar routine={routine} onOpenMenu={() => setIsMenuOpened(true)} />
+          <Main>
+            <RoutineHeader routine={routine} style={{ marginBottom: 32 }} />
+            <routine.Content />
+          </Main>
+          <WhitePortal name="figureModal" />
+        </Screen>
+      </SideMenu>
+    </SectionProvider>
   )
 }

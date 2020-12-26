@@ -1,4 +1,9 @@
-import styled from 'styled-components/native'
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
+
+import React from 'react'
+import { View } from 'react-native'
+import SectionContext from '../App/screens/RoutineScreen/contexts/SectionContext'
 
 export type Routine = {
   id: string
@@ -17,10 +22,16 @@ export interface RoutineContentProps {
   category: string
   authors: string[]
   tags: string[]
+  children?: JSX.Element | JSX.Element[]
 }
-export const RoutineContent = styled.View<RoutineContentProps>`
-  padding: 0px 4px;
-`
+export function RoutineContent({ children }: RoutineContentProps): JSX.Element {
+  const { sectionIdx } = React.useContext(SectionContext)
+  const section = children.filter
+    ? children.filter((_, idx) => sectionIdx === idx)
+    : children
+
+  return <View style={{ paddingHorizontal: 4 }}>{section}</View>
+}
 export function contentToRoutine(Content: () => JSX.Element): Routine {
   const elementContent = Content()
   const { id, name, category, authors, tags } = elementContent.props
