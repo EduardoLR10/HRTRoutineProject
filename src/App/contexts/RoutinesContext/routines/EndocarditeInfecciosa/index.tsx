@@ -34,12 +34,12 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         </P>
         <P>Acomete todas as faixas etárias sem distinção de sexo.</P>
         <P>
-          Menos frequente em crianças que em adultos, porém incidência vem
-          aumentando devido avanço no tratamento das cardiopatias congênitas e
-          desenvolvimento de técnicas invasivas na terapêutica intensiva
-          neonatal e pediátrica.
+          Menos frequente em crianças que em adultos, porém a incidência vem
+          aumentando devido aos avanços no tratamento das cardiopatias
+          congênitas e ao desenvolvimento de técnicas invasivas na terapêutica
+          intensiva neonatal e pediátrica.
         </P>
-        <P>Condições predisponentes na população pediátrica:</P>
+        <Bold>Condições predisponentes na população pediátrica:</Bold>
         <List>
           <LItem>Doença reumática com acometimento cardíaco;</LItem>
           <LItem>
@@ -58,7 +58,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         <P>
           Cerca de 8 a 10% casos ocorrem em pacientes sem cardiopatia
           estrutural, sendo nestes casos, mais frequente o acometimento de
-          valvas aórtica e mitral secundário a{' '}
+          valvas aórtica e mitral secundário à infecção pelo{' '}
           <Italic>Staphylococcus aureus</Italic>.
         </P>
       </Section>
@@ -67,29 +67,29 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           Inicialmente, tem-se a formação de trombo asséptico com aderência de
           plaquetas e fibrina originando uma vegetação fibrinóide. O
           desenvolvimento de endocardite dependerá da inoculação suficiente de
-          bactérias permitindo a contaminação deste trombo preexistente e
+          bactérias, permitindo a contaminação deste trombo preexistente e
           consequente aglutinação de anticorpos.
         </P>
         <P>
           O endocárdio é pobre estimulador de coagulação, porém quando sofre
-          dano, torna-se potencial indutor de trombogênese, predispondo a
+          dano, torna-se potencial indutor de trombogênese, predispondo à
           aderência bacteriana. Tal fato ocorre, por exemplo, na presença de
           cateteres venosos profundos posicionados do lado direito do coração.
           Uma vez que o agente etiológico se adapte à superfície da vegetação,
-          acelera a mecanismo de agregação plaquetária e deposição de fibrina
+          acelera a mecanismo de agregação plaquetária e deposição de fibrina,
           dificultando ação de neutrófilos e outros agentes. Quanto mais
-          internos os microrganismos estiverem na vegetação, mais difícil é ação
-          bactericida dos antimicrobianos.
+          internos os microrganismos estiverem na vegetação, mais difícil é a
+          ação bactericida dos antimicrobianos.
         </P>
         <P>
           Outro fator que favorece o desenvolvimento inicial do trombo é
           observado em cardiopatias congênitas onde há lesão associada a
-          turbilhonamento de fluxo, com ou sem desvio. Nestes casos a lesão irá
+          turbilhonamento de fluxo, com ou sem desvio. Nestes casos, a lesão irá
           se desenvolver no território de menor pressão (local que recebe o jato
           acelerado).
         </P>
         <P>
-          Com o progredir do processo as áreas de cicatrização podem levar a
+          Com o progredir do processo, as áreas de cicatrização podem levar a
           lesões cardíacas (especialmente no aparelho valvar). Ocorrem ainda
           reações imunitárias (formação de aglutininas e anticorpos
           bactericidas) e liberação de êmbolos infectados, ambos responsáveis
@@ -97,18 +97,19 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         </P>
         <P>
           A bacteremia poderá ocorrer de forma espontânea ou durante
-          procedimentos invasivos. Alguns focos extracardíacas como pneumonias e
-          pielonefrites são causas de invasão bacteriana. Cerca de 10% dos casos
-          são decorrentes de fonte gengival, podendo muitos casos estarem
-          associados a escovação diária. Entre os procedimentos invasivos o mais
-          frequentemente associado é a extração dentária (variando de 40 a 100%
-          dos casos em alguns relatos) sendo principal agente o{' '}
+          procedimentos invasivos. Alguns focos extracardíacos como pneumonias e
+          pielonefrites, são causas de invasão bacteriana. Cerca de 10% dos
+          casos são decorrentes de fonte gengival, podendo muitos casos estarem
+          associados à escovação diária. Entre os procedimentos invasivos, o
+          mais frequentemente associado é a extração dentária (variando de 40 a
+          100% dos casos em alguns relatos), sendo o principal agente o{' '}
           <Italic>Streptococcus viridans</Italic>.
         </P>
       </Section>
       <Section title="Manifestações Clínicas">
         <P>
-          Apresentação amplamente variável por se tratar de afecção sistêmica.
+          Possui apresentação amplamente clínica variável por se tratar de
+          afecção sistêmica.
         </P>
         <P>Dividida em cursos agudos e subagudo:</P>
         <List>
@@ -117,40 +118,41 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             anteriormente sadias.
           </LItem>
           <LItem>
-            Forma subaguda: afeta valvas já antes comprometidas, podendo cursar
-            por meses até definição diagnóstica.
+            Forma subaguda: afeta valvas já anteriormente comprometidas, podendo
+            cursar por meses até a definição diagnóstica.
           </LItem>
         </List>
         <P>
-          Inicialmente, manifestações inespecíficas como febre, sudorese, perda
-          de peso, fadiga, vômitos. A febre está presente em 90% dos casos
-          podendo variar em intensidade. Esplenomegalia está presente em 30 a
-          50% dos casos. Cerca de 35% dos pacientes apresentam petéquias
+          Inicialmente, as manifestações são inespecíficas como febre, sudorese,
+          perda de peso, fadiga, vômitos. A febre está presente em 90% dos
+          casos, podendo variar em intensidade. Esplenomegalia está presente em
+          30 a 50% dos casos. Cerca de 35% dos pacientes apresentam petéquias
           especialmente em membros (superfície flexora), região palmar, mucosa
           oral e conjuntivas.
         </P>
       </Section>
       <Section title="Manifestações Cardíacas">
         <P>
-          Sopro cardíaco: 80% casos, podendo ser achado novo ou ser observada
-          mudança na ausculta preexistente.
+          Sopro cardíaco: ocorre em 80% casos, podendo ser achado novo ou ser
+          observada uma mudança na ausculta preexistente.
         </P>
         <P>
-          Insuficiência cardíaca: frequente, caráter progressivo e associado ao
-          grau de lesão das estruturas cardíacas acometidas.
+          Insuficiência cardíaca: é frequente, de caráter progressivo e
+          associado ao grau de lesão das estruturas cardíacas acometidas.
         </P>
         <P>
-          Abscessos: pode atingir miocárdio, mais associado à infecções por
-          estafilococos. Quadro de toxemia e comprometimento hemodinâmico.
+          Abscessos: pode ocorrer no atingir miocárdio, é mais associado à
+          infecções por estafilococos. Há quadro de toxemia e comprometimento
+          hemodinâmico.
         </P>
-        <P>Arritmias;</P>
-        <P>Pericardiopatia;</P>
+        <P>Arritmias.</P>
+        <P>Pericardiopatia.</P>
         <P>
           Embolizações podem ocorrer levando a pequenos infartos em diferentes
-          locais (pulmões, rins, coração, cérebro, baço);
+          locais (pulmões, rins, coração, cérebro, baço).
         </P>
         <P>
-          Manifestações neurológicas estão presentes em cerca de 20% dos casos
+          Manifestações neurológicas estão presentes em cerca de 20% dos casos,
           sendo a artéria cerebral média a mais acometida. Sintomas secundários:
           cefaleia, turvação visual, parestesia, distúrbios motores e da fala,
           convulsões. Representam um pior prognóstico.
@@ -158,17 +160,18 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         <Subsection title="Comprometimento Periférico">
           <List>
             <LItem>
-              Nódulos de Osler: áreas de hiperemia dolorosas nas polpas dos
-              dedos em região palma e/ou plantar. Secundários à reação
+              Nódulos de Osler: são áreas de hiperemia dolorosas nas polpas dos
+              dedos em regiões de palma e/ou plantar. Secundários à reação
               imunológica e embolia séptica.
             </LItem>
             <LItem>
-              Manchas de Janeway: placas eritematosas, indolores e região palmar
-              e plantar. Comum na etiologia por estafilococos.
+              Manchas de Janeway: são placas eritematosas, indolores e região
+              palmar e plantar. Surgem comumente na EI causada por
+              estafilococos.
             </LItem>
             <LItem>
-              Manchas de Roth: lesões retinianas pálidas circundadas por áreas
-              de hemorragia.
+              Manchas de Roth: são lesões retinianas pálidas circundadas por
+              áreas de hemorragia.
             </LItem>
           </List>
         </Subsection>
@@ -176,10 +179,10 @@ export default function EndocarditeInfecciosa(): JSX.Element {
       <Section title="Exames Complementares">
         <Subsection title="Exames Laboratoriais">
           <P>
-            Hemograma: anemia é comum sendo secundária a doença crônica ou por
-            hemólise; leucocitose observada em geral nos casos agudos podendo
-            não ser observada nos casos subagudos; trombocitopenia pode ocorrer
-            sendo mais comum em neonatos. Elevação de VHS e PCR. Análise da
+            Hemograma: anemia é comum, sendo secundária a doença crônica ou por
+            hemólise; leucocitose é observada em geral nos casos agudos, podendo
+            não ser observada nos casos subagudos; trombocitopenia pode ocorrer,
+            sendo mais comum em neonatos. Há elevação de VHS e PCR. A análise da
             urina pode demonstrar hematúria macro ou microscópica, cilindrúria e
             proteinúria. Fator reumatóide pode estar presente nos casos com
             duração superior a 6 semanas.
@@ -187,26 +190,27 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           <P>
             Hemoculturas: devem ser coletadas 3 amostras de 1-3 ml para
             lactentes e crianças menores e 5-7 ml de sangue para crianças
-            maiores, em momentos diferentes, portanto, em punções venosas
-            separadas, quando da suspeita clínica (febre de origem
-            indeterminada, aparecimento de novo sopro cardíaco, portador de
-            cardiopatia congênita e EI prévia). Se não houver crescimento no 2º
-            dia de inoculação, deverão ser coletadas mais duas ou três amostras.
-            Principais agentes etiológicos:
+            maiores, em momentos diferentes, portanto, em{' '}
+            <Bold>punções venosas separadas</Bold>, quando da suspeita clínica
+            (febre de origem indeterminada, aparecimento de novo sopro cardíaco,
+            portador de cardiopatia congênita e EI prévia). Se não houver
+            crescimento no 2º dia de inoculação, deverão ser coletadas mais duas
+            ou três amostras.
           </P>
+          <Bold>Principais agentes etiológicos:</Bold>
           <List>
             <LItem>
-              <Italic>Steptococcus viridans</Italic>: principal agente após o
+              <Italic>Streptococcus viridans</Italic>: principal agente após o
               primeiro ano de vida, especialmente em pacientes com cardiopatias
               congênitas.
             </LItem>
             <LItem>
               <Italic>Staphylcoccus aureus</Italic> e{' '}
               <Italic>Staphylococcus</Italic> coagulase-negativo: comuns nos
-              casos de EI associadas a cateteres vasculares e próteses.
-              Manifestação clínica pode ocorrer após 60 dias do procedimento
-              cirúrgico sendo que nas infecções por S coagulase negativo pode
-              ocorrer até um ano após a intervenção.
+              casos de EI associadas a catéteres vasculares e próteses. As
+              manifestações clínicas podem surgir 60 dias após o procedimento
+              cirúrgico sendo que nas infecções por S. coagulase negativo podem
+              ocorrer até um ano depois da intervenção.
             </LItem>
             <LItem>
               <Italic>Enterococcus</Italic> sp: menos comum em crianças que em
@@ -221,8 +225,8 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             </LItem>
             <LItem>
               Fungos: <Italic>Candida</Italic> sp (mais comum{' '}
-              <Italic>C albicans</Italic>) e <Italic>Aspergillus</Italic>. Mais
-              frequentemente associadas ao uso cateteres venosos e infusão de
+              <Italic>C. albicans</Italic>) e <Italic>Aspergillus</Italic>. Mais
+              frequentemente associadas ao uso catéteres venosos e infusão de
               concentrações altas de glicose (como na nutrição parenteral).
               Acomete especialmente neonatos.
             </LItem>
@@ -235,8 +239,8 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         </Subsection>
         <Subsection title="Ecocardiograma">
           <P>
-            Determina local da infecção, grau de comprometimento valvar e avalia
-            função cardíaca. Ecocardiograma transtorácico (ETT) tem alta
+            Determina o local da infecção, grau de comprometimento valvar e
+            avalia função cardíaca. Ecocardiograma transtorácico (ETT) tem alta
             especificidade (98%) e sensibilidade (em torno 81%) na população
             pediátrica. Entretanto, a ausência de vegetações ao ecocardiograma
             não exclui diagnóstico de endocardite. Deve ser indicado o
@@ -257,10 +261,10 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             <List>
               <LItem>
                 <Italic>Streptococcus viridans</Italic>,{' '}
-                <Italic>Streptococcus bovis</Italic> ou grupo HACEK.
+                <Italic>Streptococcus bovis</Italic> ou grupo HACEK;
               </LItem>
               <LItem>
-                <Italic>Staphylococus aureus</Italic> ou enterecocos na ausência
+                <Italic>Staphylococus aureus</Italic> e enterecocos na ausência
                 de foco primário.
               </LItem>
             </List>
@@ -287,8 +291,8 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           <List>
             <LItem>
               Massa intracardíaca móvel valvar ou subvalvar próxima a jato de
-              regurgitação ou em material implantando, na ausência de
-              diagnóstico anatômico.
+              regurgitação ou em material implantado, na ausência de diagnóstico
+              anatômico;
             </LItem>
             <LItem>Abscesso;</LItem>
             <LItem>Nova deiscência parcial de prótese valvar;</LItem>
@@ -376,19 +380,19 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           de coagulação; das alterações hidroeletrolíticas e metabólicas,
           suporte nutricional devido quadro de catabolismo; suporte neurológico
           como tratamento de convulsões e alterações associadas. Em casos graves
-          de manifestação aguda pode ser necessário maior suporte hemodinâmico
+          de manifestação aguda pode ser necessário maior suporte hemodinâmico,
           com aminas vasoativas bem como suporte ventilatório para estabilização
           inicial.
         </P>
         <P>
-          Terapia antimicrobiana bactericida deve ser iniciada após coleta de
+          A terapia antimicrobiana bactericida deve ser iniciada após coleta de
           hemoculturas. Terapia empírica pode ser iniciada de acordo com
           suspeição clínica e dados da história clínica e localização da
-          vegetação. A via de administração preconizada é venosa. Tempo de
-          tratamento é prolongado com mínimo de 4 semanas e prolongado para 6
-          semanas nos casos com acometimento de próteses valvares,{' '}
-          <Italic>S aureus</Italic> resistentes a oxacilina e germes gram
-          negativos.
+          vegetação. A via de administração preconizada é{' '}
+          <Bold>intravenosa</Bold>. Tempo de tratamento é prolongado com mínimo
+          de 4 semanas e prolongado, para 6 semanas nos casos de: acometimento
+          de próteses valvares, causados por <Italic>S aureus</Italic>{' '}
+          resistentes à oxacilina e aqueles causados por germes gram negativos.
         </P>
         <P>
           Quando a EI for causada por S aureus e associada à presença de cateter
@@ -406,10 +410,10 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           data={[
             [
               'Agente desconhecido:\n- Valva nativa (adquirida comunidade) ou infecação tardia de prótese (> 1 ano)\n- EI nosocomial associada a CVC ou "precoce" (< 1 ano de cirurgia) em prótese valvar',
-              'Ampicilina/sulbactam + gentamicina\nVancomicina + gentamicina (considerar rifampicina se prótese)'
+              'Ampicilina/sulbactam + gentamicina\nVancomicina + gentamicina (considerar rifampicina, se prótese)'
             ],
             [
-              'Estreptococo:\n- Sensibilidade e penicilina\n- Resistência relativa à Penicilina',
+              'Estreptococo:\n- Sensibilidade à penicilina\n- Resistência relativa à penicilina',
               'Penicilina G ou ceftriaxona\nPenicilina G + gentamicina (primeiras 2 semanas)'
             ],
             [
@@ -422,7 +426,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             ],
             [
               'Grupo HACEK',
-              'Ceftriaxona ou cefotaxima\nOu ampicilina/sulbactam'
+              'Ceftriaxona ou cefotaxima\nou ampicilina/sulbactam'
             ],
             [
               'Fungos Candida spp, Aspergilus app',
@@ -431,7 +435,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           ]}
         />
       </Section>
-      <Section title="Profilaxia">
+      <Section title="Profilaxia (Indicações)">
         <P>
           Condições cardíacas associadas à necessidade de terapia antibiótica
           profilática quando houver procedimentos dentários (procedimentos que
@@ -442,7 +446,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           <LItem>EI prévia;</LItem>
           <LItem>Presença de valvas artificiais;</LItem>
           <LItem>
-            Cardiopatias congênitas cianóticas não corrigidas ou submetidas
+            Cardiopatias congênitas cianóticas não corrigidas ou submetidas à
             apenas a intervenção paliativa;
           </LItem>
           <LItem>
@@ -456,16 +460,16 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           <LItem>Transplante cardíaco;</LItem>
         </List>
         <P>
-          Nestes casos está recomendado uso de antibiótico 60 minutos antes da
+          Nestes casos, está recomendado uso de antibiótico 60 minutos antes da
           intervenção: primeira escolha: amoxicilina (50mg/kg oral){' '}
           <Bold>ou</Bold> ampicilina (50mg/kg oral ou parenteral). Para os
           alérgicos, há a opção de clindamicina (20mg/kg oral ou parenteral),
           azitromicina (15mg/kg) ou claritromicina (15mg/kg).
         </P>
         <P>
-          Não existem também dados, no momento, que justifique tratamento
-          profilático antes da realização de procedimentos do trato
-          respiratório, genitourinário ou gastrointestinal.
+          Até o momento, não ha dados que justifiquem o tratamento profilático
+          antes da realização de procedimentos do trato respiratório,
+          genitourinário ou gastrointestinal.
         </P>
       </Section>
       <Section title="Prognóstico">
@@ -475,14 +479,16 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         <List>
           <LItem>Presença de próteses valvares;</LItem>
           <LItem>Lesões do lado esquerdo do coração;</LItem>
-          <LItem>EI causada por S. aureus ou fungos;</LItem>
+          <LItem>
+            EI causada por <Italic>S. aureus</Italic> ou fungos;
+          </LItem>
           <LItem>EI prévia;</LItem>
           <LItem>
             Sintomas clínicos por período prolongado ({'>'} 3 meses);
           </LItem>
           <LItem>Cardiopatias congênitas cianóticas;</LItem>
           <LItem>Presença de shunts sistêmico-pulmonares;</LItem>
-          <LItem>Resposta antibiótica pobre a terapia antimicrobiana.</LItem>
+          <LItem>Resposta antibiótica pobre à terapia antimicrobiana.</LItem>
         </List>
       </Section>
       <Section title="Referências">

@@ -33,6 +33,13 @@ import EndocarditeInfecciosa from './EndocarditeInfecciosa'
 import Epilepsia from './Epilepsia'
 import FebreReumatica from './FebreReumatica'
 import GlomerulonefriteDifusaAguda from './GlomerulonefriteDifusaAguda'
+import Hematuria from './Hematuria'
+import HidratacaoVenosaCrianca from './HidratacaoVenosaCrianca'
+import InfeccoesTegumentares from './InfeccoesTegumentares'
+import InsuficienciaCardiaca from './InsuficienciaCardiaca'
+import Insulinoterapia from './Insulinoterapia'
+import IntoxicacoesExogenasAgudas from './IntoxicacoesExogenasAgudas'
+import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRespiratorias'
 
 export default [
   TestRoutine,
@@ -67,5 +74,12 @@ export default [
   EndocarditeInfecciosa,
   Epilepsia,
   FebreReumatica,
-  GlomerulonefriteDifusaAguda
+  GlomerulonefriteDifusaAguda,
+  Hematuria,
+  HidratacaoVenosaCrianca,
+  InfeccoesTegumentares,
+  InsuficienciaCardiaca,
+  Insulinoterapia,
+  IntoxicacoesExogenasAgudas,
+  InvestigacaoDasInfeccoesRespiratorias
 ].map(contentToRoutine)
