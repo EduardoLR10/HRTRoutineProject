@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImageSourcePropType } from 'react-native'
+import { ImageSourcePropType, StyleProp, ViewProps } from 'react-native'
 import styled from 'styled-components/native'
 import { Subtitle1 } from './typography'
 
@@ -19,17 +19,25 @@ export interface ListItemProps {
   avatar?: ImageSourcePropType
   children: string
   right?: React.ReactNode
+  style?: StyleProp<ViewProps>
+  color?: string
 }
 
 export default function ListItem({
   avatar,
   children,
-  right
+  right,
+  style,
+  color
 }: ListItemProps): JSX.Element {
   return (
-    <Container>
+    <Container style={style}>
       {avatar && <Avatar source={avatar} style={{ marginRight: 16 }} />}
-      <Subtitle1 style={{ marginRight: 16, flex: 1 }} numberOfLines={1}>
+      <Subtitle1
+        style={{ marginRight: 16, flex: 1 }}
+        numberOfLines={1}
+        color={color}
+      >
         {children}
       </Subtitle1>
       {right}
