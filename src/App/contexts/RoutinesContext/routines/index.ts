@@ -40,6 +40,14 @@ import InsuficienciaCardiaca from './InsuficienciaCardiaca'
 import Insulinoterapia from './Insulinoterapia'
 import IntoxicacoesExogenasAgudas from './IntoxicacoesExogenasAgudas'
 import InvestigacaoDasInfeccoesRespiratorias from './InvestigacaoDasInfeccoesRespiratorias'
+import IVAS1 from './IVAS1'
+import IVAS2 from './IVAS2'
+import IVAS3 from './IVAS3'
+import LeishmanioseVisceral from './LeishmanioseVisceral'
+import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
+import MeningitesBacterianas from './MeningitesBacterianas'
+import MononucleoseInfecciosa from './MononucleoseInfecciosa'
+import Osteomielite from './Osteomielite'
 
 export default [
   TestRoutine,
@@ -81,5 +89,13 @@ export default [
   InsuficienciaCardiaca,
   Insulinoterapia,
   IntoxicacoesExogenasAgudas,
-  InvestigacaoDasInfeccoesRespiratorias
+  InvestigacaoDasInfeccoesRespiratorias,
+  IVAS1,
+  IVAS2,
+  IVAS3,
+  LeishmanioseVisceral,
+  MedidasDePrecaucaoEIsolamento,
+  MeningitesBacterianas,
+  MononucleoseInfecciosa,
+  Osteomielite
 ].map(contentToRoutine)

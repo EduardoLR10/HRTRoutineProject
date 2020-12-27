@@ -16,7 +16,7 @@ import {
   Reference
 } from '../../../../screens/RoutineScreen/components'
 
-import img1 from './images/image1.jpg'
+import img1 from './images/image1.png'
 
 export default function DorAbdominalAguda(): JSX.Element {
   return (
