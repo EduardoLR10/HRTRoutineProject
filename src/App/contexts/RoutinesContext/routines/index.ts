@@ -48,6 +48,14 @@ import MedidasDePrecaucaoEIsolamento from './MedidasDePrecaucaoEIsolamento'
 import MeningitesBacterianas from './MeningitesBacterianas'
 import MononucleoseInfecciosa from './MononucleoseInfecciosa'
 import Osteomielite from './Osteomielite'
+import PneumoniasBacterianas from './PneumoniasBacterianas'
+import PrimoInfeccaoEEncefaliteHerpetica from './PrimoinfeccaoEEncefaliteHerpetica'
+import PuncaoLombar from './PuncaoLombar'
+import PurpuraDeHenoch from './PurpuraDeHenoch-Schonlein'
+import PurpuraTrombocitopenica from './PurpuraTrombocitopenicaImunologica'
+import ReaniamacaoNeonatal from './ReanimacaoNeonatal'
+import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
+import Mastoidite from './Mastoidite'
 
 export default [
   TestRoutine,
@@ -97,5 +105,13 @@ export default [
   MedidasDePrecaucaoEIsolamento,
   MeningitesBacterianas,
   MononucleoseInfecciosa,
-  Osteomielite
+  Osteomielite,
+  PneumoniasBacterianas,
+  PrimoInfeccaoEEncefaliteHerpetica,
+  PuncaoLombar,
+  PurpuraDeHenoch,
+  PurpuraTrombocitopenica,
+  ReaniamacaoNeonatal,
+  InfeccaoDoTratoUrinario,
+  Mastoidite
 ].map(contentToRoutine)
