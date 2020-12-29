@@ -56,6 +56,14 @@ import PurpuraTrombocitopenica from './PurpuraTrombocitopenicaImunologica'
 import ReaniamacaoNeonatal from './ReanimacaoNeonatal'
 import InfeccaoDoTratoUrinario from './InfeccaoDoTratoUrinario'
 import Mastoidite from './Mastoidite'
+import TraumatismoCranioencefalico from './TraumatismoCranioencefalico'
+import TuberculosePulmonar from './TuberculosePulmonar'
+import Urticaria from './Urticaria'
+import Varicela from './Varicela'
+import DesconfortoRespiratorio from './DesconfortoRespiratorio'
+import FormulasLacteas from './FormulasLacteas'
+import HepatitesVirais from './HepatitesVirais'
+import HipertensaoArterial from './HipertensaoArterial'
 
 export default [
   TestRoutine,
@@ -113,5 +121,13 @@ export default [
   PurpuraTrombocitopenica,
   ReaniamacaoNeonatal,
   InfeccaoDoTratoUrinario,
-  Mastoidite
+  Mastoidite,
+  TraumatismoCranioencefalico,
+  TuberculosePulmonar,
+  Urticaria,
+  Varicela,
+  DesconfortoRespiratorio,
+  FormulasLacteas,
+  HepatitesVirais,
+  HipertensaoArterial
 ].map(contentToRoutine)
