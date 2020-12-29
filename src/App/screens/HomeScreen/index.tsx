@@ -12,6 +12,7 @@ import Category from '../../../models/Category'
 import Gap from '../../shared/Gap'
 import Searchbar from './components/Searchbar'
 import UserContext from '../../contexts/UserContext'
+import CategoriesSection from './components/CategoriesSection'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
@@ -59,24 +60,10 @@ export default function HomeScreen(): JSX.Element {
           style={{ overflow: 'visible' }}
           contentContainerStyle={{ paddingTop: 32 }}
         >
-          {/* Categories */}
-          <View style={{ marginBottom: 32 }}>
-            <H2 style={{ marginBottom: 16 }}>Categorias</H2>
-            <ScrollView
-              horizontal
-              showsHorizontalScrollIndicator={false}
-              contentContainerStyle={{ paddingHorizontal: 4 }}
-            >
-              {orderedCategories
-                .map(id => categories[id])
-                .map(category => (
-                  <React.Fragment key={category.id}>
-                    <CategoryItem category={category} />
-                    <Gap width={8} />
-                  </React.Fragment>
-                ))}
-            </ScrollView>
-          </View>
+          <CategoriesSection
+            categories={orderedCategories.map(id => categories[id])}
+            style={{ marginBottom: 32 }}
+          />
           {/* Routines */}
           <RoutinesList>
             <H2 style={{ marginBottom: 16 }}>Rotinas Pediátricas</H2>
