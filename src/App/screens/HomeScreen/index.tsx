@@ -21,16 +21,17 @@ export default function HomeScreen(): JSX.Element {
 
   const orderedRoutines = [
     ...lastSeenRoutines,
-    ...Object.keys(routines).filter(
+    ...Object.values(routines).filter(
       routine => !lastSeenRoutines.includes(routine)
     )
-  ].map(id => routines[id])
+  ]
+
   const orderedCategories = [
     ...lastSeenCategories,
-    ...Object.keys(categories).filter(
+    ...Object.values(categories).filter(
       category => !lastSeenCategories.includes(category)
     )
-  ].map(id => categories[id])
+  ]
 
   const [searchTxt, setSearchTxt] = useState('')
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(

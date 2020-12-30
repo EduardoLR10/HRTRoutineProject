@@ -1,16 +1,17 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
+import Category from '../../../models/Category'
 import Routine from '../../../models/Routine'
-import categories from '../CategoriesContext/categories'
+import CategoriesContext from '../CategoriesContext'
 import RoutinesContext from '../RoutinesContext'
 import * as userService from './userService'
 
 export type User = {
-  readonly favoriteRoutines: string[]
+  readonly favoriteRoutines: Routine[]
   isFavoriteRoutine: (routine: Routine) => boolean
   toggleFavoriteRoutine: (routine: Routine) => void
-  readonly lastSeenRoutines: string[]
-  readonly lastSeenCategories: string[]
+  readonly lastSeenRoutines: Routine[]
+  readonly lastSeenCategories: Category[]
   pushRoutineHistory: (routine: Routine) => void
 }
 
@@ -35,49 +36,55 @@ export interface UserProviderProps {
 }
 
 export function UserProvider({ children }: UserProviderProps): JSX.Element {
-  const { routines } = React.useContext(RoutinesContext)
+  const { routines } = useContext(RoutinesContext)
+  const { categories } = useContext(CategoriesContext)
 
-  const [favoriteRoutines, setFavoriteRoutines] = React.useState<string[]>([])
-  React.useEffect(() => {
+  const [favoriteRoutines, setFavoriteRoutines] = useState<Routine[]>([])
+  useEffect(() => {
     userService
       .getFavoritesRoutines()
-      .then(favs => favs.filter(fav => !!routines[fav])) // Check if routine still exists
+      .then(favsId => favsId.filter(favId => !!routines[favId])) // Check if routine still exists
+      .then(favsId => favsId.map(favId => routines[favId]))
       .then(setFavoriteRoutines)
   }, [])
 
   function isFavoriteRoutine(routine: Routine) {
-    return favoriteRoutines.includes(routine.id)
+    return favoriteRoutines.includes(routine)
   }
 
   function toggleFavoriteRoutine(routine: Routine) {
     const newFavoriteRoutines = isFavoriteRoutine(routine)
-      ? favoriteRoutines.filter(id => id !== routine.id)
-      : [routine.id, ...favoriteRoutines]
+      ? favoriteRoutines.filter(fav => fav.id !== routine.id)
+      : [routine, ...favoriteRoutines]
     setFavoriteRoutines(newFavoriteRoutines)
-    userService.setFavoriteRoutines(newFavoriteRoutines)
+    userService.setFavoriteRoutines(newFavoriteRoutines.map(r => r.id))
   }
 
-  const [lastSeenRoutines, setLastSeenRoutines] = React.useState<string[]>([])
+  const [lastSeenRoutines, setLastSeenRoutines] = React.useState<Routine[]>([])
   React.useEffect(() => {
     userService
       .getLastSeenRoutines()
-      .then(favs => favs.filter(fav => !!routines[fav])) // Check if routine still exists
+      .then(ids => ids.filter(id => !!routines[id])) // Check if routine still exists
+      .then(ids => ids.map(id => routines[id]))
       .then(setLastSeenRoutines)
   }, [])
-  const lastSeenCategories = Object.keys(
-    lastSeenRoutines.reduce((categoriesMap, routine) => {
-      categoriesMap[routines[routine].category] = routine
-      return categoriesMap
-    }, {} as { [category: string]: unknown })
-  )
+  const lastSeenCategories = lastSeenRoutines
+    .reduce(
+      (lastSeenCategories, routine) =>
+        lastSeenCategories.includes(routine.category)
+          ? lastSeenCategories
+          : [...lastSeenCategories, routine.category],
+      [] as string[]
+    )
+    .map(id => categories[id])
 
   function pushRoutineHistory(routine: Routine): void {
     const newLastSeenRoutines = [
-      routine.id,
-      ...lastSeenRoutines.filter(id => id !== routine.id)
+      routine,
+      ...lastSeenRoutines.filter(({ id }) => id !== routine.id)
     ]
     setLastSeenRoutines(newLastSeenRoutines)
-    userService.setLastSeenRoutines(newLastSeenRoutines)
+    userService.setLastSeenRoutines(newLastSeenRoutines.map(({ id }) => id))
   }
 
   return (
