@@ -7,7 +7,7 @@ import { H2 } from '../../../shared/typography'
 
 export interface CategoriesSectionProps {
   categories: Category[]
-  style?: StyleProp<ViewStyle>
+  style?: ViewStyle
 }
 export default function CategoriesSection({
   categories,
@@ -15,7 +15,7 @@ export default function CategoriesSection({
 }: CategoriesSectionProps): JSX.Element {
   return (
     <View style={style}>
-      <H2 style={{ marginBottom: 16 }}>Categorias</H2>
+      <H2 style={{ marginBottom: 16, paddingHorizontal: 4 }}>Categorias</H2>
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
