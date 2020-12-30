@@ -10,28 +10,15 @@ import Searchbar from './components/Searchbar'
 import UserContext from '../../contexts/UserContext'
 import CategoriesSection from './components/CategoriesSection'
 import RoutinesSection from './components/RoutinesSection'
+import useSortedCategories from './hooks/useSortedCategories'
+import useSortedRoutines from './hooks/useSortedRoutines'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
 `
 export default function HomeScreen(): JSX.Element {
-  const { routines } = useContext(RoutinesContext)
-  const { categories } = useContext(CategoriesContext)
-  const { lastSeenRoutines, lastSeenCategories } = useContext(UserContext)
-
-  const orderedRoutines = [
-    ...lastSeenRoutines,
-    ...Object.values(routines).filter(
-      routine => !lastSeenRoutines.includes(routine)
-    )
-  ]
-
-  const orderedCategories = [
-    ...lastSeenCategories,
-    ...Object.values(categories).filter(
-      category => !lastSeenCategories.includes(category)
-    )
-  ]
+  const sortedRoutines = useSortedRoutines()
+  const sortedCategories = useSortedCategories()
 
   const [searchTxt, setSearchTxt] = useState('')
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(
@@ -57,10 +44,10 @@ export default function HomeScreen(): JSX.Element {
           contentContainerStyle={{ paddingTop: 32 }}
         >
           <CategoriesSection
-            categories={orderedCategories}
+            categories={sortedCategories}
             style={{ marginBottom: 32 }}
           />
-          <RoutinesSection routines={orderedRoutines} />
+          <RoutinesSection routines={sortedRoutines} />
         </Main>
       </View>
       <BottomNav />
