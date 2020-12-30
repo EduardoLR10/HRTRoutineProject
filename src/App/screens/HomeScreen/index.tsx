@@ -12,21 +12,33 @@ import CategoriesSection from './components/CategoriesSection'
 import RoutinesSection from './components/RoutinesSection'
 import useSortedCategories from './hooks/useSortedCategories'
 import useSortedRoutines from './hooks/useSortedRoutines'
+import useFilteredRoutines from './hooks/useFilteredRoutines'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
 `
 export default function HomeScreen(): JSX.Element {
-  const sortedRoutines = useSortedRoutines()
-  const sortedCategories = useSortedCategories()
-
   const [searchTxt, setSearchTxt] = useState('')
+  const [_searchedTxt, _setSearchedTxt] = useState('')
+  function onSearch(): void {
+    _setSearchedTxt(searchTxt)
+  }
+  function onCancelSearch(): void {
+    setSearchTxt('')
+    _setSearchedTxt('')
+  }
+
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(
     null
   )
-  function onSearch(): void {
-    console.log('Olá')
-  }
+  const sortedCategories = useSortedCategories()
+
+  const _sortedRoutines = useSortedRoutines()
+  const filteredRoutines = useFilteredRoutines(
+    _sortedRoutines,
+    selectedCategory,
+    _searchedTxt
+  )
 
   return (
     <Screen>
@@ -37,6 +49,7 @@ export default function HomeScreen(): JSX.Element {
             onChangeText={setSearchTxt}
             placeholder="Nome, categoria ou marcador"
             onSubmitEditing={onSearch}
+            onCancelSearch={onCancelSearch}
           />
         </SearchbarContainer>
         <Main
@@ -47,7 +60,7 @@ export default function HomeScreen(): JSX.Element {
             categories={sortedCategories}
             style={{ marginBottom: 32 }}
           />
-          <RoutinesSection routines={sortedRoutines} />
+          <RoutinesSection routines={filteredRoutines} />
         </Main>
       </View>
       <BottomNav />
