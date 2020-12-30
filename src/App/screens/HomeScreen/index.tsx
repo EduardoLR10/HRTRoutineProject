@@ -28,10 +28,13 @@ export default function HomeScreen(): JSX.Element {
     _setSearchedTxt('')
   }
 
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(
+  const sortedCategories = useSortedCategories()
+  const [selectedCategory, _setSelectedCategory] = useState<Category | null>(
     null
   )
-  const sortedCategories = useSortedCategories()
+  function setSelectedCategory(category: Category): void {
+    _setSelectedCategory(selectedCategory === category ? null : category)
+  }
 
   const _sortedRoutines = useSortedRoutines()
   const filteredRoutines = useFilteredRoutines(
@@ -58,6 +61,8 @@ export default function HomeScreen(): JSX.Element {
         >
           <CategoriesSection
             categories={sortedCategories}
+            selectedCategory={selectedCategory}
+            onSelectCategory={setSelectedCategory}
             style={{ marginBottom: 32 }}
           />
           <RoutinesSection routines={filteredRoutines} />

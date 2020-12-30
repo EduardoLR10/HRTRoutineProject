@@ -7,10 +7,14 @@ import { H2 } from '../../../shared/typography'
 
 export interface CategoriesSectionProps {
   categories: Category[]
+  selectedCategory: Category | null
+  onSelectCategory: (seletedCategory: Category) => void
   style?: ViewStyle
 }
 export default function CategoriesSection({
   categories,
+  selectedCategory,
+  onSelectCategory,
   style
 }: CategoriesSectionProps): JSX.Element {
   return (
@@ -23,7 +27,11 @@ export default function CategoriesSection({
       >
         {categories.map(category => (
           <React.Fragment key={category.id}>
-            <CategoryItem category={category} />
+            <CategoryItem
+              category={category}
+              onPress={() => onSelectCategory(category)}
+              selected={!selectedCategory || category === selectedCategory}
+            />
             <Gap width={8} />
           </React.Fragment>
         ))}
