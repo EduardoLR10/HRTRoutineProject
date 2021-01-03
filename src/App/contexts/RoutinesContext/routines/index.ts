@@ -64,6 +64,8 @@ import DesconfortoRespiratorio from './DesconfortoRespiratorio'
 import FormulasLacteas from './FormulasLacteas'
 import HepatitesVirais from './HepatitesVirais'
 import HipertensaoArterial from './HipertensaoArterial'
+import AcidentesPorAnimaisPeconhentos from './AcidentesPorAnimaisPeconhentos'
+import CriseAgudaDeAsma from './CriseAgudaDeAsma'
 
 export default [
   TestRoutine,
@@ -129,5 +131,7 @@ export default [
   DesconfortoRespiratorio,
   FormulasLacteas,
   HepatitesVirais,
-  HipertensaoArterial
+  HipertensaoArterial,
+  AcidentesPorAnimaisPeconhentos,
+  CriseAgudaDeAsma
 ].map(contentToRoutine)
