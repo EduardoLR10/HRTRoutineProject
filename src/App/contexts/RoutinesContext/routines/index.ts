@@ -66,6 +66,11 @@ import HepatitesVirais from './HepatitesVirais'
 import HipertensaoArterial from './HipertensaoArterial'
 import AcidentesPorAnimaisPeconhentos from './AcidentesPorAnimaisPeconhentos'
 import CriseAgudaDeAsma from './CriseAgudaDeAsma'
+import ChoqueSeptico from './ChoqueSeptico'
+import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacaoMecanica'
+import Desidratacaohipernatremica from './DesidratacaoHipernatremica'
+import FebreNoRecemNascido from './FebreNoRecemNascido'
+import IctericianeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilirrubinaIndireta'
 
 export default [
   TestRoutine,
@@ -133,5 +138,10 @@ export default [
   HepatitesVirais,
   HipertensaoArterial,
   AcidentesPorAnimaisPeconhentos,
-  CriseAgudaDeAsma
+  CriseAgudaDeAsma,
+  ChoqueSeptico,
+  ConceitosBasicosDeVentilacaoMecanica,
+  Desidratacaohipernatremica,
+  FebreNoRecemNascido,
+  IctericianeonatalPorBilirrubinaIndireta
 ].map(contentToRoutine)
