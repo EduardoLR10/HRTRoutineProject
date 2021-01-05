@@ -3,7 +3,7 @@ import { View } from 'react-native'
 import { H3 } from '../../../shared/typography'
 
 export interface SubsectionProps {
-  title: string
+  title: React.ReactNode
   children?: React.ReactNode
 }
 

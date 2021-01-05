@@ -3,7 +3,7 @@ import Surface from '../../../shared/Surface'
 import { H2 } from '../../../shared/typography'
 
 export interface SectionProps {
-  title: string
+  title: React.ReactNode
   children?: React.ReactNode
 }
 
