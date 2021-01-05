@@ -22,7 +22,7 @@ export default function DesidratacaoHipernametrica(): JSX.Element {
       id="desidratacao-hipernatremica"
       name="Desidratação Hipernatrêmica no RN"
       category="emergencia"
-      authors={['dania']}
+      authors={['carlos']}
       tags={['recém', 'nascido', 'distúrbio', 'eletrolítico']}
     >
       <Section title="Introdução">

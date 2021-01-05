@@ -24,7 +24,7 @@ export default function IctericianeonatalPorBilirrubinaIndireta(): JSX.Element {
       id="ictericia"
       name="Icterícia Neonatal por Bilirrubina Indireta"
       category="neonatologia"
-      authors={['dania']}
+      authors={['carlos']}
       tags={['fototerapia', 'incompatibilidade', 'sanguínea']}
     >
       <Section title="Conceito">
