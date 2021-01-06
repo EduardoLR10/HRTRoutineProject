@@ -130,6 +130,29 @@ export default function TestRoutine(): JSX.Element {
           body="Freire LM, Teixeira Júnior JF. Diagnóstico Diferencial das Adenomegalias. In: : Tonelli E, Freire LM, editors. Doenças Infecciosas na Infância e Adolescência. 2.ed. Rio de Janeiro: Editora Medsi; 2000. p.1850-67."
         />
       </Section>
+      <Section
+        title={
+          <>
+            Subseção com texto em <Italic>itálico</Italic>
+          </>
+        }
+      >
+        <Subsection
+          title={
+            <>
+              Subseção com título em <Bold>negrito</Bold>
+            </>
+          }
+        >
+          <Subsubsection
+            title={
+              <>
+                Título com texto em <Subscript>subscrito </Subscript>
+              </>
+            }
+          ></Subsubsection>
+        </Subsection>
+      </Section>
     </Routine>
   )
 }

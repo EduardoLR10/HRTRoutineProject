@@ -78,13 +78,13 @@ export default function RoutineItem({
       onPress={() => navigation.navigate('Routine', { routineId: routine.id })}
     >
       <ColorBar
-        color={`hsl(${category?.hueTheme}, 100%, 60%)`}
+        color={`hsl(${category?.hueTheme}, 100%, 35%)`}
         style={{ marginRight: 8 }}
       />
       <Col>
         <Header style={{ marginBottom: 4 }}>
           <ColInfo style={{ marginRight: 8 }}>
-            <Overline color={`hsl(${category.hueTheme}, 100%, 60%)`}>
+            <Overline color={`hsl(${category.hueTheme}, 100%, 35%)`}>
               {category.name}
             </Overline>
             <H5 numberOfLines={2} ellipsizeMode="clip">
