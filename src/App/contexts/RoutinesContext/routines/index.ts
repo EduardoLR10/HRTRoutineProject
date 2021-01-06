@@ -71,6 +71,8 @@ import ConceitosBasicosDeVentilacaoMecanica from './ConceitosBasicosDeVentilacao
 import Desidratacaohipernatremica from './DesidratacaoHipernatremica'
 import FebreNoRecemNascido from './FebreNoRecemNascido'
 import IctericianeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilirrubinaIndireta'
+import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
+import ParadaCardiorespiratoria from './ParadaCardiorespiratoria'
 
 export default [
   TestRoutine,
@@ -143,5 +145,7 @@ export default [
   ConceitosBasicosDeVentilacaoMecanica,
   Desidratacaohipernatremica,
   FebreNoRecemNascido,
-  IctericianeonatalPorBilirrubinaIndireta
+  IctericianeonatalPorBilirrubinaIndireta,
+  SequenciaRapidaDeIntubacao,
+  ParadaCardiorespiratoria
 ].map(contentToRoutine)
