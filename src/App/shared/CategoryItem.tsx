@@ -1,6 +1,6 @@
 import React from 'react'
 import { TouchableRipple } from 'react-native-paper'
-import styled from 'styled-components/native'
+import styled, { useTheme } from 'styled-components/native'
 import Category from '../../models/Category'
 import { Subtitle1 } from './../shared/typography'
 
@@ -9,9 +9,9 @@ const Container = styled(TouchableRipple)<{ hue: number; selected: boolean }>`
   height: 76px;
   border-radius: 8px;
   padding: 8px;
-  background-color: hsl(${props => props.hue}, 100%, 80%);
+  background-color: hsl(${props => props.hue}, 100%, 35%);
   box-shadow: ${props => props.theme.elevation[1]};
-  opacity: ${props => (props.selected ? 1 : 0.1)};
+  opacity: ${props => (props.selected ? 1 : 0.25)};
 `
 export interface CategoryItemProps {
   category: Category
@@ -24,9 +24,10 @@ export default function CategoryItem({
   onPress,
   selected
 }: CategoryItemProps): JSX.Element {
+  const theme = useTheme()
   return (
     <Container hue={category.hueTheme} onPress={onPress} selected={selected}>
-      <Subtitle1>{category.name}</Subtitle1>
+      <Subtitle1 color={theme.color.onPrimary}>{category.name}</Subtitle1>
     </Container>
   )
 }
