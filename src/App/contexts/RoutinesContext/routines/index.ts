@@ -73,6 +73,9 @@ import FebreNoRecemNascido from './FebreNoRecemNascido'
 import IctericianeonatalPorBilirrubinaIndireta from './IctericiaNeonatalPorBilirrubinaIndireta'
 import SequenciaRapidaDeIntubacao from './SequenciaRapidaDeIntubacao'
 import ParadaCardiorespiratoria from './ParadaCardiorespiratoria'
+import InsuficienciaRespiratoria from './InsuficienciaRespiratoria'
+import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAereaPorCorpoEstranho'
+import HidratacaoVenosaRN from './HidratacaoVenosaRN'
 
 export default [
   TestRoutine,
@@ -147,5 +150,8 @@ export default [
   FebreNoRecemNascido,
   IctericianeonatalPorBilirrubinaIndireta,
   SequenciaRapidaDeIntubacao,
-  ParadaCardiorespiratoria
+  ParadaCardiorespiratoria,
+  InsuficienciaRespiratoria,
+  ObstrucaoDeViaAereaPorCorpoEstranho,
+  HidratacaoVenosaRN
 ].map(contentToRoutine)
