@@ -76,6 +76,8 @@ import ParadaCardiorespiratoria from './ParadaCardiorespiratoria'
 import InsuficienciaRespiratoria from './InsuficienciaRespiratoria'
 import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAereaPorCorpoEstranho'
 import HidratacaoVenosaRN from './HidratacaoVenosaRN'
+import CetoacidoseDiabetica from './CetoacidoseDiabetica'
+import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
 
 export default [
   TestRoutine,
@@ -153,5 +155,7 @@ export default [
   ParadaCardiorespiratoria,
   InsuficienciaRespiratoria,
   ObstrucaoDeViaAereaPorCorpoEstranho,
-  HidratacaoVenosaRN
+  HidratacaoVenosaRN,
+  CetoacidoseDiabetica,
+  DengueEOutrasArboviroses
 ].map(contentToRoutine)
