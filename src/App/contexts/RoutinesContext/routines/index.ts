@@ -78,9 +78,10 @@ import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAereaPorCorpoEs
 import HidratacaoVenosaRN from './HidratacaoVenosaRN'
 import CetoacidoseDiabetica from './CetoacidoseDiabetica'
 import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
+import MausTratos from './MausTratos'
+import ParasitosesIntestinais from './ParasitosesIntestinais'
 
 export default [
-  TestRoutine,
   SindromeNefrotica,
   Adenomegalias,
   Afogamento,
@@ -157,5 +158,7 @@ export default [
   ObstrucaoDeViaAereaPorCorpoEstranho,
   HidratacaoVenosaRN,
   CetoacidoseDiabetica,
-  DengueEOutrasArboviroses
+  DengueEOutrasArboviroses,
+  MausTratos,
+  ParasitosesIntestinais
 ].map(contentToRoutine)
