@@ -202,7 +202,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             'Crianças com idade ≥ 2 anos'
           ]}
           data={[
-            ['ECG ≤ 14', 'ECG ≤ 14', '4 - 8', '12', 'SAB ou SABC'],
+            ['ECG ≤ 14', 'ECG ≤ 14'],
             [
               'Alterações do nível de consciência',
               'Alterações do nível de consciência'
@@ -231,7 +231,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
               'Mecanismo de trauma importante',
               'Mecanismo de trauma importante'
             ],
-            ['Mudança de comportamento segundos os pais', 'Cefaleia importante']
+            ['Mudança de comportamento segundos os pais', 'Cefaléia importante']
           ]}
           caption="Risco moderado de lesões intracranianas: TC de crânio ou observação"
         />

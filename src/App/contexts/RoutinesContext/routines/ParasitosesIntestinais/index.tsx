@@ -843,7 +843,7 @@ export default function ParasitosesIntestinais(): JSX.Element {
           title="Tabela 1. Tratamento dos parasitoses causadas por Helmintos."
         />
         <Table
-          colWidths={[150, 200, 200]}
+          colWidths={[125, 200, 200]}
           header={['Etiologia', 'Tratamento de Escolha', 'Outras Opções']}
           data={[
             [

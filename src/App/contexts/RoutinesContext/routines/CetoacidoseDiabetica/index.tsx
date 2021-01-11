@@ -223,7 +223,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             </Bold>
           </Subsubsection>
           <Table
-            colWidths={[50, 100]}
+            colWidths={[75, 150]}
             header={['-', 'Necessidade diária (HOLLIDAY)']}
             data={[
               [
@@ -391,7 +391,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
       </Section>
       <Section title="Resumo do Tratamento da CAD">
         <Table
-          colWidths={[100, 100, 100, 100, 100, 100]}
+          colWidths={[75, 150, 150, 125, 125, 125]}
           header={[
             'Hora',
             'Hidratação',

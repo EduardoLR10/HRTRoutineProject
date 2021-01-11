@@ -201,9 +201,30 @@ export default function CriseAgudaDeAsma(): JSX.Element {
             ['FR, ciclos/min', 'Normal ou aumentada', 'Aumentada', 'Aumentada'],
             ['FC, bpm', '≤ 110', '> 110', '> 140 ou bradicardia'],
             ['PFE, % previsto', '> 50', '30 - 50', '< 30'],
-            ['SpO2, %', '> 95', '91 - 95', '≤ 90'],
-            ['PaO2, mmHg', 'Normal', 'Ao redor de 60', '< 60'],
-            ['PaCO2, mmHg', '< 40', '< 45', '≥ 45']
+            [
+              <Text key={1}>
+                SpO<Subscript>2</Subscript>, %
+              </Text>,
+              '> 95',
+              '91 - 95',
+              '≤ 90'
+            ],
+            [
+              <Text key={2}>
+                PaO<Subscript>2</Subscript>, mmHg
+              </Text>,
+              'Normal',
+              'Ao redor de 60',
+              '< 60'
+            ],
+            [
+              <Text key={3}>
+                PaCO<Subscript>2</Subscript>, mmHg
+              </Text>,
+              '< 40',
+              '< 45',
+              '≥ 45'
+            ]
           ]}
           title="Classificação da Intensidade das Crises Agudas"
         />

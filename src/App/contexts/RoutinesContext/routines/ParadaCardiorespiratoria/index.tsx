@@ -104,7 +104,7 @@ export default function ParadaRespiratoria(): JSX.Element {
           title="Disposição dos Socorristas"
         />
         <Table
-          colWidths={[200, 200, 200]}
+          colWidths={[100, 200]}
           header={['Função', 'Responsabilidades']}
           data={[
             [

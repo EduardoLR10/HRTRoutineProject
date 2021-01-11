@@ -106,7 +106,7 @@ export default function SequenciaRapidaDeIntubacao(): JSX.Element {
           multiplicação do diâmetro interno de um tubo selecionado por três.
         </P>
         <Table
-          colWidths={[150, 100, 100, 150, 100]}
+          colWidths={[150, 100, 125, 150, 125]}
           header={[
             'Ventilação/Oxigenação',
             'Preparo do Tubo',

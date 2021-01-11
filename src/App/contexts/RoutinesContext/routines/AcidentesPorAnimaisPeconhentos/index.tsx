@@ -309,7 +309,13 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         </Subsection>
       </Section>
       <Section title="Aranhas">
-        <Subsection title="Phoneutria (armadeira) fig.11">
+        <Subsection
+          title={
+            <>
+              <Italic>Phoneutria</Italic> (armadeira) fig.11
+            </>
+          }
+        >
           <Figure source={img10} size={[286, 176]} caption="fig.11" />
           <P>
             Tem hábitos vespertinos e noturnos, são frequentes dentro de
@@ -336,7 +342,13 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             <P>Crianças devem ser observadas por pelo menos 6 horas.</P>
           </Subsubsection>
         </Subsection>
-        <Subsection title="Loxosceles (aranha marrom) fig.12">
+        <Subsection
+          title={
+            <>
+              <Italic>Loxosceles</Italic> (aranha marrom) fig.12
+            </>
+          }
+        >
           <Figure source={img11} size={[275, 183]} caption="fig.12" />
           <P>
             Hábitos noturnos, vive em pilhas de tijolos, telhas, atrás de
@@ -376,7 +388,13 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             </P>
           </Subsubsection>
         </Subsection>
-        <Subsection title="Lycosa (aranha de jardim)">
+        <Subsection
+          title={
+            <>
+              <Italic>Lycosa</Italic> (aranha de jardim)
+            </>
+          }
+        >
           <P>
             Encontrada em jardins e gramas. Não constrói teias. Não constituem
             problema de saúde pública. São importantes para diagnóstico
@@ -390,7 +408,13 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             <P>Apenas sintomático.</P>
           </Subsubsection>
         </Subsection>
-        <Subsection title="Latrodectus (viúvas-negras)">
+        <Subsection
+          title={
+            <>
+              <Italic>Latrodectus</Italic> (viúvas-negras)
+            </>
+          }
+        >
           <P>
             Habitam jardins, gramados, parques, plantações e residências. São
             sedentárias e não são agressivas. Os acidentes são raríssimos.

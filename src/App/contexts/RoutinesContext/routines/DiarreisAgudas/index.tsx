@@ -94,7 +94,7 @@ export default function DiarreiasAgudas(): JSX.Element {
           <LItem>Perda de peso {'>'} 10% = desidratação grave.</LItem>
         </List>
         <Table
-          colWidths={[200, 200, 200, 200]}
+          colWidths={[100, 100, 100, 100]}
           header={['Observar', 'A', 'B', 'C']}
           data={[
             [
@@ -116,13 +116,13 @@ export default function DiarreiasAgudas(): JSX.Element {
           title="Avaliação do Estado de Hidratação para Crianças com doença Diarréia"
         />
         <Table
-          colWidths={[200, 200, 200, 200]}
+          colWidths={[125, 125, 150, 150]}
           header={['Examinar', 'A', 'B', 'C']}
           data={[
             [
               'Sinal de prega',
               'Desaparece rapidamente',
-              'Desaparece lentamnete',
+              'Desaparece lentamente',
               'Desaparece muito lentamente (mais de dois segundos)'
             ],
             ['Pulso', 'Cheio', 'Rápido, débil', 'Muito débil ou ausente'],
@@ -135,7 +135,7 @@ export default function DiarreiasAgudas(): JSX.Element {
           ]}
         />
         <Table
-          colWidths={[200, 200, 200, 200]}
+          colWidths={[100, 150, 150, 150]}
           header={['', 'A', 'B', 'C']}
           data={[
             [
@@ -147,7 +147,7 @@ export default function DiarreiasAgudas(): JSX.Element {
           ]}
         />
         <Table
-          colWidths={[200, 200, 200, 200]}
+          colWidths={[100, 150, 150, 150]}
           header={['', 'A', 'B', 'C']}
           data={[
             [
@@ -200,7 +200,7 @@ export default function DiarreiasAgudas(): JSX.Element {
             <P>Até seis meses de idade: 10 mg/dia.</P>
             <P>Maiores de seis meses de idade: 20 mg/dia.</P>
             <Table
-              colWidths={[150, 150]}
+              colWidths={[150, 250]}
               header={[
                 'Idade',
                 'Quantidade de líquidos que devem ser administrados/ingeridos após cada evacuação diarreica'
@@ -296,7 +296,7 @@ export default function DiarreiasAgudas(): JSX.Element {
             data={[
               [
                 'Soro Glicosado a 5% + Soro Fisiológico a 0,9% na proporção de 4:1 (manutenção)',
-                'Peso até 10 kg\n\nPeso de 10 a 20kg\n\nPeso acima de 20kg',
+                'Peso até 10 kg\n\nPeso de 10 a 20kg\n\n\n\nPeso acima de 20kg',
                 '100 ml/kg\n\n1000 ml + 50 ml/kg de peso que exceder 10kg\n\n1500 ml + 20 ml/kg de peso que exceder 20 kg'
               ],
               [

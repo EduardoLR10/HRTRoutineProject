@@ -28,12 +28,11 @@ export default function Coqueluche(): JSX.Element {
       <Section title="Diagnóstico Clínico">
         <P>
           Doença infecciosa aguda do trato respiratório, de alta contagiosidade,
-          causada pela bactéria{' '}
-          <Text style={{ fontStyle: 'italic' }}>Bordetella pertussis</Text>,
-          podendo também, em menor frequência, ser causada pelas{' '}
-          <Text style={{ fontStyle: 'italic' }}>Bordetella parapertussis</Text>,{' '}
-          <Text style={{ fontStyle: 'italic' }}>Bordetella bronchiseptica</Text>{' '}
-          e <Text style={{ fontStyle: 'italic' }}>bordetella avium</Text>.
+          causada pela bactéria <Italic>Bordetella pertussis</Italic>, podendo
+          também, em menor frequência, ser causada pelas{' '}
+          <Italic>Bordetella parapertussis</Italic>,{' '}
+          <Italic>Bordetella bronchiseptica</Italic> e{' '}
+          <Italic>bordetella avium</Italic>.
         </P>
       </Section>
       <Section title="Fatores de Risco">
@@ -91,11 +90,11 @@ export default function Coqueluche(): JSX.Element {
           (“coração felpudo”), pneumotórax e pneumomediastino.
         </P>
         <P>
-          O isolamento da <Italic>Bordetella pertussis</Italic>
-          através de cultura é feito pela coleta de secreção nasofaríngea,
-          colhida por swab. Este exame tem baixa sensibilidade e alta
-          especificidade, e deve ser colhido preferencialmente, antes do início
-          do tratamento ou até 72 horas após o seu início.
+          O isolamento da <Italic>Bordetella pertussis</Italic> através de
+          cultura é feito pela coleta de secreção nasofaríngea, colhida por
+          swab. Este exame tem baixa sensibilidade e alta especificidade, e deve
+          ser colhido preferencialmente, antes do início do tratamento ou até 72
+          horas após o seu início.
         </P>
       </Section>
       <Section title="Critérios de Internação">

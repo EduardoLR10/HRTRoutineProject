@@ -191,7 +191,7 @@ export default function DisturbiosEletroliticos(): JSX.Element {
             necessário usando resina de troca ou até mesmo diálise.
           </P>
           <Table
-            colWidths={[150, 200, 200]}
+            colWidths={[150, 225, 200]}
             header={['Nível Sérico', 'Medicação', 'Dose']}
             data={[
               [

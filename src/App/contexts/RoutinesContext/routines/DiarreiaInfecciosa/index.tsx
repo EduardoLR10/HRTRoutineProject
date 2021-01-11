@@ -84,7 +84,13 @@ export default function DiarreiaInfecciosa(): JSX.Element {
             tipo citotóxico, causando diarreia com desidratação acentuada.
           </P>
         </Subsection>
-        <Subsection title="Fisiopatologia da diarréia por V. cholerae e ETEC">
+        <Subsection
+          title={
+            <>
+              Fisiopatologia da diarréia por <Italic>V. cholerae</Italic> e ETEC
+            </>
+          }
+        >
           <List>
             <LItem>
               O mecanismo básico da doença consiste em perda de líquido,

@@ -507,7 +507,7 @@ export default function DengueEOurasArboviroses(): JSX.Element {
 
             <Table
               title="Grau de Hemoconcentração por meio do Hematócrito (Grupo B)"
-              colWidths={[50, 50, 50, 50, 50, 50]}
+              colWidths={[150, 75, 75, 75, 75, 75]}
               header={[
                 'Idade',
                 '3 meses',
@@ -564,7 +564,7 @@ export default function DengueEOurasArboviroses(): JSX.Element {
               </LItem>
             </List>
             <Table
-              colWidths={[50, 100, 100]}
+              colWidths={[100, 150, 150]}
               header={[
                 'Peso Corporal',
                 'Volumes para crianças sem dengue',

@@ -106,7 +106,7 @@ export default function EmergenciaRespiratoria(): JSX.Element {
           vômitos e até corpo estranho.
         </P>
         <Table
-          colWidths={[100, 100]}
+          colWidths={[100, 200]}
           header={['Idade', 'Respirações/minuto']}
           data={[
             ['Bebê (menos de 1 ano)', '30 a 60'],

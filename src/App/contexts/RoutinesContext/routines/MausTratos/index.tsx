@@ -357,7 +357,7 @@ export default function MausTratos(): JSX.Element {
               .
             </P>
             <Table
-              colWidths={[50, 150]}
+              colWidths={[125, 175]}
               header={['', '']}
               data={[
                 ['Hematológicos', 'Hemograma, Coagulograma'],
@@ -740,7 +740,7 @@ export default function MausTratos(): JSX.Element {
               levonorgestrel 0,75mg, via oral, em uma única tomada.
             </P>
             <Table
-              colWidths={[50, 150, 200]}
+              colWidths={[100, 150, 200]}
               header={['', '', '']}
               data={[
                 [
@@ -813,7 +813,7 @@ export default function MausTratos(): JSX.Element {
               </Bold>
             </P>
             <Table
-              colWidths={[50, 100, 100]}
+              colWidths={[100, 125, 125]}
               header={['Medicação', 'Apresentação', 'Posologia']}
               data={[
                 ['AZT', '300mg/150mg', '1 comprimido a cada 12 horas'],

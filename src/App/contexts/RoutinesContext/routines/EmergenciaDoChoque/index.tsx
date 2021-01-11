@@ -20,7 +20,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
   return (
     <Routine
       id="emergencia-do-choque"
-      name="Emergência"
+      name="Emergência do Choque"
       category="emergencia"
       authors={['luiz']}
       tags={[]}
@@ -46,7 +46,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           cardiorrespiratória - PCR (tabela 1).
         </P>
         <Table
-          colWidths={[100, 100]}
+          colWidths={[150, 100]}
           header={['Idade', 'PA Sistólica']}
           data={[
             ['Neonato a termo (0 a 28 dias)', '60 mmHg'],
@@ -65,7 +65,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           (tabela 3) podem indicar a evolução do quadro.
         </P>
         <Table
-          colWidths={[100, 100, 100]}
+          colWidths={[125, 100, 100]}
           header={['Idade', 'Em vigília', 'Em sono']}
           data={[
             ['Neonato', '100 a 205', '90 a 160'],
@@ -272,7 +272,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           infecciosos devem ser vistos nos capítulos de cada tema.
         </P>
         <Table
-          colWidths={[100, 200]}
+          colWidths={[150, 200]}
           header={['', '']}
           data={[
             [

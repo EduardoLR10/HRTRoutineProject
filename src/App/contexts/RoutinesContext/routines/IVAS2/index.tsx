@@ -169,7 +169,7 @@ export default function IVAS2(): JSX.Element {
           meio, principalmente nos meses de temperatura elevada.
         </P>
         <Table
-          colWidths={[100, 100]}
+          colWidths={[100, 150]}
           header={['Sistêmicso', 'Locais']}
           data={[
             ['Febre', 'Abaulamento da membrana timpânica'],
@@ -210,7 +210,7 @@ export default function IVAS2(): JSX.Element {
         <Subsection title="Antibioticoterapia">
           <P>Conforme recomendação da AAP (2013):</P>
           <Table
-            colWidths={[100, 150]}
+            colWidths={[100, 200]}
             header={['Idade', 'Indicação de Antibiótico']}
             data={[
               ['< 6 meses', 'Sempre'],
@@ -262,14 +262,14 @@ export default function IVAS2(): JSX.Element {
             </LItem>
           </List>
           <Table
-            colWidths={[100, 100, 150]}
+            colWidths={[100, 120, 200]}
             header={['Antibiótico', 'Cobertura', 'Dose']}
             data={[
               ['Amoxicilina', 'Pneumococo', '50mg/kg/dia*, de 12 em 12 horas'],
               [
                 'Amoxicilina com Clavunato de potássio',
                 <Text key={1}>
-                  Pneumococo, <Italic>M. catarrhalis</Italic>,{' '}
+                  Pneumococo,{'\n'}<Italic>M. catarrhalis</Italic>,{' '}
                   <Italic>H. influenzae</Italic>
                 </Text>,
                 '90mg/kg/dia de amoxicilina com 6,4mg/kg/dia de Clavulanato de potássio, de 12 em 12 horas'

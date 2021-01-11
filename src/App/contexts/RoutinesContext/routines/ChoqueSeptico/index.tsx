@@ -75,7 +75,7 @@ export default function ChoqueSeptico(): JSX.Element {
             <LItem>Frequência cardíaca alterada para idade.</LItem>
           </List>
           <Table
-            colWidths={[100, 100, 100, 100]}
+            colWidths={[100, 100, 125, 100, 100]}
             header={[
               'Idade',
               'Frequência Cardíaca',
@@ -202,7 +202,7 @@ export default function ChoqueSeptico(): JSX.Element {
               longa {'>'} 4h).
             </P>
             <Table
-              colWidths={[100, 100, 100, 100]}
+              colWidths={[100, 175, 125, 125]}
               header={['Droga', 'Dose (mcg/kg/min)', 'Apresentação', 'MCG/ML']}
               data={[
                 ['Dobutamina', '5 - 20', '250 mg/20ml', '12.500 mcg/ml'],

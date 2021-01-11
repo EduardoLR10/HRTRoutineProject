@@ -264,7 +264,7 @@ export default function IVAS1(): JSX.Element {
           e a epidemiologia assim sugerirem.
         </P>
         <Table
-          colWidths={[100, 150, 100]}
+          colWidths={[110, 150, 100]}
           header={['Antibiótico', 'Recomendação', 'Dose Máxima']}
           data={[
             [

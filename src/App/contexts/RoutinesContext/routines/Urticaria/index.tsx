@@ -257,7 +257,7 @@ export default function Urticaria(): JSX.Element {
             pediátrico), após completada a investigação etiológica.
           </P>
           <Table
-            colWidths={[150, 150, 150, 150]}
+            colWidths={[125, 150, 150, 150]}
             header={['Nome', 'Apresentação', 'Posologia', '']}
             data={[
               ['', '', 'Crianças', 'Crianças > 12 anos'],

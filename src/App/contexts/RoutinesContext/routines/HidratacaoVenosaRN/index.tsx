@@ -212,7 +212,7 @@ export default function HidratacaoVenosaRN(): JSX.Element {
           caption="Tabela 1: Necessidade de água, eletrólitos e glicose para o RN a termo"
         />
         <Table
-          colWidths={[100, 100, 100]}
+          colWidths={[100, 100, 100, 100, 100, 100]}
           header={[
             '',
             '≤ 750g',
@@ -258,7 +258,7 @@ export default function HidratacaoVenosaRN(): JSX.Element {
           caption="Tabela 2: Necessidades de água e glicose para o RN prematuro"
         />
         <Table
-          colWidths={[150, 100, 100]}
+          colWidths={[150, 100, 125]}
           header={['Solução Padronizada no HRT', 'Quantidade', 'Composição']}
           data={[
             ['Cloreto de Sódio 20%', '1 ml', '3,4 mEq de sódio'],

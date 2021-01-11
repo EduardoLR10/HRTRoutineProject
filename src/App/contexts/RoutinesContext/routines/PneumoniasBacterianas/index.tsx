@@ -32,8 +32,13 @@ export default function PneumoniasBacterianas(): JSX.Element {
           percussão, diminuição de murmúrio vesicular, etc.
         </P>
       </Section>
-      <Section title="Steptococcus pneumoniae">
-        <P>Conhecida também como "pneumococo".</P>
+      <Section
+        title={
+          <>
+            <Italic>Steptococcus pneumoniae</Italic> ("pneumococo")
+          </>
+        }
+      >
         <P>
           É o agente bacteriano mais comum das pneumonias adquiridas na
           comunidade em pediatria (PAC).
@@ -97,8 +102,13 @@ export default function PneumoniasBacterianas(): JSX.Element {
           </Subsubsection>
         </Subsection>
       </Section>
-      <Section title="Haemophilus influenzae">
-        <P>Conhecida também como "hemófilos".</P>
+      <Section
+        title={
+          <>
+            <Italic>Haemophilus influenzae</Italic> ("hemófilos")
+          </>
+        }
+      >
         <P>
           É o segundo agente bacteriano mais comum das pneumonias adquiridas na
           comunidade em pediatria.
@@ -151,8 +161,13 @@ export default function PneumoniasBacterianas(): JSX.Element {
           </Subsubsection>
         </Subsection>
       </Section>
-      <Section title="Staphilococcus aureus">
-        <P>Conhecida também como "estafilococo".</P>
+      <Section
+        title={
+          <>
+            <Italic>Staphilococcus aureus</Italic> ("estafilococo")
+          </>
+        }
+      >
         <P>Idade de acometimento: mais comum entre 3 meses e 2 anos.</P>
         <P>
           Quadro clínico: evolução rápida e exuberante, com febre alta,
@@ -217,8 +232,13 @@ export default function PneumoniasBacterianas(): JSX.Element {
           </P>
         </Subsection>
       </Section>
-      <Section title="Mycoplasma pneumoniae">
-        <P>Conhecida também como "micoplasma".</P>
+      <Section
+        title={
+          <>
+            <Italic>Mycoplasma pneumoniae</Italic> ("micoplasma")
+          </>
+        }
+      >
         <P>Idade de acometimento: maior incidência a partir dos 5 anos.</P>
         <P>
           Quadro clínico: tosse seca, que evoluiu para irritativa ou produtiva,
@@ -240,7 +260,8 @@ export default function PneumoniasBacterianas(): JSX.Element {
         <P>Diagnóstico: sorologia (ELISA): IgM e IgG.</P>
         <Subsection title="Tratamento">
           <P>
-            Macrolídeos, tratamento em torno de 14 dias (exceto a azitromicina, cujo tratamento é de 5 dias).
+            Macrolídeos, tratamento em torno de 14 dias (exceto a azitromicina,
+            cujo tratamento é de 5 dias).
           </P>
           <P>Eritromicina - 30 mg/kg/dia, 6/6h.</P>
           <P>Claritromicina - 15 mg/kg/dia, 12/12h.</P>
@@ -273,8 +294,7 @@ export default function PneumoniasBacterianas(): JSX.Element {
           drenagem torácica; antes de retirar dreno torácico;
         </P>
         <P>
-          Após a alta: ver{' '}
-          <Text style={{ fontWeight: 'bold' }}>Critérios de Alta</Text>.
+          Após a alta: ver <Bold>Critérios de Alta</Bold>.
         </P>
       </Section>
       <Section title="Referências">

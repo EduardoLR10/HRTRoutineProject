@@ -161,7 +161,7 @@ export default function FormulasLacteas(): JSX.Element {
           introduzido na alimentação da criança nessa faixa etária.
         </P>
         <Table
-          colWidths={[100, 100, 100]}
+          colWidths={[100, 100, 125]}
           header={['Nutriente', 'Fórmula de Partida', 'Fórmula de Seguimento']}
           data={[
             ['Proteínas', '1,4 a 1,7 g/100ml', '2,2 a 2,5 g/100ml'],
@@ -283,8 +283,8 @@ export default function FormulasLacteas(): JSX.Element {
             para a idade.
           </P>
           <P>
-            Algumas fórmulas são para lactentes abaixo de 1 ano e outras para bebês maiores
-            de 1 ano.
+            Algumas fórmulas são para lactentes abaixo de 1 ano e outras para
+            bebês maiores de 1 ano.
           </P>
           <P>
             Segue abaixo um quadro com exemplos de algumas marcas
@@ -292,10 +292,10 @@ export default function FormulasLacteas(): JSX.Element {
           </P>
         </Subsection>
         <Table
-        colWidths={[100, 100, 10]}
+          colWidths={[125, 135, 110]}
           header={[
             'Característica da Fórmula',
-            'Marcas Comercializadas',
+            'Marcas\nComercializadas',
             'Fornecida pela SES/DF'
           ]}
           data={[
