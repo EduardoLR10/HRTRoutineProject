@@ -64,7 +64,7 @@ export default function RoutineScreen(): JSX.Element {
     <SectionProvider sectionIdx={sectionIdx} setSectionIdx={setSectionIdx}>
       <SideMenu
         menu={<Menu />}
-        menuPosition="right"
+        menuPosition="left"
         isOpen={isMenuOpened}
         onChange={setIsMenuOpened}
         animationFunction={(prop, value) =>
