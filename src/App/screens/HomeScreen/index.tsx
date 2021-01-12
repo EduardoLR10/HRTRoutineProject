@@ -1,18 +1,14 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components/native'
 import Screen, { Main } from './../../shared/Screen'
 import { View } from 'react-native'
 import BottomNav from './../../shared/BottomNav'
-import RoutinesContext from '../../contexts/RoutinesContext'
-import CategoriesContext from '../../contexts/CategoriesContext'
 import Category from '../../../models/Category'
 import Searchbar from './components/Searchbar'
-import UserContext from '../../contexts/UserContext'
 import CategoriesSection from './components/CategoriesSection'
 import RoutinesSection from './components/RoutinesSection'
 import useSortedCategories from './hooks/useSortedCategories'
 import useSortedRoutines from './hooks/useSortedRoutines'
-import useFilteredRoutines from './hooks/useFilteredRoutines'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
@@ -36,12 +32,7 @@ export default function HomeScreen(): JSX.Element {
     _setSelectedCategory(selectedCategory === category ? null : category)
   }
 
-  const _sortedRoutines = useSortedRoutines()
-  const filteredRoutines = useFilteredRoutines(
-    _sortedRoutines,
-    selectedCategory,
-    _searchedTxt
-  )
+  const sortedRoutines = useSortedRoutines(selectedCategory, _searchedTxt)
 
   return (
     <Screen>
@@ -65,7 +56,7 @@ export default function HomeScreen(): JSX.Element {
             onSelectCategory={setSelectedCategory}
             style={{ marginBottom: 32 }}
           />
-          <RoutinesSection routines={filteredRoutines} />
+          <RoutinesSection routines={sortedRoutines} />
         </Main>
       </View>
       <BottomNav />
