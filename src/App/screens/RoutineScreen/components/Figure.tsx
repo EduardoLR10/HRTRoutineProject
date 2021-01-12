@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useCallback, useState } from 'react'
 import {
   ImageURISource,
   View,
   Image,
   TouchableOpacity,
-  Modal
+  BackHandler
 } from 'react-native'
 import Icon from '../../../shared/Icon'
 import { BlackPortal } from 'react-native-portal'
@@ -13,6 +13,7 @@ import styled from 'styled-components/native'
 // @ts-ignore
 import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView'
 import { Caption, Subtitle2 } from '../../../shared/typography'
+import { useFocusEffect } from '@react-navigation/native'
 
 export interface FigureProps {
   source: ImageURISource
@@ -27,7 +28,22 @@ export default function Figure({
   title,
   caption
 }: FigureProps): JSX.Element {
-  const [isModalVisible, setIsModalVisible] = React.useState(false)
+  const [isModalVisible, setIsModalVisible] = useState(false)
+  useFocusEffect(
+    useCallback(() => {
+      const onBackPress = () => {
+        if (isModalVisible) {
+          setIsModalVisible(false)
+          return true
+        } else {
+          return false
+        }
+      }
+      BackHandler.addEventListener('hardwareBackPress', onBackPress)
+      return () =>
+        BackHandler.removeEventListener('hardwareBackPress', onBackPress)
+    }, [isModalVisible])
+  )
 
   return (
     <View style={{ marginTop: 8, marginBottom: 16 }}>
