@@ -21,6 +21,7 @@ export interface ListItemProps {
   right?: React.ReactNode
   style?: StyleProp<ViewProps>
   color?: string
+  numberOfLines?: number
 }
 
 export default function ListItem({
@@ -28,14 +29,15 @@ export default function ListItem({
   children,
   right,
   style,
-  color
+  color,
+  numberOfLines = 1
 }: ListItemProps): JSX.Element {
   return (
     <Container style={style}>
       {avatar && <Avatar source={avatar} style={{ marginRight: 16 }} />}
       <Subtitle1
         style={{ marginRight: 16, flex: 1 }}
-        numberOfLines={1}
+        numberOfLines={numberOfLines}
         color={color}
       >
         {children}

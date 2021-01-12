@@ -52,7 +52,9 @@ export default function RoutineScreen(): JSX.Element {
         >
           {routine.sections.map((section, idx) => (
             <TouchableRipple key={section} onPress={() => setSectionIdx(idx)}>
-              <ListItem color={theme.color.onSurface}>{section}</ListItem>
+              <ListItem color={theme.color.onSurface} numberOfLines={0}>
+                {section}
+              </ListItem>
             </TouchableRipple>
           ))}
         </Main>
