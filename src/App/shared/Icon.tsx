@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontAwesome, MaterialIcons } from '@expo/vector-icons'
+import { FontAwesome, MaterialIcons, Feather } from '@expo/vector-icons'
 import { StyleProp, TextStyle } from 'react-native'
 
 export type IconName =
@@ -14,6 +14,7 @@ export type IconName =
   | 'back'
   | 'zoom'
   | 'unzoom'
+  | 'authors'
 
 export interface IconProps {
   name: IconName
@@ -70,6 +71,7 @@ export default function Icon({
     ),
     unzoom: (
       <MaterialIcons name="close" size={size} color={color} style={style} />
-    )
+    ),
+    authors: <Feather name="users" size={size} color={color} style={style} />
   }[name]
 }

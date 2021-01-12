@@ -106,7 +106,16 @@ export default function RoutineItem({
           </ColActions>
         </Header>
         <Footer>
-          <Body numberOfLines={2}>{routineAuthors}</Body>
+          <Body numberOfLines={2}>
+            <Icon
+              name="authors"
+              size={18}
+              color={theme.color.primaryVariant}
+              style={{ marginRight: 8 }}
+            />
+            {'  '}
+            {routineAuthors}
+          </Body>
         </Footer>
       </Col>
     </Container>
