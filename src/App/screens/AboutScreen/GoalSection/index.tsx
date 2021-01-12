@@ -2,8 +2,14 @@ import React from 'react'
 import { Image } from 'react-native'
 import styled from 'styled-components/native'
 import Chip from '../../../shared/Chip'
+import Gap from '../../../shared/Gap'
 import Surface from '../../../shared/Surface'
-import { H2, Overline, Paragraph as P } from '../../../shared/typography'
+import {
+  Subtitle1,
+  H2,
+  Overline,
+  Paragraph as P
+} from '../../../shared/typography'
 import missLemos from './MissLemos.jpg'
 
 const AuthorContainer = styled.View`
@@ -44,7 +50,10 @@ export default function GoalSection(): JSX.Element {
       </P>
       <AuthorContainer>
         <Overline>Supervisora do PRM de Pediatria HRT</Overline>
-        <Chip avatar={missLemos}>Dra. Dania Lemos Dionízio</Chip>
+        <Chip avatar={missLemos} style={{ marginBottom: 16 }}>
+          Dra. Dania Lemos Dionízio
+        </Chip>
+        <Subtitle1>2020</Subtitle1>
       </AuthorContainer>
     </Surface>
   )
