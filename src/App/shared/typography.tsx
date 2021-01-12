@@ -37,7 +37,7 @@ export const Text = styled.Text<{ color?: string }>`
 export const H1 = styled(Text)`
   font-family: Roboto_300Light;
   font-size: 58px;
-  line-height: 54px;
+  line-height: 64px;
   letter-spacing: 1px;
 `
 export const H2 = styled(Text)`
