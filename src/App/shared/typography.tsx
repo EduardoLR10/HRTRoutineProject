@@ -131,6 +131,6 @@ export const Italic = styled(Text)`
   font-style: italic;
 `
 export const Subscript = styled(Text)`
-  font-size: 8px;
+  font-size: 10px;
   text-align-vertical: bottom;
 `
