@@ -1,4 +1,5 @@
-import { useContext } from 'react'
+/* eslint-disable space-before-function-paren */
+import { useContext, useEffect, useState } from 'react'
 import Category from '../../../../models/Category'
 import Routine from '../../../../models/Routine'
 import CategoriesContext from '../../../contexts/CategoriesContext'
@@ -48,7 +49,7 @@ const alphabeticSorter: Sorter = (fp1, fp2) =>
 export default function useSortedRoutines(
   selectedCategory: Category | null,
   searchTxt: string
-): Routine[] {
+): { sortedRoutines: Routine[]; isLoading: boolean } {
   const { routines: routinesDict } = useContext(RoutinesContext)
   const routines = Object.values(routinesDict)
   const { categories } = useContext(CategoriesContext)
@@ -86,9 +87,24 @@ export default function useSortedRoutines(
     lastSeenIdx: lastSeenRoutines.indexOf(routine)
   })
 
-  return routines
-    .map(classifier)
-    .filter(filter)
-    .sort(sorter)
-    .map(({ routine }) => routine)
+  const [sortedRoutines, setSortedRoutines] = useState<Routine[]>([])
+  const [isLoading, setIsLoading] = useState(true)
+  const sort = () => {
+    setSortedRoutines(
+      routines
+        .map(classifier)
+        .filter(filter)
+        .sort(sorter)
+        .map(({ routine }) => routine)
+    )
+  }
+
+  useEffect(() => {
+    setIsLoading(true)
+    setTimeout(() => {
+      sort()
+      setIsLoading(false)
+    }, 0)
+  }, [selectedCategory, searchTxt])
+  return { sortedRoutines, isLoading }
 }
