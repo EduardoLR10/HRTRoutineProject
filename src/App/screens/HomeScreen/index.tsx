@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styled from 'styled-components/native'
+import styled, { useTheme } from 'styled-components/native'
 import Screen, { Main } from './../../shared/Screen'
 import { View } from 'react-native'
 import BottomNav from './../../shared/BottomNav'
@@ -9,11 +9,15 @@ import CategoriesSection from './components/CategoriesSection'
 import RoutinesSection from './components/RoutinesSection'
 import useSortedCategories from './hooks/useSortedCategories'
 import useSortedRoutines from './hooks/useSortedRoutines'
+import Empty from '../../shared/Empty'
+import { Bold, Text } from '../../shared/typography'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
 `
 export default function HomeScreen(): JSX.Element {
+  const theme = useTheme()
+
   const [searchTxt, setSearchTxt] = useState('')
   const [_searchedTxt, _setSearchedTxt] = useState('')
   function onSearch(): void {
@@ -56,7 +60,33 @@ export default function HomeScreen(): JSX.Element {
             onSelectCategory={setSelectedCategory}
             style={{ marginBottom: 32 }}
           />
-          <RoutinesSection routines={sortedRoutines} />
+          {(sortedRoutines.length !== 0 && (
+            <RoutinesSection routines={sortedRoutines} />
+          )) ||
+            (sortedRoutines.length === 0 && (
+              <Empty
+                style={{ padding: 32 }}
+                color={theme.color.onBackground}
+                message={
+                  <Text>
+                    Nenhuma rotina
+                    {selectedCategory && (
+                      <Text>
+                        {' '}
+                        de <Bold>{selectedCategory.name}</Bold>{' '}
+                      </Text>
+                    )}
+                    encontrada
+                    {searchTxt && (
+                      <Text>
+                        {' '}
+                        na busca por <Bold>{searchTxt} </Bold>
+                      </Text>
+                    )}
+                  </Text>
+                }
+              />
+            ))}
         </Main>
       </View>
       <BottomNav />
