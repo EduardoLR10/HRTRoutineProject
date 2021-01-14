@@ -1,5 +1,6 @@
 /* eslint-disable indent */
 import { useNavigation } from '@react-navigation/native'
+import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
 import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native'
 import styled, { useTheme } from 'styled-components/native'
@@ -18,10 +19,9 @@ const Container = styled.TouchableOpacity`
   background: ${props => props.theme.color.surface};
 `
 
-const ColorBar = styled.View<{ color: string }>`
+const ColorBar = styled(LinearGradient)`
   width: 4px;
   border-radius: 100px;
-  background: ${props => props.color};
 `
 
 const Col = styled.View`
@@ -78,7 +78,10 @@ export default function RoutineItem({
       onPress={() => navigation.navigate('Routine', { routineId: routine.id })}
     >
       <ColorBar
-        color={`hsl(${category?.hueTheme}, 100%, 35%)`}
+        colors={[
+          `hsl(${category?.hueTheme}, 100%, 35%)`,
+          `hsl(${category?.hueTheme}, 100%, 80%)`
+        ]}
         style={{ marginRight: 8 }}
       />
       <Col>
