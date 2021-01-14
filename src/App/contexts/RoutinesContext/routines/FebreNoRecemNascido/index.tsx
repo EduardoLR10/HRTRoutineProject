@@ -22,7 +22,7 @@ export default function FebreNoRecemNascido(): JSX.Element {
       id="febre-no-recem-nascido"
       name="Febre no Recém Nascido"
       category="emergencia"
-      authors={['carlos']}
+      authors={['maria']}
       tags={['hipertermia']}
     >
       <Section title="Conceito">
