@@ -235,7 +235,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
               ['Cloreto', '2-3 mEq/l'],
               ['Fosfato', '1-2 mEq/l']
             ]}
-            title="Perdas de Fluidos na CAD e necessidades diárias de manuntenção em Criança Normal"
+            title="Perdas de Fluidos na CAD e necessidades diárias de manutenção em Criança Normal"
           />
         </Subsection>
       </Section>
@@ -460,8 +460,11 @@ export default function CetoacidoseDiabetica(): JSX.Element {
         <P>
           Com insulina intermediária ou longa (NPH ou Glargina), a sobreposição
           deve ser mais longa e a taxa de infusão de insulina gradualmente
-          baixada em 50%: <Italic>a primeira dose da insulina basal deve ser feita à
-          noite e a parada da infusão de insulina contínua é feita pela manhã.</Italic>
+          baixada em 50%:{' '}
+          <Italic>
+            a primeira dose da insulina basal deve ser feita à noite e a parada
+            da infusão de insulina contínua é feita pela manhã.
+          </Italic>
         </P>
         <P>
           “O diagnóstico de DM1 causa um forte impacto sobre o paciente e seus

@@ -4,7 +4,7 @@ export default [
   new Category('cardiologia', 'Cardiologia', 0),
   new Category('emergencia', 'Emergência e Terapia Intensiva', 30),
   new Category('endocrinologia', 'Endocrinologia', 60),
-  new Category('gastroenterologia', 'Gastroenterologia', 90),
+  new Category('gastroenterologia', 'Gastroenterologia', 330),
   new Category(
     'hematologia-reumatologia-nefrologia',
     'Hematologia, Reumatologia e Nefrologia',
