@@ -18,6 +18,7 @@
     "expo-cli": "^4.0.8",
     "expo-file-system": "~9.2.0",
     "expo-font": "^8.3.0",
+    "expo-linear-gradient": "~8.3.0",
     "expo-linking": "^1.0.5",
     "expo-status-bar": "~1.0.2",
     "react": "16.13.1",
