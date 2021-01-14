@@ -11,10 +11,14 @@ import Fernando from './images/Fernando.jpg'
 import Francisco from './images/Francisco.jpg'
 import Iuri from './images/Iuri.jpg'
 import Jose from './images/Jose.jpg'
+// eslint-disable-next-line import/no-duplicates
+import Katia from './images/NONE.png'
 import Luciany from './images/Luciany.jpg'
 import Luiz from './images/Luiz.jpg'
 import Manuela from './images/Manuela.jpg'
 import Marco from './images/Marco.jpg'
+// eslint-disable-next-line import/no-duplicates
+import Maria from './images/NONE.png'
 import Rafael from './images/Rafael.jpg'
 import Renato from './images/Renato.jpg'
 import Roberta from './images/Roberta.jpg'
@@ -93,6 +97,7 @@ export default [
     Jose,
     'http://lattes.cnpq.br/4163983800172589'
   ),
+  new Author('katia', 'Kátia Souza Gonçalves Silveira', Katia, ''),
   new Author(
     'luciany',
     'Luciany Almeida de Carvalho',
@@ -117,6 +122,7 @@ export default [
     Marco,
     'http://lattes.cnpq.br/6523428843592229'
   ),
+  new Author('maria', 'Maria Aparecida Soares Moreira Machado', Maria, ''),
   new Author(
     'rafael',
     'Rafael Belotti Fialho',
