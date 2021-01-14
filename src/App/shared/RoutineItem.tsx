@@ -79,8 +79,8 @@ export default function RoutineItem({
     >
       <ColorBar
         colors={[
-          `hsl(${category?.hueTheme}, 100%, 35%)`,
-          `hsl(${category?.hueTheme}, 100%, 80%)`
+          `hsl(${category?.hueTheme}, 100%, 30%)`,
+          `hsl(${category?.hueTheme}, 100%, 55%)`
         ]}
         style={{ marginRight: 8 }}
       />

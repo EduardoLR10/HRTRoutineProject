@@ -35,8 +35,8 @@ export default function CategoryItem({
       selected={selected === null || selected === category}
       focus={selected === category}
       colors={[
-        `hsl(${category.hueTheme}, 100%, 35%)`,
-        `hsl(${category.hueTheme}, 100%, 50%)`
+        `hsl(${category.hueTheme}, 100%, 30%)`,
+        `hsl(${category.hueTheme}, 100%, 60%)`
       ]}
       start={[0, 0]}
       end={[1, 0]}
