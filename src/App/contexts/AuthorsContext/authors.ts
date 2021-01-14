@@ -11,7 +11,6 @@ import Fernando from './images/Fernando.jpg'
 import Francisco from './images/Francisco.jpg'
 import Iuri from './images/Iuri.jpg'
 import Jose from './images/Jose.jpg'
-import Katia from './images/NONE.png'
 import Luciany from './images/Luciany.jpg'
 import Luiz from './images/Luiz.jpg'
 import Manuela from './images/Manuela.jpg'
@@ -94,12 +93,6 @@ export default [
     'José Moreira Kffuri',
     Jose,
     'http://lattes.cnpq.br/4163983800172589'
-  ),
-  new Author(
-    'katia',
-    'Kátia Souza Gonçalves Silveira',
-    Katia,
-    'http://lattes.cnpq.br/8591755904908251nn'
   ),
   new Author(
     'luciany',
