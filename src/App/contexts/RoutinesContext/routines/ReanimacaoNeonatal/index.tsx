@@ -24,7 +24,7 @@ export default function ReanimacaoNeonatal(): JSX.Element {
       id="reanimacao-neonatal"
       name="Reanimação Neonatal"
       category="emergencia"
-      authors={['carlos']}
+      authors={['carlos', 'katia']}
       tags={['ressucitação', 'ressuscitar', 'recém', 'nascido']}
     >
       <Section title="Aspectos Gerais">
