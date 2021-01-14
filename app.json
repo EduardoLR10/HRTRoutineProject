@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "2.0.0",
   "name": "Rotinas Pediatria HRT",
   "description": "Rotinas hospitalares de pediatria na palma de sua mão.",
   "slug": "rotinas-pediatria-hrt",
@@ -14,10 +14,12 @@
     "ios"
   ],
   "ios": {
-    "bundleIdentifier": "com.luigiminardim.hrtrotinas"
+    "bundleIdentifier": "com.luigiminardim.hrtrotinas",
+    "buildNumber": "2.0.0"
   },
   "android": {
     "package": "com.luigiminardim.hrtrotinas",
+    "versionCode": "2.0.0",
     "adaptiveIcon": {
       "foregroundImage": "./src/assets/logo.png",
       "backgroundColor": "#FFFFFF"
