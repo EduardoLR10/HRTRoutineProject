@@ -4,6 +4,7 @@
   "description": "Rotinas hospitalares de pediatria na palma de sua mão.",
   "slug": "rotinas-pediatria-hrt",
   "icon": "./src/assets/logo.png",
+  "primaryColor": "#0000FF",
   "splash": {
     "image": "./src/assets/splash.png",
     "resizeMode": "contain",
@@ -23,7 +24,8 @@
     "adaptiveIcon": {
       "foregroundImage": "./src/assets/logo.png",
       "backgroundColor": "#FFFFFF"
-    }
+    },
+    "permissions": []
   },
   "orientation": "portrait"
 }
