@@ -24,7 +24,8 @@
     "adaptiveIcon": {
       "foregroundImage": "./src/assets/logo.png",
       "backgroundColor": "#FFFFFF"
-    }
+    },
+    "permissions": []
   },
   "orientation": "portrait"
 }
