@@ -62,6 +62,7 @@ export default function Table({
                 key={column}
                 style={{
                   width: colWidths[column],
+                  flexGrow: colWidths[column],
                   padding: 8,
                   textAlignVertical: 'bottom'
                 }}
@@ -78,6 +79,7 @@ export default function Table({
                 key={column}
                 style={{
                   width: colWidths[column],
+                  flexGrow: colWidths[column],
                   padding: 8
                 }}
               >
