@@ -50,10 +50,8 @@ export default function GoalSection(): JSX.Element {
       </P>
       <AuthorContainer>
         <Overline>Supervisora do PRM de Pediatria HRT</Overline>
-        <Chip avatar={missLemos} style={{ marginBottom: 16 }}>
-          Dra. Dania Lemos Dionízio
-        </Chip>
-        <Subtitle1>2020 - 2021 </Subtitle1>
+        <Chip avatar={missLemos}>Dra. Dania Lemos Dionízio</Chip>
+        <Overline>2020 - 2021</Overline>
       </AuthorContainer>
     </Surface>
   )
