@@ -53,7 +53,7 @@ export default function GoalSection(): JSX.Element {
         <Chip avatar={missLemos} style={{ marginBottom: 16 }}>
           Dra. Dania Lemos Dionízio
         </Chip>
-        <Subtitle1>2020</Subtitle1>
+        <Subtitle1>2020 - 2021 </Subtitle1>
       </AuthorContainer>
     </Surface>
   )
