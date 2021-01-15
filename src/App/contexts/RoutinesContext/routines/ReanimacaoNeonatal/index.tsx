@@ -223,7 +223,7 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             5 minutos ou mais em RN saudáveis que respiram ar ambiente.
           </P>
           <Table
-            colWidths={[100, 100]}
+            colWidths={[150, 200]}
             header={['Minutos de Vida', 'Saturação pré-ductal']}
             data={[
               ['Até 5 minutos', '70 a 80%'],
@@ -396,7 +396,7 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             diafragmática que necessitarem de ventilação com pressão positiva.
           </P>
           <Table
-            colWidths={[100, 100, 100]}
+            colWidths={[150, 150, 250]}
             header={[
               'Idade Gestacional',
               'Peso Estimado',
@@ -441,7 +441,7 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             torácica.
           </P>
           <Table
-            colWidths={[100, 150]}
+            colWidths={[100, 300]}
             header={[
               'Idade Gestacinal',
               'Marca (cm) a ser considerada no lábio superior, para fixação'
@@ -608,15 +608,35 @@ export default function ReanimacaoNeonatal(): JSX.Element {
           ]}
           data={[
             [
-              'Diluição',
+              <Text key={1}>
+                <Bold>Diluição</Bold>
+              </Text>,
               '1 ml de adrenalina em 9 ml de SF a 0,9%',
               '1 ml de adrenalina em 9 ml de SF a 0,9%',
               'SF a 0,9%'
             ],
-            ['Preparo', '5 ml', '1 ml', '2x (20 ml)'],
-            ['Dose', '0,5 - 1,0 ml/Kg', '0,1 - 0,3 ml/Kg', '10 ml/Kg EV'],
             [
-              'Peso ao Nascer\n1 Kg\n2 Kg\n3 Kg\n4 Kg',
+              <Text key={2}>
+                <Bold>Preparo</Bold>
+              </Text>,
+              '5 ml',
+              '1 ml',
+              '2x (20 ml)'
+            ],
+            [
+              <Text key={3}>
+                <Bold>Dose</Bold>
+              </Text>,
+              '0,5 - 1,0 ml/Kg',
+              '0,1 - 0,3 ml/Kg',
+              '10 ml/Kg EV'
+            ],
+            [
+              <Text key={4}>
+                <Bold>
+                  Peso ao Nascer{'\n'}1 Kg{'\n'}2 Kg{'\n'}3 Kg{'\n'}4 Kg
+                </Bold>
+              </Text>,
               '\n0,5 - 1,0 ml\n1,0 - 2,0 ml\n1,5 - 3,0 ml\n2,0 - 4,0 ml',
               '\n0,1 - 0,3 ml\n0,2 - 0,6 ml\n0,3 - 0,9 ml\n0,4 - 1,2 ml',
               '\n10 ml\n20 ml\n30 ml\n40 ml'

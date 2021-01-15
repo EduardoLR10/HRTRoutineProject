@@ -76,9 +76,12 @@ import ParadaCardiorespiratoria from './ParadaCardiorespiratoria'
 import InsuficienciaRespiratoria from './InsuficienciaRespiratoria'
 import ObstrucaoDeViaAereaPorCorpoEstranho from './ObstrucaoDeViaAereaPorCorpoEstranho'
 import HidratacaoVenosaRN from './HidratacaoVenosaRN'
+import CetoacidoseDiabetica from './CetoacidoseDiabetica'
+import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
+import MausTratos from './MausTratos'
+import ParasitosesIntestinais from './ParasitosesIntestinais'
 
 export default [
-  TestRoutine,
   SindromeNefrotica,
   Adenomegalias,
   Afogamento,
@@ -153,5 +156,9 @@ export default [
   ParadaCardiorespiratoria,
   InsuficienciaRespiratoria,
   ObstrucaoDeViaAereaPorCorpoEstranho,
-  HidratacaoVenosaRN
+  HidratacaoVenosaRN,
+  CetoacidoseDiabetica,
+  DengueEOutrasArboviroses,
+  MausTratos,
+  ParasitosesIntestinais
 ].map(contentToRoutine)

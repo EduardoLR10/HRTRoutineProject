@@ -144,19 +144,33 @@ export default function Insulinoterapia(): JSX.Element {
           ]}
           data={[
             [
-              'Análoga de ação rápida\nAspart - (Novorapid)\nGlulisina - (Apidra)\nLispro - (Humalog)',
+              <Text key={1}>
+                <Bold>Análoga de ação rápida</Bold>
+                {'\n'}Aspart - (Novorapid){'\n'}Glulisina - (Apidra){'\n'}Lispro
+                - (Humalog)
+              </Text>,
               '15 minutos',
               '1 - 3 h',
               '3 - 5 h'
             ],
             [
-              'Análoga de ação ultra-rápida\nFiasp (Aspart modificada)',
+              <Text key={2}>
+                <Bold>Análoga de ação ultra-rápida</Bold>
+                {'\n'}Fiasp (Aspart modificada)
+              </Text>,
               '2 - 5 minutos',
               '1 - 2 h',
               '2,5 - 5 h'
             ],
             ['Regular SC (Humilin R)', '0,5 - 1 h', '2 - 4 h', '5 - 8 h'],
-            ['Regular EV (Humilin R)', 'Imediato', '-', '4 a 5 minutos'],
+            [
+              <Text key={3}>
+                Regular <Bold>EV</Bold> (Humilin R)
+              </Text>,
+              'Imediato',
+              '-',
+              '4 a 5 minutos'
+            ],
             ['NPH (Humilin R)', '2 - 4 h', '4 - 12 h', '12 - 24 h'],
             [
               'Glargina (Lantus ou Basaglar)',
@@ -172,8 +186,7 @@ export default function Insulinoterapia(): JSX.Element {
             ],
             ['Degludeca (Tresiba)', '0,5 - 1,5 h', 'Quase sem pico', '> 42 h']
           ]}
-          caption="Tabela 1"
-          title="Tipos de preparações de insulina e perfis de ação sugeridos para administração"
+          title="Tabela 1. Tipos de preparações de insulina e perfis de ação sugeridos para administração"
         />
       </Section>
       <Section title="Concentração de Insulina">
@@ -410,8 +423,12 @@ export default function Insulinoterapia(): JSX.Element {
           </LItem>
         </List>
         <Table
-          colWidths={[100, 100, 100]}
-          header={['Glicemia', 'Sem diabetes (mg/dL)', 'Crianças/adolescentes']}
+          colWidths={[100, 100, 150]}
+          header={[
+            'Glicemia',
+            'Sem diabetes (mg/dL)',
+            'Crianças/adolescentes com DM1#'
+          ]}
           data={[
             ['Jejum ou pré-prandial', '65 a 100', '70 a 130'],
             ['Pós-prandial', '80 a 126', '90 a 180'],
@@ -419,6 +436,7 @@ export default function Insulinoterapia(): JSX.Element {
             ['Na madrugada', '65 a 100', '80 a 140']
           ]}
           caption="O alvo da HbA1c para crianças e adolescentes é 7,5%. DM1: diabetes mellitus tipo 1.  # Segundo a Sociedade Internacional de Diabetes para Pediatria e Adolescência (International Society for Pediatric and Adolescent Diabetes, ISPAD) 2019-2020."
+          title="Tabela 2. Objetivos glicêmicos para indivíduos com e sem DM1 nos diferentes momentos do dia"
         />
       </Section>
       <Section title="Monitorização Glicêmica">
@@ -541,7 +559,7 @@ export default function Insulinoterapia(): JSX.Element {
           no café-da-manhã, se em regime basal-bolus.
         </P>
         <Table
-          colWidths={[100, 100, 100]}
+          colWidths={[50, 100, 100]}
           header={['A1C(%)', 'Média da Glicemia mg/mL', '* mmol/L']}
           data={[
             ['5', '97 (76 - 120)', '5.4 (4.2 - 6.7)'],
@@ -553,24 +571,27 @@ export default function Insulinoterapia(): JSX.Element {
             ['11', '269 (217 - 314)', '14.9 (12.0 - 17.5)'],
             ['12', '298 (240 - 347)', '16.5 (13.3 - 19.3)']
           ]}
-          caption="Tabela 3. Fonte: Diretriz SBD-2019/2020"
-          title="Estimativa de Média de Glicemia (A1C - média das glicemias dos últimos 3 meses)"
+          caption="Fonte: Diretriz SBD-2019/2020"
+          title="Tabela 3. Estimativa de Média de Glicemia (A1C - média das glicemias dos últimos 3 meses)"
         />
       </Section>
       <Section title="Hipoglicemia">
-        <Table
-          colWidths={[200]}
-          header={['']}
-          data={[
-            ['Hipoglicemia nível 1: glicemia entre 70 mg/dL e 54 mg/dL'],
-            ['Hipoglicemia nível 2: glicemia menor que 54 mg/dL'],
-            [
-              'Hipoglicemia nível 3: hipoglicemia grave, associada a prejuízo cognitivo e/ou físico e necessidade de auxilio de terceiros'
-            ]
-          ]}
-          title="Classificação de Hipoglicemia"
-          caption="Tabela 4"
-        />
+        <P>
+          <Bold>Classificação de Hipoglicemia:</Bold>
+        </P>
+        <List>
+          <LItem>
+            <Bold>Hipoglicemia nível 1:</Bold> glicemia entre 70 mg/dl e 54
+            mg/dl
+          </LItem>
+          <LItem>
+            <Bold>Hipoglicemia nível 2:</Bold> glicemia menor que 54 mg/dl
+          </LItem>
+          <LItem>
+            <Bold>Hipoglicemia nível 3:</Bold> hipoglicemia grave, associada a
+            prejuízo cognitivo e/ou físico e necessidade de auxilio de terceiros
+          </LItem>
+        </List>
         <P>
           Tratamento de hipoglicemia pelo peso: peso x 0,3 g de carboidrato = g
           de glicose de absorção rápida. Para simplificar o tratamento da
@@ -592,8 +613,8 @@ export default function Insulinoterapia(): JSX.Element {
               '\n\n3 ampolas\n150 ml\n\n03 unidades\n01 colher de sopa'
             ]
           ]}
-          title="Tratamento da Hipoglecima leve conforme idade, adaptado para alimentos brasileiros"
-          caption="Tabela 5. Adaptado de Canadian Diabetes Association, 2018.149"
+          title="Tabela 4. Tratamento da Hipoglecima leve conforme idade, adaptado para alimentos brasileiros"
+          caption="Adaptado de Canadian Diabetes Association, 2018.149"
         />
       </Section>
       <Section title="Escola, férias, Viagens">

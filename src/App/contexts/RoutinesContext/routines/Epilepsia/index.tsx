@@ -155,7 +155,7 @@ export default function Epilepsia(): JSX.Element {
           aumentar a sua eficácia.
         </P>
         <Table
-          colWidths={[150, 200]}
+          colWidths={[125, 200]}
           header={['Tempo', 'Tratamento']}
           data={[
             [

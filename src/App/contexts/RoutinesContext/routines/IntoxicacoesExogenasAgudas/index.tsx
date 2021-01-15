@@ -166,7 +166,7 @@ export default function IntoxicacoesExogenasAgudas(): JSX.Element {
             estão descritas na tabela abaixo:
           </P>
           <Table
-            colWidths={[100, 100, 100, 100, 100, 100]}
+            colWidths={[130, 100, 100, 100, 150, 150]}
             header={[
               'Síndromes Tóxicas',
               'Sinais Vitais',
@@ -449,7 +449,7 @@ export default function IntoxicacoesExogenasAgudas(): JSX.Element {
             </List>
           </Subsubsection>
           <Table
-            colWidths={[100, 200, 200, 200, 200]}
+            colWidths={[125, 200, 200, 200, 200]}
             header={[
               'Antídoto',
               'Apresentação',
@@ -687,7 +687,7 @@ export default function IntoxicacoesExogenasAgudas(): JSX.Element {
               Tabela abaixo:
             </P>
             <Table
-              colWidths={[100, 150]}
+              colWidths={[100, 250]}
               header={['Zargar', 'Conduta']}
               data={[
                 ['0', 'Alta com orientações'],

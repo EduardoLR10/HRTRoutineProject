@@ -119,14 +119,21 @@ export default function Hematuria(): JSX.Element {
             Micro ou macroscópica; {'<'} 80% de eritrócitos são dismórficos e/ou
             excreção proteica normal ou levemente aumentada; cilindros ausentes.
           </P>
-          <Subsubsection title="Causas Glomerulares">
+          <Subsubsection
+            title={
+              <>
+                <Italic>Causas Glomerulares</Italic>
+              </>
+            }
+          >
             <List>
               <LItem>Hematúria recorrente ou persistente benigna;</LItem>
               <LItem>Esporádica;</LItem>
               <LItem>Familiar.</LItem>
             </List>
-          </Subsubsection>
-          <Subsubsection title="Glomerulopatia Primária">
+            <P>
+              <Bold>Glomerulopatia Primária:</Bold>
+            </P>
             <List>
               <LItem>Glomerulonefrite aguda;</LItem>
               <LItem>Nefrite purpúrica;</LItem>
@@ -136,7 +143,13 @@ export default function Hematuria(): JSX.Element {
               <LItem>Nefropatia por IgA(Berger).</LItem>
             </List>
           </Subsubsection>
-          <Subsubsection title="Causas Extra-glomerulares">
+          <Subsubsection
+            title={
+              <>
+                <Italic>Causas Extra-glomerulares</Italic>
+              </>
+            }
+          >
             <List>
               <LItem>ITU;</LItem>
               <LItem>Hipercalciúria e hiperuricosúria;</LItem>

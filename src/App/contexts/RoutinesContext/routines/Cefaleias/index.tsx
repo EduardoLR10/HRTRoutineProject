@@ -174,7 +174,7 @@ export default function TestRoutine(): JSX.Element {
           luminosidade e som.
         </P>
         <Table
-          colWidths={[150, 150, 200, 200, 150, 150]}
+          colWidths={[125, 100, 150, 200, 100, 100]}
           header={[
             'Medicação',
             'Idade',

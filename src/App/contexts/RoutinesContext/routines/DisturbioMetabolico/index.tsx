@@ -93,7 +93,7 @@ export default function DisturbioMetabolico(): JSX.Element {
           basear em coleta de urina de 24h, em até 3 coletas, se necessário.
         </P>
         <Table
-          colWidths={[100, 100]}
+          colWidths={[100, 200]}
           header={['Idade', 'Ácido Úrico (mg/Kg/24h)']}
           data={[
             ['Pré-Escolar', '< 15'],

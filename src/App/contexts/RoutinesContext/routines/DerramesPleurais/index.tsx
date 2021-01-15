@@ -109,7 +109,7 @@ export default function DerramesPleurais(): JSX.Element {
           celularidade aumentada com predomínio de polimorfonucleares.
         </P>
         <Table
-          colWidths={[200, 200]}
+          colWidths={[200, 125]}
           header={['', '']}
           data={[
             ['Proteína do líquido pleural', '> 3 g/10mL'],

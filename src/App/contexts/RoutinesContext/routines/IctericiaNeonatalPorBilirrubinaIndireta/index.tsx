@@ -306,7 +306,7 @@ export default function IctericianeonatalPorBilirrubinaIndireta(): JSX.Element {
           a maioria dos casos.
         </P>
         <Table
-          colWidths={[100, 50]}
+          colWidths={[150, 125]}
           header={[
             'Causas mais comuns de colestase',
             'Porcentagem dos diagnósticos'

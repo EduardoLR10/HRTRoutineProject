@@ -173,7 +173,13 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             Na SDRA deve-se adotar estratégias ventilatórias que evitem a lesão
             pulmonar induzida pela ventilação mecânica, a LPIV.
           </P>
-          <Subsubsection title="Barotrauma versus volutrauma">
+          <Subsubsection
+            title={
+              <>
+                <Italic>Barotrauma versus volutrauma</Italic>
+              </>
+            }
+          >
             <P>
               O volume corrente excessivo que resulta em hiperinsuflação
               regional, e não a pressão das vias aéreas, é o fator responsável
@@ -188,7 +194,13 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
               complacência.
             </P>
           </Subsubsection>
-          <Subsubsection title="Atelectrauma">
+          <Subsubsection
+            title={
+              <>
+                <Italic>Atelectrauma</Italic>
+              </>
+            }
+          >
             <P>
               Na SDRA, os alvéolos mais dependentes geralmente atingem um volume
               crítico de fechamento no final da expiração, resultando em colapso

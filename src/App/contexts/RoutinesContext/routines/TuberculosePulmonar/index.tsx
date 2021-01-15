@@ -144,228 +144,231 @@ export default function TuberculosePulmonar(): JSX.Element {
           Há predomínio da localização pulmonar sobre as demais formas de
           tuberculose, isto é, as formas extrapulmonares.
         </P>
-        <Subsection title="Quadro Clínico">
-          <P>
-            Enquanto adolescentes expressam uma doença com padrão semelhante ao
-            do adulto, crianças menores possuem uma apresentação frequentemente
-            inespecífica e oligossintomática, constituindo, portanto, a faixa
-            etária de maior dificuldade diagnóstica, bem como de maior risco de
-            evolução para doença grave e morte.
-          </P>
-          <P>
-            Os sintomas nas crianças geralmente são inespecíficos e se confundem
-            com infecções próprias da infância, o que dificulta a avaliação. Na
-            suspeita de tuberculose, deve-se procurar a tríade clássica: redução
-            do apetite, perda de peso e tosse crônica.
-          </P>
-          <P>
-            Pode haver febre, habitualmente moderada, persistente por mais de 15
-            dias e frequentemente vespertina. São comuns: irritabilidade, tosse,
-            perda de peso, sudorese noturna, às vezes profusa; a hemoptise é
-            rara. Podem ocorrer sibilos quando a adenopatia mediastinal comprime
-            um brônquio, possibilitando inclusive uma atelectasia do segmento
-            adjacente ao brônquio. Também é importante pensar-se em tuberculose
-            em casos de pneumonia que não apresentam melhora com o uso de
-            antimicrobianos para germes comuns.
-          </P>
-        </Subsection>
-        <Subsection title="Quadro Radiológico">
-          <P>
-            Os achados radiográficos da tuberculose pulmonar são muito variados.
-            Os mais sugestivos são: adenomegalias hilares e/ou paratraqueais
-            (gânglios mediastínicos aumentados de volume); pneumonias com
-            qualquer aspecto radiológico, de evolução lenta, às vezes associadas
-            a adenomegalias mediastínicas, ou que cavitam durante a evolução;
-            infiltrado nodular difuso (<Italic>padrão miliar</Italic>). A
-            tuberculose pulmonar pode cursar com qualquer padrão radiológico,
-            daí a grande dificuldade de se pensar precocemente na doença durante
-            a evolução de pneumonias na infância. Entretanto, sempre deve ser
-            feito o diagnóstico diferencial com tuberculose, em crianças com
-            pneumonia de evolução lenta, isto é, quando o paciente vem sendo
-            tratado com antibióticos para germes comuns sem apresentar melhora
-            após duas semanas. Este, aliás, é muitas vezes um critério
-            diagnóstico de tuberculose infantil.
-          </P>
-        </Subsection>
-        <Subsection title="Teste Tuberculínico">
-          <P>
-            Indicada como método auxiliar no diagnóstico da tuberculose, a prova
-            tuberculínica positiva, isoladamente, indica apenas infecção e não é
-            suficiente para o diagnóstico da tuberculose-doença.
-          </P>
-          <P>
-            No Brasil, a tuberculina usada é o PPD RT23, aplicada por via
-            intradérmica, no terço médio da face anterior do antebraço esquerdo,
-            na dose de 0,1ml.
-          </P>
-          <P>
-            A leitura da prova tuberculínica é realizada 72 a 96 horas após a
-            aplicação, medindo-se, com régua milimetrada, o maior diâmetro
-            transverso da área de endurecimento palpável. O resultado,
-            registrado em milímetros, classifica-se como:
-          </P>
-          <List>
-            <LItem>
-              0mm a 4mm – <Bold>não reator</Bold> – indivíduo não infectado pelo
-              M. tuberculosis ou com hipersensibilidade reduzida.
-            </LItem>
-            <LItem>
-              5mm a 9mm – <Bold>reator fraco</Bold> – indivíduo vacinado com BCG
-              ou infectado pelo M. tuberculosis ou por outras micobactérias.
-            </LItem>
-            <LItem>
-              10mm ou mais – <Bold>reator forte</Bold> – indivíduo infectado
-              pelo <Italic>M. tuberculosis</Italic>, que pode estar doente ou
-              não, e indivíduos vacinados com BCG nos últimos dois anos.
-            </LItem>
-            <LItem>
-              Algumas circunstâncias podem interferir no resultado das provas
-              tuberculínicas, como, por exemplo:
-            </LItem>
-            <LItem>
-              Portadores de doenças imunodepressoras (sarcoidose, Aids,
-              neoplasias de cabeça e pescoço, doenças linfoproliferativas e
-              outras neoplasias).
-            </LItem>
-            <LItem>
-              Situações com imunodepressão transitória (vacinação com vírus
-              vivos, gravidez, tratamentos com corticosteróides e drogas
-              imunodepressoras, crianças com menos de dois meses de vida, idade
-              acima de 65 anos).
-            </LItem>
-          </List>
-          <P>
-            Todos os indivíduos infectados pelo HIV devem ser submetidos à prova
-            tuberculínica. Nesses casos, considera-se reator aquele que
-            apresenta endurecimento de 5mm ou mais, e não reator aquele com
-            endurecimento entre 0mm e 4mm.
-          </P>
-          <P>
-            Nos indivíduos{' '}
-            <Bold>vacinados bom BCG, sobretudo nos imunizados até 2 anos</Bold>,
-            a prova tuberculínica deve ser interpretada com{' '}
-            <Bold>
-              <Italic>cautela</Italic>
-            </Bold>
-            . Pode ser interpretado como sugestivo de infecção pelo{' '}
-            <Italic>M. tuberculosis</Italic> quando superior a 10mm em crianças
-            não vacinadas com BCG ou vacinadas há mais de dois anos; ou superior
-            a 15mm em crianças vacinadas com BCG há menos de dois anos.
-          </P>
-        </Subsection>
-        <Subsection title="Contato com Adulto com Tuberculose">
-          <P>
-            Muitas vezes, esses são as fontes de contágio para a criança. A
-            história de contágio com adulto tuberculoso deve ser valorizada,
-            principalmente, nas crianças até a idade escolar. Indagar sobre
-            pessoas que estejam tossindo em casa, com “resfriado” prolongado e
-            emagrecendo. Os adultos com mais de três semanas de tosse sem causas
-            aparentes são considerados sintomáticos respiratórios e deveriam
-            realizar baciloscopia de escarro.
-          </P>
-        </Subsection>
-        <Subsection title="Exame Bacteriológico">
-          <List>
-            <LItem>
-              Exame direto (pesquisa de BAAR): A pesquisa do{' '}
-              <Italic>Mycobacterium tuberculosis</Italic> deve ser sempre
-              tentada através do <Bold>exame de escarro</Bold> nas crianças
-              capazes de expectorar, a partir dos 5 ou 6 anos, ou nas menores,
-              através do
-              <Bold>lavado gástrico</Bold>. O lavado gástrico requer jejum e
-              pouca mobilidade ao acordar, portanto deverá ser realizado somente
-              em pacientes internados. Pelas características da doença em
-              crianças (paucibacilar), podem ser necessários vários exames para
-              se ter uma amostra positiva.
-            </LItem>
-            <LItem>
-              Cultura para micobactéria: está indicada nos casos suspeitos que
-              se mantêm com baciloscopia negativa, nas situações de falência
-              terapêutica (para observação de resistência) e nas formas
-              extrapulmonares (cultura do líquor, sangue, urina, fezes, aspirado
-              ganglionar, líquido pleural, líquido pericárdico e macerado de
-              biópsia).
-            </LItem>
-          </List>
-        </Subsection>
-        <Subsection title="Histopatológico">
-          <P>
-            É um método empregado principalmente na investigação das formas
-            extrapulmonares. A lesão apresenta-se como um granuloma, geralmente
-            com necrose de caseificação e infiltrado histiocitário de células
-            multinucleadas. Como esta apresentação ocorre em outras doenças, o
-            achado de BAAR na lesão é fundamental para auxiliar o diagnóstico de
-            tuberculose.
-          </P>
-          <Subsubsection title="Hemocultura">
-            <P>
-              Está indicada em pacientes portadores do HIV ou com AIDS e que
-              haja suspeita de doença micobacteriana disseminada.
-            </P>
-          </Subsubsection>
-        </Subsection>
-        <Subsection title="Diagnóstico pelo Escore do Ministério da Saúde (MS)">
-          <P>
-            Considerando as singularidades do diagnóstico na criança, o MS
-            recomenda que o diagnóstico de tuberculose pulmonar em crianças e em
-            adolescentes (negativos à baciloscopia) seja realizado com base no
-            sistema de pontuação ou escore. Esse sistema valoriza dados
-            clínicos, radiológicos e epidemiológicos e não envolve a confirmação
-            bacteriológica, sabidamente difícil na infância.
-          </P>
-          <P>
-            A utilização do escore propicia diagnóstico e intervenção
-            terapêutica precoces mesmo em unidades básicas de saúde, sem a
-            necessidade de exames complementares mais sofisticados e/ou
-            profissionais especializados.
-          </P>
-          <Table
-            colWidths={[200, 200, 200, 200]}
-            header={[
-              'Quadro Clínico-Radiológico',
-              'Contato de Adultos com Tuberculose',
-              'Teste / Prova\nTuberculínico',
-              'Estado Nutricional'
-            ]}
-            data={[
-              [
-                'Febre ou sintomas como tosse, adinamia, expectoração, emagrecimento, sudorese por 2 semanas ou mais\n\n15 PONTOS',
-                'Adenomegalia hilar ou padrão miliar\nE/OU\nCondensação ou infiltrado (com ou sem escavação) inalterado por 2 semanas ou mais\nE/OU\nCondosação ou infiltrado (com ou sem escavação) por 2 semanas ou mais evoluindo com piora ou sem melhora com antibióticos para germes comuns\n\n15 PONTOS',
-                'Próximo, nos últimos 2 anos\n\n10 PONTOS',
-                'PT entre 5-9mm\n\n5 PONTOS\nPT ≥ 10mm\n\n10 PONTOS',
-                'Destruição grave (peso < percentil 10)\n\n5 PONTOS'
-              ],
-              [
-                'Assintomático ou com sintomas há menos de 2 semanas\n\n0 PONTOS\nInfeccção respiratória com melhora após uso de antibióticos para germes comuns ou sem antibióticos\n\n-10 PONTOS',
-                'Condensação ou infiltrado de qualquer tipo por menos de 2 semanas\n\n5 PONTOS\nRadigrafia Normal\n\n-5 PONTOS',
-                'Ocasional ou Negativo\n\n0 PONTOS',
-                'PT < 5mm\n\n0 PONTOS',
-                'Peso ≥ percentil 10\n\n0 PONTOS'
-              ]
-            ]}
-          />
-          <P>
-            <Bold>Interpretação:</Bold>
-          </P>
-          <List>
-            <LItem>
-              ≥ 40 pontos (diagnóstico muito provável): recomenda-se iniciar o
-              tratamento da tuberculose.
-            </LItem>
-            <LItem>
-              30 a 35 pontos (diagnóstico possível): indicativo de tuberculose;
-              orienta-se iniciar o tratamento a critério médico.
-            </LItem>
-            <LItem>
-              {'<'} 25 pontos (diagnóstico pouco provável): deve-se prosseguir
-              com a investigação na criança. Deverá ser feito diagnóstico
-              diferencial com outras doenças pulmonares e podem ser empregados
-              métodos complementares de diagnóstico, como baciloscopias e
-              cultura de escarro induzido ou de lavado gástrico, broncoscopia,
-              histopatológico de punções e outros exames de métodos rápidos.
-            </LItem>
-          </List>
-        </Subsection>
+      </Section>
+      <Section title="Quadro Clínico">
+        <P>
+          Enquanto adolescentes expressam uma doença com padrão semelhante ao do
+          adulto, crianças menores possuem uma apresentação frequentemente
+          inespecífica e oligossintomática, constituindo, portanto, a faixa
+          etária de maior dificuldade diagnóstica, bem como de maior risco de
+          evolução para doença grave e morte.
+        </P>
+        <P>
+          Os sintomas nas crianças geralmente são inespecíficos e se confundem
+          com infecções próprias da infância, o que dificulta a avaliação. Na
+          suspeita de tuberculose, deve-se procurar a tríade clássica: redução
+          do apetite, perda de peso e tosse crônica.
+        </P>
+        <P>
+          Pode haver febre, habitualmente moderada, persistente por mais de 15
+          dias e frequentemente vespertina. São comuns: irritabilidade, tosse,
+          perda de peso, sudorese noturna, às vezes profusa; a hemoptise é rara.
+          Podem ocorrer sibilos quando a adenopatia mediastinal comprime um
+          brônquio, possibilitando inclusive uma atelectasia do segmento
+          adjacente ao brônquio. Também é importante pensar-se em tuberculose em
+          casos de pneumonia que não apresentam melhora com o uso de
+          antimicrobianos para germes comuns.
+        </P>
+      </Section>
+      <Section title="Quadro Radiológico">
+        <P>
+          Os achados radiográficos da tuberculose pulmonar são muito variados.
+          Os mais sugestivos são: adenomegalias hilares e/ou paratraqueais
+          (gânglios mediastínicos aumentados de volume); pneumonias com qualquer
+          aspecto radiológico, de evolução lenta, às vezes associadas a
+          adenomegalias mediastínicas, ou que cavitam durante a evolução;
+          infiltrado nodular difuso (<Italic>padrão miliar</Italic>). A
+          tuberculose pulmonar pode cursar com qualquer padrão radiológico, daí
+          a grande dificuldade de se pensar precocemente na doença durante a
+          evolução de pneumonias na infância. Entretanto, sempre deve ser feito
+          o diagnóstico diferencial com tuberculose, em crianças com pneumonia
+          de evolução lenta, isto é, quando o paciente vem sendo tratado com
+          antibióticos para germes comuns sem apresentar melhora após duas
+          semanas. Este, aliás, é muitas vezes um critério diagnóstico de
+          tuberculose infantil.
+        </P>
+      </Section>
+      <Section title="Teste Tuberculínico">
+        <P>
+          Indicada como método auxiliar no diagnóstico da tuberculose, a prova
+          tuberculínica positiva, isoladamente, indica apenas infecção e não é
+          suficiente para o diagnóstico da tuberculose-doença.
+        </P>
+        <P>
+          No Brasil, a tuberculina usada é o PPD RT23, aplicada por via
+          intradérmica, no terço médio da face anterior do antebraço esquerdo,
+          na dose de 0,1ml.
+        </P>
+        <P>
+          A leitura da prova tuberculínica é realizada 72 a 96 horas após a
+          aplicação, medindo-se, com régua milimetrada, o maior diâmetro
+          transverso da área de endurecimento palpável. O resultado, registrado
+          em milímetros, classifica-se como:
+        </P>
+        <List>
+          <LItem>
+            0mm a 4mm – <Bold>não reator</Bold> – indivíduo não infectado pelo
+            M. tuberculosis ou com hipersensibilidade reduzida.
+          </LItem>
+          <LItem>
+            5mm a 9mm – <Bold>reator fraco</Bold> – indivíduo vacinado com BCG
+            ou infectado pelo M. tuberculosis ou por outras micobactérias.
+          </LItem>
+          <LItem>
+            10mm ou mais – <Bold>reator forte</Bold> – indivíduo infectado pelo{' '}
+            <Italic>M. tuberculosis</Italic>, que pode estar doente ou não, e
+            indivíduos vacinados com BCG nos últimos dois anos.
+          </LItem>
+          <LItem>
+            Algumas circunstâncias podem interferir no resultado das provas
+            tuberculínicas, como, por exemplo:
+          </LItem>
+          <LItem>
+            Portadores de doenças imunodepressoras (sarcoidose, Aids, neoplasias
+            de cabeça e pescoço, doenças linfoproliferativas e outras
+            neoplasias).
+          </LItem>
+          <LItem>
+            Situações com imunodepressão transitória (vacinação com vírus vivos,
+            gravidez, tratamentos com corticosteróides e drogas
+            imunodepressoras, crianças com menos de dois meses de vida, idade
+            acima de 65 anos).
+          </LItem>
+        </List>
+        <P>
+          Todos os indivíduos infectados pelo HIV devem ser submetidos à prova
+          tuberculínica. Nesses casos, considera-se reator aquele que apresenta
+          endurecimento de 5mm ou mais, e não reator aquele com endurecimento
+          entre 0mm e 4mm.
+        </P>
+        <P>
+          Nos indivíduos{' '}
+          <Bold>vacinados bom BCG, sobretudo nos imunizados até 2 anos</Bold>, a
+          prova tuberculínica deve ser interpretada com{' '}
+          <Bold>
+            <Italic>cautela</Italic>
+          </Bold>
+          . Pode ser interpretado como sugestivo de infecção pelo{' '}
+          <Italic>M. tuberculosis</Italic> quando superior a 10mm em crianças
+          não vacinadas com BCG ou vacinadas há mais de dois anos; ou superior a
+          15mm em crianças vacinadas com BCG há menos de dois anos.
+        </P>
+      </Section>
+      <Section title="Contato com Adulto com Tuberculose">
+        <P>
+          Muitas vezes, esses são as fontes de contágio para a criança. A
+          história de contágio com adulto tuberculoso deve ser valorizada,
+          principalmente, nas crianças até a idade escolar. Indagar sobre
+          pessoas que estejam tossindo em casa, com “resfriado” prolongado e
+          emagrecendo. Os adultos com mais de três semanas de tosse sem causas
+          aparentes são considerados sintomáticos respiratórios e deveriam
+          realizar baciloscopia de escarro.
+        </P>
+      </Section>
+      <Section title="Exame Bacteriológico">
+        <List>
+          <LItem>
+            Exame direto (pesquisa de BAAR): A pesquisa do{' '}
+            <Italic>Mycobacterium tuberculosis</Italic> deve ser sempre tentada
+            através do <Bold>exame de escarro</Bold> nas crianças capazes de
+            expectorar, a partir dos 5 ou 6 anos, ou nas menores, através do
+            <Bold>lavado gástrico</Bold>. O lavado gástrico requer jejum e pouca
+            mobilidade ao acordar, portanto deverá ser realizado somente em
+            pacientes internados. Pelas características da doença em crianças
+            (paucibacilar), podem ser necessários vários exames para se ter uma
+            amostra positiva.
+          </LItem>
+          <LItem>
+            Cultura para micobactéria: está indicada nos casos suspeitos que se
+            mantêm com baciloscopia negativa, nas situações de falência
+            terapêutica (para observação de resistência) e nas formas
+            extrapulmonares (cultura do líquor, sangue, urina, fezes, aspirado
+            ganglionar, líquido pleural, líquido pericárdico e macerado de
+            biópsia).
+          </LItem>
+        </List>
+      </Section>
+      <Section title="Histopatológico">
+        <P>
+          É um método empregado principalmente na investigação das formas
+          extrapulmonares. A lesão apresenta-se como um granuloma, geralmente
+          com necrose de caseificação e infiltrado histiocitário de células
+          multinucleadas. Como esta apresentação ocorre em outras doenças, o
+          achado de BAAR na lesão é fundamental para auxiliar o diagnóstico de
+          tuberculose.
+        </P>
+      </Section>
+      <Section title="Hemocultura">
+        <P>
+          Está indicada em pacientes portadores do HIV ou com AIDS e que haja
+          suspeita de doença micobacteriana disseminada.
+        </P>
+      </Section>
+      <Section title="Diagnóstico pelo Escore do Ministério da Saúde (MS)">
+        <P>
+          Considerando as singularidades do diagnóstico na criança, o MS
+          recomenda que o diagnóstico de tuberculose pulmonar em crianças e em
+          adolescentes (negativos à baciloscopia) seja realizado com base no
+          sistema de pontuação ou escore. Esse sistema valoriza dados clínicos,
+          radiológicos e epidemiológicos e não envolve a confirmação
+          bacteriológica, sabidamente difícil na infância.
+        </P>
+        <P>
+          A utilização do escore propicia diagnóstico e intervenção terapêutica
+          precoces mesmo em unidades básicas de saúde, sem a necessidade de
+          exames complementares mais sofisticados e/ou profissionais
+          especializados.
+        </P>
+        <Table
+          colWidths={[200, 200, 200, 200]}
+          header={[
+            'Quadro Clínico-Radiológico',
+            'Contato de Adultos com Tuberculose',
+            'Teste / Prova\nTuberculínico',
+            'Estado Nutricional'
+          ]}
+          data={[
+            [
+              'Febre ou sintomas como tosse, adinamia, expectoração, emagrecimento, sudorese por 2 semanas ou mais\n\n15 PONTOS\nAdenomegalia hilar ou padrão miliar\nE/OU\nCondensação ou infiltrado (com ou sem escavação) inalterado por 2 semanas ou mais\nE/OU\nCondensação ou infiltrado (com ou sem escavação) por 2 semanas ou mais evoluindo com piora ou sem melhora com antibióticos para germes comuns\n\n15 PONTOS',
+              'Próximo, nos últimos 2 anos\n\n10 PONTOS',
+              'PT entre 5-9mm\n\n5 PONTOS\nPT ≥ 10mm\n\n10 PONTOS',
+              'Destruição grave (peso < percentil 10)\n\n5 PONTOS'
+            ],
+            [
+              'Assintomático ou com sintomas há menos de 2 semanas\n\n0 PONTOS\nCondensação ou infiltrado de qualquer tipo por menos de 2 semanas\n\n5 PONTOS\nRadigrafia Normal\n\n-5 PONTOS',
+              'Ocasional ou Negativo\n\n0 PONTOS',
+              'PT < 5mm\n\n0 PONTOS',
+              'Peso ≥ percentil 10\n\n0 PONTOS'
+            ],
+            [
+              'Infeccção respiratória com melhora após uso de antibióticos para germes comuns ou sem antibióticos\n\n-10 PONTOS',
+              'Ocasional ou Negativo\n\n0 PONTOS',
+              'PT < 5mm\n\n0 PONTOS',
+              'Peso ≥ percentil 10\n\n0 PONTOS'
+            ]
+          ]}
+        />
+        <P>
+          <Bold>Interpretação:</Bold>
+        </P>
+        <List>
+          <LItem>
+            ≥ 40 pontos (diagnóstico muito provável): recomenda-se iniciar o
+            tratamento da tuberculose.
+          </LItem>
+          <LItem>
+            30 a 35 pontos (diagnóstico possível): indicativo de tuberculose;
+            orienta-se iniciar o tratamento a critério médico.
+          </LItem>
+          <LItem>
+            {'<'} 25 pontos (diagnóstico pouco provável): deve-se prosseguir com
+            a investigação na criança. Deverá ser feito diagnóstico diferencial
+            com outras doenças pulmonares e podem ser empregados métodos
+            complementares de diagnóstico, como baciloscopias e cultura de
+            escarro induzido ou de lavado gástrico, broncoscopia,
+            histopatológico de punções e outros exames de métodos rápidos.
+          </LItem>
+        </List>
       </Section>
       <Section title="Indicações de Internação">
         <P>

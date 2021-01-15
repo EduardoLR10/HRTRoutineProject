@@ -89,7 +89,7 @@ export default function Crupe(): JSX.Element {
             do acometimento das vias aéreas.
           </P>
           <Table
-            colWidths={[200, 200, 200]}
+            colWidths={[100, 200, 200]}
             header={['Região', 'Denominação', 'Características']}
             data={[
               ['Laringe', 'Laringite', 'Rouquidão, tosse ladrante'],
@@ -122,11 +122,10 @@ export default function Crupe(): JSX.Element {
             agentes os vírus parainfluenza (tipos 1, 2 e 3) (70-75% dos casos),
             influenza A e B, vírus sincicial respiratório e adenovírus. Em
             crianças maiores de 5 anos tem importância etiológica o{' '}
-            <Text style={{ fontStyle: 'italic' }}>Mycoplasma pneumoniae</Text>.
-            Dentre os agentes bacterianos causadores de infecção secundária,
-            destacam-se <Text style={{ fontStyle: 'italic' }}>S. aureus</Text>,{' '}
-            <Text style={{ fontStyle: 'italic' }}>S. pyogenes</Text> e{' '}
-            <Text style={{ fontStyle: 'italic' }}>S. pneumoniae</Text>.
+            <Italic>Mycoplasma pneumoniae</Italic>. Dentre os agentes
+            bacterianos causadores de infecção secundária, destacam-se{' '}
+            <Italic>S. aureus</Italic>, <Italic>S. pyogenes</Italic> e{' '}
+            <Italic>S. pneumoniae</Italic>.
           </P>
         </Subsection>
         <Subsection title="Quadro Clínico">
@@ -143,7 +142,7 @@ export default function Crupe(): JSX.Element {
             obstrução das vias aéreas, baseados em sinais e sintomas clínicos.
           </P>
           <Table
-            colWidths={[150, 150, 150, 150, 150]}
+            colWidths={[100, 100, 100, 100, 100]}
             header={['Sinal', '0', '1', '2', '3']}
             data={[
               [
@@ -264,7 +263,7 @@ export default function Crupe(): JSX.Element {
             </P>
           </Subsubsection>
           <Table
-            colWidths={[150, 200]}
+            colWidths={[125, 200]}
             header={['Gravidade dos Sintomas', 'Intervenção']}
             data={[
               [
@@ -291,7 +290,7 @@ export default function Crupe(): JSX.Element {
               idade da criança.
             </P>
             <Table
-              colWidths={[150, 150]}
+              colWidths={[125, 125]}
               header={['Idade do Paciente', 'Diâmetro Interno']}
               data={[
                 ['0 a 6 meses', '3,0 - 3,5'],
@@ -328,7 +327,7 @@ export default function Crupe(): JSX.Element {
         </Subsection>
         <Subsection title="Diagnósticos Diferenciais">
           <Table
-            colWidths={[150, 150, 150, 150, 150]}
+            colWidths={[125, 150, 150, 150, 150]}
             header={[
               'Aspectos',
               'Crupe Viral',
@@ -384,7 +383,7 @@ export default function Crupe(): JSX.Element {
                 'Hiperemia de faringe Epiglote normal',
                 'Hiperemia de faringe\nEpiglote normal',
                 'Salivação intensa\nEpiglote em "cereja"',
-                'hiperemia de faringe\nSecreção purulenta'
+                'Hiperemia de faringe\nSecreção purulenta'
               ],
               [
                 'Sintomas Circulatórios',
