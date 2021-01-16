@@ -1,18 +1,16 @@
 import React from 'react'
-import { useTheme } from 'styled-components'
 import { Animated, ScrollView, View } from 'react-native'
 import { useRoute } from '@react-navigation/native'
-import { TouchableRipple } from 'react-native-paper'
 import Screen, { Main } from '../../shared/Screen'
 import RoutinesContext from '../../contexts/RoutinesContext'
 import UserContext from '../../contexts/UserContext'
 import { WhitePortal } from 'react-native-portal'
 import SideMenu from 'react-native-side-menu'
-import ListItem from '../../shared/ListItem'
 import Appbar from './components/Appbar'
 import RoutineHeader from './components/RoutineHeader'
 import { SectionProvider } from './contexts/SectionContext'
 import Button from '../../shared/Button'
+import SectionMenu from './components/SectionMenu'
 
 export interface RoutineScreenParams {
   routineId: string
@@ -37,49 +35,16 @@ export default function RoutineScreen(): JSX.Element {
     refScroll.current?.scrollTo({ y: 0, animated: true })
   }
 
-  function Menu() {
-    const theme = useTheme()
-
-    return (
-      <Screen>
-        <Main
-          style={{
-            backgroundColor: theme.color.surface,
-            marginLeft: 4,
-            borderRightWidth: 4,
-            borderRightColor: theme.color.primaryVariant
-          }}
-        >
-          {routine.sections.map((section, idx) => (
-            <TouchableRipple
-              key={section}
-              style={{
-                backgroundColor:
-                  sectionIdx === idx ? theme.color.primaryVariant : undefined
-              }}
-              onPress={() => setSectionIdx(idx)}
-            >
-              <ListItem
-                color={
-                  sectionIdx === idx
-                    ? theme.color.onPrimary
-                    : theme.color.onSurface
-                }
-                numberOfLines={0}
-              >
-                {section}
-              </ListItem>
-            </TouchableRipple>
-          ))}
-        </Main>
-      </Screen>
-    )
-  }
-
   return (
     <SectionProvider sectionIdx={sectionIdx} setSectionIdx={setSectionIdx}>
       <SideMenu
-        menu={<Menu />}
+        menu={
+          <SectionMenu
+            routine={routine}
+            sectionIdx={sectionIdx}
+            onSectionIdxChange={setSectionIdx}
+          />
+        }
         menuPosition="left"
         isOpen={isMenuOpened}
         onChange={setIsMenuOpened}
