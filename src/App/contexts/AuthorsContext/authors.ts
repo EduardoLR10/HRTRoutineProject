@@ -120,7 +120,7 @@ export default [
   ),
   new Author(
     'maria',
-    'Maria Aparecida S. M. Machado',
+    'Maria Aparecida Moreira',
     Maria,
     'http://lattes.cnpq.br/8591755904908251'
   ),
