@@ -23,7 +23,7 @@ export default function AnemiaFalciforme(): JSX.Element {
       name="Anemia Falciforme"
       category="hematologia-reumatologia-nefrologia"
       authors={['dania', 'fabricio']}
-      tags={['doença', 'hemulítica']}
+      tags={['doença', 'hemolítica']}
     >
       <Section title="Introdução">
         <P>
