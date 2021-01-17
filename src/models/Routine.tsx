@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 
-import React from 'react'
+import React, { useContext } from 'react'
 import { View } from 'react-native'
 import SectionContext from '../App/screens/RoutineScreen/contexts/SectionContext'
 
@@ -25,13 +25,14 @@ export interface RoutineContentProps {
   children?: JSX.Element | JSX.Element[]
 }
 export function RoutineContent({ children }: RoutineContentProps): JSX.Element {
-  const { sectionIdx } = React.useContext(SectionContext)
+  const { sectionIdx } = useContext(SectionContext)
   const section = children.filter
     ? children.filter((_, idx) => sectionIdx === idx)
     : children
 
   return <View style={{ paddingHorizontal: 4 }}>{section}</View>
 }
+
 export function contentToRoutine(Content: () => JSX.Element): Routine {
   const elementContent = Content()
   const { id, name, category, authors, tags } = elementContent.props

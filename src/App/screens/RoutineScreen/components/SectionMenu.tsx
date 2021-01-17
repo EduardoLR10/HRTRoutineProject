@@ -1,21 +1,21 @@
-import React from 'react'
+import { useRoute } from '@react-navigation/native'
+import React, { useContext } from 'react'
 import { TouchableRipple } from 'react-native-paper'
 import { useTheme } from 'styled-components/native'
-import Routine from '../../../../models/Routine'
+import { RoutineScreenParams } from '..'
+import RoutinesContext from '../../../contexts/RoutinesContext'
 import ListItem from '../../../shared/ListItem'
 import Screen, { Main } from '../../../shared/Screen'
+import SectionContext from '../contexts/SectionContext'
 
-export interface SectionMenuProps {
-  routine: Routine
-  sectionIdx: number
-  onSectionIdxChange: (sectionIdx: number) => void
-}
-export default function SectionMenu({
-  routine,
-  sectionIdx,
-  onSectionIdxChange
-}: SectionMenuProps): JSX.Element {
+export default function SectionMenu(): JSX.Element {
   const theme = useTheme()
+
+  const { routineId } = useRoute().params as RoutineScreenParams
+  const { routines } = useContext(RoutinesContext)
+  const routine = routines[routineId]
+
+  const { sectionIdx, setSectionIdx } = useContext(SectionContext)
 
   return (
     <Screen>
@@ -34,7 +34,7 @@ export default function SectionMenu({
               backgroundColor:
                 sectionIdx === idx ? theme.color.primaryVariant : undefined
             }}
-            onPress={() => onSectionIdxChange(idx)}
+            onPress={() => setSectionIdx(idx)}
           >
             <ListItem
               color={
