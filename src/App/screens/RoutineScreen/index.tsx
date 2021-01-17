@@ -15,10 +15,12 @@ import SectionContext, { SectionProvider } from './contexts/SectionContext'
 import Button from '../../shared/Button'
 import SectionMenu from './components/SectionMenu'
 import { createDrawerNavigator } from '@react-navigation/drawer'
+import { useTheme } from 'styled-components/native'
 
 const Drawer = createDrawerNavigator()
 
 function RoutineMain(): JSX.Element {
+  const theme = useTheme()
   const { routines } = useContext(RoutinesContext)
   const route = useRoute()
   const routine = routines[route.name]
@@ -28,10 +30,10 @@ function RoutineMain(): JSX.Element {
   useEffect(() => mainRef.current?.scrollTo({ y: 0 }), [sectionIdx])
 
   return (
-    <Screen>
+    <Screen style={{ backgroundColor: theme.color.surface }}>
       <Appbar
         routine={routine}
-        onOpenMenu={() => navigation.dispatch(DrawerActions.openDrawer)}
+        onOpenMenu={() => navigation.dispatch(DrawerActions.openDrawer())}
       />
       <Main ref={mainRef}>
         <RoutineHeader routine={routine} style={{ marginBottom: 32 }} />

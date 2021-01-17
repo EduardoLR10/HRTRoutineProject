@@ -6,6 +6,7 @@ import { RoutineScreenParams } from '..'
 import RoutinesContext from '../../../contexts/RoutinesContext'
 import ListItem from '../../../shared/ListItem'
 import Screen, { Main } from '../../../shared/Screen'
+import { Overline } from '../../../shared/typography'
 import SectionContext from '../contexts/SectionContext'
 
 export default function SectionMenu(): JSX.Element {
@@ -18,15 +19,9 @@ export default function SectionMenu(): JSX.Element {
   const { sectionIdx, setSectionIdx } = useContext(SectionContext)
 
   return (
-    <Screen>
-      <Main
-        style={{
-          backgroundColor: theme.color.surface,
-          marginLeft: 4,
-          borderRightWidth: 4,
-          borderRightColor: theme.color.primaryVariant
-        }}
-      >
+    <Screen style={{ backgroundColor: theme.color.surface }}>
+      <Main>
+        <Overline style={{ margin: 8 }}>Seções</Overline>
         {routine.sections.map((section, idx) => (
           <TouchableRipple
             key={section}
