@@ -10,9 +10,9 @@ const Container = styled.View`
 `
 
 const Avatar = styled.Image`
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
 `
 
 export interface ListItemProps {
