@@ -102,7 +102,7 @@ export default [
   ),
   new Author(
     'luiz',
-    'Antônio A. e Silva',
+    'Luiz Antônio Silva',
     Luiz,
     'http://lattes.cnpq.br/0008443695134384'
   ),
