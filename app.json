@@ -3,8 +3,8 @@
   "name": "Rotinas Pediatria HRT",
   "description": "Rotinas hospitalares de pediatria na palma de sua mão.",
   "slug": "rotinas-pediatria-hrt",
-  "icon": "./src/assets/logo.png",
-  "primaryColor": "#0000FF",
+  "icon": "./src/assets/icon.png",
+  "primaryColor": "#FFFFFF",
   "splash": {
     "image": "./src/assets/splash.png",
     "resizeMode": "contain",
@@ -22,7 +22,7 @@
     "package": "com.luigiminardim.hrtrotinas",
     "versionCode": 2,
     "adaptiveIcon": {
-      "foregroundImage": "./src/assets/logo.png",
+      "foregroundImage": "./src/assets/adaptive-icon.png",
       "backgroundColor": "#FFFFFF"
     },
     "permissions": []
