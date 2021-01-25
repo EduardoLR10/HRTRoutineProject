@@ -1,15 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Image } from 'react-native'
+import AuthorsContext from '../../../contexts/AuthorsContext'
 import Surface from '../../../shared/Surface'
 import { Caption, H2, Paragraph as P } from '../../../shared/typography'
-import missLemos from './MissLemos.jpg'
 
 export default function CoordinatorSection(): JSX.Element {
+  const { authors } = useContext(AuthorsContext)
+  const daniaLemos = authors.dania
+
   return (
     <Surface>
       <H2 style={{ marginBottom: 16 }}>Coordenadora</H2>
       <Image
-        source={missLemos}
+        source={daniaLemos.avatar}
         style={{
           width: undefined,
           height: undefined,
@@ -17,7 +20,7 @@ export default function CoordinatorSection(): JSX.Element {
           borderRadius: 8
         }}
       />
-      <Caption>Dra. Dânia Lemos Dionízio</Caption>
+      <Caption>Dra. Dania Lemos Dionízio</Caption>
       <P style={{ marginTop: 16 }}>
         Graduação em Medicina pela Universidade Federal do Triângulo Mineiro.
       </P>

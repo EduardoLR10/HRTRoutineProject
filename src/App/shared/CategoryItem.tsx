@@ -19,7 +19,7 @@ const Background = styled(LinearGradient)<{
 `
 export interface CategoryItemProps {
   category: Category
-  selected: Category
+  selected: Category | null
   onPress?: () => void
 }
 

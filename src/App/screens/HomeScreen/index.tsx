@@ -77,10 +77,10 @@ export default function HomeScreen(): JSX.Element {
                   {selectedCategory && (
                     <Text>
                       {' '}
-                      de <Bold>{selectedCategory.name}</Bold>{' '}
+                      de <Bold>{selectedCategory.name}</Bold>
                     </Text>
                   )}
-                  encontrada
+                  {' '}encontrada
                   {searchTxt && (
                     <Text>
                       {' '}

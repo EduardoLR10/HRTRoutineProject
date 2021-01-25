@@ -3,7 +3,7 @@
   "name": "Rotinas Pediatria HRT",
   "description": "Rotinas hospitalares de pediatria na palma de sua mão.",
   "slug": "rotinas-pediatria-hrt",
-  "icon": "./src/assets/logo.png",
+  "icon": "./src/assets/icon.png",
   "primaryColor": "#0000FF",
   "splash": {
     "image": "./src/assets/splash.png",
@@ -20,9 +20,9 @@
   },
   "android": {
     "package": "com.luigiminardim.hrtrotinas",
-    "versionCode": "2.0.0",
+    "versionCode": 2,
     "adaptiveIcon": {
-      "foregroundImage": "./src/assets/logo.png",
+      "foregroundImage": "./src/assets/adaptive-icon.png",
       "backgroundColor": "#FFFFFF"
     },
     "permissions": []

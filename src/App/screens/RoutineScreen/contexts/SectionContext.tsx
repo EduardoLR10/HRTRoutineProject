@@ -1,5 +1,4 @@
 import React from 'react'
-import { SectionProps } from '../components/Section'
 
 export interface SectionContextValue {
   sectionIdx: number

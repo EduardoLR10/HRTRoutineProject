@@ -9,6 +9,8 @@ import { H1, Overline } from '../../../shared/typography'
 const Container = styled.View`
   padding: 16px 8px;
   background: ${props => props.theme.color.surface};
+  border-bottom-width: 2px;
+  border-bottom-color: ${props => props.theme.color.primary};
 `
 
 const TagsList = styled.View`
