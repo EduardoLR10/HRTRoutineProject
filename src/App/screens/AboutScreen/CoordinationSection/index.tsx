@@ -20,7 +20,7 @@ export default function CoordinatorSection(): JSX.Element {
           borderRadius: 8
         }}
       />
-      <Caption>Dra. Dânia Lemos Dionízio</Caption>
+      <Caption>Dra. Dania Lemos Dionízio</Caption>
       <P style={{ marginTop: 16 }}>
         Graduação em Medicina pela Universidade Federal do Triângulo Mineiro.
       </P>
