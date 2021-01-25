@@ -22,7 +22,7 @@ export default function InsuficienciaRespiratoria(): JSX.Element {
       id="insuficiencia-respiratoria"
       name="Insuficiência Respiratória no RN"
       category="neonatologia"
-      authors={['dania']}
+      authors={['maria']}
       tags={['parada', 'cardiorrespiratória', 'recém', 'nascido']}
     >
       <Section title="Aspectos Gerais">

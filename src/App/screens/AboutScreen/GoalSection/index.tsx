@@ -1,25 +1,18 @@
-import React from 'react'
-import { Image } from 'react-native'
+import React, { useContext } from 'react'
 import styled from 'styled-components/native'
+import AuthorsContext from '../../../contexts/AuthorsContext'
 import Chip from '../../../shared/Chip'
 import Surface from '../../../shared/Surface'
 import { H2, Overline, Paragraph as P } from '../../../shared/typography'
-import missLemos from './MissLemos.jpg'
 
 const AuthorContainer = styled.View`
   align-items: flex-end;
 `
 
-function MissLemos() {
-  return (
-    <Image
-      source={missLemos}
-      style={{ width: undefined, height: undefined }}
-    ></Image>
-  )
-}
-
 export default function GoalSection(): JSX.Element {
+  const { authors } = useContext(AuthorsContext)
+  const daniaLemos = authors.dania
+
   return (
     <Surface>
       <H2 style={{ marginBottom: 16 }}>Propósito</H2>
@@ -44,7 +37,8 @@ export default function GoalSection(): JSX.Element {
       </P>
       <AuthorContainer>
         <Overline>Supervisora do PRM de Pediatria HRT</Overline>
-        <Chip avatar={missLemos}>Dra. Dania Lemos Dionízio</Chip>
+        <Chip avatar={daniaLemos.avatar}>Dra. Dania Lemos Dionízio</Chip>
+        <Overline>2020 - 2021</Overline>
       </AuthorContainer>
     </Surface>
   )

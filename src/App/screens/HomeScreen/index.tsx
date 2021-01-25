@@ -1,23 +1,24 @@
-import React, { useContext, useState } from 'react'
-import styled from 'styled-components/native'
+import React, { useState } from 'react'
+import styled, { useTheme } from 'styled-components/native'
 import Screen, { Main } from './../../shared/Screen'
 import { View } from 'react-native'
 import BottomNav from './../../shared/BottomNav'
-import RoutinesContext from '../../contexts/RoutinesContext'
-import CategoriesContext from '../../contexts/CategoriesContext'
 import Category from '../../../models/Category'
 import Searchbar from './components/Searchbar'
-import UserContext from '../../contexts/UserContext'
 import CategoriesSection from './components/CategoriesSection'
 import RoutinesSection from './components/RoutinesSection'
 import useSortedCategories from './hooks/useSortedCategories'
 import useSortedRoutines from './hooks/useSortedRoutines'
-import useFilteredRoutines from './hooks/useFilteredRoutines'
+import Empty from '../../shared/Empty'
+import { Bold, Text } from '../../shared/typography'
+import { ActivityIndicator } from 'react-native-paper'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
 `
 export default function HomeScreen(): JSX.Element {
+  const theme = useTheme()
+
   const [searchTxt, setSearchTxt] = useState('')
   const [_searchedTxt, _setSearchedTxt] = useState('')
   function onSearch(): void {
@@ -36,9 +37,7 @@ export default function HomeScreen(): JSX.Element {
     _setSelectedCategory(selectedCategory === category ? null : category)
   }
 
-  const _sortedRoutines = useSortedRoutines()
-  const filteredRoutines = useFilteredRoutines(
-    _sortedRoutines,
+  const { sortedRoutines, isLoading } = useSortedRoutines(
     selectedCategory,
     _searchedTxt
   )
@@ -65,7 +64,40 @@ export default function HomeScreen(): JSX.Element {
             onSelectCategory={setSelectedCategory}
             style={{ marginBottom: 32 }}
           />
-          <RoutinesSection routines={filteredRoutines} />
+          {!isLoading && sortedRoutines.length !== 0 && (
+            <RoutinesSection routines={sortedRoutines} />
+          )}
+          {!isLoading && sortedRoutines.length === 0 && (
+            <Empty
+              style={{ padding: 32 }}
+              color={theme.color.onBackground}
+              message={
+                <Text>
+                  Nenhuma rotina
+                  {selectedCategory && (
+                    <Text>
+                      {' '}
+                      de <Bold>{selectedCategory.name}</Bold>
+                    </Text>
+                  )}
+                  {' '}encontrada
+                  {searchTxt && (
+                    <Text>
+                      {' '}
+                      na busca por <Bold>{searchTxt} </Bold>
+                    </Text>
+                  )}
+                </Text>
+              }
+            />
+          )}
+          {isLoading && (
+            <ActivityIndicator
+              color={theme.color.primaryVariant}
+              size={32}
+              style={{ padding: 32 }}
+            />
+          )}
         </Main>
       </View>
       <BottomNav />

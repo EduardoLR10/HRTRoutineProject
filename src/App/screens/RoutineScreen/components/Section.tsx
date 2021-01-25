@@ -1,4 +1,5 @@
 import React from 'react'
+import { View } from 'react-native'
 import Surface from '../../../shared/Surface'
 import { H2 } from '../../../shared/typography'
 
@@ -12,9 +13,9 @@ export default function Section({
   children
 }: SectionProps): JSX.Element {
   return (
-    <Surface style={{ borderRadius: 16, marginBottom: 32 }}>
-      <H2 style={{ marginBottom: 16 }}>{title}</H2>
+    <View style={{ borderRadius: 16, marginBottom: 32, padding: 8 }}>
+      <H2 style={{ marginBottom: 16, borderBottomWidth: 2 }}>{title}</H2>
       {children}
-    </Surface>
+    </View>
   )
 }

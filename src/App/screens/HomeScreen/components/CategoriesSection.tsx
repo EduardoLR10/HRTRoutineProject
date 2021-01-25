@@ -30,7 +30,7 @@ export default function CategoriesSection({
             <CategoryItem
               category={category}
               onPress={() => onSelectCategory(category)}
-              selected={!selectedCategory || category === selectedCategory}
+              selected={selectedCategory}
             />
             <Gap width={8} />
           </React.Fragment>

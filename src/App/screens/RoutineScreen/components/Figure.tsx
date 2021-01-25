@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useCallback, useState } from 'react'
 import {
   ImageURISource,
   View,
   Image,
   TouchableOpacity,
-  Modal
+  BackHandler,
+  Dimensions,
+  StyleProp,
+  ImageStyle
 } from 'react-native'
 import Icon from '../../../shared/Icon'
 import { BlackPortal } from 'react-native-portal'
@@ -13,6 +16,7 @@ import styled from 'styled-components/native'
 // @ts-ignore
 import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView'
 import { Caption, Subtitle2 } from '../../../shared/typography'
+import { useFocusEffect } from '@react-navigation/native'
 
 export interface FigureProps {
   source: ImageURISource
@@ -27,7 +31,33 @@ export default function Figure({
   title,
   caption
 }: FigureProps): JSX.Element {
-  const [isModalVisible, setIsModalVisible] = React.useState(false)
+  const [isModalVisible, setIsModalVisible] = useState(false)
+  useFocusEffect(
+    useCallback(() => {
+      const onBackPress = () => {
+        if (isModalVisible) {
+          setIsModalVisible(false)
+          return true
+        } else {
+          return false
+        }
+      }
+      BackHandler.addEventListener('hardwareBackPress', onBackPress)
+      return () =>
+        BackHandler.removeEventListener('hardwareBackPress', onBackPress)
+    }, [isModalVisible])
+  )
+
+  // Don't stretch small images and fit big images in the 100% width.
+  const imageStyle: ImageStyle =
+    width > Dimensions.get('window').width
+      ? {
+          borderRadius: 8,
+          width: undefined,
+          height: undefined,
+          aspectRatio: width / height
+        }
+      : { alignSelf: 'center', borderRadius: 8, maxWidth: '100%' }
 
   return (
     <View style={{ marginTop: 8, marginBottom: 16 }}>
@@ -40,15 +70,7 @@ export default function Figure({
         style={{ marginBottom: 8 }}
         onPress={() => setIsModalVisible(!isModalVisible)}
       >
-        <Image
-          source={source}
-          style={{
-            width: undefined,
-            height: undefined,
-            aspectRatio: width / height,
-            borderRadius: 8
-          }}
-        />
+        <Image source={source} style={imageStyle} />
         <View
           style={{
             position: 'absolute',
@@ -95,6 +117,7 @@ const Backdrop = styled.View`
 
 const ImageContainer = styled.View`
   flex: 1;
+  padding: 16px;
 `
 interface FigureModalProps {
   size: [number, number]

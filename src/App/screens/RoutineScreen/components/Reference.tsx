@@ -1,5 +1,5 @@
 import React from 'react'
-import { Body, Bold, Italic, Paragraph } from '../../../shared/typography'
+import { Body, Bold } from '../../../shared/typography'
 
 export interface ReferenceProps {
   idx: number
@@ -14,7 +14,7 @@ export default function Reference({
 }: ReferenceProps): JSX.Element {
   return (
     <Body style={{ marginBottom: 8 }}>
-      <Bold>{idx}. </Bold> <Italic>{children || body}</Italic>
+      <Bold>{idx}. </Bold> {children || body}
     </Body>
   )
 }

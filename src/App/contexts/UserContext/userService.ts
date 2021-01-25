@@ -2,7 +2,7 @@ import * as FileSystem from 'expo-file-system'
 
 const FILE_URI = {
   favoriteRoutines: `${FileSystem.documentDirectory}favoriteRoutines.json`,
-  lastSeenRoutines: `${FileSystem.documentDirectory}favoriteRoutines.json`
+  lastSeenRoutines: `${FileSystem.documentDirectory}lastSeenRoutines.json`
 }
 
 export async function setFavoriteRoutines(

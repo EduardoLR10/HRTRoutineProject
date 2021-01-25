@@ -9,6 +9,8 @@ import { H1, Overline } from '../../../shared/typography'
 const Container = styled.View`
   padding: 16px 8px;
   background: ${props => props.theme.color.surface};
+  border-bottom-width: 2px;
+  border-bottom-color: ${props => props.theme.color.primary};
 `
 
 const TagsList = styled.View`
@@ -31,17 +33,17 @@ export default function RoutineHeader({
 
   return (
     <Container style={style}>
-      <TagsList style={{ marginBottom: 8 }}>
-        {routine.tags.map(tag => (
-          <Chip key={tag} style={{ marginRight: 8, marginBottom: 8 }}>
-            {tag}
-          </Chip>
-        ))}
-      </TagsList>
       <Overline color={`hsl(${category.hueTheme}, 100%, 60%)`}>
         {category.name}
       </Overline>
       <H1>{routine.name}</H1>
+      <TagsList style={{ marginTop: 8 }}>
+        {routine.tags.map(tag => (
+          <Chip key={tag} style={{ marginRight: 8, marginTop: 8 }}>
+            {tag}
+          </Chip>
+        ))}
+      </TagsList>
     </Container>
   )
 }
