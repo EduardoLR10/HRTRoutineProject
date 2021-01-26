@@ -20,7 +20,7 @@
   },
   "android": {
     "package": "com.luigiminardim.hrtrotinas",
-    "versionCode": 2,
+    "versionCode": 3,
     "adaptiveIcon": {
       "foregroundImage": "./src/assets/adaptive-icon.png",
       "backgroundColor": "#FFFFFF"
