@@ -68,7 +68,7 @@ export default [
     'fabricio',
     'Fabrício P. Madureira',
     Fabricio,
-    'http://lattes.cnpq.br/0778999649543914'
+    'http://lattes.cnpq.br/3320563998741840'
   ),
   new Author(
     'fernando',
@@ -144,7 +144,7 @@ export default [
   ),
   new Author(
     'sergio',
-    'Sérgio C. de Mendonça',
+    'Sergio C. de Mendonça',
     Sergio,
     'http://lattes.cnpq.br/4003294033710189'
   )
