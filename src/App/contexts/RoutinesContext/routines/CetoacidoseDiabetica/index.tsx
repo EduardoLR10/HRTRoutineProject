@@ -79,7 +79,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
           </P>
         </Subsection>
       </Section>
-      <Section title="Avalaição Laboratorial Inicial (após 1ª hora de fase de expansão)">
+      <Section title="Avaliação Laboratorial Inicial (após 1ª hora de fase de expansão)">
         <List>
           <LItem>
             Glicemia plasmática, Na, K, uréia, creatinina, hemograma;
