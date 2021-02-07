@@ -24,6 +24,7 @@ import DisturbioMetabolico from './DisturbioMetabolico'
 import DisturbiosAcidoBase from './DisturbiosAcidoBase'
 import DisturbiosEletroliticos from './DisturbiosEletroliticos'
 import DoencaDeKawasaki from './DoencaDeKawasaki'
+import DoencaDoRefluxoGastroesofagico from './DoencaDoRefluxoGastroesofagico'
 import DoencasExantematicasAgudas from './DoencasExantematicasAgudas'
 import DorAbdominalAguda from './DorAbdominalAguda'
 import DorDeCrescimento from './DorDeCrescimento'
@@ -105,6 +106,7 @@ export default [
   DisturbiosAcidoBase,
   DisturbiosEletroliticos,
   DoencaDeKawasaki,
+  DoencaDoRefluxoGastroesofagico,
   DoencasExantematicasAgudas,
   DorAbdominalAguda,
   DorDeCrescimento,
