@@ -21,7 +21,7 @@ export default function DoencaDoReFluxoGastroesofagico(): JSX.Element {
     <Routine
       id="doenca-refluxo"
       name="Doença do Refluxo Gastroesofágico"
-      category="gastroenterologia"
+      category="lactentes"
       authors={['francisco']}
       tags={['regurgitação', 'vômito', 'queimação']}
     >

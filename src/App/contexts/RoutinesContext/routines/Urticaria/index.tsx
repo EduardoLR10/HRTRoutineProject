@@ -23,11 +23,11 @@ export default function Urticaria(): JSX.Element {
   return (
     <Routine
       id="urticaria"
-      name="Urticária e Angiodema"
+      name="Urticária e Anafilaxia"
       category="emergencia"
       authors={['cristianne']}
       tags={[
-        'andioedema',
+        'angioedema',
         'anafilaxia',
         'choque',
         'anafilático',
