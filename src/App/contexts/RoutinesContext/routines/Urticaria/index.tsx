@@ -27,7 +27,7 @@ export default function Urticaria(): JSX.Element {
       category="emergencia"
       authors={['cristianne']}
       tags={[
-        'andioedema',
+        'angioedema',
         'anafilaxia',
         'choque',
         'anafilático',
