@@ -16,6 +16,7 @@ import { ActivityIndicator } from 'react-native-paper'
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
 `
+
 export default function HomeScreen(): JSX.Element {
   const theme = useTheme()
 
@@ -73,14 +74,13 @@ export default function HomeScreen(): JSX.Element {
               color={theme.color.onBackground}
               message={
                 <Text>
-                  Nenhuma rotina
+                  Nenhuma rotina{' '}
                   {selectedCategory && (
                     <Text>
-                      {' '}
-                      de <Bold>{selectedCategory.name}</Bold>
+                      de <Bold>{selectedCategory.name}</Bold>{' '}
                     </Text>
                   )}
-                  {' '}encontrada
+                  encontrada
                   {searchTxt && (
                     <Text>
                       {' '}
