@@ -10,7 +10,7 @@ const Background = styled(LinearGradient)<{
   focus: boolean
 }>`
   width: 152px;
-  height: 76px;
+  min-height: 60px;
   border-radius: 8px;
   box-shadow: ${props =>
     props.focus ? props.theme.elevation[8] : props.theme.elevation[1]};
