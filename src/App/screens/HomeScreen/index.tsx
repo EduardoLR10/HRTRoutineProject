@@ -15,6 +15,9 @@ import { ActivityIndicator } from 'react-native-paper'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
+  position: absolute;
+  width: 100%;
+  height: 64px;
 `
 
 export default function HomeScreen(): JSX.Element {
@@ -46,18 +49,9 @@ export default function HomeScreen(): JSX.Element {
   return (
     <Screen>
       <View style={{ flex: 1 }}>
-        <SearchbarContainer>
-          <Searchbar
-            value={searchTxt}
-            onChangeText={setSearchTxt}
-            placeholder="Nome, categoria ou marcador"
-            onSubmitEditing={onSearch}
-            onCancelSearch={onCancelSearch}
-          />
-        </SearchbarContainer>
         <Main
           style={{ overflow: 'visible' }}
-          contentContainerStyle={{ paddingTop: 32 }}
+          contentContainerStyle={{ paddingTop: 88 }}
         >
           <CategoriesSection
             categories={sortedCategories}
@@ -99,7 +93,17 @@ export default function HomeScreen(): JSX.Element {
             />
           )}
         </Main>
+        <SearchbarContainer>
+          <Searchbar
+            value={searchTxt}
+            onChangeText={setSearchTxt}
+            placeholder="Nome, categoria ou marcador"
+            onSubmitEditing={onSearch}
+            onCancelSearch={onCancelSearch}
+          />
+        </SearchbarContainer>
       </View>
+
       <BottomNav />
     </Screen>
   )
