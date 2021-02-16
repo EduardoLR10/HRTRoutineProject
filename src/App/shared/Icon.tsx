@@ -3,7 +3,8 @@ import {
   FontAwesome,
   MaterialIcons,
   Feather,
-  AntDesign
+  AntDesign,
+  FontAwesome5
 } from '@expo/vector-icons'
 import { StyleProp, TextStyle } from 'react-native'
 
@@ -21,6 +22,7 @@ export type IconName =
   | 'unzoom'
   | 'authors'
   | 'empty'
+  | 'hyperlink'
 
 export interface IconProps {
   name: IconName
@@ -81,6 +83,14 @@ export default function Icon({
     authors: <Feather name="users" size={size} color={color} style={style} />,
     empty: (
       <AntDesign name="folderopen" size={size} color={color} style={style} />
+    ),
+    hyperlink: (
+      <FontAwesome5
+        name="external-link-alt"
+        size={size}
+        color={color}
+        style={style}
+      />
     )
   }[name]
 }
