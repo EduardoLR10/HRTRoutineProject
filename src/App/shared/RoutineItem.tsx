@@ -1,7 +1,7 @@
 /* eslint-disable indent */
+import React, { useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
-import React from 'react'
 import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native'
 import styled, { useTheme } from 'styled-components/native'
 import Routine from '../../models/Routine'
@@ -21,7 +21,7 @@ const Container = styled.TouchableOpacity`
 
 const ColorBar = styled(LinearGradient)`
   width: 4px;
-  border-radius: 100px;
+  border-radius: 2px;
 `
 
 const Col = styled.View`
@@ -90,9 +90,7 @@ export default function RoutineItem({
             <Overline color={`hsl(${category.hueTheme}, 100%, 35%)`}>
               {category.name}
             </Overline>
-            <H5 numberOfLines={2} ellipsizeMode="clip">
-              {routine.name + '\n'}
-            </H5>
+            <H5 style={{ minHeight: 64 }}>{routine.name}</H5>
           </ColInfo>
           <ColActions>
             <TouchableOpacity onPress={() => toggleFavoriteRoutine(routine)}>
