@@ -125,7 +125,7 @@ export default function GlomerulonefriteDifusaAguda(): JSX.Element {
             primeiro exame tenha sido normal.
           </P>
         </Subsection>
-        <Subsection title="Biópsia Renai - Indicações">
+        <Subsection title="Biópsia Renal - Indicações">
           <List>
             <LItem>Oligoanúria {'>'} 48 – 72 horas.</LItem>
             <LItem>Hematúria macroscópica {'>'} 4 semanas.</LItem>
