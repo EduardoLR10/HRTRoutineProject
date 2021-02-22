@@ -277,7 +277,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           data={[
             [
               'Adrenalina 1:1000',
-              'Anafilaxia: 0.01 mg/kg/dose, IM - max 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0.1 mg/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0.1 a 1 µcg/kg/min'
+              'Anafilaxia: 0,01 mg/kg/dose, IM - max 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0,1 mg/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0,1 a 1 µcg/kg/min'
             ],
             [
               'Bicarbonao de sódio',
@@ -285,7 +285,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
             ],
             [
               'Cloreto de cálcio',
-              'PCR: 20 kg/kg, bolus (0,2 ml/kg) acesso central se disponível'
+              'PCR: 20 mg/kg, bolus (0,2 ml/kg) acesso central se disponível'
             ],
             ['Dobutamina', '2 a 20 µcg/kg/min-max 40 µcg/kg/min'],
             ['Dopamina', '1 a 20 µcg/kg/min-max 40 µcg/kg/min'],
@@ -298,7 +298,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
             ['Glicose 10%', '5 a 10 ml/kg, bolus'],
             [
               'Soro fisiológico',
-              '10 ml/kg/10 a 20 minutos\nReduzir se for choque cardiogênico'
+              '20 ml/kg/10 a 20 minutos\nReduzir se for choque cardiogênico'
             ]
           ]}
           title="Tabela 4. Drogas Vasoativas"
