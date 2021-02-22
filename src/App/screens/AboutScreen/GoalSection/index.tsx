@@ -21,7 +21,7 @@ export default function GoalSection(): JSX.Element {
         Programa de Residência Médica (PRM) de Pediatria do HRT, com o objetivo
         de reunir e uniformizar de um modo simples, prático e atual, as
         informações necessárias ao diagnóstico e tratamento das principais
-        doenças e demais codições patológicas da pediatria. Nossa intenção é de
+        doenças e demais condições patológicas da pediatria. Nossa intenção é de
         aprimorar o atendimento às crianças, tornando-o mais ágil e eficaz,
         reduzindo prejuízos físicos e emocionais decorrentes de atrasos
         diagnósticos e tratamentos inadequados.
