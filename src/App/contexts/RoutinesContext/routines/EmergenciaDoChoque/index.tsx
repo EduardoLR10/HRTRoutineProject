@@ -33,14 +33,14 @@ export default function EmergenciaDoChoque(): JSX.Element {
           periféricos.
         </P>
         <P>
-          Quanto mais precoce identificá-lo e trata-lo maior será a chance de um
+          Quanto mais precoce identificá-lo e tratá-lo, maior será a chance de um
           bom resultado. Os casos não tratados poderão evoluir rapidamente para
           insuficiência cardiopulmonar, sucedida de parada cardiorrespiratória o
           que torna o prognóstico sombrio.
         </P>
         <P>
           A definição do choque não requer a presença de hipotensão, a PA
-          sistólica pode estar normal e até aumentada. Entretanto mas a queda da
+          sistólica pode estar normal e até aumentada. Entretanto, a queda da
           PA sistólica para valores abaixo do mínimo aceitável é considerado
           choque hipotensivo, e este pode indicar iminência de parada
           cardiorrespiratória - PCR (tabela 1).
@@ -57,7 +57,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           title="Tabela 1. Pressão Arterial Sistólica Normal - percentil 5"
         />
         <P>
-          A abordagem deverá seguir as diretrizes do PALS 2015 – Pedriatic
+          A abordagem deverá seguir as diretrizes do PALS 2019 – Pedriatic
           Advanced Life Support. A sequência AVALIAR, DIAGNOSTICAR E INTERVIR
           irá ajudar a conduzir melhor cada caso. Devemos estar alertas para os
           sinais da progressão do choque, além da redução da PA, a frequência
@@ -81,7 +81,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           A avaliação da frequência cardíaca deverá ser realizada palpando os
           pulsos, e levar em consideração fatores como: febre, dor e medo. Além
           disso, deve-se considerar o ritmo cardíaco observado no monitor,
-          podendo haver bradicardia ou taquicardia. E, quando não houver pulsos
+          podendo haver bradicardia ou taquicardia. Quando não houver pulsos
           palpáveis, considerar PCR.
         </P>
         <Table
@@ -200,7 +200,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
         </P>
         <P>
           A reposição volêmica no choque distributivo deve ser mais agressiva,
-          podendo chegar até 100 ml/kg/hora.
+          podendo chegar até 60 ml/kg/hora.
         </P>
       </Section>
       <Section title="Choque Obstrutivo">
@@ -231,7 +231,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
         </P>
         <P>
           Os sinais de alerta dos mecanismos compensatórios devem estar sempre
-          em mente dos socorristas. E, são eles:
+          em mente dos socorristas. São eles:
         </P>
         <List>
           <LItem>Taquicardia crescente;</LItem>
@@ -239,7 +239,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           <LItem>Pulsos centrais fracos;</LItem>
           <LItem>Estreitamento da pressão de pulso;</LItem>
           <LItem>
-            Extremidades frias e tempo de enchimento capilar prolongado;
+            Extremidades frias, hipocoradas ou cianóticas e tempo de enchimento capilar prolongado;
           </LItem>
           <LItem>Rebaixamento do nível de consciência;</LItem>
           <LItem>Hipotensão arterial (achado tardio).</LItem>
@@ -277,7 +277,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           data={[
             [
               'Adrenalina 1:1000',
-              'Anafilaxia: 0.01 mg/kg/dose, IM - max 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0.1 mg/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0.1 a 1 µcg/kg/min'
+              'Anafilaxia: 0,01 mg/kg/dose, IM - max 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0,1 ml/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0,1 a 1 µcg/kg/min'
             ],
             [
               'Bicarbonao de sódio',
@@ -285,7 +285,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
             ],
             [
               'Cloreto de cálcio',
-              'PCR: 20 kg/kg, bolus (0,2 ml/kg) acesso central se disponível'
+              'PCR: 5 a 7 mg/kg, bolus (0,2 ml/kg) acesso central se disponível'
             ],
             ['Dobutamina', '2 a 20 µcg/kg/min-max 40 µcg/kg/min'],
             ['Dopamina', '1 a 20 µcg/kg/min-max 40 µcg/kg/min'],
@@ -298,7 +298,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
             ['Glicose 10%', '5 a 10 ml/kg, bolus'],
             [
               'Soro fisiológico',
-              '10 ml/kg/10 a 20 minutos\nReduzir se for choque cardiogênico'
+              '20 ml/kg/10 a 20 minutos\nReduzir se for choque cardiogênico'
             ]
           ]}
           title="Tabela 4. Drogas Vasoativas"
