@@ -1,0 +1,8 @@
+name: Publish Prerelease
+
+on:
+  push:
+    branches:
+      - master
+      - release/*
+
