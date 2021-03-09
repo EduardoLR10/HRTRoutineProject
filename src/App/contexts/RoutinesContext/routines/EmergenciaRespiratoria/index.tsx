@@ -35,12 +35,12 @@ export default function EmergenciaRespiratoria(): JSX.Element {
           complacente, a reserva respiratória menor, a demanda metabólica maior,
           além de mecanismos compensatórios inadequados. Com reconhecimento
           precoce e tratamento eficaz, a chance de recuperação gira em torno de
-          70%. Entretanto, nos casos que evolum para parada cardiorrespiratória
+          70%. Entretanto, nos casos que evoluem para parada cardiorrespiratória
           a chance reduz para menos de 10%.
         </P>
         <P>
           Uma criança gravemente enferma deverá ser abordada, segundo as
-          diretrizes do PALS 2015 – Pedriatic Advanced Life Support. A sequência
+          diretrizes do PALS 2020 – Pedriatic Advanced Life Support. A sequência
           AVALIAR, DIAGNOSTICAR E INTERVIR irá ajudar a conduzir melhor cada
           caso. Devemos ter em mente as quatro situações comuns de complicações
           respiratórias: a{')'} obstrução de via aérea superior, b{')'}{' '}
@@ -130,7 +130,7 @@ export default function EmergenciaRespiratoria(): JSX.Element {
           data={[
             [
               'Esforço Respiratório',
-              '- Som esforço\n- Expiração passiva',
+              '- Sem esforço\n- Expiração passiva',
               '- Esforço elevado, inadequado ou ausente\n- Batimento de asa nasal\n- Retrações e uso de musculatura acessória'
             ],
             [
