@@ -121,7 +121,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         <P>
           As cobras venenosas do Brasil são facilmente identificáveis por causa
           da fosseta loreal que consiste em dois orifícios situados entre a
-          narina e o olho, um em cada lado da cabeça (com exceção do coral
+          narina e o olho, um em cada lado da cabeça (com exceção da coral
           verdadeira) – fig.1.
         </P>
         <Figure source={img1} size={[120, 90]} caption="fig.1" />
