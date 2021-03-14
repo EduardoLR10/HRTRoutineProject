@@ -27,15 +27,19 @@ export default function RoutineHeader({
   routine,
   style
 }: RoutineHeaderProps): JSX.Element {
-  const category = React.useContext(CategoriesContext).categories[
-    routine.categories[0]
-  ]
+  const { categories: categoriesMap } = React.useContext(CategoriesContext)
+  const categories = routine.categories.map(id => categoriesMap[id])
 
   return (
     <Container style={style}>
-      <Overline color={`hsl(${category.hueTheme}, 100%, 60%)`}>
-        {category.name}
-      </Overline>
+      {categories.map(category => (
+        <Overline
+          key={category.id}
+          color={`hsl(${category.hueTheme}, 100%, 35%)`}
+        >
+          {category.name}
+        </Overline>
+      ))}
       <H1>{routine.name}</H1>
       <TagsList style={{ marginTop: 8 }}>
         {routine.tags.map(tag => (
