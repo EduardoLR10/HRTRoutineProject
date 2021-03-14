@@ -21,7 +21,7 @@ export default function SindromeNefrotica(): JSX.Element {
     <Routine
       id="sind-nefro"
       name="Síndrome Nefrótica"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['nefrose', 'edema', 'hipoalbuminemia', 'proteinúria']}
     >

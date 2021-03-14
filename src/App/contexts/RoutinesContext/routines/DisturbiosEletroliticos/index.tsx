@@ -21,7 +21,7 @@ export default function DisturbiosEletroliticos(): JSX.Element {
     <Routine
       id="disturbios-eletroliticos"
       name="Distúrbios Eletrolíticos"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['francisco']}
       tags={[
         'sódio',

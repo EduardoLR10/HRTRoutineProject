@@ -23,7 +23,7 @@ export default function DorAbdominalAguda(): JSX.Element {
     <Routine
       id="dor-abdominal-aguda"
       name="Dor Abdominal Aguda"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['ana-luiza']}
       tags={['abdome', 'agudo', 'dor', 'barriga']}
     >

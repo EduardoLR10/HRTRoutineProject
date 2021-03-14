@@ -8,7 +8,7 @@ import SectionContext from '../App/screens/RoutineScreen/contexts/SectionContext
 export type Routine = {
   id: string
   name: string
-  category: string
+  categories: string[]
   authors: string[]
   tags: string[]
   Content: () => JSX.Element
@@ -19,7 +19,7 @@ export default Routine
 export interface RoutineContentProps {
   id: string
   name: string
-  category: string
+  categories: string[]
   authors: string[]
   tags: string[]
   children?: JSX.Element | JSX.Element[]
@@ -35,7 +35,7 @@ export function RoutineContent({ children }: RoutineContentProps): JSX.Element {
 
 export function contentToRoutine(Content: () => JSX.Element): Routine {
   const elementContent = Content()
-  const { id, name, category, authors, tags } = elementContent.props
+  const { id, name, categories, authors, tags } = elementContent.props
 
   // Get section names
   let sections: string[] = []
@@ -49,5 +49,5 @@ export function contentToRoutine(Content: () => JSX.Element): Routine {
     sections = [elementContent.props.children.props.title]
   }
 
-  return { id, name, category, authors, tags, Content, sections }
+  return { id, name, categories, authors, tags, Content, sections }
 }

@@ -23,7 +23,7 @@ export default function Adenomegalias(): JSX.Element {
     <Routine
       id="adeno"
       name="Adenomegalias"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['marco', 'iuri']}
       tags={['adenite', 'gânglio']}
     >

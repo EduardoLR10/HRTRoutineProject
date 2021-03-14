@@ -26,7 +26,7 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
     <Routine
       id="conceitos-basicos-de-ventilacao"
       name="Conceitos Básicos de Ventilação Mecânica"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['rafael']}
       tags={['parâmetros', 'ventilador']}
     >

@@ -21,7 +21,7 @@ export default function HidratacaoVenosaCrianca(): JSX.Element {
     <Routine
       id="hidratacao-venosa-criaca"
       name="Hidratação Venosa na Criança"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['francisco']}
       tags={[]}
     >

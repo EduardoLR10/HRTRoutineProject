@@ -21,7 +21,7 @@ export default function PrimoInfeccaoEEncefaliteHerpetica(): JSX.Element {
     <Routine
       id="primoinfeccao-e-encefalite"
       name="Primoinfecção e Encefalite Herpética"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['iuri']}
       tags={['herpes', 'gengivoestomatite', 'estomatite']}
     >

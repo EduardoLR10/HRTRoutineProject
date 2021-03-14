@@ -21,7 +21,7 @@ export default function Mastoidite(): JSX.Element {
     <Routine
       id="mastoidite"
       name="Mastoidite"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['iuri', 'marco']}
       tags={[]}
     >

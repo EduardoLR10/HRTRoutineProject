@@ -21,7 +21,7 @@ export default function PurpuraDeHenochSchonlein(): JSX.Element {
     <Routine
       id="purpura-de-henoch"
       name="Púrpura de Henoch-Schönlein (PHS)"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['anafilactóide', 'vasculite', 'leucocitoclástica']}
     >
