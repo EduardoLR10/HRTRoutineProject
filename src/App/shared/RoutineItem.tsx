@@ -1,5 +1,5 @@
 /* eslint-disable indent */
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useNavigation } from '@react-navigation/native'
 import { LinearGradient } from 'expo-linear-gradient'
 import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native'
@@ -10,6 +10,8 @@ import CategoriesContext from '../contexts/CategoriesContext'
 import UserContext from '../contexts/UserContext'
 import Icon from './Icon'
 import { H5, Overline, Body } from './typography'
+import Category from '../../models/Category'
+import categories from '../contexts/CategoriesContext/categories'
 
 const Container = styled.TouchableOpacity`
   flex-direction: row;
@@ -40,21 +42,27 @@ const ColActions = styled.View``
 
 const Footer = styled.View``
 
-export interface RoutineItemProps {
+export type RoutineItemProps = {
   routine: Routine
+  selectedCategory?: Category | null
   style?: StyleProp<ViewStyle>
 }
 
 export default function RoutineItem({
   routine,
+  selectedCategory,
   style
 }: RoutineItemProps): JSX.Element {
   const theme = useTheme()
 
   const navigation = useNavigation()
 
-  const category = React.useContext(CategoriesContext).categories[
-    routine.categories[0]
+  /** The category shown in  card is by the default the first category in the array, named main
+   * category. But, when there is a filter applied in the list of routines, the selected category
+   * must be prioritezed to be shown in the card. */
+  const category = useContext(CategoriesContext).categories[
+    routine.categories.filter(id => id === selectedCategory?.id)[0] ??
+      routine.categories[0]
   ]
 
   const { authors } = React.useContext(AuthorsContext)
