@@ -69,24 +69,6 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
       .then(setLastSeenRoutines)
   }, [])
 
-  useEffect(
-    () =>
-      console.log(
-        'Categories: ',
-        lastSeenRoutines.reduce(
-          (lastSeenCategories, routine) =>
-            routine.categories.reduce(
-              (lastSeenCategories, category) =>
-                lastSeenCategories.includes(category)
-                  ? lastSeenCategories
-                  : [...lastSeenCategories, category],
-              lastSeenCategories
-            ),
-          [] as string[]
-        )
-      ),
-    [lastSeenRoutines]
-  )
   const lastSeenCategories = lastSeenRoutines
     .reduce(
       (lastSeenCategories, routine) =>
