@@ -1,5 +1,5 @@
 import React from 'react'
-import { ScrollView, StyleProp, View, ViewStyle } from 'react-native'
+import { ScrollView, View, ViewStyle } from 'react-native'
 import Category from '../../../../models/Category'
 import CategoryItem from '../../../shared/CategoryItem'
 import Gap from '../../../shared/Gap'
