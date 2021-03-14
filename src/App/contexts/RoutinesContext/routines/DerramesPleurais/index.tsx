@@ -21,7 +21,7 @@ export default function DerramesPleurais(): JSX.Element {
     <Routine
       id="derrames-pleurais"
       name="Derrames Pleurais"
-      category="pneumologia"
+      categories={['pneumologia']}
       authors={['fernando']}
       tags={['derrame', 'drenagem', 'toracocentese']}
     >

@@ -23,7 +23,7 @@ export default function ConstipacaoIntestinal(): JSX.Element {
     <Routine
       id="constip-intestinal"
       name="Constipação Intestinal"
-      category="gastroenterologia"
+      categories={['gastroenterologia']}
       authors={['ana-beatriz']}
       tags={['ressecamento', 'prisão']}
     >

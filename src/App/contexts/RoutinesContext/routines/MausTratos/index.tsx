@@ -24,7 +24,7 @@ export default function MausTratos(): JSX.Element {
     <Routine
       id="maus-tratos"
       name="Maus Tratos na Infância"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['renato']}
       tags={[
         'abuso',

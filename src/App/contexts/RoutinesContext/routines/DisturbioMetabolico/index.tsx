@@ -21,7 +21,7 @@ export default function DisturbioMetabolico(): JSX.Element {
     <Routine
       id="disturbio-metabolico"
       name="Distúrbio Metabólico"
-      category="neonatologia"
+      categories={['neonatologia']}
       authors={['fabricio']}
       tags={[
         'metabolismo',

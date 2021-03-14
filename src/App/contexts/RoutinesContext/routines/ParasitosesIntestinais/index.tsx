@@ -21,7 +21,7 @@ export default function ParasitosesIntestinais(): JSX.Element {
     <Routine
       id="parasitoses-intestinais"
       name="Parasitoses Intestinais"
-      category="gastroenterologia"
+      categories={['gastroenterologia']}
       authors={['ana-luiza']}
       tags={['verminose']}
     >

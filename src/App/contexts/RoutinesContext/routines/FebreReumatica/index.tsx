@@ -21,7 +21,7 @@ export default function FebreReumatica(): JSX.Element {
     <Routine
       id="febre-reumatica"
       name="Febre Reumática"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['doença', 'cardite', 'poréia', 'reumatismo']}
     >

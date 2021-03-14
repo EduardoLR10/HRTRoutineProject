@@ -36,7 +36,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
     <Routine
       id="acidentes-animais"
       name="Acidentes por Animais Peçonhentos"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['luiz']}
       tags={['acidente', 'ofídico', 'cobra', 'escorpião']}
     >

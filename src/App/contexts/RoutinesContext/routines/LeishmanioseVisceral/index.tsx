@@ -21,7 +21,7 @@ export default function LeishmanioseVisceral(): JSX.Element {
     <Routine
       id="leishmaniose-visceral"
       name="Leishmaniose Visceral"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['iuri', 'marco']}
       tags={['calazar']}
     >

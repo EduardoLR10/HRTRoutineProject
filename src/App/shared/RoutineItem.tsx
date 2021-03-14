@@ -54,7 +54,7 @@ export default function RoutineItem({
   const navigation = useNavigation()
 
   const category = React.useContext(CategoriesContext).categories[
-    routine.category
+    routine.categories[0]
   ]
 
   const { authors } = React.useContext(AuthorsContext)

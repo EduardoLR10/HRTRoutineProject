@@ -21,7 +21,7 @@ export default function SequenciaRapidaDeIntubacao(): JSX.Element {
     <Routine
       id="sequencia-rapida-de-intubacao"
       name="Sequência Rápida de Intubação"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['rafael']}
       tags={[]}
     >

@@ -21,7 +21,7 @@ export default function DesconfortoRespiratorio(): JSX.Element {
     <Routine
       id="desconforto-respiratorio"
       name="Desconforto Respiratório"
-      category="lactentes"
+      categories={['lactentes']}
       authors={['jose']}
       tags={['bronquiolite', 'cansaço', 'esforço']}
     >

@@ -8,9 +8,9 @@ import UserContext from '../../../contexts/UserContext'
 
 type FilterParam = {
   routine: Routine
-  category: Category
+  categories: Category[]
   idxFindedName: number
-  idxFindedCategoryName: number
+  minimumIdxFindedCategoryName: number
   findedTags: string[]
   lastSeenIdx: number
 }
@@ -29,11 +29,11 @@ const findSearch = (text: string, search: string): number =>
   normalizeString(text).indexOf(normalizeString(search))
 
 const categoryFilter = (selected: Category | null): Filter => fp =>
-  !selected || selected.id === fp.category.id
+  !selected || fp.categories.some(category => selected.id === category.id)
 
 const searchFilter: Filter = fp =>
   fp.idxFindedName !== -1 ||
-  fp.idxFindedCategoryName !== -1 ||
+  fp.minimumIdxFindedCategoryName !== Infinity ||
   fp.findedTags.length > 0
 
 const lastSeenSorter: Sorter = (fp1, fp2) =>
@@ -77,11 +77,12 @@ export default function useSortedRoutines(
 
   const classifier = (routine: Routine): FilterParam => ({
     routine,
-    category: categories[routine.category],
+    categories: routine.categories.map(category => categories[category]),
     idxFindedName: findSearch(routine.name, searchTxt),
-    idxFindedCategoryName: findSearch(
-      categories[routine.category].name,
-      searchTxt
+    minimumIdxFindedCategoryName: Math.min(
+      ...routine.categories
+        .map(category => findSearch(categories[category].name, searchTxt))
+        .filter(idx => idx >= 0)
     ),
     findedTags: routine.tags.filter(tag => findSearch(tag, searchTxt) !== -1),
     lastSeenIdx: lastSeenRoutines.indexOf(routine)

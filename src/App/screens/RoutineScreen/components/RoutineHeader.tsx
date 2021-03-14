@@ -28,7 +28,7 @@ export default function RoutineHeader({
   style
 }: RoutineHeaderProps): JSX.Element {
   const category = React.useContext(CategoriesContext).categories[
-    routine.category
+    routine.categories[0]
   ]
 
   return (

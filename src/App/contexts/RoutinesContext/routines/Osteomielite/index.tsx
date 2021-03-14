@@ -21,7 +21,7 @@ export default function Osteomielite(): JSX.Element {
     <Routine
       id="osteomielite"
       name="Osteomielite"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['fabricio', 'dania']}
       tags={['infecção', 'óssea']}
     >
