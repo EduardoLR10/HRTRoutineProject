@@ -21,7 +21,7 @@ export default function DesidratacaoHipernametrica(): JSX.Element {
     <Routine
       id="desidratacao-hipernatremica"
       name="Desidratação Hipernatrêmica no RN"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['maria']}
       tags={['recém', 'nascido', 'distúrbio', 'eletrolítico']}
     >

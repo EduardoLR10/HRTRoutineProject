@@ -21,7 +21,7 @@ export default function DengueEOurasArboviroses(): JSX.Element {
     <Routine
       id="dengue"
       name="Dengue e Outras Arboviroses"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['marco']}
       tags={['hemorrágico', 'zika', 'chikungunya', 'febre', 'amarela']}
     >

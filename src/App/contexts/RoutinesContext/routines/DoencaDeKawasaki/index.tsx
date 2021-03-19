@@ -23,7 +23,7 @@ export default function DoencaDeKawasaki(): JSX.Element {
     <Routine
       id="doenca-kawasaki"
       name="Doença de Kawasaki - DK"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['síndrome', 'mucocutânea', 'ganglionar']}
     >

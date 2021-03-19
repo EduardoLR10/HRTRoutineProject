@@ -21,7 +21,7 @@ export default function Varicela(): JSX.Element {
     <Routine
       id="varicela"
       name="Varicela"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['marco']}
       tags={['catapora', 'exantema', 'bolhoso', 'zoster']}
     >

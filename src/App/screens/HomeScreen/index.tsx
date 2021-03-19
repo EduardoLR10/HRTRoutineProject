@@ -60,7 +60,10 @@ export default function HomeScreen(): JSX.Element {
             style={{ marginBottom: 32 }}
           />
           {!isLoading && sortedRoutines.length !== 0 && (
-            <RoutinesSection routines={sortedRoutines} />
+            <RoutinesSection
+              routines={sortedRoutines}
+              selectedCategory={selectedCategory}
+            />
           )}
           {!isLoading && sortedRoutines.length === 0 && (
             <Empty

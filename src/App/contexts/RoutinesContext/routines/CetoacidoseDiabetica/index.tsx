@@ -21,7 +21,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
     <Routine
       id="cetoacidose-diabetica"
       name="Cetoacidose Diabética (CAD)"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['roberta']}
       tags={['diabetes', 'tipo', '1', 'descompensação']}
     >

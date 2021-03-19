@@ -21,7 +21,7 @@ export default function DisturbiosAcidosBase(): JSX.Element {
     <Routine
       id="disturbios-acido-base"
       name="Distúrbios Ácido-Base"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['francisco']}
       tags={['bicarbonato', 'HCO3', 'H+', 'BE', 'acidose', 'alcalose']}
     >

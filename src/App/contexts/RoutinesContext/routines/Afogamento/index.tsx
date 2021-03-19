@@ -23,7 +23,7 @@ export default function TestRoutine(): JSX.Element {
     <Routine
       id="afog"
       name="Afogamento"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['barbara']}
       tags={['afogado']}
     >

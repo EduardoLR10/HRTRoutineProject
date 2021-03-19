@@ -21,7 +21,7 @@ export default function EmergenciaRespiratoria(): JSX.Element {
     <Routine
       id="emergencia-respiratoria"
       name="Emergência Respiratória"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['luiz']}
       tags={['criança', 'insuficiência', 'aguda']}
     >

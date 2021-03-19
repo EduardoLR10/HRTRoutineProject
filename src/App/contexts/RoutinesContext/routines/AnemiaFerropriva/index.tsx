@@ -21,7 +21,7 @@ export default function AnemiaFerropriva(): JSX.Element {
     <Routine
       id="anemia-ferropriva"
       name="Anemia Ferropriva"
-      category="gastroenterologia"
+      categories={['gastroenterologia']}
       authors={['ana-luiza']}
       tags={['doença', 'deficiência', 'palidez']}
     >

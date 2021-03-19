@@ -21,7 +21,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
     <Routine
       id="endocardite-infecciosa"
       name="Endocardite Infecciosa (EI) na Infância"
-      category="cardiologia"
+      categories={['cardiologia']}
       authors={['luciany']}
       tags={['bacteriana']}
     >

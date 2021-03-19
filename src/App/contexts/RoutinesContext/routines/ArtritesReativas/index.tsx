@@ -21,7 +21,7 @@ export default function ArtriteReativa(): JSX.Element {
     <Routine
       id="artrite-reat"
       name="Artrites Reativas ou Reacionais (AR)"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['artrite', 'artralgia', 'reacional']}
     >

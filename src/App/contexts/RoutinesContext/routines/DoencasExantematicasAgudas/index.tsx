@@ -21,7 +21,7 @@ export default function DoencasExantematicasAgudas(): JSX.Element {
     <Routine
       id="doencas-examtematicas"
       name="Doenças Exantemáticas Agudas"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['marco']}
       tags={[
         'sarampo',

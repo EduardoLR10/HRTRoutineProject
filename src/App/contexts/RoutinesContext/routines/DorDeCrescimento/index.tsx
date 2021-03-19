@@ -21,7 +21,7 @@ export default function DorDeCrescimento(): JSX.Element {
     <Routine
       id="dor-de-crescimento"
       name="Dor de Crescimento"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['dor', 'pernas', 'perna']}
     >

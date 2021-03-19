@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import Category from '../../../../models/Category'
 import CategoriesContext from '../../../contexts/CategoriesContext'
 import UserContext from '../../../contexts/UserContext'
