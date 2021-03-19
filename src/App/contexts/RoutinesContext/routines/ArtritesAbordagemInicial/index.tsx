@@ -21,7 +21,7 @@ export default function ArtriteAbordagemInicial(): JSX.Element {
     <Routine
       id="artrite-inicial"
       name="Artrite Abordagem Inicial"
-      categories={['emergencia']}
+      categories={['emergencia', 'hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['artrite', 'dor', 'articular']}
     >

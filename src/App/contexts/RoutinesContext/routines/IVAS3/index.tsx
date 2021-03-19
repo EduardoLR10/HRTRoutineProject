@@ -21,7 +21,7 @@ export default function IVAS3(): JSX.Element {
     <Routine
       id="ivas3"
       name="IVAS 3 - Rinossinusite Aguda"
-      categories={['pneumologia']}
+      categories={['pneumologia', 'emergencia']}
       authors={['renato']}
       tags={['sinusite']}
     >

@@ -21,7 +21,7 @@ export default function MononucleoseInfecciosa(): JSX.Element {
     <Routine
       id="mononucleose-infecciosa"
       name="Mononucleose Infecciosa"
-      categories={['infectologia']}
+      categories={['infectologia', 'emergencia']}
       authors={['iuri', 'marco']}
       tags={['EBV', 'doença', 'beijo']}
     >

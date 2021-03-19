@@ -21,7 +21,7 @@ export default function InvestigacaoDasInfeccoesRespiratorias(): JSX.Element {
     <Routine
       id="investigacao-respiratoria"
       name="Infecção de Vias Aéreas de Repetição - Investigação"
-      categories={['infectologia']}
+      categories={['pneumologia']}
       authors={['fernando']}
       tags={['infecções', 'respiratórias', 'recorrente']}
     >

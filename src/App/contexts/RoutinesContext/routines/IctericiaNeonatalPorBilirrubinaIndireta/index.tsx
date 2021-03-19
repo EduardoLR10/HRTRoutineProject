@@ -23,7 +23,7 @@ export default function IctericianeonatalPorBilirrubinaIndireta(): JSX.Element {
     <Routine
       id="ictericia"
       name="Icterícia Neonatal por Bilirrubina Indireta"
-      categories={['neonatologia']}
+      categories={['neonatologia', 'emergencia']}
       authors={['maria']}
       tags={['fototerapia', 'incompatibilidade', 'sanguínea']}
     >

@@ -21,7 +21,7 @@ export default function FormulasLacteas(): JSX.Element {
     <Routine
       id="formulas-lacteas"
       name="Fórmulas Lácteas"
-      categories={['lactentes']}
+      categories={['lactentes', 'gastroenterologia']}
       authors={['francisco']}
       tags={[
         'leite',

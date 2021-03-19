@@ -21,7 +21,7 @@ export default function IVAS1(): JSX.Element {
     <Routine
       id="ivas1"
       name="IVAS 1 - Faringotonsilite Aguda"
-      categories={['pneumologia']}
+      categories={['pneumologia', 'emergencia']}
       authors={['renato']}
       tags={['amigdalite', 'tonsilite', 'faringite', 'faringoamigdalite']}
     >

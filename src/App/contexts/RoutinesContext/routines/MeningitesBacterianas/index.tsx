@@ -21,7 +21,7 @@ export default function MeningitesBacterianas(): JSX.Element {
     <Routine
       id="meningites-bacterianas"
       name="Meningites Bacterianas na Infância"
-      categories={['infectologia']}
+      categories={['infectologia', 'emergencia']}
       authors={['marco']}
       tags={['encefalite', 'meningoencefalite']}
     >

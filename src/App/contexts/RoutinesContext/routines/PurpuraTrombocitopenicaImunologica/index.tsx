@@ -20,7 +20,7 @@ export default function PurpuraTrombitopenicaImulogica(): JSX.Element {
   return (
     <Routine
       id="purpura-trombiopenica"
-      name="Púrpura Trombocitopênica Imunilógica (PTI)"
+      name="Púrpura Trombocitopênica Imunológica (PTI)"
       categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania', 'fabricio']}
       tags={['idiopática', 'hematoma', 'equimose']}

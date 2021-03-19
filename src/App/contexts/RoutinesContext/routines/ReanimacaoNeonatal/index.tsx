@@ -23,7 +23,7 @@ export default function ReanimacaoNeonatal(): JSX.Element {
     <Routine
       id="reanimacao-neonatal"
       name="Reanimação Neonatal"
-      categories={['emergencia']}
+      categories={['emergencia', 'neonatologia']}
       authors={['carlos']}
       tags={['ressucitação', 'ressuscitar', 'recém', 'nascido']}
     >

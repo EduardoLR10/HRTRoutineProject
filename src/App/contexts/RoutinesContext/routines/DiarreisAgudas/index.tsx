@@ -21,7 +21,7 @@ export default function DiarreiasAgudas(): JSX.Element {
     <Routine
       id="diarreias-agudas"
       name="Diarréias Agudas"
-      categories={['emergencia']}
+      categories={['emergencia', 'gastroenterologia']}
       authors={['sergio']}
       tags={['GECA', 'rotavirose', 'viral', 'desidratação']}
     >

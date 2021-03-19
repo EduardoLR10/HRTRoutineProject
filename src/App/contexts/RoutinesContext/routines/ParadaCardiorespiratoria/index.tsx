@@ -28,7 +28,7 @@ export default function ParadaRespiratoria(): JSX.Element {
     <Routine
       id="parada-respiratoria"
       name="Parada Cardiorrespiratória"
-      categories={['emergencia']}
+      categories={['emergencia', 'cardiologia']}
       authors={['luiz']}
       tags={['PCR', 'PALS']}
     >

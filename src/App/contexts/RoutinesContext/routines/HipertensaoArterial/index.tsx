@@ -21,7 +21,7 @@ export default function HipertensaoArterial(): JSX.Element {
     <Routine
       id="hipertensao-arterial"
       name="Hipertensão Arterial na Infância"
-      categories={['emergencia']}
+      categories={['emergencia', 'cardiologia']}
       authors={['luciany']}
       tags={['criança', 'pressão', 'alta']}
     >
