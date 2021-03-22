@@ -23,7 +23,7 @@ export default function TuberculosePulmonar(): JSX.Element {
     <Routine
       id="tuberculose-pulmonar"
       name="Tuberculose Pulmonar na Infância"
-      categories={['pneumologia']}
+      categories={['pneumologia', 'infectologia']}
       authors={['fernando']}
       tags={['TB', 'cavitação', 'pulmonar', 'criança', 'BAAR']}
     >

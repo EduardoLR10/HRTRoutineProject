@@ -21,7 +21,7 @@ export default function InfeccaoDoTratoUrinario(): JSX.Element {
     <Routine
       id="infeccao-do-trato-urinario"
       name="Infecção do Trato Urinário"
-      categories={['hematologia-reumatologia-nefrologia']}
+      categories={['hematologia-reumatologia-nefrologia', 'emergencia']}
       authors={['dania', 'fabricio']}
       tags={['pielonefrite', 'cistite', 'ITU']}
     >

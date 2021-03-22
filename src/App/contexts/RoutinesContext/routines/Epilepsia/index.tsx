@@ -21,7 +21,7 @@ export default function Epilepsia(): JSX.Element {
     <Routine
       id="epilepsia"
       name="Epilepsia e Estado de Mal Epiléptico"
-      categories={['neurologia']}
+      categories={['neurologia', 'emergencia']}
       authors={['manuela']}
       tags={['convulsão', 'mal', 'convulsivo']}
     >

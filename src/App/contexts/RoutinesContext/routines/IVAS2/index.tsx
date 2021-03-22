@@ -21,7 +21,7 @@ export default function IVAS2(): JSX.Element {
     <Routine
       id="ivas2"
       name="IVAS 2 - Otite Média Aguda"
-      categories={['pneumologia']}
+      categories={['pneumologia', 'emergencia']}
       authors={['renato']}
       tags={[]}
     >

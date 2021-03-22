@@ -23,7 +23,7 @@ export default function HidratacaoVenosaRN(): JSX.Element {
     <Routine
       id="hidratacao-venosa-no-rn"
       name="Hidratação Venosa no RN"
-      categories={['emergencia']}
+      categories={['emergencia', 'neonatologia']}
       authors={['carlos']}
       tags={['recém', 'nascido']}
     >

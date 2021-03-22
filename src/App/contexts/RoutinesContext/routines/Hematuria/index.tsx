@@ -21,7 +21,7 @@ export default function Hematuria(): JSX.Element {
     <Routine
       id="hematuria"
       name="Hematúria"
-      categories={['emergencia']}
+      categories={['emergencia', 'hematologia-reumatologia-nefrologia']}
       authors={['fabricio']}
       tags={['infecção', 'urinária', 'distúrbio', 'metabólico']}
     >

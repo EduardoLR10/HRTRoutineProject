@@ -21,7 +21,7 @@ export default function Coqueluche(): JSX.Element {
     <Routine
       id="coqueluche"
       name="Coqueluche"
-      categories={['lactentes']}
+      categories={['lactentes', 'infectologia']}
       authors={['francisco']}
       tags={['tosse', 'pertussis']}
     >

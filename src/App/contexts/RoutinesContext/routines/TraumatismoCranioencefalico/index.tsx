@@ -21,7 +21,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
     <Routine
       id="traumatismo-craniocenfalico"
       name="Traumatismo Cranioencefálico"
-      categories={['emergencia']}
+      categories={['emergencia', 'neurologia']}
       authors={['manuela']}
       tags={['TCE', 'craniano']}
     >

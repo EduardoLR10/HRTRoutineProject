@@ -21,7 +21,7 @@ export default function FebreNoRecemNascido(): JSX.Element {
     <Routine
       id="febre-no-recem-nascido"
       name="Febre no Recém Nascido"
-      categories={['emergencia']}
+      categories={['neonatologia', 'emergencia']}
       authors={['maria']}
       tags={['hipertermia']}
     >

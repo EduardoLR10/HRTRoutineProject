@@ -21,7 +21,7 @@ export default function TestRoutine(): JSX.Element {
     <Routine
       id="cefaleia"
       name="Cefaléias"
-      categories={['neurologia']}
+      categories={['neurologia', 'emergencia']}
       authors={['manuela']}
       tags={['dor', 'cabeça', 'cefaléia', 'enxaqueca']}
     >
