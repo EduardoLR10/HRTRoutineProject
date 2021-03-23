@@ -21,7 +21,7 @@ export default function InsuficienciaRespiratoria(): JSX.Element {
     <Routine
       id="insuficiencia-respiratoria"
       name="Insuficiência Respiratória no RN"
-      category="neonatologia"
+      categories={['neonatologia', 'emergencia']}
       authors={['maria']}
       tags={['parada', 'cardiorrespiratória', 'recém', 'nascido']}
     >

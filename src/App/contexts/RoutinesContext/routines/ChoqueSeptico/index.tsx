@@ -23,7 +23,7 @@ export default function ChoqueSeptico(): JSX.Element {
     <Routine
       id="choque-septico"
       name="Choque Séptico"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['rafael']}
       tags={['sepsis', 'vasoativas']}
     >

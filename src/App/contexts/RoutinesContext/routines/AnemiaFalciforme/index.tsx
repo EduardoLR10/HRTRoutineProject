@@ -21,7 +21,7 @@ export default function AnemiaFalciforme(): JSX.Element {
     <Routine
       id="anemia-facilforme"
       name="Anemia Falciforme"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['emergencia','hematologia-reumatologia-nefrologia']}
       authors={['dania', 'fabricio']}
       tags={['doença', 'hemolítica']}
     >

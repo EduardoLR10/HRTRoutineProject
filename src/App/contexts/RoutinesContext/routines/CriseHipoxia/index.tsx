@@ -23,7 +23,7 @@ export default function CriseHipoxia(): JSX.Element {
     <Routine
       id="crise-hipoxia"
       name="Crise Hipoxia"
-      category="cardiologia"
+      categories={['emergencia','cardiologia']}
       authors={['luciany']}
       tags={['oxigênio', 'hipoxemia']}
     >

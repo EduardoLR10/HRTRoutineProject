@@ -21,7 +21,7 @@ export default function HepatitesVirais(): JSX.Element {
     <Routine
       id="hepatites-virais"
       name="Hepatites Virais"
-      category="infectologia"
+      categories={['infectologia', 'gastroenterologia']}
       authors={['marco']}
       tags={['hepatite', 'hepatomegalia', 'icterícia', 'A', 'B']}
     >

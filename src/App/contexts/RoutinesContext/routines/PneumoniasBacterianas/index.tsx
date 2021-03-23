@@ -21,7 +21,7 @@ export default function PneumoniasBacterianas(): JSX.Element {
     <Routine
       id="pneumonias-bacterianas"
       name="Pneumonias Bacterianas"
-      category="pneumologia"
+      categories={['pneumologia', 'emergencia']}
       authors={['fernando']}
       tags={['pneumonia', 'bactéria']}
     >

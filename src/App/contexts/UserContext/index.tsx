@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import React, { useContext, useEffect, useState } from 'react'
+import React, { ReactNode, useContext, useEffect, useState } from 'react'
 import Category from '../../../models/Category'
 import Routine from '../../../models/Routine'
 import CategoriesContext from '../CategoriesContext'
@@ -32,7 +32,7 @@ export const UserContext = React.createContext<User>({
 export default UserContext
 
 export interface UserProviderProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export function UserProvider({ children }: UserProviderProps): JSX.Element {
@@ -61,19 +61,24 @@ export function UserProvider({ children }: UserProviderProps): JSX.Element {
   }
 
   const [lastSeenRoutines, setLastSeenRoutines] = React.useState<Routine[]>([])
-  React.useEffect(() => {
+  useEffect(() => {
     userService
       .getLastSeenRoutines()
       .then(ids => ids.filter(id => !!routines[id])) // Check if routine still exists
       .then(ids => ids.map(id => routines[id]))
       .then(setLastSeenRoutines)
   }, [])
+
   const lastSeenCategories = lastSeenRoutines
     .reduce(
       (lastSeenCategories, routine) =>
-        lastSeenCategories.includes(routine.category)
-          ? lastSeenCategories
-          : [...lastSeenCategories, routine.category],
+        routine.categories.reduce(
+          (lastSeenCategories, category) =>
+            lastSeenCategories.includes(category)
+              ? lastSeenCategories
+              : [...lastSeenCategories, category],
+          lastSeenCategories
+        ),
       [] as string[]
     )
     .map(id => categories[id])

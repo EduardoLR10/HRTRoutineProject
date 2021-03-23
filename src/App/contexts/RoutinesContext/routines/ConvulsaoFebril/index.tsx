@@ -21,7 +21,7 @@ export default function ConvulsaoFebril(): JSX.Element {
     <Routine
       id="convulsao-febril"
       name="Convulsão Febril"
-      category="emergencia"
+      categories={['emergencia', 'neurologia']}
       authors={['manuela']}
       tags={['febre', 'crise', 'convulsiva']}
     >

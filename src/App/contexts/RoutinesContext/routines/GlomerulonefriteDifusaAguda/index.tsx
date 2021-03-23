@@ -21,7 +21,7 @@ export default function GlomerulonefriteDifusaAguda(): JSX.Element {
     <Routine
       id="glomerulonefrite"
       name="Glomerulonefrite Difusa Aguda (GNDA)"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia']}
       authors={['dania']}
       tags={['nefrite', 'estreptocócica', 'hipertensão', 'hematúria', 'edema']}
     >

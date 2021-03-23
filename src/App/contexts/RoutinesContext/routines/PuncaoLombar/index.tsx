@@ -21,7 +21,7 @@ export default function PuncaoLombar(): JSX.Element {
     <Routine
       id="puncao-lombar"
       name="Punção Lombar"
-      category="emergencia"
+      categories={['emergencia', 'infectologia']}
       authors={['manuela']}
       tags={['meningite']}
     >

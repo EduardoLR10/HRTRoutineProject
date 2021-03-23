@@ -21,7 +21,7 @@ export default function InfeccoesTegumentares(): JSX.Element {
     <Routine
       id="infeccoes-tegumentares"
       name="Infecções Tegumentares e Miosites"
-      category="infectologia"
+      categories={['infectologia', 'emergencia']}
       authors={['iuri', 'marco']}
       tags={['celulite', 'erisipela', 'miosite', 'mialgia']}
     >

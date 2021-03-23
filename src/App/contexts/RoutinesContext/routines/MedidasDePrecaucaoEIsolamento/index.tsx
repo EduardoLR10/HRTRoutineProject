@@ -21,7 +21,7 @@ export default function MedidasDePrecaucaoEIsolamento(): JSX.Element {
     <Routine
       id="medidas-precaucao"
       name="Medidas de Precaução e Isolamento em Doenças Infecciosas"
-      category="infectologia"
+      categories={['infectologia']}
       authors={['iuri']}
       tags={['prevenção', 'preventivas', 'profilaxia']}
     >

@@ -21,7 +21,7 @@ export default function MononucleoseInfecciosa(): JSX.Element {
     <Routine
       id="mononucleose-infecciosa"
       name="Mononucleose Infecciosa"
-      category="infectologia"
+      categories={['infectologia', 'emergencia']}
       authors={['iuri', 'marco']}
       tags={['EBV', 'doença', 'beijo']}
     >
@@ -103,8 +103,8 @@ export default function MononucleoseInfecciosa(): JSX.Element {
           <LItem>Prednisolona ou prednisona: 1 a 2 mg/kg/dia;</LItem>
           <LItem>Dexametasona: 0,15 mg/kg/dose;</LItem>
           <LItem>
-            O aciclovir também pode ter efeito sobre o EBV, mas raramente oferece
-            benefícios para o paciente imunocompetente.
+            O aciclovir também pode ter efeito sobre o EBV, mas raramente
+            oferece benefícios para o paciente imunocompetente.
           </LItem>
         </List>
         <Subsection title="Critérios de Alta">
@@ -117,8 +117,8 @@ export default function MononucleoseInfecciosa(): JSX.Element {
       <Section title="Prognóstico e Orientações para o Seguimento">
         <P>
           Pacientes com mononucleose podem ter a cronificação da infecção e, por
-          isso, devem ser acompanhados por, pelo menos, 6 meses no ambulatório de
-          pediatria. No seguimento, monitorar a esplenomegalia, que é um dos
+          isso, devem ser acompanhados por, pelo menos, 6 meses no ambulatório
+          de pediatria. No seguimento, monitorar a esplenomegalia, que é um dos
           sinais de cronificação, solicitar pelo menos um hemograma para afastar
           plaquetopenia, que é característica da infecção crônica e verificar a
           queda dos títulos de anticorpos da classe IgM e elevação de anticorpos

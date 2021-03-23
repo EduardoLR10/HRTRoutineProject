@@ -24,7 +24,7 @@ export default function AlergiaAProteinaDoLeiteDeVaca(): JSX.Element {
     <Routine
       id="alergia-leite"
       name="Alergia à Proteína do Leite de Vaca"
-      category="gastroenterologia"
+      categories={['gastroenterologia', 'lactentes']}
       authors={['ana-luiza']}
       tags={['intolerância', 'lactose']}
     >

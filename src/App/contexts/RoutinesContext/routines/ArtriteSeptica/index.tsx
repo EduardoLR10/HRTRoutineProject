@@ -21,7 +21,7 @@ export default function ArtriteSeptica(): JSX.Element {
     <Routine
       id="artrite-sep"
       name="Artrite Séptica (AS)"
-      category="hematologia-reumatologia-nefrologia"
+      categories={['hematologia-reumatologia-nefrologia', 'emergencia']}
       authors={['dania', 'fabricio']}
       tags={['séptico']}
     >

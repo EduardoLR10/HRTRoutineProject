@@ -21,7 +21,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
     <Routine
       id="crise-aguda-asma"
       name="Crise Aguda de Asma"
-      category="emergencia"
+      categories={['emergencia', 'pneumologia']}
       authors={['fernando', 'dania']}
       tags={['bronquite']}
     >

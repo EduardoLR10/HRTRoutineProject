@@ -83,6 +83,7 @@ import MausTratos from './MausTratos'
 import ParasitosesIntestinais from './ParasitosesIntestinais'
 
 export default [
+  // TestRoutine,
   SindromeNefrotica,
   Adenomegalias,
   Afogamento,

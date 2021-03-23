@@ -25,7 +25,7 @@ export default function AlimentacaoNos2PrimeirosAnosDeVida(): JSX.Element {
     <Routine
       id="alimen-2-anos"
       name="Alimentação nos 2 Primeiros Anos de Vida"
-      category="pediatria-puericultura"
+      categories={['pediatria-puericultura', 'gastroenterologia']}
       authors={['barbara']}
       tags={['recém', 'nascido', 'dieta']}
     >

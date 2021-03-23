@@ -23,7 +23,7 @@ export default function InsuficienciaCardiaca(): JSX.Element {
     <Routine
       id="insuficiencia-cardiaca"
       name="Insuficiência Cardíaca (IC) na Infância"
-      category="emergencia"
+      categories={['emergencia', 'cardiologia']}
       authors={['luciany']}
       tags={['ICC']}
     >

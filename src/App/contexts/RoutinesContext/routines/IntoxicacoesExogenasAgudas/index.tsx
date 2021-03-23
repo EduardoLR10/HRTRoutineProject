@@ -21,7 +21,7 @@ export default function IntoxicacoesExogenasAgudas(): JSX.Element {
     <Routine
       id="intoxiacacoes-exogenas"
       name="Intoxicações Exógenas Agudas"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['ana-luiza']}
       tags={['exógena', 'intoxicação']}
     >

@@ -21,7 +21,7 @@ export default function Crupe(): JSX.Element {
     <Routine
       id="crupe"
       name="Crupe"
-      category="emergencia"
+      categories={['emergencia', 'pneumologia']}
       authors={['renato']}
       tags={[
         'laringite',

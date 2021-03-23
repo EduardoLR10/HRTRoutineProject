@@ -24,7 +24,7 @@ export default function Urticaria(): JSX.Element {
     <Routine
       id="urticaria"
       name="Urticária e Anafilaxia"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['cristianne']}
       tags={[
         'angioedema',

@@ -21,7 +21,7 @@ export default function Insulinoterapia(): JSX.Element {
     <Routine
       id="insulinoterapia"
       name="Insulinoterapia"
-      category="endocrinologia"
+      categories={['endocrinologia', 'emergencia']}
       authors={['roberta']}
       tags={[]}
     >

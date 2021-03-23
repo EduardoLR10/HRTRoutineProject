@@ -23,7 +23,7 @@ export default function DiarreiaInfecciosa(): JSX.Element {
     <Routine
       id="diarreia-infecciosa"
       name="Diarréia Infecciosa"
-      category="gastroenterologia"
+      categories={['gastroenterologia', 'emergencia']}
       authors={['dania', 'fabricio', 'marco']}
       tags={[
         'gastroenterite',

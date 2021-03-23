@@ -27,7 +27,7 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
     <Routine
       id="obstrucao-de-via-aerea"
       name="Obstrução de Via Aérea por Corpo Estranho (OVACE)"
-      category="emergencia"
+      categories={['emergencia']}
       authors={['luiz']}
       tags={['ovace', 'engasgo', 'engasgar']}
     >
