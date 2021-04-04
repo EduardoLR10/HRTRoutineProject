@@ -19,7 +19,7 @@ export default function CategoriesSection({
 }: CategoriesSectionProps): JSX.Element {
   return (
     <View style={style}>
-      <H2 style={{ marginBottom: 16, paddingHorizontal: 4 }}>Categorias</H2>
+      <H2 style={{ marginBottom: 16, paddingHorizontal: 4 }}>Categorias </H2>
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
