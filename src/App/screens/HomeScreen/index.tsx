@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 import styled, { useTheme } from 'styled-components/native'
-import Screen, { Main } from './../../shared/Screen'
+import Screen from './../../shared/Screen'
 import { View } from 'react-native'
 import BottomNav from './../../shared/BottomNav'
 import Category from '../../../models/Category'
 import Searchbar from './components/Searchbar'
 import CategoriesSection from './components/CategoriesSection'
-import RoutinesSection from './components/RoutinesSection'
 import useSortedCategories from './hooks/useSortedCategories'
 import useSortedRoutines from './hooks/useSortedRoutines'
 import Empty from '../../shared/Empty'
-import { Bold, Text } from '../../shared/typography'
+import { Bold, H2, Text } from '../../shared/typography'
 import { ActivityIndicator } from 'react-native-paper'
+import { FlatList } from 'react-native-gesture-handler'
+import RoutineItem from '../../shared/RoutineItem'
 
 const SearchbarContainer = styled.View`
   padding: 16px 16px 0px;
@@ -48,54 +49,62 @@ export default function HomeScreen(): JSX.Element {
 
   return (
     <Screen>
-      <View style={{ flex: 1 }}>
-        <Main
+      <View style={{ flex: 1, overflow: 'hidden' }}>
+        <FlatList
           style={{ overflow: 'visible' }}
-          contentContainerStyle={{ paddingTop: 88 }}
-        >
-          <CategoriesSection
-            categories={sortedCategories}
-            selectedCategory={selectedCategory}
-            onSelectCategory={setSelectedCategory}
-            style={{ marginBottom: 32 }}
-          />
-          {!isLoading && sortedRoutines.length !== 0 && (
-            <RoutinesSection
-              routines={sortedRoutines}
+          contentContainerStyle={{ paddingTop: 88, paddingHorizontal: 8 }}
+          ListHeaderComponent={
+            <>
+              <CategoriesSection
+                categories={sortedCategories}
+                selectedCategory={selectedCategory}
+                onSelectCategory={setSelectedCategory}
+                style={{ marginBottom: 32 }}
+              />
+              <H2 style={{ marginBottom: 16 }}>Rotinas Pediátricas</H2>
+            </>
+          }
+          data={isLoading ? [] : sortedRoutines}
+          renderItem={({ item }) => (
+            <RoutineItem
+              routine={item}
               selectedCategory={selectedCategory}
+              style={{ marginBottom: 8 }}
             />
           )}
-          {!isLoading && sortedRoutines.length === 0 && (
-            <Empty
-              style={{ padding: 32 }}
-              color={theme.color.onBackground}
-              message={
-                <Text>
-                  Nenhuma rotina{' '}
-                  {selectedCategory && (
-                    <Text>
-                      de <Bold>{selectedCategory.name}</Bold>{' '}
-                    </Text>
-                  )}
-                  encontrada
-                  {searchTxt && (
-                    <Text>
-                      {' '}
-                      na busca por <Bold>{searchTxt} </Bold>
-                    </Text>
-                  )}
-                </Text>
-              }
-            />
-          )}
-          {isLoading && (
-            <ActivityIndicator
-              color={theme.color.primaryVariant}
-              size={32}
-              style={{ padding: 32 }}
-            />
-          )}
-        </Main>
+          ListEmptyComponent={
+            // eslint-disable-next-line multiline-ternary
+            isLoading ? (
+              <ActivityIndicator
+                color={theme.color.primaryVariant}
+                size={32}
+                style={{ padding: 32 }}
+              />
+            ) : (
+              <Empty
+                style={{ padding: 32 }}
+                color={theme.color.onBackground}
+                message={
+                  <Text>
+                    Nenhuma rotina{' '}
+                    {selectedCategory && (
+                      <Text>
+                        de <Bold>{selectedCategory.name}</Bold>{' '}
+                      </Text>
+                    )}
+                    encontrada
+                    {searchTxt && (
+                      <Text>
+                        {' '}
+                        na busca por <Bold>{searchTxt} </Bold>
+                      </Text>
+                    )}
+                  </Text>
+                }
+              />
+            )
+          }
+        />
         <SearchbarContainer>
           <Searchbar
             value={searchTxt}
@@ -106,7 +115,6 @@ export default function HomeScreen(): JSX.Element {
           />
         </SearchbarContainer>
       </View>
-
       <BottomNav />
     </Screen>
   )

@@ -18,12 +18,12 @@ export default function CategoriesSection({
   style
 }: CategoriesSectionProps): JSX.Element {
   return (
-    <View style={style}>
-      <H2 style={{ marginBottom: 16, paddingHorizontal: 4 }}>Categorias </H2>
+    <View style={{ overflow: 'visible', ...style }}>
+      <H2 style={{ marginBottom: 16 }}>Categorias </H2>
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
-        contentContainerStyle={{ paddingHorizontal: 4 }}
+        style={{ overflow: 'visible' }}
       >
         {categories.map(category => (
           <React.Fragment key={category.id}>

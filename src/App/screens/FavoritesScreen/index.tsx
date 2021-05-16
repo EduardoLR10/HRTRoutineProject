@@ -6,30 +6,25 @@ import { H1 } from '../../shared/typography'
 import RoutineItem from '../../shared/RoutineItem'
 import UserContext from '../../contexts/UserContext'
 import Empty from '../../shared/Empty'
+import { FlatList } from 'react-native-gesture-handler'
 
 export default function FavoritesScreen(): JSX.Element {
   const { favoriteRoutines } = useContext(UserContext)
 
   return (
     <Screen>
-      <Main
-        contentContainerStyle={{ paddingVertical: 16, paddingHorizontal: 4 }}
-      >
-        <H1 style={{ marginBottom: 16 }}>Seus Favoritos</H1>
-        {(favoriteRoutines.length !== 0 && (
-          <View>
-            {favoriteRoutines.map(routine => (
-              <RoutineItem
-                key={routine.id}
-                routine={routine}
-                style={{ marginBottom: 8 }}
-              />
-            ))}
-          </View>
-        )) || (
-          <Empty message="Nenhuma rotina favoritada." style={{ padding: 32 }} />
+      <FlatList
+        ListHeaderComponent={
+          <H1 style={{ marginBottom: 16 }}>Seus Favoritos</H1>
+        }
+        data={favoriteRoutines}
+        renderItem={({ item }) => (
+          <RoutineItem routine={item} style={{ marginBottom: 8 }} />
         )}
-      </Main>
+        ListEmptyComponent={
+          <Empty message="Nenhuma rotina favoritada." style={{ padding: 32 }} />
+        }
+      />
       <BottomNav />
     </Screen>
   )
