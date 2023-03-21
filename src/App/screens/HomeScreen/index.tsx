@@ -93,6 +93,8 @@ export default function HomeScreen(): JSX.Element {
               color={theme.color.primaryVariant}
               size={32}
               style={{ padding: 32 }}
+              accessibilityComponentType="button"
+              accessibilityTraits={'button'}
             />
           )}
         </Main>

@@ -87,7 +87,10 @@ export default function RoutineScreen(): JSX.Element {
 
   return (
     <SectionProvider sectionIdx={sectionIdx} setSectionIdx={setSectionIdx}>
-      <Drawer.Navigator drawerContent={props => <SectionMenu />}>
+      <Drawer.Navigator
+        drawerContent={props => <SectionMenu />}
+        screenOptions={{ headerShown: false }}
+      >
         <Drawer.Screen name={routine.id} component={RoutineMain} />
       </Drawer.Navigator>
     </SectionProvider>

@@ -15,7 +15,7 @@ function TabNavigation(): JSX.Element {
   return (
     <Tab.Navigator
       initialRouteName="Home"
-      screenOptions={{ tabBarVisible: false }}
+      screenOptions={{ headerShown: false, tabBarStyle: { display: 'none' } }}
     >
       <Tab.Screen
         name="Home"
