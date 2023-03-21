@@ -62,6 +62,6 @@ export type AppTheme = {
 }
 export default AppTheme
 
-declare module 'styled-components' {
+declare module 'styled-components/native' {
   export interface DefaultTheme extends AppTheme {}
 }

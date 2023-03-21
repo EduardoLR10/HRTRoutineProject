@@ -42,7 +42,7 @@ export function LItem({ children }: LItemProps): JSX.Element {
   const Icon =
     depth === 0 ? (
       <Octicons
-        name="primitive-dot"
+        name="dot-fill"
         size={8}
         color={theme.color.onSurface}
         style={{ margin: 8 }}

@@ -1,5 +1,4 @@
 import React from 'react'
-import { registerRootComponent } from 'expo'
 import { StatusBar } from 'expo-status-bar'
 import { useFonts } from 'expo-font'
 import Routes from './screens/Routes'
@@ -33,5 +32,3 @@ export default function App(): JSX.Element {
     </ThemeProvider>
   )
 }
-
-registerRootComponent(App)
