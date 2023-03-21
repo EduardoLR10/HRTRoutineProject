@@ -17,7 +17,7 @@ export interface RoutinesProviderProps {
 export function RoutinesProvider({
   children
 }: RoutinesProviderProps): JSX.Element {
-  const routines = routinesList.reduce((routines, routine) => {
+  const routines = routinesList().reduce((routines, routine) => {
     routines[routine.id] = routine
     return routines
   }, {} as { [id: string]: Routine })
