@@ -27,5 +27,10 @@
     },
     "permissions": []
   },
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "extra": {
+    "eas": {
+      "projectId": "19106950-a9c4-4a99-b29b-2a2178a9b4b9"
+    }
+  }
 }
