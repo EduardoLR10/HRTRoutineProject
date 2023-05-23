@@ -53,10 +53,11 @@ export default function Epilepsia(): JSX.Element {
             vias aéreas, aumento da pressão intracraniana e consequente morte
             neuronal.
           </P>
+        </Subsection>
+        <Subsection title="Estado de mal epiléptico refratário">
           <P>
-            Estado de mal epiléptico refratário: EME refratário ao tratamento
-            com 2 drogas antiepilépticas de classes diferentes e em doses
-            adequadas.
+            EME refratário ao tratamento com 2 drogas antiepilépticas de classes
+            diferentes e em doses adequadas.
           </P>
         </Subsection>
       </Section>
@@ -80,7 +81,7 @@ export default function Epilepsia(): JSX.Element {
         </P>
         <P>
           Classificar o tipo de crise como de início focal (perceptivas ou
-          disperceptivas, de acordo com o comprometimento da consciência), de
+          disperceptivas, de acordo com o comprometimento da percepção), de
           início generalizado (motoras ou não motoras – ausência), início
           desconhecido ou não classificada.
         </P>
@@ -107,7 +108,7 @@ export default function Epilepsia(): JSX.Element {
           <LItem>
             Se houver suspeita de infecção: hemograma, PCR, hemocultura, líquor
             (se houver sinais de hipertensão intracraniana, colher o líquor
-            apenas após exame de imagem);
+            apenas após neuroimagem);
           </LItem>
           <LItem>
             Nível sérico de drogas antiepilépticas, se fizer uso prévio;
@@ -160,29 +161,28 @@ export default function Epilepsia(): JSX.Element {
           data={[
             [
               '5 - 20 min\nTERAPIA INICIAL',
-              'ABC do Suporte de Vida\nGlicemia capilar, acesso venoso, colher sangue (checar distúrbios metabólicos, infecções função hepática/renal, nível sérico de drogas, intoxicação), história clínica.\nDiazepam 0,2-0,3 mg/kg EV em bolus (ou 0,3 mg/kg retal) ou Midazolam 0,15 mg/kg EV, IM, nasal ou bucal, repetindo a cada 5 minutos, até máximo de 3 doses.'
+              'ABC do Suporte de Vida\nGlicemia capilar, acesso venoso, exames laboratoriais (checar distúrbios metabólicos, infecções, função hepática / renal, nível sérico de drogas, intoxicação), história clínica.\nDiazepam 0,2-0,3mg/kg EV em bolus (ou 0,3mg/kg retal) ou Midazolam 0,15mg/kg EV, IM, nasal ou bucal, repetindo a cada 5 minutos, até máximo de 3 doses.'
             ],
             [
               '20 - 40 min\nSEGUNDA FASE',
-              'Fenitoína - ataque de 15-20 mg/kg, doses adicionais de 5-10 mg/kg até máximo de 30 mg/kg. Aguardar 20 minutos.'
+              'Fenitoína – ataque de 15-20mg/kg, doses adicionais de 5-10mg/kg, até máximo de 30mg/kg. Aguardar 20 minutos.'
             ],
             [
               '40 - 60 min\nTERCEIRA FASE',
-              'Fenobarbital - araque de 10-20 mg/kg, dosese adicionais de 5-10 mg/kg, até máximo de 40 mg/kg. Aguardar 20 minutos.'
+              'Fenobarbital – ataque de 10-20mg/kg, doses adicionais de 5-10mg/kg, até máximo de 40mg/kg. Aguardar 20 minutos.'
             ],
             [
               '> 60 min\nEME REFRATÁRIO',
-              'Midazolam: bolus de 0,15 mg/kg e manutenção de 0,05-2 mg/kg/hora (ajustar 0,05-0,1 mg/kg/hora cada 15 minutos)'
+              'Midazolam: bolus de 0,15mg/kg e manutenção de 0,05-2mg/kg/hora (ajustar 0,05-0,1 mg/kg/hora cada 15 minutos)'
             ]
           ]}
         />
         <Subsection title="Outras Drogas">
           <Subsubsection title="1ª escolha">
             <P>
-              Diazepam 0,2-0,3 mg/kg/dose EV em bolus, se acesso venoso, ou 0,3
-              mg/kg/dose retal (máximo 10 mg/dose). Repetir as doses a cada 5
-              minutos, máximo de 3 doses. Velocidade máxima de infusão: 1
-              mg/kg/min.
+              1ª escolha: Diazepam 0,2-0,3 mg/kg/dose EV em bolus, se acesso
+              venoso, ou 0,3 mg/kg/dose retal (máximo 10mg/dose). Repetir as
+              doses a cada 5 minutos, máximo de 3 doses..
             </P>
             <P>Riscos: hipotensão e depressão respiratória.</P>
             <P>Antídoto: Flumazenil, dose de 0,2 mg/kg intravenoso.</P>
@@ -209,12 +209,12 @@ export default function Epilepsia(): JSX.Element {
           <Subsubsection title="1ª escolha">
             <P>
               Fenitoína, ataque de 15-20 mg/kg EV (máximo 1.000 mg), infundir em
-              20-30 minutos (velocidade máxima de 1 mg/kg/min). Não diluir em
+              20-30 minutos (velocidade máxima de 1mg/kg/min). Não diluir em
               soro glicosado e lavar o equipo antes e depois da infusão.
             </P>
             <P>
               Se não houver resposta após 20 minutos, fazer doses adicionais de
-              5-10 mg/kg, até máximo de 30 mg/kg.
+              5- 10mg/kg, até máximo de 30mg/kg.
             </P>
             <P>
               Seu início de ação pode demorar até 40 minutos, podendo ser
@@ -236,10 +236,10 @@ export default function Epilepsia(): JSX.Element {
           <P>Se as crises persistirem:</P>
           <Subsubsection title="2ª escolha">
             <P>
-              Fenobarbital, ataque de 10-20 mg/kg EV (máximo 1.000 mg), lento
+              Fenobarbital, ataque de 10-20mg/kg EV (máximo 1.000 mg), lento
               (infundir em 5 minutos). Vias oral e intramuscular não devem ser
               usadas. Se não houver resposta após 30 minutos, fazer doses
-              adicionais de 5-10 mg/kg, até máximo de 40 mg/kg.
+              adicionais de 5-10mg/kg, até máximo de 40mg/kg.
             </P>
             <P>
               Manutenção: 3-5 mg/kg/dia de 24/24 horas – iniciar 24 horas após
@@ -256,8 +256,8 @@ export default function Epilepsia(): JSX.Element {
           </Bold>
           <Subsubsection title="1ª opção">
             <P>
-              Midazolam 0,1-0,3 mg/kg EV em bolus e após contínuo de 0,05-2
-              mg/kg/hora. Aumentar infusão em 0,05-0,1 mg/kg/hora a cada 15
+              Midazolam 0,1-0,3mg/kg EV em bolus e após contínuo de 0,05-
+              2mg/kg/hora. Aumentar infusão em 0,05-0,1 mg/kg/hora a cada 15
               minutos, dose máxima de 1 g/kg/h.
             </P>
             <P>
@@ -270,8 +270,8 @@ export default function Epilepsia(): JSX.Element {
         <Subsection title="Falha do Midazolam">
           <Subsubsection title="Tiopental">
             <P>
-              Tiopental 3-5 mg/kg/dose EV em bolus (máximo 500 mg), e após
-              manutenção de 1-3 mg/kg/hora.
+              Tiopental 3-5mg/kg/dose EV em bolus (máximo 500 mg), e após
+              manutenção de 1-3mg/kg/hora.
             </P>
             <P>
               Riscos: choque, hipotensão, depressão miocárdica e vasodilatação,
@@ -282,8 +282,8 @@ export default function Epilepsia(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Propofol">
             <P>
-              Propofol: 1-3 mg/kg EV de ataque, seguido de manutenção de 3-5
-              mg/kg/h.
+              Propofol: 1-3 mg/kg EV de ataque, seguido de manutenção de
+              3-5mg/kg/h.
             </P>
             <P>
               Riscos: síndrome da infusão do propofol – colapso
@@ -294,29 +294,29 @@ export default function Epilepsia(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Quetamina">
             <P>
-              Quetamina: 2-3 mg/kg-dose EV em bolus, seguido de manutenção de 10
-              μg/kg/min. Aumentar infusão em 5-10 μg/kg/min a cada 10 minutos,
+              Quetamina: 2-3mg/kg-dose EV em bolus, seguido de manutenção de
+              10μg/kg/min. Aumentar infusão em 5-10 μg/kg/min a cada 10 minutos,
               dose máxima de 100 μg/kg/min.
             </P>
             <P>OBS: Ventilação mecânica necessária.</P>
           </Subsubsection>
           <Subsubsection title="Topiramato">
-            <P>Topiramato: 3 mg/kg/dose de ataque por SNE.</P>
+            <P>Topiramato: 3mg/kg/dose de ataque por SNE.</P>
             <P>Manutenção: 6-12 mg/kg/dia de 08/08 horas, via SNE.</P>
           </Subsubsection>
           <Subsubsection title="Lidocaína">
             <P>
-              Lidocaína: 1-2 mg/kg EV de ataque, seguido de manutenção de 1-6
+              Lidocaína: 1-2mg/kg EV de ataque, seguido de manutenção de 1-6
               mg/kg/h.
             </P>
             <P>OBS: Ventilação mecânica necessária.</P>
           </Subsubsection>
           <Subsubsection title="Levetiracetam">
             <P>
-              Levetiracetam: 20-60 mg/kg/dose EV, infusão lenta (5 mg/kg/min -
+              Levetiracetam: 20-60mg/kg/dose EV, infusão lenta (5 mg/kg/min -
               máx 3g).
             </P>
-            <P>Manutenção: 20-50 mg/kg/dia de 12/12 horas.</P>
+            <P>Manutenção: 20-50mg/kg/dia de 12/12 horas.</P>
           </Subsubsection>
         </Subsection>
       </Section>
@@ -346,7 +346,7 @@ export default function Epilepsia(): JSX.Element {
         </P>
         <P>
           <Bold>
-            Menores de 2 anos: fenobarbital 3-5 mg/kd/dia, dose única, à noite;
+            Menores de 2 anos: fenobarbital 3-5mg/kd/dia, dose única, à noite;
           </Bold>
         </P>
         <P>

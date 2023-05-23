@@ -37,21 +37,18 @@ export default function ConvulsaoFebril(): JSX.Element {
         </P>
         <P>
           Geralmente ocorre nas primeiras 24 horas da doença e 21% na primeira
-          hora após início da febre.
-        </P>
-        <P>
-          Crises que ocorrem 3 dias ou mais após o início do quadro,
-          dificilmente serão convulsões febris.
+          hora após início da febre. Crises que ocorrem 3 dias ou mais após o
+          início do quadro, dificilmente serão convulsões febris.
         </P>
         <P>
           Nos primeiros 2 anos de vida, cerca de 2/3 dos estados de mal
           epiléptico (EME) são febris. A febre geralmente está mais alta (cerca
-          de 39°C) no momento da crise, sendo a crise, o primeiro sinal de febre
-          em 25-50% dos casos.
+          de 39°C) no momento da crise, que é o primeiro sinal de febre em 25-
+          50% dos casos.
         </P>
         <P>
           Fatores de risco: elevação da temperatura, história familiar positiva
-          em parentes de 1º grau, internação {'>'} 28 dias no período neonatal,
+          em parentes de 1º grau, internação &gt; 28 dias no período neonatal,
           atraso do desenvolvimento neurológico, frequentar creche.
         </P>
       </Section>
@@ -98,7 +95,7 @@ export default function ConvulsaoFebril(): JSX.Element {
           Em crianças após uma primeira convulsão febril complexa, a neuroimagem
           (TC de crânio com contraste ou RM de crânio) deve ser realizada se
           houver crise focal, crise prolongada ou EME febril. O
-          eletroencefalograma ambulatorial está indicado dos casos de EME
+          eletroencefalograma ambulatorial está indicado nos casos de EME
           febril, recorrência sem febre, atraso do desenvolvimento neurológico
           ou déficit neurológico prévio.
         </P>
@@ -185,7 +182,8 @@ export default function ConvulsaoFebril(): JSX.Element {
       <Section title="Critérios de Alta">
         <P>
           Paciente estável, com recuperação do nível de consciência após a crise
-          epiléptica. Não há necessidade de internação.
+          epiléptica. Não há necessidade de internação, exceto quando indicado
+          pela doença causadora da febre ou em EME.
         </P>
       </Section>
       <Section title="Prognóstico e Orientações para o Seguimento">
@@ -212,7 +210,7 @@ export default function ConvulsaoFebril(): JSX.Element {
       <Section title="Referências">
         <Reference
           idx={1}
-          body="Patterson JL, Carapetian SA, Hageman JR, Kelley KR.	Febrile Seizures. Pediatr Ann. 2013 Dec;42(12):249-54."
+          body="Patterson JL, Carapetian SA, Hageman JR, Kelley KR. Febrile Seizures. Pediatr Ann. 2013 Dec;42(12):249-54."
         />
         <Reference
           idx={2}

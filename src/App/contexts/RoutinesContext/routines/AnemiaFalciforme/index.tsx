@@ -21,7 +21,7 @@ export default function AnemiaFalciforme(): JSX.Element {
     <Routine
       id="anemia-facilforme"
       name="Anemia Falciforme"
-      categories={['emergencia','hematologia-reumatologia-nefrologia']}
+      categories={['emergencia', 'hematologia-reumatologia-nefrologia']}
       authors={['dania', 'fabricio']}
       tags={['doença', 'hemolítica']}
     >
@@ -31,7 +31,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           brasileira, sendo a AF a doença hereditária mais frequente no país.
           Possui caráter autossômico recessivo e é chamada de AF a homozigose
           para a Hb S (Hb SS). Associações da Hb S com hemoglobinas anormais (Hb
-          D, C, talassemias) constituem um grupo chamado de Doença Falciforme,
+          D, C, Talassemias) constituem um grupo chamado de Doença Falciforme,
           incluindo também a AF (Hb SS). Ocorre especialmente na raça negra,
           porém com o alto grau de miscigenação brasileiro, a doença pode ser
           encontrada indistintamente em indivíduos de diversas etnias.
@@ -65,7 +65,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           <P>
             Exame de eleição para avaliação das hemoglobinas normais (A1, A2 e
             F) e para detectar as hemoglobinas anormais (S, C, D, E,
-            talassemias). Consiste na separação eletroforética das diferentes
+            Talassemias). Consiste na separação eletroforética das diferentes
             hemoglobinas, em acetato de celulose, de acordo com suas cargas
             elétricas.
           </P>
@@ -212,52 +212,52 @@ export default function AnemiaFalciforme(): JSX.Element {
             os analgésicos e anti-inflamatórios; prurido, retenção urinária,
             constipação intestinal, náuseas, vômitos e sonolência com a morfina.
             Avaliar a resposta ao tratamento para dor após 24h de esquema
-            analgésico, se houver melhora, é recomendado reduzir as doses (20 a
-            30% por vez), iniciando pela morfina, mantendo-se os intervalos, até
-            o controle adequado e suspensão da medicação. Deve-se evitar a
-            hiper-hidratação no paciente com DF, eles têm água corporal
-            aumentada e principalmente naqueles que já possuem algum grau de
-            cardiopatia, há risco de deflagrar edema agudo de pulmão. A taxa
-            hídrica total deve corresponder a 1 – 1,5 vezes a taxa de manutenção
-            normal, salvo nas situações clínicas onde houver perdas líquidas,
-            por exemplo, nas GECA(s), com vômitos e diarréia. Medicações
-            adjuvantes: anti-histamínicos, protetores gástricos, anti-eméticos e
+            analgésico, se melhora, é recomendado reduzir as doses, iniciando
+            pela morfina, mantendo-se os intervalos, até o controle adequado e
+            suspensão da medicação. Deve-se evitar a hiper-hidratação no
+            paciente com DF, eles têm água corporal aumentada e principalmente
+            naqueles que já possuem algum grau de cardiopatia, há risco de
+            deflagrar edema agudo de pulmão. A taxa hídrica total deve
+            corresponder a 1 – 1,5 vezes a taxa de manutenção normal, salvo nas
+            situações clínicas onde houver perdas líquidas, por exemplo, nas
+            GECA(s), com vômitos e diarréia. Medicações adjuvantes:
+            anti-histamínicos, protetores gástricos, anti-eméticos e
             anti-depressivos.
           </LItem>
           <LItem>
             2. SÍndrome torácica aguda (STA): caracterizada por febre, dor
             torácica, taquidispnéia, sibilos, tosse ou hipoxemia e o surgimento
             de um infiltrado pulmonar novo no RX de tórax. Para o diagnóstico,
-            além do quadro clínico, nota-se na gasometria arterial uma paO
-            <Subscript>2</Subscript> {'<'} 75%. As etiologias incluem
-            vaso-oclusão pulmonar e isquemia, embolização gordurosa e
-            tromboembolismo, crises agudas de asma e infecção. É mais frequente
-            nas crianças que em adultos, com pico entre 2 – 4 anos e os
-            episódios recorrentes são comuns. A STA ocorre após episódios de
-            infecções do trato respiratório, virais ou bacterianas, onde já
-            foram identificados vários agentes etiológicos diferentes:
-            pneumococo, hemófilo, estafilococo, salmonela, klebsiella, clamídia,
-            micoplasma, vírus sincicial respiratório, parvovírus B19. Por cursar
-            com comprometimento alveolar e devido às infecções estarem entre as
-            etiologias descritas, o diagnóstico diferencial com pneumonia
-            bacteriana é difícil, impondo-se a necessidade do tratamento com
-            antibióticos para garantir a abordagem desta doença. Está indicado
-            esquema de antibiótico com largo espectro: ceftriaxona (bactérias
-            encapsuladas) + macrolídeo ou quinolona (germes atípicos). Manuseio
-            da STA: oxigênio suplementar para corrigir a hipoxemia (saturação
-            deve ser mantida {'>'} 92%) ; hidratação venosa adequada (máximo 1,5
-            vezes o volume de manutenção) ; transfusão de concentrado de
-            hemácias (10ml/Kg), o objetivo é manter os níveis de Hb entre 10 –
-            11g/% ; antibioticoterapia – ceftriaxona (75 – 100mg/Kg, IV, a cada
-            24h. Não ultrapassar 4g/dia) e azitromicina (10 mg/Kg, VO, a cada
-            24h, máximo de 500 mg/dia). Quinolonas podem ser utilizadas nas
-            crianças maiores e adolescentes – levofloxacino (500 – 750 mg/dia, a
-            cada 24h).
+            além do quadro clínico, nota-se na gasometria arterial uma paO₂ &lt;
+            75%. As etiologias incluem vaso-oclusão pulmonar e isquemia,
+            embolização gordurosa e tromboembolismo, crises agudas de asma e
+            infecção. É mais frequente nas crianças que em adultos, com pico
+            entre 2 – 4 anos e os episódios recorrentes são comuns. A STA ocorre
+            após episódios de infecções do trato respiratório, virais ou
+            bacterianas, onde já foram identificados vários agentes etiológicos
+            diferentes: Pneumococo, Hemófilo, Estafilococo, Salmonela,
+            Klebisiela, Clamídia, Micoplasma, Vírus Sincicial Respiratório,
+            Parvovírus B10. Por cursar com comprometimento alveolar e devido às
+            infecções estarem entre as etiologias descritas, o diagnóstico
+            diferencial com pneumonia bacteriana é difícil, impondo-se a
+            necessidade do tratamento com antibióticos para garantir a abordagem
+            desta doença. Está indicado esquema de antibiótico com largo
+            espectro: ceftriaxona (bactérias encapsuladas) + macrolídeo ou
+            quinolona (germes atípicos). Manuseio da STA: oxigênio suplementar
+            para corrigir a hipoxemia (saturação deve ser mantida &gt; 92%);
+            hidratação venosa adequada (máximo 1,5 vezes o volume de
+            manutenção); transfusão de concentrado de hemácias (10ml/Kg, máximo
+            de 300 ml, o que corresponde a uma bolsa), o objetivo é manter os
+            níveis de Hb entre 10 – 11g/%; antibioticoterapia – ceftriaxona (75
+            – 100mg/Kg, IV, a cada 24h. Não ultrapassar 4g/dia) e azitromicina
+            (10 mg/Kg, VO, a cada 24h, máximo de 500 mg/dia). Quinolonas podem
+            ser utilizadas nas crianças maiores e adolescentes – levofloxacino
+            (500 – 750 mg/dia, a cada 24h).
           </LItem>
           <LItem>
             3. Sequestro esplênico: é o aprisionamento agudo de sangue dentro do
             baço levando à anemia severa e hipovolemia, de rápida evolução,
-            constituindo portanto, uma urgência médica. Tem maior incidência
+            constituindo, portanto, uma urgência médica. Tem maior incidência
             entre os 6 meses a 3 anos de idade e nos portadores de outras
             síndromes falciformes que permanecem com o baço aumentado. Nessas
             crises, o baço aumenta rapidamente de volume e ocorre queda súbita
@@ -269,9 +269,9 @@ export default function AnemiaFalciforme(): JSX.Element {
             sequestração esplênica: o paciente deve ser prontamente internado e
             submetido à restauração da volemia. Colher sangue para dosar Hb e Ht
             antes da transfusão, juntamente com a prova cruzada. Prescrever
-            concentrado de hemácias se Ht {'<'} 30% (10 ml/kg) e
-            exsanguíneotransfusão parcial se Ht {'>'} 30%. A transfusão deve ser
-            realizada imediatamente, mesmo que o sangue disponível não seja
+            concentrado de hemácias se Ht &lt; 30% (10 ml/kg, máximo de 300 ml)
+            e exsanguíneotransfusão parcial se Ht &gt; 30%. A transfusão deve
+            ser realizada imediatamente, mesmo que o sangue disponível não seja
             fenotipado. Atenção: não prescrever uma 2ª transfusão sem antes
             fazer um exame (hemograma) de controle.
           </LItem>
@@ -286,7 +286,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           </LItem>
           <LItem>
             5. Crise aplástica: não é frequente e ocorre geralmente após
-            processos infecciosos relacionados ao parvovírus B19. Há supressão
+            processos infecciosos relacionados ao Parvovírus B19. Há supressão
             temporária da eritropoiese medular que, associada a menor sobrevida
             das hemácias dos pacientes, resultam numa anemia severa.
             Clinicamente, há sintomas decorrentes de uma anemia aguda, sem
@@ -294,46 +294,46 @@ export default function AnemiaFalciforme(): JSX.Element {
             choque hipovolêmico. Podem ser encontrados ainda, febre, sinais de
             infecção respiratória ou gastrointestinal. A principal
             característica laboratorial é a reticulocitopenia na ausência de
-            icterícia. Deve-se colher sorologia para o parvovírus B19 e realizar
-            transfusão de concentrado de hemácias (10 ml/kg), com controle do
-            hemograma 24h após. É indicado o uso da gamaglobulina intravenosa –
-            GGIV, na dose de 2g/kg, dose única, correr em bomba de infusão, em
-            12h.
+            icterícia. Deve-se colher sorologia para o Parvovírus B19 e realizar
+            transfusão de concentrado de hemácias (10 ml/kg, máximo de 300 ml),
+            com controle do hemograma 24h após. É indicado o uso da
+            gamaglobulina venosa – GGIV, na dose de 2g/kg, dose única, correr em
+            bomba de infusão, em 12h.
           </LItem>
           <LItem>
             6. Acidente vascular encefálico (AVE): uma das mais graves
             complicações da AF, é um evento neurológico agudo que ocorre em
-            cerca de 10% das crianças com Hb SS, secundário à vaso-oclusão ou
+            cerca de 10% das crianças com Hb SS, secundário à vaso- oclusão ou
             hemorragia, cujos sintomas são: hemi ou monoparesia, distúrbios
             visuais, afasia ou disfasia, convulsões, coma. O diagnóstico é
             confirmado pela TC (sem contraste) ou RM. Manuseio do AVE: o
-            paciente deve ser prontamente submetido à transfusão(colher sangue
-            para dosar Hb e Ht antes). Prescrever concentrado de hemácias se Ht{' '}
-            {'<'} 30% (10 ml/kg) e exsanguíneotransfusão parcial se Ht {'>'}{' '}
-            30%. A transfusão deve ser realizada imediatamente, mesmo que o
-            sangue disponível não seja fenotipado. Atenção: não elevar a Hb para
-            mais que 10 mg/dl e nunca prescrever uma 2ª transfusão sem antes
-            fazer um exame (hemograma) de controle. Após a regressão do quadro
-            agudo, o paciente deve se mantido em regime crônico de transfusões (
-            a cada 3 – 4 semanas), visando manter a concentração de Hb S
-            inferior a 30%, uma vez que o índice de recorrência do AVE alcança
-            67% dos pacientes entre 12 e 24 meses após o primeiro episódio e 80%
-            nos 3 primeiros anos, quando não transfundidos cronicamente. Mesmo
-            os pacientes em esquema transfusional podem apresentar recorrência
-            de 10%. O nível de hemoglobina pré-transfusional deve ser mantido
-            entre 8 e 9 g/dl e hemoglobina pós-transfusional ao redor de 10g/dl.
-            É recomendado realizar a triagem de pacientes com doppler
-            transcraniano nos pacientes falcêmicos entre 2 – 17 anos, para
-            avaliar a velocidade de fluxo sanguíneo e identificar os pacientes
-            com alto risco para AVE. Aqueles com velocidade {'>'} 200 cm/seg
-            devem ser colocados em regime de transfusões seriadas para impedir a
-            1ª crise de AVE.
+            paciente deve ser prontamente submetido à transfusão (colher sangue
+            para dosar Hb e Ht antes). Prescrever concentrado de hemácias se Ht
+            &lt; 30% (10 ml/kg, máximo de 300 ml) e exsanguíneotransfusão
+            parcial se Ht &gt; 30%. A transfusão deve ser realizada
+            imediatamente, mesmo que o sangue disponível não seja fenotipado.
+            Atenção: não elevar a Hb para mais que 10 mg/dl e nunca prescrever
+            uma 2ª transfusão sem antes fazer um exame (hemograma) de controle.
+            Após a regressão do quadro agudo, o paciente deve se mantido em
+            regime crônico de transfusões ( a cada 3 – 4 semanas), visando
+            manter a concentração de Hb S inferior a 30%, uma vez que o índice
+            de recorrência do AVE alcança 67% dos pacientes entre 12 e 24 meses
+            após o primeiro episódio e 80% nos 3 primeiros anos, quando não
+            transfundidos cronicamente. Mesmo os pacientes em esquema
+            transfusional podem apresentar recorrência de 10%. O nível de
+            hemoglobina pré-transfusional deve ser mantido entre 8 e 9 g/dl e
+            hemoglobina pós-transfusional ao redor de 10g/dl. É recomendado
+            realizar a triagem de pacientes com doppler transcraniano nos
+            pacientes falcêmicos entre 2 – 17 anos, para avaliar a velocidade de
+            fluxo sanguíneo e identificar os pacientes com alto risco para AVE.
+            Aqueles com velocidade &gt; 200 cm/seg devem ser colocados em regime
+            de transfusões seriadas para impedir a 1ª crise de AVE.
           </LItem>
           <LItem>
             7. Fígado e vias biliares: as crises de falcização intra-hepática
             levam a um quadro de colestase, caracterizada por hepatomegalia,
             aumento das transaminases e níveis de Bb elevados com predomínio da
-            fração direta. A colelitíase ocorre em 14% das crianças {'<'} 10
+            fração direta. A colelitíase ocorre em 14% das crianças &lt; 10
             anos, em 30% dos adolescentes e em 75% dos adultos com AF, com
             início frequentemente a partir dos 6 anos. Podem evoluir de modo
             assintomático ou apresentar crises de dor em hipocôndrio direito.
@@ -353,8 +353,8 @@ export default function AnemiaFalciforme(): JSX.Element {
             A forma crônica caracteriza-se por ereções dolorosas repetitivas e
             reversíveis. A conduta inicial baseia-se em analgesia sistêmica. A
             exsanguíneotransfusão parcial é indicada se não houver melhora após
-            12h de analgesia adequada (não deixar Hb final {'>'} 10 g/dl). Se
-            não houver melhora após 24h do início das manifestações clínicas,
+            12h de analgesia adequada (não deixar Hb final &gt; 10 g/dl). Se não
+            houver melhora após 24h do início das manifestações clínicas,
             realizar punção aspirativa do corpo cavernoso e, mantendo-se ainda o
             priapismo, indica-se intervenção cirúrgica, com realização de shunts
             entre a glande e o corpo cavernoso ou com fístula safenocavernosa. O
@@ -365,8 +365,8 @@ export default function AnemiaFalciforme(): JSX.Element {
             9. Ossos e articulações: tanto as metáfises e epífises ósseas quanto
             as articulações adjacentes são acometidas no paciente com AF. Nos
             ossos longos, os infartos levam a edema de partes moles, podendo
-            mimetizar um quadro de osteomielite. A necrose avascular,
-            principalmente da cabeça do fêmur, é uma alteração marcante nesses
+            mimetizar um quadro de osteomielite. A necrose avascular.
+            Principalmente da cabeça do fêmur, é uma alteração marcante nesses
             pacientes (mais comum no Hb SC), caracterizada por dor persistente
             no quadril que piora à deambulação e alivia com o repouso. O
             diagnóstico precoce é realizado através de RM ou cintilografia
@@ -402,10 +402,11 @@ export default function AnemiaFalciforme(): JSX.Element {
             ser traumática, por picada de insetos ou espontâneas, por crises
             vaso-oclusivas crônicas. Atingem preferencialmente o terço inferior
             da perna, ao redor do maléolo medial ou lateral e podem se infectar
-            secundariamente, principalmente por estafilococos aureus,
-            pseudomonas sp, estreptococo sp e por anaeróbios. O tratamento se
-            assemelha ao das úlceras de outras etiologias, com cuidados locais,
-            limpeza, debridamento e antibioticoterapia quando necessário.
+            secundariamente, principalmente por Staphylococcus aureus,
+            Pseudomonas sp, Streptococcus sp e por bactérias anaeróbias. O
+            tratamento se assemelha ao das úlceras de outras etiologias, com
+            cuidados locais, limpeza, desbridamento e antibioticoterapia quando
+            necessário.
           </LItem>
           <LItem>
             12. Infecções: constituem a maior causa de morbimortalidade dos
@@ -414,21 +415,21 @@ export default function AnemiaFalciforme(): JSX.Element {
             são mais propensos às infecções por apresentarem asplenia, por não
             produzirem anticorpos IgG específicos contra antígenos
             polissacarídicos e pela deficiência na opsonização, além da hipóxia
-            tecidual, que facilita o surgimento de focos de infecção. A febre é
-            um fator preocupante e deve ser conduzida e investigada com cuidados
-            especiais. Os pacientes devem realizar, ainda na emergência, HC e
-            VHS, coleta de culturas (sangue e urina), RX tórax e de SAF e EAS.
-            Nos casos de febre sem sinais localizatórios em {'<'} 2 anos de
-            idade e toxemiados, proceder também a coleta do líquor. Os germes
-            mais relacionados são: pneumococo, hemófilo, salmonela, E. coli,
-            Klebisiela, micoplasma, clamídia. As medidas devem ser realizadas
-            como as vacinas (calendário completo de imunizações) e instituição
-            da penicilina profilática a partir do 3º mês de vida, até os 5 anos
-            de idade. Utiliza-se a penicilina V – oral 200.000 UI (2,5 ml) VO,
-            de 12/12h, até 1 ano de idade. Para crianças {'>'} 10 Kg, 400.000 UI
-            (5 ml) VO, de 12/12h. Pode-se usar também a penicilina benzatina:
-            600.000 UI, IM, de 21/21 dias para crianças com até 20 Kg e
-            1.200.000 UI para {'>'} 20 Kg.
+            tecidual, que facilita surgimento de locais como foco de infecção. A
+            febre é um fator preocupante e deve ser conduzida e investigada com
+            cuidados especiais. Os pacientes devem realizar, ainda na
+            emergência, HC e VHS, coleta de culturas (sangue e urina), RX tórax
+            e de SAF e EAS. Nos casos de febre sem sinais localizatórios em &lt;
+            2 anos de idade e toxemiados, proceder também a coleta do líquor. Os
+            germes mais relacionados são: Pneumococo, Hemófilo, salmonela, E.
+            coli, Klebisiella, Micoplasma, Clamídia. As medidas devem ser
+            realizadas como as vacinas (calendário completo de imunizações) e
+            instituição da penicilina profilática a partir do 3º mês de vida,
+            até os 5 anos de idade. Utiliza-se a penicilina V – oral 200.000 UI
+            (2,5 ml) VO, de 12/12h, até 1 ano de idade. Para crianças &gt; 10
+            Kg, 400.000 UI (5 ml) VO, de 12/12h. Pode-se usar também a
+            penicilina benzatina: 600.000 UI, IM, de 21/21 dias para crianças
+            com até 20 Kg e 1.200.000 UI para &gt; 20 Kg.
           </LItem>
         </List>
         <Table
@@ -444,7 +445,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           data={[
             [
               'Dipirona',
-              'VO: 10-25 mg/Kg/dose,  IV: 15 mg/Kg/dose (0,03ml/Kg/dose, das ampolas de 500mg/ml)',
+              'VO: 10-25 mg/Kg/dose, IV: 15 mg/Kg/dose (0,03ml/Kg/dose, de ampolas de 500mg/ml)',
               '4/4 ou 6/6h',
               'Se gotas: 40 gts, 6x Adolescentes: 2 g/dia Adultos: 4 g/dia',
               'Compr. de 500 mg\nAmps (2 e 5ml = 500 mg/ml)\nSusp gotas 25mg/gota\nXarope sol. oral 50 mg/ml',
@@ -556,6 +557,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           <LItem>STA;</LItem>
           <LItem>AVE;</LItem>
           <LItem>Crise aplástica;</LItem>
+          <LItem>Crise de hiper-hemólise;</LItem>
           <LItem>Priapismo;</LItem>
           <LItem>Procedimentos de alto risco: anestesia geral;</LItem>
           <LItem>

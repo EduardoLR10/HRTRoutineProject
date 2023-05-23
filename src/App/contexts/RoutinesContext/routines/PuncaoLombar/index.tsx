@@ -35,14 +35,14 @@ export default function PuncaoLombar(): JSX.Element {
           ou hidrocefalia de pressão normal.
         </P>
         <P>
-          O início do quadro de meningite bacteriana pode ser de difícil
-          diagnóstico apenas com a anamnese e o exame físico, visto que muitos
-          processos virais podem causar sinais e sintomas semelhantes, como
-          cefaleia, dor na nuca e/ou nas costas e febre. A punção lombar só deve
-          ser realizada após o exame neurológico e a avaliação da pressão
+          O início do quadro de infecção do sistema nervoso central pode ser de
+          difícil diagnóstico apenas com a anamnese e o exame físico, visto que
+          muitos processos virais podem causar sinais e sintomas semelhantes,
+          como cefaleia, dor na nuca e/ou nas costas e febre. A punção lombar só
+          deve ser realizada após o exame neurológico e a avaliação da pressão
           intracraniana, porém nunca deve atrasar as intervenções que podem
           salvar a vida do paciente, como a administração de antibióticos e
-          corticóides em pacientes com suspeita de meningite bacteriana.
+          corticoides em pacientes com suspeita de meningite bacteriana.
         </P>
         <P>
           A tomografia computadorizada de crânio deve ser realizada antes da
@@ -55,12 +55,12 @@ export default function PuncaoLombar(): JSX.Element {
           cefaleia de forte intensidade, alterações do estado mental ou sinais
           localizatórios. A HIC é mais comum em pacientes com imunodepressão
           (mais suscetíveis a lesões cerebrais expansivas, como abscessos ou
-          tumores) e nos pacientes com suspeita de hemorragia subaracnoideia.
+          tumores) e nos pacientes com suspeita de hemorragia subaracnoidea.
         </P>
       </Section>
       <Section title="Indicações">
         <List>
-          <LItem>Suspeita de hemorragia subaracnoideia;</LItem>
+          <LItem>Suspeita de hemorragia subaracnoidea;</LItem>
           <LItem>Suspeita de infecção do sistema nervoso central (SNC);</LItem>
           <LItem>Alívio terapêutico no pseudotumor cerebral;</LItem>
           <LItem>
@@ -73,7 +73,7 @@ export default function PuncaoLombar(): JSX.Element {
         <List>
           <LItem>Aumento da pressão intracraniana;</LItem>
           <LItem>
-            Coagulopatias / trombocitopenia (plaquetas {'<'} 50.000);
+            Coagulopatias / trombocitopenia (plaquetas &lt; 50.000);
           </LItem>
           <LItem>Abscesso cerebral;</LItem>
           <LItem>Neutropenia.</LItem>
@@ -121,16 +121,17 @@ export default function PuncaoLombar(): JSX.Element {
       </Section>
       <Section title="Complicações">
         <P>
-          As complicações são muito raras e a punção lombar é considerada um
-          procedimento seguro. A complicação mais comum é a cefaleia pós-punção,
-          que pode ocorrer em 10% a 40% dos pacientes, mas pode ser reduzida se
-          forem utilizadas agulhas menos calibrosas. A dor também está associada
-          a procedimentos com dificuldades técnicas, quando são feitas várias
-          tentativas de inserção da agulha sem sucesso. Embora a cefaleia
-          pós-punção não seja perigosa, pode ser muito forte e resistente à
-          analgesia comum. Outras complicações menos frequentes são: hemorragia,
-          infecção (cutânea – no local da introdução da agulha, ou meníngea) e
-          lesões em estruturas adjacentes, como os nervos da cauda equina.
+          As complicações são muito raras e a punção lombar costuma ser
+          considerado um procedimento seguro. A mais comum é a cefaleia
+          pós-punção, que pode ocorrer em 10% a 40% dos pacientes, mas pode ser
+          reduzida se forem utilizadas agulhas menos calibrosas. A dor também
+          está associada a procedimentos com dificuldades técnicas, quando são
+          feitas várias tentativas de inserção da agulha sem sucesso. Embora a
+          cefaleia pós-punção não seja perigosa, pode ser muito forte e
+          resistente à analgesia comum. Outras complicações menos frequentes são
+          hemorragia, infecção (cutânea – no local da introdução da agulha, ou
+          meníngea) e lesões em estruturas adjacentes, como os nervos da cauda
+          equina.
         </P>
       </Section>
       <Section title="Passo a Passo">
@@ -142,8 +143,8 @@ export default function PuncaoLombar(): JSX.Element {
             <LItem>Campo estéril;</LItem>
             <LItem>Gaze;</LItem>
             <LItem>
-              Material para anestesia local: seringa 3 ml, agulha 13 x 4,5 mm,
-              agulha 25 x 7 mm, frasco de lidocaína 1%;
+              Material para anestesia local: seringa 3 ml, agulha 13x 4,5 mm,
+              agulha 25x7 mm, frasco de lidocaína 1%;
             </LItem>
             <LItem>Agulha de punção liquórica 22G;</LItem>
             <LItem>Frascos / tubos estéreis identificados e numerados;</LItem>
@@ -234,16 +235,16 @@ export default function PuncaoLombar(): JSX.Element {
           leucêmica e acidente de punção.
         </P>
         <P>
-          O nível de glicose no líquor ​​corresponde aproximadamente a 60% do
-          nível de glicose no sangue periférico. Recomenda-se a dosagem da
-          glicemia capilar. Baixos níveis de glicose no líquor ​​estão
-          associados a infecção bacteriana.
+          O nível de glicose no líquor corresponde aproximadamente 60% do nível
+          de glicose no sangue periférico. Recomenda-se a dosagem da glicemia
+          capilar. Baixos níveis de glicose no líquor estão associados a
+          infecção bacteriana.
         </P>
         <P>
           A presença de hemácias no líquor geralmente ocorre por acidente de
           punção. Solicitar a celularidade nos tubos nº 1 e nº 4 permite
           comparar a contagem de hemácias e diferenciar os casos de acidentes
-          dos casos de hemorragia subaracnoideia, quando a contagem de hemácias
+          dos casos de hemorragia subaracnoidea, quando a contagem de hemácias
           permanece estável em todos os tubos. A ausência ou queda da proporção
           de hemácias entre o primeiro e o último tubo sugerem acidente de
           punção.
@@ -256,7 +257,7 @@ export default function PuncaoLombar(): JSX.Element {
           A avaliação do nível de proteína no líquor, embora não específica,
           pode fornecer pistas sobre doenças neurológicas, como esclerose
           múltipla e Síndrome de Guillain-Barré. O acidente de punção também
-          pode introduzir proteína no líquido cefalorraquidiano. Pode-se usar a
+          pode introduzir proteína no liquido cefalorraquidiano. Pode-se usar a
           aproximação de 1 mg de proteína para cada 750 hemácias encontradas,
           mas sugere-se repetir a punção.
         </P>
@@ -264,7 +265,7 @@ export default function PuncaoLombar(): JSX.Element {
       </Section>
       <Section title="Critérios de Alta">
         <P>
-          Depende do resultado do exame e da suspeita clínica que motivou o
+          A depende do resultado do exame e da suspeita clínica que motivou o
           exame.
         </P>
       </Section>

@@ -20,17 +20,21 @@ import img1 from './images/image1.jpg'
 import img2 from './images/image2.jpg'
 import img3 from './images/image3.jpg'
 import img4 from './images/image4.jpg'
-import img5 from './images/image5.jpg'
-import img6 from './images/image6.jpg'
+import img5 from './images/image5.png'
+import img6 from './images/image6.png'
 import img7 from './images/image7.jpg'
 import img8 from './images/image8.jpg'
-import img9 from './images/image9.jpg'
+import img9 from './images/image9.png'
 import img10 from './images/image10.jpg'
 import img11 from './images/image11.jpg'
 import img12 from './images/image12.jpg'
 import img13 from './images/image13.jpg'
 import img14 from './images/image14.jpg'
-
+import img15 from './images/image15.jpg'
+import img16 from './images/image16.jpg'
+import img17 from './images/image17.jpg'
+import img18 from './images/image18.jpg'
+import img19 from './images/image19.jpg'
 export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
   return (
     <Routine
@@ -47,15 +51,8 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         </P>
         <P>
           Estes acidentes são de notificação compulsória no Brasil, desde 31 de
-          agosto de 2010, publicado na portaria Nº 2.472 (ratificada na portaria
+          agosto de 2010, publicado na Portaria Nº 2.472 (ratificada na Portaria
           Nº 204, de 17 de fevereiro de 2016).
-        </P>
-        <P>
-          No Brasil a incidência destes acidentes em 2000 era de 18,7 casos
-          /1000000 hab/ano e saltou para 108,2 casos /1000000 hab/ano em 2017. A
-          região centro-oeste saltou de 19,6 para 77,7 casos /1000000 hab/ano e
-          no Distrito Federal de 21,9 para 41,5 casos /1000000 hab/ano, nos
-          respectivos anos.
         </P>
         <P>
           O diagnóstico deve levar em consideração vários aspectos para
@@ -63,43 +60,39 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           até a assistência, os sinais e sintomas iniciais e a evolução destes,
           os exames laboratoriais e o conhecimento do socorrista.
         </P>
-        <P>
-          Antes de descrevermos os acidentes é bom entender que para todos os
-          casos deve haver um tratamento geral e outro específico.
-        </P>
+        <P>O tratamento para todos os casos deve ser geral e específico.</P>
         <Subsection title="Tratamento Geral">
           <P>
-            Consiste em dar suporte ao estado de hidratação, analgesia, suporte
-            ventilatório e circulatório, renal e efeitos adversos dos
-            medicamentos.
+            consiste em dar suporte no estado de hidratação, analgesia, suporte
+            ventilatório e circulatório, renal e manejar corretamente os efeitos
+            adversos dos medicamentos utilizados.
           </P>
         </Subsection>
         <Subsection title="Tratamento Específico">
           <P>
-            O soro contra o veneno será descrito para cada caso, porém devemos
-            saber que a dose calculada deve ser única, não fracionada, feita por
-            via venosa, diluída ou não e que para crianças ou adultos a
-            quantidade é a mesma, variando apenas conforme a gravidade. Em todos
-            os casos não é recomendado fazer teste de sensibilidade, mas deve-se
-            fazer pré-medicação com corticóide e anti-histamínico. Se ocorrer
-            anafilaxia, o soro deve ser suspenso e o tratamento de suporte
-            respiratório e circulatório deve ser instituído, assim como deverá
-            ser iniciada adrenalina, corticóide e anti-histamínico. Tão logo o
-            quadro seja controlado, o soro deve ser retomado, porém mais lento.
-            Assim, se repete quantas vezes for necessária. A prednisona pode ser
-            indicada para controle de reação tardia.
+            o soro contra o veneno para cada caso, deve ser administrado em dose
+            calculada de aplicação única, não fracionada, IV, diluído (ou não) e
+            para crianças ou adultos a quantidade é a mesma, variando conforme a
+            gravidade. Não se faz teste de sensibilidade, e sim, medicação
+            prévia de corticoide e anti-histamínico. Se ocorrer anafilaxia, o
+            soro deve ser suspenso e o tratamento de suporte respiratório e
+            circulatório deve ser instituído, assim como iniciar adrenalina,
+            corticoide e anti-histamínico. Tão logo o quadro seja controlado o
+            soro deve ser retomado, porém com infusão mais lenta. A dose pode
+            ser repetida quantas vezes for necessária. A prednisona pode ser
+            indicada para o controle de reação tardia.
           </P>
         </Subsection>
         <P>
           Os principais animais peçonhentos que causam acidentes graves no
-          Brasil são algumas espécies de serpentes, escorpiões, aranhas e
+          Brasil são algumas espécies de serpentes, de escorpiões, de aranhas e
           lagartas.
         </P>
         <P>
           A reação à picada depende de algumas variáveis como a parte do corpo
-          atingida, a quantidade de veneno injetado, o peso, as comorbidades da
-          vítima, o tempo de início do tratamento e a espécie do animal
-          envolvido.
+          atingida, a quantidade de veneno injetado, o peso e a(s)
+          comorbidade(s) da vítima, o tempo de início do tratamento e a espécie
+          do animal envolvido.
         </P>
         <P>
           O diagnóstico e a classificação de gravidade são eminentemente
@@ -108,80 +101,145 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         </P>
         <P>
           O tratamento geral e específico depende das reações apresentadas que
-          podem ser leves, moderadas ou graves. Especialistas recomendam às
-          vítimas que recebam o soro o mais rápido possível, de preferência
+          podem ser leves, moderadas ou graves. Especialistas recomendam que as
+          vítimas devem receber o soro o mais rápido possível, de preferência
           antes das primeiras três horas após o ataque.
         </P>
         <P>
-          Pode haver necessidade de desbridamento de tecido necrótico ou
-          fasciotomia por síndrome compartimental.
+          Operatório: quando houver necessidade de desbridamento de tecido
+          necrótico ou fasciotomia por síndrome compartimental.
         </P>
       </Section>
       <Section title="Serpentes">
         <P>
           As cobras venenosas do Brasil são facilmente identificáveis por causa
-          da fosseta loreal que consiste em dois orifícios situados entre a
+          da fosseta loreal, que consiste em dois orifícios situados entre a
           narina e o olho, um em cada lado da cabeça (com exceção da coral
-          verdadeira) – fig.1.
+          verdadeira - Fig.1).
         </P>
         <Figure source={img1} size={[120, 90]} caption="fig.1" />
         <Subsection title="Acidente Botrópico">
-          <P>
-            O acidente botrópico é causado por serpentes do grupo das jararacas,
-            gênero <Italic>Bothrops</Italic> (fig.2). Causa a maioria dos
-            acidentes com cobras no Brasil – 75% a 85%. O Cerrado é o seu
-            principal habitat. Possuem escamas, é o que as diferencia de outras
-            espécies. Variadas tonalidades de marrom.
-          </P>
+          <P>Causado por serpentes do grupo das jararacas (Fig.2 e Fig 3).</P>
           <Figure source={img3} size={[346, 146]} caption="fig.2" />
           <Figure source={img2} size={[260, 194]} caption="fig.3" />
+          <P>Causa a maioria dos acidentes com cobras no Brasil: 75% a 85%.</P>
+          <P>O Cerrado é o seu principal habitat.</P>
+          <P>
+            Possuem escamas, é o que as diferencia de outras espécies. Variadas
+            tonalidades de marrom.
+          </P>
           <Subsubsection title="Manifestação Clínica">
             <P>
               Dor e inchaço no local da picada, às vezes com manchas arroxeadas
-              e sangramento no ferimento causado pela picada – fig.3; podem
+              e sangramento no ferimento causado pela picada (Fig.3); podem
               ocorrer sangramentos em gengivas, pele e urina. As complicações
               mais importantes são infecção e necrose na região da picada,
-              choque e insuficiência renal.
+              choque e insuficiência renal. O quadro clínico pode ser
+              classificado em leve, moderado e grave, o que determina a conduta
+              (Quadro 1).
             </P>
+            <Table
+              title="Quadro 1"
+              caption="SAB (soro antibotrópico); SABC (soro antibotrópico-crotálico); SABL (soro antibotrópico-laquético)"
+              colWidths={[150, 150, 150, 150, 150, 150]}
+              header={[
+                'Classificação',
+                'Manifestações locais',
+                'Manifestações sistêmicas',
+                'Tempo de coagulação',
+                'Tempo entre o acidente e o atendomento',
+                'Soroterapia SAB/SABC/SABL'
+              ]}
+              data={[
+                [
+                  'Mínima',
+                  'mínimas ou ausentes',
+                  'ausentes',
+                  'normal',
+                  'menor 6 horas',
+                  'observação'
+                ],
+                [
+                  'Leve',
+                  'discretas',
+                  'ausentes',
+                  'normal ou alterado',
+                  'menor que 6 horas',
+                  '3 ampolas'
+                ],
+                [
+                  'Moderada',
+                  'evidentes',
+                  'ausentes',
+                  'normal ou alterado',
+                  '6 horas',
+                  '6 ampolas'
+                ],
+                [
+                  'Grave',
+                  'intensas',
+                  'presentes',
+                  'alterado',
+                  'maior que 6 horas',
+                  '12 ampolas'
+                ]
+              ]}
+            />
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
             <P>
-              Hemograma completo, uréia, creatinina, CK, DHL, bilirrubinas, TP,
-              TTPA, TC, fibrinogênio e EAS (urina tipo 1).
+              Hemograma completo com leucocitose e neutrofilia com desvio para a
+              esquerda;
             </P>
+            <P>
+              Ureia e creatinina, CK, DHL, AST, ALT, ureia e creatinina, TS, TP,
+              TTPA, TC;
+            </P>
+            <P>EAS com proteinúria, hematúria e leucocitúria;</P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro antibotrópico (SAB) ou, na sua falta, pode-se usar o soro
-              antibotrópico-crotálico (SABC). Se o TC (tempo de coagulação)
-              permanecer alterado após 24h, após a soroterapia, está indicada
-              dose adicional. Para casos leves de 2 a 4 ampolas, moderados de 4
-              a 8 ampolas e graves 12 ampolas.
+              Sem clínica de envenenamento botrópico na admissão, com marca da
+              picada presente ou não, dor e edema mínimos ou ausentes, deixar o
+              paciente em observação mínima de 12 horas.
+            </P>
+            <P>Se houver manifestação de envenenamento:</P>
+            <P>
+              Soro antibotrópico (SAB) ou na sua falta pode-se usar o soro
+              antibotrópico-crotálico (SABC) ou soro antibotrópico-laquético. Se
+              o TC (tempo de coagulação) permanecer alterado após 24h, depois da
+              soroterapia, deve ser feita uma dose adicional. Para casos leves
+              de 2 a 4 ampolas, moderados de 4 a 8 ampolas e graves 12 ampolas,
+              conforme quadro 1.
             </P>
           </Subsubsection>
         </Subsection>
         <Subsection title="Acidente Laquético">
+          <P>Causado pela surucucu pico de jaca, surucutinga (Fig.4).</P>
           <P>
-            O acidente laquético é causado por surucucu pico de jaca,
-            surucutinga, gênero <Italic>Lachesis</Italic> (fig.4). Causa em
-            torno de 3% dos acidentes com cobras no Brasil. Aparece mais na
-            região da Amazônia, Mata atlântica e em áreas de matas úmidas do
-            Nordeste.
+            Causa em torno de 3% dos acidentes com cobras no Brasil. Aparece
+            mais na região da Amazônia, Mata atlântica e em áreas de matas
+            úmidas do Nordeste.
           </P>
           <P>
             Apresentam no corpo desenhos típicos na forma de losangos que
             alternam entre as cores amarela e preta. Uma importante
-            característica morfológica destas cobras é que a cauda apresenta a
-            última fileira de escamas modificadas, sendo estas quilhadas e
-            eriçadas além de apresentar um espinho terminal fig.5.
+            característica morfológica destas cobras é que na cauda apresenta a
+            última subfileira de escamas modificadas, sendo estas quilhadas e
+            eriçadas além de apresentar um espinho terminal (Fig.5).
           </P>
           <Figure source={img5} size={[274, 184]} caption="fig.4" />
           <Figure source={img4} size={[617, 290]} caption="fig.5" />
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Quadro semelhante ao acidente botrópico, adicionalmente
-              acompanhado de vômitos, diarreia, bradicardia e hipotensão
-              arterial.
+              Quadro semelhante ao acidente botrópico, porém com evolução mais
+              rápida e maior intensidade.
+            </P>
+          </Subsubsection>
+          <Subsubsection title="">
+            <P>
+              Hemograma completo TC prolongado Ureia e creatinina, eletrólitos e
+              glicemia
             </P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
@@ -192,11 +250,10 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </Subsubsection>
         </Subsection>
         <Subsection title="Acidente Crotálico">
+          <P>Causado pela cascavel (Fig.6).</P>
           <P>
-            O acidente crotálico é causado pela cascavel, gênero{' '}
-            <Italic>Crotalus</Italic> (fig.6). Causa em torno de 7% dos
-            acidentes com cobras no Brasil. A serpente habita áreas de matas e
-            campos em grande parte do território brasileiro.
+            Causa em torno de 7% dos acidentes com cobras no Brasil. Habita
+            áreas de matas e campos em grande parte do território brasileiro.
           </P>
           <P>
             Uma das principais características desta cobra é a presença de um
@@ -207,42 +264,102 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           <Figure source={img6} size={[190, 266]} caption="fig.7" />
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Sensação de formigamento no local da picada, sem lesão evidente;
-              os sinais e sintomas sistêmicos são precoces, como: dificuldade de
-              manter os olhos abertos, com aspecto sonolento – fig.7, visão
-              turva ou dupla, dor e fraqueza muscular generalizadas, podendo
-              evoluir até insuficiência respiratória e hematúria maciça.
+              Sensação de formigamento no local, sem lesão evidente; os sinais e
+              sintomas sistêmicos são precoces, como: dificuldade de manter os
+              olhos abertos, com aspecto miastênico - Fig.7), visão turva ou
+              dupla, dor e fraqueza muscular generalizadas, podendo evoluir até
+              insuficiência respiratória e hematúria maciça. O quadro clínico
+              pode ser classificado em leve, moderado e grave, o que determina a
+              conduta (Quadro 2).
             </P>
+
+            <Table
+              colWidths={[150, 150, 150, 150, 150, 150]}
+              title="Quadro 2"
+              caption="SAC (soro anticrotálico); SABC (soro antibotrópico-crotálico)"
+              header={[
+                'Classificação',
+                'Facies miastênica',
+                'Mialgia',
+                'Urina vermelha',
+                'Oligoanúria',
+                'Tempo de coagulação',
+                'Soroterapia SAC/SABC'
+              ]}
+              data={[
+                [
+                  'Leve',
+                  'ausente ou tardia',
+                  'ausente ou discreta',
+                  'ausente',
+                  'ausente',
+                  'normal ou alterado',
+                  '5 ampolas'
+                ],
+                [
+                  'Moderado',
+                  'discreta',
+                  'discreta',
+                  'ausente ou discreta',
+                  'ausente',
+                  'normal ou alterado',
+                  '10 ampolas'
+                ],
+                [
+                  'Grave',
+                  'evidente',
+                  'intensa',
+                  'evidente',
+                  'ausente ou presente',
+                  'normal ou alterado',
+                  '20 ampolas'
+                ]
+              ]}
+            />
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
             <P>
-              Hemograma completo, uréia, creatinina, TGO, TGP, CK, DHL, Cálcio,
-              TP, TTPA, TC, fibrinogênio e EAS (urina tipo 1).
+              Hemograma completo – leucocitose com neutrofilia (desvio para
+              esquerda) TC prolongado
             </P>
+            <P>
+              Ureia e creatinina, AST e ALT, CK, DHL, ácido úrico podem estar
+              elevados nos quadros mais graves
+            </P>
+            <P>
+              Fósforo e potássio podem estar elevados e cálcio reduzido quando
+              houver oligúria ou anúria.
+            </P>
+            <P>Urina tipo 1 (EAS) com mioglobinúria e proteinúria discreta</P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro anticrotálico (SAC) ou, na sua falta, pode-se usar o soro
-              antibotrópico-crotálico (SABC). Para casos leves 5 ampolas,
-              moderados 10 ampolas e graves 20 ampolas.
+              Soro anticrotálico (SAC) ou na sua falta pode-se usar o soro
+              antibotrópico-crotálico (SABC).
+            </P>
+            <P>
+              Para casos leves 5 ampolas, moderados 10 ampolas e graves 20
+              ampolas.
             </P>
           </Subsubsection>
         </Subsection>
         <Subsection title="Acidente Elapídico">
+          <P>Causado por coral verdadeira - Fig.8).</P>
           <P>
-            O acidente elapídico é causado por coral verdadeira, gênero{' '}
-            <Italic>Micrurus</Italic>, família <Italic>Elapidae</Italic>{' '}
-            (fig.8). Corresponde a 1% dos acidentes por cobras no Brasil. É
-            encontrada em matas das regiões sudeste e sul do Brasil.
+            Corresponde a 1% dos acidentes por cobras no Brasil. É encontrada em
+            matas das regiões sudeste e sul do Brasil.
           </P>
           <P>
-            A coral verdadeira possui coloração forte e facilmente reconhecida:
-            listrada em preto, vermelho e amarelo.
+            Possui coloração forte e facilmente reconhecida: listrada em preto,
+            vermelho e amarelo.
           </P>
           <P>
             É considerada uma das mais peçonhentas do Brasil em função da alta
-            toxicidade de seu veneno. Uma vez picada, a pessoa pode morrer caso
-            não receba atendimento médico rápido.
+            toxidade de seu veneno.
+          </P>
+          <P>
+            Uma vez picada, a pessoa corre risco de morte caso não receba
+            atendimento médico rápido.
           </P>
           <Figure source={img9} size={[265, 190]} caption="fig.8" />
           <Subsubsection title="Manifestação Clínica">
@@ -256,7 +373,10 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             <P>No local da picada não se observa alteração importante.</P>
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
-            <P>Hemograma completo e CK.</P>
+            <P>
+              Hemograma completo e CK. Demais exames, conforme a necessidade
+              clínica.
+            </P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
@@ -281,30 +401,46 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         </Subsection>
       </Section>
       <Section title="Escorpiões">
+        <P>Dentre os aracnídeos são os que causam mais acidentes.</P>
         <P>
-          Dentre os aracnídeos, são os que causam mais acidentes. Os escorpiões
-          amarelos – fig.9 - e os pretos ou marrons – fig.10 - estão entre os
-          tipos mais venenosos, sendo graves os acidentes causados por
-          escorpiões amarelos. Um ataque pode ser fatal se acometer uma criança.
-          São pouco agressivos, têm hábitos noturnos, e encontram-se em pilhas
-          de madeira, pedras, cercas e residências.
+          O escorpião amarelo, o Titius serrulatus – Fig.9 (provocam acidentes
+          mais graves) e o escorpião preto ou marrom, o Titius bahiensis –
+          Fig.10, estão entre os dois tipos mais venenosos. Um ataque pode ser
+          fatal se acometer uma criança. São pouco agressivos, tem hábitos
+          noturnos, encontram-se em pilhas de madeira e pedras, cercas e
+          residências.
         </P>
         <Figure source={img8} size={[289, 175]} caption="fig.9" />
         <Figure source={img12} size={[253, 199]} caption="fig.10" />
         <Subsection title="Manifestação Clínica">
           <P>
-            Após a picada, ocorrem dor de moderada a intensa, e formigamento no
-            local. Náuseas e vômitos, sudorese, agitação, tremores, sialorréia,
-            taquicardia e hipertensão arterial sugerem gravidade e, para
-            monitorar estes sinais e sintomas, os pacientes devem ser observados
-            de 6 a 12 horas.
+            Após a picada ocorre dor de moderada a intensa, formigamento no
+            local. Distúrbio de comportamento, alteração do nível de
+            consciência, tremores, convulsão, náuseas e vômitos, sialorréia, dor
+            abdominal, diarreia, taquipneica, hiperpneia, crepitações,
+            taquicardia e hiper ou hipotensão arterial, sudorese, extremidades
+            frias e pálidas, pulsos finos e tempo de enchimento capilar maior
+            que 3” sugerem gravidade e o paciente deve permanecer em observação
+            por 6 a 12 horas.
+          </P>
+        </Subsection>
+        <Subsection title="Exames Laboratoriais">
+          <P>Glicemia elevada nas primeiras 4 horas</P>
+          <P>Amilase elevada em 80% dos casos</P>
+          <P>Leucograma com leucocitose e neutrofilia</P>
+          <P>Hiponatremia e hipocalemia</P>
+          <P>CK e CKMB elevados</P>
+          <P>TC crânio pode mostrar áreas de infartos cerebrais</P>
+          <P>
+            Rx tórax pode mostrar aumento de área cardíaca e edema pulmonar uni
+            ou bilateral
           </P>
         </Subsection>
         <Subsection title="Tratamento Específico">
           <P>
-            Soro antiescorpiônico (SAE). Nos acidentes leves, a conduta é
-            observação. Nos acidentes moderados, devem ser administradas 2 a 3
-            ampolas e nos graves, de 4 a 6 ampolas.
+            Soro antiescorpiônico (SAE) nos acidentes leves, a conduta é
+            observação. Nos acidentes moderados, devem ser administrados 2 a 3
+            ampolas e nos graves de 4 a 6 ampolas.
           </P>
         </Subsection>
       </Section>
@@ -325,7 +461,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             levam a quadro grave. Suas picadas ocorrem mais nos pés e mãos. É
             muito agressiva.
           </P>
-          <Subsubsection title="Manifestação Clínica">
+          <Subsubsection title="Manifestações Clínicas">
             <P>
               Dor com ou sem irradiação e edema local, imediatamente após a
               picada, parestesia e sudorese. Se surgirem vômitos, hipertensão
@@ -336,8 +472,8 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro antiaracnídico (SAAr) de 2 a 4 ampolas IV para casos
-              moderados e de 5 a 10 ampolas para casos graves.
+              Soro antiaracnídeo (SAAr) de 2 a 4 ampolas IV para casos moderados
+              e de 5 a 10 ampolas para casos graves.
             </P>
             <P>Crianças devem ser observadas por pelo menos 6 horas.</P>
           </Subsubsection>
@@ -355,36 +491,36 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             móveis, cortinas e eventualmente nas roupas, jardins e gramas. São
             pouco agressivas. Corresponde à forma mais grave dos acidentes por
             aracnídeos no Brasil. Acomete mais a área central – tronco e membros
-            proximais.
+            proximais, geralmente ocorre quando a pessoa está se vestindo.
           </P>
           <Subsubsection title="Manifestação Clínica">
             <P>
               Em torno de 90% ocorre manifestação local. A dor é fraca nas
               primeiras 12 horas e depois pode aumentar de intensidade, pode
-              surgir sinais flogísticos formação de bolhas e até necrose local
-              que pode durar até duas semanas e de difícil cicatrização.
+              surgir sinais flogísticos formação de bolhas e até necrose seca
+              local, que pode durar até duas semanas e de difícil cicatrização.
               Astenia, febre e cefaleia. Nos casos graves (10%) pode apresentar
               exantema, prurido, petéquias, mialgia, náuseas e vômitos, visão
-              turva, sonolência, torpor, irritabilidade e coma. Também pode
-              ocorrer anemia, icterícia e hemoglobinúria devido a hemólise
-              intravascular. Insuficiência renal aguda e coagulação
-              intravascular disseminada é a principal causa de óbito.
+              turva, sonolência, torpor, irritabilidade e coma. Anemia,
+              icterícia e hemoglobinúria devido a hemólise intravascular.
+              Insuficiência renal aguda e CIVD é a principal causa de óbito.
             </P>
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
             <P>
               Hemograma com leucocitose e neutrofilia, anemia aguda,
-              plaquetopenia, reticulocitose hiperbilirrubinemia indireta,
-              hiperpotassemia, elevação de ureia e creatinina e coagulograma
-              alterado.
+              plaquetopenia, reticulocitose, hiperbilirrubinemia indireta,
+              diminuição de haptoglobina, hiperpotassemia, elevação de ureia e
+              creatinina e coagulograma alterado (hemólise intravascular e
+              CIVD).
             </P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro antiloxoscélico (SALOx) ou soro antiaracnídico (SAAr).
-              Infundir venoso 5 ampolas para os casos graves de manifestação
+              Soro antiloxoscélico (SALOx) ou soro antiaracnídeo (SAAr). Infusão
+              intravenosa de 5 ampolas para os casos graves de manifestação
               cutânea e 10 ampolas para manifestações viscerais. A eficácia é
-              reduzida após 36h do acidente loxoscélico.
+              reduzida após 36h da infusão.
             </P>
           </Subsubsection>
         </Subsection>
@@ -398,9 +534,9 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           <P>
             Encontrada em jardins e gramas. Não constrói teias. Não constituem
             problema de saúde pública. São importantes para diagnóstico
-            diferencial da <Italic>Loxosceles</Italic> por ocupar o mesmo
-            habitat.
+            diferencial da Lexósceles por ocupar o mesmo habitat (Fig 13).
           </P>
+          <Figure source={img13} size={[491, 327]}></Figure>
           <Subsubsection title="Manifestação Clínica">
             <P>Flogose local leve.</P>
           </Subsubsection>
@@ -408,25 +544,70 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             <P>Apenas sintomático.</P>
           </Subsubsection>
         </Subsection>
+        <Subsection title="Caranguejeiras">
+          <P>
+            É da família Theraphosidae de aranhas, que inclui as espécies
+            conhecidas pelos nomes comuns de tarântulas (português europeu) ou
+            caranguejeiras (português brasileiro), que se caracterizam por terem
+            pernas longas com duas garras na ponta, e corpo revestido de cerdas
+            urticantes. As tarântulas habitam as regiões temperadas e tropicais
+            das Américas, Ásia, África e Oriente Médio. Enquanto crescem, têm
+            uma fase de troca de pele chamada ecdise. Apesar do tamanho e
+            aspecto sinistro, as tarântulas não são perigosas para a espécie
+            humana, uma vez que não produzem toxinas nocivas aos humanos, por
+            isso são eventualmente criadas como animais de estimação. Uma de
+            suas defesas são os pêlos urticantes de suas costas e abdome, que
+            irritam a pele do possível predador. Em média atingem de 15 cm a 25
+            cm de comprimento com as pernas estendidas.
+          </P>
+          <P>Não tem importância médica relevante.</P>
+          <Figure
+            source={img14}
+            size={[296, 324]}
+            caption="Fig 14. Fonte Wikipédia"
+          />
+          <Subsubsection title="Manifestações Clínicas">
+            <P>
+              Pode apresentar dor leve e de curta duração no local da picada
+              associada a discreta hiperemia. Alguns casos podem apresentar
+              urticária devido a reação causada pelo contato com os seus pelos.
+            </P>
+          </Subsubsection>
+          <Subsubsection title="Tratamento">
+            <P>Apenas sintomáticos</P>
+          </Subsubsection>
+        </Subsection>
         <Subsection
           title={
             <>
-              <Italic>Latrodectus</Italic> (viúvas-negras)
+              Viúvas-negras <Italic>(Latrodecta)</Italic>
             </>
           }
         >
           <P>
             Habitam jardins, gramados, parques, plantações e residências. São
-            sedentárias e não são agressivas. Os acidentes são raríssimos.
+            sedentárias e não são agressivas. Os acidentes são raríssimos e só
+            acontecem que são pisadas (Fig 15).
           </P>
+          <Figure source={img15} size={[219, 328]} />
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Dor local, mialgia, edema e adenite satélite. Pode haver tremores,
-              espasmos musculares em membros, sudorese, ansiedade, cefaleia,
-              excitabilidade, insônia, prurido, eritema facial e cervical,
-              trismo, taquicardia, dor precordial, hipertensão e até
-              bradicardia.
+              Dor local, mialgia, edema e adenite satélite. Pode apresentar
+              tremores, espasmos musculares em membros, sudorese, ansiedade,
+              cefaleia, excitabilidade, insônia, prurido, eritema facial e
+              cervical, trismo, taquicardia, dor precordial, hipertensão e até
+              bradicardia (Fig 16, Fig 17).
             </P>
+            <Figure
+              source={img16}
+              size={[500, 375]}
+              caption="Fig 16. Fonte Meus Animais"
+            />
+            <Figure
+              source={img17}
+              size={[500, 375]}
+              caption="Fig 17. Fonte Portal News em Foco"
+            />
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
@@ -435,63 +616,63 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             </P>
           </Subsubsection>
         </Subsection>
-        <Subsection title="Caranguejeiras">
-          <P>Não tem muita importância médica.</P>
-          <Subsubsection title="Manifestação Clínica">
+        <Subsection title="Taturanas (Lonomia) - Fig.18)">
+          <P>lagartas-de-fogo e orugas são larvas de mariposa</P>
+          <Figure source={img18} size={[363, 204]} caption="Fig. 18 Terra" />
+          <Figure
+            source={img19}
+            size={[363, 204]}
+            caption="Fig. 19 Pinterest"
+          />
+          <P>
+            Vivem agrupadas em tronco e folhas das árvores. Os acidentes ocorrem
+            por contato com seus espinhos.
+          </P>
+          <Subsubsection title="Manifestações Clínicas">
             <P>
-              Pode apresentar dor leve e de curta duração no local da picada
-              associada a discreta hiperemia. Alguns casos podem apresentar
-              urticária devido a reação causada pelo contato com os seus pelos.
+              Dor em queimação local, edema e eritema – fig.14. Pode ocorrer
+              prurido algumas vezes e adenite satélite. Pode evoluir para
+              vesículas nas primeiras 24h e a regressão ocorre em até 3 dias.
+              Síndrome hemorrágica é rara e pode levar a insuficiência renal e
+              morte.
             </P>
           </Subsubsection>
-          <Subsubsection title="Tratamento">
-            <P>Apenas sintomáticos.</P>
+          <Subsubsection title="Tratamento Específico">
+            <P>
+              Soro antilonômico (SALon) 5 ampolas para casos moderados e 10
+              ampolas para os graves - em estudo – entrar em contato com o CIT
+              de sua cidade.
+            </P>
+            <Table
+              title="Resumo Terapeutico"
+              colWidths={[150, 150, 150, 150, 150]}
+              header={[
+                'Etiologia',
+                'leve',
+                'moderado',
+                'grave',
+                'tipo de soro'
+              ]}
+              data={[
+                [
+                  'Botrópico',
+                  '2 – 4 amp',
+                  '4 – 8 amp',
+                  '12 amp',
+                  'SAB ou SABC'
+                ],
+                ['Laquético', '', '10 amp', '20 amp', 'SAL ou SABL'],
+                ['Crotálico', '5 amp', '10 amp', '20 amp', 'SAB ou SABC'],
+                ['Elapídico', '', '', '10 amp', 'SAE'],
+                ['Escorpiônico', '', '2 – 3 amp', ' 4 – 6 amp', 'SAE ou SAAr'],
+                ['Phoneutria', '', '2 – 4 amp', '5 – 10 amp', 'SAAr'],
+                ['Lexosceles', '', '5 amp', '10 amp', 'SALox ou SAA'],
+                ['Latrodecta', '', '', '1 – 2 amp IM', 'SALatr'],
+                ['Lonomia', '5 amp', '10 amp', 'SALon']
+              ]}
+            />
           </Subsubsection>
         </Subsection>
-      </Section>
-      <Section title="Taturanas">
-        <P>
-          <Italic>Lonomia</Italic> fig.13 – lagartas-de-fogo e orugas são larvas
-          de mariposa.
-        </P>
-        <Figure source={img13} size={[264, 191]} caption="fig.13" />
-        <Figure source={img14} size={[280, 180]} caption="fig.14" />
-        <P>
-          Vivem agrupadas em tronco e folhas das árvores. Os acidentes ocorrem
-          por contato com seus espinhos.
-        </P>
-        <Subsection title="Manifestação Clínica">
-          <P>
-            Dor em queimação local, edema e eritema – fig14. Podem ocorrer
-            prurido algumas vezes e adenite satélite. Pode evoluir para
-            vesículas nas primeiras 24h e a regressão ocorre em até 3 dias.
-            Síndrome hemorrágica é rara e pode levar a insuficiência renal e
-            morte.
-          </P>
-        </Subsection>
-        <Subsection title="Tratamento Específico">
-          <P>
-            Soro antilonômico (SALon) 5 ampolas para casos moderados e 10
-            ampolas para os graves.
-          </P>
-        </Subsection>
-      </Section>
-      <Section title="RESUMO TERAPÊUTICO">
-        <Table
-          colWidths={[100, 100, 100, 100, 100]}
-          header={['Etiologia', 'Leve', 'Moderado', 'Grave', 'Tipo de soro']}
-          data={[
-            ['Botrópico', '2 – 4', '4 - 8', '12', 'SAB ou SABC'],
-            ['Laquético', '-', '10', '20', 'SAL ou SABL'],
-            ['Crotálico', '5', '10', '20', 'SAB ou SABC'],
-            ['Elapídico', '-', '-', '10', 'SAE'],
-            ['Escorpiônico', '', '2 - 3', '4 - 6', 'SAE ou SAAr'],
-            ['Phoneutria', '', '2 - 4', '5 - 10', 'SAAr'],
-            ['Loxosceles', '', '5', '10', 'SALox ou SAA'],
-            ['Latrodectus', '', '', '1 – 2', 'SALatr'],
-            ['Lonomia', '', '5', '10', 'SALon']
-          ]}
-        />
       </Section>
       <Section title="Referências">
         <Reference idx={1} body="http://www.fiocruz.br" />
@@ -524,6 +705,18 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         <Reference
           idx={10}
           body="Primeiros socorros: picadas ou mordeduras por animais peçonhentos, Albert Einstein, Sociedade Beneficente Israelita Brasileira, São Paulo, 2015."
+        />
+        <Reference
+          idx={11}
+          body="Condutas pediátricas no pronto atendimento e na terapia intensiva / editoras Luciana Rodrigues Silva, Luanda Flores da Costa, 2. ed, Santana de Parnaíaba, SP, Editora Manole, 2020."
+        />
+        <Reference
+          idx={12}
+          body="Pronto-socorro / coordenadores Claudio Schvartsman, Amélia Gorete Reis, Sylvia Costa Lima Farat, 3. ed, Barueri, SP, Editora Manole, 2018."
+        />
+        <Reference
+          idx={13}
+          body="Urgências e Emergências Pediátricas, manual para rápida tomada de decisão / Adriana Pasmanik Eisencraft, Sylavia Costa Lima farah. - 1 ed, Rio de Janeiro, Editora Guanabara Koogan, 2021."
         />
       </Section>
     </Routine>

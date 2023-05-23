@@ -33,22 +33,21 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
     >
       <Section title="Aspectos Gerais">
         <P>
-          Sabe-se que 90% dos casos de OVACE ocorrem em menores de 5 anos de
-          idade e destes, 65% são lactentes. Considerar pois, que trata-se de
-          crianças pequenas e que sua grande maioria, tem um cuidador adulto por
-          perto. Contudo, essas ocorrências poderiam ser evitadas com medidas de
-          prevenção.
+          A OVACE ocorre em menores de 5 anos de idade em cerca de 90% dos casos
+          e destes, mais de 50% são em lactentes. Sendo crianças pequenas, a
+          grande maioria tem um cuidador adulto por perto que, se tivesse um
+          treinamento básico, o socorro poderia ser imediato, reduzindo as
+          sequelas. O ideal seria se estas ocorrências fossem evitadas através
+          de medidas preventivas.
         </P>
         <P>
-          Os episódios de OVACE ocorrem de maneira súbita, em crianças hígidas
-          que rapidamente apresentam-se com sinais de asfixia e, para aqueles
-          que sabem expressar o sinal universal de obstrução de via aérea,
-          observe a fig.1.
+          A OVACE ocorre de maneira súbita, em crianças previamente hígidas e
+          que rapidamente apresentam-se com sinais de asfixia.
+        </P>
+        <P>
+          O sinal universal de obstrução de via aérea está expresso na fig.1.
         </P>
         <Figure source={img1} size={[188, 207]} caption="fig.1" />
-        <P>
-          Nestes casos você só pode fazer uma pergunta: "- Você está engasgado?"
-        </P>
       </Section>
       <Section title="Classificação">
         <Subsection title="Leve">
@@ -67,34 +66,35 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
         <Subsection title="Lactentes e Bebês">
           <List>
             <LItem>
-              Aspiração de pequenos objetos (balas, chicletes, brinquedos...);
+              Aspiração de pequenos objetos e alimentos (feijão, balas,
+              chicletes, brinquedos, etc.)
             </LItem>
-            <LItem>Aspiração de leite regurgitado.</LItem>
+            <LItem>Aspiração de leite regurgitado</LItem>
           </List>
         </Subsection>
         <Subsection title="Crianças maiores e Adultos">
           <List>
             <LItem>Alimentos – carnes principalmente;</LItem>
             <LItem>Balas e chicletes;</LItem>
-            <LItem>Fragmentos e sangue nos traumas.</LItem>
+            <LItem>Fragmentos e sangue nos traumas;</LItem>
           </List>
         </Subsection>
       </Section>
       <Section title="Diagnóstico">
         <P>
-          Iminentemente{' '}
-          <Bold>
-            <Italic>clínico</Italic>
-          </Bold>
-          , e não se deve perder tempo para tomar as condutas de desobstrução.
+          Para quadros leves e duvidosos a radiografia de tórax ou a tomografia
+          computadorizada podem ajudar.
         </P>
-        <Subsection
-          title={
-            <>
-              <Italic>Condutas</Italic>
-            </>
-          }
-        >
+        <P>
+          A <Italic>larigotraqueobroncoscopia</Italic> é o exame que elucida e
+          trata definitivamente os casos que puderem ser submetidos a este
+          procedimento.
+        </P>
+        <P>
+          Nos casos graves, o diagnóstico é iminentemente clínico e não deve
+          perder tempo para tomar as condutas de desobstrução.
+        </P>
+        <Subsection title={'Condutas'}>
           <Subsubsection title="Consciente">
             <Table
               colWidths={[200, 200]}
@@ -109,8 +109,8 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
                   'Se a tosse é ineficaz, inicie as manobras'
                 ],
                 [
-                  '5 golpes nas costas e 5 compressões torácicas – figuras 2 e 3',
-                  'Manobra de Heimlich - fig.4'
+                  '5 golpes nas costas e 5 compressões torácicas (fig.2 e 3)',
+                  'Manobra de Heimlich (fig.4)'
                 ],
                 [
                   'Repita até expelir o corpo estranho ou perder a consciência',
@@ -139,7 +139,7 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
               <LItem>
                 Repita a RCP por 2 minutos. Se ainda estiver sozinho, é o
                 momento de parar e chamar por ajuda. Ligue 191 para os Bombeiros
-                ou 192 para o SAMU;
+                ou 192 para o SAMU.
               </LItem>
               <LItem>
                 Continue com as manobras até a chegada de profissionais
@@ -157,6 +157,12 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
             <Figure source={img3} size={[244, 230]} caption="fig.3" />
             <Figure source={img4} size={[182, 251]} caption="fig.4" />
             <Figure source={img5} size={[192, 156]} caption="fig.5" />
+            <P>
+              Todos os pacientes que se submeteram as manobras de desobstrução
+              de via aérea, mesmo que tenham tido êxito, devem ser removido para
+              uma unidade hospitalar a fim de que seja avaliado, pois podem
+              ocorrer traumas ósseos e/ou viscerais.
+            </P>
           </Subsubsection>
         </Subsection>
       </Section>

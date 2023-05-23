@@ -91,7 +91,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             <LItem>Capotamento;</LItem>
             <LItem>Atropelamento de pedestre ou ciclista sem capacete;</LItem>
             <LItem>
-              Quedas de mais de 0,9m ({'<'} 2 anos) e mais de 1,5m (≥ 2 anos);
+              Quedas de mais de 0,9m (&lt; 2 anos) e mais de 1,5m (≥ 2 anos);
             </LItem>
             <LItem>Trauma ocasionado por objeto de alto impacto.</LItem>
           </List>
@@ -100,8 +100,8 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
           <List>
             <LItem>Amnésia: duração;</LItem>
             <LItem>
-              Perda de consciência: {'<'} 5 segundos, 5 – 60 segundos, 1 – 5
-              minutos, {'>'} 5 minutos;
+              Perda de consciência: &lt; 5 segundos, 5 – 60 segundos, 1 – 5
+              minutos, &gt; 5 minutos;
             </LItem>
             <LItem>
               Crises epilépticas pós-trauma: tipo, tempo de início após o
@@ -120,7 +120,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
         <Subsection title="Exame Físico">
           <List>
             <LItem>
-              Escala de coma de Glasgow - ECG (adaptada para a faixa etária
+              Escola de coma de Glasgow (adaptada para a faixa etária
               pediátrica);
             </LItem>
             <LItem>
@@ -169,8 +169,8 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
       </Section>
       <Section title="Examples Complementares">
         <P>
-          Todos os pacientes com TCE moderado ou grave (ECG ≤ 13 e perda de
-          consciência {'>'} 30 minutos, além dos mecanismos já descritos
+          Todos os pacientes com TCE moderado ou grave (ECG  13 e perda de
+          consciência &gt; 30 minutos, além dos mecanismos já descritos
           anteriormente) devem ser conduzidos como politraumatizados por equipe
           especializada e têm indicação de realizar TC de crânio.
         </P>
@@ -188,7 +188,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
           realizar a TC de crânio ou permanecer em observação por um período
           maior (4 a 6 horas) será determinada pela experiência do médico,
           outras questões clínicas associadas (como doenças prévias), piora dos
-          sintomas na evolução, idade {'<'} 3 meses ou preferência dos pais.
+          sintomas na evolução, idade &lt; 3 meses ou preferência dos pais.
         </P>
         <P>
           <Bold>
@@ -249,7 +249,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             devem permanecer em observação por 4-6 horas, com anotação dos
             sinais vitais e estado neurológico (FC, PA, ECG, diâmetro e reflexo
             pupilar), pelo menos a cada 30 minutos nas primeiras 2 horas, a cada
-            hora até 4 horas e a cada 2 horas após. Alta após este período se
+            hora até 4 horas e a cada 2 horas após. Alta de após este período se
             apresentar ECG = 15.
           </LItem>
         </List>
@@ -268,7 +268,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
           </LItem>
           <LItem>
             Persistência dos sinais de alerta – vômitos, cefaleia intensa e
-            refratária, rebaixamento do nível de consciência;
+            refrataria, rebaixamento do nível de consciência;
           </LItem>
           <LItem>
             Piora importante da cefaleia durante o período de observação;
@@ -300,13 +300,13 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
         </P>
         <P>
           Nas primeiras 24 horas, é recomendado que alguém verifique se a
-          criança está bem a cada 3 a 4 horas.
+          criança está bem a cada 3-4 horas.
         </P>
         <P>
           Prescrever analgesia com analgésicos comuns ou AINES (dipirona,
-          paracetamol, ibuprofeno), caso necessário. Evitar uso de opióides.
+          paracetamol, ibuprofeno), caso necessário. Evitar uso de opioides.
           Nunca prescrever medicações que possam alterar o nível de consciência
-          (ex. anti-eméticos, antialérgicos).
+          (ex. antieméticos, antialérgicos).
         </P>
         <P>
           Indicar o afastamento de atividades esportivas por pelo menos 48
@@ -325,7 +325,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             Fraqueza nos membros, sensação de formigamento ou adormecimentos de
             partes do corpo;
           </LItem>
-          <LItem>Náuseas ou vômitos persistentes ({'>'} 2 episódios);</LItem>
+          <LItem>Náuseas ou vômitos persistentes (&gt; 2 episódios);</LItem>
           <LItem>
             Perda de memória ou não conseguir reconhecer pessoas / lugares;
           </LItem>

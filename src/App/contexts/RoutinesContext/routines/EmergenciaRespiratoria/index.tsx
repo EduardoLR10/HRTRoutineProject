@@ -15,6 +15,7 @@ import {
   Subsubsection,
   Reference
 } from '../../../../screens/RoutineScreen/components'
+import ListItem from '../../../../shared/ListItem'
 
 export default function EmergenciaRespiratoria(): JSX.Element {
   return (
@@ -30,80 +31,74 @@ export default function EmergenciaRespiratoria(): JSX.Element {
           Aprender a abordar, diagnosticar e tratar uma emergência respiratória
           é fundamental para um profissional de saúde. Estudos demonstram que
           mais de 60% das morbimortalidades envolvem este sistema. A alta
-          suscetibilidade para desenvolver falência respiratória é explicada
-          pelo fato de as crianças possuírem via aérea menor, o tórax mais
-          complacente, a reserva respiratória menor, a demanda metabólica maior,
-          além de mecanismos compensatórios inadequados. Com reconhecimento
-          precoce e tratamento eficaz, a chance de recuperação gira em torno de
-          70%. Entretanto, nos casos que evoluem para parada cardiorrespiratória
-          a chance reduz para menos de 10%.
+          suscetibilidade das crianças em desenvolver falência respiratória é
+          explicada pelo fato de possuírem uma via aérea menor, tórax mais
+          complacente, reserva respiratória menor, demanda metabólica maior e
+          mecanismos compensatórios inadequados. Se o reconhecimento e
+          tratamento da falência respiratória for eficaz, a chance de
+          recuperação é de cerca de 70%. No entanto, quando há atraso, o quadro
+          pode se deteriorar e evoluir para a parada cardiorrespiratória, com
+          chance de recuperação inferior a 10%.
         </P>
         <P>
           Uma criança gravemente enferma deverá ser abordada, segundo as
-          diretrizes do PALS 2020 – Pedriatic Advanced Life Support. A sequência
+          diretrizes do Pedriatic Advanced Life Support – PALS 2020. A sequência
           AVALIAR, DIAGNOSTICAR E INTERVIR irá ajudar a conduzir melhor cada
           caso. Devemos ter em mente as quatro situações comuns de complicações
-          respiratórias: a{')'} obstrução de via aérea superior, b{')'}{' '}
-          obstrução de via aérea inferior, c{')'} doença do tecido pulmonar e d
-          {')'} distúrbio do controle respiratório.
-        </P>
-        <P>
-          O aumento da frequência respiratória associada a aumento do esforço
-          como retrações e batimentos de asas nasais são comuns em todas as
-          situações.
+          respiratórias: obstrução de via aérea superior, obstrução de via aérea
+          inferior, doença do tecido pulmonar e distúrbio do controle
+          respiratório.
         </P>
       </Section>
       <Section title="Obstrução Respiratória Superior">
         <P>
-          A via aérea superior compreende as estruturas extratorácicas (nariz,
-          faringe e laringe). A obstrução desta, manifeta-se por: estridor,
-          rouquidão, tosse espasmódica, sialorreia e roncos, com baixa
-          expansibilidade torácica e murmúrio vesicular diminuído na ausculta.
-          Como mecanismo compensatório, as crianças maiores adotam posição de
-          conforto para buscar uma melhor respiração e, muitas vezes, é
-          aconselhável que não as manipule. As patologias mais comuns que cursam
-          com obstrução de vias aéreas superiores são crupe, angioedema, corpo
-          estranho, traqueíte e epiglotite.
+          Obstrução respiratória superior: via aérea superior corresponde às
+          estruturas extratorácicas – nariz, faringe e laringe. Manifesta-se
+          clinicamente com estridor, rouquidão, tosse espasmódica, sialorreia e
+          roncos. Ao exame, observa-se baixa expansibilidade torácica e ausculta
+          com entrada de ar diminuída. As crianças maiores costumam adotar
+          posição de conforto para buscar uma melhor respiração, que deve ser
+          mantida para alívio dos sintomas. As patologias mais comuns são:
+          crupe, angioedema, corpo estranho, traqueite e epiglotite.
         </P>
       </Section>
       <Section title="Obstrução Respiratória Inferior">
         <P>
-          A via aérea inferiorr é constituída pelas estruturas intratorácicas
-          (traqueia, brônquios e bronquíolos). Sua obstrução manifesta-se por:
-          sibilos, expiração prolongada e aumento do trabalho respiratório na
-          expiração, tornando-a um processo ativo e não passivo. As patologias
-          mais comuns destes tipos de obstrução são: a asma e bronquiolite.
+          Corresponde às estruturas intratorácicas – traqueia, brônquios,
+          bronquíolos e alvéolos. Manifesta-se clinicamente com sibilos,
+          expiração prolongada e aumento do trabalho respiratório na expiração,
+          tornando um processo ativo e não passivo. As patologias mais comuns
+          são a asma e a bronquiolite.
         </P>
       </Section>
       <Section title="Doença do Tecido Pulmonar">
         <P>
-          Envolve condições que alteram o parênquima pulmonar. Manifesta-se
-          como: gemido, hipoxemia, diminuição dos sons respiratórios e presença
-          de estertores. Pneumonia, edema, contusão pulmonar e síndrome do
-          desconforto respiratório agudo (SDRA) são as patologias mais comuns
-          deste tipo de acometimento.
+          Envolve condições que alteram o parênquima. Manifesta- se clinicamente
+          com gemido, hipoxemia, diminuição dos sons e estertores. As patologias
+          mais comuns são: pneumonia, edema, contusão pulmonar e síndrome do
+          desconforto respiratório agudo (SDRA).
         </P>
       </Section>
       <Section title="Distúrbio do Controle Respiratório Central">
         <P>
-          Está associado a situações que alteram a função neurológica,
-          comprometendo o nível de consciência e a mudança no padrão
-          respiratório. Os sinais clínicos são irregularidade da frequência
-          respiratória, esforço respiratório variável, respiração superficial e
-          até apneia. As afecções mais comuns são: as convulsões, infecções do
-          SNC, tumores cerebrais, hidrocefalia, doenças neuromusculares e
-          intoxicações.
+          Distúrbio do controle respiratório central: está associado a situações
+          que alteram a função neurológica, comprometendo o nível de consciência
+          e a mudança no padrão respiratório. Os sinais clínicos são
+          irregularidade da frequência respiratória, esforço variável,
+          respiração superficial e até apneia. As afecções mais comuns são as
+          convulsões, infecções do SNC, tumores cerebrais, hidrocefalia, doenças
+          neuromusculares e intoxicações.
         </P>
       </Section>
       <Section title="Avaliação e Diagnóstico">
         <P>
-          Comece observando se há alteração do nível de consciência, desconforto
-          respiratório e alteração da cor da pele. Faca isso em alguns segundos,
-          sem tocar no paciente. Observe também a posição da cabeça e da língua
-          – uma criança com nível de consciência rebaixado apresenta dificuldade
-          respiratória se estiver mal posicionada. Observe se há secreção na
-          cavidade oral ou nasal, como, por exemplo, muco, sangue, resíduo de
-          vômitos e até corpo estranho.
+          Observar inicialmente o nível de consciência, padrão respiratório e
+          coloração da pele por alguns segundos, como que por instinto, sem
+          tocar no paciente. Observar em seguida a posição da cabeça e língua –
+          criança com nível de consciência rebaixado pode apresentar dificuldade
+          respiratória se estiver mal posicionada. Procure por algum tipo de
+          secreção na cavidade oral ou nasal, como muco, sangue, resíduo de
+          vômitos ou corpo estranho.
         </P>
         <Table
           colWidths={[100, 200]}
@@ -118,11 +113,11 @@ export default function EmergenciaRespiratoria(): JSX.Element {
           title="Tabela 1. Frequências Respiratórias Normais por Idade"
         />
         <P>
-          Durante a ausculta pulmonar, observe a amplitude e simetria do tórax,
-          a frequência respiratória (tabela 1) e esforço respiratório (tabela
-          2). Diante destes dados, classifique o estado da criança em obstrução
-          respiratória alta, baixa, por acometimento pulmonar parenquimatoso ou
-          central.
+          Realizar ausculta pulmonar para detectar o tipo de som, enquanto se
+          observa a amplitude e simetria do tórax, a frequência respiratória
+          (tabela 1) e presença de esforço respiratório (tabela 2). Diante
+          destes dados, classificar o tipo de distúrbio respiratório: obstrução
+          respiratória alta, baixa, parenquimatosa ou central.
         </P>
         <Table
           colWidths={[100, 100, 150]}
@@ -131,7 +126,7 @@ export default function EmergenciaRespiratoria(): JSX.Element {
             [
               'Esforço Respiratório',
               '- Sem esforço\n- Expiração passiva',
-              '- Esforço elevado, inadequado ou ausente\n- Batimento de asa nasal\n- Retrações e uso de musculatura acessória'
+              '- - Tiragens e retrações\nintercostais\nRetração de fúrcula esternal\nBatimento de asa nasal\nBalanço toracoabdominal'
             ],
             [
               'Sons',
@@ -144,95 +139,90 @@ export default function EmergenciaRespiratoria(): JSX.Element {
       </Section>
       <Section title="Tratamento">
         <P>
-          Após classificar o tipo de obstrução das vias aéreas, o tratamento da
-          emergência respiratória será melhorar a oferta de oxigênio e facilitar
-          a eliminação do gás carbônico. Se a criança tiver um bom drive
-          respiratório, devemos apenas enriquecer o ar respirado. No caso de
-          drive respiratório comprometido, devemos ventilar a criança com
-          pressão positiva. Deve-se começar abrindo a via aérea, reposicionando
-          a cabeça e a língua. Quando a criança estiver consciente apenas a
-          deixamos o mais confortável possível (talvez o colo materno seja uma
-          boa tática para deixá-la menos ansiosa). Aspirar secreções, sangue ou
-          restos alimentares também pode ser necessário. Para isso, os
-          aspiradores rígidos e de maior diâmetro são mais eficazes.
+          Após realizar a classificação, executar o tratamento da emergência
+          respiratória que se baseia em melhorar a oferta de oxigênio e eliminar
+          o gás carbônico. Em criança tem um drive respiratório adequado,
+          deve-se aumentar a oferta de oxigênio. Quando o drive respiratório é
+          inadequado, há necessidade de instituir ventilação com pressão
+          positiva. Começar abrindo a via aérea, reposicionando a cabeça e
+          língua, e aspirando secreções – aspiradores rígidos e de maior
+          diâmetro são mais eficazes. Se a criança se apresenta consciente,
+          apenas a deixe mais confortável, inclusive no colo materno se
+          necessário.
         </P>
         <Subsection title="Oxigenioterapia">
           <P>
-            O principal objetivo é evitar a hipoxemia grave e garantir a oferta
-            adequada de oxigênio aos tecidos, especialmente ao cérebro. Cuidado
-            com a toxicidade que está relacionada diretamente ao tempo e à
-            concentração ofertada, assim é importante não usar a fração
-            inspirada de oxigênio (fiO<Subscript>2</Subscript>) 100% de forma
-            indiscriminada. A saturação deve ser monitorada e a fiO
-            <Subscript>2</Subscript> utilizada deve ser a menor possível para
-            manter a saturação ≥ 94%.
+            Oxigenioterapia: o principal objetivo é evitar a hipoxemia grave e
+            garantir a oferta adequada de oxigênio aos tecidos, especialmente ao
+            cérebro. Atentar à toxicidade relacionada diretamente ao tempo e à
+            concentração de oxigênio ofertada, sendo importante não usar a
+            fração inspirada de oxigênio (fiO²) 100% de forma indiscriminada. A
+            saturação deve ser monitorada e a fiO² utilizada deve ser a menor
+            possível para manter a saturação ≥ 92%.
           </P>
           <P>
-            Existem diversos acessórios de ofertar oxigênio conforme o grau de
-            necessidade; para cada litro a fiO
-            <Subscript>2</Subscript> aumenta em torno de 4 a 5%.
+            Existem diversos acessórios para ofertar oxigênio conforme o grau de
+            necessidade. Para cada litro, a fiO² aumenta em torno de 4 a 5%:
           </P>
-          <P>
-            Cateter ou cânula nasal – até 3l/min – fiO
-            <Subscript>2</Subscript> 45%;
-          </P>
-          <P>
-            Máscara facial – de 4 a 8 l/min – fiO
-            <Subscript>2</Subscript> 60%;
-          </P>
-          <P>
-            Máscara não reinalante com reservatório – de 10 a 15 l/min – fiO
-            <Subscript>2</Subscript> 100%;
-          </P>
+          <List>
+            <ListItem>
+              Cateter ou cânula nasal – até 4l/min, fiO² até 46%;
+            </ListItem>
+            <ListItem>Máscara facial – de 5 a 10 l/min, fiO² até 60%;</ListItem>
+            <ListItem>
+              Máscara não reinalante com reservatório – de 10 a 15 l/min, fiO²
+              até 100%.
+            </ListItem>
+          </List>
           <P>
             Ventilação: o oxigênio é apenas uma parte da troca gasosa. A criança
-            pode apresentar retenção de CO<Subscript>2</Subscript> e o suporte
-            ventilatório se faz necessário para eliminá-lo.
+            pode apresentar retenção de CO² e, nesses casos, o suporte
+            ventilatório se faz necessário para eliminá-lo. Algumas formas de
+            reduzir a retenção CO²:
           </P>
-          <P>
-            Algumas formas de reduzir a retenção CO
-            <Subscript>2</Subscript>:
-          </P>
-          <P>
-            Cateter de alto fluxo – o gás inspirado é aquecido e umidificado a
-            100% o que facilita a entrada do ar que diminuirá o espaço morto
-            anatômico minimizando a reinalação do CO
-            <Subscript>2</Subscript>. Fluxo de 2 l/kg/min pode fazer um efeito
-            de PEEP 4 a 6 cmH
-            <Subscript>2</Subscript>O.
-          </P>
-          <P>
-            Ventilação não invasiva – diminui o trabalho respiratório, melhora a
-            hipoventilação, aumenta a capacidade residual funcional e diminui o
-            consumo de O<Subscript>2</Subscript>. Sedação leve pode ser
-            necessária.
-          </P>
-          <P>
-            Ventilação invasiva – a intubação não deve ser postergada nos casos
-            graves com alteração no nível de consciência e risco de falência
-            respiratória e progressão para a parada cardiorrespiratória.
-          </P>
+          <List>
+            <ListItem>
+              Cateter de alto fluxo – o gás inspirado é aquecido e umidificado a
+              100%, facilitando a entrada do ar, diminuindo o espaço morto
+              anatômico e minimizando a reinalação do CO². Fluxo de 2 l/kg/min
+              pode fazer um efeito de PEEP 4 a 6 cmH2O.
+            </ListItem>
+            <ListItem>
+              Ventilação não invasiva – diminui o trabalho respiratório, melhora
+              a hipoventilação, aumenta a capacidade residual funcional e
+              diminui o consumo de oxigênio. Sedação leve pode ser necessária.
+            </ListItem>
+            <ListItem>
+              Ventilação invasiva – a intubação não deve ser postergada nos
+              casos graves, principalmente em pacientes com alteração no nível
+              de consciência e risco de falência respiratória, com consequente
+              progressão para parada cardiorrespiratória.
+            </ListItem>
+          </List>
           <P>
             Circulação: monitorização contínua, acesso vascular e manter
             normovolemia são parâmetros que precisam estar alinhados com a
-            condução respiratória. Mais detalhes sobre este assunto poderão ser
-            complementados no capítulo emergência do choque.
-          </P>
-          <P>
-            Para o tratamento específico verifique os capítulos correspondentes
-            para cada patologia.
+            condução respiratória. Mais detalhes estão na rotina “Emergência do
+            Choque”.
           </P>
         </Subsection>
       </Section>
       <Section title="Referências">
         <Reference
           idx={1}
-          body="Pronto-socorro / coordenadores Claudio Schvartsman, Amélia Gorete Reis, Silvya Costa Lima Farah, 3 ed, Barueri, SP, editora Manole, 2018."
+          body={
+            'http://www.bombeiros.pr.gov.br/arquivos/File/1gb/socorros/Viasaereas.pdf'
+          }
         />
         <Reference
           idx={2}
-          body="PALS, Pediatric Advance Life Support, manual do Profissional, edição em português 15-2224, Editora Orora Visual, 3210 Innovative Way, Mesquite, Texas, EUA, AHA, 2016."
+          body={
+            'American Heart Association, Suporte Avançado de vida em Pediatria. Manual do profissional, Orora visual, 3210 Innovative Way, Mesquite, Texas, EUA, edição em português, 2020;'
+          }
         />
+        <Reference idx={3} body={"Condutas pediátricas no pronto atendimento e na terapia intensiva / editoras Luciana Rodrigues Silva, Luanda Flores da Costa, 2. ed, Santana de Parnaíaba, SP, Editora Manole, 2020."}/>
+        <Reference idx={4} body={"Pronto-socorro / coordenadores Claudio Schvartsman, Amélia Gorete Reis, Sylvia Costa Lima Farat, 3. ed, Barueri, SP, Editora Manole, 2018."} />
+        <Reference idx={5} body={"Urgências e Emergências Pediátricas, manual para rápida tomada de decisão / Adriana Pasmanik Eisencraft, Sylavia Costa Lima farah. - 1 ed, Rio de Janeiro, Editora Guanabara Koogan, 2021."}/>
       </Section>
     </Routine>
   )

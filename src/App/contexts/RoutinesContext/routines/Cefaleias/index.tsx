@@ -39,7 +39,7 @@ export default function TestRoutine(): JSX.Element {
         </P>
         <P>
           A cefaleia pode ser classificada de acordo com o modo de instalação em
-          aguda, aguda recorrente ({'<'} 15 episódios ao mês) e crônica (≥ 15
+          aguda, aguda recorrente (&lt; 15 episódios ao mês) e crônica ( 15
           episódios ao mês). De acordo com a progressão, podem ser progressivas
           ou não progressivas. Cefaleias progressivas devem receber atenção
           especial na investigação de causas secundárias.
@@ -95,9 +95,9 @@ export default function TestRoutine(): JSX.Element {
           (óptico), III, IV e VI (movimentação ocular extrínseca).
         </P>
         <P>
-          Se a história sugerir presença de hipertensão intracraniana (HIC) e
-          não houver exames de imagem disponível, há indicação da avaliação do
-          fundo de olho.
+          Se a história sugerir presença de hipertensão intracraniana (HIC) e a
+          neuroimagem não mostrar alterações, há indicação da avaliação do fundo
+          de olho.
         </P>
         <P>
           Pacientes com as seguintes condições, devem ser avaliados de maneira
@@ -119,11 +119,13 @@ export default function TestRoutine(): JSX.Element {
         </P>
         <Subsection title="Indicação de Neuroimagem">
           <List>
-            <LItem>Cefaleia progressiva, cada vez mais forte e frequente</LItem>
+            <LItem>
+              Cefaleia progressiva, cada vez mais forte e frequente;
+            </LItem>
             <LItem>Piora da dor com esforço, tosse ou respirar;</LItem>
             <LItem>
               Início explosivo ou súbito de cefaleia de forte intensidade, com
-              início {'<'} 6 meses;
+              início &lt; 6 meses;
             </LItem>
             <LItem>
               Presença de sinais / sintomas neurológicos: alteração do nível de
@@ -167,7 +169,7 @@ export default function TestRoutine(): JSX.Element {
           Para as cefaleias primárias, é importante indicar as medidas não
           farmacológicas, como mudanças dos hábitos de vida, com sono adequado,
           atividade física regular, evitar jejum prolongado e uso abusivo de
-          analgésicos ({'>'} 2 vezes por semana), identificar alimentos
+          analgésicos (&gt; 2 vezes por semana), identificar alimentos
           associados à dor e evitar seu uso (principais: chocolate, alimentos
           com cafeína, alimentos com corante, glutamato monossódico, queijos).
           Durante a dor, importante o repouso em ambientes com pouca
@@ -196,7 +198,7 @@ export default function TestRoutine(): JSX.Element {
               'Dipirona',
               '> 3 meses',
               'Solução 50 mg/ml\nAmpola 500 mg/ml\nSupositório 300mg',
-              '20-30 mg/kg/dose\n1 ml = gotas',
+              '20-30 mg/kg/dose',
               '6/6 horas',
               '6 doses/dia'
             ],
@@ -291,7 +293,7 @@ export default function TestRoutine(): JSX.Element {
         <List>
           <LItem>Melhora ou alívio da dor;</LItem>
           <LItem>
-            Ausência de sinais de HIC ou outras cefaléias secundárias de
+            Ausência de sinais de HIC ou outras cefaleias secundárias de
             potencial gravidade.
           </LItem>
         </List>
@@ -299,7 +301,7 @@ export default function TestRoutine(): JSX.Element {
       <Section title="Observações">
         <P>
           Pacientes com cefaleias recorrentes, sugestivas de cefaleias
-          primárias, como enxaqueca e cefaleia tensional, com frequência {'>'} 3
+          primárias, como enxaqueca e cefaleia tensional, com frequência &gt; 3
           episódios ao mês e / ou prejuízo das suas atividades de vida diária,
           devem ser encaminhados para acompanhamento ambulatorial com
           Neuropediatra.

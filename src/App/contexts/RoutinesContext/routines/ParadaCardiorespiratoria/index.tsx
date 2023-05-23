@@ -35,12 +35,12 @@ export default function ParadaRespiratoria(): JSX.Element {
       <Section title="Introdução">
         <P>
           Esta rotina aborda ressuscitação cardiopulmonar em pediatria em
-          ambiente hospitalar. É é baseada nas diretrizes do International
-          Liaison Committee on Resuscitation (ILCOR), de 2020, constituída pelos
-          principais comitês de ressuscitação do mundo. Envolve um conjunto de
-          medidas que visa restabelecer a função respiratória e circulatória, e
-          estão indicadas na parada cardiorrespiratória e na bradicardia com
-          sinais de hipoperfusão.
+          ambiente hospitalar. É baseada nas diretrizes de 2020, do
+          International Liaison Committee on Resuscitation (ILCOR), constituída
+          pelos principais comitês de ressuscitação do mundo. Envolve um
+          conjunto de medidas que visam restabelecer a função respiratória e
+          circulatória e estão indicadas na parada cardiorrespiratória e na
+          bradicardia com sinais de hipoperfusão.
         </P>
       </Section>
       <Section title="Definição">
@@ -55,46 +55,45 @@ export default function ParadaRespiratoria(): JSX.Element {
         <P>
           Enquanto a PCR em adultos ocorre de maneira súbita, geralmente
           relacionada à fibrilação ou taquicardia ventricular, em crianças,
-          ocorre mais frequentemente por <Bold>hipóxia</Bold> relacionada a uma
-          piora respiratória ou cardiocirculatória progressiva. Portanto,
-          deve-se atentar para as situações de baixa oxigenação, de baixa
-          ventilação e de perfusão tecidual inadequadas.
+          ocorre mais frequentemente por hipóxia relacionada a uma piora
+          respiratória ou cardiocirculatória progressiva. Portanto, esteja
+          atento às situações de baixa oxigenação, ventilação e à perfusão
+          tecidual inadequadas.
         </P>
         <P>
-          Taxa de sobrevida: variável de acordo com o local. Se ocorrer em
-          ambiente hospitalar está em torno de 43% e extra-hospitalar de 8%.
-          Também será mais alta se o ritmo for chocável – 25% a 34% e de 7% a
-          24% se for assistolia.
+          Variável de acordo com o local. Se ocorrer em ambiente hospitalar,
+          está em torno de 43% e, extra-hospitalar, de 8%. Também será mais alta
+          se o ritmo for chocável (25% a 34%) e de 7% a 24%, em casos de
+          assistolia.
         </P>
       </Section>
       <Section title="Como proceder">
         <P>
-          A avaliação, diagnóstico e conduta devem começar em, no máximo, 10
-          segundos. A criança em PCR se apresentará irresponsiva, ou seja, sem
-          contactuar, sem resposta verbal e sem resposta à dor. Estará em apneia
-          ou em <Italic>gasping</Italic>; não apresentará movimento respiratório
-          ou se este existir, será insuficiente para a captação de oxigênio. A
-          avaliação é <Bold>por inspeção</Bold>. Os pulsos estarão ausentes,
-          tanto os centrais quanto os periféricos, e a checagem se dá pela
-          palpação dos principais pontos: braquial para os menores de um ano,
-          carotídeo para os maiores de 1 ano e femoral e radial para todas as
-          idades. Outros pulsos também poderão ser checados. Estes três
-          elementos avaliados são suficientes para o diagnóstico de uma PCR
-          (criança irresponsiva, em apneia ou <Italic>gasping</Italic> e sem
-          pulso palpável). Imediatamente, inicia-se a RCP de alta qualidade,
-          baseada em manobras que serão descritas logo a seguir e de ações
-          auxiliares, como a monitorização contínua, a instalação de oxigênio,
-          obtenção de acesso vascular e aferição da glicemia capilar. As
+          A avaliação, diagnóstico e conduta deve começar em no máximo 10
+          segundos. A criança em PCR se apresentará sem responsividade, ou seja,
+          sem contactuar, sem resposta verbal e sem resposta a dor. Estará em
+          apneia ou em gasping; não apresentará movimento respiratório ou, se
+          este existir, não será suficiente para a captação de oxigênio. A
+          avaliação é por inspeção. Os pulsos estarão ausentes, tanto os
+          centrais quanto os periféricos, e a checagem se dá pela palpação dos
+          principais pontos: braquial para os menores de 1 ano, carotídeo para
+          os maiores de 1 ano e femoral e radial para todas as idades. Outros
+          pulsos poderão ser checados. Estes três valores são suficientes para o
+          diagnóstico de uma PCR (sem responsividade, apneia ou gasping e sem
+          pulso palpável). Imediatamente, inicia-se a reanimação cardiopulmonar
+          (RCP) de alta qualidade, que se baseia em manobras que serão descritas
+          logo a seguir e de ações auxiliares, como a monitorização contínua, a
+          instalação de oxigênio, acesso vascular e glicemia capilar. As
           medicações e eletroterapia devem ser concomitantes de acordo com a
           necessidade de cada caso.
         </P>
         <P>
           A assistência adequada, em ambiente hospitalar, começa com uma boa
-          equipe formada por profissionais que tenham experiência médica e
-          domínio das habilidades de ressuscitação, bem como uma boa dinâmica e
-          comunicação. É importante ter funções definidas, responsabilidades
-          claras, conhecer as limitações de cada um, compartilhar conhecimentos,
-          intervenção construtiva e respeito mútuo.
+          equipe formada por profissionais que tenham experiência e domínio das
+          habilidades de ressuscitação, bem como uma boa dinâmica e comunicação.
+          É importante ter funções definidas, responsabilidades claras, conhecer
+          as limitações de cada um, compartilhar conhecimentos, intervenção
+          construtiva e respeito mútuo.
         </P>
         <Figure
           source={img1}
@@ -122,7 +121,7 @@ export default function ParadaRespiratoria(): JSX.Element {
               'Monitor / desfibrilador / capnógrafo',
               <Text key={1}>
                 Estabelece e opera o equipamento{'\n'}ECG{'\n'}Analisa o pulso e
-                CO<Subscript>2</Subscript> exalado
+                CO₂ exalado
               </Text>
             ],
             [
@@ -132,50 +131,51 @@ export default function ParadaRespiratoria(): JSX.Element {
           ]}
         />
         <P>
-          A RCP de alta qualidade baseia-se em{' '}
-          <Bold>compressões torácicas e ventilações</Bold>. A sequência
-          recomendada nas diretrizes atuais começa com compressões, depois,
-          abertura de vias aéreas e ventilação. As <Bold>compressões</Bold>{' '}
-          devem ser fortes o suficiente para pressionar o tórax no terço
-          inferior do esterno, aproximadamente 4 a 5 cm de profundidade,
-          permitir o retorno torácico por completo para que haja retorno venoso;
-          numa frequência entre 100 e 120 compressões por minuto, deve-se
-          minimizar ao máximo as interrupções e evitar ventilações excessivas,
-          pois isso pode ser prejudicial, uma vez que impede o retorno venoso e
-          diminui e débito cardíaco. As <Bold>ventilações</Bold> precisam ser
-          seguras e adequadas, ou seja, com o paciente intubado e conectado a
-          uma fonte de oxigênio – a elevação do tórax deve ser observada. A
-          ventilação com bolsa-valva-máscara é tão eficaz quanto a intubação,
-          por isso, orienta-se a não perder tempo tentando intubar quando há
-          dificuldade. A relação compressão-ventilação pode variar de acordo com
-          o número de socorristas. Via de regra, quando há apenas 1 socorrista,
-          executa-se 30:2 (30 compressões para 2 ventilações) e quando tem 2
-          socorristas, a proporção é de 15:2. Enquanto a execução das manobras
-          de ressuscitação utilizar bolsa e máscara para ventilação, segue-se a
-          relação descrita anteriormente e, caso haja intubação do paciente,
-          aquele que estiver fazendo as compressões deve manter uma frequência
-          entre 100 a 120 por minuto e quem estiver na ventilação, executa-a 1
-          vez a cada 2 a 3 segundos, o que resultará em 20 a 30 ventilações por
-          minuto. A cada 2 minutos (ou menos, se houver cansaço) os socorristas
-          deverão se revezar nas compressões e o tempo de troca deverá ser o
-          mínimo possível.
+          A RCP de alta qualidade se baseia em compressões torácicas e
+          ventilações. A sequência recomendada nas diretrizes atuais começa com
+          compressões, depois abertura de vias aéreas e ventilação.
         </P>
         <P>
-          A ressuscitação cardiopulmonar (RCP) não encerra o tratamento
-          curativo, mas permite uma perfusão tecidual adequada até que a causa
-          deflagradora da parada cardiorespiratória seja controlada. O controle
-          e estabilização do paciente são fundamentais para que o mesmo possa
-          adquirir condições de ser removido até uma unidade de terapia
+          As compressões devem ser fortes o suficiente para pressionar o tórax
+          no terço inferior do esterno, aproximadamente 4 a 5 cm de
+          profundidade, permitir o retorno torácico por completo para que haja
+          retorno venoso, numa frequência entre 100 e 120 compressões por
+          minuto.
+        </P>
+        <P>
+          Deve-se minimizar ao máximo as interrupções e evitar ventilações
+          excessivas, pois isso pode ser prejudicial ao impedir o retorno venoso
+          e diminuir o débito cardíaco. As ventilações precisam ser seguras e
+          adequadas – a elevação do tórax deve ser observada.
+        </P>
+        <P>
+          A ventilação com bolsa-valva-máscara é tão eficaz quanto a intubação e
+          não se deve perder tempo tentando intubar se há dificuldade. A relação
+          compressão-ventilação pode variar de acordo com o número de
+          socorrista; quando há apenas 1 socorrista, Compressões Ventilação IV /
+          IO Monitor / desfibrilador / instrutor de RCP Cronometrista /
+          registrador Líder executa-se 30:2 (30 compressões para 2 ventilações)
+          e quando há 2 socorristas, a proporção é 15:2 (15 compressões para 2
+          ventilações). Caso o paciente esteja intubado a relação
+          compressão-ventilação não existe, enquanto 1 faz 100-120 compressões
+          por minuto, o outro faz 1 ventilação a cada 2 a 3 segundos. A cada
+          dois minutos, ou menos se houver cansaço, os socorristas deverão se
+          revezar nas compressões e o tempo de troca deverá ser o mínimo
+          possível.
+        </P>
+        <P>
+          A RCP não encerra o tratamento curativo, mas é um meio que permite a
+          perfusão tecidual adequada até que a causa desencadeante seja
+          controlada. O controle e estabilização do paciente são fundamentais
+          para que possamos dar condições de remoção até uma unidade de terapia
           intensiva.
         </P>
         <P>
-          Em PCR há ausência de pulso, o que chamamos de{' '}
-          <Bold>ritmo de colapso</Bold>, que envolve quatro situações clínicas,
-          cada uma com suas peculiaridades, potencial de complicações e
-          tratamentos distintos, e que só poderão ser diagnosticadas com o
-          auxílio de um monitor cardíaco. A seguir, mostraremos o padrão
-          elétrico de cada uma. O tratamento será mostrado no algoritmo,
-          adiante.
+          Em PCR há ausência de pulso, o que chamamos de ritmo de colapso, que
+          envolve quatro situações clínicas, cada uma com sua peculiaridade de
+          complicação e tratamento e que só poderão ser diagnosticadas com o
+          auxílio de um monitor cardíaco. A seguir mostraremos o padrão elétrico
+          de cada um. O tratamento será mostrado no algoritmo, adiante.
         </P>
         <Figure
           source={img2}
@@ -245,21 +245,39 @@ export default function ParadaRespiratoria(): JSX.Element {
           </LItem>
         </List>
         <P>
-          <Bold>Importante:</Bold> sugere-se a realização de cursos
-          teórico-práticos avançados sobre o tema - PCR em pediatria, com o
-          objetivo de aprimorar os conhecimentos e habilidades dos pediatras,
-          multiplicando o aprendizado, para que cada vez mais, as crianças
-          tenham uma boa recuperação, minimizando sequelas.
+          <Bold>Importante:</Bold> cursos avançados para o manejo de PCR(s) em
+          crianças devem ser realizados, com a finalidade de aprimorar os
+          conhecimentos e habilidades, multiplicando o aprendizado, para que
+          cada vez mais, as crianças possam se recuperar com o mínimo de sequela
+          possível.
         </P>
       </Section>
       <Section title="Referências">
         <Reference
           idx={1}
-          body="American Heart Association, Suporte Avançado de vida em Pediatria. Manual do profissional, Orora visual, 3210 Innovative Way, Mesquite, Texas, EUA, edição em português, 2017."
+          body="http://www.bombeiros.pr.gov.br/arquivos/File/1gb/socorros/Viasaereas.pdf"
         />
         <Reference
           idx={2}
-          body="Schvartsman C, Reis A, Farhat S, Pronto-socorro, 3ª edição, Barueri SP, Ed. Manole, 2018."
+          body={
+            'American Heart Association, Suporte Avançado de vida em Pediatria. Manual do profissional, Orora visual, 3210 Innovative Way, Mesquite, Texas, EUA, edição em português, 2020'
+          }
+        />
+        <Reference
+          idx={3}
+          body="Condutas pediátricas no pronto atendimento e na terapia intensiva / editoras Luciana Rodrigues Silva, Luanda Flores da Costa, 2. ed, Santana de Parnaíaba, SP, Editora Manole, 2020."
+        />
+        <Reference
+          idx={4}
+          body={
+            'Pronto-socorro / coordenadores Claudio Schvartsman, Amélia Gorete Reis, Sylvia Costa Lima Farat, 4. ed, Barueri, SP, Editora Manole,2023.'
+          }
+        />
+        <Reference
+          idx={5}
+          body={
+            'Urgências e Emergências Pediátricas, manual para rápida tomada de decisão / Adriana Pasmanik Eisencraft, Sylvia Costa Lima farah. - 1 ed, Rio de Janeiro, Editora Guanabara Koogan, 2021.'
+          }
         />
       </Section>
     </Routine>
