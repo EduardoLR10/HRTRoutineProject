@@ -216,17 +216,18 @@ export default function CriseAgudaDeAsma(): JSX.Element {
             ['PaCO₂, mmHg', '< 40', '< 45', '≥ 45']
           ]}
           title="Classificação da Intensidade das Crises Agudas"
+          caption="Fontes: Diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia para o Manejo da Asma - 2012 e GINA 2022"
         />
         <P>
-          Em pacientes com 5 anos ou menos, também há a opção de seguirmos a
+          Em pacientes<Bold>com 5 anos ou menos</Bold>, também há a opção de seguirmos a
           tabela abaixo:
         </P>
         <Table
           title="Pacientes com menos de 5 anos"
-          caption="Presença de qualquer um deles já classifica como CRISE GRAVE"
+          caption="Presença de qualquer um deles já classifica como CRISE GRAVE\nFonte: adaptado de GINA 2022"
           colWidths={[150, 150, 150]}
           header={[
-            '< 5 anos, ',
+            '≤ 5 anos, ',
             'Crise Leve a Moderada',
             'Crise Grave/Ameçadora de Vida *'
           ]}
@@ -447,7 +448,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
         </P>
         <Table
           colWidths={[100, 100, 100, 100]}
-          header={['Máscaras', 'Cores', 'FiO₂', 'Fluxo de O₂ (l/min)']}
+          header={['Máscaras', 'Cores', 'FiO₂ (%)', 'Fluxo de O₂ (l/min)']}
           data={[
             ['1', 'Azul', '24', '4'],
             ['2', 'Branca', '28', '4'],
@@ -638,21 +639,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
             reservado para casos graves, sem resposta às medidas iniciais.
           </P>
           <P>
-            Seu efeito broncodilatador e anti-inflamatório são encorajadores
-            como terapêutica adjuvante para pacientes pediátricos que não
-            respondem ao tratamento convencional da exacerbação aguda grave.
-            Quando favorável, a resposta terapêutica ocorre em 1-2 horas após a
-            infusão. Pode ser considerada uma terapêutica segura. Seus
-            principais efeitos adversos são calor e rubor facial, náuseas,
-            mal-estar e boca seca, geralmente durante a infusão. Fraqueza,
-            arreflexia, bloqueio cardíaco total e depressão respiratória podem
-            potencialmente ocorrer, mas com níveis séricos da droga muito
-            elevados (&gt; 12 mg/dL, o que corresponderia a uma dose superior a
-            150 mg/kg/dose). Hipotensão pode ocorrer após infusão rápida (menos
-            de 20 minutos. Trata-se de uma medicação que não se deve prescrever
-            de horário, sendo necessárias avaliações clínicas periódicas para
-            prescrição de cada dose da medicação (vide lista de medicações no
-            fim da rotina).
+            Seu efeito broncodilatador e anti-inflamatório são encorajadores como terapêutica adjuvante para pacientes pediátricos que não respondem ao tratamento convencional da exacerbação aguda grave. Quando favorável, a resposta terapêutica ocorre em 1-2 horas após a infusão. Pode ser considerada uma terapêutica segura. Seus principais efeitos adversos são calor e rubor facial, náuseas, mal-estar e boca seca, geralmente durante a infusão. Fraqueza, arreflexia, bloqueio cardíaco total e depressão respiratória podem potencialmente ocorrer, mas com níveis séricos da droga muito elevados (&gt; 12 mg/dL, o que corresponderia a uma dose superior a 150 mg/kg/dose). Hipotensão pode ocorrer após infusão rápida (menos de 20 minutos). Trata-se de uma medicação que não se deve prescrever de horário, sendo necessárias avaliações clínicas periódicas para prescrição de cada dose da medicação (<Bold>vide lista de medicações no fim da rotina</Bold>).
           </P>
         </Subsection>
         <Subsection title="Xantinas">
@@ -725,7 +712,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
           <List>
             <LItem>Dispneia Ausente ou Leve;</LItem>
             <LItem>Taquipneia Ausente ou Leve;</LItem>
-            <LItem>SpO 2 &gt;94%</LItem>
+            <LItem>SpO<Subscript>2</Subscript> &gt;94%</LItem>
           </List>
           <LItem>
             A prescrição do tratamento domiciliar é baseada no tratamento da
@@ -751,7 +738,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
         </P>
         <P>
           Todos os pacientes internados por crise de asma, independentemente de
-          sua intensidade, têm indicação de Acompanhamento Ambulatorial.
+          sua intensidade, têm indicação de <Bold>Acompanhamento Ambulatorial</Bold>.
         </P>
       </Section>
       <Section title="Medicações Tratamento Crise Aguda de Asma em Criança">
@@ -867,7 +854,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
         <Subsection title="Salbutamol Venoso 500mcg ou 0,5mg/ml">
           <P>Dose de ataque: 10mcg/kg</P>
           <P>
-            (Peso x 10)/500 = ‘X’ ml + 10ml de AD ou SF 0,9%. Correr em 30min;
+            (Peso x 10)/500 = ‘X’ ml + 10ml de AD ou SF 0,9%. Correr em 10 a 30min;
           </P>
           <P>
             Dose de manutenção: 0,1 - 0,8 mcg/kg/min (pode ir aumentando a dose
@@ -910,23 +897,11 @@ export default function CriseAgudaDeAsma(): JSX.Element {
         <Subsection title="Sulfato de Magnésio 50% Injetável (500mg/ml)">
           <P>
             Dose usual: Crianças: 25 a 75 mg/kg, IV ou IM, a cada 4 a 6 horas.
-            Dose Máxima: 2g. Não prescrever de horário, deve-se reavaliar o
-            paciente a cada 4 a 6 horas.
-            <Bold>
-              Não prescrever de horário, deve-se reavaliar o paciente a cada 4 a
-              6 horas
-            </Bold>
-            .
+            Dose Máxima: 2g. <Bold>Não prescrever de horário, deve-se reavaliar o
+            paciente a cada 4 a 6 horas</Bold>.
           </P>
           <P>
-            Na primeira hora de tratamento para crianças a partir de 2 anos de
-            idade com crise aguda grave (particularmente aqueles com sintomas há
-            menos de 6 horas), pode-se realizar o SULFATO DE MAGNÉSIO ISOTÔNICO
-            NEBULIZADO (150 MG). Utiliza-se o Sulfato de Magnésio 10% (se
-            precisar, adicione 4 ml de SG5% ou SF0,9% ao de 50%, para termos a
-            concentração de 10%): 1,5 ml da medicação + 3 ml de SF 0,9%. Fazer
-            nebulização de 20 em 20 minutos, por 3 vezes, na primeira hora de
-            tratamento.
+            Na primeira hora de tratamento para crianças a partir de 2 anos de idade com crise aguda grave (particularmente aqueles com sintomas há menos de 6 horas), pode-se realizar o SULFATO DE MAGNÉSIO ISOTÔNICO NEBULIZADO (150 MG). Utiliza-se o Sulfato de Magnésio 10% (se precisar, adicione 4 ml de SG5% ou SF0,9% ao de 50%, para termos a concentração de 10%): 1,5 ml da medicação + 3 ml de SF 0,9%. Fazer nebulização de 20 em 20 minutos, por 3 vezes, na primeira hora de tratamento.
           </P>
         </Subsection>
       </Section>
