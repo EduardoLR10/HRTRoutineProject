@@ -33,12 +33,7 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
     >
       <Section title="Aspectos Gerais">
         <P>
-          A OVACE ocorre em menores de 5 anos de idade em cerca de 90% dos casos
-          e destes, mais de 50% são em lactentes. Sendo crianças pequenas, a
-          grande maioria tem um cuidador adulto por perto que, se tivesse um
-          treinamento básico, o socorro poderia ser imediato, reduzindo as
-          sequelas. O ideal seria se estas ocorrências fossem evitadas através
-          de medidas preventivas.
+          A OVACE ocorre em menores de 5 anos de idade em cerca de 90% dos casos e destes, mais de 50% são em lactentes. Sendo crianças pequenas, a grande maioria tem um cuidador adulto por perto que, se tivesse um treinamento básico, o socorro poderia ser imediato, reduzindo as sequelas. O ideal seria se estas ocorrências fossem evitadas através de medidas preventivas.  
         </P>
         <P>
           A OVACE ocorre de maneira súbita, em crianças previamente hígidas e
@@ -86,7 +81,7 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
           computadorizada podem ajudar.
         </P>
         <P>
-          A <Italic>larigotraqueobroncoscopia</Italic> é o exame que elucida e
+          A{' '}<Italic>larigotraqueobroncoscopia</Italic> é o exame que elucida e
           trata definitivamente os casos que puderem ser submetidos a este
           procedimento.
         </P>
