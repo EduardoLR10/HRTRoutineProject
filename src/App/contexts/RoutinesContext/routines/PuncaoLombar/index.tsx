@@ -122,7 +122,7 @@ export default function PuncaoLombar(): JSX.Element {
       <Section title="Complicações">
         <P>
           As complicações são muito raras e a punção lombar costuma ser
-          considerado um procedimento seguro. A mais comum é a cefaleia
+          considerada um procedimento seguro. A mais comum é a cefaleia
           pós-punção, que pode ocorrer em 10% a 40% dos pacientes, mas pode ser
           reduzida se forem utilizadas agulhas menos calibrosas. A dor também
           está associada a procedimentos com dificuldades técnicas, quando são
@@ -139,7 +139,7 @@ export default function PuncaoLombar(): JSX.Element {
           <LItem>1 - Reunir o material:</LItem>
           <List>
             <LItem>Clorexidina alcóolica 0,5%;</LItem>
-            <LItem>Pinça cheron ou similar;</LItem>
+            <LItem>Pinça{' '}<Italic>cheron</Italic> ou similar;</LItem>
             <LItem>Campo estéril;</LItem>
             <LItem>Gaze;</LItem>
             <LItem>
@@ -265,7 +265,7 @@ export default function PuncaoLombar(): JSX.Element {
       </Section>
       <Section title="Critérios de Alta">
         <P>
-          A depende do resultado do exame e da suspeita clínica que motivou o
+          A depender do resultado do exame e da suspeita clínica que motivou o
           exame.
         </P>
       </Section>
