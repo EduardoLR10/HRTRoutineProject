@@ -34,19 +34,13 @@ export default function ParadaRespiratoria(): JSX.Element {
     >
       <Section title="Introdução">
         <P>
-          Esta rotina aborda ressuscitação cardiopulmonar em pediatria em
-          ambiente hospitalar. É baseada nas diretrizes de 2020, do
-          International Liaison Committee on Resuscitation (ILCOR), constituída
-          pelos principais comitês de ressuscitação do mundo. Envolve um
-          conjunto de medidas que visam restabelecer a função respiratória e
-          circulatória e estão indicadas na parada cardiorrespiratória e na
-          bradicardia com sinais de hipoperfusão.
+          Esta rotina aborda ressuscitação cardiopulmonar em pediatria em ambiente hospitalar. É baseada nas diretrizes de 2020, do International Liaison Committee on Resuscitation (ILCOR), constituída pelos principais comitês de ressuscitação do mundo. Envolve um conjunto de medidas que visam restabelecer a função respiratória e circulatória e estão indicadas na parada cardiorrespiratória e na bradicardia com sinais de hipoperfusão.
         </P>
       </Section>
       <Section title="Definição">
         <P>
           Entende-se por parada cardiorrespiratória (PCR) a ausência de pulso, a
-          apneia ou gasping e a ausência de responsividade. Ocorre a interrupção
+          apneia ou{' '}<Italic>gasping</Italic> e a ausência de responsividade. Ocorre a interrupção
           da circulação sanguínea como resultado da ausência ou ineficácia da
           atividade mecânica cardíaca.
         </P>
@@ -60,32 +54,15 @@ export default function ParadaRespiratoria(): JSX.Element {
           atento às situações de baixa oxigenação, ventilação e à perfusão
           tecidual inadequadas.
         </P>
+      </Section>
+      <Section title="Taxa de Sobrevida">
         <P>
-          Variável de acordo com o local. Se ocorrer em ambiente hospitalar,
-          está em torno de 43% e, extra-hospitalar, de 8%. Também será mais alta
-          se o ritmo for chocável (25% a 34%) e de 7% a 24%, em casos de
-          assistolia.
+          Variável de acordo com o local. Se ocorrer em ambiente hospitalar, está em torno de 43% e, extra-hospitalar, de 8%. Também será mais alta se o ritmo for chocável (25% a 34%) e de 7% a 24%, em casos de assistolia. 
         </P>
       </Section>
       <Section title="Como proceder">
         <P>
-          A avaliação, diagnóstico e conduta deve começar em no máximo 10
-          segundos. A criança em PCR se apresentará sem responsividade, ou seja,
-          sem contactuar, sem resposta verbal e sem resposta a dor. Estará em
-          apneia ou em gasping; não apresentará movimento respiratório ou, se
-          este existir, não será suficiente para a captação de oxigênio. A
-          avaliação é por inspeção. Os pulsos estarão ausentes, tanto os
-          centrais quanto os periféricos, e a checagem se dá pela palpação dos
-          principais pontos: braquial para os menores de 1 ano, carotídeo para
-          os maiores de 1 ano e femoral e radial para todas as idades. Outros
-          pulsos poderão ser checados. Estes três valores são suficientes para o
-          diagnóstico de uma PCR (sem responsividade, apneia ou gasping e sem
-          pulso palpável). Imediatamente, inicia-se a reanimação cardiopulmonar
-          (RCP) de alta qualidade, que se baseia em manobras que serão descritas
-          logo a seguir e de ações auxiliares, como a monitorização contínua, a
-          instalação de oxigênio, acesso vascular e glicemia capilar. As
-          medicações e eletroterapia devem ser concomitantes de acordo com a
-          necessidade de cada caso.
+          A avaliação, diagnóstico e conduta deve começar em no máximo 10 segundos. A criança em PCR se apresentará sem responsividade, ou seja, sem contactuar, sem resposta verbal e sem resposta a dor. Estará em apneia ou{' '}<Italic>gasping</Italic>; não apresentará movimento respiratório ou, se este existir, não será suficiente para a captação de oxigênio. A avaliação é por inspeção. Os pulsos estarão ausentes, tanto os centrais quanto os periféricos, e a checagem se dá pela palpação dos principais pontos: braquial para os menores de 1 ano, carotídeo para os maiores de 1 ano e femoral e radial para todas as idades. Outros pulsos poderão ser checados. Estes três valores são suficientes para o diagnóstico de uma PCR (sem responsividade, apneia ou gasping e sem pulso palpável). Imediatamente, inicia-se a reanimação cardiopulmonar (RCP) de alta qualidade, que se baseia em manobras e ações auxiliares, como a monitorização contínua, a instalação de oxigênio, acesso vascular e glicemia capilar. As medicações e eletroterapia devem ser concomitantes de acordo com a necessidade de cada caso.
         </P>
         <P>
           A assistência adequada, em ambiente hospitalar, começa com uma boa
@@ -121,7 +98,7 @@ export default function ParadaRespiratoria(): JSX.Element {
               'Monitor / desfibrilador / capnógrafo',
               <Text key={1}>
                 Estabelece e opera o equipamento{'\n'}ECG{'\n'}Analisa o pulso e
-                CO₂ exalado
+                CO<Subscript>2</Subscript> exalado
               </Text>
             ],
             [
@@ -143,25 +120,13 @@ export default function ParadaRespiratoria(): JSX.Element {
           minuto.
         </P>
         <P>
-          Deve-se minimizar ao máximo as interrupções e evitar ventilações
-          excessivas, pois isso pode ser prejudicial ao impedir o retorno venoso
-          e diminuir o débito cardíaco. As ventilações precisam ser seguras e
-          adequadas – a elevação do tórax deve ser observada.
+          Deve-se minimizar ao máximo as interrupções e evitar ventilações excessivas, pois isso pode ser prejudicial ao impedir o retorno venoso e diminuir o débito cardíaco. As ventilações precisam ser seguras e adequadas – a elevação do tórax deve ser observada.
         </P>
         <P>
-          A ventilação com bolsa-valva-máscara é tão eficaz quanto a intubação e
-          não se deve perder tempo tentando intubar se há dificuldade. A relação
-          compressão-ventilação pode variar de acordo com o número de
-          socorrista; quando há apenas 1 socorrista, Compressões Ventilação IV /
-          IO Monitor / desfibrilador / instrutor de RCP Cronometrista /
-          registrador Líder executa-se 30:2 (30 compressões para 2 ventilações)
-          e quando há 2 socorristas, a proporção é 15:2 (15 compressões para 2
-          ventilações). Caso o paciente esteja intubado a relação
-          compressão-ventilação não existe, enquanto 1 faz 100-120 compressões
-          por minuto, o outro faz 1 ventilação a cada 2 a 3 segundos. A cada
-          dois minutos, ou menos se houver cansaço, os socorristas deverão se
-          revezar nas compressões e o tempo de troca deverá ser o mínimo
-          possível.
+          A ventilação com bolsa-valva-máscara é tão eficaz quanto a intubação e não se deve perder tempo tentando intubar se há dificuldade. A relação compressão-ventilação pode variar de acordo com o número de socorristas; quando há apenas 1 socorrista, executa-se 30:2 (30 compressões para 2 ventilações) e quando há 2 socorristas, a proporção é 15:2 (15 compressões para 2 ventilações). 
+        </P>
+        <P>
+          Caso o paciente esteja intubado a relação compressão-ventilação não existe, enquanto 1 faz 100-120 compressões por minuto, o outro faz 1 ventilação a cada 2 a 3 segundos. A cada dois minutos, ou menos se houver cansaço, os socorristas deverão se revezar nas compressões e o tempo de troca deverá ser o mínimo possível. 
         </P>
         <P>
           A RCP não encerra o tratamento curativo, mas é um meio que permite a
@@ -171,11 +136,7 @@ export default function ParadaRespiratoria(): JSX.Element {
           intensiva.
         </P>
         <P>
-          Em PCR há ausência de pulso, o que chamamos de ritmo de colapso, que
-          envolve quatro situações clínicas, cada uma com sua peculiaridade de
-          complicação e tratamento e que só poderão ser diagnosticadas com o
-          auxílio de um monitor cardíaco. A seguir mostraremos o padrão elétrico
-          de cada um. O tratamento será mostrado no algoritmo, adiante.
+          Em PCR há ausência de pulso, o que chamamos de ritmo de colapso, que envolve quatro situações clínicas, cada uma com sua peculiaridade de complicação e tratamento e que só poderão ser diagnosticadas com o auxílio de um monitor cardíaco. Abaixo, há o padrão elétrico de cada um. Cada tratamento seguirá um algoritmo.
         </P>
         <Figure
           source={img2}
@@ -196,13 +157,11 @@ export default function ParadaRespiratoria(): JSX.Element {
         />
         <P>
           <Bold>
-            Fibrilação ventricular (FV); Taquicardia ventricular sem pulso
-            (TVSP); Atividade eleétrica sem pulso (AESP).
+            FV – fibrilação ventricular; TVSP – taquicardia ventricular sem pulso; AESP – atividade elétrica sem pulso. 
           </Bold>
         </P>
         <P>
-          Tamanho das pás: infantis para menores de 1 ano ou de 10 kg{' '}
-          <Bold>e</Bold> tipo adulto para os maiores.
+          Tamanho das pás: infantis para menores de 1 ano ou 10 kg e tipo adulto para os maiores.
         </P>
         <P>
           <Bold>Atividade elétrica sem pulso (AESP)</Bold>
@@ -245,11 +204,7 @@ export default function ParadaRespiratoria(): JSX.Element {
           </LItem>
         </List>
         <P>
-          <Bold>Importante:</Bold> cursos avançados para o manejo de PCR(s) em
-          crianças devem ser realizados, com a finalidade de aprimorar os
-          conhecimentos e habilidades, multiplicando o aprendizado, para que
-          cada vez mais, as crianças possam se recuperar com o mínimo de sequela
-          possível.
+          <Bold>Importante:</Bold> cursos avançados para o manejo de PCR(s) em crianças devem ser realizados, com a finalidade de aprimorar os conhecimentos e habilidades, multiplicando o aprendizado, para que cada vez mais, as crianças possam se recuperar com o mínimo de sequela possível.
         </P>
       </Section>
       <Section title="Referências">
