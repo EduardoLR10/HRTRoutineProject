@@ -70,7 +70,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             </LItem>
             <LItem>
               Veículo envolvido e velocidade (carro, bicicleta, patins) e uso de
-              dispositivos de segurança (cinto, capacete, airbag);
+              dispositivos de segurança (cinto, capacete,{' '}<Italic>airbag</Italic>);
             </LItem>
             <LItem>
               Corrida contra objeto estacionado e a natureza deste objeto;
@@ -120,7 +120,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
         <Subsection title="Exame Físico">
           <List>
             <LItem>
-              Escola de coma de Glasgow (adaptada para a faixa etária
+              Escala de coma de Glasgow (adaptada para a faixa etária
               pediátrica);
             </LItem>
             <LItem>
@@ -169,7 +169,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
       </Section>
       <Section title="Examples Complementares">
         <P>
-          Todos os pacientes com TCE moderado ou grave (ECG  13 e perda de
+          Todos os pacientes com TCE moderado ou grave (ECG &lt;= 13 e perda de
           consciência &gt; 30 minutos, além dos mecanismos já descritos
           anteriormente) devem ser conduzidos como politraumatizados por equipe
           especializada e têm indicação de realizar TC de crânio.
