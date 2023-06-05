@@ -182,7 +182,7 @@ export default function Epilepsia(): JSX.Element {
         <Subsection title="Outras Drogas">
           <Subsubsection title="1ª escolha">
             <P>
-              1ª escolha: Diazepam 0,2-0,3 mg/kg/dose EV em <Italic>bolus</Italic>, se acesso
+              1ª escolha: Diazepam 0,2-0,3 mg/kg/dose EV em{' '}<Italic>bolus</Italic>, se acesso
               venoso, ou 0,3 mg/kg/dose retal (máximo 10mg/dose). Repetir as
               doses a cada 5 minutos, máximo de 3 doses.
             </P>
@@ -258,7 +258,7 @@ export default function Epilepsia(): JSX.Element {
             às medicações acima.
           <Subsubsection title="1ª opção">
             <P>
-              Midazolam 0,1-0,3mg/kg EV em <Italic>bolus</Italic> e após, preescrever em uso contínuo de 0,05-
+              Midazolam 0,1-0,3mg/kg EV em{' '}<Italic>bolus</Italic> e após, preescrever em uso contínuo de 0,05-
               2mg/kg/hora. Aumentar infusão em 0,05-0,1 mg/kg/hora a cada 15
               minutos, dose máxima de 1 g/kg/h.
             </P>
@@ -272,7 +272,7 @@ export default function Epilepsia(): JSX.Element {
         <Subsection title="Falha do Midazolam">
           <Subsubsection title="Tiopental">
             <P>
-              Tiopental 3-5mg/kg/dose EV em <Italic>bolus</Italic> (máximo 500 mg), e após,
+              Tiopental 3-5mg/kg/dose EV em{' '}<Italic>bolus</Italic> (máximo 500 mg), e após,
               manutenção de 1-3mg/kg/hora.
             </P>
             <P>
@@ -296,7 +296,7 @@ export default function Epilepsia(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Quetamina">
             <P>
-              Quetamina: 2-3mg/kg-dose EV em <Italic>bolus</Italic>, seguido de manutenção de
+              Quetamina: 2-3mg/kg-dose EV em{' '}<Italic>bolus</Italic>, seguido de manutenção de
               10μg/kg/min. Aumentar infusão em 5-10 μg/kg/min a cada 10 minutos,
               dose máxima de 100 μg/kg/min.
             </P>
