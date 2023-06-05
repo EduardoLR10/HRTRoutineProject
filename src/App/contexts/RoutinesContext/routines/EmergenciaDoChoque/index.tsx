@@ -58,8 +58,8 @@ export default function EmergenciaDoChoque(): JSX.Element {
           title="Tabela 1. Pressão Arterial Sistólica Normal - percentil 5"
         />
         <P>
-          A abordagem deverá seguir as diretrizes do PALS 2020 – Pedriatic
-          Advanced Life Support. A sequência AVALIAR, DIAGNOSTICAR E INTERVIR
+          A abordagem deverá seguir as diretrizes do PALS 2020 –{' '}<Italic>Pedriatic
+          Advanced Life Support</Italic>. A sequência AVALIAR, DIAGNOSTICAR E INTERVIR
           irá ajudar a conduzir melhor cada caso. Deve-se atentar para os sinais
           da progressão do choque pois, além da redução da PA, a frequência
           cardíaca (tabela 2) e a perfusão sistêmica central e periférica
@@ -151,7 +151,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
           indicam maior gravidade!
         </P>
         <P>
-          O tratamento se baseia na reposição de volume, mas com bolus menores e
+          O tratamento se baseia na reposição de volume, mas com{' '}<Italic>bolus</Italic> menores e
           reavaliações mais frequentes. Drogas vasoativas devem ser manuseadas
           com ajuda de um especialista desde o início do tratamento com auxílio
           de ecocardiografia e outros estudos.
@@ -167,15 +167,14 @@ export default function EmergenciaDoChoque(): JSX.Element {
           início do choque distributivo a criança apresenta uma menor RVS, ou
           seja, vasodilatação, representado por pulsos cheios e extremidades
           quentes e coradas e tempo de enchimento capilar menor que 3 segundos –
-          choque quente; à medida que o quadro progride, a hipovolemia e a
+          <Bold>choque quente</Bold>; à medida que o quadro progride, a hipovolemia e a
           disfunção miocárdica resultam numa diminuição do débito cardíaco,
           levando a um aumento da RVS, resultando em uma redução do fluxo
           sanguíneo cutâneo, tornando as extremidades frias, pálidas e pulsos
-          finos e tempo de enchimento capilar maior que 2 segundos – choque
-          frio; como acontece no choque hipovolêmico e cardiogênico.
+          finos e tempo de enchimento capilar maior que 2 segundos – <Bold>choque frio</Bold>; como acontece no choque hipovolêmico e cardiogênico.
         </P>
         <P>
-          A sepse representa uma causa importante de choque distributivo em
+          A <Bold>sepse</Bold> representa uma causa importante de choque distributivo em
           pediatria e tem como causa um agente infeccioso ou estímulo
           inflamatório que desencadeia dilatação dos vasos sanguíneos, disfunção
           miocárdica, distúrbio de coagulação e permeabilidade vascular
@@ -183,14 +182,13 @@ export default function EmergenciaDoChoque(): JSX.Element {
           evidente pela história, exame físico, exames laboratoriais e de
           imagem. A evolução pode durar algumas horas até alguns dias. A
           insuficiência suprarrenal por trombose e hemorragia leva a uma queda
-          abrupta do cortisol, um importante hormônio na resposta orgânica ao
-          stress, levando s disfunções referidas. Na anafilaxia, as respostas
+          abrupta do cortisol, um importante hormônio na resposta orgânica ao{' '}<Italic>stress</Italic>, levando às disfunções referidas. Na <Bold>anafilaxia</Bold>, as respostas
           são as mesmas da sepse, porém desencadeadas por um fármaco ou outro
           agente tóxico. Ocorre em questão de segundos ou minutos após a
           exposição. A vasoconstrição pulmonar aumenta abruptamente a pós-carga
           direita, diminui a pré-carga esquerda e consequentemente, o débito
           cardíaco. Pode ocorrer morte imediata. Angioedema, estridor, sibilos e
-          urticária são sinais específicos. No choque neurogênico uma lesão
+          urticária são sinais específicos. No choque <Bold>neurogênico</Bold> uma lesão
           total ou parcial da medula acima do nível T6 rompe a inervação do
           sistema nervoso simpático dos vasos sanguíneos e do coração,
           resultando em vasodilatação descontrolada e impede de ocorrer uma
@@ -279,11 +277,11 @@ export default function EmergenciaDoChoque(): JSX.Element {
           data={[
             [
               'Adrenalina 1:1000',
-              'Anafilaxia: 0,01 mg/kg/dose, IM - max 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0,1 ml/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0,1 a 1 µcg/kg/min'
+              'Anafilaxia: 0,01 mg/kg/dose, IM - máx 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0,1 ml/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0,1 a 1 µcg/kg/min'
             ],
             [
               'Bicarbonao de sódio',
-              'Ac metab conforme gasometria\n(15-Bic atual) x peso kg x 0,3'
+              'Acidose metabólica conforme gasometria\n(15-Bic atual) x peso kg x 0,3'
             ],
             [
               'Cloreto de cálcio',
@@ -294,7 +292,7 @@ export default function EmergenciaDoChoque(): JSX.Element {
             ['Furosemida', '1 a 2 mg/kg/dose a cada 6 a 12 h bolus'],
             [
               'Hidrocortisona',
-              'Ins adrenal aguda: 1 a 2 mg/kg/dose seguido 25 a 250 mg/dia, bolus\nChoque: inicial 50 mg/kg, seguido 2 a 50 mg/kg conforme titulação'
+              'Insficiência adrenal aguda: 1 a 2 mg/kg/dose seguido 25 a 250 mg/dia, bolus\nChoque: inicial 50 mg/kg, seguido 2 a 50 mg/kg conforme titulação'
             ],
             ['Glicose 25%', '2 a 4 ml/kg, bolus'],
             ['Glicose 10%', '5 a 10 ml/kg, bolus'],
