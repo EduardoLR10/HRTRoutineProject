@@ -133,7 +133,7 @@ export default function TestRoutine(): JSX.Element {
               sinal focal, rigidez de nuca sem febre.
             </LItem>
             <LItem>
-              Sintomas sistêmicos, como rash cutâneo, dor articular e febre
+              Sintomas sistêmicos, como{' '}<Italic>rash</Italic> cutâneo, dor articular e febre
               associada a perda ponderal;
             </LItem>
             <LItem>Fatores de risco secundários (descritos acima);</LItem>
@@ -172,7 +172,7 @@ export default function TestRoutine(): JSX.Element {
           analgésicos (&gt; 2 vezes por semana), identificar alimentos
           associados à dor e evitar seu uso (principais: chocolate, alimentos
           com cafeína, alimentos com corante, glutamato monossódico, queijos).
-          Durante a dor, importante o repouso em ambientes com pouca
+          Durante a dor, é importante o repouso em ambientes com pouca
           luminosidade e som.
         </P>
         <Table
@@ -268,8 +268,7 @@ export default function TestRoutine(): JSX.Element {
         </P>
         <P>
           Não há indicação de opióides para o tratamento das cefaleias
-          primárias, pois podem modificar a resposta à dor e levar ao seu uso
-          abuso e adição.
+          primárias, pois podem modificar a resposta à dor e levar e seu uso frequente levar ao abuso dessa medicação.
         </P>
         <P>
           Durante as crises de enxaqueca, é comum a paresia gástrica e redução
