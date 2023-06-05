@@ -26,19 +26,21 @@ export default function Epilepsia(): JSX.Element {
       tags={['convulsão', 'mal', 'convulsivo']}
     >
       <Section title="Definições">
-        <P>
-          Crise epiléptica: ocorrência transitória de sinais e/ou sintomas
-          secundários a atividade neuronal cerebral anormal, excessiva ou
-          síncrona. Se houver atividade motora, poderá ser chamada de crise
-          convulsiva.
-        </P>
+        <Subsection title="Crise epiléptica">
+          <P>
+            Ocorrência transitória de sinais e/ou sintomas
+            secundários a atividade neuronal cerebral anormal, excessiva ou
+            síncrona. Se houver atividade motora, poderá ser chamada de crise
+            convulsiva.
+          </P>
+        </Subsection>
         <Subsection title="Epilepsia">
           <P>
             Duas ou mais crises epilépticas sem evidências de insultos agudos
             (ex.: febre, hiponatremia, intoxicação), em um intervalo superior a
-            24 horas ou uma crise não provocada e chance de uma nova crise
+            24 horas <Bold>ou</Bold> uma crise não provocada e chance de uma nova crise
             estimada em pelo menos 60% (exame neurológico, EEG ou exame de
-            imagem alterados) ou diagnóstico de uma síndrome epiléptica (ex.:
+            imagem alterados) <Bold>ou</Bold> diagnóstico de uma síndrome epiléptica (ex.:
             Síndrome de West).
           </P>
         </Subsection>
@@ -180,9 +182,9 @@ export default function Epilepsia(): JSX.Element {
         <Subsection title="Outras Drogas">
           <Subsubsection title="1ª escolha">
             <P>
-              1ª escolha: Diazepam 0,2-0,3 mg/kg/dose EV em bolus, se acesso
+              1ª escolha: Diazepam 0,2-0,3 mg/kg/dose EV em <Italic>bolus</Italic>, se acesso
               venoso, ou 0,3 mg/kg/dose retal (máximo 10mg/dose). Repetir as
-              doses a cada 5 minutos, máximo de 3 doses..
+              doses a cada 5 minutos, máximo de 3 doses.
             </P>
             <P>Riscos: hipotensão e depressão respiratória.</P>
             <P>Antídoto: Flumazenil, dose de 0,2 mg/kg intravenoso.</P>
@@ -209,8 +211,8 @@ export default function Epilepsia(): JSX.Element {
           <Subsubsection title="1ª escolha">
             <P>
               Fenitoína, ataque de 15-20 mg/kg EV (máximo 1.000 mg), infundir em
-              20-30 minutos (velocidade máxima de 1mg/kg/min). Não diluir em
-              soro glicosado e lavar o equipo antes e depois da infusão.
+              20-30 minutos (velocidade máxima de 1mg/kg/min). <Bold>Não diluir em
+              soro glicosado</Bold> e lavar o equipo antes e depois da infusão.
             </P>
             <P>
               Se não houver resposta após 20 minutos, fazer doses adicionais de
@@ -251,12 +253,12 @@ export default function Epilepsia(): JSX.Element {
             </P>
           </Subsubsection>
           <Bold>
-            Estado de mal epiléptico refratário – quando as crises não respondem
+            Estado de mal epiléptico refratário
+          </Bold> – quando as crises não respondem
             às medicações acima.
-          </Bold>
           <Subsubsection title="1ª opção">
             <P>
-              Midazolam 0,1-0,3mg/kg EV em bolus e após contínuo de 0,05-
+              Midazolam 0,1-0,3mg/kg EV em <Italic>bolus</Italic> e após, preescrever em uso contínuo de 0,05-
               2mg/kg/hora. Aumentar infusão em 0,05-0,1 mg/kg/hora a cada 15
               minutos, dose máxima de 1 g/kg/h.
             </P>
@@ -270,7 +272,7 @@ export default function Epilepsia(): JSX.Element {
         <Subsection title="Falha do Midazolam">
           <Subsubsection title="Tiopental">
             <P>
-              Tiopental 3-5mg/kg/dose EV em bolus (máximo 500 mg), e após
+              Tiopental 3-5mg/kg/dose EV em <Italic>bolus</Italic> (máximo 500 mg), e após,
               manutenção de 1-3mg/kg/hora.
             </P>
             <P>
@@ -294,7 +296,7 @@ export default function Epilepsia(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Quetamina">
             <P>
-              Quetamina: 2-3mg/kg-dose EV em bolus, seguido de manutenção de
+              Quetamina: 2-3mg/kg-dose EV em <Italic>bolus</Italic>, seguido de manutenção de
               10μg/kg/min. Aumentar infusão em 5-10 μg/kg/min a cada 10 minutos,
               dose máxima de 100 μg/kg/min.
             </P>
