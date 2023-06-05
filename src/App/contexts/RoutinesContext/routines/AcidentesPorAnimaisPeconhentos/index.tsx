@@ -63,24 +63,14 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         <P>O tratamento para todos os casos deve ser geral e específico.</P>
         <Subsection title="Tratamento Geral">
           <P>
-            consiste em dar suporte no estado de hidratação, analgesia, suporte
+            Consiste em dar suporte no estado de hidratação, analgesia, suporte
             ventilatório e circulatório, renal e manejar corretamente os efeitos
             adversos dos medicamentos utilizados.
           </P>
         </Subsection>
         <Subsection title="Tratamento Específico">
           <P>
-            o soro contra o veneno para cada caso, deve ser administrado em dose
-            calculada de aplicação única, não fracionada, IV, diluído (ou não) e
-            para crianças ou adultos a quantidade é a mesma, variando conforme a
-            gravidade. Não se faz teste de sensibilidade, e sim, medicação
-            prévia de corticoide e anti-histamínico. Se ocorrer anafilaxia, o
-            soro deve ser suspenso e o tratamento de suporte respiratório e
-            circulatório deve ser instituído, assim como iniciar adrenalina,
-            corticoide e anti-histamínico. Tão logo o quadro seja controlado o
-            soro deve ser retomado, porém com infusão mais lenta. A dose pode
-            ser repetida quantas vezes for necessária. A prednisona pode ser
-            indicada para o controle de reação tardia.
+            O soro contra o veneno para cada caso, deve ser administrado em dose calculada de aplicação única, não fracionada, IV, diluído (ou não) e <Bold>para crianças ou adultos a quantidade é a mesma, variando conforme a gravidade</Bold>. Não se faz teste de sensibilidade, e sim, medicação prévia de corticoide e anti-histamínico. Se ocorrer anafilaxia, o soro deve ser suspenso e o tratamento de suporte respiratório e circulatório deve ser instituído, assim como iniciar adrenalina, corticoide e anti-histamínico. Tão logo o quadro seja controlado o soro deve ser retomado, porém com infusão mais lenta. A dose pode ser repetida quantas vezes for necessária. A prednisona pode ser indicada para o controle de reação tardia. 
           </P>
         </Subsection>
         <P>
@@ -117,11 +107,11 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           narina e o olho, um em cada lado da cabeça (com exceção da coral
           verdadeira - Fig.1).
         </P>
-        <Figure source={img1} size={[120, 90]} caption="fig.1" />
+        <Figure source={img1} size={[120, 90]} caption="Fig.1 - Fonte: Mundo Educação UOL" />
         <Subsection title="Acidente Botrópico">
           <P>Causado por serpentes do grupo das jararacas (Fig.2 e Fig 3).</P>
-          <Figure source={img3} size={[346, 146]} caption="fig.2" />
-          <Figure source={img2} size={[260, 194]} caption="fig.3" />
+          <Figure source={img3} size={[346, 146]} caption="Fig.2 - Fonte: A Semana News" />
+          <Figure source={img2} size={[260, 194]} caption="Fig.3 - Fonte: Agora MT" />
           <P>Causa a maioria dos acidentes com cobras no Brasil: 75% a 85%.</P>
           <P>O Cerrado é o seu principal habitat.</P>
           <P>
@@ -130,13 +120,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </P>
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Dor e inchaço no local da picada, às vezes com manchas arroxeadas
-              e sangramento no ferimento causado pela picada (Fig.3); podem
-              ocorrer sangramentos em gengivas, pele e urina. As complicações
-              mais importantes são infecção e necrose na região da picada,
-              choque e insuficiência renal. O quadro clínico pode ser
-              classificado em leve, moderado e grave, o que determina a conduta
-              (Quadro 1).
+              Dor e inchaço no local da picada, às vezes com manchas arroxeadas e sangramento no ferimento causado pela picada (Fig.3); podem ocorrer sangramentos em gengivas, pele e urina. As complicações mais importantes são infecção e necrose na região da picada, choque e insuficiência renal. O quadro clínico pode ser classificado em leve, moderado e grave, o que determina a conduta (Quadro 1).
             </P>
             <Table
               title="Quadro 1"
@@ -187,15 +171,18 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             />
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
-            <P>
-              Hemograma completo com leucocitose e neutrofilia com desvio para a
+            <List>
+              <LItem>
+                Hemograma completo com leucocitose e neutrofilia com desvio para a
               esquerda;
-            </P>
-            <P>
-              Ureia e creatinina, CK, DHL, AST, ALT, ureia e creatinina, TS, TP,
-              TTPA, TC;
-            </P>
-            <P>EAS com proteinúria, hematúria e leucocitúria;</P>
+              </LItem>
+              <LItem>
+                Ureia e creatinina, CK, DHL, AST, ALT, ureia e creatinina, TS, TP, TTPA, TC;
+              </LItem>
+              <LItem>
+                EAS com proteinúria, hematúria e leucocitúria.
+              </LItem>
+            </List>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
@@ -205,12 +192,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             </P>
             <P>Se houver manifestação de envenenamento:</P>
             <P>
-              Soro antibotrópico (SAB) ou na sua falta pode-se usar o soro
-              antibotrópico-crotálico (SABC) ou soro antibotrópico-laquético. Se
-              o TC (tempo de coagulação) permanecer alterado após 24h, depois da
-              soroterapia, deve ser feita uma dose adicional. Para casos leves
-              de 2 a 4 ampolas, moderados de 4 a 8 ampolas e graves 12 ampolas,
-              conforme quadro 1.
+              Soro antibotrópico (SAB) ou na sua falta pode-se usar o soro antibotrópico-crotálico (SABC) ou soro antibotrópico-laquético. Se o TC (tempo de coagulação) permanecer alterado após 24h, depois da soroterapia, deve ser feita uma dose adicional. Para casos leves de 2 a 4 ampolas, moderados de 4 a 8 ampolas e graves 12 ampolas, conforme quadro 1. 
             </P>
           </Subsubsection>
         </Subsection>
@@ -222,25 +204,28 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             úmidas do Nordeste.
           </P>
           <P>
-            Apresentam no corpo desenhos típicos na forma de losangos que
-            alternam entre as cores amarela e preta. Uma importante
-            característica morfológica destas cobras é que na cauda apresenta a
-            última subfileira de escamas modificadas, sendo estas quilhadas e
-            eriçadas além de apresentar um espinho terminal (Fig.5).
+            Apresentam no corpo desenhos típicos na forma de losangos que alternam entre as cores amarela e preta. Uma importante característica morfológica destas cobras é que na cauda apresenta a última subfileira de escamas modificadas, sendo estas quilhadas e eriçadas além de apresentar um espinho terminal (Fig.5).
           </P>
-          <Figure source={img5} size={[274, 184]} caption="fig.4" />
-          <Figure source={img4} size={[617, 290]} caption="fig.5" />
+          <Figure source={img5} size={[274, 184]} caption="Fig.4 - Fonte: JC Online UOL" />
+          <Figure source={img4} size={[617, 290]} caption="Fig.5 - Fonte: Research Gate" />
           <Subsubsection title="Manifestação Clínica">
             <P>
               Quadro semelhante ao acidente botrópico, porém com evolução mais
               rápida e maior intensidade.
             </P>
           </Subsubsection>
-          <Subsubsection title="">
-            <P>
-              Hemograma completo TC prolongado Ureia e creatinina, eletrólitos e
-              glicemia
-            </P>
+          <Subsubsection title="Exames Laboratoriais">
+            <List>
+              <LItem>
+                Hemograma completo;
+              </LItem>
+              <LItem>
+                TC prolongado;
+              </LItem>
+              <LItem>
+                Ureia e creatinina, eletrólitos e glicemia
+              </LItem>
+            </List>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
@@ -260,17 +245,11 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             chocalho na parte final de sua cauda. Possuem cor marrom escuro com
             presença de anéis claros e finos na cauda.
           </P>
-          <Figure source={img7} size={[259, 194]} caption="fig.6" />
-          <Figure source={img6} size={[190, 266]} caption="fig.7" />
+          <Figure source={img7} size={[259, 194]} caption="Fig.6 - Fonte: Plugbr.net" />
+          <Figure source={img6} size={[190, 266]} caption="Fig.7 - Fonte: Cortesia de Dra. Caroline Walker" />
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Sensação de formigamento no local, sem lesão evidente; os sinais e
-              sintomas sistêmicos são precoces, como: dificuldade de manter os
-              olhos abertos, com aspecto miastênico - Fig.7), visão turva ou
-              dupla, dor e fraqueza muscular generalizadas, podendo evoluir até
-              insuficiência respiratória e hematúria maciça. O quadro clínico
-              pode ser classificado em leve, moderado e grave, o que determina a
-              conduta (Quadro 2).
+              Sensação de formigamento no local, sem lesão evidente; os sinais e sintomas sistêmicos são precoces, como: dificuldade de manter os olhos abertos, com aspecto miastênico (Fig.7), visão turva ou dupla, dor e fraqueza muscular generalizadas, podendo evoluir até insuficiência respiratória e hematúria maciça. O quadro clínico pode ser classificado em leve, moderado e grave, o que determina a conduta (Quadro 2).
             </P>
 
             <Table
@@ -318,19 +297,21 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             />
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
-            <P>
-              Hemograma completo – leucocitose com neutrofilia (desvio para
-              esquerda) TC prolongado
-            </P>
-            <P>
-              Ureia e creatinina, AST e ALT, CK, DHL, ácido úrico podem estar
-              elevados nos quadros mais graves
-            </P>
-            <P>
-              Fósforo e potássio podem estar elevados e cálcio reduzido quando
-              houver oligúria ou anúria.
-            </P>
-            <P>Urina tipo 1 (EAS) com mioglobinúria e proteinúria discreta</P>
+            <List>
+              <LItem>
+                Hemograma completo – leucocitose com neutrofilia (desvio para esquerda);
+              </LItem>
+              <LItem>
+                TC prolongado;
+              </LItem>
+              <LItem>
+                Ureia e creatinina, AST e ALT, CK, DHL, ácido úrico podem estar elevados nos quadros mais graves;
+              </LItem>
+              <LItem>
+                Fósforo e potássio podem estar elevados e cálcio reduzido quando houver oligúria ou anúria;
+              </LItem>
+              <LItem>Urina tipo 1 (EAS) com mioglobinúria e proteinúria discreta.</LItem>
+            </List>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
@@ -344,7 +325,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </Subsubsection>
         </Subsection>
         <Subsection title="Acidente Elapídico">
-          <P>Causado por coral verdadeira - Fig.8).</P>
+          <P>Causado por coral verdadeira (Fig.8).</P>
           <P>
             Corresponde a 1% dos acidentes por cobras no Brasil. É encontrada em
             matas das regiões sudeste e sul do Brasil.
@@ -361,14 +342,10 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             Uma vez picada, a pessoa corre risco de morte caso não receba
             atendimento médico rápido.
           </P>
-          <Figure source={img9} size={[265, 190]} caption="fig.8" />
+          <Figure source={img9} size={[265, 190]} caption="Fig.8 - Fonte: UFRGS" />
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Os sintomas aparecem rapidamente: fácies miastênica com ptose
-              palpebral, paralisia da musculatura respiratória, oftalmoplegia,
-              paralisia velopalatina, paralisia flácida dos membros, quadro
-              bastante semelhante ao de envenenamento crotálico, porém, de maior
-              gravidade. O bloqueio da junção mioneural ocorre pós-sinapse.
+              Os sintomas aparecem rapidamente: fácies miastênica com ptose palpebral, paralisia da musculatura respiratória, oftalmoplegia, paralisia velopalatina, paralisia flácida dos membros, quadro bastante semelhante ao de envenenamento crotálico, porém, de maior gravidade. O bloqueio da junção mioneural ocorre pós-sinapse.
             </P>
             <P>No local da picada não se observa alteração importante.</P>
           </Subsubsection>
@@ -394,7 +371,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
                 IV
               </LItem>
               <LItem>
-                Neostigmina (0,5 mg) – crianças 0,05 mg/kg e adultos 0,5 mg – IV
+                Neostigmina (amp 0,5 mg) – crianças 0,05 mg/kg e adultos 0,5 mg – IV
               </LItem>
             </List>
           </Subsubsection>
@@ -403,38 +380,33 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
       <Section title="Escorpiões">
         <P>Dentre os aracnídeos são os que causam mais acidentes.</P>
         <P>
-          O escorpião amarelo, o Titius serrulatus – Fig.9 (provocam acidentes
-          mais graves) e o escorpião preto ou marrom, o Titius bahiensis –
+          O <Bold>escorpião amarelo</Bold>, o Titius serrulatus – Fig.9 (provocam acidentes
+          mais graves) e o escorpião <Bold>preto ou marrom</Bold>, o Titius bahiensis –
           Fig.10, estão entre os dois tipos mais venenosos. Um ataque pode ser
           fatal se acometer uma criança. São pouco agressivos, tem hábitos
           noturnos, encontram-se em pilhas de madeira e pedras, cercas e
           residências.
         </P>
-        <Figure source={img8} size={[289, 175]} caption="fig.9" />
-        <Figure source={img12} size={[253, 199]} caption="fig.10" />
+        <Figure source={img8} size={[289, 175]} caption="Fig.9 - Fonte: Ribeira Dedetizadora" />
+        <Figure source={img12} size={[253, 199]} caption="Fig.10 - Fonte: Personare" />
         <Subsection title="Manifestação Clínica">
           <P>
-            Após a picada ocorre dor de moderada a intensa, formigamento no
-            local. Distúrbio de comportamento, alteração do nível de
-            consciência, tremores, convulsão, náuseas e vômitos, sialorréia, dor
-            abdominal, diarreia, taquipneica, hiperpneia, crepitações,
-            taquicardia e hiper ou hipotensão arterial, sudorese, extremidades
-            frias e pálidas, pulsos finos e tempo de enchimento capilar maior
-            que 3” sugerem gravidade e o paciente deve permanecer em observação
-            por 6 a 12 horas.
+            Após a picada ocorre dor de moderada a intensa, formigamento no local. Distúrbio de comportamento, alteração do nível de consciência, tremores, convulsão, náuseas e vômitos, sialorréia, dor abdominal, diarreia, taquipneica, hiperpneia, crepitações, taquicardia e hiper ou hipotensão arterial, sudorese, extremidades frias e pálidas, pulsos finos e tempo de enchimento capilar maior que 3” sugerem gravidade e o paciente deve permanecer em observação por 6 a 12 horas. 
           </P>
         </Subsection>
         <Subsection title="Exames Laboratoriais">
-          <P>Glicemia elevada nas primeiras 4 horas</P>
-          <P>Amilase elevada em 80% dos casos</P>
-          <P>Leucograma com leucocitose e neutrofilia</P>
-          <P>Hiponatremia e hipocalemia</P>
-          <P>CK e CKMB elevados</P>
-          <P>TC crânio pode mostrar áreas de infartos cerebrais</P>
-          <P>
-            Rx tórax pode mostrar aumento de área cardíaca e edema pulmonar uni
-            ou bilateral
-          </P>
+          <List>
+            <LItem>Glicemia elevada nas primeiras 4 horas</LItem>
+            <LItem>Amilase elevada em 80% dos casos</LItem>
+            <LItem>Leucograma com leucocitose e neutrofilia</LItem>
+            <LItem>Hiponatremia e hipocalemia</LItem>
+            <LItem>CK e CKMB elevados</LItem>
+            <LItem>TC crânio pode mostrar áreas de infartos cerebrais</LItem>
+            <LItem>
+              Rx tórax pode mostrar aumento de área cardíaca e edema pulmonar uni
+              ou bilateral
+            </LItem>
+          </List>
         </Subsection>
         <Subsection title="Tratamento Específico">
           <P>
@@ -448,26 +420,17 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         <Subsection
           title={
             <>
-              <Italic>Phoneutria</Italic> (armadeira) fig.11
+              <Italic>Phoneutria</Italic> (armadeira) Fig.11
             </>
           }
         >
-          <Figure source={img10} size={[286, 176]} caption="fig.11" />
+          <Figure source={img10} size={[286, 176]} caption="Fig.11 - Fonte: InfoEscola" />
           <P>
-            Tem hábitos vespertinos e noturnos, são frequentes dentro de
-            residências e na sua periferia. Gosta de ficar em entulhos, material
-            de construção, lenhas e caixas de sapatos; também podem ser
-            encontradas em árvores com grandes folhas e bananeiras. Raramente
-            levam a quadro grave. Suas picadas ocorrem mais nos pés e mãos. É
-            muito agressiva.
+            Tem hábitos vespertinos e noturnos, são frequentes dentro de residências e na sua periferia. Gosta de ficar em entulhos, material de construção, lenhas e caixas de sapatos; também podem ser encontradas em árvores com grandes folhas e bananeiras. Raramente levam a quadro grave. Suas picadas ocorrem mais nos pés e mãos. É muito agressiva.
           </P>
           <Subsubsection title="Manifestações Clínicas">
             <P>
-              Dor com ou sem irradiação e edema local, imediatamente após a
-              picada, parestesia e sudorese. Se surgirem vômitos, hipertensão
-              arterial, dificuldade respiratória, tremores, espasmos musculares
-              devem ser tratados como acidente grave. Pode evoluir para choque e
-              edema pulmonar.
+              Dor com ou sem irradiação e edema local, imediatamente após a picada, parestesia e sudorese. Se surgirem vômitos, hipertensão arterial, dificuldade respiratória, tremores, espasmos musculares devem ser tratados como acidente grave. Pode evoluir para choque e edema pulmonar.
             </P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
@@ -481,46 +444,27 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         <Subsection
           title={
             <>
-              <Italic>Loxosceles</Italic> (aranha marrom) fig.12
+              <Italic>Loxosceles</Italic> (aranha marrom) Fig.12
             </>
           }
         >
-          <Figure source={img11} size={[275, 183]} caption="fig.12" />
+          <Figure source={img11} size={[275, 183]} caption="Fig.12 - Fonte: Meio Ambiente Técnico" />
           <P>
-            Hábitos noturnos, vive em pilhas de tijolos, telhas, atrás de
-            móveis, cortinas e eventualmente nas roupas, jardins e gramas. São
-            pouco agressivas. Corresponde à forma mais grave dos acidentes por
-            aracnídeos no Brasil. Acomete mais a área central – tronco e membros
-            proximais, geralmente ocorre quando a pessoa está se vestindo.
+            Hábitos noturnos, vive em pilhas de tijolos, telhas, atrás de móveis, cortinas e eventualmente nas roupas, jardins e gramas. São pouco agressivas. Corresponde à forma mais grave dos acidentes por aracnídeos no Brasil. Acomete mais a área central – tronco e membros proximais, geralmente ocorre quando a pessoa está se vestindo.
           </P>
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Em torno de 90% ocorre manifestação local. A dor é fraca nas
-              primeiras 12 horas e depois pode aumentar de intensidade, pode
-              surgir sinais flogísticos formação de bolhas e até necrose seca
-              local, que pode durar até duas semanas e de difícil cicatrização.
-              Astenia, febre e cefaleia. Nos casos graves (10%) pode apresentar
-              exantema, prurido, petéquias, mialgia, náuseas e vômitos, visão
-              turva, sonolência, torpor, irritabilidade e coma. Anemia,
-              icterícia e hemoglobinúria devido a hemólise intravascular.
-              Insuficiência renal aguda e CIVD é a principal causa de óbito.
+              Em torno de 90% ocorre manifestação local. A dor é fraca nas primeiras 12 horas e depois pode aumentar de intensidade, pode surgir sinais flogísticos formação de bolhas e até necrose seca local, que pode durar até duas semanas e de difícil cicatrização. Astenia, febre e cefaleia. Nos casos graves (10%) pode apresentar exantema, prurido, petéquias, mialgia, náuseas e vômitos, visão turva, sonolência, torpor, irritabilidade e coma. Anemia, icterícia e hemoglobinúria devido a hemólise intravascular. Insuficiência renal aguda e CIVD é a principal causa de óbito.
             </P>
           </Subsubsection>
           <Subsubsection title="Exames Laboratoriais">
             <P>
-              Hemograma com leucocitose e neutrofilia, anemia aguda,
-              plaquetopenia, reticulocitose, hiperbilirrubinemia indireta,
-              diminuição de haptoglobina, hiperpotassemia, elevação de ureia e
-              creatinina e coagulograma alterado (hemólise intravascular e
-              CIVD).
+              Hemograma com leucocitose e neutrofilia, anemia aguda, plaquetopenia, reticulocitose, hiperbilirrubinemia indireta, diminuição de haptoglobina, hiperpotassemia, elevação de ureia e creatinina e coagulograma alterado (hemólise intravascular e CIVD).
             </P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro antiloxoscélico (SALOx) ou soro antiaracnídeo (SAAr). Infusão
-              intravenosa de 5 ampolas para os casos graves de manifestação
-              cutânea e 10 ampolas para manifestações viscerais. A eficácia é
-              reduzida após 36h da infusão.
+              Soro antiloxoscélico (SALOx) ou soro antiaracnídeo (SAAr). Infusão intravenosa de 5 ampolas para os casos graves de manifestação cutânea e 10 ampolas para manifestações viscerais. A eficácia é reduzida após 36h da infusão.
             </P>
           </Subsubsection>
         </Subsection>
@@ -532,11 +476,9 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           }
         >
           <P>
-            Encontrada em jardins e gramas. Não constrói teias. Não constituem
-            problema de saúde pública. São importantes para diagnóstico
-            diferencial da Lexósceles por ocupar o mesmo habitat (Fig 13).
+            Encontrada em jardins e gramas. Não constrói teias. Não constituem problema de saúde pública. São importantes para diagnóstico diferencial da Lexósceles por ocupar o mesmo habitat (Fig 13). 
           </P>
-          <Figure source={img13} size={[491, 327]}></Figure>
+          <Figure source={img13} size={[491, 327]} caption="Fig.13 - Fonte: BioDiversity4All"></Figure>
           <Subsubsection title="Manifestação Clínica">
             <P>Flogose local leve.</P>
           </Subsubsection>
@@ -546,31 +488,19 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         </Subsection>
         <Subsection title="Caranguejeiras">
           <P>
-            É da família Theraphosidae de aranhas, que inclui as espécies
-            conhecidas pelos nomes comuns de tarântulas (português europeu) ou
-            caranguejeiras (português brasileiro), que se caracterizam por terem
-            pernas longas com duas garras na ponta, e corpo revestido de cerdas
-            urticantes. As tarântulas habitam as regiões temperadas e tropicais
-            das Américas, Ásia, África e Oriente Médio. Enquanto crescem, têm
-            uma fase de troca de pele chamada ecdise. Apesar do tamanho e
-            aspecto sinistro, as tarântulas não são perigosas para a espécie
-            humana, uma vez que não produzem toxinas nocivas aos humanos, por
-            isso são eventualmente criadas como animais de estimação. Uma de
-            suas defesas são os pêlos urticantes de suas costas e abdome, que
-            irritam a pele do possível predador. Em média atingem de 15 cm a 25
-            cm de comprimento com as pernas estendidas.
+            É da família <Bold><Italic>Theraphosidae</Italic></Bold> de aranhas, que inclui as espécies
+            conhecidas pelos nomes comuns de <Bold>tarântulas</Bold> (português europeu) ou
+            <Bold>caranguejeiras</Bold> (português brasileiro), que se caracterizam por terem pernas longas com duas garras na ponta, e corpo revestido de cerdas urticantes. As tarântulas habitam as regiões temperadas e tropicais das Américas, Ásia, África e Oriente Médio. Enquanto crescem, têm uma fase de troca de pele chamada ecdise. Apesar do tamanho e aspecto sinistro, as tarântulas não são perigosas para a espécie humana, uma vez que não produzem toxinas nocivas aos humanos, por isso são eventualmente criadas como animais de estimação. Uma de suas defesas são os pêlos urticantes de suas costas e abdome, que irritam a pele do possível predador. Em média atingem de 15 cm a 25 cm de comprimento com as pernas estendidas.
           </P>
-          <P>Não tem importância médica relevante.</P>
+          <P>Não tem importância médica relevante (Fig. 14).</P>
           <Figure
             source={img14}
             size={[296, 324]}
-            caption="Fig 14. Fonte Wikipédia"
+            caption="Fig.14 - Fonte: Wikipédia"
           />
           <Subsubsection title="Manifestações Clínicas">
             <P>
-              Pode apresentar dor leve e de curta duração no local da picada
-              associada a discreta hiperemia. Alguns casos podem apresentar
-              urticária devido a reação causada pelo contato com os seus pelos.
+              Pode apresentar dor leve e de curta duração no local da picada associada a discreta hiperemia. Alguns casos podem apresentar urticária devido a reação causada pelo contato com os seus pelos.
             </P>
           </Subsubsection>
           <Subsubsection title="Tratamento">
@@ -585,63 +515,49 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           }
         >
           <P>
-            Habitam jardins, gramados, parques, plantações e residências. São
-            sedentárias e não são agressivas. Os acidentes são raríssimos e só
-            acontecem que são pisadas (Fig 15).
+            Habitam jardins, gramados, parques, plantações e residências. São sedentárias e não são agressivas. Os acidentes são raríssimos e só acontecem que são pisadas (Fig 15). 
           </P>
-          <Figure source={img15} size={[219, 328]} />
+          <Figure source={img15} size={[219, 328]} caption="Fig.15 - Fonte: InfoEscola"/>
           <Subsubsection title="Manifestação Clínica">
             <P>
-              Dor local, mialgia, edema e adenite satélite. Pode apresentar
-              tremores, espasmos musculares em membros, sudorese, ansiedade,
-              cefaleia, excitabilidade, insônia, prurido, eritema facial e
-              cervical, trismo, taquicardia, dor precordial, hipertensão e até
-              bradicardia (Fig 16, Fig 17).
+              Dor local, mialgia, edema e adenite satélite. Pode apresentar tremores, espasmos musculares em membros, sudorese, ansiedade, cefaleia, excitabilidade, insônia, prurido, eritema facial e cervical, trismo, taquicardia, dor precordial, hipertensão e até bradicardia (Fig 16, Fig 17). 
             </P>
             <Figure
               source={img16}
               size={[500, 375]}
-              caption="Fig 16. Fonte Meus Animais"
+              caption="Fig.16 - Fonte: Meus Animais"
             />
             <Figure
               source={img17}
               size={[500, 375]}
-              caption="Fig 17. Fonte Portal News em Foco"
+              caption="Fig.17 - Fonte: Portal News em Foco"
             />
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro antilatrodectus (SALatr) para os casos graves – 1 a 2 ampolas
-              IM. A melhora ocorre de 30 minutos até 3 horas após.
+              Soro antilatrodectus (SALatr) para os casos graves – 1 a 2 ampolas IM. A melhora ocorre de 30 minutos até 3 horas após.
             </P>
           </Subsubsection>
         </Subsection>
-        <Subsection title="Taturanas (Lonomia) - Fig.18)">
-          <P>lagartas-de-fogo e orugas são larvas de mariposa</P>
-          <Figure source={img18} size={[363, 204]} caption="Fig. 18 Terra" />
+        <Subsection title="Taturanas (Lonomia - Fig.18)">
+          <P>Lagartas-de-fogo e orugas são larvas de mariposa</P>
+          <Figure source={img18} size={[363, 204]} caption="Fig.18 - Fonte: Terra" />
           <Figure
             source={img19}
             size={[363, 204]}
-            caption="Fig. 19 Pinterest"
+            caption="Fig.19 - Fonte: Pinterest"
           />
           <P>
-            Vivem agrupadas em tronco e folhas das árvores. Os acidentes ocorrem
-            por contato com seus espinhos.
+            Vivem agrupadas em tronco e folhas das árvores. Os acidentes ocorrem por contato com seus espinhos. 
           </P>
           <Subsubsection title="Manifestações Clínicas">
             <P>
-              Dor em queimação local, edema e eritema – fig.14. Pode ocorrer
-              prurido algumas vezes e adenite satélite. Pode evoluir para
-              vesículas nas primeiras 24h e a regressão ocorre em até 3 dias.
-              Síndrome hemorrágica é rara e pode levar a insuficiência renal e
-              morte.
+              Dor em queimação local, edema e eritema – fig.14. Pode ocorrer prurido algumas vezes e adenite satélite. Pode evoluir para vesículas nas primeiras 24h e a regressão ocorre em até 3 dias. Síndrome hemorrágica é rara e pode levar a insuficiência renal e morte. 
             </P>
           </Subsubsection>
           <Subsubsection title="Tratamento Específico">
             <P>
-              Soro antilonômico (SALon) 5 ampolas para casos moderados e 10
-              ampolas para os graves - em estudo – entrar em contato com o CIT
-              de sua cidade.
+              Soro antilonômico (SALon) 5 ampolas para casos moderados e 10 ampolas para os graves - em estudo – entrar em contato com o CIT de sua cidade. 
             </P>
             <Table
               title="Resumo Terapeutico"
@@ -668,7 +584,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
                 ['Phoneutria', '', '2 – 4 amp', '5 – 10 amp', 'SAAr'],
                 ['Lexosceles', '', '5 amp', '10 amp', 'SALox ou SAA'],
                 ['Latrodecta', '', '', '1 – 2 amp IM', 'SALatr'],
-                ['Lonomia', '5 amp', '10 amp', 'SALon']
+                ['Lonomia', '', '5 amp', '10 amp', 'SALon']
               ]}
             />
           </Subsubsection>
