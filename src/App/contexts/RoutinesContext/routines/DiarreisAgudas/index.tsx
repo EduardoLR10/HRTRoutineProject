@@ -22,7 +22,7 @@ export default function DiarreiasAgudas(): JSX.Element {
       id="diarreias-agudas"
       name="Diarréias Agudas"
       categories={['emergencia', 'gastroenterologia']}
-      authors={['sergio']}
+      authors={['renato']}
       tags={['GECA', 'rotavirose', 'viral', 'desidratação']}
     >
       <Section title="Definição">

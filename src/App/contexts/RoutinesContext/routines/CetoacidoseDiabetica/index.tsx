@@ -22,7 +22,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
       id="cetoacidose-diabetica"
       name="Cetoacidose Diabética (CAD)"
       categories={['emergencia', 'endocrinologia']}
-      authors={['roberta']}
+      authors={['renato']}
       tags={['diabetes', 'tipo', '1', 'descompensação']}
     >
       <Section title="Sinais Clínicos">
