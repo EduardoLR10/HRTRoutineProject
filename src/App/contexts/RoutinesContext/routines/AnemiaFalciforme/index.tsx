@@ -31,7 +31,7 @@ export default function AnemiaFalciforme(): JSX.Element {
           brasileira, sendo a AF a doença hereditária mais frequente no país.
           Possui caráter autossômico recessivo e é chamada de AF a homozigose
           para a Hb S (Hb SS). Associações da Hb S com hemoglobinas anormais (Hb
-          D, C, Talassemias) constituem um grupo chamado de Doença Falciforme,
+          D, C, Talassemias) constituem um grupo chamado de Doença Falciforme (DF),
           incluindo também a AF (Hb SS). Ocorre especialmente na raça negra,
           porém com o alto grau de miscigenação brasileiro, a doença pode ser
           encontrada indistintamente em indivíduos de diversas etnias.
@@ -39,19 +39,13 @@ export default function AnemiaFalciforme(): JSX.Element {
       </Section>
       <Section title="Fisiopatologia">
         <P>
-          A Hb S é uma Hb mutante, resultante da troca do ácido glutâmico pela
-          valina na posição 6 da cadeia beta da Hb. Em situações de estresse,
-          como hipóxia, febre, desidratação, infecções, exaustão física e frio
-          intenso, pode sofrer polimerização, levando à deformidade da hemácea,
-          a qual adquire forma de foice, resultando em obstrução vascular,
-          crises de dor, lesões endoteliais de caráter inflamatório crônico e
-          lesões orgânicas, com isquemia, infarto, necrose e disfunção.
+          A Hb S é uma Hb mutante, resultante da troca do ácido glutâmico pela valina na posição 6 da cadeia beta da Hb. Em situações de estresse com baixa tensão de oxigênio (O2), induzindo à hipóxia, como febre, desidratação, infecções, exaustão física e frio intenso, a Hb S pode sofrer polimerização, levando à deformidade da hemácea, a qual adquire forma de foice, resultando em obstrução vascular, crises de dor, lesões endoteliais de caráter inflamatório crônico e lesões orgânicas, com isquemia, infarto, necrose e disfunção.
         </P>
       </Section>
       <Section title="Diagnóstico">
         <Subsection title="Screening Neonatal - Teste do Pezinho">
           <P>
-            As hemácias do recém-nascido(RN) normal contêm maior concentração de
+            As hemácias do recém-nascido (RN) normal contêm maior concentração de
             Hb F do que de Hb, resultando num padrão “FA”. O RN que apresenta o
             traço falciforme tem fenótipo “FAS”, com mais Hb A do que Hb S. As
             crianças com doença SC têm padrão “FSC”; aquelas com doença SS,
@@ -185,51 +179,10 @@ export default function AnemiaFalciforme(): JSX.Element {
         </Subsection>
         <List>
           <LItem>
-            1. Crise vaso-oclusiva (crises de dor): é a manifestação clínica
-            mais comum da DF. A crise é causada pelo dano tissular isquêmico
-            secundário à obstrução do fluxo sanguíneo pelas hemácias falcizadas.
-            Os pacientes referem dor importante em extremidades, no abdome, na
-            coluna ou em qualquer outra região do corpo. A 1ª manifestação, na
-            maioria das crianças, é a dactilite (ou síndrome mão-pé), quando
-            ainda lactentes. São necessárias medidas racionais e efetivas para
-            controlar a dor, desde uma avaliação clínica global até a utilização
-            de medicações analgésicas com critério e em doses adequadas.
-            Manuseio da dor: inclui 3 classes de medicamentos, os analgésicos,
-            anti-inflamatórios não-hormonais e os opióides. É importante
-            ressaltar que o paciente que chega à emergência com crise álgica já
-            deve ter sido medicado em casa, pela própria família, com
-            analgésico, anti-inflamatório e, muitas vezes, com codeína,
-            portanto, aquela crise dolorosa deve ser classificada de Moderada a
-            grave ou Grave. Nesse sentido, é prioritário controlar a dor do
-            paciente, sendo necessário a prescrição imediata das medicações –
-            analgésico (dipirona, IV , a cada 4 ou a cada 6h) ;
-            anti-inflamatório, especialmente para queixas de dor em território
-            ósseo (cetoprofeno, ibuprofeno, VO, a cada 6 ou 8h ou tenoxicam, IV,
-            1 ou 2x/dia, para os maiores de 12 anos) ; morfina ( IV, a cada 3, 4
-            ou 6h, puro, sem diluir. Se necessário, prescrever em infusão
-            contínua). Atentar para os potenciais efeitos adversos dessas
-            medicações: gastropatia, nefropatias e alterações hemostáticas com
-            os analgésicos e anti-inflamatórios; prurido, retenção urinária,
-            constipação intestinal, náuseas, vômitos e sonolência com a morfina.
-            Avaliar a resposta ao tratamento para dor após 24h de esquema
-            analgésico, se melhora, é recomendado reduzir as doses, iniciando
-            pela morfina, mantendo-se os intervalos, até o controle adequado e
-            suspensão da medicação. Deve-se evitar a hiper-hidratação no
-            paciente com DF, eles têm água corporal aumentada e principalmente
-            naqueles que já possuem algum grau de cardiopatia, há risco de
-            deflagrar edema agudo de pulmão. A taxa hídrica total deve
-            corresponder a 1 – 1,5 vezes a taxa de manutenção normal, salvo nas
-            situações clínicas onde houver perdas líquidas, por exemplo, nas
-            GECA(s), com vômitos e diarréia. Medicações adjuvantes:
-            anti-histamínicos, protetores gástricos, anti-eméticos e
-            anti-depressivos.
+            1. Crise vaso-oclusiva (crises de dor): é a manifestação clínica mais comum da DF. A crise é causada pelo dano tissular isquêmico secundário à obstrução do fluxo sanguíneo pelas hemácias falcizadas. Os pacientes referem dor importante em extremidades, no abdome, na coluna ou em qualquer outra região do corpo. A 1ª manifestação, na maioria das crianças, é a dactilite (ou síndrome mão-pé), quando ainda lactentes. São necessárias medidas racionais e efetivas para controlar a dor, desde uma avaliação clínica global até a utilização de medicações analgésicas com critério e em doses adequadas. Manuseio da dor: inclui 3 classes de medicamentos, os analgésicos, anti-inflamatórios não-hormonais e os opióides. É importante ressaltar que o paciente que chega à emergência com crise álgica já deve ter sido medicado em casa, pela própria família, com analgésico, anti-inflamatório e, muitas vezes, com codeína, portanto, aquela crise dolorosa deve ser classificada de Moderada a grave ou Grave. Nesse sentido, é prioritário controlar a dor do paciente, sendo necessário a prescrição imediata das medicações – analgésico (dipirona, IV , a cada 4 ou a cada 6h) ; anti-inflamatório, especialmente para queixas de dor em território ósseo (cetoprofeno, ibuprofeno, VO, a cada 6 ou 8h ou tenoxicam, IV, 1 ou 2x/dia, para os maiores de 12 anos) ; morfina ( IV, a cada 3, 4 ou 6h, puro, sem diluir. Se necessário, prescrever em infusão contínua). Atentar para os potenciais efeitos adversos dessas medicações: gastropatia, nefropatias e alterações hemostáticas com os analgésicos e anti-inflamatórios; prurido, retenção urinária, constipação intestinal, náuseas, vômitos e sonolência com a morfina. Avaliar a resposta ao tratamento para dor após 24h de esquema analgésico, se melhora, é recomendado reduzir as doses (redução de 20 a 30% de cada vez), iniciando pela morfina, mantendo-se os intervalos, até o controle adequado e suspensão da medicação. Deve-se evitar a hiper-hidratação no paciente com DF, eles têm água corporal aumentada e principalmente naqueles que já possuem algum grau de cardiopatia, há risco de deflagrar edema agudo de pulmão. A taxa hídrica total deve corresponder a 1 – 1,5 vezes a taxa de manutenção normal, salvo nas situações clínicas onde houver perdas líquidas, por exemplo, nas GECA(s), com vômitos e diarréia. Medicações adjuvantes: anti-histamínicos, protetores gástricos, anti-eméticos e anti-depressivos.
           </LItem>
           <LItem>
-            2. SÍndrome torácica aguda (STA): caracterizada por febre, dor
-            torácica, taquidispnéia, sibilos, tosse ou hipoxemia e o surgimento
-            de um infiltrado pulmonar novo no RX de tórax. Para o diagnóstico,
-            além do quadro clínico, nota-se na gasometria arterial uma paO₂ &lt;
-            75%. As etiologias incluem vaso-oclusão pulmonar e isquemia,
+            2. Síndrome torácica aguda (STA): caracterizada por febre, tosse, dor torácica, taquidispnéia, com hipoxemia (saturação < 96%, desde que associada à sinais e sintomas respiratórios), sibilos, e o surgimento de um infiltrado pulmonar novo no RX de tórax. Ao diagnóstico, além do quadro clínico, nota-se também queda de, pelo menos, 2 g/dl na Hb basal do paciente e uma paO2 < 75% à gasometria arterial. As etiologias incluem vaso-oclusão pulmonar e isquemia,
             embolização gordurosa e tromboembolismo, crises agudas de asma e
             infecção. É mais frequente nas crianças que em adultos, com pico
             entre 2 – 4 anos e os episódios recorrentes são comuns. A STA ocorre
@@ -244,7 +197,7 @@ export default function AnemiaFalciforme(): JSX.Element {
             desta doença. Está indicado esquema de antibiótico com largo
             espectro: ceftriaxona (bactérias encapsuladas) + macrolídeo ou
             quinolona (germes atípicos). Manuseio da STA: oxigênio suplementar
-            para corrigir a hipoxemia (saturação deve ser mantida &gt; 92%);
+            para corrigir a hipoxemia (a saturação deve ser mantida &gt;= 96% ou a saturação basal do paciente);
             hidratação venosa adequada (máximo 1,5 vezes o volume de
             manutenção); transfusão de concentrado de hemácias (10ml/Kg, máximo
             de 300 ml, o que corresponde a uma bolsa), o objetivo é manter os
@@ -365,9 +318,7 @@ export default function AnemiaFalciforme(): JSX.Element {
             9. Ossos e articulações: tanto as metáfises e epífises ósseas quanto
             as articulações adjacentes são acometidas no paciente com AF. Nos
             ossos longos, os infartos levam a edema de partes moles, podendo
-            mimetizar um quadro de osteomielite. A necrose avascular.
-            Principalmente da cabeça do fêmur, é uma alteração marcante nesses
-            pacientes (mais comum no Hb SC), caracterizada por dor persistente
+            mimetizar um quadro de osteomielite. A necrose avascular, principalmente da cabeça do fêmur, é uma alteração marcante nesses pacientes (mais comum no Hb SC), caracterizada por dor persistente
             no quadril que piora à deambulação e alivia com o repouso. O
             diagnóstico precoce é realizado através de RM ou cintilografia
             óssea.
@@ -415,15 +366,15 @@ export default function AnemiaFalciforme(): JSX.Element {
             são mais propensos às infecções por apresentarem asplenia, por não
             produzirem anticorpos IgG específicos contra antígenos
             polissacarídicos e pela deficiência na opsonização, além da hipóxia
-            tecidual, que facilita surgimento de locais como foco de infecção. A
+            tecidual, que facilita surgimento de focos de infecção localizados. A
             febre é um fator preocupante e deve ser conduzida e investigada com
             cuidados especiais. Os pacientes devem realizar, ainda na
             emergência, HC e VHS, coleta de culturas (sangue e urina), RX tórax
-            e de SAF e EAS. Nos casos de febre sem sinais localizatórios em &lt;
-            2 anos de idade e toxemiados, proceder também a coleta do líquor. Os
+            e de SAF e exame de urina tipoo 1 (EAS). Nos casos de febre sem sinais localizatórios em &lt;
+            2 anos de idade e toxemiados, proceder também a coleta do líquor (LCR). Os
             germes mais relacionados são: Pneumococo, Hemófilo, salmonela, E.
-            coli, Klebisiella, Micoplasma, Clamídia. As medidas devem ser
-            realizadas como as vacinas (calendário completo de imunizações) e
+            coli, Klebisiella, Micoplasma, Clamídia. Medidas preventivas devem ser
+            realizadas, como as vacinas (calendário completo de imunizações) e
             instituição da penicilina profilática a partir do 3º mês de vida,
             até os 5 anos de idade. Utiliza-se a penicilina V – oral 200.000 UI
             (2,5 ml) VO, de 12/12h, até 1 ano de idade. Para crianças &gt; 10
@@ -517,7 +468,7 @@ export default function AnemiaFalciforme(): JSX.Element {
             ],
             [
               'Morfina',
-              '0,5 –0,2 mg/kg/dose, IV. Ou 20 microg/kg/h, na BI',
+              '0,1 – 0,15 (máx 0,2) mg/kg/dose, IV OU 20 microg/kg/h, na BI',
               '3/3, 4/4 ou 6/6h ou em BI contínua',
               '10 mg/dose',
               'Comprs. de 10 e 30mg\nAmpolas de 1 ou 2 ml (1ml=10mg)',
@@ -527,29 +478,15 @@ export default function AnemiaFalciforme(): JSX.Element {
           caption="A tabela acima contém as medicações utilizadas para analgesia na DF"
         />
         <P>
-          Hidroxiuréia(HU) na AF: é um agente quimioterápico citotóxico que
-          aumenta a produção de Hb F em 60% das pessoas tratadas. Sua
-          concentração elevada pode diminuir a polimerização da Hb S e produzir
-          melhora do curso clínico das crises (crises álgicas, STA, AVE). Outras
-          ações verificadas com o uso da HU é a elevação da taxa de hemoglobina
-          e do volume corpuscular médio (VCM), assim como redução do número de
-          reticulócitos. Há ainda a diminuição da expressão de moléculas de
-          adesão, tais como fosfatidilserina da superfície eritrocitária e
-          plaquetária e da anexina V, bem como das proteínas receptoras
-          localizadas nas células endoteliais. Diminui a adesão vascular e
-          contribuindo, desse modo, para a redução das crises vaso-oclusivas. É
-          indicado a partir dos 3 anos de vida, havendo um histórico de três ou
-          mais episódios de crises vaso-oclusivas, com necessidade de
-          atendimento médico; uma crise torácica aguda recidivante; um ou mais
-          acidentes vasculares encefálicos; priapismo recorrente; e anemia grave
-          e persistente, nos últimos 12 meses. A dose de HU varia de 10 a 30
-          mg/kg/dia, e deve ser administrada de uma só vez. Medicação dispensada
-          através de solicitação específica em serviço especializado.
+          Hidroxiuréia(HU) na AF: é um agente quimioterápico citotóxico que aumenta a produção de Hb F em 60% das pessoas tratadas. Sua concentração elevada pode diminuir a polimerização da Hb S e produzir melhora do curso clínico das crises (crises álgicas, STA, AVE). Outras ações verificadas com o uso da HU é a elevação da taxa de hemoglobina e do volume corpuscular médio (VCM), assim como redução do número de reticulócitos. Há ainda a diminuição da expressão de moléculas de adesão, tais como fosfatidilserina da superfície eritrocitária e plaquetária e da anexina V, bem como das proteínas receptoras localizadas nas células endoteliais. Diminui a adesão vascular contribuindo, desse modo, para a redução das crises vaso-oclusivas.  É indicado a partir dos 3 anos de vida, havendo um histórico de três ou mais episódios de crises vaso-oclusivas, com necessidade de atendimento médico; uma crise torácica aguda recidivante; um ou mais acidentes vasculares encefálicos; priapismo recorrente; e para pacientes com disfunções orgânicas graves. A dose de HU varia de 10 a 30 mg/kg/dia, e deve ser administrada de uma só vez. Medicação dispensada através de solicitação específica em serviço especializado.
+        </P>
+        <P>
+          Glutamina: foi aprovada pelo FDA em 2017 e pela ANVISA em 2019 para uso em pacientes portadores de AF {'>'} 5 anos de idade. É um aminoácido abundante nos fluidos intra e extracelular. Sua síntese, estocagem e liberação são realizadas pelo tecido muscular esquelético. Ação: reduz os fenômenos oxidativos / inflamatórios, diminuindo os episódios de crise álgica e de internações. Não há efeitos adversos importantes relatados em diversos estudos. Dose: 0,5g/Kg/dia (10 a 20 g/dia).
         </P>
         <P>
           Transfusão na AF: está indicada a transfusão de concentrado de
           hemácias em qualquer situação que leve à exacerbação da anemia com
-          descompensação hemodinâmica. Outras situações em que a transfusão
+          descompensação hemodinâmica. <Bold>Atenção:</Bold> deve-se coletar amostra de sangue para fenotipagem antes da primeira transfusão do paciente falcêmico! Outras situações em que a transfusão
           também é mandatória:
         </P>
         <List>
