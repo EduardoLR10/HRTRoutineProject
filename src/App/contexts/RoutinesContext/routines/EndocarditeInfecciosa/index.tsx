@@ -306,7 +306,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             </LItem>
             <LItem>Febre: {'>'} ou igual a 38ºC;</LItem>
             <LItem>
-              Fenomenos vasculares: embolias de artérias principais, infartos
+              Fenômenos vasculares: embolias de artérias principais, infartos
               pulmonares sépticos, aneurisma micótico, hemorragia intracraniana,
               hemorragia conjuntival, lesões de Janeway.
             </LItem>
@@ -385,18 +385,20 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           inicial.
         </P>
         <P>
-          A terapia antimicrobiana bactericida deve ser iniciada após coleta de
-          hemoculturas. Terapia empírica pode ser iniciada de acordo com
-          suspeição clínica e dados da história clínica e localização da
-          vegetação. A via de administração preconizada é{' '}
+          Terapia antimicrobiana bactericida deve ser iniciada após coleta de hemoculturas. Se houver quadro de estabilidade hemodinâmica, podem ser aguardadas 48h para observar crescimento bacteriano e repetidas culturas, se negativas.
+        </P>
+        <P>  
+          A via de administração preconizada é{' '}
           <Bold>intravenosa</Bold>. Tempo de tratamento é prolongado com mínimo
-          de 4 semanas e prolongado, para 6 semanas nos casos de: acometimento
-          de próteses valvares, causados por <Italic>S aureus</Italic>{' '}
-          resistentes à oxacilina e aqueles causados por germes gram negativos.
+          de 4 semanas e prolongado, para 6 semanas nos casos com acometimento
+          de próteses valvares,{' '}<Italic>S. aureus</Italic> resistentes à oxacilina e aqueles causados por germes gram negativos.
         </P>
         <P>
-          Quando a EI for causada por S aureus e associada à presença de cateter
+          Quando a EI for causada por{' '}<Italic>S. aureus</Italic> e associada à presença de cateter
           venoso central (CVC), este deve ser removido.
+        </P>
+        <P>
+          Terapia empírica pode ser iniciada de acordo com a suspeita clínica, dados da história clínica e localização da vegetação.
         </P>
         <P>
           Seguem algumas recomendações de terapia antibiótica, porém é
@@ -410,11 +412,11 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           data={[
             [
               'Agente desconhecido:\n- Valva nativa (adquirida comunidade) ou infecação tardia de prótese (> 1 ano)\n- EI nosocomial associada a CVC ou "precoce" (< 1 ano de cirurgia) em prótese valvar',
-              'Ampicilina/sulbactam + gentamicina\nVancomicina + gentamicina (considerar rifampicina, se prótese)'
+              'Ampicilina/Sulbactam + Gentamicina\nVancomicina + Gentamicina (considerar Rifampicina, se prótese)'
             ],
             [
-              'Estreptococo:\n- Sensibilidade à penicilina\n- Resistência relativa à penicilina',
-              'Penicilina G ou ceftriaxona\nPenicilina G + gentamicina (primeiras 2 semanas)'
+              'Estreptococo:\n- Sensibilidade à penicilina\n- Resistência relativa à Penicilina',
+              'Penicilina G ou Ceftriaxona\nPenicilina G + Gentamicina (primeiras 2 semanas)'
             ],
             [
               'Estafilococos:\n- Sensível à meticilia\n- Resistente à meticilina',
@@ -426,7 +428,10 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             ],
             [
               'Grupo HACEK',
-              'Ceftriaxona ou cefotaxima\nou ampicilina/sulbactam'
+              <Text key={1}>
+                Grupo HACEK (<Italic>Haemophilus</Italic>,{' '}<Italic>Aggregatibacter actinomycetemcomitans</Italic>,{' '}<Italic>Cardiobacterium hominis</Italic>,{' '}<Italic>Eikenella corrodens</Italic>,{' '}<Italic>Kingella kingaes</Italic>)
+              </Text>
+              'Ceftriaxona ou Cefotaxima\nou Ampicilina/Sulbactam'
             ],
             [
               'Fungos Candida spp, Aspergilus app',
@@ -440,7 +445,7 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           Condições cardíacas associadas à necessidade de terapia antibiótica
           profilática quando houver procedimentos dentários (procedimentos que
           envolvam manipulação gengival ou região periapical dos dentes ou
-          perfuração de mucosa bucal):
+          perfuração de mucosa bucal), quais sejam:
         </P>
         <List>
           <LItem>EI prévia;</LItem>
@@ -461,10 +466,10 @@ export default function EndocarditeInfecciosa(): JSX.Element {
         </List>
         <P>
           Nestes casos, está recomendado uso de antibiótico 60 minutos antes da
-          intervenção: primeira escolha: amoxicilina (50mg/kg oral){' '}
-          <Bold>ou</Bold> ampicilina (50mg/kg oral ou parenteral). Para os
-          alérgicos, há a opção de clindamicina (20mg/kg oral ou parenteral),
-          azitromicina (15mg/kg) ou claritromicina (15mg/kg).
+          intervenção: a primeira escolha é Amoxicilina (50mg/kg oral){' '}
+          <Bold>ou</Bold> Ampicilina (50mg/kg oral ou parenteral). Para os
+          alérgicos, a opção é a Clindamicina (20mg/kg oral ou parenteral),
+          Azitromicina (15mg/kg) ou Claritromicina (15mg/kg).
         </P>
         <P>
           Até o momento, não ha dados que justifiquem o tratamento profilático
@@ -480,14 +485,14 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           <LItem>Presença de próteses valvares;</LItem>
           <LItem>Lesões do lado esquerdo do coração;</LItem>
           <LItem>
-            EI causada por <Italic>S. aureus</Italic> ou fungos;
+            EI causada por{' '}<Italic>S. aureus</Italic> ou fungos;
           </LItem>
           <LItem>EI prévia;</LItem>
           <LItem>
             Sintomas clínicos por período prolongado ({'>'} 3 meses);
           </LItem>
           <LItem>Cardiopatias congênitas cianóticas;</LItem>
-          <LItem>Presença de shunts sistêmico-pulmonares;</LItem>
+          <LItem>Presença de{' '}<Italic>shunts</Italic> sistêmico-pulmonares;</LItem>
           <LItem>Resposta antibiótica pobre à terapia antimicrobiana.</LItem>
         </List>
       </Section>
