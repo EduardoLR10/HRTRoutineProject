@@ -81,6 +81,7 @@ import CetoacidoseDiabetica from './CetoacidoseDiabetica'
 import DengueEOutrasArboviroses from './DengueEOutrasArboviroses'
 import MausTratos from './MausTratos'
 import ParasitosesIntestinais from './ParasitosesIntestinais'
+import Arritmias from './Arritmias'
 
 export default function routines(): Routine[] {
   return [
@@ -92,6 +93,7 @@ export default function routines(): Routine[] {
     AlimentacaoNos2PrimeirosAnosDeVida,
     AnemiaFalciforme,
     AnemiaFerropriva,
+    Arritmias,
     ArtriteAbordagemInicial,
     ArtriteSeptica,
     ArtritesReativas,

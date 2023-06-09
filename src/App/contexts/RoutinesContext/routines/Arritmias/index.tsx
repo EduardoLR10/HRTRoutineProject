@@ -16,7 +16,7 @@ import {
   Reference
 } from '../../../../screens/RoutineScreen/components'
 
-export default function CriseHipoxia(): JSX.Element {
+export default function Arritmias(): JSX.Element {
   return (
     <Routine
       id="arritmia"
