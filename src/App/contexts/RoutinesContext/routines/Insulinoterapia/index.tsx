@@ -361,7 +361,7 @@ export default function Insulinoterapia(): JSX.Element {
         </P>
         <P>
           <Bold>Insulina Bolus (Lispro ou Glulisina ou Aspart):</Bold> restante
-          das doses ajustadas (bolus refeição + bolus correção).
+          das doses ajustadas (<Italic>bolus</Italic> refeição +{' '}<Italic>bolus</Italic> correção).
         </P>
         <P>
           *Bolus de refeição: injeção de insulina prandial <Bold>antes</Bold> de
@@ -477,7 +477,7 @@ export default function Insulinoterapia(): JSX.Element {
           insulina/carboidrato. A “regra dos 500 ou 450 em crianças menores de 6
           anos” é frequentemente usada para obter relação inicial ao iniciar a
           contagem de carboidratos (dividir 500 ou 450 pela dose diária total de
-          insulina basal e bolus - para encontrar a quantidade de carboidratos
+          insulina basal e{' '}<Italic>bolus</Italic> - para encontrar a quantidade de carboidratos
           em gramas que 1 unidade de insulina irá cobrir). A razão
           insulina/carboidrato (I/CHO) para uma refeição individual, por exemplo
           café da manhã, pode ser calculada dividindo o conteúdo de carboidratos
@@ -657,16 +657,16 @@ export default function Insulinoterapia(): JSX.Element {
         <Subsection title="EM CASO DE HIPERGLECIMIA SEM SINAIS DE CAD">
           <List>
             <LItem>
-              Se Glicemia {'>'} 180-250 mg/dl: fazer o bolus habitual da receita
+              Se Glicemia {'>'} 180-250 mg/dl: fazer o{' '}<Italic>bolus</Italic> habitual da receita
               médica.
             </LItem>
             <LItem>
               Se glicemia {'>'} 250-400 mg/dl: aumentar 5% na dose total diária
-              de insulina ou 0,05ui/kg no bolus.
+              de insulina ou 0,05ui/kg no{' '}<Italic>bolus</Italic>.
             </LItem>
             <LItem>
               Se glicemia {'>'} 400 mg/dl: aumentar 10% na dose total diária de
-              insulina ou 0,1ui/kg no bolus + fluidos sem açúcar.
+              insulina ou 0,1ui/kg no{' '}<Italic>bolus</Italic> + fluidos sem açúcar.
             </LItem>
           </List>
         </Subsection>
@@ -674,17 +674,17 @@ export default function Insulinoterapia(): JSX.Element {
           <List>
             <LItem>
               Se Glicemia {'>'} 180-250 mg/dl: aumentar 10% na dose total de
-              insulina ou 0,1ui/kg no bolus ou 110% do bolus de correção
+              insulina ou 0,1ui/kg no{' '}<Italic>bolus</Italic> ou 110% do{' '}<Italic>bolus</Italic> de correção
               calculado + fluidos sem açúcar.
             </LItem>
             <LItem>
               Se glicemia {'>'} 250-400 mg/dl: aumentar 20% na dose total de
-              insulina ou 0,1 a 0,2ui/kg no bolus ou 120% do bolus de correção
+              insulina ou 0,1 a 0,2ui/kg no{' '}<Italic>bolus</Italic> ou 120% do{' '}<Italic>bolus</Italic> de correção
               calculado + fluidos sem açúcar.
             </LItem>
             <LItem>
               Se glicemia {'>'} 400 mg/dl: aumentar 20% na dose total de
-              insulina ou 0,1ui/kg no bolus + fluidos sem açúcar / em casos de
+              insulina ou 0,1ui/kg no{' '}<Italic>bolus</Italic> + fluidos sem açúcar / em casos de
               vômitos, considerar SG5%/SF0,9% EV – PROCURAR EMERGÊNCIA.
             </LItem>
           </List>
@@ -697,7 +697,7 @@ export default function Insulinoterapia(): JSX.Element {
               insulina em 20% + líquido açucarado ORAL.
             </LItem>
             <LItem>
-              Se glicemia entre 90 a 180: não fazer bolus de insulina.
+              Se glicemia entre 90 a 180: não fazer{' '}<Italic>bolus</Italic> de insulina.
             </LItem>
           </List>
         </Subsection>
@@ -713,7 +713,7 @@ export default function Insulinoterapia(): JSX.Element {
           <LItem>1. Dieta para diabético com 1600 kcal/dia</LItem>
           <LItem>
             2. Insulinas (0,8 ui/kg/dia) - DTI: +- 20 ui/dia – basal (40%): 8 ui
-            + bolus (60%): 12ui (fracionada em 50% em doses fixas 15 minutos
+            +{' '}<Italic>bolus</Italic> (60%): 12ui (fracionada em 50% em doses fixas 15 minutos
             antes do café, almoço, jantar + correção conforme cálculo de FS e
             meta de correção)
           </LItem>

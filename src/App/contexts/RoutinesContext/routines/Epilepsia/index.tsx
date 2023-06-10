@@ -195,7 +195,7 @@ export default function Epilepsia(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="2ª escolha">
             <P>
-              Midazolam 0,1-0,2 mg/kg/dose EV em bolus, se acesso venoso, ou 0,3
+              Midazolam 0,1-0,2 mg/kg/dose EV em{' '}<Italic>bolus</Italic>, se acesso venoso, ou 0,3
               mg/kg/dose nasal, IM, retal ou bucal. Vias alternativas mais
               eficientes que o diazepam retal. Velocidade máxima de infusão: 4
               mg/min.

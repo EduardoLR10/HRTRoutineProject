@@ -277,7 +277,11 @@ export default function EmergenciaDoChoque(): JSX.Element {
           data={[
             [
               'Adrenalina 1:1000',
-              'Anafilaxia: 0,01 mg/kg/dose, IM - máx 0,5 mg a cada 20 min, coxa.\nNeb 3 a 5 ml\nPCR: 0,1 ml/kg/dose, IV (1:10000) bolus, repetir 3 a 5 minutos\nContínua: 0,1 a 1 µcg/kg/min'
+              <Text key={1}>
+                Anafilaxia: 0,01 mg/kg/dose, IM - máx 0,5 mg a cada 20 min, coxa.
+                Neb 3 a 5 ml\nPCR: 0,1 ml/kg/dose, IV (1:10000){' '}<Italic>bolus</Italic>, repetir 3 a 5 minutos
+                Contínua: 0,1 a 1 µcg/kg/min
+              </Text>
             ],
             [
               'Bicarbonao de sódio',
@@ -285,17 +289,32 @@ export default function EmergenciaDoChoque(): JSX.Element {
             ],
             [
               'Cloreto de cálcio',
-              'PCR: 20mg/kg, bolus (0,2 ml/kg) acesso central se disponível'
+              <Text key={2}>
+                PCR: 20mg/kg,{' '}<Italic>bolus</Italic> (0,2 ml/kg) acesso central se disponível
+              </Text>
             ],
             ['Dobutamina', '2 a 20 µcg/kg/min-max 40 µcg/kg/min'],
             ['Dopamina', '1 a 20 µcg/kg/min-max 40 µcg/kg/min'],
-            ['Furosemida', '1 a 2 mg/kg/dose a cada 6 a 12 h bolus'],
+            ['Furosemida', 
+              <Text key={3}>
+                1 a 2 mg/kg/dose a cada 6 a 12 h{' '}<Italic>bolus</Italic>
+              </Text>],
             [
               'Hidrocortisona',
-              'Insficiência adrenal aguda: 1 a 2 mg/kg/dose seguido 25 a 250 mg/dia, bolus\nChoque: inicial 50 mg/kg, seguido 2 a 50 mg/kg conforme titulação'
+              <Text key={4}>
+                Insficiência adrenal aguda: 1 a 2 mg/kg/dose seguido 25 a 250 mg/dia,{' '}<Italic>bolus</Italic>
+                Choque: inicial 50 mg/kg, seguido 2 a 50 mg/kg conforme titulação
+              </Text>
+              ''
             ],
-            ['Glicose 25%', '2 a 4 ml/kg, bolus'],
-            ['Glicose 10%', '5 a 10 ml/kg, bolus'],
+            ['Glicose 25%', 
+              <Text key={5}>
+                2 a 4 ml/kg,{' '}<Italic>bolus</Italic>
+              </Text>],
+            ['Glicose 10%', 
+            <Text key={5}>
+                5 a 10 ml/kg,{' '}<Italic>bolus</Italic>
+              </Text>],
             [
               'Soro fisiológico',
               '20 ml/kg/10 a 20 minutos\nReduzir se for choque cardiogênico'

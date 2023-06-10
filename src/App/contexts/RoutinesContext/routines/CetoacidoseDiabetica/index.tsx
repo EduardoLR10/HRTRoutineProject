@@ -598,7 +598,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
               </LItem>
             </List>
             <P>
-              Deve-se também aplicar bolus de InRe via subcutânea (SC), na dose de 0,10 UI/Kg de peso, 30 minutos antes da suspensão da insulina EV por BIC.
+              Deve-se também aplicar{' '}<Italic>bolus</Italic> de InRe via subcutânea (SC), na dose de 0,10 UI/Kg de peso, 30 minutos antes da suspensão da insulina EV por BIC.
             </P>
           </Subsubsection>
           <Subsubsection title="Insulina Intramuscular e Insulina Subcutânea">
@@ -807,7 +807,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
               </P>
           </Subsubsection>
           <P>
-            Obs.: Não deve ser administrado em bolus pelo risco de arritmia cardíaca.
+            Obs.: Não deve ser administrado em{' '}<Italic>bolus</Italic> pelo risco de arritmia cardíaca.
           </P>
           <P>
             Obs.: Não se indica a correção pela fórmula clássica (BE x 0,3 x Peso), devido ao maior risco de Alcalose Metabólica.

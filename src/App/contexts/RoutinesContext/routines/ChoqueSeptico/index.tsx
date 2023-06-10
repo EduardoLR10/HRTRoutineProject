@@ -227,7 +227,7 @@ export default function ChoqueSeptico(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Correção de glicose e cálcio">
             <P>
-              Recomenda-se 1 mg/kg de glicose em bolus: lactentes e crianças SG
+              Recomenda-se 1 mg/kg de glicose em{' '}<Italic>bolus</Italic>: lactentes e crianças SG
               25% 4 ml/kg; adolescentes SG25% 4 ml/kg ou SG 50% 20 ml. Gluconato
               de cálcio a 10%, na dose de 1 ml/kg, máximo de 20 ml, infusão em
               30 minutos. Fazer em acesso central.

@@ -545,7 +545,7 @@ export default function IntoxicacoesExogenasAgudas(): JSX.Element {
               edema pulmonar ou cerebral e doenças cardíacas.{' '}
               <Bold>Técnica:</Bold> o objetivo é atingir pH urinário {'>'} 7,5
               enquanto o pH sérico deve se manter em torno de 7,55 a 7,6.
-              Portanto, é recomendada a administração em bolus de 1-2 mEq/Kg de
+              Portanto, é recomendada a administração em{' '}<Italic>bolus</Italic> de 1-2 mEq/Kg de
               bicarbonato de sódio (NaHCO3) a 8,4%, seguida por infusão contínua
               de 150 mEq de NaHCO3 em 1 litro de soro glicosado a 5% (SG 5%)
               (manter infusão entre 200-250 ml/h).
