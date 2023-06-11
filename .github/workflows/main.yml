@@ -41,3 +41,11 @@ jobs:
 
       - name: 🚀 Build app
         run: eas build --non-interactive --platform all
+
+      - name: Create and push tags
+        run: |
+          git config --local user.email "action@github.com.br"
+          git config --local user.name "GitHub Action"
+          git tag -a ${{ steps.semver.outputs.nextStrict }} -m "Version ${{ steps.semver.outputs.nextStrict }}"
+          git push --tags
+          git push
