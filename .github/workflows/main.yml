@@ -20,6 +20,7 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: master
+          patchAll: true
 
       - name: 🏗 Setup Node
         uses: actions/setup-node@v3
