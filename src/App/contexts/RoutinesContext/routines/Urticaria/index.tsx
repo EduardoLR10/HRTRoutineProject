@@ -458,8 +458,8 @@ export default function Urticaria(): JSX.Element {
           </P>
           <P>
             <Bold>
-              ATENÇÃO: retirar a palavra "up" no quadradinho da segunda linha,
-              na segunda coluna.
+              ATENÇÃO: retirar a palavra {'"'}up{'"'} no quadradinho da segunda
+              linha, na segunda coluna.
             </Bold>
           </P>
           <Figure source={img3} size={[1143, 874]} />
@@ -558,10 +558,11 @@ export default function Urticaria(): JSX.Element {
           </List>
           <P>
             A Associação Brasileira de Alergia e Imunologia Clínica preconiza o
-            uso de dispositivos auto injetores de adrenalina ("Epipen" ou "Ana
-            Kit"). Estes dispositivos são disponibilizados em doses fixas (0,15
-            mg crianças até 30 Kg; 0,3 mg para crianças maiores/adultos), porém
-            no Brasil esses dispositivos ainda não são comercializados.
+            uso de dispositivos auto injetores de adrenalina ({'"'}Epipen{'"'}{' '}
+            ou {'"'}Ana Kit{'"'}). Estes dispositivos são disponibilizados em
+            doses fixas (0,15 mg crianças até 30 Kg; 0,3 mg para crianças
+            maiores/adultos), porém no Brasil esses dispositivos ainda não são
+            comercializados.
           </P>
         </Subsection>
       </Section>

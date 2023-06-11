@@ -129,8 +129,8 @@ export default function IVAS3(): JSX.Element {
           utilizando um espéculo com maior diâmetro. O exame da cavidade nasal
           visa verificar a coloração da mucosa e o aspecto da secreção. Ao exame
           físico, podem-se encontrar mucosa nasal eritematosa e/ou edemaciada e,
-          também, a secreção mucopurulenta em nasofaringe posterior, "sinal da
-          gota pós-nasal”.
+          também, a secreção mucopurulenta em nasofaringe posterior, {'"'}sinal
+          da gota pós-nasal{'"'}.
         </P>
         <P>
           Exames de imagem confirmam apenas a presença de inflamação dos seios,
@@ -239,7 +239,8 @@ export default function IVAS3(): JSX.Element {
       </Section>
       <Section title="Diagnóstico Diferencial">
         <P>
-          Corpo estranho, Infecção das vias aéreas superiores, outras rinites (não-alérgicas).
+          Corpo estranho, Infecção das vias aéreas superiores, outras rinites
+          (não-alérgicas).
         </P>
       </Section>
       <Section title="Complicações">

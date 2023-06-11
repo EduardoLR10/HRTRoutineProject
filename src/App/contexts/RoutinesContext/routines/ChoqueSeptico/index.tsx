@@ -115,16 +115,16 @@ export default function ChoqueSeptico(): JSX.Element {
                 'Parâmetros normais\nSem uso de musculatura acessória\nAusência de retrações',
                 <Text key={1}>
                   FR no limite ou acima do normal OU Uso de musculatura
-                  acessória OU O<Subscript>2</Subscript> suplementar
+                  acessória OU O₂ suplementar
                 </Text>,
                 <Text key={2}>
                   FR {'>'} 10 acima do limite normal para a idade\nRetratações
-                  OU FiO<Subscript>2</Subscript> 40% OU Alto-Fluxo/CPAP/VNI
+                  OU FiO₂ 40% OU Alto-Fluxo/CPAP/VNI
                 </Text>,
                 <Text key={3}>
                   FR {'<'}Text 20 para lactentes, {'<'} 10 para 4 anos e maior,
-                  com retratações e gemência OU - FiO<Subscript>2</Subscript>{' '}
-                  {'>'} 50% / Alto-Fluxo {'>'} 4 l/min OU Salbutamol contínuo
+                  com retratações e gemência OU - FiO₂ {'>'} 50% / Alto-Fluxo{' '}
+                  {'>'} 4 l/min OU Salbutamol contínuo
                 </Text>
               ]
             ]}
@@ -227,10 +227,10 @@ export default function ChoqueSeptico(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Correção de glicose e cálcio">
             <P>
-              Recomenda-se 1 mg/kg de glicose em{' '}<Italic>bolus</Italic>: lactentes e crianças SG
-              25% 4 ml/kg; adolescentes SG25% 4 ml/kg ou SG 50% 20 ml. Gluconato
-              de cálcio a 10%, na dose de 1 ml/kg, máximo de 20 ml, infusão em
-              30 minutos. Fazer em acesso central.
+              Recomenda-se 1 mg/kg de glicose em <Italic>bolus</Italic>:
+              lactentes e crianças SG 25% 4 ml/kg; adolescentes SG25% 4 ml/kg ou
+              SG 50% 20 ml. Gluconato de cálcio a 10%, na dose de 1 ml/kg,
+              máximo de 20 ml, infusão em 30 minutos. Fazer em acesso central.
             </P>
           </Subsubsection>
           <Subsubsection title="Antibióticos">

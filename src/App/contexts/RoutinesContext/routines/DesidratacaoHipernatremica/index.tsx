@@ -119,8 +119,9 @@ export default function DesidratacaoHipernametrica(): JSX.Element {
         <Subsection title="Fase de Emergência">
           <P>
             Reposição do volume intravascular no caso de hipovolemia
-            significativa. Está indicada a administração de{' '}<Italic>bolus</Italic> de 10 a 20
-            ml/Kg de soro fisiológico NaCl 0,9%.
+            significativa. Está indicada a administração de{' '}
+            <Italic>bolus</Italic> de 10 a 20 ml/Kg de soro fisiológico NaCl
+            0,9%.
           </P>
         </Subsection>
         <Subsection title="Fase de Re-Hidratação">
@@ -133,8 +134,9 @@ export default function DesidratacaoHipernametrica(): JSX.Element {
             </P>
             <P>
               Se a desidratação hipernatrêmica com{' '}
-              <Bold>Na+ (= ou {'>'} 170 mEq/L):</Bold> deverá ser administrado{' '}<Italic>bolus</Italic> de soro preparado com uma concentração de sódio com, no
-              máximo, 15 mEq/l abaixo da natremia do doente.
+              <Bold>Na+ (= ou {'>'} 170 mEq/L):</Bold> deverá ser administrado{' '}
+              <Italic>bolus</Italic> de soro preparado com uma concentração de
+              sódio com, no máximo, 15 mEq/l abaixo da natremia do doente.
             </P>
             <P>Pode ser calculada recorrendo à seguinte fórmula:</P>
             <P>

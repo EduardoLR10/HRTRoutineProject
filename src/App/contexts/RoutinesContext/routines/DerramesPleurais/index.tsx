@@ -71,10 +71,10 @@ export default function DerramesPleurais(): JSX.Element {
           ser realizado a radiografia de tórax com a incidência horizontal dos
           raios e o paciente em decúbito lateral do lado acometido (incidência
           de Laurell). Nesta incidência é possível observar se o líquido
-          "movimentou-se" em comparação à radiografia de tórax em AP ou PA,
-          sugerindo que o mesmo esteja livre no espaço pleural ou esteja em
-          lojas (septado), com septos entre as lojas de líquido pleural. Além do
-          mais, caso a espessura do derrame pleural na incidência de Laurell
+          &quot;movimentou-se&quot; em comparação à radiografia de tórax em AP
+          ou PA, sugerindo que o mesmo esteja livre no espaço pleural ou esteja
+          em lojas (septado), com septos entre as lojas de líquido pleural. Além
+          do mais, caso a espessura do derrame pleural na incidência de Laurell
           seja maior que 1 cm, o mesmo é elegível para a toracocentese.
         </P>
         <P>
@@ -141,9 +141,10 @@ export default function DerramesPleurais(): JSX.Element {
             Os procedimentos de drenagem de pacientes do HRT são feitos no HCB
             como local de referência (cirurgia pediátrica), sempre sendo
             recomendado o contato prévio. A drenagem pleural em pediatria é
-            feita em sistema fechado em selo d'água, colocando-se, no frasco de
-            drenagem, a quantidade de líquido recomendada de acordo com o
-            tamanho desse frasco (geralmente SF0,9% - 100ml, 250 ml ou 500ml).
+            feita em sistema fechado em selo d&apos;água, colocando-se, no
+            frasco de drenagem, a quantidade de líquido recomendada de acordo
+            com o tamanho desse frasco (geralmente SF0,9% - 100ml, 250 ml ou
+            500ml).
           </LItem>
         </List>
       </Section>
@@ -176,8 +177,8 @@ export default function DerramesPleurais(): JSX.Element {
             <LItem>
               Ausência de volume de drenagem em 24 horas, desde que não haja
               evidências de obstrução no sistema de drenagem. Para isso
-              observa-se se há oscilação do selo d'água, ou seja, oscilação de
-              secreção na mangueira do dreno ou mesmo oscilação do SF0,9% do
+              observa-se se há oscilação do selo d&apos;água, ou seja, oscilação
+              de secreção na mangueira do dreno ou mesmo oscilação do SF0,9% do
               frasco de drenagem (durante a respiração). Recomenda-se realizar a
               radiografia de tórax em AP ou PA e perfil para observar se não
               houve deslocamento da ponta do cateter de drenagem ou mesmo

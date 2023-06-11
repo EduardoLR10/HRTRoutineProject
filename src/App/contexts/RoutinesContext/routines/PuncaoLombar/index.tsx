@@ -139,7 +139,9 @@ export default function PuncaoLombar(): JSX.Element {
           <LItem>1 - Reunir o material:</LItem>
           <List>
             <LItem>Clorexidina alcóolica 0,5%;</LItem>
-            <LItem>Pinça{' '}<Italic>cheron</Italic> ou similar;</LItem>
+            <LItem>
+              Pinça <Italic>cheron</Italic> ou similar;
+            </LItem>
             <LItem>Campo estéril;</LItem>
             <LItem>Gaze;</LItem>
             <LItem>

@@ -385,20 +385,25 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           inicial.
         </P>
         <P>
-          Terapia antimicrobiana bactericida deve ser iniciada após coleta de hemoculturas. Se houver quadro de estabilidade hemodinâmica, podem ser aguardadas 48h para observar crescimento bacteriano e repetidas culturas, se negativas.
-        </P>
-        <P>  
-          A via de administração preconizada é{' '}
-          <Bold>intravenosa</Bold>. Tempo de tratamento é prolongado com mínimo
-          de 4 semanas e prolongado, para 6 semanas nos casos com acometimento
-          de próteses valvares,{' '}<Italic>S. aureus</Italic> resistentes à oxacilina e aqueles causados por germes gram negativos.
+          Terapia antimicrobiana bactericida deve ser iniciada após coleta de
+          hemoculturas. Se houver quadro de estabilidade hemodinâmica, podem ser
+          aguardadas 48h para observar crescimento bacteriano e repetidas
+          culturas, se negativas.
         </P>
         <P>
-          Quando a EI for causada por{' '}<Italic>S. aureus</Italic> e associada à presença de cateter
-          venoso central (CVC), este deve ser removido.
+          A via de administração preconizada é <Bold>intravenosa</Bold>. Tempo
+          de tratamento é prolongado com mínimo de 4 semanas e prolongado, para
+          6 semanas nos casos com acometimento de próteses valvares,{' '}
+          <Italic>S. aureus</Italic> resistentes à oxacilina e aqueles causados
+          por germes gram negativos.
         </P>
         <P>
-          Terapia empírica pode ser iniciada de acordo com a suspeita clínica, dados da história clínica e localização da vegetação.
+          Quando a EI for causada por <Italic>S. aureus</Italic> e associada à
+          presença de cateter venoso central (CVC), este deve ser removido.
+        </P>
+        <P>
+          Terapia empírica pode ser iniciada de acordo com a suspeita clínica,
+          dados da história clínica e localização da vegetação.
         </P>
         <P>
           Seguem algumas recomendações de terapia antibiótica, porém é
@@ -429,8 +434,12 @@ export default function EndocarditeInfecciosa(): JSX.Element {
             [
               'Grupo HACEK',
               <Text key={1}>
-                Grupo HACEK (<Italic>Haemophilus</Italic>,{' '}<Italic>Aggregatibacter actinomycetemcomitans</Italic>,{' '}<Italic>Cardiobacterium hominis</Italic>,{' '}<Italic>Eikenella corrodens</Italic>,{' '}<Italic>Kingella kingaes</Italic>)
-              </Text>
+                Grupo HACEK (<Italic>Haemophilus</Italic>,{' '}
+                <Italic>Aggregatibacter actinomycetemcomitans</Italic>,{' '}
+                <Italic>Cardiobacterium hominis</Italic>,{' '}
+                <Italic>Eikenella corrodens</Italic>,{' '}
+                <Italic>Kingella kingaes</Italic>)
+              </Text>,
               'Ceftriaxona ou Cefotaxima\nou Ampicilina/Sulbactam'
             ],
             [
@@ -485,14 +494,16 @@ export default function EndocarditeInfecciosa(): JSX.Element {
           <LItem>Presença de próteses valvares;</LItem>
           <LItem>Lesões do lado esquerdo do coração;</LItem>
           <LItem>
-            EI causada por{' '}<Italic>S. aureus</Italic> ou fungos;
+            EI causada por <Italic>S. aureus</Italic> ou fungos;
           </LItem>
           <LItem>EI prévia;</LItem>
           <LItem>
             Sintomas clínicos por período prolongado ({'>'} 3 meses);
           </LItem>
           <LItem>Cardiopatias congênitas cianóticas;</LItem>
-          <LItem>Presença de{' '}<Italic>shunts</Italic> sistêmico-pulmonares;</LItem>
+          <LItem>
+            Presença de <Italic>shunts</Italic> sistêmico-pulmonares;
+          </LItem>
           <LItem>Resposta antibiótica pobre à terapia antimicrobiana.</LItem>
         </List>
       </Section>

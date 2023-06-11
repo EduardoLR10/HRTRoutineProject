@@ -233,8 +233,8 @@ export default function DesconfortoRespiratorio(): JSX.Element {
               do lactente.
             </LItem>
             <LItem>
-              Oxigênio terapia: O<Subscript>2</Subscript> sob cateter nasal, se
-              oximetria de pulso for menor que 92.
+              Oxigênio terapia: O₂ sob cateter nasal, se oximetria de pulso for
+              menor que 92.
             </LItem>
             <LItem>
               Fisioterapia respiratória assim que haja estabilização do quadro
@@ -291,41 +291,34 @@ export default function DesconfortoRespiratorio(): JSX.Element {
           <P>
             É o principal ponto do nosso tratamento. No primeiro grupo, onde a
             sintomatologia é mais leve, a oxigenoterapia será descontrolada,
-            onde a FiO<Subscript>2</Subscript> administrada é desconhecida. Será
-            ofertado O<Subscript>2</Subscript> por cateter nasal com fluxo de um
-            a três litros por minuto.
+            onde a FiO₂ administrada é desconhecida. Será ofertado O₂ por
+            cateter nasal com fluxo de um a três litros por minuto.
           </P>
           <P>
             Sempre que o desconforto for mais importante, com escore de Wood
             Downes maior que sete, seja na chegada ou na evolução da criança,
-            deve-se instituir oxigenoterapia controlada, onde a FiO
-            <Subscript>2</Subscript> será conhecida. Para isto, inicia-se a
-            administração de O<Subscript>2</Subscript> em uma Oxitenda ou em uma
-            máscara de Venturi. A oxitenda exige além do O
-            <Subscript>2</Subscript>, uma canulação de ar comprimido e um
-            misturador de gases. A máscara de Venturi necessita apenas de
-            oxigênio. O O<Subscript>2</Subscript> controlado é iniciado com uma
-            FiO
-            <Subscript>2</Subscript> de 50%, podendo chegar até 60 e no máximo,
-            70%.
+            deve-se instituir oxigenoterapia controlada, onde a FiO ₂ será
+            conhecida. Para isto, inicia-se a administração de O₂ em uma
+            Oxitenda ou em uma máscara de Venturi. A oxitenda exige além do O ₂,
+            uma canulação de ar comprimido e um misturador de gases. A máscara
+            de Venturi necessita apenas de oxigênio. O O₂ controlado é iniciado
+            com uma FiO ₂ de 50%, podendo chegar até 60 e no máximo, 70%.
           </P>
           <P>
-            Após a instituição do O<Subscript>2</Subscript> controlado,
-            indicaremos coleta gasométrica que nos orientará a progressão ou não
-            da assistência respiratória.
+            Após a instituição do O₂ controlado, indicaremos coleta gasométrica
+            que nos orientará a progressão ou não da assistência respiratória.
           </P>
           <P>
             Se a gasometria se mostrar satisfatória, mantemos a conduta. Se a
             gasometria mostrar hipoxemia, representa que a criança necessita de
-            algo mais que O<Subscript>2</Subscript>: pressão, através de:
+            algo mais que O₂: pressão, através de:
           </P>
           <List>
             <LItem>
               <Bold>CPAP nasal:</Bold> modalidade de ventilação não invasiva
               composta de pressão contínua com pressão positiva aumentada no fim
-              da expiração, com a FiO
-              <Subscript>2</Subscript> da indicação e um PEEP, variando de 5 a
-              10 cm de H<Subscript>2</Subscript>O.
+              da expiração, com a FiO ₂ da indicação e um PEEP, variando de 5 a
+              10 cm de H₂O.
             </LItem>
             <LItem>
               <Bold>BIPAP:</Bold> modalidade de VNI onde além da pressão
@@ -344,8 +337,8 @@ export default function DesconfortoRespiratorio(): JSX.Element {
           <P>
             Ressalta-se que tanto o oxigênio puro quanto as modalidades com
             pressão positiva, invasivas ou não, podem trazer malefícios ao
-            lactente, portanto, sempre que possível, indica-se minimizar a FiO
-            <Subscript>2</Subscript> e as pressões oferecidas.
+            lactente, portanto, sempre que possível, indica-se minimizar a FiO ₂
+            e as pressões oferecidas.
           </P>
         </Subsection>
         <Subsection title="Broncodilatadores">
@@ -438,7 +431,7 @@ export default function DesconfortoRespiratorio(): JSX.Element {
             <LItem>Secreções de aspecto purulento;</LItem>
             <LItem>
               Hipoatividade, dificuldade de sucção, mesmo com boa saturação de O
-              <Subscript>2</Subscript>;
+              ₂;
             </LItem>
             <LItem>Comorbidades agravantes já relatadas;</LItem>
             <LItem>Derrames pleurais, pneumatoceles;</LItem>
@@ -535,9 +528,9 @@ export default function DesconfortoRespiratorio(): JSX.Element {
             O cateter ou cânula nasal de alto fluxo (CNAF) é um método não
             invasivo de suporte ventilatório que em diversos estudos mostram
             evidências de efeitos benéficos na criança que não melhorou com o O
-            <Subscript>2</Subscript> simples controlado. Nestes estudos, houve
-            melhora da hipoxemia, conseguindo oferecer ao paciente uma melhor
-            oxigenação e um pico de pressão expiratória positiva.
+            ₂ simples controlado. Nestes estudos, houve melhora da hipoxemia,
+            conseguindo oferecer ao paciente uma melhor oxigenação e um pico de
+            pressão expiratória positiva.
           </P>
           <P>
             Esta modalidade se tornou uma alternativa ao CPAP nasal com menos
@@ -616,9 +609,9 @@ export default function DesconfortoRespiratorio(): JSX.Element {
           </P>
           <P>
             Nosso principal critério para a alta hospitalar é a estabilização do
-            quadro respiratório sem oxigênio, mantendo saturação estável de O
-            <Subscript>2</Subscript>, acima de 92%, além de uma dieta com, pelo
-            menos, 75% de aceitação de suas necessidades basais pela via oral.
+            quadro respiratório sem oxigênio, mantendo saturação estável de O ₂,
+            acima de 92%, além de uma dieta com, pelo menos, 75% de aceitação de
+            suas necessidades basais pela via oral.
           </P>
           <P>
             A alta definitiva somente é lavrada após a exaustiva orientação

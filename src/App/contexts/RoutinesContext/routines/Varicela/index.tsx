@@ -209,7 +209,7 @@ export default function Varicela(): JSX.Element {
               <LItem>
                 Grande número de lesões com pouco polimorfismo regional, o que
                 indica intensa viremia (varicela que lembra a varíola, ou
-                "varioliforme");
+                {'"'}varioliforme{'"'});
               </LItem>
               <LItem>
                 Envolvimento pulmonar, encefálico, hepático ou cardíaco;

@@ -361,7 +361,8 @@ export default function Insulinoterapia(): JSX.Element {
         </P>
         <P>
           <Bold>Insulina Bolus (Lispro ou Glulisina ou Aspart):</Bold> restante
-          das doses ajustadas (<Italic>bolus</Italic> refeição +{' '}<Italic>bolus</Italic> correção).
+          das doses ajustadas (<Italic>bolus</Italic> refeição +{' '}
+          <Italic>bolus</Italic> correção).
         </P>
         <P>
           *Bolus de refeição: injeção de insulina prandial <Bold>antes</Bold> de
@@ -477,19 +478,19 @@ export default function Insulinoterapia(): JSX.Element {
           insulina/carboidrato. A “regra dos 500 ou 450 em crianças menores de 6
           anos” é frequentemente usada para obter relação inicial ao iniciar a
           contagem de carboidratos (dividir 500 ou 450 pela dose diária total de
-          insulina basal e{' '}<Italic>bolus</Italic> - para encontrar a quantidade de carboidratos
-          em gramas que 1 unidade de insulina irá cobrir). A razão
-          insulina/carboidrato (I/CHO) para uma refeição individual, por exemplo
-          café da manhã, pode ser calculada dividindo o conteúdo de carboidratos
-          em gramas pela dose de insulina em unidades. Este método muitas vezes
-          dá os resultados mais precisos para uma refeição individual, e pode
-          preferencialmente ser usado no café da manhã, quando geralmente há um
-          aumento da resistência à insulina. Se a glicose antes e após a
-          refeição diferem mais do que 20-30 mg/dL, o fator de correção pode ser
-          usado para calcular quanto mais (ou menos) insulina idealmente foram
-          dadas para uma determinada refeição. Alguns pacientes também contam
-          com proteína e gordura para calcular as necessidades de insulina
-          quando usam bomba de insulina.
+          insulina basal e <Italic>bolus</Italic> - para encontrar a quantidade
+          de carboidratos em gramas que 1 unidade de insulina irá cobrir). A
+          razão insulina/carboidrato (I/CHO) para uma refeição individual, por
+          exemplo café da manhã, pode ser calculada dividindo o conteúdo de
+          carboidratos em gramas pela dose de insulina em unidades. Este método
+          muitas vezes dá os resultados mais precisos para uma refeição
+          individual, e pode preferencialmente ser usado no café da manhã,
+          quando geralmente há um aumento da resistência à insulina. Se a
+          glicose antes e após a refeição diferem mais do que 20-30 mg/dL, o
+          fator de correção pode ser usado para calcular quanto mais (ou menos)
+          insulina idealmente foram dadas para uma determinada refeição. Alguns
+          pacientes também contam com proteína e gordura para calcular as
+          necessidades de insulina quando usam bomba de insulina.
         </P>
       </Section>
       <Section title="Fator de Sensibilidade">
@@ -499,10 +500,11 @@ export default function Insulinoterapia(): JSX.Element {
           diferentes fases de crescimento. É usado para o cálculo do{' '}
           <Italic>bolus</Italic> de correção, aplicado quando a glicemia
           pré-prandial (refeição) está acima da meta estipulada. De acordo com a
-          "regra 1800 ou (2000 para crianças menores de 6 anos)", isto é,
-          dividir 1800 ou 2000 por dose diária total de insulina para obter a
+          {'"'}regra 1800 ou (2000 para crianças menores de 6 anos){'"'}, isto
+          é, dividir 1800 ou 2000 por dose diária total de insulina para obter a
           dose (em mg/dL) que 1 unidade de insulina análoga de ação rápida irá
-          diminuir a glicose no sangue. Para insulina regular, uma "regra 1500"
+          diminuir a glicose no sangue. Para insulina regular, uma {'"'}regra
+          1500{'"'}
           pode ser usado para resultados em mg/dL.
         </P>
         <P>
@@ -657,16 +659,17 @@ export default function Insulinoterapia(): JSX.Element {
         <Subsection title="EM CASO DE HIPERGLECIMIA SEM SINAIS DE CAD">
           <List>
             <LItem>
-              Se Glicemia {'>'} 180-250 mg/dl: fazer o{' '}<Italic>bolus</Italic> habitual da receita
-              médica.
+              Se Glicemia {'>'} 180-250 mg/dl: fazer o <Italic>bolus</Italic>{' '}
+              habitual da receita médica.
             </LItem>
             <LItem>
               Se glicemia {'>'} 250-400 mg/dl: aumentar 5% na dose total diária
-              de insulina ou 0,05ui/kg no{' '}<Italic>bolus</Italic>.
+              de insulina ou 0,05ui/kg no <Italic>bolus</Italic>.
             </LItem>
             <LItem>
               Se glicemia {'>'} 400 mg/dl: aumentar 10% na dose total diária de
-              insulina ou 0,1ui/kg no{' '}<Italic>bolus</Italic> + fluidos sem açúcar.
+              insulina ou 0,1ui/kg no <Italic>bolus</Italic> + fluidos sem
+              açúcar.
             </LItem>
           </List>
         </Subsection>
@@ -674,18 +677,19 @@ export default function Insulinoterapia(): JSX.Element {
           <List>
             <LItem>
               Se Glicemia {'>'} 180-250 mg/dl: aumentar 10% na dose total de
-              insulina ou 0,1ui/kg no{' '}<Italic>bolus</Italic> ou 110% do{' '}<Italic>bolus</Italic> de correção
-              calculado + fluidos sem açúcar.
+              insulina ou 0,1ui/kg no <Italic>bolus</Italic> ou 110% do{' '}
+              <Italic>bolus</Italic> de correção calculado + fluidos sem açúcar.
             </LItem>
             <LItem>
               Se glicemia {'>'} 250-400 mg/dl: aumentar 20% na dose total de
-              insulina ou 0,1 a 0,2ui/kg no{' '}<Italic>bolus</Italic> ou 120% do{' '}<Italic>bolus</Italic> de correção
-              calculado + fluidos sem açúcar.
+              insulina ou 0,1 a 0,2ui/kg no <Italic>bolus</Italic> ou 120% do{' '}
+              <Italic>bolus</Italic> de correção calculado + fluidos sem açúcar.
             </LItem>
             <LItem>
               Se glicemia {'>'} 400 mg/dl: aumentar 20% na dose total de
-              insulina ou 0,1ui/kg no{' '}<Italic>bolus</Italic> + fluidos sem açúcar / em casos de
-              vômitos, considerar SG5%/SF0,9% EV – PROCURAR EMERGÊNCIA.
+              insulina ou 0,1ui/kg no <Italic>bolus</Italic> + fluidos sem
+              açúcar / em casos de vômitos, considerar SG5%/SF0,9% EV – PROCURAR
+              EMERGÊNCIA.
             </LItem>
           </List>
         </Subsection>
@@ -697,7 +701,8 @@ export default function Insulinoterapia(): JSX.Element {
               insulina em 20% + líquido açucarado ORAL.
             </LItem>
             <LItem>
-              Se glicemia entre 90 a 180: não fazer{' '}<Italic>bolus</Italic> de insulina.
+              Se glicemia entre 90 a 180: não fazer <Italic>bolus</Italic> de
+              insulina.
             </LItem>
           </List>
         </Subsection>
@@ -713,9 +718,9 @@ export default function Insulinoterapia(): JSX.Element {
           <LItem>1. Dieta para diabético com 1600 kcal/dia</LItem>
           <LItem>
             2. Insulinas (0,8 ui/kg/dia) - DTI: +- 20 ui/dia – basal (40%): 8 ui
-            +{' '}<Italic>bolus</Italic> (60%): 12ui (fracionada em 50% em doses fixas 15 minutos
-            antes do café, almoço, jantar + correção conforme cálculo de FS e
-            meta de correção)
+            + <Italic>bolus</Italic> (60%): 12ui (fracionada em 50% em doses
+            fixas 15 minutos antes do café, almoço, jantar + correção conforme
+            cálculo de FS e meta de correção)
           </LItem>
           <List>
             <LItem>Insulina NPH (05 ui as 7h e 03 ui as 22h)</LItem>

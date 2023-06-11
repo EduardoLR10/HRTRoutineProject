@@ -33,8 +33,8 @@ export default function ConvulsaoFebril(): JSX.Element {
             lactentes e crianças entre 3 meses e 5 anos de idade.
           </LItem>
           <LItem>
-            Causa mais comum de crises epilépticas na infância, de curso benigno e
-            autolimitado.
+            Causa mais comum de crises epilépticas na infância, de curso benigno
+            e autolimitado.
           </LItem>
           <LItem>
             Geralmente ocorre nas primeiras 24 horas da doença e 21% na primeira
@@ -43,14 +43,14 @@ export default function ConvulsaoFebril(): JSX.Element {
           </LItem>
           <LItem>
             Nos primeiros 2 anos de vida, cerca de 2/3 dos estados de mal
-            epiléptico (EME) são febris. A febre geralmente está mais alta (cerca
-            de 39°C) no momento da crise, que é o primeiro sinal de febre em 25-
-            50% dos casos.
+            epiléptico (EME) são febris. A febre geralmente está mais alta
+            (cerca de 39°C) no momento da crise, que é o primeiro sinal de febre
+            em 25- 50% dos casos.
           </LItem>
           <LItem>
-            Fatores de risco: elevação da temperatura, história familiar positiva
-            em parentes de 1º grau, internação &gt; 28 dias no período neonatal,
-            atraso do desenvolvimento neurológico, frequentar creche.
+            Fatores de risco: elevação da temperatura, história familiar
+            positiva em parentes de 1º grau, internação &gt; 28 dias no período
+            neonatal, atraso do desenvolvimento neurológico, frequentar creche.
           </LItem>
         </List>
       </Section>

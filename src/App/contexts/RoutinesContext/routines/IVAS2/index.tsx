@@ -269,7 +269,8 @@ export default function IVAS2(): JSX.Element {
               [
                 'Amoxicilina com Clavunato de potássio',
                 <Text key={1}>
-                  Pneumococo,{'\n'}<Italic>M. catarrhalis</Italic>,{' '}
+                  Pneumococo,{'\n'}
+                  <Italic>M. catarrhalis</Italic>,{' '}
                   <Italic>H. influenzae</Italic>
                 </Text>,
                 '90mg/kg/dia de amoxicilina com 6,4mg/kg/dia de Clavulanato de potássio, de 12 em 12 horas'

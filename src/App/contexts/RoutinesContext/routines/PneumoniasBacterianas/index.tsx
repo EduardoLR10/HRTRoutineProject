@@ -35,7 +35,7 @@ export default function PneumoniasBacterianas(): JSX.Element {
       <Section
         title={
           <>
-            <Italic>Steptococcus pneumoniae</Italic> ("pneumococo")
+            <Italic>Steptococcus pneumoniae</Italic> ({'"'}pneumococo{'"'})
           </>
         }
       >
@@ -105,7 +105,7 @@ export default function PneumoniasBacterianas(): JSX.Element {
       <Section
         title={
           <>
-            <Italic>Haemophilus influenzae</Italic> ("hemófilos")
+            <Italic>Haemophilus influenzae</Italic> ({'"'}hemófilos{'"'})
           </>
         }
       >
@@ -164,7 +164,7 @@ export default function PneumoniasBacterianas(): JSX.Element {
       <Section
         title={
           <>
-            <Italic>Staphilococcus aureus</Italic> ("estafilococo")
+            <Italic>Staphilococcus aureus</Italic> ({'"'}estafilococo{'"'})
           </>
         }
       >
@@ -235,7 +235,7 @@ export default function PneumoniasBacterianas(): JSX.Element {
       <Section
         title={
           <>
-            <Italic>Mycoplasma pneumoniae</Italic> ("micoplasma")
+            <Italic>Mycoplasma pneumoniae</Italic> ({'"'}micoplasma{'"'})
           </>
         }
       >

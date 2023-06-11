@@ -62,18 +62,16 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
           controlado a pressão, por exemplo, o pico de pressão inspiratória deve
           ser estabelecido a fim de gerar volumes correntes dentro do mesmo
           intervalo (6 a 8 ml/kg), controlando a pressão de pico (PI) que oscila
-          aproximadamente entre 15 e 20 cmH
-          <Subscript>2</Subscript>O.
+          aproximadamente entre 15 e 20 cmH ₂O.
         </P>
         <P>
           A pressão expiratória final positiva (PEEP) ou pressão nas vias aéreas
           no final da expiração, deve ser usada para diminuir a probabilidade de
-          atelectasia. Seu valor fisiológico gira em torno de 4 a 6 cmH
-          <Subscript>2</Subscript>O, podendo variar muito de acordo com a
-          patologia em questão. Em pacientes intubados incapazes de respirar
-          espontaneamente, deve-se dar muita atenção a essa pressão, sob o risco
-          de trauma relacionado ao colabamento cíclico de seguimentos
-          pulmonares.
+          atelectasia. Seu valor fisiológico gira em torno de 4 a 6 cmH ₂O,
+          podendo variar muito de acordo com a patologia em questão. Em
+          pacientes intubados incapazes de respirar espontaneamente, deve-se dar
+          muita atenção a essa pressão, sob o risco de trauma relacionado ao
+          colabamento cíclico de seguimentos pulmonares.
         </P>
         <P>
           Outra variável importante a ser selecionada no ventilador mecânico, é
@@ -106,10 +104,10 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             também observada na bronquiolite viral aguda. O objetivo da
             ventilação mecânica na asma aguda é reverter a hipoxemia (se
             presente), evitar a fadiga da musculatura respiratória e manter um
-            nível de CO<Subscript>2</Subscript> dentro de um limite que gere pH
-            aceitável, com menor dano ao pulmão, evitando trauma e
-            hiperinsuflação iatrogênica (condição que poderia contribuir para o
-            débito cardíaco de forma negativa).
+            nível de CO₂ dentro de um limite que gere pH aceitável, com menor
+            dano ao pulmão, evitando trauma e hiperinsuflação iatrogênica
+            (condição que poderia contribuir para o débito cardíaco de forma
+            negativa).
           </P>
           <P>
             Uma mudança no manejo da ventilação de pacientes asmáticos ocorreu
@@ -117,11 +115,11 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             Darioli & Perret. Ela é conhecida atualmente como Estratégia
             Ventilatória na Asma e consiste em: volumes correntes entre 8 e 12
             ml/kg, (supra fisiológicos) picos de pressão inspiratória de 40 a 45
-            cmH<Subscript>2</Subscript>O, frequência respiratória mais baixa 12
-            – 16 irpm e hipercapnia permissiva. Sabe-se que ela resultou em
-            poucas complicações e nenhuma mortalidade ou morbidade a longo prazo
-            em 19 crianças com asma quase-fatal submetidos à ventilação mecânica
-            em estudo já realizado.
+            cmH₂O, frequência respiratória mais baixa 12 – 16 irpm e hipercapnia
+            permissiva. Sabe-se que ela resultou em poucas complicações e
+            nenhuma mortalidade ou morbidade a longo prazo em 19 crianças com
+            asma quase-fatal submetidos à ventilação mecânica em estudo já
+            realizado.
           </P>
           <P>
             Os modos ventilatórios para pacientes com asma aguda grave podem ser
@@ -164,9 +162,8 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             resposta inflamatória grave a insultos locais (pulmonares) ou
             remotos (sistêmicos) que invariavelmente leva à anormalidades na
             troca gasosa e na mecânica pulmonar. Define-se por hipoxemia grave
-            (razão PaO<Subscript>2</Subscript>/FiO
-            <Subscript>2</Subscript> {'<'} 200) e infiltrados bilaterais na
-            radiografia do tórax, sem evidência de disfunção cardíaca.
+            (razão PaO₂/FiO ₂ {'<'} 200) e infiltrados bilaterais na radiografia
+            do tórax, sem evidência de disfunção cardíaca.
           </P>
           <Figure source={img2} size={[401, 329]} />
           <P>
@@ -213,17 +210,17 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
         </Subsection>
         <Subsection title="Estratégia protetora pulmonar">
           <P>
-            Utilização de medidas para que se tenha uma "zona segura" (Figura
-            4), com menor dano ao pulmão.
+            Utilização de medidas para que se tenha uma &quot;zona segura&quot;
+            (Figura 4), com menor dano ao pulmão.
           </P>
           <Figure source={img4} size={[393, 366]} />
         </Subsection>
         <Subsection title="Hipercapnia Permissiva">
           <P>
             A hipercapnia permissiva pode ser definida como a presença de uma
-            elevada PaCO<Subscript>2</Subscript>, sem que haja uma alteração
-            muito significante do pH (7,2 – 7,3). A longo prazo, a lesão e
-            remodelação pulmonar serão menores diante dessa condição.
+            elevada PaCO₂, sem que haja uma alteração muito significante do pH
+            (7,2 – 7,3). A longo prazo, a lesão e remodelação pulmonar serão
+            menores diante dessa condição.
           </P>
         </Subsection>
         <Subsection title="Tratamentos Avançados">

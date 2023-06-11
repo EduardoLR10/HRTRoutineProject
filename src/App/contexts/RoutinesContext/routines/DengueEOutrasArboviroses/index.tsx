@@ -247,7 +247,8 @@ export default function DengueEOurasArboviroses(): JSX.Element {
           </Subsubsection>
           <Subsubsection title="Chikungunya">
             <P>
-              Significa "andar curvado" na língua Makonde do sul na Tanzânia.
+              Significa &quot;andar curvado&quot; na língua Makonde do sul na
+              Tanzânia.
             </P>
             <List>
               <LItem>

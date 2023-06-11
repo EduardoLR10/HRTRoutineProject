@@ -157,22 +157,21 @@ export default function InsuficienciaRespiratoria(): JSX.Element {
           <Subsubsection title="Critérios diagnósticos da HPP">
             <P>Um neonato pode ser considerado portador de HPPN quando:</P>
             <P>
-              Estiver em ventilação mecânica com FiO
-              <Subscript>2</Subscript> de 1,0 mantendo cianose central.
+              Estiver em ventilação mecânica com FiO ₂ de 1,0 mantendo cianose
+              central.
             </P>
             <P>
               Apresentar labilidade nos níveis de oxigenação arterial, ou seja,
-              mais de dois episódios de queda da SatO<Subscript>2</Subscript>{' '}
-              abaixo de 85% no período de 12 horas, que necessitem de aumento no
-              suporte ventilatório ou ventilação manual para revertê-los.
+              mais de dois episódios de queda da SatO₂ abaixo de 85% no período
+              de 12 horas, que necessitem de aumento no suporte ventilatório ou
+              ventilação manual para revertê-los.
             </P>
             <P>
               Houver diferença da oxigenação arterial entre os sítios
               pré-ductais (membro superior direito) e pós-ductais (membros
               inferiores); considerar diferença significante quando o gradiente
-              entre PaO<Subscript>2</Subscript> pré e pós-ductal for superior a
-              20mmHg ou de SatO<Subscript>2</Subscript> pré e pós-ductal
-              superior a 5%.
+              entre PaO₂ pré e pós-ductal for superior a 20mmHg ou de SatO₂ pré
+              e pós-ductal superior a 5%.
             </P>
             <P>Houver evidências ecocardiográficas de hipertensão pulmonar.</P>
           </Subsubsection>
@@ -460,10 +459,8 @@ export default function InsuficienciaRespiratoria(): JSX.Element {
         <P>
           Considerar a extubação traqueal se o RN mantiver quadro respiratório
           estável por no mínimo 6 horas, com os seguintes parâmetros
-          ventilatórios: FR {'<'} 20cpm, PIP {'<'} 20cmH
-          <Subscript>2</Subscript>O, PEEP de 4cmH
-          <Subscript>2</Subscript> O e FiO
-          <Subscript>2</Subscript> {'<'} 0,40.
+          ventilatórios: FR {'<'} 20cpm, PIP {'<'} 20cmH ₂O, PEEP de 4cmH ₂ O e
+          FiO ₂ {'<'} 0,40.
         </P>
         <P>
           <Bold>

@@ -157,8 +157,8 @@ export default function Mastoidite(): JSX.Element {
       <Section title="Critérios de Alta">
         <P>
           Resolução dos sintomas infecciosos, mais de 48 horas afebril. No caso
-          de alterações tomográficas significativas, <Bold>é necessário exame tomográfico de
-          controle.</Bold>
+          de alterações tomográficas significativas,{' '}
+          <Bold>é necessário exame tomográfico de controle.</Bold>
         </P>
       </Section>
       <Section title="Prognóstico e Orientações para o Seguimento">

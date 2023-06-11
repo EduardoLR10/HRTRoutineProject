@@ -70,7 +70,8 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             </LItem>
             <LItem>
               Veículo envolvido e velocidade (carro, bicicleta, patins) e uso de
-              dispositivos de segurança (cinto, capacete,{' '}<Italic>airbag</Italic>);
+              dispositivos de segurança (cinto, capacete,{' '}
+              <Italic>airbag</Italic>);
             </LItem>
             <LItem>
               Corrida contra objeto estacionado e a natureza deste objeto;

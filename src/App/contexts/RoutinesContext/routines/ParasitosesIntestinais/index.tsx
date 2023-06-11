@@ -118,7 +118,7 @@ export default function ParasitosesIntestinais(): JSX.Element {
             </P>
             <P>
               <Bold>Etiologia:</Bold> <Italic>Ascaris lumbricoides</Italic>{' '}
-              (conhecido vulgamente por "lombriga").
+              (conhecido vulgamente por {'"'}lombriga{'"'}).
             </P>
             <P>
               <Bold>Forma de transmissão:</Bold> ingestão de ovos presentes no

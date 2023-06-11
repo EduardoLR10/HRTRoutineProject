@@ -133,8 +133,8 @@ export default function TestRoutine(): JSX.Element {
               sinal focal, rigidez de nuca sem febre.
             </LItem>
             <LItem>
-              Sintomas sistêmicos, como{' '}<Italic>rash</Italic> cutâneo, dor articular e febre
-              associada a perda ponderal;
+              Sintomas sistêmicos, como <Italic>rash</Italic> cutâneo, dor
+              articular e febre associada a perda ponderal;
             </LItem>
             <LItem>Fatores de risco secundários (descritos acima);</LItem>
             <LItem>
@@ -268,7 +268,8 @@ export default function TestRoutine(): JSX.Element {
         </P>
         <P>
           Não há indicação de opióides para o tratamento das cefaleias
-          primárias, pois podem modificar a resposta à dor e levar e seu uso frequente levar ao abuso dessa medicação.
+          primárias, pois podem modificar a resposta à dor e levar e seu uso
+          frequente levar ao abuso dessa medicação.
         </P>
         <P>
           Durante as crises de enxaqueca, é comum a paresia gástrica e redução

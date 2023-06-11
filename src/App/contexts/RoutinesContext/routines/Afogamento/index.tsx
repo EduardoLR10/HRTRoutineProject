@@ -81,9 +81,9 @@ export default function TestRoutine(): JSX.Element {
               boca e/ou nariz - pode ser liberada no local sem necessitar de
               atendimento médico após avaliação do socorrista, quando
               consciente. Todos os casos podem apresentar hipotermia, náuseas,
-              vômitos, distensão abdominal, tremores, cefaléia,
-              mal-estar, cansaço, dores musculares, dor no tórax, diarréia e
-              outros sintomas inespecíficos.
+              vômitos, distensão abdominal, tremores, cefaléia, mal-estar,
+              cansaço, dores musculares, dor no tórax, diarréia e outros
+              sintomas inespecíficos.
             </P>
           </Subsubsection>
           <Subsubsection title="Afogamento">

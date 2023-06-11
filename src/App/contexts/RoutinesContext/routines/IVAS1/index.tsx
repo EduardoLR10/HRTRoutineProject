@@ -200,13 +200,13 @@ export default function IVAS1(): JSX.Element {
           </LItem>
         </List>
         <P>
-          <Bold>Síndrome PFAFA</Bold> ("Periodic Fever, Adenitis, Pharyngitis,
-          Aphtous Stomatitis"): é caracterizada por febre periódica, estomatite
-          aftosa, faringite e adenite cervical e ocorre esporadicamente, em
-          crianças de 2 a 6 anos. A etiologia é desconhecida. O tratamento dá-se
-          com Prednisona (1 a 2mg/kg/dia). A periodicidade e a intensidade
-          diminuem com o tempo, com resolução espontânea após 3 a 5 anos do
-          início dos sintomas ou na adolescência.
+          <Bold>Síndrome PFAFA</Bold> ({'"'}Periodic Fever, Adenitis,
+          Pharyngitis, Aphtous Stomatitis{'"'}): é caracterizada por febre
+          periódica, estomatite aftosa, faringite e adenite cervical e ocorre
+          esporadicamente, em crianças de 2 a 6 anos. A etiologia é
+          desconhecida. O tratamento dá-se com Prednisona (1 a 2mg/kg/dia). A
+          periodicidade e a intensidade diminuem com o tempo, com resolução
+          espontânea após 3 a 5 anos do início dos sintomas ou na adolescência.
         </P>
       </Section>
       <Section title="Diagnóstico">

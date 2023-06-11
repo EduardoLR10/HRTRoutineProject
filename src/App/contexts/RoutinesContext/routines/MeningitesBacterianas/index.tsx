@@ -395,11 +395,11 @@ export default function MeningitesBacterianas(): JSX.Element {
               clínico do doente;
             </LItem>
             <LItem>
-              <Bold>Esquema padrão</Bold> = 4 doses de Rifampicina de 600mg para contactantes
-              adultos ou 4 doses de rifampicina de 10mg/kg para contactantes
-              crianças maiores de 1 mês de idade e com menos de 60 kg. Para o
-              meningococo, as doses devem ser administradas com intervalos de 12
-              horas (2 dias de quimioprofilaxia). Para o{' '}
+              <Bold>Esquema padrão</Bold> = 4 doses de Rifampicina de 600mg para
+              contactantes adultos ou 4 doses de rifampicina de 10mg/kg para
+              contactantes crianças maiores de 1 mês de idade e com menos de 60
+              kg. Para o meningococo, as doses devem ser administradas com
+              intervalos de 12 horas (2 dias de quimioprofilaxia). Para o{' '}
               <Italic>Haemophilus influenzae</Italic> b, as doses devem ser
               administradas com 24 horas de intervalo (4 dias de
               quimioprofilaxia).

@@ -82,7 +82,10 @@ export default function InsuficienciaCardiaca(): JSX.Element {
           caption="SNS: sistema nervoso simpático; SRAA: sistema renina-angiotensina aldosterona; FC: frequência cardíaca; RVS: resistência vascular sistêmica."
         />
         <P>
-          Coração fetal e neonatal: têm uma menor capacidade contrátil, menor complacência ventricular o que, associado à imaturidade do SNS, leva a uma maior dependência da frequência cardíaca para manutenção do débito cardíaco.
+          Coração fetal e neonatal: têm uma menor capacidade contrátil, menor
+          complacência ventricular o que, associado à imaturidade do SNS, leva a
+          uma maior dependência da frequência cardíaca para manutenção do débito
+          cardíaco.
         </P>
       </Section>
       <Section title="Classificação">
@@ -127,8 +130,13 @@ export default function InsuficienciaCardiaca(): JSX.Element {
             diagnóstico de IC é clinico.
           </LItem>
           <LItem>
-          Exames laboratoriais como hemograma, PCR, eletrólitos, gasometria arterial, função renal e hepática, provas de atividade inflamatória, função tiroidiana: solicitados nos casos de apresentação inicial de acordo com suspeita clínica para etiologia do quadro. 
-          <Bold>Nos pacientes com diagnóstico prévio de cardiopatia congênita:</Bold>
+            Exames laboratoriais como hemograma, PCR, eletrólitos, gasometria
+            arterial, função renal e hepática, provas de atividade inflamatória,
+            função tiroidiana: solicitados nos casos de apresentação inicial de
+            acordo com suspeita clínica para etiologia do quadro.
+            <Bold>
+              Nos pacientes com diagnóstico prévio de cardiopatia congênita:
+            </Bold>
           </LItem>
           <List>
             <LItem>
@@ -142,28 +150,28 @@ export default function InsuficienciaCardiaca(): JSX.Element {
           </List>
         </List>
         <Subsection title="Exames">
-        <List>
-          <LItem>
+          <List>
+            <LItem>
               Radiografia de tórax e eletrocardiograma: exames necessários para
-              avaliação inicial, auxiliam na definição de cardiopatias associadas
-              (congênitas e adquiridas). Já devem ser solicitados no pronto
-              socorro para os casos agudos.
+              avaliação inicial, auxiliam na definição de cardiopatias
+              associadas (congênitas e adquiridas). Já devem ser solicitados no
+              pronto socorro para os casos agudos.
             </LItem>
             <LItem>
-              Ecocardiograma: para definição de causas estruturais, faz avaliação
-              da função ventricular e de outras alterações associadas. Realizar
-              assim que possível após internação, nos casos de apresentação
-              inicial.
+              Ecocardiograma: para definição de causas estruturais, faz
+              avaliação da função ventricular e de outras alterações associadas.
+              Realizar assim que possível após internação, nos casos de
+              apresentação inicial.
             </LItem>
             <LItem>
-              Troponina: especificidade limitada em crianças. Solicitar nos casos
-              suspeitos de miocardite.
+              Troponina: especificidade limitada em crianças. Solicitar nos
+              casos suspeitos de miocardite.
             </LItem>
             <LItem>
               BNP, proBNP: peptídeo natriurético tipo B; ajuda no diagnóstico
-              diferencial com quadros pulmonares primários; tem valor prognóstico
-              (pior evolução clínica se {'>'} 300 pg/ml). Também usado para
-              seguimento do tratamento dos casos crônicos.
+              diferencial com quadros pulmonares primários; tem valor
+              prognóstico (pior evolução clínica se {'>'} 300 pg/ml). Também
+              usado para seguimento do tratamento dos casos crônicos.
             </LItem>
           </List>
         </Subsection>
@@ -171,11 +179,13 @@ export default function InsuficienciaCardiaca(): JSX.Element {
       <Section title="Classificação Funcional">
         <Table
           colWidths={[100, 150, 150]}
-          header={['', 
-          '< 10 anos ROSS', 
-          <Text key={1}>
-            {'>'} 10 anos NYHA{' '}(<Italic>New York Heart Association</Italic>)
-              </Text>]}
+          header={[
+            '',
+            '< 10 anos ROSS',
+            <Text key={1}>
+              {'>'} 10 anos NYHA (<Italic>New York Heart Association</Italic>)
+            </Text>
+          ]}
           data={[
             [
               'Classe I',

@@ -171,8 +171,8 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             estabilização e à avaliação mantiverem-se com respiração inefetiva
             e/ou FC {'<'}100 bpm, iniciar a VPP (ventilação com pressão
             positiva) nos primeiros 60 segundos após o nascimento e acompanhar a
-            FC pelo monitor cardíaco e a saturação de oxigênio (SatO
-            <Subscript>2</Subscript>) pelo oxímetro de pulso.
+            FC pelo monitor cardíaco e a saturação de oxigênio (SatO ₂) pelo
+            oxímetro de pulso.
           </P>
         </Subsection>
         <Subsection title="Assistência ao RN com líquido amniótico meconial">
@@ -219,8 +219,8 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             cardíaco suficiente para manter a perfusão periférica, a leitura
             confiável da SatO2 demorará cerca de 1 a 2 minutos após o
             nascimento. Salienta-se que o processo de transição normal para
-            alcançar uma SatO<Subscript>2</Subscript> {'>'} 90% requer cerca de
-            5 minutos ou mais em RN saudáveis que respiram ar ambiente.
+            alcançar uma SatO₂ {'>'} 90% requer cerca de 5 minutos ou mais em RN
+            saudáveis que respiram ar ambiente.
           </P>
           <Table
             colWidths={[150, 200]}
@@ -233,28 +233,23 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             caption="Tabela 1: Valores de saturação desejáveis, segundo idade pós natal."
           />
           <P>
-            A monitorização da saturação de O<Subscript>2</Subscript>{' '}
-            possibilita o uso criterioso e racional de oxigênio. Assim, quando o
-            recém-nascido não melhora e/ou não atinge os valores desejáveis de
-            SatO
-            <Subscript>2</Subscript> com a VPP em ar ambiente, recomenda-se
-            sempre verificar e corrigir a técnica da ventilação antes de
-            oferecer oxigênio suplementar. A necessidade de oxigênio suplementar
-            é excepcional em RN ≥ 34 semanas se a VPP é feita com a técnica
-            adequada. Nos poucos casos em que isto é necessário, indica-se a
-            aplicação da mistura O<Subscript>2</Subscript>/ar comprimido,
-            ajustando-se a concentração mínima necessária de oxigênio, por meio
-            de um blender, para atingir a SatO<Subscript>2</Subscript> alvo.
-            Diante de qualquer modificação da FiO
-            <Subscript>2</Subscript> ofertada, é necessário um período de cerca
-            de 30 segundos para haver equilíbrio da concentração de oxigênio por
-            toda a área pulmonar do RN. Por tal razão, sugere-se, que nos raros
-            pacientes em que há necessidade de oxigênio suplementar durante a
-            ventilação, fazer incrementos de 20% e aguardar cerca de 30 segundos
-            para verificar a SatO
-            <Subscript>2</Subscript> antes de indicar novos incrementos,
-            ressaltando-se que a VPP com a técnica correta é fundamental para a
-            melhora do paciente.
+            A monitorização da saturação de O₂ possibilita o uso criterioso e
+            racional de oxigênio. Assim, quando o recém-nascido não melhora e/ou
+            não atinge os valores desejáveis de SatO ₂ com a VPP em ar ambiente,
+            recomenda-se sempre verificar e corrigir a técnica da ventilação
+            antes de oferecer oxigênio suplementar. A necessidade de oxigênio
+            suplementar é excepcional em RN ≥ 34 semanas se a VPP é feita com a
+            técnica adequada. Nos poucos casos em que isto é necessário,
+            indica-se a aplicação da mistura O₂/ar comprimido, ajustando-se a
+            concentração mínima necessária de oxigênio, por meio de um blender,
+            para atingir a SatO₂ alvo. Diante de qualquer modificação da FiO ₂
+            ofertada, é necessário um período de cerca de 30 segundos para haver
+            equilíbrio da concentração de oxigênio por toda a área pulmonar do
+            RN. Por tal razão, sugere-se, que nos raros pacientes em que há
+            necessidade de oxigênio suplementar durante a ventilação, fazer
+            incrementos de 20% e aguardar cerca de 30 segundos para verificar a
+            SatO ₂ antes de indicar novos incrementos, ressaltando-se que a VPP
+            com a técnica correta é fundamental para a melhora do paciente.
           </P>
         </Subsection>
         <Subsection title="Equipamentos para a ventilação">
@@ -268,12 +263,11 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             calibrada para ser ativada em torno de 30-40 cm de água, para evitar
             o barotrauma. Na ausência do uso do blender, um balão autoinflável
             fornece concentração de oxigênio de 21% (ar ambiente, quando não
-            está conectado ao oxigênio), de FiO
-            <Subscript>2</Subscript> variável (se conectado apenas à fonte de
-            oxigênio, a depender do fluxo usado, marca do balão, pressão e
-            frequência das compressões, bem como da força exercida e tempo de
-            compressão do balão) e 90 - 100% (quando conectado ao oxigênio e a
-            um reservatório).
+            está conectado ao oxigênio), de FiO ₂ variável (se conectado apenas
+            à fonte de oxigênio, a depender do fluxo usado, marca do balão,
+            pressão e frequência das compressões, bem como da força exercida e
+            tempo de compressão do balão) e 90 - 100% (quando conectado ao
+            oxigênio e a um reservatório).
           </P>
           <P>
             O ventilador mecânico manual de fluxo contínuo, é controlado a fluxo
@@ -289,18 +283,15 @@ export default function ReanimacaoNeonatal(): JSX.Element {
           </P>
           <Subsection title="Exemplo">
             <P>
-              FiO<Subscript>2</Subscript> = [(qtde. litros de Ar comprimido x
-              21) + (qtde. litros de O<Subscript>2</Subscript> x 100)]/total de
-              litros da mistura.
+              FiO₂ = [(qtde. litros de Ar comprimido x 21) + (qtde. litros de O₂
+              x 100)]/total de litros da mistura.
             </P>
             <P>
-              Ex: FiO<Subscript>2</Subscript> de um dispositivo de ventilação
-              (balão auto inflável ou ventilador de fluxo contínuo) sendo usado
-              com 1 litro de oxigênio e 4 litros de ar acomprimido.
+              Ex: FiO₂ de um dispositivo de ventilação (balão auto inflável ou
+              ventilador de fluxo contínuo) sendo usado com 1 litro de oxigênio
+              e 4 litros de ar acomprimido.
             </P>
-            <P>
-              FiO<Subscript>2</Subscript> = [(4x21) + (1x100)] / 5 = 36%
-            </P>
+            <P>FiO₂ = [(4x21) + (1x100)] / 5 = 36%</P>
           </Subsection>
           <P>
             A interface entre o equipamento para ventilação e o RN ≥ 34 semanas,
@@ -360,13 +351,13 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             deve ser capaz de detectar e corrigir possíveis falhas de adaptação
             do material e da técnica usada, que possam interferir na
             permeabilidade das vias aéreas e uso de pressão adequada, de modo
-            rápido. Para tal, é preciso monitorar a FC, a respiração e a SatO
-            <Subscript>2</Subscript>. O indicador mais importante de que a VPP
-            está sendo efetiva é o aumento da FC. Uma ventilação efetiva deve
-            provocar inicialmente a elevação da FC e, depois, o estabelecimento
-            da respiração espontânea. Se, após 30 segundos de VPP com máscara, o
-            paciente apresentar FC {'>'}100 bpm e respiração espontânea e
-            regular, suspender o procedimento.
+            rápido. Para tal, é preciso monitorar a FC, a respiração e a SatO ₂.
+            O indicador mais importante de que a VPP está sendo efetiva é o
+            aumento da FC. Uma ventilação efetiva deve provocar inicialmente a
+            elevação da FC e, depois, o estabelecimento da respiração
+            espontânea. Se, após 30 segundos de VPP com máscara, o paciente
+            apresentar FC {'>'}100 bpm e respiração espontânea e regular,
+            suspender o procedimento.
           </P>
           <P>
             Da mesma forma, considera-se como falha se, após 30 segundos de VPP
@@ -379,11 +370,11 @@ export default function ReanimacaoNeonatal(): JSX.Element {
           </P>
           <P>
             Se o paciente, após a correção da técnica da ventilação e elevação
-            da FiO<Subscript>2</Subscript> ofertada, não melhorar, está indicado
-            o uso da cânula traqueal como interface para a ventilação com
-            pressão positiva. Recomenda-se, contudo, que durante períodos
-            prolongados de ventilação com máscara, seja inserida uma sonda
-            orogástrica para descompressão gástrica, causada pela aerofagia.
+            da FiO₂ ofertada, não melhorar, está indicado o uso da cânula
+            traqueal como interface para a ventilação com pressão positiva.
+            Recomenda-se, contudo, que durante períodos prolongados de
+            ventilação com máscara, seja inserida uma sonda orogástrica para
+            descompressão gástrica, causada pela aerofagia.
           </P>
         </Subsection>
         <Subsection title="VPP por meio da cânula traqueal">
@@ -467,32 +458,29 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             cânula traqueal, quando a intubação foi indicada por ventilação com
             máscara facial inadequada (a tentativa de correção da técnica da VPP
             não foi bem sucedida), é possível iniciar a VPP por cânula traqueal
-            com ar ambiente e, após 30 segundos, monitorar a SatO
-            <Subscript>2</Subscript>. Com a mesma recomendação de incrementos de
-            20% em intervalos de pelo menos 30 segundos, antes de novas
-            elevações da oferta do oxigênio. Quando, por outro lado, a intubação
-            foi indicada porque o RN permaneceu com FC {'<'}100 bpm em
-            ventilação com máscara facial e técnica adequada, a VPP com cânula
-            traqueal pode ser iniciada na mesma concentração de O
-            <Subscript>2</Subscript> que estava sendo oferecida antes da
-            intubação, seguindo-se a mesma recomendação de monitoramento da SatO
-            <Subscript>2</Subscript>, após 30 segundos.
+            com ar ambiente e, após 30 segundos, monitorar a SatO ₂. Com a mesma
+            recomendação de incrementos de 20% em intervalos de pelo menos 30
+            segundos, antes de novas elevações da oferta do oxigênio. Quando,
+            por outro lado, a intubação foi indicada porque o RN permaneceu com
+            FC {'<'}100 bpm em ventilação com máscara facial e técnica adequada,
+            a VPP com cânula traqueal pode ser iniciada na mesma concentração de
+            O ₂ que estava sendo oferecida antes da intubação, seguindo-se a
+            mesma recomendação de monitoramento da SatO ₂, após 30 segundos.
           </P>
           <P>
             A ventilação será suspensa e o paciente extubado se, nas avaliações
-            subsequentes (a cada 30 segundos, da respiração, FC e SatO
-            <Subscript>2</Subscript>), houver FC {'>'} 100 bpm e movimentos
-            respiratórios espontâneos e regulares. Considera-se como falha se,
-            após 30 segundos de VPP por meio da cânula traqueal, o RN mantiver
-            FC {'<'}100 bpm ou não retomar a respiração espontânea ou, ainda, se
-            a SatO<Subscript>2</Subscript> permanecer abaixo dos valores
-            desejáveis/não detectável. Nesses casos, devem ser verificadas e
-            corrigidas possíveis falhas técnicas, em geral relacionadas ao
-            posicionamento da cânula, à permeabilidade das vias aéreas e à
-            pressão que está sendo aplicada. Após essa correção, pode-se
-            aumentar a oferta de oxigênio. Se o RN mantém apneia ou respiração
-            irregular, continuar a ventilação por cânula traqueal. Se a FC está{' '}
-            {'<'}60bpm, indicar a massagem cardíaca.
+            subsequentes (a cada 30 segundos, da respiração, FC e SatO ₂),
+            houver FC {'>'} 100 bpm e movimentos respiratórios espontâneos e
+            regulares. Considera-se como falha se, após 30 segundos de VPP por
+            meio da cânula traqueal, o RN mantiver FC {'<'}100 bpm ou não
+            retomar a respiração espontânea ou, ainda, se a SatO₂ permanecer
+            abaixo dos valores desejáveis/não detectável. Nesses casos, devem
+            ser verificadas e corrigidas possíveis falhas técnicas, em geral
+            relacionadas ao posicionamento da cânula, à permeabilidade das vias
+            aéreas e à pressão que está sendo aplicada. Após essa correção,
+            pode-se aumentar a oferta de oxigênio. Se o RN mantém apneia ou
+            respiração irregular, continuar a ventilação por cânula traqueal. Se
+            a FC está {'<'}60bpm, indicar a massagem cardíaca.
           </P>
         </Subsection>
         <Subsection title="Massagem cardíaca externa (MCE)">

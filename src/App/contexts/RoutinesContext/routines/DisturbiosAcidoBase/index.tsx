@@ -35,9 +35,7 @@ export default function DisturbiosAcidosBase(): JSX.Element {
         </P>
         <List>
           <LItem>pH: 7,35 a 7,45</LItem>
-          <LItem>
-            paCO<Subscript>2</Subscript>: 35 a 45 mmHg
-          </LItem>
+          <LItem>paCO₂: 35 a 45 mmHg</LItem>
           <LItem>
             HCO<Subscript>3</Subscript>: 22 a 26 mEq/L
           </LItem>
@@ -55,9 +53,9 @@ export default function DisturbiosAcidosBase(): JSX.Element {
           ácidos fixos e queda da concentração de bicarbonato no sangue. Como
           consequência e tentativa de compensação haverá hiperventilação na
           tentativa de eliminar H+ na forma de gás carbônico e água, tendo como
-          resultado final, queda da pCO<Subscript>2</Subscript> no sangue.
-          Importante lembrar que a magnitude dessa compensação não consegue
-          elevar o valor do pH sérico acima do normal.
+          resultado final, queda da pCO₂ no sangue. Importante lembrar que a
+          magnitude dessa compensação não consegue elevar o valor do pH sérico
+          acima do normal.
         </P>
         <Subsection title="Causas de Acidose Metabólica">
           <P>
@@ -156,7 +154,7 @@ export default function DisturbiosAcidosBase(): JSX.Element {
               <LItem>
                 Em situações em que o trato respiratório esteja comprometido,
                 deve-se ter cuidado com a correção de bicarbonato pois haverá
-                aumento da paCO<Subscript>2</Subscript>.
+                aumento da paCO₂.
               </LItem>
             </List>
           </Subsubsection>
@@ -164,11 +162,11 @@ export default function DisturbiosAcidosBase(): JSX.Element {
       </Section>
       <Section title="Acidose Respiratória">
         <P>
-          Distúrbio causado pelo acúmulo de CO<Subscript>2</Subscript> no sangue
-          arterial, que acontece devido a uma hipoventilação ou a uma troca
-          gasosa prejudicada. A compensação desse distúrbio acontece pelo
-          acúmulo de bicarbonato por retenção renal, porém como a compensação
-          renal é lenta só veremos em situação de acidose respiratória crônica.
+          Distúrbio causado pelo acúmulo de CO₂ no sangue arterial, que acontece
+          devido a uma hipoventilação ou a uma troca gasosa prejudicada. A
+          compensação desse distúrbio acontece pelo acúmulo de bicarbonato por
+          retenção renal, porém como a compensação renal é lenta só veremos em
+          situação de acidose respiratória crônica.
         </P>
         <Subsection title="Causas">
           <List>
@@ -186,8 +184,8 @@ export default function DisturbiosAcidosBase(): JSX.Element {
         <Subsection title="Tratamento">
           <P>
             Geralmente o tratamento da causa base é o suficiente, quando há
-            aumento importante da paCO<Subscript>2</Subscript> ({'>'}65 mmHg), é
-            necessário uso de ventilação mecânica para otimizar a troca gasosa.
+            aumento importante da paCO₂ ({'>'}65 mmHg), é necessário uso de
+            ventilação mecânica para otimizar a troca gasosa.
           </P>
           <P>
             Atenção para pacientes com Acidose respiraria crônica, pois a
@@ -199,8 +197,7 @@ export default function DisturbiosAcidosBase(): JSX.Element {
         <P>
           Distúrbio pouco comum, onde há aumento do pH por excessiva perda de
           hidrogênio ou pela elevada retenção de bicarbonato. O mecanismo
-          compensatório é hipoventilação com consequente aumento da paCO
-          <Subscript>2</Subscript>.
+          compensatório é hipoventilação com consequente aumento da paCO ₂.
         </P>
         <Subsection title="Causas">
           <P>As causas farão parte de um dos grupos:</P>

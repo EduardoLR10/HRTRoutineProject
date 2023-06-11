@@ -254,7 +254,7 @@ export default function FebreNoRecemNascido(): JSX.Element {
             <Bold>
               <Italic>choque</Italic>
             </Bold>{' '}
-            deve sempre "fazer pensar" em
+            deve sempre {'"'}fazer pensar{'"'} em
             <Bold>
               <Italic>cardiopatia congênita</Italic>
             </Bold>{' '}

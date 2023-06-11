@@ -74,19 +74,19 @@ export default function SequenciaRapidaDeIntubacao(): JSX.Element {
       <Section title="Preparo e Monitoração">
         <P>
           O preparo sempre deve ser iniciado checando e definindo o material
-          necessário para o procedimento bem-sucedido: fonte de O
-          <Subscript>2</Subscript> funcionante com sistema para umidificação,
-          sistema de oferta de oxigênio (preferencialmente de alto fluxo com
-          máscara não reinalante) para hiperoxigenação prévia do paciente, fonte
-          de vácuo com conexão para sonda de aspiração, unidade ventilatória
-          testada e de tamanho adequado para a criança (gerando pressão adequada
-          e com reservatório sem defeitos), máscara apropriada para idade para
-          conexão na unidade ventilatória, laringoscópio apropriado e testado,
-          tubo traqueal (TT) de três tamanhos (ideal para idade, um tamanho
-          menor e um maior), guia para o tubo e as medicações previamente
-          planejadas e prescritas. Além disso, deve-se ter, preferencialmente,
-          dois acessos calibrosos confiáveis, monitorização cardiorrespiratória
-          e equipe preparada para o procedimento.
+          necessário para o procedimento bem-sucedido: fonte de O ₂ funcionante
+          com sistema para umidificação, sistema de oferta de oxigênio
+          (preferencialmente de alto fluxo com máscara não reinalante) para
+          hiperoxigenação prévia do paciente, fonte de vácuo com conexão para
+          sonda de aspiração, unidade ventilatória testada e de tamanho adequado
+          para a criança (gerando pressão adequada e com reservatório sem
+          defeitos), máscara apropriada para idade para conexão na unidade
+          ventilatória, laringoscópio apropriado e testado, tubo traqueal (TT)
+          de três tamanhos (ideal para idade, um tamanho menor e um maior), guia
+          para o tubo e as medicações previamente planejadas e prescritas. Além
+          disso, deve-se ter, preferencialmente, dois acessos calibrosos
+          confiáveis, monitorização cardiorrespiratória e equipe preparada para
+          o procedimento.
         </P>
         <P>
           Para crianças maiores de dois anos, o tamanho (diâmetro interno em
@@ -97,7 +97,7 @@ export default function SequenciaRapidaDeIntubacao(): JSX.Element {
           3,5; lactentes até um ano, tubo 3; lactentes entre 1 e 2 anos, tubo
           3,5. Deve-se atentar para o fato que, no caso de utilização do tubo
           com balonete, a pressão de insuflação do cuff deve ficar entre 20 e 25
-          cm de H<Subscript>2</Subscript>O.
+          cm de H₂O.
         </P>
         <P>
           A profundidade de inserção deve ser (em cm) = idade (anos)/2 + 12.
@@ -229,11 +229,10 @@ export default function SequenciaRapidaDeIntubacao(): JSX.Element {
         <Subsection title="Tiopental">
           <P>
             Tiobarbitúrico com rápido início de ação (30 segundos) e meia-vida
-            curta. Reduz o consumo de O<Subscript>2</Subscript> , o fluxo
-            cerebral e a pressão intracraniana. Está associado contudo, à
-            hipotensão, por efeitos na contratilidade miocárdica, resistência
-            vascular e retorno venoso. Não deve ser usado em pacientes com
-            instabilidade hemodinâmica.
+            curta. Reduz o consumo de O₂ , o fluxo cerebral e a pressão
+            intracraniana. Está associado contudo, à hipotensão, por efeitos na
+            contratilidade miocárdica, resistência vascular e retorno venoso.
+            Não deve ser usado em pacientes com instabilidade hemodinâmica.
           </P>
         </Subsection>
         <Subsection title="Propofol">
