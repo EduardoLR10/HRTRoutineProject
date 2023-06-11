@@ -21,41 +21,6 @@ jobs:
           token: ${{ github.token }}
           branch: master
 
-      - name: Update package.json version
-        uses: jossef/action-set-json-field@v2.1
-        with:
-          file: package.json
-          field: version
-          value: ${{ steps.semver.outputs.nextStrict }}
-
-      - name: Update app.json version
-        uses: jossef/action-set-json-field@v2.1
-        with:
-          file: app.json
-          field: version
-          value: ${{ steps.semver.outputs.nextStrict }}
-
-      - name: Update IOS version
-        uses: jossef/action-set-json-field@v2.1
-        with:
-          file: app.json
-          field: ios.buildNumber
-          value: ${{ steps.semver.outputs.nextStrict }}
-
-      - name: Get old versionCode for Android
-        id: android_version_code
-        uses: notiz-dev/github-action-json-property@release
-        with:
-          path: app.json
-          prop_path: android.versionCode
-
-      - name: Update Android versionCode
-        uses: jossef/action-set-json-field@v2.1
-        with:
-          file: app.json
-          field: android.versionCode
-          value: $((${{ steps.android_version_code.outputs.prop }} + 1))
-
       - name: 🏗 Setup Node
         uses: actions/setup-node@v3
         with:
@@ -67,6 +32,9 @@ jobs:
         with:
           eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: Update versions
+        run: node .github/scripts/set-versions.mjs ${{ steps.semver.outputs.nextStrict }}
 
       - name: 📦 Install dependencies
         run: yarn install
