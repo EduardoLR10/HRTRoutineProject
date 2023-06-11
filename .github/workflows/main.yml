@@ -40,12 +40,16 @@ jobs:
         run: yarn install
 
       - name: 🚀 Build app
-        run: eas build --non-interactive --platform all
+        run: |
+          echo ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }} > google-service-account-key.json
+          eas build --non-interactive --platform all
 
       - name: Create and push tags
         run: |
           git config --local user.email "action@github.com.br"
           git config --local user.name "GitHub Action"
+          git add package.json app.json
+          git commit -m "chore: bump version to ${{ steps.semver.outputs.nextStrict }}"
+          git push
           git tag -a ${{ steps.semver.outputs.nextStrict }} -m "Version ${{ steps.semver.outputs.nextStrict }}"
           git push --tags
-          git push
