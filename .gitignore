@@ -17,3 +17,4 @@ web-build/
 .metro-health-check*
 
 google-service-account-key.json
+apple-asc-api-key.p8

@@ -27,6 +27,12 @@
       "android": {
         "serviceAccountKeyPath": "google-service-account-key.json",
         "track": "production"
+      },
+      "ios": {
+        "ascAppId": "1551736654",
+        "ascApiKeyId": "YAR266F29H",
+        "ascApiKeyPath": "apple-asc-api-key.p8",
+        "ascApiKeyIssuerId": "091ee65d-403b-4d16-9887-65eebfe1c5d6"
       }
     }
   }
