@@ -38,14 +38,6 @@ jobs:
       - name: Update versions
         run: node .github/scripts/set-versions.mjs ${{ steps.semver.outputs.nextStrict }}
 
-      - name: 📦 Install dependencies
-        run: yarn install
-
-      - name: 🚀 Build app
-        run: |
-          echo "${{ secrets.ASC_API_KEY }}" > apple-asc-api-key.p8
-          eas build --non-interactive --platform all --auto-submit
-
       - name: Create and push tags
         run: |
           git config --local user.email "action@github.com.br"
@@ -55,3 +47,11 @@ jobs:
           git push
           git tag -a ${{ steps.semver.outputs.nextStrict }} -m "Version ${{ steps.semver.outputs.nextStrict }}"
           git push --tags
+
+      - name: 📦 Install dependencies
+        run: yarn install
+
+      - name: 🚀 Build app
+        run: |
+          echo "${{ secrets.ASC_API_KEY }}" > apple-asc-api-key.p8
+          eas build --non-interactive --platform all --auto-submit

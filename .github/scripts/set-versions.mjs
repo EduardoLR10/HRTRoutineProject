@@ -26,8 +26,8 @@ function setPackageJsonVersion(version) {
 function setAppJsonVersion(version) {
   const appJson = readJsonFile("./app.json");
   appJson.version = version;
-  const androidVersionCode = parseInt(appJson.android.versionCode);
-  appJson.android.versionCode = androidVersionCode + 1;
+  appJson.android.versionCode = parseInt(appJson.android.versionCode) + 1;
+  appJson.ios.buildNumber = version;
   writeJsonFile("./app.json", appJson);
 }
 
