@@ -36,10 +36,8 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
 
       - name: Update versions
-        run: node .github/scripts/set-versions.mjs ${{ steps.semver.outputs.nextStrict }}
-
-      - name: Create and push tags
         run: |
+          node .github/scripts/set-versions.mjs ${{ steps.semver.outputs.nextStrict }}
           git config --local user.email "action@github.com.br"
           git config --local user.name "GitHub Action"
           git add .
