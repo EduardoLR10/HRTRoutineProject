@@ -14,6 +14,9 @@
       "distribution": "internal",
       "ios": {
         "resourceClass": "m-medium"
+      },
+      "android": {
+        "buildType": "apk"
       }
     },
     "production": {
@@ -24,10 +27,6 @@
   },
   "submit": {
     "production": {
-      "android": {
-        "serviceAccountKeyPath": "google-service-account-key.json",
-        "track": "production"
-      },
       "ios": {
         "ascAppId": "1551736654",
         "ascApiKeyId": "YAR266F29H",

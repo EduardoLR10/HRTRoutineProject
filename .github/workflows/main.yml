@@ -42,7 +42,6 @@ jobs:
 
       - name: 🚀 Build app
         run: |
-          echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}" > google-service-account-key.json
           echo "${{ secrets.ASC_API_KEY }}" > apple-asc-api-key.p8
           eas build --non-interactive --platform all --auto-submit
 
