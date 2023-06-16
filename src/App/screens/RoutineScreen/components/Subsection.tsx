@@ -7,10 +7,7 @@ export interface SubsectionProps {
   children?: React.ReactNode
 }
 
-export default function Section({
-  title,
-  children
-}: SubsectionProps): JSX.Element {
+export function Subsection({ title, children }: SubsectionProps): JSX.Element {
   return (
     <View>
       <H3 style={{ marginVertical: 8 }}>{title}</H3>

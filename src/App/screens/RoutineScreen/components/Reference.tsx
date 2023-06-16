@@ -8,7 +8,7 @@ export interface ReferenceProps {
   body: string
 }
 
-export default function Reference({
+export function Reference({
   idx,
   body
 }: // children

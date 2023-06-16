@@ -1,6 +1,5 @@
 import React from 'react'
 import { ScrollView, View } from 'react-native'
-import { DataTable } from 'react-native-paper'
 import { Body, Caption, Subtitle1, Subtitle2 } from '../../../shared/typography'
 import styled, { useTheme } from 'styled-components/native'
 
@@ -29,7 +28,7 @@ export interface TableProps {
   colWidths: number[]
 }
 
-export default function Table({
+export function Table({
   title,
   caption,
   header,

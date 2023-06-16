@@ -1,4 +1,4 @@
-export { default as Figure } from './Figure'
+export { Figure } from './Figure'
 export { List, LItem } from './List'
 export {
   Paragraph as P,
@@ -7,8 +7,8 @@ export {
   Italic,
   Subscript
 } from '../../../shared/typography'
-export { default as Section } from './Section'
-export { default as Subsection } from './Subsection'
-export { default as Subsubsection } from './Subsubsection'
-export { default as Table } from './Table'
-export { default as Reference } from './Reference'
+export { Section } from './Section'
+export { Subsection } from './Subsection'
+export { Subsubsection } from './Subsubsection'
+export { Table } from './Table'
+export { Reference } from './Reference'

@@ -7,7 +7,7 @@ export interface SubsubsectionProps {
   children?: React.ReactNode
 }
 
-export default function Subsubsection({
+export function Subsubsection({
   title,
   children
 }: SubsubsectionProps): JSX.Element {

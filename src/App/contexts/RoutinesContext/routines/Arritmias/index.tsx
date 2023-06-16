@@ -60,20 +60,18 @@ export default function Arritmias(): JSX.Element {
         </P>
         <List>
           <LItem>Presença de instabilidade ou não</LItem>
-          <LItem>
-            Avaliar QRS no eletrocardiograma (ECG):
-            <List>
-              <LItem>
-                Se QRS estreito ({'<'} 0,09s): Arritmia tem origem acima ou no
-                nó AV. Taquicardia sinusal, taquicardia supraventricular,
-                fibrilação atrial, <Italic>flutter</Italic> atrial.
-              </LItem>
-              <LItem>
-                Se QRS alargado ({'>'} ou igual 0,09s): Arritmia com origem
-                ventricular. Taquicardia ventricular, fibrilação ventricular
-              </LItem>
-            </List>
-          </LItem>
+          <LItem>Avaliar QRS no eletrocardiograma (ECG):</LItem>
+          <List>
+            <LItem>
+              Se QRS estreito ({'<'} 0,09s): Arritmia tem origem acima ou no nó
+              AV. Taquicardia sinusal, taquicardia supraventricular, fibrilação
+              atrial, <Italic>flutter</Italic> atrial.
+            </LItem>
+            <LItem>
+              Se QRS alargado ({'>'} ou igual 0,09s): Arritmia com origem
+              ventricular. Taquicardia ventricular, fibrilação ventricular
+            </LItem>
+          </List>
         </List>
         <Subsection title="Taquicardia Supraventricular (TSV)">
           <P>
@@ -101,61 +99,52 @@ export default function Arritmias(): JSX.Element {
           </List>
           <Subsubsection title="Tratamento">
             <List>
-              <LItem>
-                Manobra vagal:
-                <List>
-                  <LItem>30 a 60% casos podem ser revertidos;</LItem>
-                  <LItem>Não deve atrasar o tratamento medicamentoso.</LItem>
-                </List>
-              </LItem>
-              <LItem>
-                Adenosina:
-                <List>
-                  <LItem>Bloqueia a condução AV de forma transitória;</LItem>
-                  <LItem>
-                    Reverte 75% dos casos, porém em 25 a 30% há recorrência
-                    precoce.
-                  </LItem>
-                  <LItem>
-                    Início de ação imediata (30s), duração ação curta ({'<'}{' '}
-                    1,5s).
-                  </LItem>
-                  <LItem>
-                    Dose: 0,1mg/Kg (dose inicial máxima 6mg) até 0,2mg/Kg (dose
-                    máxima 12mg). Atentar para forma de administração com
-                    técnica das duas seringas já conectadas, uma com medicação e
-                    outra com soro fisiológico (devido meia vida muito curta).
-                  </LItem>
-                </List>
-              </LItem>
-              <LItem>
-                Cadioversão Elétrica:
-                <List>
-                  <LItem>Iniciar com 1J/kg;</LItem>
-                  <LItem>Se não for efetivo: dobrar para 2J/kg.</LItem>
-                </List>
-              </LItem>
-              <LItem>
-                Amiodarona:
-                <List>
-                  <LItem>Casos refratários a adenosina;</LItem>
-                  <LItem>Preferida nos casos de WPW;</LItem>
-                  <LItem>
-                    Ação: inibe receptores adrenérgicos (vasodilatação e
-                    supressão do nó AV); inibe a corrente de K (prolonga a
-                    duração do QT); inibe os canais de sódio (prolonga a duração
-                    do QRS);
-                  </LItem>
-                  <LItem>Dose ataque: 5mg/kg em 20 a 60 minutos;</LItem>
-                  <LItem>
-                    Manutenção: 5 a 20mg/kg/dia contínuo por 48 a 72h;
-                  </LItem>
-                  <LItem>
-                    Efeitos colaterais: hipotensão e diminuição da
-                    contratilidade cardíaca.
-                  </LItem>
-                </List>
-              </LItem>
+              <LItem>Manobra vagal:</LItem>
+              <List>
+                <LItem>30 a 60% casos podem ser revertidos;</LItem>
+                <LItem>Não deve atrasar o tratamento medicamentoso.</LItem>
+              </List>
+              <LItem>Adenosina:</LItem>
+              <List>
+                <LItem>Bloqueia a condução AV de forma transitória;</LItem>
+                <LItem>
+                  Reverte 75% dos casos, porém em 25 a 30% há recorrência
+                  precoce.
+                </LItem>
+                <LItem>
+                  Início de ação imediata (30s), duração ação curta ({'<'}{' '}
+                  1,5s).
+                </LItem>
+                <LItem>
+                  Dose: 0,1mg/Kg (dose inicial máxima 6mg) até 0,2mg/Kg (dose
+                  máxima 12mg). Atentar para forma de administração com técnica
+                  das duas seringas já conectadas, uma com medicação e outra com
+                  soro fisiológico (devido meia vida muito curta).
+                </LItem>
+              </List>
+              <LItem>Cadioversão Elétrica:</LItem>
+              <List>
+                <LItem>Iniciar com 1J/kg;</LItem>
+                <LItem>Se não for efetivo: dobrar para 2J/kg.</LItem>
+              </List>
+              <LItem>Amiodarona:</LItem>
+              <List>
+                <LItem>Casos refratários a adenosina;</LItem>
+                <LItem>Preferida nos casos de WPW;</LItem>
+                <LItem>
+                  Ação: inibe receptores adrenérgicos (vasodilatação e supressão
+                  do nó AV); inibe a corrente de K (prolonga a duração do QT);
+                  inibe os canais de sódio (prolonga a duração do QRS);
+                </LItem>
+                <LItem>Dose ataque: 5mg/kg em 20 a 60 minutos;</LItem>
+                <LItem>
+                  Manutenção: 5 a 20mg/kg/dia contínuo por 48 a 72h;
+                </LItem>
+                <LItem>
+                  Efeitos colaterais: hipotensão e diminuição da contratilidade
+                  cardíaca.
+                </LItem>
+              </List>
             </List>
           </Subsubsection>
         </Subsection>
@@ -240,31 +229,27 @@ export default function Arritmias(): JSX.Element {
           </List>
           <Subsubsection title="Tratamento">
             <List>
-              <LItem>
-                Com pulso estável e monomórfica:
-                <List>
-                  <LItem>Adenosina: 0,1 mg/kg (6mg máximo dose);</LItem>
-                  <LItem>Amiodarona: 5 mg/kg 20 a 60 minutes;</LItem>
-                  <LItem>
-                    Procainamida: 15mg/kg IV ou IO em 30 a 60 minutes.
-                  </LItem>
-                </List>
-              </LItem>
+              <LItem>Com pulso estável e monomórfica:</LItem>
+              <List>
+                <LItem>Adenosina: 0,1 mg/kg (6mg máximo dose);</LItem>
+                <LItem>Amiodarona: 5 mg/kg 20 a 60 minutes;</LItem>
+                <LItem>
+                  Procainamida: 15mg/kg IV ou IO em 30 a 60 minutes.
+                </LItem>
+              </List>
               <LItem>
                 Com pulso, mas instável: cardioversão elétrica 1 a 2 J/kg
               </LItem>
-              <LItem>
-                Instável e sem pulso:
-                <List>
-                  <LItem>Reanimação cardiopulmonar (RCP);</LItem>
-                  <LItem>Desfibrilação 2J/kg até 4J/kg;</LItem>
-                  <LItem>
-                    Lidocaína 0,5 a 1mg/kg/dose a cada 5 minutos e posterior
-                    infusão contínua de 20-50mcg/kg/min (máximo 3mg/kg/hora);
-                  </LItem>
-                  <LItem>Amiodarona: 5mg/kg.</LItem>
-                </List>
-              </LItem>
+              <LItem>Instável e sem pulso:</LItem>
+              <List>
+                <LItem>Reanimação cardiopulmonar (RCP);</LItem>
+                <LItem>Desfibrilação 2J/kg até 4J/kg;</LItem>
+                <LItem>
+                  Lidocaína 0,5 a 1mg/kg/dose a cada 5 minutos e posterior
+                  infusão contínua de 20-50mcg/kg/min (máximo 3mg/kg/hora);
+                </LItem>
+                <LItem>Amiodarona: 5mg/kg.</LItem>
+              </List>
               <LItem>
                 Polimórfica (<Italic>Torsades de Pointes</Italic>): Sulfato de
                 Mg, 25-50mg/kg (máx 2g/dose).
@@ -331,19 +316,17 @@ export default function Arritmias(): JSX.Element {
             <LItem>
               Associação em geral com cardiopatias congênitas ou cirúrgicas;
             </LItem>
-            <LItem>
-              Ritmos de escape:
-              <List>
-                <LItem>Atrial: onda P presente com morfologia diferente.</LItem>
-                <LItem>
-                  Juncional: complexos QRS estreitos, onda P retrógradas
-                  presentes ou não.
-                </LItem>
-                <LItem>
-                  Idioventricular: QRS largo. FC em geral em torno de 30-40bpm.
-                </LItem>
-              </List>
-            </LItem>
+            <LItem>Ritmos de escape:</LItem>
+            <List>
+              <LItem>Atrial: onda P presente com morfologia diferente.</LItem>
+              <LItem>
+                Juncional: complexos QRS estreitos, onda P retrógradas presentes
+                ou não.
+              </LItem>
+              <LItem>
+                Idioventricular: QRS largo. FC em geral em torno de 30-40bpm.
+              </LItem>
+            </List>
           </List>
         </Subsection>
         <Subsection title="Bloqueios Atrioventriculas (BAV)">

@@ -6,7 +6,6 @@ import {
   TouchableOpacity,
   BackHandler,
   Dimensions,
-  StyleProp,
   ImageStyle
 } from 'react-native'
 import Icon from '../../../shared/Icon'
@@ -14,7 +13,7 @@ import { BlackPortal } from 'react-native-portal'
 import styled from 'styled-components/native'
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView'
+import { ReactNativeZoomableView } from '@openspacelabs/react-native-zoomable-view'
 import { Caption, Subtitle2 } from '../../../shared/typography'
 import { useFocusEffect } from '@react-navigation/native'
 
@@ -25,7 +24,7 @@ export interface FigureProps {
   caption?: string
 }
 
-export default function Figure({
+export function Figure({
   source,
   size: [width, height],
   title,
