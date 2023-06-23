@@ -63,7 +63,7 @@ export default function TestRoutine(): JSX.Element {
         <Figure
           title="Use imagens!"
           source={imgScorpion}
-          size={[300, 200]}
+          size={[200, 100]}
           caption="Mas também sinta-se a vontade para adicionar as legendas necessárias para a imagem."
         />
         <P>

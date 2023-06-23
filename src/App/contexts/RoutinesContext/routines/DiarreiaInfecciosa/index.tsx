@@ -174,7 +174,7 @@ export default function DiarreiaInfecciosa(): JSX.Element {
           fezes. O exame parasitológico de fezes (EPF) faz parte da rotina,
           visando à pesquisa de protozoários.
         </P>
-        <Figure source={img1} size={[699, 746]} />
+        <Figure source={img1} size={[599, 646]} />
       </Section>
       <Section title="Diagnóstico Diferencial">
         <P>

@@ -462,8 +462,8 @@ export default function Urticaria(): JSX.Element {
               linha, na segunda coluna.
             </Bold>
           </P>
-          <Figure source={img3} size={[1143, 874]} />
-          <Figure source={img4} size={[1029, 971]} />
+          <Figure source={img3} size={[1043, 774]} />
+          <Figure source={img4} size={[929, 871]} />
         </Subsection>
         <Subsection title="Aspectos Importantes no Tratamento">
           <Subsubsection title="Prioridades">

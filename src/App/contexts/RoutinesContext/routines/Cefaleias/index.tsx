@@ -39,7 +39,7 @@ export default function TestRoutine(): JSX.Element {
         </P>
         <P>
           A cefaleia pode ser classificada de acordo com o modo de instalação em
-          aguda, aguda recorrente (&lt; 15 episódios ao mês) e crônica ( 15
+          aguda, aguda recorrente ({'<'} 15 episódios ao mês) e crônica ( 15
           episódios ao mês). De acordo com a progressão, podem ser progressivas
           ou não progressivas. Cefaleias progressivas devem receber atenção
           especial na investigação de causas secundárias.
@@ -125,7 +125,7 @@ export default function TestRoutine(): JSX.Element {
             <LItem>Piora da dor com esforço, tosse ou respirar;</LItem>
             <LItem>
               Início explosivo ou súbito de cefaleia de forte intensidade, com
-              início &lt; 6 meses;
+              início {'<'} 6 meses;
             </LItem>
             <LItem>
               Presença de sinais / sintomas neurológicos: alteração do nível de
@@ -169,7 +169,7 @@ export default function TestRoutine(): JSX.Element {
           Para as cefaleias primárias, é importante indicar as medidas não
           farmacológicas, como mudanças dos hábitos de vida, com sono adequado,
           atividade física regular, evitar jejum prolongado e uso abusivo de
-          analgésicos (&gt; 2 vezes por semana), identificar alimentos
+          analgésicos ({'>'} 2 vezes por semana), identificar alimentos
           associados à dor e evitar seu uso (principais: chocolate, alimentos
           com cafeína, alimentos com corante, glutamato monossódico, queijos).
           Durante a dor, é importante o repouso em ambientes com pouca
@@ -301,7 +301,7 @@ export default function TestRoutine(): JSX.Element {
       <Section title="Observações">
         <P>
           Pacientes com cefaleias recorrentes, sugestivas de cefaleias
-          primárias, como enxaqueca e cefaleia tensional, com frequência &gt; 3
+          primárias, como enxaqueca e cefaleia tensional, com frequência {'>'} 3
           episódios ao mês e / ou prejuízo das suas atividades de vida diária,
           devem ser encaminhados para acompanhamento ambulatorial com
           Neuropediatra.

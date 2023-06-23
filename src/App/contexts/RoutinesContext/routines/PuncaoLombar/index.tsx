@@ -73,7 +73,7 @@ export default function PuncaoLombar(): JSX.Element {
         <List>
           <LItem>Aumento da pressão intracraniana;</LItem>
           <LItem>
-            Coagulopatias / trombocitopenia (plaquetas &lt; 50.000);
+            Coagulopatias / trombocitopenia (plaquetas {'<'} 50.000);
           </LItem>
           <LItem>Abscesso cerebral;</LItem>
           <LItem>Neutropenia.</LItem>

@@ -156,7 +156,7 @@ export default function EmergenciaRespiratoria(): JSX.Element {
             oxigênio ofertada, sendo importante não usar a fração inspirada de
             oxigênio (fiO²) 100% de forma indiscriminada. A saturação deve ser
             monitorada e a FiO₂ utilizada deve ser a menor possível para manter
-            a saturação &gt;= 92%.
+            a saturação {'>'}= 92%.
           </P>
           <P>
             Existem diversos acessórios para ofertar oxigênio conforme o grau de

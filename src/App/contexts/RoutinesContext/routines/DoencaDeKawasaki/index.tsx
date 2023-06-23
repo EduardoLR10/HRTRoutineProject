@@ -151,7 +151,7 @@ export default function DoencaDeKawasaki(): JSX.Element {
             e não supurativos; o eritema da pele suprajacente pode ocorrer.
           </P>
         </Subsection>
-        <Figure source={img1} size={[815, 467]} />
+        <Figure source={img1} size={[715, 367]} />
         <P>
           <Bold>
             A DK é dividida em 3 fases clínicas: aguda, subaguda e de

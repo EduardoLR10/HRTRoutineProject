@@ -73,7 +73,7 @@ export default function AlergiaAProteinaDoLeiteDeVaca(): JSX.Element {
         </Subsection>
         <Figure
           source={img1}
-          size={[825, 575]}
+          size={[725, 475]}
           caption="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1."
         />
       </Section>
@@ -450,7 +450,7 @@ export default function AlergiaAProteinaDoLeiteDeVaca(): JSX.Element {
         </P>
         <Figure
           source={img2}
-          size={[844, 1168]}
+          size={[744, 1068]}
           caption="Fonte: Consenso Brasileiro sobre Alergia Alimentar: 2018 - Parte 1"
         />
       </Section>

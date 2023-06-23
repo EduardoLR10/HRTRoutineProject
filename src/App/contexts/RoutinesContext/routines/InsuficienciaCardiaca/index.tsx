@@ -78,7 +78,7 @@ export default function InsuficienciaCardiaca(): JSX.Element {
       <Section title="Fisiopatologia">
         <Figure
           source={img1}
-          size={[505, 275]}
+          size={[405, 175]}
           caption="SNS: sistema nervoso simpático; SRAA: sistema renina-angiotensina aldosterona; FC: frequência cardíaca; RVS: resistência vascular sistêmica."
         />
         <P>

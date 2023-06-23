@@ -213,7 +213,7 @@ export default function ChoqueSeptico(): JSX.Element {
               ]}
               caption="*Hemitartarato de Norepinefrina, na ampola há descrição de 2 mg/ml, no entanto apenas 1mg é a parte ativa da solução. A outra parte é apenas veículo, sendo a dose = 1 mg/ml."
             />
-            <Figure source={img1} size={[940, 1436]} />
+            <Figure source={img1} size={[840, 1336]} />
           </Subsubsection>
           <Subsubsection title="Nível de Hemoglobina">
             <P>

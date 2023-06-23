@@ -49,7 +49,7 @@ export default function ConvulsaoFebril(): JSX.Element {
           </LItem>
           <LItem>
             Fatores de risco: elevação da temperatura, história familiar
-            positiva em parentes de 1º grau, internação &gt; 28 dias no período
+            positiva em parentes de 1º grau, internação {'>'} 28 dias no período
             neonatal, atraso do desenvolvimento neurológico, frequentar creche.
           </LItem>
         </List>

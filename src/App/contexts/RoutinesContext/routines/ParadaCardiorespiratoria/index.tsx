@@ -99,7 +99,7 @@ export default function ParadaRespiratoria(): JSX.Element {
         </P>
         <Figure
           source={img1}
-          size={[852, 655]}
+          size={[752, 555]}
           title="Disposição dos Socorristas"
         />
         <Table
@@ -193,7 +193,7 @@ export default function ParadaRespiratoria(): JSX.Element {
         />
         <Figure
           source={img6}
-          size={[826, 793]}
+          size={[726, 693]}
           title="Algoritmo de Parada Cardiorrespiratória"
         />
         <P>

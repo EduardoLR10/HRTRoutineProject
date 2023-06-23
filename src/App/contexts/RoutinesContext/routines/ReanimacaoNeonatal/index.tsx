@@ -662,7 +662,7 @@ export default function ReanimacaoNeonatal(): JSX.Element {
             materno e/ou do recém-nascido.
           </P>
         </Subsection>
-        <Figure source={img1} size={[710, 945]} />
+        <Figure source={img1} size={[610, 845]} />
       </Section>
       <Section title="Referências">
         <Reference

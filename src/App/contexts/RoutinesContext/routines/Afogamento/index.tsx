@@ -207,7 +207,7 @@ export default function TestRoutine(): JSX.Element {
           múltiplos órgãos. Com o processo de terapia intensiva, o prognóstico é
           cada vez mais baseado na lesão neurológica.
         </P>
-        <Figure source={img1} size={[839, 570]} />
+        <Figure source={img1} size={[739, 470]} />
       </Section>
       <Section title="Referências">
         <Reference

@@ -68,7 +68,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
         </Subsection>
         <Subsection title="Potássio (K) Corrigido">
           <P>Em mEq/L.</P>
-          <P>Redução 0,6mEq/L de K &Rightarrow; a cada 0,1 abaixo do pH 7,4.</P>
+          <P>Redução 0,6mEq/L de K -{'>'}; a cada 0,1 abaixo do pH 7,4.</P>
         </Subsection>
         <Subsection title="Sódio (Na) Corrigido">
           <P>Em mEq/L.</P>
@@ -94,13 +94,13 @@ export default function CetoacidoseDiabetica(): JSX.Element {
         </Subsection>
         <Subsection title="Cálculo do Volume de Solução (Cálculo de Holliday)">
           <P>Etapa de Manutenção – em mL.</P>
-          <P>Peso &lt;= 10kg &Rightarrow; X mL = 100mL por Kg de peso</P>
+          <P>Peso {'<'}= 10kg -{'>'}; X mL = 100mL por Kg de peso</P>
           <P>
-            Peso entre 10 e 20 (inclusive) Kg &Rightarrow; X mL = 1000mL + (50mL
+            Peso entre 10 e 20 (inclusive) Kg -{'>'}; X mL = 1000mL + (50mL
             por Kg de peso acima de 10kg)
           </P>
           <P>
-            Peso {'>'} 20Kg &Rightarrow; X mL = 1500mL + (20mL por Kg de peso
+            Peso {'>'} 20Kg -{'>'}; X mL = 1500mL + (20mL por Kg de peso
             acima de 20kg)
           </P>
         </Subsection>
@@ -121,7 +121,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
       </Section>
       <Section title="Definição e Características de Cetoacidose Diabética">
         <P>
-          <Bold>Glicemia - Hiperglicemia ( &gt;= 200mg/dL)</Bold>
+          <Bold>Glicemia - Hiperglicemia ( {'>'}= 200mg/dL)</Bold>
         </P>
         <P>
           <Bold>
@@ -130,7 +130,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
           </Bold>
         </P>
         <P>
-          <Bold>Cetonemia (&gt;= 3mMol/L)</Bold>
+          <Bold>Cetonemia ({'>'}= 3mMol/L)</Bold>
         </P>
         <P>
           <Bold>
@@ -290,7 +290,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
         <Subsection title="Avaliação Laboratorial">
           <P>Coletar glicemia capilar (GC) na admissão.</P>
           <P>
-            Caso GC &gt;= 200mg/dL ou paciente em ruim/regular estado geral,
+            Caso GC {'>'}= 200mg/dL ou paciente em ruim/regular estado geral,
             mesmo com GC {'<'} 200mg/dL, deve-se coletar gasometria
             venosa/arterial E/OU cetonemia E/OU dosagem de cetona na urina (fita
             urinária) E/OU URINA TIPO1 (EAS).
@@ -300,8 +300,8 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             (indicados pelo símbolo {'"'}#{'"'}) e avaliar necessidade dos
             demais; posteriormente coletar a cada 3 horas (ou a cada intervalo
             indicado, posteriormente, em relação aos eletrólitos), até
-            normalização do valor do AG, da acidose (pH &gt;= 7,3 e HCO
-            <Subscript>3</Subscript> &gt;= 15) e glicemia {'<'} 200mg/dL.
+            normalização do valor do AG, da acidose (pH {'>'}= 7,3 e HCO
+            <Subscript>3</Subscript> {'>'}= 15) e glicemia {'<'} 200mg/dL.
           </P>
           <Table
             colWidths={[75, 150]}
@@ -464,7 +464,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             />
             <List>
               <LItem>
-                Se sódio &gt;= 150 mEq/L: prescrever Solução Hipotônica (NaCl
+                Se sódio {'>'}= 150 mEq/L: prescrever Solução Hipotônica (NaCl
                 0,45%).
               </LItem>
               <LItem>
@@ -484,7 +484,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
               volume corrido (durante a Primeira Fase) e outras soluções
               administradas.
             </P>
-            <Figure source={img1} size={[778, 642]} />
+            <Figure source={img1} size={[678, 542]} />
             <P>
               Ex: Paciente 20kg com Desidratação Grave, apresentando-se
               hidratado após 4 etapas (2 horas) de Expansão, sem sinais/sintomas
@@ -538,14 +538,14 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             </P>
             <List>
               <LItem>
-                K sérico {'<'} 4,5mEq/L &Rightarrow; 40mEq/L de K (15mL de KCl
+                K sérico {'<'} 4,5mEq/L -{'>'}; 40mEq/L de K (15mL de KCl
                 10% em um soro de 500mL);
               </LItem>
               <LItem>
-                K sérico entre 4,5 - 6,0mEq/L &Rightarrow; 20 - 30mEq/L de K
+                K sérico entre 4,5 - 6,0mEq/L -{'>'}; 20 - 30mEq/L de K
                 (7,5 - 11mL de KCl 10% em um soro de 500mL);
               </LItem>
-              <LItem>K sérico {'>'} 6,0mEq/L &Rightarrow; não usar K.</LItem>
+              <LItem>K sérico {'>'} 6,0mEq/L -{'>'}; não usar K.</LItem>
             </List>
             <P>
               Obs.: caso não seja possível medição de potássio sérico, solicitar
@@ -553,8 +553,8 @@ export default function CetoacidoseDiabetica(): JSX.Element {
               Até resultado do EcaG, recomenda-se acrescentar 40mEq/L de
               potássio na {'"'}Etapa de Manutenção{'"'}.
             </P>
-            <Figure source={img2} size={[778, 642]} />
-            <Figure source={img3} size={[778, 642]} />
+            <Figure source={img2} size={[678, 542]} />
+            <Figure source={img3} size={[678, 542]} />
             <P>Obs.: máximo de reposição: 400mEq/dia.</P>
             <P>
               Obs.: velocidade máxima de infusão: 0,5mEq/kg/hora (40mEq/hora).
@@ -587,7 +587,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
                 solução;
               </LItem>
               <LItem>
-                NaCl 20% = 20g de NaCl em 100mL de solução &Rightarrow; 15mL de
+                NaCl 20% = 20g de NaCl em 100mL de solução -{'>'}; 15mL de
                 NaCl 20% = 3g de NaCl;
               </LItem>
               <LItem>
@@ -668,8 +668,8 @@ export default function CetoacidoseDiabetica(): JSX.Element {
               estiverem presentes:
             </P>
             <P>
-              Glicemia {'<'} 200 mg/dL / pH sanguíneo &gt;= 7,3 / Bicarbonato
-              sérico &gt;= 15 / G entre 8 e 12 / Alimentação oral tolerada.
+              Glicemia {'<'} 200 mg/dL / pH sanguíneo {'>'}= 7,3 / Bicarbonato
+              sérico {'>'}= 15 / G entre 8 e 12 / Alimentação oral tolerada.
             </P>
             <P>
               Deve-se aplicar uma dose de Insulina Basal 2 horas antes da
@@ -795,7 +795,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             conseguir baixar os níveis de glicose no sangue. O FS estipulado
             inicialmente é elevado, assim como a Meta glicêmica.
           </P>
-          <Figure source={img4} size={[778, 642]} />
+          <Figure source={img4} size={[678, 542]} />
           <Subsubsection title="Modelo de Prescrição">
             <P>Insulina NPH – Via Subcutânea</P>
             <List>
@@ -829,7 +829,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
         <Subsection title="Dieta Via Oral">
           <P>
             Ofertada quando paciente consciente, ausência de vômitos e melhora
-            da acidose (pH &gt;= 7,3 e HCO<Subscript>3</Subscript> &gt;= 15).
+            da acidose (pH {'>'}= 7,3 e HCO<Subscript>3</Subscript> {'>'}= 15).
           </P>
         </Subsection>
       </Section>
@@ -842,8 +842,8 @@ export default function CetoacidoseDiabetica(): JSX.Element {
         </P>
         <Subsection title="Tratamento">
           <P>
-            NaHCO<Subscript>3</Subscript> (8,4% &Rightarrow; 1mL = 1mEq OU 10%
-            &Rightarrow; 1mL = 1,2mEq).
+            NaHCO<Subscript>3</Subscript> (8,4% -{'>'}; 1mL = 1mEq OU 10%
+            -{'>'}; 1mL = 1,2mEq).
           </P>
           <P>A utilização de NaHCO3 está indicada quando pacientes:</P>
           <List>
@@ -995,7 +995,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             </List>
             <Figure
               source={img5}
-              size={[778, 642]}
+              size={[678, 542]}
               caption="Obs.: Respiração de Cheyne-Stokes: apresenta-se como período de apneia seguido por aumento progressivo da amplitude respiratória (há inspiração e expiração), até atingir um máximo, quando então diminui progressivamente, entrando em um novo período de apneia."
             />
             <P>Critérios Maiores:</P>
@@ -1059,7 +1059,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             entretanto deve-se sempre avaliar o estado clínico do paciente e a
             presença de acesso venoso pérvio, buscando melhora glicêmica e
             clínica do paciente. A correção da Hipoglicemia é considerada eficaz
-            quando glicemia &gt;= 100mg/dL.
+            quando glicemia {'>'}= 100mg/dL.
           </P>
           <Subsubsection title="Uso de SG10%">
             <List>
@@ -1078,7 +1078,7 @@ export default function CetoacidoseDiabetica(): JSX.Element {
             </List>
           </Subsubsection>
           <Subsubsection title="Uso de SG50%">
-            <Figure source={img6} size={[778, 642]} />
+            <Figure source={img6} size={[678, 542]} />
           </Subsubsection>
           <Subsubsection title="Uso de Glucagon">
             <P>

@@ -71,7 +71,7 @@ export default function CriseHipoxia(): JSX.Element {
           taquipneia e consequente aumento do fluxo da direita para esquerda
           (Figura 1).
         </P>
-        <Figure source={img1} size={[778, 642]} caption="Figura 1" />
+        <Figure source={img1} size={[678, 542]} caption="Figura 1" />
         <P>Principais fatores desencadeantes:</P>
         <List>
           <LItem>Infecções, febre;</LItem>

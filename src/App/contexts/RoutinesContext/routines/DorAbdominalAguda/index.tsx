@@ -227,7 +227,7 @@ export default function DorAbdominalAguda(): JSX.Element {
         </P>
         <Figure
           source={img1}
-          size={[856, 1078]}
+          size={[756, 978]}
           caption="Figura 1. Fluxograma de investigação etiológica do paciente pediátrico com dor."
         />
       </Section>

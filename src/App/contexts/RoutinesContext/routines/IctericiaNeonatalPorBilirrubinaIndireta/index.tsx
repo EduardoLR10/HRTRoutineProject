@@ -88,7 +88,7 @@ export default function IctericianeonatalPorBilirrubinaIndireta(): JSX.Element {
             nomograma de Bhutani.
           </P>
           <P>É UMA DAS CAUSAS MAIS FREQUENTES DE INTERNAÇÃO APÓS A ALTA.</P>
-          <Figure source={img1} size={[522, 350]} />
+          <Figure source={img1} size={[422, 250]} />
           <P>
             Valores de BT= 20 mg//dl já estão associados a acometimento de
             sistema nervoso central e devem ser investigados e tratados.

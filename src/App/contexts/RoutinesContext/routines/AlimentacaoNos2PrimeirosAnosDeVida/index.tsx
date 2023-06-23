@@ -74,7 +74,7 @@ export default function AlimentacaoNos2PrimeirosAnosDeVida(): JSX.Element {
         </List>
         <Figure
           source={img2}
-          size={[615, 225]}
+          size={[515, 125]}
           caption="Fonte: Manual SBP, 2012."
         />
         <P>
@@ -163,7 +163,7 @@ export default function AlimentacaoNos2PrimeirosAnosDeVida(): JSX.Element {
           A quantidade de água recomendada é de 1300mL ao dia (sendo 900mL de
           água e bebidas).
         </P>
-        <Figure source={img3} size={[764, 438]} />
+        <Figure source={img3} size={[664, 338]} />
       </Section>
       <Section title="Suplementações">
         <Subsection title="Vitamina D">
@@ -190,7 +190,7 @@ export default function AlimentacaoNos2PrimeirosAnosDeVida(): JSX.Element {
         <Subsection title="Ferro Alimentar">
           <Figure
             source={img1}
-            size={[270, 465]}
+            size={[170, 365]}
             caption="Fonte: Consenso sobre anemia ferropriva, 2018."
           />
         </Subsection>

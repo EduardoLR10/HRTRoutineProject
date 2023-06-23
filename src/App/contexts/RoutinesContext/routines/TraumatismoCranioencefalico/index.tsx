@@ -92,7 +92,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             <LItem>Capotamento;</LItem>
             <LItem>Atropelamento de pedestre ou ciclista sem capacete;</LItem>
             <LItem>
-              Quedas de mais de 0,9m (&lt; 2 anos) e mais de 1,5m (≥ 2 anos);
+              Quedas de mais de 0,9m ({'<'} 2 anos) e mais de 1,5m ({'>'}= 2 anos);
             </LItem>
             <LItem>Trauma ocasionado por objeto de alto impacto.</LItem>
           </List>
@@ -101,8 +101,8 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
           <List>
             <LItem>Amnésia: duração;</LItem>
             <LItem>
-              Perda de consciência: &lt; 5 segundos, 5 – 60 segundos, 1 – 5
-              minutos, &gt; 5 minutos;
+              Perda de consciência: {'<'} 5 segundos, 5 – 60 segundos, 1 – 5
+              minutos, {'>'} 5 minutos;
             </LItem>
             <LItem>
               Crises epilépticas pós-trauma: tipo, tempo de início após o
@@ -170,8 +170,8 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
       </Section>
       <Section title="Examples Complementares">
         <P>
-          Todos os pacientes com TCE moderado ou grave (ECG &lt;= 13 e perda de
-          consciência &gt; 30 minutos, além dos mecanismos já descritos
+          Todos os pacientes com TCE moderado ou grave (ECG {'<'}= 13 e perda de
+          consciência {'>'} 30 minutos, além dos mecanismos já descritos
           anteriormente) devem ser conduzidos como politraumatizados por equipe
           especializada e têm indicação de realizar TC de crânio.
         </P>
@@ -189,7 +189,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
           realizar a TC de crânio ou permanecer em observação por um período
           maior (4 a 6 horas) será determinada pela experiência do médico,
           outras questões clínicas associadas (como doenças prévias), piora dos
-          sintomas na evolução, idade &lt; 3 meses ou preferência dos pais.
+          sintomas na evolução, idade {'<'} 3 meses ou preferência dos pais.
         </P>
         <P>
           <Bold>
@@ -326,7 +326,7 @@ export default function TraumatismoCraniocenfalico(): JSX.Element {
             Fraqueza nos membros, sensação de formigamento ou adormecimentos de
             partes do corpo;
           </LItem>
-          <LItem>Náuseas ou vômitos persistentes (&gt; 2 episódios);</LItem>
+          <LItem>Náuseas ou vômitos persistentes ({'>'} 2 episódios);</LItem>
           <LItem>
             Perda de memória ou não conseguir reconhecer pessoas / lugares;
           </LItem>

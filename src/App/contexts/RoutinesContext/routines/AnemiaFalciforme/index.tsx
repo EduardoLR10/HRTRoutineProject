@@ -247,7 +247,7 @@ export default function AnemiaFalciforme(): JSX.Element {
             desta doença. Está indicado esquema de antibiótico com largo
             espectro: ceftriaxona (bactérias encapsuladas) + macrolídeo ou
             quinolona (germes atípicos). Manuseio da STA: oxigênio suplementar
-            para corrigir a hipoxemia (a saturação deve ser mantida &gt;= 96% ou
+            para corrigir a hipoxemia (a saturação deve ser mantida {'>'}= 96% ou
             a saturação basal do paciente); hidratação venosa adequada (máximo
             1,5 vezes o volume de manutenção); transfusão de concentrado de
             hemácias (10ml/Kg, máximo de 300 ml, o que corresponde a uma bolsa),
@@ -272,8 +272,8 @@ export default function AnemiaFalciforme(): JSX.Element {
             sequestração esplênica: o paciente deve ser prontamente internado e
             submetido à restauração da volemia. Colher sangue para dosar Hb e Ht
             antes da transfusão, juntamente com a prova cruzada. Prescrever
-            concentrado de hemácias se Ht &lt; 30% (10 ml/kg, máximo de 300 ml)
-            e exsanguíneotransfusão parcial se Ht &gt; 30%. A transfusão deve
+            concentrado de hemácias se Ht {'<'} 30% (10 ml/kg, máximo de 300 ml)
+            e exsanguíneotransfusão parcial se Ht {'>'} 30%. A transfusão deve
             ser realizada imediatamente, mesmo que o sangue disponível não seja
             fenotipado. Atenção: não prescrever uma 2ª transfusão sem antes
             fazer um exame (hemograma) de controle.
@@ -312,8 +312,8 @@ export default function AnemiaFalciforme(): JSX.Element {
             confirmado pela TC (sem contraste) ou RM. Manuseio do AVE: o
             paciente deve ser prontamente submetido à transfusão (colher sangue
             para dosar Hb e Ht antes). Prescrever concentrado de hemácias se Ht
-            &lt; 30% (10 ml/kg, máximo de 300 ml) e exsanguíneotransfusão
-            parcial se Ht &gt; 30%. A transfusão deve ser realizada
+            {'<'} 30% (10 ml/kg, máximo de 300 ml) e exsanguíneotransfusão
+            parcial se Ht {'>'} 30%. A transfusão deve ser realizada
             imediatamente, mesmo que o sangue disponível não seja fenotipado.
             Atenção: não elevar a Hb para mais que 10 mg/dl e nunca prescrever
             uma 2ª transfusão sem antes fazer um exame (hemograma) de controle.
@@ -329,14 +329,14 @@ export default function AnemiaFalciforme(): JSX.Element {
             realizar a triagem de pacientes com doppler transcraniano nos
             pacientes falcêmicos entre 2 – 17 anos, para avaliar a velocidade de
             fluxo sanguíneo e identificar os pacientes com alto risco para AVE.
-            Aqueles com velocidade &gt; 200 cm/seg devem ser colocados em regime
+            Aqueles com velocidade {'>'} 200 cm/seg devem ser colocados em regime
             de transfusões seriadas para impedir a 1ª crise de AVE.
           </LItem>
           <LItem>
             7. Fígado e vias biliares: as crises de falcização intra-hepática
             levam a um quadro de colestase, caracterizada por hepatomegalia,
             aumento das transaminases e níveis de Bb elevados com predomínio da
-            fração direta. A colelitíase ocorre em 14% das crianças &lt; 10
+            fração direta. A colelitíase ocorre em 14% das crianças {'<'} 10
             anos, em 30% dos adolescentes e em 75% dos adultos com AF, com
             início frequentemente a partir dos 6 anos. Podem evoluir de modo
             assintomático ou apresentar crises de dor em hipocôndrio direito.
@@ -356,7 +356,7 @@ export default function AnemiaFalciforme(): JSX.Element {
             A forma crônica caracteriza-se por ereções dolorosas repetitivas e
             reversíveis. A conduta inicial baseia-se em analgesia sistêmica. A
             exsanguíneotransfusão parcial é indicada se não houver melhora após
-            12h de analgesia adequada (não deixar Hb final &gt; 10 g/dl). Se não
+            12h de analgesia adequada (não deixar Hb final {'>'} 10 g/dl). Se não
             houver melhora após 24h do início das manifestações clínicas,
             realizar punção aspirativa do corpo cavernoso e, mantendo-se ainda o
             priapismo, indica-se intervenção cirúrgica, com realização de shunts
@@ -423,17 +423,17 @@ export default function AnemiaFalciforme(): JSX.Element {
             com cuidados especiais. Os pacientes devem realizar, ainda na
             emergência, HC e VHS, coleta de culturas (sangue e urina), RX tórax
             e de SAF e exame de urina tipoo 1 (EAS). Nos casos de febre sem
-            sinais localizatórios em &lt; 2 anos de idade e toxemiados, proceder
+            sinais localizatórios em {'<'} 2 anos de idade e toxemiados, proceder
             também a coleta do líquor (LCR). Os germes mais relacionados são:
             Pneumococo, Hemófilo, salmonela, E. coli, Klebisiella, Micoplasma,
             Clamídia. Medidas preventivas devem ser realizadas, como as vacinas
             (calendário completo de imunizações) e instituição da penicilina
             profilática a partir do 3º mês de vida, até os 5 anos de idade.
             Utiliza-se a penicilina V – oral 200.000 UI (2,5 ml) VO, de 12/12h,
-            até 1 ano de idade. Para crianças &gt; 10 Kg, 400.000 UI (5 ml) VO,
+            até 1 ano de idade. Para crianças {'>'} 10 Kg, 400.000 UI (5 ml) VO,
             de 12/12h. Pode-se usar também a penicilina benzatina: 600.000 UI,
             IM, de 21/21 dias para crianças com até 20 Kg e 1.200.000 UI para
-            &gt; 20 Kg.
+            {'>'} 20 Kg.
           </LItem>
         </List>
         <Table

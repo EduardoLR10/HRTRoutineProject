@@ -587,7 +587,7 @@ export default function TuberculosePulmonar(): JSX.Element {
           tuberculose-doença, deve-se orientá-los a procurarem a unidade de
           saúde, em caso de aparecimento de sintomatologia respiratória.
         </P>
-        <Figure source={img1} size={[351, 559]} />
+        <Figure source={img1} size={[251, 459]} />
       </Section>
       <Section title="Referências">
         <Reference

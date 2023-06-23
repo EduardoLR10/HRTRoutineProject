@@ -199,7 +199,7 @@ export default function Adenomegalias(): JSX.Element {
         </List>
         <Figure
           source={img1}
-          size={[960, 720]}
+          size={[860, 620]}
           title="Condução após Identificação do Padrão da Adenomegalia"
           caption="HC: Hemograma completo; IVAS: infecção de vias aéreas superiores."
         />

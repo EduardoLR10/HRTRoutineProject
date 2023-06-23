@@ -136,7 +136,7 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             porém, gera diferenças nas pressões das vias aéreas de acordo com a
             alterações na resistência da mesma.
           </P>
-          <Figure source={img1} size={[413, 394]} />
+          <Figure source={img1} size={[313, 294]} />
           <P>
             Deve-se dar atenção ao uso de PEEP em asmáticos intubados para
             evitar: a hiperinsuflação pulmonar, as pressões das vias aéreas e
@@ -145,7 +145,7 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             ventilador, que calcula a pressão intrínseca da via aérea, e não se
             deve ofertar acima da mesma.
           </P>
-          <Figure source={img3} size={[411, 514]} />
+          <Figure source={img3} size={[311, 414]} />
           <P>
             O uso da VNI nessas condições clínicas, asma e bronquiolite, mostrou
             o potencial desta modalidade em reduzir o trabalho respiratório,
@@ -165,7 +165,7 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             (razão PaO₂/FiO ₂ {'<'} 200) e infiltrados bilaterais na radiografia
             do tórax, sem evidência de disfunção cardíaca.
           </P>
-          <Figure source={img2} size={[401, 329]} />
+          <Figure source={img2} size={[301, 229]} />
           <P>
             Na SDRA deve-se adotar estratégias ventilatórias que evitem a lesão
             pulmonar induzida pela ventilação mecânica, a LPIV.
@@ -213,7 +213,7 @@ export default function ConceitosBasicosDeVentilacaoMecanica(): JSX.Element {
             Utilização de medidas para que se tenha uma &quot;zona segura&quot;
             (Figura 4), com menor dano ao pulmão.
           </P>
-          <Figure source={img4} size={[393, 366]} />
+          <Figure source={img4} size={[293, 266]} />
         </Subsection>
         <Subsection title="Hipercapnia Permissiva">
           <P>

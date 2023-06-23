@@ -403,8 +403,8 @@ export default function MausTratos(): JSX.Element {
               pode desencadear desde microemorragias do SNC até hemorragias
               maciças e morte, sem que haja fratura de calota craniana.
             </P>
-            <Figure source={img1} size={[636, 550]} />
-            <Figure source={img2} size={[411, 609]} />
+            <Figure source={img1} size={[536, 450]} />
+            <Figure source={img2} size={[311, 509]} />
             <P>
               A sintomatologia nem sempre é evidente, mas deve-se pensar nela
               sempre que uma criança com menos de 2 anos de idade apresentar

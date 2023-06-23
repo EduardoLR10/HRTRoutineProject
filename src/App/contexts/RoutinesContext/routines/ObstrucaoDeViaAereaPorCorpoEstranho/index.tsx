@@ -153,8 +153,8 @@ export default function ObstrucaoDeViaAereaPorCorpoEstranho(): JSX.Element {
               que sejam avaliados, pois podem ocorrer traumas ósseos e/ou
               viscerais.
             </P>
-            <Figure source={img2} size={[251, 234]} caption="fig.2" />
-            <Figure source={img3} size={[244, 230]} caption="fig.3" />
+            <Figure source={img2} size={[151, 134]} caption="fig.2" />
+            <Figure source={img3} size={[144, 130]} caption="fig.3" />
             <Figure source={img4} size={[182, 251]} caption="fig.4" />
             <Figure source={img5} size={[192, 156]} caption="fig.5" />
             <P>

@@ -251,7 +251,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
             anormais em crianças:
           </P>
           <List>
-            <LItem>≥ 60 rpm em &lt; 2 meses</LItem>
+            <LItem>≥ 60 rpm em {'<'} 2 meses</LItem>
             <LItem>≥ 50 rpm de 2 meses a 1 ano</LItem>
             <LItem>≥ 40 rpm de 1 a 4 anos</LItem>
             <LItem>≥ 30 rpm em ≥ 5 anos</LItem>
@@ -340,7 +340,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
       </Section>
       <Section title="Oxigenoterapia">
         <P>
-          O oxigênio suplementar está indicado para pacientes com SatO₂ &lt;92%.
+          O oxigênio suplementar está indicado para pacientes com SatO₂ {'<'}92%.
           Alguns poucos pacientes respondem bem à terapia de resgate (veja
           adiante) e terão alta, porém muitos pacientes têm que utilizar o
           oxigênio para melhor tratamento.
@@ -643,7 +643,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
             mal-estar e boca seca, geralmente durante a infusão. Fraqueza,
             arreflexia, bloqueio cardíaco total e depressão respiratória podem
             potencialmente ocorrer, mas com níveis séricos da droga muito
-            elevados (&gt; 12 mg/dL, o que corresponderia a uma dose superior a
+            elevados ({'>'} 12 mg/dL, o que corresponderia a uma dose superior a
             150 mg/kg/dose). Hipotensão pode ocorrer após infusão rápida (menos
             de 20 minutos). Trata-se de uma medicação que não se deve prescrever
             de horário, sendo necessárias avaliações clínicas periódicas para
@@ -721,7 +721,7 @@ export default function CriseAgudaDeAsma(): JSX.Element {
           <List>
             <LItem>Dispneia Ausente ou Leve;</LItem>
             <LItem>Taquipneia Ausente ou Leve;</LItem>
-            <LItem>SpO₂ &gt;94%</LItem>
+            <LItem>SpO₂ {'>'}94%</LItem>
           </List>
           <LItem>
             A prescrição do tratamento domiciliar é baseada no tratamento da

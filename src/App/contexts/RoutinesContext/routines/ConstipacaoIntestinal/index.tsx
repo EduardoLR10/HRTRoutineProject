@@ -80,7 +80,7 @@ export default function ConstipacaoIntestinal(): JSX.Element {
         </P>
         <Figure
           source={img1}
-          size={[764, 365]}
+          size={[664, 265]}
           caption="Figura 1: Escala de fezes de Bristol."
         />
         <P>

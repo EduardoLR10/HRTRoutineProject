@@ -129,12 +129,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           <P>Causado por serpentes do grupo das jararacas (Fig.2 e Fig 3).</P>
           <Figure
             source={img3}
-            size={[346, 146]}
+            size={[246, 46]}
             caption="Fig.2 - Fonte: A Semana News"
           />
           <Figure
             source={img2}
-            size={[260, 194]}
+            size={[160, 94]}
             caption="Fig.3 - Fonte: Agora MT"
           />
           <P>Causa a maioria dos acidentes com cobras no Brasil: 75% a 85%.</P>
@@ -247,12 +247,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </P>
           <Figure
             source={img5}
-            size={[274, 184]}
+            size={[174, 84]}
             caption="Fig.4 - Fonte: JC Online UOL"
           />
           <Figure
             source={img4}
-            size={[617, 290]}
+            size={[417, 90]}
             caption="Fig.5 - Fonte: Research Gate"
           />
           <Subsubsection title="Manifestação Clínica">
@@ -288,12 +288,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </P>
           <Figure
             source={img7}
-            size={[259, 194]}
+            size={[159, 94]}
             caption="Fig.6 - Fonte: Plugbr.net"
           />
           <Figure
             source={img6}
-            size={[190, 266]}
+            size={[90, 166]}
             caption="Fig.7 - Fonte: Cortesia de Dra. Caroline Walker"
           />
           <Subsubsection title="Manifestação Clínica">
@@ -402,7 +402,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </P>
           <Figure
             source={img9}
-            size={[265, 190]}
+            size={[165, 90]}
             caption="Fig.8 - Fonte: UFRGS"
           />
           <Subsubsection title="Manifestação Clínica">
@@ -456,12 +456,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         </P>
         <Figure
           source={img8}
-          size={[289, 175]}
+          size={[189, 75]}
           caption="Fig.9 - Fonte: Ribeira Dedetizadora"
         />
         <Figure
           source={img12}
-          size={[253, 199]}
+          size={[153, 99]}
           caption="Fig.10 - Fonte: Personare"
         />
         <Subsection title="Manifestação Clínica">
@@ -508,7 +508,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         >
           <Figure
             source={img10}
-            size={[286, 176]}
+            size={[186, 76]}
             caption="Fig.11 - Fonte: InfoEscola"
           />
           <P>
@@ -545,7 +545,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         >
           <Figure
             source={img11}
-            size={[275, 183]}
+            size={[175, 83]}
             caption="Fig.12 - Fonte: Meio Ambiente Técnico"
           />
           <P>
@@ -600,7 +600,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </P>
           <Figure
             source={img13}
-            size={[491, 327]}
+            size={[391, 227]}
             caption="Fig.13 - Fonte: BioDiversity4All"
           ></Figure>
           <Subsubsection title="Manifestação Clínica">
@@ -633,7 +633,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           <P>Não tem importância médica relevante (Fig. 14).</P>
           <Figure
             source={img14}
-            size={[296, 324]}
+            size={[196, 224]}
             caption="Fig.14 - Fonte: Wikipédia"
           />
           <Subsubsection title="Manifestações Clínicas">
@@ -661,7 +661,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           </P>
           <Figure
             source={img15}
-            size={[219, 328]}
+            size={[119, 228]}
             caption="Fig.15 - Fonte: InfoEscola"
           />
           <Subsubsection title="Manifestação Clínica">
@@ -674,12 +674,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             </P>
             <Figure
               source={img16}
-              size={[500, 375]}
+              size={[400, 275]}
               caption="Fig.16 - Fonte: Meus Animais"
             />
             <Figure
               source={img17}
-              size={[500, 375]}
+              size={[400, 275]}
               caption="Fig.17 - Fonte: Portal News em Foco"
             />
           </Subsubsection>
@@ -694,12 +694,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           <P>Lagartas-de-fogo e orugas são larvas de mariposa</P>
           <Figure
             source={img18}
-            size={[363, 204]}
+            size={[263, 104]}
             caption="Fig.18 - Fonte: Terra"
           />
           <Figure
             source={img19}
-            size={[363, 204]}
+            size={[263, 104]}
             caption="Fig.19 - Fonte: Pinterest"
           />
           <P>
