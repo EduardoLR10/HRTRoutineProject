@@ -128,12 +128,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
         <Subsection title="Acidente Botrópico">
           <P>Causado por serpentes do grupo das jararacas (Fig.2 e Fig 3).</P>
           <Figure
-            source={img3}
+            source={img2}
             size={[246, 46]}
             caption="Fig.2 - Fonte: A Semana News"
           />
           <Figure
-            source={img2}
+            source={img3}
             size={[160, 94]}
             caption="Fig.3 - Fonte: Agora MT"
           />
@@ -246,12 +246,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             eriçadas além de apresentar um espinho terminal (Fig.5).
           </P>
           <Figure
-            source={img5}
+            source={img4}
             size={[174, 84]}
             caption="Fig.4 - Fonte: JC Online UOL"
           />
           <Figure
-            source={img4}
+            source={img5}
             size={[417, 90]}
             caption="Fig.5 - Fonte: Research Gate"
           />
@@ -287,12 +287,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             presença de anéis claros e finos na cauda.
           </P>
           <Figure
-            source={img7}
+            source={img6}
             size={[159, 94]}
             caption="Fig.6 - Fonte: Plugbr.net"
           />
           <Figure
-            source={img6}
+            source={img7}
             size={[90, 166]}
             caption="Fig.7 - Fonte: Cortesia de Dra. Caroline Walker"
           />
@@ -401,7 +401,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
             atendimento médico rápido.
           </P>
           <Figure
-            source={img9}
+            source={img8}
             size={[165, 90]}
             caption="Fig.8 - Fonte: UFRGS"
           />
@@ -455,12 +455,12 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           pilhas de madeira e pedras, cercas e residências.
         </P>
         <Figure
-          source={img8}
+          source={img9}
           size={[189, 75]}
           caption="Fig.9 - Fonte: Ribeira Dedetizadora"
         />
         <Figure
-          source={img12}
+          source={img10}
           size={[153, 99]}
           caption="Fig.10 - Fonte: Personare"
         />
@@ -507,7 +507,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           }
         >
           <Figure
-            source={img10}
+            source={img11}
             size={[186, 76]}
             caption="Fig.11 - Fonte: InfoEscola"
           />
@@ -544,7 +544,7 @@ export default function AcidentesPorAnimaisPeconhentos(): JSX.Element {
           }
         >
           <Figure
-            source={img11}
+            source={img12}
             size={[175, 83]}
             caption="Fig.12 - Fonte: Meio Ambiente Técnico"
           />
