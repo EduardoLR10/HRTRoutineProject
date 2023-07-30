@@ -148,10 +148,11 @@ function FigureModal({
                 <Image
                   source={source}
                   style={{
-                    width: undefined,
-                    height: undefined,
+                    maxWidth: '100%',
+                    maxHeight: '100%',
                     aspectRatio: width / heigth
                   }}
+                  resizeMode="contain"
                 />
               </ReactNativeZoomableView>
             </ImageContainer>
