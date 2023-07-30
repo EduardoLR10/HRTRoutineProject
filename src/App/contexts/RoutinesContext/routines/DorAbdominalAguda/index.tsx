@@ -178,7 +178,8 @@ export default function DorAbdominalAguda(): JSX.Element {
             <LItem>Anemia falciforme;</LItem>
             <LItem>Infecção do sistema nervoso central;</LItem>
             <LItem>Pericardite aguda;</LItem>
-            <LItem>Cetoacidose diabética;</LItem>; Doenças reumáticas;
+            <LItem>Cetoacidose diabética;</LItem>
+            <LItem>Doenças reumáticas;</LItem>
             <LItem>Leucemia aguda;</LItem>
             <LItem>Artrite coxofemoral.</LItem>
           </List>
